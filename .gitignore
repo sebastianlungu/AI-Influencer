@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+dist/
+.cache/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+app/data/logs.txt
+
+# Generated media (keep structure, ignore files)
+app/data/generated/*.mp4
+app/data/generated/*.jpg
+app/data/generated/*.png
+app/data/posted/*.mp4
+app/data/deleted/*.mp4
+
+# Keep directory structure
+!app/data/generated/.gitkeep
+!app/data/posted/.gitkeep
+!app/data/deleted/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
