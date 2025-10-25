@@ -18,43 +18,50 @@ Automated video generation pipeline with fail-loud safety guards and no mock mod
 - Node.js 18+
 - [UV](https://github.com/astral-sh/uv) package manager
 
+⚠️ **NEVER use pip - UV ONLY** ⚠️
+
 ### Setup
 
-1. **Clone and install dependencies:**
 ```bash
-# Create and activate virtual environment with UV
+# Clone and enter project
+git clone https://github.com/sebastianlungu/AI-Influencer.git
+cd ai-influencer
+
+# Create and sync environment
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# Install Python dependencies
-uv pip install -r requirements.txt
+uv sync
 
 # Install Node dependencies
-cd frontend
-npm install
-cd ..
-```
+cd frontend && npm install && cd ..
 
-2. **Configure environment:**
-```bash
+# Configure environment
 cp .env.example .env
-# Edit .env and set your API keys
-# IMPORTANT: Keep ALLOW_LIVE=false until you're ready for paid calls
+# Edit .env and set your API keys (keep ALLOW_LIVE=false initially)
+
+# Run dev servers
+bash scripts/dev_run.sh  # Unix/Mac
+# OR
+scripts\dev_run.bat      # Windows
 ```
 
-3. **Run development servers:**
-```bash
-# On Unix/Mac:
-bash scripts/dev_run.sh
-
-# On Windows:
-scripts\dev_run.bat
-```
-
-4. **Access the application:**
-- Backend: http://localhost:8000
+**Access:**
 - Frontend: http://localhost:5173
+- Backend: http://localhost:8000
 - API Docs: http://localhost:8000/docs
+
+### ✅ UV Command Reference
+
+| Action | Command |
+|--------|---------|
+| Install all deps | `uv sync` |
+| Add new dep | `uv add <pkg>` |
+| Add dev dep | `uv add --dev <pkg>` |
+| Upgrade all deps | `uv sync --upgrade` |
+| Run FastAPI | `uv run uvicorn app.main:app --reload --port 8000` |
+| Run tests | `uv run pytest -q` |
+| Lint | `uv run ruff check backend` |
+| Type check | `uv run mypy backend` |
 
 ## Architecture
 
@@ -247,8 +254,11 @@ Each client should report costs via `app.core.cost.add_cost(Decimal("..."), "ser
 ## Running Security Tests
 
 ```bash
-cd backend
-PYTHONPATH=. pytest app/tests/test_security.py -v
+# Run security test suite
+uv run pytest backend/app/tests/test_security.py -v
+
+# Run all tests
+uv run pytest -q
 ```
 
 **Tests cover:**

@@ -17,7 +17,7 @@ This document sets the rules-of-the-road for building and maintaining the repo. 
 - **Editing:** Shotstack API
 - **Posting:** TikTok Content Posting API (Direct Post)
 
-**Tooling:** UV (uv) for deps, ruff + black, mypy, pytest
+**Tooling:** **UV ONLY** (`uv sync` - NEVER pip), ruff, mypy, pytest
 
 **Dev URLs:**
 - Backend: `http://localhost:8000`
@@ -31,9 +31,10 @@ This document sets the rules-of-the-road for building and maintaining the repo. 
 2. **❌ NO CAPTIONS, VOICE, SUBTITLES:** Character is non-speaking. Videos contain zero text overlays.
 3. **❌ NO WATERMARKS:** Any synthetic media disclosure is handled externally by the platform, not this system.
 4. **❌ NO OVERLAYS:** Front-end displays only pure visuals.
-5. **✅ FAIL LOUDLY:** Missing environment variables, invalid configs, or disabled features must raise immediately with clear error messages.
-6. **✅ LIVE CALLS OFF BY DEFAULT:** Require explicit `ALLOW_LIVE=true` to enable any paid API calls.
-7. **✅ SCHEDULER OFF BY DEFAULT:** Require explicit `ENABLE_SCHEDULER=true` to enable automated generation cycles.
+5. **❌ NO PIP:** Use UV exclusively. Install command: `uv sync`. Never `pip install`.
+6. **✅ FAIL LOUDLY:** Missing environment variables, invalid configs, or disabled features must raise immediately with clear error messages.
+7. **✅ LIVE CALLS OFF BY DEFAULT:** Require explicit `ALLOW_LIVE=true` to enable any paid API calls.
+8. **✅ SCHEDULER OFF BY DEFAULT:** Require explicit `ENABLE_SCHEDULER=true` to enable automated generation cycles.
 
 ## 1) Repo Layout (authoritative)
 
@@ -92,7 +93,9 @@ ai-influencer/
   scripts/
     dev_run.sh
   .env.example
-  requirements.txt
+  .python-version
+  pyproject.toml                 # UV dependency management (source of truth)
+  uv.lock                        # UV lockfile (auto-generated)
   package.json
   README.md
   CLAUDE.md                      # this file
@@ -345,10 +348,33 @@ If an API times out: mark item failed with `timeout:true` and continue.
 
 ## 19) Build & Run (dev)
 
-`scripts/dev_run.sh` should:
-- export `.env` → run backend (uvicorn) → run frontend (vite)
-- Backend on `http://localhost:8000`, frontend on `http://localhost:5173`.
-- Media served from `/app/data` via static route.
+**Setup (first time):**
+```bash
+uv venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+uv sync
+cd frontend && npm install && cd ..
+cp .env.example .env       # Configure API keys
+```
+
+**Run:**
+```bash
+bash scripts/dev_run.sh    # Unix/Mac
+# OR
+scripts\dev_run.bat        # Windows
+```
+
+**Direct commands:**
+- Backend: `uv run uvicorn app.main:app --reload --port 8000`
+- Frontend: `cd frontend && npm run dev`
+- Tests: `uv run pytest -q`
+- Lint: `uv run ruff check backend`
+- Type check: `uv run mypy backend`
+
+**Notes:**
+- Backend on `http://localhost:8000`, frontend on `http://localhost:5173`
+- Media served from `/app/data` via static route
+- Never use `pip install` - UV only
 
 ## 20) Definition of Done (every change)
 
