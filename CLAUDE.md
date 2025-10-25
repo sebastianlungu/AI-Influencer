@@ -140,7 +140,7 @@ Each step returns a typed result; on failure, raise `AppError`.
    - Input: PNG + duration params → Output: MP4 path
 
 4. **Edit** (`shotstack_api.edit`)
-   - Input: MP4 → Output: MP4 (music, watermark, optional effects)
+   - Input: MP4 → Output: MP4 (music, optional effects)
 
 5. **Index** (`storage.index_generated`)
    - Input: MP4 + meta → Output: `VideoRecord` added to `videos.json`
