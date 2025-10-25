@@ -199,9 +199,64 @@ All activity logged to `app/data/logs.txt`:
 
 ## Cost Safety
 
-The system tracks estimated costs per cycle. If you exceed `MAX_COST_PER_RUN`, the cycle stops immediately with a clear error message.
+The system tracks estimated costs per cycle using `Decimal` for precision (no float drift). If you exceed `MAX_COST_PER_RUN`, the cycle stops immediately with a clear error message.
 
-Each client should report costs via `app.core.cost.add_cost()`.
+Each client should report costs via `app.core.cost.add_cost(Decimal("..."), "service_name")`.
+
+## Security Features
+
+### Financial Safety (P0)
+- **Decimal Precision:** All cost calculations use `Decimal` to prevent float drift
+- **Pre-call Validation:** Budget checked BEFORE API calls, not after
+- **Hard Cap:** System refuses to exceed `MAX_COST_PER_RUN`
+
+### Path Traversal Protection (P0)
+- **safe_join():** All file paths validated to block `..` components
+- Prevents attackers from writing files outside `app/data/`
+- Applied to all indexer, posting, and deletion operations
+
+### Media Validation (P0)
+- **FFprobe Validation:** All video containers validated before indexing
+- **OpenCV Check:** Frame readability verified
+- **Blur Detection:** Laplacian variance threshold prevents low-quality outputs
+
+### Request Protection (P0)
+- **Rate Limiting:** 5 requests/minute per client on `/cycle/generate`
+- **Body Size Limit:** 2MB max to prevent DoS
+- **CORS:** Restricted to `http://localhost:5173` in development
+- **Security Headers:**
+  - `X-Content-Type-Options: nosniff`
+  - `X-Frame-Options: DENY`
+  - `Referrer-Policy: no-referrer`
+
+### Data Integrity (P1)
+- **Schema Validation:** Required fields enforced on all `videos.json` writes
+- **Atomic Writes:** Temp file + rename pattern prevents corruption
+- **Thread Safety:** All JSON operations protected by locks
+
+### Secret Handling (P0/P1)
+- **No Logging:** API keys never logged (verified by tests)
+- **Healthz Safety:** `/healthz` shows provider status without exposing keys
+- **Env Only:** All secrets via `.env`, never committed to git
+
+### Frontend Safety (P1)
+- **ID Sanitization:** All video IDs validated as alphanumeric before URL construction
+- **No XSS:** No `dangerouslySetInnerHTML` usage
+- **Defense-in-Depth:** Server-generated IDs are already safe (SHA256), but frontend validates anyway
+
+## Running Security Tests
+
+```bash
+cd backend
+PYTHONPATH=. pytest app/tests/test_security.py -v
+```
+
+**Tests cover:**
+- Decimal precision and budget caps
+- Path traversal blocking
+- Schema validation
+- Deterministic ID generation
+- Secret handling
 
 ## Troubleshooting
 

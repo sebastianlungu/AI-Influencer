@@ -9,3 +9,7 @@ pillow
 opencv-python
 apscheduler
 pytest
+slowapi
+ruff
+mypy
+hypothesis

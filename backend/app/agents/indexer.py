@@ -4,7 +4,7 @@ import os
 import shutil
 import time
 
-from app.core.storage import append_json_line
+from app.core.storage import append_json_line, safe_join
 
 
 def index(video_path: str, payload: dict) -> dict:
@@ -21,12 +21,14 @@ def index(video_path: str, payload: dict) -> dict:
 
     Raises:
         FileNotFoundError: If video_path doesn't exist
+        ValueError: If payload['id'] contains path traversal attempts
     """
     if not os.path.exists(video_path):
         raise FileNotFoundError(f"Video not found: {video_path}")
 
     os.makedirs("app/data/generated", exist_ok=True)
-    out = f"app/data/generated/{payload['id']}.mp4"
+    # Use safe_join to prevent path traversal attacks
+    out = safe_join("app", "data", "generated", f"{payload['id']}.mp4")
     shutil.move(video_path, out)
 
     meta = {
@@ -37,5 +39,7 @@ def index(video_path: str, payload: dict) -> dict:
         "ts": int(time.time()),
     }
 
-    append_json_line("app/data/videos.json", meta)
+    # Validate schema before writing to videos.json
+    schema = {"required": ["id", "path", "status", "ts"]}
+    append_json_line("app/data/videos.json", meta, schema=schema)
     return meta

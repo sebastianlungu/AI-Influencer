@@ -1,6 +1,16 @@
 import { useState, useEffect } from "react";
 import { generate } from "./api";
 
+// Sanitize ID to prevent path traversal
+function sanitizeId(id) {
+  // Allow only alphanumeric characters (IDs are SHA256 hex, so this is safe)
+  if (!/^[a-fA-F0-9]+$/.test(id)) {
+    console.error(`Invalid ID format: ${id}`);
+    return null;
+  }
+  return id;
+}
+
 export default function App() {
   const [items, setItems] = useState([]);
   const [i, setI] = useState(0);
@@ -22,16 +32,22 @@ export default function App() {
   useEffect(() => {
     const h = (e) => {
       if (!items.length) return;
+      const safeId = sanitizeId(items[i].id);
+      if (!safeId) return;
+
       if (e.key === "k") {
-        alert("POST " + items[i].id);
+        alert("POST " + safeId);
       }
       if (e.key === "j") {
-        alert("DELETE " + items[i].id);
+        alert("DELETE " + safeId);
       }
     };
     window.addEventListener("keydown", h);
     return () => window.removeEventListener("keydown", h);
   }, [items, i]);
+
+  const currentItem = items[i];
+  const safeId = currentItem ? sanitizeId(currentItem.id) : null;
 
   return (
     <div style={{ padding: 20, maxWidth: 420, margin: "0 auto" }}>
@@ -39,10 +55,10 @@ export default function App() {
       <button onClick={onGen} disabled={loading}>
         {loading ? "Generating..." : "Generate"}
       </button>
-      {items[i] && (
+      {currentItem && safeId && (
         <div style={{ marginTop: 20 }}>
           <video
-            src={`/media/generated/${items[i].id}.mp4`}
+            src={`/media/generated/${safeId}.mp4`}
             controls
             autoPlay
             loop
@@ -50,8 +66,8 @@ export default function App() {
             style={{ width: "100%", maxWidth: 360 }}
           />
           <div style={{ marginTop: 10, fontSize: 14, color: "#666" }}>
-            <div>ID: {items[i].id}</div>
-            <div>Seed: {items[i].seed}</div>
+            <div>ID: {safeId}</div>
+            <div>Seed: {currentItem.seed}</div>
           </div>
           <div style={{ marginTop: 10, fontSize: 14 }}>
             Use <b>K</b> to POST, <b>J</b> to DELETE

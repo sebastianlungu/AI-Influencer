@@ -20,7 +20,7 @@ def run_cycle(n: int) -> list[dict]:
         RuntimeError: If budget exceeded or critical failure
     """
     log.info(f"cycle_start n={n}")
-    cost.reset_run_cost()
+    cost.reset_cycle()
 
     # Propose variations
     try:
