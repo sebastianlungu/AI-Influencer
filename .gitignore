@@ -11,37 +11,57 @@ env/
 *.egg-info/
 dist/
 build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
 # Node
 node_modules/
 dist/
 .cache/
 
-# Environment
+# Environment & Secrets
 .env
+# Ignore ALL .json files in app/data/ EXCEPT config templates
+app/data/*.json
+!app/data/prompt_config.json
+# Allow empty structure files
+!app/data/history.json
+!app/data/videos.json
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# GCP Credentials (never commit service account keys)
+app/data/*-*.json
+*service-account*.json
+*credentials*.json
 
 # Logs
 *.log
 app/data/logs.txt
 
 # Generated media (keep structure, ignore files)
-app/data/generated/*.mp4
-app/data/generated/*.jpg
-app/data/generated/*.png
-app/data/posted/*.mp4
-app/data/deleted/*.mp4
-
-# Keep directory structure
+app/data/generated/*
 !app/data/generated/.gitkeep
+app/data/posted/*
 !app/data/posted/.gitkeep
+app/data/deleted/*
 !app/data/deleted/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
+*.tmp
+
+# Vite
+frontend/dist/
+
+# Keep these important files (don't ignore)
+# uv.lock - for reproducible builds
+# .python-version - for version pinning
+# pyproject.toml - for dependencies

@@ -1,4 +1,4 @@
 {
-  "base_prompt": "ultra-realistic fitness model; athletic physique; natural daylight; clean gym background; soft rim light; 35mm lens; shallow depth of field; high detail skin; no text; no logos; tasteful SFW activewear",
-  "negative_prompt": "blurry, extra fingers, text, watermark, logo, nudity, deformed, low-res, motion blur"
+  "base_prompt": "ultra-realistic portrait of Eva, an insanely beautiful brunette fitness model; toned athletic physique; radiant healthy skin; long slightly wavy dark brown hair; expressive green eyes; soft natural makeup; wearing tasteful modern activewear; cinematic daylight photography; natural light reflections; smooth skin texture; soft rim light and subtle backlight; shallow depth of field; 85mm lens bokeh; professional DSLR look; detailed highlights on hair and muscles; beachside or minimal gym background; photo shot in RAW format, high dynamic range, volumetric lighting, editorial quality",
+  "negative_prompt": "cartoon, anime, CGI, 3d render, illustration, painting, doll-like, deformed face, blurry, overexposed, watermark, text, logo, signature, nudity, cleavage, exaggerated proportions, grainy, distorted anatomy, low-resolution, extra limbs, duplicate person, motion blur, out of frame, disfigured, unrealistic lighting"
 }

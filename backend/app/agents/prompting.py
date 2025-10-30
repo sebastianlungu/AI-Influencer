@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 import json
-import os
 import random
 
 from app.core.ids import deterministic_id
+from app.core.paths import get_data_path
 
 
 def propose(n: int) -> list[dict]:
@@ -19,8 +19,8 @@ def propose(n: int) -> list[dict]:
     Raises:
         FileNotFoundError: If prompt_config.json is missing
     """
-    config_path = "app/data/prompt_config.json"
-    if not os.path.exists(config_path):
+    config_path = get_data_path("prompt_config.json")
+    if not config_path.exists():
         raise FileNotFoundError(
             f"{config_path} not found. Create it with base_prompt and negative_prompt."
         )

@@ -11,6 +11,7 @@ from slowapi.util import get_remote_address
 
 from app.api.routes import router
 from app.core.logging import log
+from app.core.paths import get_data_path
 from app.core.scheduler import start_scheduler, stop_scheduler
 
 
@@ -76,7 +77,7 @@ async def security_headers_middleware(request: Request, call_next):
 app.include_router(router, prefix="/api")
 
 # Serve media files
-app.mount("/media", StaticFiles(directory="app/data"), name="media")
+app.mount("/media", StaticFiles(directory=str(get_data_path())), name="media")
 
 
 @app.get("/")

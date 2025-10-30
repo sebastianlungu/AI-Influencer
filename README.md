@@ -63,6 +63,224 @@ scripts\dev_run.bat      # Windows
 | Lint | `uv run ruff check backend` |
 | Type check | `uv run mypy backend` |
 
+## Google Cloud Platform Setup (Veo 3)
+
+The system uses **Google Veo 3** on Vertex AI for video generation. Follow these steps to configure GCP:
+
+### 1. Create a GCP Project
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Click "Select a project" → "New Project"
+3. Name your project (e.g., `ai-influencer-veo`)
+4. Note your **Project ID** (not the name - the ID is auto-generated)
+
+### 2. Enable Required APIs
+
+1. Navigate to "APIs & Services" → "Enable APIs and Services"
+2. Search and enable:
+   - **Vertex AI API**
+   - **Cloud Storage API** (for intermediate files)
+3. Wait for APIs to activate (may take 2-3 minutes)
+
+### 3. Create a Service Account
+
+1. Navigate to "IAM & Admin" → "Service Accounts"
+2. Click "Create Service Account"
+3. Name: `veo-video-generator`
+4. Grant roles:
+   - **Vertex AI User** (`roles/aiplatform.user`)
+   - **Storage Object Admin** (`roles/storage.objectAdmin`)
+5. Click "Done"
+
+### 4. Generate and Download Service Account Key
+
+1. Click on your new service account
+2. Go to "Keys" tab → "Add Key" → "Create new key"
+3. Choose **JSON** format
+4. Save the downloaded JSON file securely (e.g., `~/.gcp/ai-influencer-sa.json`)
+5. **NEVER commit this file to git!**
+
+### 5. Configure Environment Variables
+
+Edit your `.env` file:
+
+```bash
+# GCP Configuration
+GCP_PROJECT_ID=your-actual-project-id
+GCP_LOCATION=us-central1
+GOOGLE_APPLICATION_CREDENTIALS=/path/to/your-service-account.json
+
+# Veo 3 Settings (defaults shown)
+VIDEO_PROVIDER=veo
+VEO_MODEL_ID=veo-3.0-generate-001
+VEO_ASPECT=9:16
+VEO_DURATION_SECONDS=8
+VEO_NUM_RESULTS=1
+
+# Enable live API calls
+ALLOW_LIVE=true
+```
+
+### 6. Verify Setup
+
+```bash
+# Check configuration
+curl http://localhost:8000/api/healthz
+
+# Expected response:
+{
+  "ok": true,
+  "video_provider": "veo",
+  "providers": {
+    "veo": "configured",
+    ...
+  },
+  "veo_config": {
+    "gcp_project_id": "your-project-id",
+    "credentials_file_exists": true,
+    ...
+  }
+}
+```
+
+### Cost Estimates (Veo 3)
+
+- **Per video**: ~$0.40 (8 seconds at $0.05/second)
+- **Per cycle** (3 videos): ~$1.20
+- Budget cap: `MAX_COST_PER_RUN=0.75` (adjust as needed)
+
+⚠️ **SynthID Watermark**: Veo 3 automatically embeds an invisible provenance watermark (SynthID) in all generated videos. This cannot be disabled and is part of Google's responsible AI practices.
+
+## Leonardo.ai Setup (Image Generation)
+
+The system uses **Leonardo.ai** for AI image generation from prompts.
+
+### 1. Create Leonardo.ai Account
+
+1. Go to [Leonardo.ai](https://app.leonardo.ai/)
+2. Sign up for an account
+3. Choose a plan that includes API access
+
+### 2. Get API Key
+
+1. Navigate to your [User Menu → API Access](https://app.leonardo.ai/settings/api)
+2. Generate a new API key
+3. Copy the key securely
+
+### 3. (Optional) Choose a Model
+
+1. Browse available models in the Leonardo.ai interface
+2. Note the Model ID if you want to use a specific model
+3. Leave blank to use the platform default
+
+### 4. Configure Environment Variables
+
+Edit your `.env` file:
+
+```bash
+# Leonardo Configuration
+LEONARDO_API_KEY=your-leonardo-api-key-here
+# Optional: specify a model ID, or leave blank for default
+LEONARDO_MODEL_ID=
+```
+
+### 5. Verify Setup
+
+```bash
+curl http://localhost:8000/api/healthz
+```
+
+Expected response:
+```json
+{
+  "providers": {
+    "leonardo": "configured",
+    ...
+  },
+  "leonardo_config": {
+    "model_id": "default"
+  }
+}
+```
+
+### Cost Estimates (Leonardo)
+
+- **Per image**: ~$0.02
+- Conservative estimate, actual costs may vary by model and resolution
+
+## Shotstack Setup (Video Editing)
+
+The system uses **Shotstack** for video editing (adding music and effects).
+
+### 1. Create Shotstack Account
+
+1. Go to [Shotstack Dashboard](https://dashboard.shotstack.io/)
+2. Sign up for an account
+3. Choose a plan that includes API access
+
+### 2. Get API Key
+
+1. Navigate to your dashboard
+2. Find your API key in the account settings
+3. Note your region (US or EU)
+
+### 3. Prepare Licensed Soundtrack
+
+⚠️ **IMPORTANT**: You must provide a publicly accessible URL to a licensed music track.
+
+Options:
+- Upload to Shotstack's asset storage
+- Use a pre-signed URL from cloud storage (S3, GCS, etc.)
+- Use any publicly accessible URL with proper licensing
+
+### 4. Configure Environment Variables
+
+Edit your `.env` file:
+
+```bash
+# Shotstack Configuration
+SHOTSTACK_API_KEY=your-shotstack-api-key-here
+# Region: us | eu (choose based on your account)
+SHOTSTACK_REGION=us
+# Licensed soundtrack URL (must be publicly accessible)
+SOUNDTRACK_URL=https://your-storage.com/music/track.mp3
+# Output resolution: HD (1280x720) | 1080 (1920x1080)
+OUTPUT_RESOLUTION=HD
+```
+
+### 5. Verify Setup
+
+```bash
+curl http://localhost:8000/api/healthz
+```
+
+Expected response:
+```json
+{
+  "providers": {
+    "shotstack": "configured",
+    ...
+  },
+  "shotstack_config": {
+    "region": "us",
+    "resolution": "HD",
+    "soundtrack_url_configured": true
+  }
+}
+```
+
+### Cost Estimates (Shotstack)
+
+- **Per video edit**: ~$0.02
+- Conservative estimate for short renders
+- Actual costs vary by render duration and complexity
+
+### Important Notes
+
+- **Audio Handling**: Shotstack strips the original video audio (volume: 0) and adds your licensed soundtrack
+- **No Text Overlays**: The system is configured to NOT add text, captions, or watermarks
+- **File Access**: Some Shotstack plans don't accept `file://` sources. If you encounter errors, pre-upload videos to cloud storage and use those URLs
+
 ## Architecture
 
 ### Service Model: Coordinator → Agents

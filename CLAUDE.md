@@ -13,7 +13,7 @@ This document sets the rules-of-the-road for building and maintaining the repo. 
 - **Prompting:** Gemini 2.5 Pro
 - **LoRA Training & Inference:** FAL.ai
 - **Image:** Leonardo.ai API
-- **Img→Vid:** Pika Labs API
+- **Img→Vid:** Google Veo 3 on Vertex AI (with SynthID watermark)
 - **Editing:** Shotstack API
 - **Posting:** TikTok Content Posting API (Direct Post)
 
@@ -29,7 +29,7 @@ This document sets the rules-of-the-road for building and maintaining the repo. 
 
 1. **❌ NO MOCK MODES:** Fail loudly on missing configs or API credentials. Never silently skip paid API calls.
 2. **❌ NO CAPTIONS, VOICE, SUBTITLES:** Character is non-speaking. Videos contain zero text overlays.
-3. **❌ NO WATERMARKS:** Any synthetic media disclosure is handled externally by the platform, not this system.
+3. **❌ NO WATERMARKS:** Any synthetic media disclosure is handled externally by the platform, not this system. Exception: Veo 3 embeds an invisible SynthID watermark automatically (cannot be disabled).
 4. **❌ NO OVERLAYS:** Front-end displays only pure visuals.
 5. **❌ NO PIP:** Use UV exclusively. Install command: `uv sync`. Never `pip install`.
 6. **✅ FAIL LOUDLY:** Missing environment variables, invalid configs, or disabled features must raise immediately with clear error messages.
@@ -69,7 +69,7 @@ ai-influencer/
       clients/
         __init__.py
         leonardo.py              # Leonardo.ai client
-        pika.py                  # Pika Labs client
+        veo.py                   # Google Veo 3 video generation client
         shotstack.py             # Shotstack client
         tiktok.py                # TikTok API client
         provider_selector.py     # Dependency injection + live guards
@@ -195,7 +195,7 @@ The system is organized as a **Coordinator** that dispatches discrete **Agents**
 
 **Key Principle:** All external API vendors are hidden behind `clients/*` with stable method signatures.
 
-- **Swappable Providers:** Changing from Leonardo → DALL·E, or Pika → Runway, or FAL → another LoRA host requires only updating `clients/provider_selector.py` and the specific client module.
+- **Swappable Providers:** Changing from Leonardo → DALL·E, or Veo → Runway, or FAL → another LoRA host requires only updating `clients/provider_selector.py` and the specific client module.
 - **Pipeline Unchanged:** `coordinator/orchestrator.py` and all agents call generic methods like `image_client().generate(payload)`. The pipeline never imports vendor-specific code directly.
 - **Contracts:** Each client exposes:
   - `generate(payload: dict) -> str` (image path)
@@ -239,8 +239,8 @@ Each step returns a typed result; on failure, raise `AppError`.
 2. **Generate image** (`leonardo_api.generate_image`)
    - Input: `Variation` → Output: local PNG path
 
-3. **Img→Vid** (`pika_api.image_to_video`)
-   - Input: PNG + duration params → Output: MP4 path
+3. **Img→Vid** (`veo_client.img2vid`)
+   - Input: PNG + duration params → Output: MP4 path (with SynthID watermark)
 
 4. **Edit** (`shotstack_api.edit`)
    - Input: MP4 → Output: MP4 (music, optional effects)
