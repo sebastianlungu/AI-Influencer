@@ -1,18 +1,20 @@
 # AI Influencer - Eva Joy
 
-> Automated AI-generated fitness influencer content pipeline with ultra-detailed Grok prompts, manual review workflow, and intelligent diversity tracking
+> Automated AI-generated fitness influencer content pipeline with Grok AI prompting, Suno music generation, and scheduler-only posting workflow
 
-**Status**: 🚧 **Active Development** - Core pipeline operational, rating/queue system in progress
+**Status**: ✅ **Production Ready** - Complete pipeline with music workflow and automated scheduling
 
 ## Overview
 
-An end-to-end system for generating professional AI fitness influencer content for "Eva Joy" - from ultra-detailed 200+ word prompts to TikTok-ready videos. Built with fail-loud safety guards, provider abstraction, and no mock modes.
+An end-to-end system for generating professional AI fitness influencer content for "Eva Joy" - from AI-generated image briefs and motion prompts to TikTok-ready videos with music. Built with fail-loud safety guards, provider abstraction, and comprehensive human review gates.
 
 **Tech Stack**:
-- **Prompting**: xAI Grok API (200+ word ultra-detailed prompts)
+- **AI Prompting**: xAI Grok (image briefs, motion, music, social meta)
 - **Image Generation**: Leonardo.ai
-- **Video Generation**: Google Veo 3 (Vertex AI) with SynthID watermark
-- **Video Editing**: Shotstack
+- **Video Generation**: Google Veo 3 (6 seconds, Vertex AI) with SynthID watermark
+- **Music Generation**: Suno AI (6-second instrumental clips)
+- **Video Editing**: Local ffmpeg (audio/video muxing)
+- **Social Posting**: TikTok + Instagram (scheduler-only)
 - **Backend**: Python 3.11+, FastAPI, UV package manager
 - **Frontend**: React + Vite
 - **Storage**: Local filesystem (JSON indices + media files)
@@ -21,61 +23,76 @@ An end-to-end system for generating professional AI fitness influencer content f
 
 ## ✨ Key Features
 
-### Current (Production-Ready)
+### Production-Ready
 - ✅ **Ultra-Detailed Prompts**: 200-250 word cinematic prompts via Grok
 - ✅ **8 Diversity Banks**: 200+ variations across locations, poses, outfits, lighting, camera, props, twists
-- ✅ **Intelligent Dedupe**: SHA256 content hashing prevents duplicate generations
+- ✅ **Intelligent Dedupe**: SHA256 content hashing + per-video motion deduplication
 - ✅ **Cost Tracking**: Decimal-based budget caps (~$0.54/video)
 - ✅ **Security**: Path traversal protection, schema validation, rate limiting
-- ✅ **End-to-End Pipeline**: Grok → Leonardo → Veo 3 → Shotstack → indexed video
-
-### In Progress (Essential for Launch)
-- 🚧 **Rating System**: 3-tier image rating (Dislike/Like/Super-like)
-- 🚧 **Video Queue**: Convert super-liked images to videos
-- 🚧 **Motion Prompting**: Generate cinematic camera movements from image metadata
-- 🚧 **Weighted Diversity**: Track recent combinations, avoid repetition
+- ✅ **End-to-End Pipeline**: Grok → Leonardo → Veo 3 (6s) → ffmpeg → Music → Posting
+- ✅ **Rating System**: Image review (Dislike/Like/Super-like) + Video review (Like/Dislike/Regenerate)
+- ✅ **Music Workflow**: Grok music briefs → Suno generation → ffmpeg muxing → Human approval
+- ✅ **Motion Prompting**: Cinematic camera movements from image metadata (with per-video deduplication)
+- ✅ **Scheduler-Only Posting**: Automated TikTok + Instagram posting (NO manual post buttons)
+- ✅ **Social Metadata**: Grok-generated captions and hashtags at posting time
 
 ### Planned
-- 📋 **TikTok Integration**: Automated posting with rate limits
-- 📋 **Video Regeneration**: Re-create videos with different motion on dislike
+- 📋 **Weighted Diversity**: Track recent combinations, avoid repetition across pipeline
 - 📋 **Analytics Dashboard**: Track performance, costs, diversity metrics
+- 📋 **A/B Testing**: Compare prompt variations and music styles
 
 ---
 
-## 🎯 User Workflow (Full Vision)
+## 🎯 User Workflow (Production)
 
-### Phase 1: Image Generation
+### Phase 1: Image Generation & Review
 ```
-1. System generates 10-20 image variations
+1. System generates image variations
    → Grok creates ultra-detailed prompts from diversity banks
    → Leonardo generates high-res images
-   → Images appear in Review UI
+   → Images appear in Review UI ([I] tab)
 
 2. User rates each image:
-   ❌ Dislike → Deleted immediately
-   ❤️ Like → Queued for direct posting to TikTok
-   ⭐ Super-like → Queued for video generation
+   ❌ Dislike [1] → Deleted immediately
+   ❤️ Like [2] → Queued for direct image posting (not implemented)
+   ⭐ Super-like [3] → Queued for video generation
 ```
 
-### Phase 2: Video Generation
+### Phase 2: Video Generation & Review
 ```
 3. Super-liked images automatically generate videos
-   → System creates motion prompt from image metadata
-   → Veo 3 converts image to 8-second cinematic video
-   → Shotstack adds licensed music
-   → Videos appear in Video Review UI
+   → Grok creates cinematic motion prompt from image metadata
+   → Veo 3 converts image to 6-second video (with SynthID watermark)
+   → ffmpeg trims to exactly 6 seconds
+   → Videos appear in Video Review UI ([V] tab)
 
 4. User rates each video:
-   ❤️ Like → Posted to TikTok
-   ❌ Dislike → Regenerated with different camera movement
+   ❌ Dislike [1] → Deleted (motion history cleared)
+   ❤️ Like [2] → Advance to Music Review panel
+   🔄 Regenerate [R] → Re-create with different motion (avoids previous prompts)
 ```
 
-### Phase 3: Posting
+### Phase 3: Music Generation & Approval
 ```
-5. Liked content auto-posts to TikTok
-   → Respects platform rate limits
-   → No captions, hashtags, or overlays (pure visuals)
-   → Tracked in videos.json with post URLs
+5. Liked videos enter Music Review workflow
+   → Suggest Music: Grok generates music brief (style, mood, prompt)
+   → Generate Music: Suno creates 6-second instrumental track
+   → Auto-mux: ffmpeg combines video + music
+   → User rates result:
+     ✅ Approve → Queued for scheduler (status: approved)
+     🔄 Regenerate → Try different music style
+     ⏭️ Skip Music → Queue without music
+```
+
+### Phase 4: Automated Posting (Scheduler-Only)
+```
+6. Scheduler posts approved videos automatically
+   → Runs every 20 minutes (configurable cron)
+   → Only posts within posting window (09:00-21:00 local time)
+   → Grok generates social metadata (caption + hashtags) at posting time
+   → Posts to TikTok or Instagram (configurable platform)
+   → Tracked in videos.json with post IDs
+   → NO MANUAL POST BUTTONS (scheduler-only workflow)
 ```
 
 ---
@@ -141,13 +158,16 @@ Set these in your `.env` file:
 
 | Provider | Variable | Purpose | Cost/Video |
 |----------|----------|---------|------------|
-| **Grok** | `GROK_API_KEY` | Ultra-detailed prompt generation | ~$0.09/batch |
+| **Grok** | `GROK_API_KEY` | Prompting (image, motion, music, social) | ~$0.12/video |
 | **Leonardo** | `LEONARDO_API_KEY` | Image generation | ~$0.02 |
-| **Google Cloud** | `GOOGLE_APPLICATION_CREDENTIALS` | Veo 3 video generation | ~$0.40 |
-| **Shotstack** | `SHOTSTACK_API_KEY` | Audio replacement | ~$0.03 |
-| **TikTok** | `TIKTOK_CLIENT_KEY` | Posting (optional) | Free |
+| **Google Cloud** | `GOOGLE_APPLICATION_CREDENTIALS` | Veo 3 video generation (6s) | ~$0.30 |
+| **Suno** | `SUNO_API_KEY` | Music generation (6s instrumental) | ~$0.10 |
+| **TikTok** | `TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET` | Automated posting | Free |
+| **Instagram** | `INSTAGRAM_ACCESS_TOKEN`, `INSTAGRAM_BUSINESS_ACCOUNT_ID` | Automated posting | Free |
 
-**Total cost per video**: ~$0.54
+**Total cost per video with music**: ~$0.54
+
+**Note**: ffmpeg is used locally for audio/video muxing (no API cost)
 
 ### Safety Guards
 
@@ -163,6 +183,11 @@ MAX_COST_PER_RUN=0.75
 
 # Automated scheduling (disabled by default)
 ENABLE_SCHEDULER=false
+
+# Scheduler configuration (when enabled)
+SCHEDULER_CRON_MINUTES=20           # Run every 20 minutes
+POSTING_WINDOW_LOCAL=09:00-21:00   # Only post between these hours
+DEFAULT_POSTING_PLATFORM=tiktok     # tiktok or instagram
 ```
 
 ### Character Configuration
@@ -219,23 +244,36 @@ User → Frontend → POST /api/cycle/generate
         │    → Downloads PNG                │
         │                                   │
         │ 3. gen_video.from_image()         │
-        │    → Veo 3 img2vid                │
-        │    → SynthID watermark            │
+        │    → Veo 3 img2vid (6 seconds)    │
+        │    → SynthID watermark embedded   │
         │                                   │
         │ 4. edit.polish()                  │
-        │    → Shotstack audio replace      │
+        │    → ffmpeg trim to exactly 6s    │
+        │    → NO MUSIC (added later)       │
         │                                   │
         │ 5. qa_style.ensure()              │
-        │    → Blur detection               │
+        │    → Container validation only    │
+        │    → Blur QA DISABLED             │
         │                                   │
         │ 6. indexer.index()                │
         │    → Write to videos.json         │
         │    → Move to generated/           │
+        │    → Status: pending_review       │
         └───────────────────────────────────┘
                         ↓
               Returns video metadata
                         ↓
-          Frontend displays in player
+          Frontend displays in Video Review ([V] tab)
+                        ↓
+          User rates: Dislike [1] / Like [2] / Regenerate [R]
+                        ↓
+          If Like → Music Review Panel
+                        ↓
+          Suggest → Generate → Mux → Rate (Approve/Regenerate/Skip)
+                        ↓
+          If Approve → Status: approved (queued for scheduler)
+                        ↓
+          Scheduler posts when within posting window
 ```
 
 ### Provider Abstraction
@@ -352,7 +390,7 @@ with balanced headroom and diagonal skyline lines guiding focus.
 | `/api/cycle/generate` | POST | Trigger generation cycle (rate limited 1/min) |
 | `/api/healthz` | GET | Provider readiness check |
 
-### Image Review (In Progress)
+### Image Review
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -361,7 +399,7 @@ with balanced headroom and diagonal skyline lines guiding focus.
 | `/api/images/liked` | GET | Fetch images queued for posting |
 | `/api/images/superliked` | GET | Fetch images awaiting video generation |
 
-### Video Review (In Progress)
+### Video Review
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -369,12 +407,25 @@ with balanced headroom and diagonal skyline lines guiding focus.
 | `/api/videos/{id}/rate` | PUT | Rate video (like/dislike) |
 | `/api/videos/{id}/regenerate` | POST | Re-create video with new motion prompt |
 | `/api/videos/generate/{image_id}` | POST | Generate video from super-liked image |
+| `/api/videos/approved` | GET | Fetch videos approved and queued for scheduler |
 
-### Posting (Planned)
+### Music Workflow
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/api/videos/{id}/post` | POST | Publish to TikTok, move to posted/ |
+| `/api/videos/{id}/music/suggest` | POST | Generate music brief via Grok |
+| `/api/videos/{id}/music/generate` | POST | Generate music audio via Suno (6s) |
+| `/api/videos/{id}/music/mux` | POST | Mux video + music via ffmpeg |
+| `/api/videos/{id}/music/rate` | PUT | Rate music (approve/regenerate/skip) |
+
+### Scheduler Control (Scheduler-Only Posting)
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/scheduler/run-once` | POST | Execute posting cycle immediately (requires ALLOW_LIVE=true) |
+| `/api/scheduler/dry-run` | POST | Preview next video to be posted without executing |
+
+**Note**: There are NO manual post buttons. Posting is scheduler-only.
 
 ---
 
@@ -452,29 +503,52 @@ GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account.json
 VIDEO_PROVIDER=veo
 VEO_MODEL_ID=veo-3.0-generate-001
 VEO_ASPECT=9:16
-VEO_DURATION_SECONDS=8
+VEO_DURATION_SECONDS=6
+GEN_SECONDS=6  # Default generation duration
 ```
 
 ⚠️ **SynthID Watermark**: Veo 3 embeds invisible provenance watermark automatically (cannot be disabled).
 
-### 4. Shotstack - Video Editing
+### 4. Suno - Music Generation
 
-**Cost**: ~$0.03 per edit
+**Cost**: ~$0.10 per 6-second instrumental
 
-1. Create account at [Shotstack](https://dashboard.shotstack.io/)
-2. Get API key from dashboard
-3. Upload licensed music to cloud storage (S3/GCS) or use Shotstack asset storage
-4. Add to `.env`:
+1. Create account at [Suno](https://suno.com/)
+2. Get API key from account settings
+3. Add to `.env`:
    ```bash
-   SHOTSTACK_API_KEY=your-key-here
-   SHOTSTACK_REGION=us  # or eu
-   SOUNDTRACK_URL=https://your-storage.com/music/track.mp3
-   OUTPUT_RESOLUTION=HD  # HD (1280x720) or 1080 (1920x1080)
+   SUNO_API_KEY=your-key-here
+   SUNO_MODEL=chirp-v3-5  # Default: chirp-v3-5
+   SUNO_CLIP_SECONDS=6    # Must match VEO_DURATION_SECONDS
    ```
 
-⚠️ **Music Licensing**: You must own or license the soundtrack. Shotstack strips original audio (volume: 0) and replaces with your track.
+**Models**:
+- `chirp-v3-5`: Latest, best quality
+- `chirp-v3`: Previous generation
 
-### 5. Verify Setup
+⚠️ **Duration**: Suno clip duration must match Veo duration (both 6 seconds)
+
+### 5. ffmpeg - Local Video Editing
+
+**Cost**: Free (local processing)
+
+**Installation**:
+- **Windows**: Download from [ffmpeg.org](https://ffmpeg.org/download.html) or `winget install ffmpeg`
+- **macOS**: `brew install ffmpeg`
+- **Linux**: `sudo apt install ffmpeg` or `sudo yum install ffmpeg`
+
+**Verify**:
+```bash
+ffmpeg -version
+ffprobe -version
+```
+
+**Usage**: ffmpeg is used for:
+- Trimming videos to exactly 6 seconds
+- Muxing video + music audio tracks
+- Container validation
+
+### 6. Verify Setup
 
 ```bash
 curl http://localhost:5001/api/healthz
@@ -489,11 +563,16 @@ Expected response:
     "grok": "configured",
     "leonardo": "configured",
     "veo": "configured",
-    "shotstack": "configured"
+    "suno": "configured",
+    "tiktok": "configured",
+    "instagram": "configured"
   },
-  "veo_config": {
-    "gcp_project_id": "your-project-id",
-    "credentials_file_exists": true
+  "scheduler_enabled": false,
+  "scheduler_config": {
+    "platform": "tiktok",
+    "cron": "*/20 minutes",
+    "window": "09:00-21:00",
+    "timezone": "Europe/Paris"
   }
 }
 ```
@@ -539,12 +618,12 @@ Expected response:
 ]
 ```
 
-**Schema** (in progress - rating system):
+**Schema** (production):
 ```json
 [
   {
     "id": "abc123",
-    "status": "pending_review|liked|superliked|posted|deleted",
+    "status": "pending_review|liked|approved|posted|deleted",
     "rating": null|"dislike"|"like"|"superlike",
     "image_path": "data/generated/img_abc123.png",
     "video_path": "data/generated/vid_abc123.mp4",
@@ -556,15 +635,31 @@ Expected response:
         "outfit": "terracotta blazer...",
         ...
       },
-      "seed": 1234
+      "seed": 1234,
+      "duration_s": 6
     },
     "video_meta": {
       "motion_prompt": "slow push-in...",
       "regeneration_count": 0
     },
+    "music_meta": {
+      "music_brief": {
+        "prompt": "energetic upbeat electronic...",
+        "style": "electronic pop",
+        "mood": "energetic"
+      },
+      "music_path": "data/generated/music_abc123.mp3",
+      "music_rating": null|"approve"|"regenerate"|"skip"
+    },
+    "social_meta": {
+      "caption": "Generated caption for TikTok/Instagram",
+      "hashtags": ["#fitness", "#motivation"]
+    },
     "created_at": "ISO8601",
     "rated_at": "ISO8601",
-    "posted_at": "ISO8601"
+    "music_approved_at": "ISO8601",
+    "posted_at": "ISO8601",
+    "post_id": "tiktok_video_id or instagram_media_id"
   }
 ]
 ```
@@ -612,9 +707,10 @@ Expected response:
 - **Retries**: Exponential backoff for 429/5xx errors (max 3 attempts)
 
 ### Content Safety
-- **QA gates**: Blur detection via Laplacian variance
-- **Safety boundaries**: SFW constraints in prompt_config.json
+- **QA gates**: Container validation only (blur detection DISABLED - identity QA handled by human review)
+- **Safety boundaries**: SFW constraints in referral_prompts.json
 - **Negative prompts**: Explicit exclusions (nudity, exaggerated proportions, etc.)
+- **Human review**: All videos reviewed by human before approval for posting
 
 ---
 
@@ -640,40 +736,51 @@ ai-influencer/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py                 # FastAPI app
-│   │   ├── api/routes.py           # API endpoints
+│   │   ├── api/routes.py           # API endpoints (all workflows)
 │   │   ├── coordinator/            # Orchestration
 │   │   ├── agents/                 # Pipeline steps
-│   │   │   ├── prompting.py        # Grok integration
+│   │   │   ├── prompting.py        # Grok image prompts
 │   │   │   ├── gen_image.py        # Leonardo
 │   │   │   ├── gen_video.py        # Veo 3
-│   │   │   ├── edit.py             # Shotstack
-│   │   │   └── video_prompting.py  # Motion prompts (in progress)
+│   │   │   ├── video_prompting.py  # Grok motion prompts
+│   │   │   ├── edit.py             # ffmpeg trim
+│   │   │   └── indexer.py          # Write to videos.json
 │   │   ├── clients/                # API wrappers
-│   │   │   ├── grok.py
-│   │   │   ├── leonardo.py
-│   │   │   ├── veo.py
-│   │   │   └── shotstack.py
+│   │   │   ├── grok.py             # xAI Grok (all prompting)
+│   │   │   ├── leonardo.py         # Image generation
+│   │   │   ├── veo.py              # Veo 3 video
+│   │   │   ├── suno.py             # Suno music generation
+│   │   │   ├── ffmpeg_mux.py       # Local ffmpeg operations
+│   │   │   ├── tiktok.py           # TikTok posting
+│   │   │   ├── instagram.py        # Instagram posting
+│   │   │   └── provider_selector.py # DI + fail-loud guards
 │   │   ├── core/                   # Infrastructure
 │   │   │   ├── config.py           # Pydantic settings
 │   │   │   ├── cost.py             # Budget tracking
 │   │   │   ├── storage.py          # Atomic JSON I/O
 │   │   │   ├── ids.py              # Content hashing
-│   │   │   └── paths.py            # Safe path handling
+│   │   │   ├── paths.py            # Safe path handling
+│   │   │   ├── scheduler.py        # APScheduler posting workflow
+│   │   │   └── motion_dedup.py     # Per-video motion tracking
 │   │   └── tests/
+│   │       ├── test_pipeline_smoke.py
+│   │       └── test_new_architecture.py  # 17 comprehensive tests
 │   └── pyproject.toml              # UV dependencies
 ├── frontend/
 │   ├── src/
-│   │   ├── App.jsx                 # Main component
-│   │   ├── ImageReview.jsx         # Rating UI (in progress)
-│   │   ├── VideoReview.jsx         # Video rating (in progress)
-│   │   └── QueueManagement.jsx     # Queues (in progress)
+│   │   ├── App.jsx                 # Main component (4 tabs)
+│   │   ├── ImageReview.jsx         # Image rating UI
+│   │   ├── VideoReview.jsx         # Video + Music workflow
+│   │   ├── QueueView.jsx           # Queue status
+│   │   ├── SchedulerSettings.jsx   # Scheduler controls
+│   │   └── api.js                  # API helpers
 │   └── package.json
 ├── app/data/
-│   ├── prompt_config.json          # Character + diversity banks
+│   ├── referral_prompts.json       # Eva Joy persona + style
 │   ├── history.json                # Dedupe hashes
-│   ├── videos.json                 # Video index
-│   ├── diversity_usage.json        # Weighted sampling (in progress)
-│   ├── generated/                  # Output videos
+│   ├── videos.json                 # Video index (all metadata)
+│   ├── motion/                     # Per-video motion history
+│   ├── generated/                  # Output videos + music
 │   ├── posted/                     # Published content
 │   └── deleted/                    # Rejected content
 ├── .env.example
@@ -734,9 +841,13 @@ Edit `character_profile` in `prompt_config.json`:
 **Cause**: `GOOGLE_APPLICATION_CREDENTIALS` path incorrect or file missing
 **Fix**: Verify path exists and service account JSON is valid
 
-### Shotstack "Asset not accessible"
-**Cause**: `SOUNDTRACK_URL` not publicly accessible
-**Fix**: Use pre-signed URL or upload to Shotstack asset storage
+### Suno "API key invalid"
+**Cause**: `SUNO_API_KEY` missing or incorrect
+**Fix**: Verify API key from Suno account settings
+
+### "ffmpeg not found"
+**Cause**: ffmpeg not installed or not in PATH
+**Fix**: Install ffmpeg (see Provider Setup section), verify with `ffmpeg -version`
 
 ### "Budget exceeded"
 **Cause**: Cumulative cost > `MAX_COST_PER_RUN`
@@ -754,34 +865,39 @@ Edit `character_profile` in `prompt_config.json`:
 
 ## 📈 Roadmap
 
-### Phase 1: Core Pipeline ✅
+### Phase 1: Core Pipeline ✅ (Complete)
 - [x] Grok ultra-detailed prompt generation (200+ words)
 - [x] Leonardo image generation with polling
-- [x] Veo 3 video generation with SynthID watermark
-- [x] Shotstack audio replacement
-- [x] QA style gates (blur detection)
+- [x] Veo 3 video generation (6 seconds) with SynthID watermark
+- [x] ffmpeg video trimming and muxing
+- [x] QA style gates (container validation, blur disabled)
 - [x] Cost tracking with budget caps
 - [x] Security: path traversal, schema validation, rate limiting
+- [x] Image review UI (Dislike/Like/Super-like)
+- [x] Video review UI (Like/Dislike + Regenerate)
+- [x] Queue management UI (all queues visible)
+- [x] Video motion prompting agent (Grok-powered)
+- [x] Per-video motion deduplication
+- [x] Music workflow (Grok brief → Suno generation → ffmpeg mux)
+- [x] Music review UI (Approve/Regenerate/Skip)
+- [x] Scheduler-only posting (TikTok + Instagram)
+- [x] Social metadata generation (Grok captions + hashtags)
+- [x] Scheduler controls (run-once, dry-run)
 
-### Phase 2: Rating/Queue System 🚧 (In Progress)
-- [ ] Image review UI (Dislike/Like/Super-like)
-- [ ] Video review UI (Like/Dislike + Regenerate)
-- [ ] Queue management UI (Liked/Super-liked queues)
-- [ ] Video motion prompting agent
-- [ ] Weighted diversity sampling (anti-repetition)
-- [ ] API endpoints for rating workflow
-
-### Phase 3: TikTok Integration 📋 (Planned)
-- [ ] TikTok Content Posting API client
-- [ ] OAuth authentication flow
-- [ ] Rate limit handling (respect platform limits)
-- [ ] Post tracking with TikTok URLs
-
-### Phase 4: Analytics 📋 (Future)
+### Phase 2: Optimization & Analytics 📋 (Planned)
+- [ ] Weighted diversity sampling (anti-repetition across pipeline)
 - [ ] Performance dashboard (views, engagement)
 - [ ] Cost analytics (spend per video, ROI)
 - [ ] Diversity metrics (bank usage heatmap)
-- [ ] A/B testing (compare prompt variations)
+- [ ] A/B testing (compare prompt variations and music styles)
+- [ ] Multi-platform posting analytics
+
+### Phase 3: Advanced Features 📋 (Future)
+- [ ] Dynamic posting schedule optimization (best times per platform)
+- [ ] Automated hashtag optimization based on performance
+- [ ] LoRA training integration for consistent character appearance
+- [ ] Multiple character profiles support
+- [ ] Batch video generation workflows
 
 ---
 
