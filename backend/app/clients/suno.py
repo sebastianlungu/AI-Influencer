@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import subprocess
 import time
 from decimal import Decimal
 from pathlib import Path
@@ -7,6 +8,7 @@ from typing import Any
 
 import requests
 
+from app.core import concurrency
 from app.core.config import settings
 from app.core.cost import add_cost
 from app.core.logging import log
@@ -86,41 +88,43 @@ class SunoClient:
             "Content-Type": "application/json",
         }
 
-        try:
-            # Submit generation request
-            resp = requests.post(
-                f"{self.BASE_URL}/generate",
-                headers=headers,
-                json=payload,
-                timeout=self.timeout_s,
-            )
-            resp.raise_for_status()
+        # Acquire concurrency slot (max 2 concurrent Suno requests)
+        with concurrency.suno_slot():
+            try:
+                # Submit generation request
+                resp = requests.post(
+                    f"{self.BASE_URL}/generate",
+                    headers=headers,
+                    json=payload,
+                    timeout=self.timeout_s,
+                )
+                resp.raise_for_status()
 
-            data = resp.json()
-            generation_id = data.get("id")
+                data = resp.json()
+                generation_id = data.get("id")
 
-            if not generation_id:
-                raise RuntimeError(f"Suno API did not return generation ID: {data}")
+                if not generation_id:
+                    raise RuntimeError(f"Suno API did not return generation ID: {data}")
 
-            log.info(f"SUNO_GENERATION_STARTED id={generation_id}")
+                log.info(f"SUNO_GENERATION_STARTED id={generation_id}")
 
-            # Poll for completion
-            audio_url = self._poll_for_completion(generation_id)
+                # Poll for completion
+                audio_url = self._poll_for_completion(generation_id)
 
-            # Download audio file
-            audio_path = self._download_audio(audio_url, generation_id)
+                # Download audio file
+                audio_path = self._download_audio(audio_url, generation_id)
 
-            log.info(f"SUNO_SUCCESS path={Path(audio_path).name}")
-            return audio_path
+                log.info(f"SUNO_SUCCESS path={Path(audio_path).name}")
+                return audio_path
 
-        except requests.exceptions.Timeout:
-            raise RuntimeError(f"Suno API timeout after {self.timeout_s}s")
-        except requests.exceptions.HTTPError as e:
-            raise RuntimeError(
-                f"Suno API error: {e.response.status_code} - {e.response.text}"
-            )
-        except Exception as e:
-            raise RuntimeError(f"Suno generation failed: {str(e)}")
+            except requests.exceptions.Timeout:
+                raise RuntimeError(f"Suno API timeout after {self.timeout_s}s")
+            except requests.exceptions.HTTPError as e:
+                raise RuntimeError(
+                    f"Suno API error: {e.response.status_code} - {e.response.text}"
+                )
+            except Exception as e:
+                raise RuntimeError(f"Suno generation failed: {str(e)}")
 
     def _poll_for_completion(self, generation_id: str) -> str:
         """Poll Suno API until generation is complete.
@@ -211,6 +215,22 @@ class SunoClient:
                 f.write(resp.content)
 
             log.info(f"SUNO_DOWNLOAD path={audio_path.name} size={len(resp.content)} bytes")
+
+            # FAIL-LOUD: Verify audio duration >= 6s (no looping/padding allowed)
+            duration = self._get_audio_duration(str(audio_path))
+            if duration is None:
+                log.warning(
+                    f"Could not verify duration of {audio_path.name} (ffprobe failed). "
+                    f"Proceeding with assumption of correct duration."
+                )
+            elif duration < 6.0:
+                raise RuntimeError(
+                    f"Suno returned audio shorter than 6 seconds ({duration:.2f}s). "
+                    f"Please regenerate music. System policy: no automatic looping or padding."
+                )
+            else:
+                log.info(f"SUNO_DURATION_OK duration={duration:.2f}s (>= 6s)")
+
             return str(audio_path)
 
         except requests.exceptions.HTTPError as e:
@@ -219,3 +239,37 @@ class SunoClient:
             )
         except Exception as e:
             raise RuntimeError(f"Suno audio download failed: {str(e)}")
+
+    def _get_audio_duration(self, audio_path: str) -> float | None:
+        """Get audio duration in seconds using ffprobe.
+
+        Args:
+            audio_path: Path to audio file
+
+        Returns:
+            Duration in seconds, or None if failed
+        """
+        ffprobe_path = settings.ffprobe_path
+
+        cmd = [
+            ffprobe_path,
+            "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            audio_path,
+        ]
+
+        try:
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=10,
+            )
+
+            duration_str = result.stdout.strip()
+            return float(duration_str)
+
+        except (subprocess.CalledProcessError, ValueError, subprocess.TimeoutExpired):
+            return None

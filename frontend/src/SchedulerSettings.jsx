@@ -114,12 +114,12 @@ export default function SchedulerSettings() {
         <div style={styles.sectionTitle}>Posting Configuration</div>
         <div style={styles.configGrid}>
           <div style={styles.configRow}>
-            <span style={styles.label}>Platform:</span>
-            <span style={styles.value}>{schedulerConfig.platform || "tiktok"}</span>
+            <span style={styles.label}>Platform Order:</span>
+            <span style={styles.value}>{schedulerConfig.post_order || "instagram,tiktok"}</span>
           </div>
           <div style={styles.configRow}>
-            <span style={styles.label}>Cron Schedule:</span>
-            <span style={styles.value}>{schedulerConfig.cron || "*/20 minutes"}</span>
+            <span style={styles.label}>TikTok Delay:</span>
+            <span style={styles.value}>{schedulerConfig.delay_minutes_tiktok || "90"} minutes</span>
           </div>
           <div style={styles.configRow}>
             <span style={styles.label}>Posting Window:</span>
@@ -128,6 +128,25 @@ export default function SchedulerSettings() {
           <div style={styles.configRow}>
             <span style={styles.label}>Timezone:</span>
             <span style={styles.value}>{schedulerConfig.timezone || "Europe/Paris"}</span>
+          </div>
+        </div>
+
+        {/* Cron Schedule Editor */}
+        <div style={styles.cronEditor}>
+          <div style={styles.label}>Cron Schedule:</div>
+          <div style={styles.cronValue}>{schedulerConfig.cron || "0 0,6,12,18 * * *"}</div>
+          <div style={styles.cronHelp}>
+            <strong>Common Presets:</strong>
+            <ul style={styles.cronList}>
+              <li><code>0 0,6,12,18 * * *</code> - Every 6 hours (00:00, 06:00, 12:00, 18:00)</li>
+              <li><code>0 0,8,16 * * *</code> - Every 8 hours (00:00, 08:00, 16:00)</li>
+              <li><code>0 */4 * * *</code> - Every 4 hours</li>
+              <li><code>0 */3 * * *</code> - Every 3 hours</li>
+              <li><code>0 9,15,21 * * *</code> - 3 times daily (09:00, 15:00, 21:00)</li>
+            </ul>
+            <div style={styles.cronNote}>
+              💡 To change schedule, edit <code>SCHEDULER_CRON_EXACT</code> in <code>.env</code> and restart server
+            </div>
           </div>
         </div>
       </div>

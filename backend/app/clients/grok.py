@@ -14,6 +14,7 @@ from typing import Any
 
 import httpx
 
+from app.core import concurrency
 from app.core.cost import add_cost
 from app.core.logging import log
 
@@ -79,8 +80,10 @@ class GrokClient:
         url = f"{self.BASE_URL}/{endpoint}"
 
         try:
-            with httpx.Client(timeout=self.TIMEOUT_S) as client:
-                response = client.post(url, headers=headers, json=payload)
+            # Acquire concurrency slot (blocks if at capacity)
+            with concurrency.grok_slot():
+                with httpx.Client(timeout=self.TIMEOUT_S) as client:
+                    response = client.post(url, headers=headers, json=payload)
 
                 # Success
                 if response.status_code == 200:
@@ -201,7 +204,7 @@ class GrokClient:
         # Grok-2 pricing: ~$2/1M input tokens, ~$10/1M output tokens
         # With 200+ word prompts: ~3500 input tokens + ~8000 output tokens for 15 variations
         # Total: ~$0.09 per 15-variation batch (200+ words each)
-        estimated_cost = Decimal("0.09") * (n / 15)  # Scale with batch size
+        estimated_cost = Decimal("0.09") * (Decimal(n) / Decimal(15))  # Scale with batch size
         add_cost(estimated_cost, "grok")
 
         # Call Grok API

@@ -11,7 +11,7 @@ from pathlib import Path
 from google.cloud import aiplatform
 from google.oauth2 import service_account
 
-from app.core import cost
+from app.core import concurrency, cost
 from app.core.config import settings
 from app.core.logging import log
 from app.core.paths import get_data_path
@@ -139,10 +139,12 @@ class VeoVideoClient:
             )
 
             start_time = time.time()
-            response = endpoint.predict(
-                instances=request_payload["instances"],
-                timeout=180.0,  # 3 minutes max for video generation
-            )
+            # Acquire concurrency slot (max 1 concurrent Veo request)
+            with concurrency.veo_slot():
+                response = endpoint.predict(
+                    instances=request_payload["instances"],
+                    timeout=120.0,  # 2 minutes max for video generation
+                )
             elapsed = time.time() - start_time
 
             log.info(
@@ -165,13 +167,23 @@ class VeoVideoClient:
 
             video_bytes = base64.b64decode(video_b64)
 
-            # Write to temp file
+            # Write to output file with cleanup on failure
             output_dir = get_data_path("generated")
             output_dir.mkdir(parents=True, exist_ok=True)
             output_path = output_dir / f"{vid_id}_veo.mp4"
 
-            with open(output_path, "wb") as f:
-                f.write(video_bytes)
+            try:
+                with open(output_path, "wb") as f:
+                    f.write(video_bytes)
+            except Exception as write_error:
+                # Clean up partial file if write failed
+                if output_path.exists():
+                    try:
+                        output_path.unlink()
+                        log.warning(f"Cleaned up partial file: {output_path}")
+                    except Exception as cleanup_error:
+                        log.error(f"Failed to clean up partial file {output_path}: {cleanup_error}")
+                raise write_error
 
             log.info(
                 f"veo_img2vid_complete id={vid_id} output_path={str(output_path)} "

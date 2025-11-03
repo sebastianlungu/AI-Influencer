@@ -205,10 +205,13 @@ def test_config_has_new_settings():
     # Verify scheduler settings
     assert hasattr(settings, "enable_scheduler"), "Config must have enable_scheduler"
     assert hasattr(settings, "posting_window_local"), "Config must have posting_window_local"
-    assert hasattr(settings, "scheduler_cron_minutes"), "Config must have scheduler_cron_minutes"
+    assert hasattr(settings, "scheduler_cron_exact"), "Config must have scheduler_cron_exact"
+    assert hasattr(settings, "scheduler_timezone"), "Config must have scheduler_timezone"
 
     # Verify platform settings
     assert hasattr(settings, "default_posting_platform"), "Config must have default_posting_platform"
+    assert hasattr(settings, "post_order"), "Config must have post_order"
+    assert hasattr(settings, "post_delay_minutes_tiktok"), "Config must have post_delay_minutes_tiktok"
     assert hasattr(settings, "tiktok_client_key"), "Config must have tiktok_client_key"
     assert hasattr(settings, "instagram_business_account_id"), "Config must have instagram_business_account_id"
 

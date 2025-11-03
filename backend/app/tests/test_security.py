@@ -71,7 +71,7 @@ class TestPathTraversal:
         try:
             payload = {"id": "../../../etc/passwd", "seed": 123}
             with pytest.raises(ValueError, match="Path traversal blocked"):
-                indexer.index(temp_path, payload)
+                indexer.index(temp_path, payload, image_id="test_img", motion_prompt="test motion")
         finally:
             if os.path.exists(temp_path):
                 os.remove(temp_path)

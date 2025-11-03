@@ -6,6 +6,7 @@ from decimal import Decimal
 
 import httpx
 
+from app.core import concurrency
 from app.core.config import settings
 from app.core.cost import add_cost
 from app.core.logging import log
@@ -53,9 +54,11 @@ class LeonardoClient:
         if self.model_id:
             data["modelId"] = self.model_id
 
-        with httpx.Client(timeout=60) as client:
-            # Create generation
-            r = client.post(f"{BASE_URL}/generations", headers=self.headers, json=data)
+        # Acquire concurrency slot (max 2 concurrent Leonardo requests)
+        with concurrency.leonardo_slot():
+            with httpx.Client(timeout=60) as client:
+                # Create generation
+                r = client.post(f"{BASE_URL}/generations", headers=self.headers, json=data)
             if r.status_code >= 400:
                 log.error(f"leonardo_create_failed status={r.status_code} body={r.text}")
                 raise RuntimeError(f"Leonardo create failed: {r.text}")

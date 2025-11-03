@@ -20,10 +20,15 @@ def safe_join(*parts: str) -> str:
     Raises:
         ValueError: If path contains traversal attempts (..)
     """
+    # Check for .. in any component BEFORE normalization
+    # Check both forward and backward slashes for cross-platform security
+    for part in parts:
+        path_parts = part.replace("\\", "/").split("/")
+        if ".." in path_parts:
+            raise ValueError(f"Path traversal blocked: {part}")
+
+    # Now safe to normalize
     p = os.path.normpath(os.path.join(*parts))
-    # Check for .. in any component after normalization
-    if ".." in p.split(os.sep):
-        raise ValueError(f"Path traversal blocked: {p}")
     return p
 
 

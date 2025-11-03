@@ -1,8 +1,37 @@
 from __future__ import annotations
 
 import pytest
+from unittest.mock import patch
 
 from app.coordinator.orchestrator import generate_images_cycle
+
+
+def test_startup_fails_without_ffmpeg():
+    """Verify application startup fails fast if ffmpeg is not found."""
+    from app.main import _check_ffmpeg_presence
+
+    # Mock subprocess to simulate ffmpeg not found
+    with patch("app.main.subprocess.run") as mock_run:
+        mock_run.side_effect = FileNotFoundError("ffmpeg not found")
+
+        with pytest.raises(RuntimeError, match="ffmpeg not found"):
+            _check_ffmpeg_presence()
+
+
+def test_startup_fails_without_ffprobe():
+    """Verify application startup fails fast if ffprobe is not found."""
+    from app.main import _check_ffmpeg_presence
+
+    # Mock ffmpeg check to pass, ffprobe check to fail
+    def mock_subprocess_run(cmd, *args, **kwargs):
+        if "ffmpeg" in cmd[0]:
+            return  # ffmpeg check passes
+        elif "ffprobe" in cmd[0]:
+            raise FileNotFoundError("ffprobe not found")
+
+    with patch("app.main.subprocess.run", side_effect=mock_subprocess_run):
+        with pytest.raises(RuntimeError, match="ffprobe not found"):
+            _check_ffmpeg_presence()
 
 
 def test_live_flag_required():

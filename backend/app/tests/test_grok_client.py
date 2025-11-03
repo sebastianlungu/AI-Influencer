@@ -100,7 +100,7 @@ def test_grok_client_requires_api_key():
 
 
 @patch("app.clients.grok.httpx.Client")
-@patch("app.core.cost.add_cost")
+@patch("app.clients.grok.add_cost")
 def test_generate_variations_success(
     mock_add_cost,
     mock_httpx_client,
@@ -143,7 +143,7 @@ def test_generate_variations_success(
 
 
 @patch("app.clients.grok.httpx.Client")
-@patch("app.core.cost.add_cost")
+@patch("app.clients.grok.add_cost")
 def test_generate_variations_with_markdown_code_block(
     mock_add_cost,
     mock_httpx_client,
@@ -187,7 +187,7 @@ def test_generate_variations_with_markdown_code_block(
 
 
 @patch("app.clients.grok.httpx.Client")
-@patch("app.core.cost.add_cost")
+@patch("app.clients.grok.add_cost")
 def test_generate_variations_invalid_json(
     mock_add_cost,
     mock_httpx_client,
@@ -218,7 +218,7 @@ def test_generate_variations_invalid_json(
 
 
 @patch("app.clients.grok.httpx.Client")
-@patch("app.core.cost.add_cost")
+@patch("app.clients.grok.add_cost")
 @patch("app.clients.grok.time.sleep")  # Mock sleep to speed up test
 def test_generate_variations_retry_on_500(
     mock_sleep,
@@ -257,7 +257,7 @@ def test_generate_variations_retry_on_500(
 
 
 @patch("app.clients.grok.httpx.Client")
-@patch("app.core.cost.add_cost")
+@patch("app.clients.grok.add_cost")
 def test_generate_variations_fail_on_400(
     mock_add_cost,
     mock_httpx_client,
@@ -289,7 +289,7 @@ def test_generate_variations_fail_on_400(
 
 
 @patch("app.clients.grok.httpx.Client")
-@patch("app.core.cost.add_cost")
+@patch("app.clients.grok.add_cost")
 def test_cost_tracking_scales_with_batch_size(
     mock_add_cost, mock_httpx_client, mock_grok_response, character_profile, diversity_banks
 ):
@@ -327,4 +327,4 @@ def test_cost_tracking_scales_with_batch_size(
 
     # Cost should approximately double
     assert cost_30 > cost_15
-    assert abs(cost_30 / cost_15 - 2.0) < 0.1  # Within 10% of 2x
+    assert abs(cost_30 / cost_15 - Decimal("2.0")) < Decimal("0.1")  # Within 10% of 2x

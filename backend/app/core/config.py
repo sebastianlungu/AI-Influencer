@@ -69,8 +69,20 @@ class Settings(BaseSettings):
     # Scheduler (Posting Only)
     posting_window_local: str = Field(default="09:00-21:00", env="POSTING_WINDOW_LOCAL")
     scheduler_timezone: str = Field(default="Europe/Paris", env="SCHEDULER_TIMEZONE")
-    scheduler_cron_minutes: str = Field(default="*/20", env="SCHEDULER_CRON_MINUTES")
+    scheduler_cron_exact: str = Field(
+        default="0 0,6,12,18 * * *",  # Every 6 hours: 00:00, 06:00, 12:00, 18:00
+        env="SCHEDULER_CRON_EXACT",
+    )
     default_posting_platform: str = Field(default="tiktok", env="DEFAULT_POSTING_PLATFORM")
+    # Platform posting order and delays
+    post_order: str = Field(
+        default="instagram,tiktok",  # Comma-separated list, Instagram first
+        env="POST_ORDER",
+    )
+    post_delay_minutes_tiktok: int = Field(
+        default=90,  # Wait 90 minutes after Instagram before posting to TikTok
+        env="POST_DELAY_MINUTES_TIKTOK",
+    )
 
     class Config:
         env_file = "../.env"  # Look in parent directory (project root)

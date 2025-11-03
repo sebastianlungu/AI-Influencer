@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import subprocess
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request, Response
@@ -10,6 +11,7 @@ from slowapi import Limiter
 from slowapi.util import get_remote_address
 
 from app.api.routes import router
+from app.core.config import settings
 from app.core.logging import log
 from app.core.paths import get_data_path
 from app.core.scheduler import start_scheduler, stop_scheduler
@@ -24,11 +26,60 @@ async def lifespan(app: FastAPI):
     """Lifecycle manager for FastAPI app."""
     # Startup
     log.info("app_startup")
+
+    # Verify ffmpeg and ffprobe are available (required for video/audio processing)
+    _check_ffmpeg_presence()
+
     start_scheduler()
     yield
     # Shutdown
     log.info("app_shutdown")
     stop_scheduler()
+
+
+def _check_ffmpeg_presence() -> None:
+    """Verify ffmpeg and ffprobe are installed and accessible.
+
+    Raises:
+        RuntimeError: If ffmpeg or ffprobe is missing
+    """
+    # Check ffmpeg
+    try:
+        subprocess.run(
+            [settings.ffmpeg_path, "-version"],
+            capture_output=True,
+            check=True,
+            timeout=5,
+        )
+        log.info(f"STARTUP_CHECK ffmpeg found at {settings.ffmpeg_path}")
+    except (subprocess.CalledProcessError, FileNotFoundError) as e:
+        raise RuntimeError(
+            f"STARTUP_FAILED: ffmpeg not found at '{settings.ffmpeg_path}'. "
+            f"Install ffmpeg or set FFMPEG_PATH in .env. Error: {e}"
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(
+            f"STARTUP_FAILED: ffmpeg check timeout at '{settings.ffmpeg_path}'"
+        )
+
+    # Check ffprobe
+    try:
+        subprocess.run(
+            [settings.ffprobe_path, "-version"],
+            capture_output=True,
+            check=True,
+            timeout=5,
+        )
+        log.info(f"STARTUP_CHECK ffprobe found at {settings.ffprobe_path}")
+    except (subprocess.CalledProcessError, FileNotFoundError) as e:
+        raise RuntimeError(
+            f"STARTUP_FAILED: ffprobe not found at '{settings.ffprobe_path}'. "
+            f"Install ffmpeg (includes ffprobe) or set FFPROBE_PATH in .env. Error: {e}"
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(
+            f"STARTUP_FAILED: ffprobe check timeout at '{settings.ffprobe_path}'"
+        )
 
 
 app = FastAPI(lifespan=lifespan)
