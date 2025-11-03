@@ -2,18 +2,18 @@ from __future__ import annotations
 
 import pytest
 
-from app.coordinator.orchestrator import run_cycle
+from app.coordinator.orchestrator import generate_images_cycle
 
 
 def test_live_flag_required():
-    """Validates that run_cycle fails when ALLOW_LIVE=false.
+    """Validates that generate_images_cycle fails when ALLOW_LIVE=false.
 
     Since ALLOW_LIVE defaults to false in tests, attempting to run
-    the cycle should fail at the provider client level when trying
-    to make actual API calls.
+    the image generation cycle should fail at the provider client level
+    when trying to make actual API calls.
     """
     with pytest.raises(RuntimeError) as exc_info:
-        run_cycle(1)
+        generate_images_cycle(1)
 
     assert "ALLOW_LIVE=false" in str(exc_info.value)
 

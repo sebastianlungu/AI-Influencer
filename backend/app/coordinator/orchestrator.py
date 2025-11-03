@@ -1,25 +1,30 @@
 from __future__ import annotations
 
-from app.agents import edit, gen_image, gen_video, indexer, prompting, qa_safety, qa_style
+from app.agents import (
+    gen_image,
+    image_indexer,
+    prompting,
+)
 from app.core import cost
 from app.core.logging import log
 
 
-def run_cycle(n: int) -> list[dict]:
-    """Runs a full generation cycle: propose → generate → QA → index.
+def generate_images_cycle(n: int) -> list[dict]:
+    """Runs image generation cycle only: propose → generate → index to images.json.
 
-    Orchestrates agents sequentially per variation, logs failures, continues batch.
+    This is the new rating workflow: images are generated and indexed for review.
+    User then rates images (dislike/like/superlike) before video generation.
 
     Args:
-        n: Number of variations to generate
+        n: Number of image variations to generate
 
     Returns:
-        List of metadata dicts for successfully indexed videos
+        List of metadata dicts for successfully indexed images
 
     Raises:
         RuntimeError: If budget exceeded or critical failure
     """
-    log.info(f"cycle_start n={n}")
+    log.info(f"image_cycle_start n={n}")
     cost.reset_cycle()
 
     # Propose variations
@@ -32,43 +37,30 @@ def run_cycle(n: int) -> list[dict]:
 
     results = []
 
-    # Process each variation sequentially
+    # Process each variation: generate image only
     for p in proposals:
-        vid_id = p["id"]
-        log.info(f"variation_start id={vid_id}")
+        img_id = p["id"]
+        log.info(f"image_start id={img_id}")
 
         try:
             # Generate image
-            img = gen_image.generate(p)
-            log.info(f"image_generated id={vid_id} path={img}")
+            img_path = gen_image.generate(p)
+            log.info(f"image_generated id={img_id} path={img_path}")
 
-            # Generate video
-            vid = gen_video.from_image(img, p)
-            log.info(f"video_generated id={vid_id} path={vid}")
-
-            # Edit (music, effects; NO text/captions/voice)
-            cut = edit.polish(vid, p)
-            log.info(f"video_edited id={vid_id} path={cut}")
-
-            # QA gates
-            qa_style.ensure(cut, p)
-            log.info(f"qa_style_pass id={vid_id}")
-
-            qa_safety.ensure(cut, p)
-            log.info(f"qa_safety_pass id={vid_id}")
-
-            # Index to videos.json
-            meta = indexer.index(cut, p)
-            log.info(f"indexed id={vid_id}")
+            # Index to images.json for review
+            meta = image_indexer.index(img_path, p)
+            log.info(f"image_indexed id={img_id} status=pending_review")
 
             results.append(meta)
 
         except Exception as e:
             log.error(
-                f"variation_fail id={vid_id} reason={type(e).__name__}:{e}",
+                f"image_fail id={img_id} reason={type(e).__name__}:{e}",
                 exc_info=True,
             )
             # Continue with next variation
 
-    log.info(f"cycle_complete success={len(results)} fail={n - len(results)}")
+    log.info(f"image_cycle_complete success={len(results)} fail={n - len(results)}")
     return results
+
+

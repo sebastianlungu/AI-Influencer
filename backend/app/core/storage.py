@@ -43,6 +43,23 @@ def _dump(path: str, data: list[dict[str, Any]]) -> None:
     os.replace(tmp, path)
 
 
+def atomic_write(path: str, content: str) -> None:
+    """Atomically writes string content to file using temp + rename.
+
+    Args:
+        path: Path to file
+        content: String content to write
+
+    Note:
+        Thread-safe atomic write for any text content (JSON, logs, etc.)
+        Uses temp + rename pattern to prevent corruption.
+    """
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write(content)
+    os.replace(tmp, path)
+
+
 def append_json_line(
     path: str, item: dict[str, Any], schema: dict[str, Any] | None = None
 ) -> None:
@@ -92,3 +109,48 @@ def write_json(path: str, data: list[dict[str, Any]]) -> None:
     """
     with LOCK:
         _dump(path, data)
+
+
+def find_json_item(path: str, item_id: str) -> dict[str, Any] | None:
+    """Thread-safe search for item by ID in JSON array file.
+
+    Args:
+        path: Path to JSON file
+        item_id: ID to search for
+
+    Returns:
+        Dictionary if found, None otherwise
+    """
+    with LOCK:
+        data = _load(path)
+        for item in data:
+            if item.get("id") == item_id:
+                return item
+        return None
+
+
+def update_json_item(
+    path: str, item_id: str, updates: dict[str, Any]
+) -> dict[str, Any]:
+    """Thread-safe update of a single item by ID in JSON array file.
+
+    Args:
+        path: Path to JSON file
+        item_id: ID of item to update
+        updates: Dictionary of fields to update
+
+    Returns:
+        Updated item dictionary
+
+    Raises:
+        ValueError: If item with given ID not found
+    """
+    with LOCK:
+        data = _load(path)
+        for i, item in enumerate(data):
+            if item.get("id") == item_id:
+                # Merge updates into existing item
+                data[i] = {**item, **updates}
+                _dump(path, data)
+                return data[i]
+        raise ValueError(f"Item with id '{item_id}' not found in {path}")

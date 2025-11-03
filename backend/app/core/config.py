@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     batch_size: int = Field(default=3, env="COORDINATOR_BATCH_SIZE")
     max_parallel: int = Field(default=3, env="COORDINATOR_MAX_PARALLEL")
     max_cost_per_run: Decimal = Field(default=Decimal("0.75"), env="MAX_COST_PER_RUN")
-    gen_seconds: int = Field(default=8, env="GEN_DEFAULT_SECONDS")
+    gen_seconds: int = Field(default=6, env="GEN_DEFAULT_SECONDS")
     gen_fps: int = Field(default=12, env="GEN_DEFAULT_FPS")
 
     # Provider selection
@@ -32,25 +32,45 @@ class Settings(BaseSettings):
     gcp_location: str = Field(default="us-central1", env="GCP_LOCATION")
     veo_model_id: str = Field(default="veo-3.0-generate-001", env="VEO_MODEL_ID")
     veo_aspect: str = Field(default="9:16", env="VEO_ASPECT")
-    veo_duration_seconds: int = Field(default=8, env="VEO_DURATION_SECONDS")
+    veo_duration_seconds: int = Field(default=6, env="VEO_DURATION_SECONDS")
     veo_num_results: int = Field(default=1, env="VEO_NUM_RESULTS")
+
+    # Grok (xAI - Image Briefs, Motion, Music, Social Meta)
+    grok_api_key: str | None = Field(default=None, env="GROK_API_KEY")
+    grok_model: str = Field(default="grok-2-latest", env="GROK_MODEL")
+    grok_timeout_s: int = Field(default=45, env="GROK_TIMEOUT_S")
+
+    # Suno (Music Generation)
+    suno_api_key: str | None = Field(default=None, env="SUNO_API_KEY")
+    suno_model: str = Field(default="chirp-v3", env="SUNO_MODEL")
+    suno_clip_seconds: int = Field(default=6, env="SUNO_CLIP_SECONDS")
+    suno_style_hints_default: str = Field(default="ambient cinematic fitness", env="SUNO_STYLE_HINTS_DEFAULT")
 
     # Leonardo (Image Generation)
     leonardo_api_key: str | None = Field(default=None, env="LEONARDO_API_KEY")
     leonardo_model_id: str | None = Field(default=None, env="LEONARDO_MODEL_ID")
 
-    # Shotstack (Video Editing)
-    shotstack_api_key: str | None = Field(default=None, env="SHOTSTACK_API_KEY")
-    shotstack_region: str = Field(default="us", env="SHOTSTACK_REGION")
-    soundtrack_url: str | None = Field(default=None, env="SOUNDTRACK_URL")
-    output_resolution: str = Field(default="HD", env="OUTPUT_RESOLUTION")
+    # Local AV Tools
+    ffmpeg_path: str = Field(default="ffmpeg", env="FFMPEG_PATH")
+    ffprobe_path: str = Field(default="ffprobe", env="FFPROBE_PATH")
 
-    # Pika Labs (alternative video provider)
-    pika_api_key: str | None = Field(default=None, env="PIKA_API_KEY")
-
-    # TikTok API
+    # TikTok (Content Posting API)
     tiktok_client_key: str | None = Field(default=None, env="TIKTOK_CLIENT_KEY")
     tiktok_client_secret: str | None = Field(default=None, env="TIKTOK_CLIENT_SECRET")
+    tiktok_access_token: str | None = Field(default=None, env="TIKTOK_ACCESS_TOKEN")
+
+    # Instagram/Facebook (Graph API)
+    instagram_business_account_id: str | None = Field(default=None, env="INSTAGRAM_BUSINESS_ACCOUNT_ID")
+    facebook_page_id: str | None = Field(default=None, env="FACEBOOK_PAGE_ID")
+    fb_app_id: str | None = Field(default=None, env="FB_APP_ID")
+    fb_app_secret: str | None = Field(default=None, env="FB_APP_SECRET")
+    fb_access_token: str | None = Field(default=None, env="FB_ACCESS_TOKEN")
+
+    # Scheduler (Posting Only)
+    posting_window_local: str = Field(default="09:00-21:00", env="POSTING_WINDOW_LOCAL")
+    scheduler_timezone: str = Field(default="Europe/Paris", env="SCHEDULER_TIMEZONE")
+    scheduler_cron_minutes: str = Field(default="*/20", env="SCHEDULER_CRON_MINUTES")
+    default_posting_platform: str = Field(default="tiktok", env="DEFAULT_POSTING_PLATFORM")
 
     class Config:
         env_file = "../.env"  # Look in parent directory (project root)

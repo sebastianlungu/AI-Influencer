@@ -1,7 +1,7 @@
 from __future__ import annotations
 
+from app.clients.grok import GrokClient
 from app.clients.leonardo import LeonardoClient
-from app.clients.shotstack import ShotstackClient
 from app.clients.veo import VeoVideoClient
 from app.core.config import settings
 
@@ -28,6 +28,18 @@ def _guard(name: str, key: str | None) -> None:
         )
 
 
+def prompting_client() -> GrokClient:
+    """Returns configured Grok client with guards applied.
+
+    Grok generates diverse, creative image prompts for Eva Joy fitness content.
+    """
+    _guard("GROK", settings.grok_api_key)
+    return GrokClient(
+        api_key=settings.grok_api_key,
+        model=settings.grok_model,
+    )
+
+
 def image_client() -> LeonardoClient:
     """Returns configured Leonardo client with guards applied."""
     _guard("LEONARDO", settings.leonardo_api_key)
@@ -43,13 +55,3 @@ def video_client() -> VeoVideoClient:
     SynthID watermark is automatically embedded.
     """
     return VeoVideoClient()
-
-
-def edit_client() -> ShotstackClient:
-    """Returns configured Shotstack client with guards applied."""
-    _guard("SHOTSTACK", settings.shotstack_api_key)
-    return ShotstackClient(
-        api_key=settings.shotstack_api_key,
-        soundtrack_url=settings.soundtrack_url,
-        resolution=settings.output_resolution,
-    )

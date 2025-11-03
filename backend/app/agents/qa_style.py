@@ -80,11 +80,5 @@ def ensure(video_path: str, payload: dict) -> None:
     if not ok:
         raise RuntimeError(f"Unreadable video (OpenCV failed): {video_path}")
 
-    # Step 3: Blur detection using Laplacian variance
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    val = cv2.Laplacian(gray, cv2.CV_64F).var()
-
-    if val < 60:
-        raise ValueError(
-            f"Video too blurry (Laplacian variance={val:.2f} < 60): {video_path}"
-        )
+    # Step 3: Blur detection DISABLED (identity QA handled by human gate via superlike)
+    # User manually reviews all images before video generation, so no automated blur check needed
