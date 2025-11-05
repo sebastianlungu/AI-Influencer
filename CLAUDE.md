@@ -10,7 +10,7 @@ This document sets the rules-of-the-road for building and maintaining the repo. 
 - **Storage:** Local filesystem under `/app/data` (JSON indices + media files)
 
 ### APIs:
-- **Prompting:** xAI Grok (grok-2-latest) for all AI prompting (image briefs, motion, music, social meta)
+- **Prompting:** xAI Grok (grok-4-fast-reasoning) for all AI prompting (image briefs, motion, music, social meta)
 - **LoRA Training & Inference:** FAL.ai
 - **Image:** Leonardo.ai API
 - **Img→Vid:** Google Veo 3 on Vertex AI (6 seconds, with SynthID watermark)

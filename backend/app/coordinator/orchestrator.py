@@ -1,33 +1,35 @@
 from __future__ import annotations
 
 from app.agents import (
-    gen_image,
     image_indexer,
     prompting,
 )
-from app.core import cost
+from app.core import cost, shot_processor
 from app.core.logging import log
+from app.clients.provider_selector import image_client
 
 
 def generate_images_cycle(n: int) -> list[dict]:
-    """Runs image generation cycle only: propose → generate → index to images.json.
+    """Runs shot generation cycle: propose → generate master → dual export → index.
 
-    This is the new rating workflow: images are generated and indexed for review.
-    User then rates images (dislike/like/superlike) before video generation.
+    Mobile-first workflow:
+    - One Leonardo generation @ 1440×2560 (9:16 master)
+    - Auto-export two variants: 1080×1920 (video) + 1080×1350 (feed)
+    - Indexed for review with dual aspect ratios
 
     Args:
-        n: Number of image variations to generate
+        n: Number of shot variations to generate
 
     Returns:
-        List of metadata dicts for successfully indexed images
+        List of metadata dicts for successfully indexed shots
 
     Raises:
         RuntimeError: If budget exceeded or critical failure
     """
-    log.info(f"image_cycle_start n={n}")
+    log.info(f"shot_cycle_start n={n}")
     cost.reset_cycle()
 
-    # Propose variations
+    # Propose variations with 4:5 safe-area constraints
     try:
         proposals = prompting.propose(n)
         log.info(f"proposed_variations count={len(proposals)}")
@@ -37,30 +39,36 @@ def generate_images_cycle(n: int) -> list[dict]:
 
     results = []
 
-    # Process each variation: generate image only
+    # Process each variation: generate shot with dual exports
     for p in proposals:
-        img_id = p["id"]
-        log.info(f"image_start id={img_id}")
+        shot_id = p["id"]
+        log.info(f"shot_start id={shot_id}")
 
         try:
-            # Generate image
-            img_path = gen_image.generate(p)
-            log.info(f"image_generated id={img_id} path={img_path}")
+            # Generate shot: one Leonardo call → three derivatives (master + video + feed)
+            shot_meta = shot_processor.generate_shot(p, image_client)
+            log.info(
+                f"shot_generated id={shot_id}, exports: "
+                f"video={shot_meta.video_9x16_path}, feed={shot_meta.feed_4x5_path}"
+            )
 
             # Index to images.json for review
-            meta = image_indexer.index(img_path, p)
-            log.info(f"image_indexed id={img_id} status=pending_review")
+            meta = image_indexer.index(shot_meta, p)
+            log.info(
+                f"shot_indexed id={shot_id} status=pending_review, "
+                f"comp_warning={shot_meta.composition_warning}"
+            )
 
             results.append(meta)
 
         except Exception as e:
             log.error(
-                f"image_fail id={img_id} reason={type(e).__name__}:{e}",
+                f"shot_fail id={shot_id} reason={type(e).__name__}:{e}",
                 exc_info=True,
             )
             # Continue with next variation
 
-    log.info(f"image_cycle_complete success={len(results)} fail={n - len(results)}")
+    log.info(f"shot_cycle_complete success={len(results)} fail={n - len(results)}")
     return results
 
 

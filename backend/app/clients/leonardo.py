@@ -31,11 +31,16 @@ class LeonardoClient:
     def generate(self, payload: dict) -> str:
         """Generate an image from a prompt.
 
+        Mobile-first generation: 1440×2560 (9:16 master) for multi-aspect export.
+
         Args:
-            payload: Dictionary containing 'base' (prompt) and optional 'neg' (negative prompt)
+            payload: Dictionary containing:
+                - 'base': Main prompt
+                - 'neg': Negative prompt (optional)
+                - 'seed': Generation seed for determinism (optional)
 
         Returns:
-            Path to the generated image file
+            Path to the generated image file (1440×2560)
 
         Raises:
             RuntimeError: If generation fails or times out
@@ -45,14 +50,20 @@ class LeonardoClient:
 
         prompt = payload.get("base", "")
         negative = payload.get("neg", "")
+        seed = payload.get("seed")
 
+        # Mobile-first master resolution: 9:16 @ 1440×2560
         data = {
             "prompt": prompt,
             "negative_prompt": negative,
             "num_images": 1,
+            "width": 1440,
+            "height": 2560,
         }
         if self.model_id:
             data["modelId"] = self.model_id
+        if seed is not None:
+            data["seed"] = int(seed)
 
         # Acquire concurrency slot (max 2 concurrent Leonardo requests)
         with concurrency.leonardo_slot():

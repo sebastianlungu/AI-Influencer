@@ -43,6 +43,50 @@ An end-to-end system for generating professional AI fitness influencer content f
 
 ---
 
+## 📱 Mobile-First Architecture (Single-Generation Multi-Aspect Export)
+
+**Outcome**: One Leonardo generation produces THREE derivatives for maximum platform compatibility:
+
+```
+Leonardo @ 1440×2560 (9:16 master)
+    ↓
+    ├─> 1440×2560  Master (high-res archive)
+    ├─> 1080×1920  Video source (9:16 for Veo 3)
+    └─> 1080×1350  Feed export (4:5 for Instagram)
+```
+
+**Benefits**:
+- ✅ **Zero duplicate generations** - single API call, consistent identity
+- ✅ **Clean downscaling** - high-res master ensures quality derivatives
+- ✅ **Smart cropping** - subject detection with face/body-aware centering
+- ✅ **Composition safety** - 4:5 safe-area constraints in prompts
+- ✅ **Platform optimization** - correct aspect ratios for TikTok (9:16) and Instagram Feed (4:5)
+
+**Technical Details**:
+1. **Prompting** (Grok): Injects 4:5 safe-area constraints (10% headroom, 8% footroom, no edge contact)
+2. **Generation** (Leonardo): Creates master at 1440×2560 with deterministic seed
+3. **Video Downscale**: Lanczos resample to 1080×1920 for Veo 3 input
+4. **Feed Crop**: Smart 4:5 crop to 1080×1350 using OpenCV face detection + subject centering
+5. **Composition Warnings**: Alerts if subject may be cropped despite safe-area attempts
+
+**UI Features**:
+- Toggle between 9:16 and 4:5 previews (T key)
+- 4:5 safe-area overlay on 9:16 view (O key to toggle)
+- **Like** → uses 4:5 feed export
+- **Superlike** → uses 9:16 video export
+- Composition warnings displayed if subject near edges
+
+**Storage Structure**:
+```
+app/data/shots/{shot_id}/
+  shot_{shot_id}_master_9x16.jpg         # 1440×2560 master
+  shot_{shot_id}_video_9x16_1080x1920.jpg  # Veo 3 input
+  shot_{shot_id}_feed_4x5_1080x1350.jpg    # Instagram feed
+  meta.json  # Contains all export paths + composition warnings
+```
+
+---
+
 ## 🎯 User Workflow (Production)
 
 ### Phase 1: Image Generation & Review
@@ -433,19 +477,19 @@ with balanced headroom and diagonal skyline lines guiding focus.
 
 ### 1. Grok (xAI) - Prompt Generation
 
-**Cost**: ~$0.09 per 15-variation batch
+**Cost**: ~$0.002 per 15-variation batch (98% reduction with Grok-4-fast)
 
 1. Get API key from [xAI](https://console.x.ai/)
 2. Add to `.env`:
    ```bash
    GROK_API_KEY=xai-your-key-here
-   GROK_MODEL=grok-2-1212  # Default: grok-2-1212
+   GROK_MODEL=grok-4-fast-reasoning  # Default: grok-4-fast-reasoning
    ```
 
 **Models**:
-- `grok-2-1212`: Best quality, high creativity
-- `grok-beta`: Latest experimental features
-- `grok-2-vision-1212`: Image understanding (not currently used)
+- `grok-4-fast-reasoning`: Best performance, 98% cost reduction, fastest inference
+- `grok-4-fast-non-reasoning`: Quick responses without chain-of-thought
+- `grok-2-latest`: Legacy model (higher cost, slower)
 
 ### 2. Leonardo.ai - Image Generation
 

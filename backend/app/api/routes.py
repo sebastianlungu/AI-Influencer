@@ -277,7 +277,7 @@ def rate_image(request: Request, image_id: str, body: ImageRatingRequest) -> dic
     if not image:
         raise HTTPException(status_code=404, detail=f"Image {image_id} not found")
 
-    # Determine new status based on rating
+    # Determine new status and preferred export based on rating
     status_map = {
         "dislike": "deleted",
         "like": "liked",
@@ -285,16 +285,26 @@ def rate_image(request: Request, image_id: str, body: ImageRatingRequest) -> dic
     }
     new_status = status_map[body.rating]
 
+    # Set preferred export: like → 4:5 feed, superlike → 9:16 video
+    export_map = {
+        "like": "4x5",        # Instagram feed (1080×1350)
+        "superlike": "9x16",  # Video source (1080×1920)
+    }
+    preferred_export = export_map.get(body.rating)  # None for dislike
+
     # Update image metadata
     updates = {
         "rating": body.rating,
         "status": new_status,
         "rated_at": datetime.now(timezone.utc).isoformat(),
     }
+    if preferred_export:
+        updates["preferred_export"] = preferred_export
 
     updated = update_json_item("app/data/images.json", image_id, updates)
     log.info(
-        f"Image rated: {image_id} → rating={body.rating}, status={new_status}"
+        f"Image rated: {image_id} → rating={body.rating}, status={new_status}, "
+        f"preferred_export={preferred_export or 'N/A'}"
     )
 
     # Move file if deleted

@@ -37,8 +37,8 @@ class Settings(BaseSettings):
 
     # Grok (xAI - Image Briefs, Motion, Music, Social Meta)
     grok_api_key: str | None = Field(default=None, env="GROK_API_KEY")
-    grok_model: str = Field(default="grok-2-latest", env="GROK_MODEL")
-    grok_timeout_s: int = Field(default=45, env="GROK_TIMEOUT_S")
+    grok_model: str = Field(default="grok-4-fast-reasoning", env="GROK_MODEL")
+    grok_timeout_s: int = Field(default=30, env="GROK_TIMEOUT_S")
 
     # Suno (Music Generation)
     suno_api_key: str | None = Field(default=None, env="SUNO_API_KEY")

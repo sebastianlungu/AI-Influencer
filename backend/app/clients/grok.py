@@ -27,13 +27,13 @@ class GrokClient:
     TIMEOUT_S = 30.0
     MAX_RETRIES = 3
 
-    def __init__(self, api_key: str, model: str = "grok-2-1212"):
+    def __init__(self, api_key: str, model: str = "grok-4-fast-reasoning"):
         """
         Initialize Grok client.
 
         Args:
             api_key: xAI API key
-            model: Model ID (grok-2-1212, grok-beta, grok-2-vision-1212)
+            model: Model ID (grok-4-fast-reasoning, grok-4-fast-non-reasoning, grok-2-latest)
         """
         if not api_key:
             raise ValueError("Grok API key cannot be empty")
@@ -181,7 +181,9 @@ class GrokClient:
             f"- Full technical photography specs (lens focal length, aperture, composition, color grading)\n"
             f"- Environmental atmosphere and prop details\n"
             f"- Creative twist element in each (rain/lens flare/motion blur/mist/etc.)\n"
-            f"- Vary ALL dimensions: location, pose, outfit, accessories, props, lighting, camera, creative twist\n\n"
+            f"- Vary ALL dimensions: location, pose, outfit, accessories, props, lighting, camera, creative twist\n"
+            f"- COMPOSITION: Center subject within 4:5 safe area (10% headroom, 8% footroom, NO edge contact)\n"
+            f"- NO cropped heads/feet, NO extreme close-ups, balanced framing with clear margins\n\n"
             f"Return ONLY a valid JSON array of {n} objects:\n"
             f"{{\n"
             f'  "base": "FULL 200+ word ultra-detailed prompt following the exact format above",\n'
@@ -201,10 +203,10 @@ class GrokClient:
         )
 
         # Track estimated cost before API call
-        # Grok-2 pricing: ~$2/1M input tokens, ~$10/1M output tokens
+        # Grok-4-fast pricing: ~$0.30/1M input tokens, ~$0.75/1M output tokens (98% reduction)
         # With 200+ word prompts: ~3500 input tokens + ~8000 output tokens for 15 variations
-        # Total: ~$0.09 per 15-variation batch (200+ words each)
-        estimated_cost = Decimal("0.09") * (Decimal(n) / Decimal(15))  # Scale with batch size
+        # Total: ~$0.002 per 15-variation batch (200+ words each)
+        estimated_cost = Decimal("0.002") * (Decimal(n) / Decimal(15))  # Scale with batch size
         add_cost(estimated_cost, "grok")
 
         # Call Grok API
@@ -344,6 +346,15 @@ CRITICAL REQUIREMENTS:
 ✓ Add ONE creative twist per prompt (make each unique)
 ✓ Maximum diversity - NO repeated combinations
 
+COMPOSITION CONSTRAINTS (MOBILE-FIRST 4:5 SAFE AREA):
+✓ Center the subject within a 4:5 safe window inside the 9:16 frame
+✓ Maintain ≥10% headroom (top margin) and ≥8% footroom (bottom margin)
+✓ NO edge contact - subject must not touch frame edges
+✓ NO extreme close-ups that risk cropping head/limbs
+✓ NO cropped heads, chopped fingers, or cut-off feet
+✓ Balanced, centered framing with clear margins around subject
+✓ Full subject must be visible within the 4:5 center crop zone
+
 SAFETY BOUNDARIES:
 {negative_prompt}
 
@@ -405,8 +416,8 @@ Return ONLY valid JSON:
   "subject_motion": "Micro-motion description (e.g., 'natural breathing with slight head tilt and soft gaze shift')"
 }}"""
 
-        # Estimated cost: ~$0.01 per motion prompt
-        add_cost(Decimal("0.01"), "grok")
+        # Estimated cost: ~$0.0002 per motion prompt (98% reduction with Grok-4-fast)
+        add_cost(Decimal("0.0002"), "grok")
 
         payload = {
             "model": self.model,
@@ -494,8 +505,8 @@ Return ONLY valid JSON:
   "prompt": "Full Suno prompt: [style], [mood], [tempo], [instruments], {config.suno_clip_seconds}s instrumental"
 }}"""
 
-        # Estimated cost: ~$0.01 per music brief
-        add_cost(Decimal("0.01"), "grok")
+        # Estimated cost: ~$0.0002 per music brief (98% reduction with Grok-4-fast)
+        add_cost(Decimal("0.0002"), "grok")
 
         payload = {
             "model": self.model,
@@ -574,8 +585,8 @@ Return ONLY valid JSON:
   "hashtags": ["#fitness", "#wellness", "#yoga", "#healthylifestyle", "#mindfulness", "#morningroutine", "#fitnessmotivation", "#wellnessjourney"]
 }}"""
 
-        # Estimated cost: ~$0.01 per social meta
-        add_cost(Decimal("0.01"), "grok")
+        # Estimated cost: ~$0.0002 per social meta (98% reduction with Grok-4-fast)
+        add_cost(Decimal("0.0002"), "grok")
 
         payload = {
             "model": self.model,
