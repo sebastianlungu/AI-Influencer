@@ -145,3 +145,12 @@ export async function fetchHealth() {
   const r = await fetch("/api/healthz");
   return r.json();
 }
+
+// ============================================================================
+// Logs
+// ============================================================================
+
+export async function fetchLogs(lines = 100) {
+  const r = await fetch(`/api/logs/tail?lines=${lines}`);
+  return r.json();
+}

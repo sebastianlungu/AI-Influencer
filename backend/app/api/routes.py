@@ -4,7 +4,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import APIRouter, HTTPException, Request
+from fastapi import APIRouter, Body, HTTPException, Request
 from pydantic import BaseModel
 from slowapi import Limiter
 from slowapi.util import get_remote_address
@@ -247,7 +247,10 @@ def get_pending_image() -> dict:
 
 @router.put("/images/{image_id}/rate")
 @limiter.limit("60/minute")
-def rate_image(request: Request, image_id: str, body: ImageRatingRequest) -> dict:
+async def rate_image(
+    request: Request,
+    image_id: str
+) -> dict:
     """Rate an image (dislike/like/superlike).
 
     - dislike: status → "deleted", file moved to deleted/
@@ -255,16 +258,27 @@ def rate_image(request: Request, image_id: str, body: ImageRatingRequest) -> dic
     - superlike: status → "superliked" (queued for video generation)
 
     Args:
-        request: FastAPI request object (for rate limiting)
+        request: FastAPI request object (for rate limiting + body parsing)
         image_id: Image ID to rate
-        body: Rating request with rating field
 
     Returns:
         Updated image metadata
 
     Raises:
-        HTTPException: 400 if invalid rating, 404 if image not found
+        HTTPException: 400 if invalid rating or body, 404 if image not found
     """
+    # Parse body manually to work around slowapi/FastAPI integration issue
+    try:
+        body_bytes = await request.body()
+        import json
+        body_dict = json.loads(body_bytes)
+        body = ImageRatingRequest(**body_dict)
+    except Exception as e:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid request body: {str(e)}"
+        )
+
     valid_ratings = ["dislike", "like", "superlike"]
     if body.rating not in valid_ratings:
         raise HTTPException(
@@ -406,23 +420,34 @@ def get_pending_video() -> dict:
 
 @router.put("/videos/{video_id}/rate")
 @limiter.limit("60/minute")
-def rate_video(request: Request, video_id: str, body: VideoRatingRequest) -> dict:
+async def rate_video(request: Request, video_id: str) -> dict:
     """Rate a video (dislike/like).
 
     - dislike: status → "deleted", file moved to deleted/ (will regenerate with different motion)
     - like: status → "approved" (queued for posting to TikTok)
 
     Args:
-        request: FastAPI request object (for rate limiting)
+        request: FastAPI request object (for rate limiting + body parsing)
         video_id: Video ID to rate
-        body: Rating request with rating field
 
     Returns:
         Updated video metadata
 
     Raises:
-        HTTPException: 400 if invalid rating, 404 if video not found
+        HTTPException: 400 if invalid rating or body, 404 if video not found
     """
+    # Parse body manually to work around slowapi/FastAPI integration issue
+    try:
+        body_bytes = await request.body()
+        import json
+        body_dict = json.loads(body_bytes)
+        body = VideoRatingRequest(**body_dict)
+    except Exception as e:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid request body: {str(e)}"
+        )
+
     valid_ratings = ["dislike", "like"]
     if body.rating not in valid_ratings:
         raise HTTPException(
@@ -854,20 +879,31 @@ class MusicRatingRequest(BaseModel):
 
 @router.put("/videos/{video_id}/music/rate")
 @limiter.limit("30/minute")
-def rate_video_music(request: Request, video_id: str, body: MusicRatingRequest) -> dict:
+async def rate_video_music(request: Request, video_id: str) -> dict:
     """Rate the music for a video (approve, regenerate, or skip).
 
     Args:
-        request: FastAPI request object (for rate limiting)
+        request: FastAPI request object (for rate limiting + body parsing)
         video_id: Video ID
-        body: Rating request
 
     Returns:
         Dict with updated status
 
     Raises:
-        HTTPException: 404 if video not found, 400 if invalid status
+        HTTPException: 404 if video not found, 400 if invalid status or body
     """
+    # Parse body manually to work around slowapi/FastAPI integration issue
+    try:
+        body_bytes = await request.body()
+        import json
+        body_dict = json.loads(body_bytes)
+        body = MusicRatingRequest(**body_dict)
+    except Exception as e:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid request body: {str(e)}"
+        )
+
     # Find video
     video = find_json_item("app/data/videos.json", video_id)
     if not video:
@@ -1332,3 +1368,38 @@ def healthz() -> dict:
         "suno_config": suno_config,
         "qa_config": qa_config,
     }
+
+
+@router.get("/logs/tail")
+@limiter.limit("60/minute")
+def get_logs_tail(request: Request, lines: int = 100) -> dict:
+    """Get last N lines from logs.txt for real-time log viewing.
+
+    Args:
+        request: FastAPI request object (for rate limiting)
+        lines: Number of lines to return (default 100, max 500)
+
+    Returns:
+        Dict with log lines array and metadata
+    """
+    max_lines = min(lines, 500)  # Cap at 500 lines
+    log_file = "app/data/logs.txt"
+
+    if not os.path.exists(log_file):
+        return {"ok": True, "logs": [], "message": "No logs yet"}
+
+    try:
+        with open(log_file, "r", encoding="utf-8") as f:
+            all_lines = f.readlines()
+            tail_lines = all_lines[-max_lines:] if len(all_lines) > max_lines else all_lines
+
+        return {
+            "ok": True,
+            "logs": [line.rstrip('\n') for line in tail_lines],
+            "total_lines": len(all_lines),
+            "returned_lines": len(tail_lines)
+        }
+    except Exception as e:
+        log.error(f"Failed to read logs: {e}")
+        return {"ok": False, "error": str(e)}
+

@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import subprocess
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from slowapi import Limiter
 from slowapi.util import get_remote_address
@@ -13,7 +14,7 @@ from slowapi.util import get_remote_address
 from app.api.routes import router
 from app.core.config import settings
 from app.core.logging import log
-from app.core.paths import get_data_path
+from app.core.paths import get_data_path, PROJECT_ROOT
 from app.core.scheduler import start_scheduler, stop_scheduler
 
 
@@ -91,7 +92,7 @@ app.state.limiter = limiter
 # CORS middleware - restrict to localhost in development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Frontend dev server
+    allow_origins=["http://localhost:5173", "http://localhost:5174"],  # Frontend dev server
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -124,6 +125,28 @@ async def security_headers_middleware(request: Request, call_next):
     return response
 
 
+# Serve app directory files via endpoint (must be BEFORE router/mounts to take precedence)
+@app.get("/app/{full_path:path}")
+async def serve_app_files(full_path: str):
+    """Serve files from backend/app/ directory."""
+    backend_app_dir = Path(__file__).resolve().parent
+    file_path = backend_app_dir / full_path
+
+    # Security check: ensure path is within backend/app/
+    try:
+        file_path = file_path.resolve()
+        backend_app_dir = backend_app_dir.resolve()
+        if not str(file_path).startswith(str(backend_app_dir)):
+            return JSONResponse({"error": "Invalid path"}, status_code=403)
+    except Exception:
+        return JSONResponse({"error": "Invalid path"}, status_code=403)
+
+    if not file_path.exists() or not file_path.is_file():
+        return JSONResponse({"error": "Not found"}, status_code=404)
+
+    return FileResponse(file_path)
+
+
 # API routes
 app.include_router(router, prefix="/api")
 
@@ -138,4 +161,24 @@ def root() -> dict:
         "name": "AI Influencer Backend",
         "docs": "/docs",
         "health": "/api/healthz",
+    }
+
+
+@app.get("/debug/image-path")
+def debug_image_path() -> dict:
+    """Debug endpoint to check image path resolution."""
+    from pathlib import Path
+    import os
+
+    backend_app = Path(__file__).resolve().parent
+    image_rel_path = "data/generated/images/9311562dfcf5d60a.png"
+    image_full_path = backend_app / image_rel_path
+
+    return {
+        "backend_app_dir": str(backend_app),
+        "image_rel_path": image_rel_path,
+        "image_full_path": str(image_full_path),
+        "file_exists": image_full_path.exists(),
+        "file_size": image_full_path.stat().st_size if image_full_path.exists() else None,
+        "is_file": image_full_path.is_file() if image_full_path.exists() else None,
     }

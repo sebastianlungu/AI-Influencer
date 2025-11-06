@@ -19,6 +19,13 @@ export default function QueueView() {
   const [batchSize, setBatchSize] = useState(10);
   const [queueStatus, setQueueStatus] = useState(null);
   const [processing, setProcessing] = useState(false);
+  const [toast, setToast] = useState(null);
+
+  // Show toast notification
+  const showToast = (message, type = "success") => {
+    setToast({ message, type });
+    setTimeout(() => setToast(null), 5000); // Auto-hide after 5 seconds
+  };
 
   const loadQueues = async () => {
     setLoading(true);
@@ -63,11 +70,11 @@ export default function QueueView() {
     setError(null);
     try {
       const result = await generate(batchSize);
-      alert(`✅ Generated ${result.items?.length || 0} images`);
+      showToast(`Generated ${result.items?.length || 0} images`, "success");
       // Don't reload queues here - images go to ImageReview first
     } catch (e) {
       setError(e.message || "Image generation failed");
-      alert(`❌ ${e.message || "Image generation failed"}`);
+      showToast(e.message || "Image generation failed", "error");
     } finally {
       setGenerating(false);
     }
@@ -79,17 +86,17 @@ export default function QueueView() {
       const result = await processVideoQueue();
       if (result.processed) {
         if (result.ok) {
-          alert(`✅ Video generated: ${result.image_id}`);
+          showToast(`Video generated: ${result.image_id}`, "success");
         } else {
-          alert(`❌ Failed: ${result.error}`);
+          showToast(`Failed: ${result.error}`, "error");
         }
       } else {
-        alert("Queue is empty");
+        showToast("Queue is empty", "info");
       }
       loadQueueStatus(); // Refresh status
       loadQueues(); // Refresh queues
     } catch (e) {
-      alert(e.message || "Queue processing failed");
+      showToast(e.message || "Queue processing failed", "error");
     } finally {
       setProcessing(false);
     }
@@ -232,6 +239,23 @@ export default function QueueView() {
           </div>
         ))}
       </div>
+
+      {/* Toast notification */}
+      {toast && (
+        <div
+          style={{
+            ...styles.toast,
+            ...(toast.type === "success" ? styles.toastSuccess : {}),
+            ...(toast.type === "error" ? styles.toastError : {}),
+            ...(toast.type === "info" ? styles.toastInfo : {}),
+          }}
+        >
+          {toast.type === "success" && "✅ "}
+          {toast.type === "error" && "❌ "}
+          {toast.type === "info" && "ℹ️ "}
+          {toast.message}
+        </div>
+      )}
     </div>
   );
 }
@@ -420,5 +444,32 @@ const styles = {
     fontSize: "14px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
     fontWeight: "500",
+  },
+  toast: {
+    position: "fixed",
+    bottom: "24px",
+    left: "50%",
+    transform: "translateX(-50%)",
+    padding: "12px 24px",
+    borderRadius: "6px",
+    fontSize: "14px",
+    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
+    fontWeight: "500",
+    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
+    zIndex: 1000,
+    maxWidth: "500px",
+    textAlign: "center",
+  },
+  toastSuccess: {
+    backgroundColor: "#10b981",
+    color: "#fff",
+  },
+  toastError: {
+    backgroundColor: "#ef4444",
+    color: "#fff",
+  },
+  toastInfo: {
+    backgroundColor: "#3b82f6",
+    color: "#fff",
   },
 };

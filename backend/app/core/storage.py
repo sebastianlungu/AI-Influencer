@@ -48,17 +48,18 @@ def _dump(path: str, data: list[dict[str, Any]]) -> None:
     os.replace(tmp, path)
 
 
-def atomic_write(path: str, content: str) -> None:
+def atomic_write(path: str | Path, content: str) -> None:
     """Atomically writes string content to file using temp + rename.
 
     Args:
-        path: Path to file
+        path: Path to file (str or Path object)
         content: String content to write
 
     Note:
         Thread-safe atomic write for any text content (JSON, logs, etc.)
         Uses temp + rename pattern to prevent corruption.
     """
+    path = str(path)  # Convert Path to string if needed
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         f.write(content)

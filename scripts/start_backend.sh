@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Backend startup script with port cleanup
-# Kills any process on port 5001, then starts FastAPI server
+# Kills any process on port 8765, then starts FastAPI server
 
 set -e  # Exit on error
 
-PORT=5001
+PORT=8765
 BACKEND_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
 echo "🧹 Checking for processes on port $PORT..."

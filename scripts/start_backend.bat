@@ -1,10 +1,10 @@
 @echo off
 REM Backend startup script with port cleanup for Windows
-REM Kills any process on port 5001, then starts FastAPI server
+REM Kills any process on port 8765, then starts FastAPI server
 
 setlocal enabledelayedexpansion
 
-set PORT=5001
+set PORT=8765
 set BACKEND_DIR=%~dp0..
 
 echo.

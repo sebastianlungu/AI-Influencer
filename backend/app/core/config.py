@@ -46,9 +46,32 @@ class Settings(BaseSettings):
     suno_clip_seconds: int = Field(default=6, env="SUNO_CLIP_SECONDS")
     suno_style_hints_default: str = Field(default="ambient cinematic fitness", env="SUNO_STYLE_HINTS_DEFAULT")
 
-    # Leonardo (Image Generation)
+    # Leonardo (Image Generation) - LOCKED TO VISION XL + EVA JOY LORA
     leonardo_api_key: str | None = Field(default=None, env="LEONARDO_API_KEY")
-    leonardo_model_id: str | None = Field(default=None, env="LEONARDO_MODEL_ID")
+    # REQUIRED: Vision XL model ID (fails at startup if missing)
+    leonardo_model_id: str = Field(env="LEONARDO_MODEL_ID")
+    # Eva Joy LoRA Element (LOCKED)
+    leonardo_lora_id: int = Field(default=155265, env="LEONARDO_LORA_ID")
+    leonardo_lora_weight: float = Field(default=0.80, env="LEONARDO_LORA_WEIGHT")
+    # Native 9:16 High-Res (NO UPSCALING) - Max 1536px height per Leonardo API limits
+    leonardo_width: int = Field(default=864, env="LEONARDO_WIDTH")
+    leonardo_height: int = Field(default=1536, env="LEONARDO_HEIGHT")
+    # Generation Quality
+    leonardo_cfg: float = Field(default=7.0, env="LEONARDO_CFG")
+    leonardo_steps: int = Field(default=32, env="LEONARDO_STEPS")
+    # Guards (fail-loud)
+    leonardo_require_compatible_base: bool = Field(default=True, env="LEONARDO_REQUIRE_COMPATIBLE_BASE")
+    leonardo_forbid_fallbacks: bool = Field(default=True, env="LEONARDO_FORBID_FALLBACKS")
+    # Legacy (deprecated - for backward compatibility)
+    leonardo_element_id: str | None = Field(default="155265", env="LEONARDO_ELEMENT_ID")
+    leonardo_element_trigger: str | None = Field(default="evajoy", env="LEONARDO_ELEMENT_TRIGGER")
+    leonardo_element_weight: float = Field(default=0.80, env="LEONARDO_ELEMENT_WEIGHT")
+
+    # Prompt guardrails (length only, no SFW redrafting)
+    prompt_max_len: int = Field(default=900, env="PROMPT_MAX_LEN")
+    negative_max_len: int = Field(default=400, env="NEGATIVE_MAX_LEN")
+    prompt_allow_rewrite: bool = Field(default=False, env="PROMPT_ALLOW_REWRITE")
+    rewrite_max_attempts: int = Field(default=0, env="REWRITE_MAX_ATTEMPTS")
 
     # Local AV Tools
     ffmpeg_path: str = Field(default="ffmpeg", env="FFMPEG_PATH")

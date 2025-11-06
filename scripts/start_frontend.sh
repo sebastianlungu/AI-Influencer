@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Frontend startup script with port cleanup
-# Kills any process on port 5000, then starts Vite dev server
+# Kills any process on port 5173, then starts Vite dev server
 
 set -e  # Exit on error
 
-PORT=5000
+PORT=5173
 FRONTEND_DIR="$(cd "$(dirname "$0")/../frontend" && pwd)"
 
 echo "🧹 Checking for processes on port $PORT..."
