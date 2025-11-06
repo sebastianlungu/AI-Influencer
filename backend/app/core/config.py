@@ -56,9 +56,13 @@ class Settings(BaseSettings):
     # Native 9:16 High-Res (NO UPSCALING) - Max 1536px height per Leonardo API limits
     leonardo_width: int = Field(default=864, env="LEONARDO_WIDTH")
     leonardo_height: int = Field(default=1536, env="LEONARDO_HEIGHT")
-    # Generation Quality
+    # Alchemy V2 (REQUIRED for Vision XL + custom Elements)
+    leonardo_use_alchemy: bool = Field(default=True, env="LEONARDO_USE_ALCHEMY")
+    leonardo_preset_style: str = Field(default="DYNAMIC", env="LEONARDO_PRESET_STYLE")
+    # Generation Quality (legacy parameters - may not work with Alchemy)
     leonardo_cfg: float = Field(default=7.0, env="LEONARDO_CFG")
     leonardo_steps: int = Field(default=32, env="LEONARDO_STEPS")
+    leonardo_use_legacy_params: bool = Field(default=False, env="LEONARDO_USE_LEGACY_PARAMS")
     # Guards (fail-loud)
     leonardo_require_compatible_base: bool = Field(default=True, env="LEONARDO_REQUIRE_COMPATIBLE_BASE")
     leonardo_forbid_fallbacks: bool = Field(default=True, env="LEONARDO_FORBID_FALLBACKS")

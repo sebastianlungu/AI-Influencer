@@ -208,8 +208,6 @@ class LeonardoClient:
             "width": settings.leonardo_width,      # 864
             "height": settings.leonardo_height,    # 1536
             "num_images": 1,
-            "num_inference_steps": settings.leonardo_steps,   # 32
-            "guidance_scale": settings.leonardo_cfg,          # 7.0
             "userElements": [
                 {
                     "userLoraId": int(settings.leonardo_lora_id),  # Leonardo API requires integer
@@ -217,6 +215,17 @@ class LeonardoClient:
                 }
             ]
         }
+
+        # Add Alchemy V2 (REQUIRED for Vision XL + custom Elements)
+        if settings.leonardo_use_alchemy:
+            data["alchemy"] = True
+            data["presetStyle"] = settings.leonardo_preset_style
+
+        # Add legacy parameters only if explicitly enabled (may conflict with Alchemy)
+        if settings.leonardo_use_legacy_params:
+            data["num_inference_steps"] = settings.leonardo_steps   # 32
+            data["guidance_scale"] = settings.leonardo_cfg          # 7.0
+
         # Add negative prompt only if provided
         if negative:
             data["negative_prompt"] = negative
@@ -372,10 +381,18 @@ class LeonardoClient:
                         with Image.open(tmp.name) as img:
                             actual_width, actual_height = img.size
 
-                        if actual_width != 864 or actual_height != 1536:
+                        # Calculate expected dimensions (Alchemy applies 1.75x upscaling)
+                        if data.get("alchemy"):
+                            expected_width = int(settings.leonardo_width * 1.75)   # 864 * 1.75 = 1512
+                            expected_height = int(settings.leonardo_height * 1.75) # 1536 * 1.75 = 2688
+                        else:
+                            expected_width = settings.leonardo_width    # 864
+                            expected_height = settings.leonardo_height  # 1536
+
+                        if actual_width != expected_width or actual_height != expected_height:
                             raise RuntimeError(
                                 f"Leonardo drift: returned image size mismatch "
-                                f"(expected 864x1536, got {actual_width}x{actual_height})"
+                                f"(expected {expected_width}x{expected_height}, got {actual_width}x{actual_height})"
                             )
 
                         # Verify model used (from generation metadata)
@@ -395,13 +412,18 @@ class LeonardoClient:
                             for lora in used_loras
                         ) if used_loras else False
 
+                        # Extract Alchemy status from response
+                        alchemy_used = gj.get("generations_by_pk", {}).get("alchemy") or gj.get("alchemy") or False
+                        preset_used = gj.get("generations_by_pk", {}).get("presetStyle") or gj.get("presetStyle") or "none"
+
                         # LEO_DIAG: Single-line diagnostic (EXACT SPEC)
                         log.info(
                             f"LEO_DIAG requested=(model={data['modelId'][:40]}... "
                             f"size={data['width']}x{data['height']} "
-                            f"steps={data['num_inference_steps']} cfg={data['guidance_scale']} "
+                            f"alchemy={data.get('alchemy', False)} preset={data.get('presetStyle', 'none')} "
+                            f"steps={data.get('num_inference_steps', 'auto')} cfg={data.get('guidance_scale', 'auto')} "
                             f"lora={settings.leonardo_lora_id}@{settings.leonardo_lora_weight}) "
-                            f"applied=(lora_present={lora_applied}) "
+                            f"applied=(alchemy={alchemy_used} preset={preset_used} lora_present={lora_applied}) "
                             f"gen_id={gen_id} path={tmp.name}"
                         )
 
