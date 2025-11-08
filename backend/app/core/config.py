@@ -24,6 +24,19 @@ class Settings(BaseSettings):
     gen_seconds: int = Field(default=6, env="GEN_DEFAULT_SECONDS")
     gen_fps: int = Field(default=12, env="GEN_DEFAULT_FPS")
 
+    # Manual workflow directories
+    prompts_out_dir: str = Field(default="app/data/prompts", env="PROMPTS_OUT_DIR")
+    persona_file: str = Field(default="app/data/persona.json", env="PERSONA_FILE")
+    variety_file: str = Field(default="app/data/variety_bank.json", env="VARIETY_FILE")
+    manual_images_dir: str = Field(default="app/data/manual/images", env="MANUAL_IMAGES_DIR")
+    manual_videos_dir: str = Field(default="app/data/manual/videos", env="MANUAL_VIDEOS_DIR")
+
+    # Enforced formats
+    image_width: int = Field(default=864, env="IMAGE_WIDTH")
+    image_height: int = Field(default=1536, env="IMAGE_HEIGHT")
+    video_must_be_seconds: int = Field(default=6, env="VIDEO_MUST_BE_SECONDS")
+    video_aspect: str = Field(default="9:16", env="VIDEO_ASPECT")
+
     # Provider selection
     video_provider: str = Field(default="veo", env="VIDEO_PROVIDER")
 
@@ -68,11 +81,11 @@ class Settings(BaseSettings):
     leonardo_forbid_fallbacks: bool = Field(default=True, env="LEONARDO_FORBID_FALLBACKS")
     # Legacy (deprecated - for backward compatibility)
     leonardo_element_id: str | None = Field(default="155265", env="LEONARDO_ELEMENT_ID")
-    leonardo_element_trigger: str | None = Field(default="evajoy", env="LEONARDO_ELEMENT_TRIGGER")
+    leonardo_element_trigger: str | None = Field(default=None, env="LEONARDO_ELEMENT_TRIGGER")
     leonardo_element_weight: float = Field(default=0.80, env="LEONARDO_ELEMENT_WEIGHT")
 
     # Prompt guardrails (length only, no SFW redrafting)
-    prompt_max_len: int = Field(default=900, env="PROMPT_MAX_LEN")
+    prompt_max_len: int = Field(default=1500, env="PROMPT_MAX_LEN")
     negative_max_len: int = Field(default=400, env="NEGATIVE_MAX_LEN")
     prompt_allow_rewrite: bool = Field(default=False, env="PROMPT_ALLOW_REWRITE")
     rewrite_max_attempts: int = Field(default=0, env="REWRITE_MAX_ATTEMPTS")

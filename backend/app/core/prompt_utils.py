@@ -6,12 +6,12 @@ import hashlib
 import re
 
 
-def compact_prompt(raw: str, *, max_len: int = 900, trigger: str | None = None) -> dict:
+def compact_prompt(raw: str, *, max_len: int = 1500, trigger: str | None = None) -> dict:
     """Compact prompt for Leonardo API compliance (format/length only, no semantic changes).
 
     Args:
         raw: Raw prompt text from Grok
-        max_len: Maximum length (default 900 for Leonardo)
+        max_len: Maximum length (default 1500 for Leonardo)
         trigger: Optional trigger word to ensure appears once at start
 
     Returns:

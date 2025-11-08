@@ -8,6 +8,7 @@ across multiple dimensions: locations, poses, outfits, activities, etc.
 from __future__ import annotations
 
 import json
+import re  # Keep this import even though not used directly in this module
 import time
 from decimal import Decimal
 from typing import Any
@@ -17,6 +18,7 @@ import httpx
 from app.core import concurrency
 from app.core.cost import add_cost
 from app.core.logging import log
+from app.core.variety_tracker import get_recent_location_strings
 
 
 class GrokClient:
@@ -538,6 +540,525 @@ Return ONLY valid JSON:
 
         except (json.JSONDecodeError, KeyError, ValueError) as e:
             raise RuntimeError(f"Failed to parse Grok music response: {e}\nContent: {content[:500]}") from e
+
+    def generate_prompt_bundle(
+        self,
+        setting: str,
+        seed_words: list[str] | None = None,
+        count: int = 1,
+    ) -> list[dict[str, Any]]:
+        """
+        Generate prompt bundles (image + video prompts) for manual generation workflow.
+
+        Args:
+            setting: High-level setting input (e.g., "Japan", "Santorini")
+            seed_words: Optional embellisher keywords
+            count: Number of prompt bundles to generate (1-10)
+
+        Returns:
+            List of dicts with keys:
+                - id: Unique prompt bundle ID (pr_...)
+                - image_prompt: Dict with final_prompt, negative_prompt, width, height
+                - video_prompt: Dict with motion, character_action, environment, duration_seconds, notes
+
+        Raises:
+            RuntimeError: On API failures or invalid config files
+        """
+        from app.core.config import settings as config
+        from app.core.paths import get_data_path
+
+        # Load persona and variety bank
+        try:
+            persona_path = get_data_path("persona.json")
+            variety_path = get_data_path("variety_bank.json")
+            with open(persona_path, "r", encoding="utf-8") as f:
+                persona = json.load(f)
+            with open(variety_path, "r", encoding="utf-8") as f:
+                variety_bank = json.load(f)
+        except FileNotFoundError as e:
+            raise RuntimeError(
+                f"Missing config file: {e.filename}. "
+                f"Ensure persona.json and variety_bank.json exist."
+            ) from e
+        except json.JSONDecodeError as e:
+            raise RuntimeError(f"Invalid JSON in config file: {e}") from e
+
+        log.info(f"GROK_PROMPT_BUNDLE setting={setting} seed_words={seed_words} count={count}")
+
+        # Build system prompt
+        try:
+            import traceback
+            log.info("DEBUG: About to build system prompt")
+            system_prompt = self._build_prompt_bundle_system(persona, variety_bank)
+            log.info("DEBUG: System prompt built successfully")
+        except Exception as e:
+            tb = traceback.format_exc()
+            log.error(f"ERROR building system prompt: {e}\n{tb}")
+            raise
+
+        # Build user prompt with dynamic appearance
+        seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
+
+        # Build appearance descriptor from persona.json (same as system prompt)
+        appearance = (
+            f"{persona.get('hair', 'medium wavy blonde hair')}, "
+            f"{persona.get('eyes', 'saturated blue eyes')}, "
+            f"{persona.get('body', 'busty muscular curvy physique with defined abs, legs, and arms')}, "
+            f"{persona.get('skin', 'sun-kissed realistic glowing skin with high radiant complexion and natural wet highlights')}"
+        )
+
+        user_prompt = f"""Generate {count} prompt bundle(s) for setting: "{setting}"{seed_text}
+
+Each bundle MUST include:
+1. **Image Prompt**: Photorealistic glamour portrait with diverse attributes
+2. **Video Prompt**: Paired 6-second motion prompt for the same scene
+
+Return ONLY valid JSON array of {count} object(s). Example final_prompt format - THIS MUST BE YOUR TEMPLATE (1200-1450 characters, comprehensive):
+{{
+  "image_prompt": {{
+    "final_prompt": "photorealistic vertical 9:16 image of a 28-years-old woman with {appearance}, captured in medium shot (waist up) at a luxury Tokyo penthouse rooftop infinity pool at dusk, city skyline glittering below, modern glass railings. Camera: 50mm f/2.0 from subtle high beauty angle. She wears orchid-purple strappy sports bra with criss-cross back detailing and matching high-cut micro thong-style workout shorts with sheer mesh side panels; accessories include delicate layered gold necklaces, diamond tennis bracelet on right wrist, rose-gold anklet. Pose: leaning forward with torso bent 30 degrees, right hand on pool edge, left hand running through windblown hair, shoulders angled diagonal, weight on left hip with right leg bent and heel lifted, sultry playful expression with half-smile and direct gaze. Post-workout skin with dewy moisture sheen and specular highlights on cheekbones, collarbones, shoulders, upper chest. Lighting: golden hour backlight creates warm rim glow on right side, soft bounce fill from left, city lights bokeh adds depth. Environment: crystalline pool water with ripples, Tokyo skyline with illuminated skyscrapers in soft focus, wispy sunset clouds. Colors: warm golden sunset with coral and amber mixing with cool steel-blue shadows and orchid purple wardrobe. Composition: subject on right third, minimal headroom, diagonal body line, 9:16 mobile framing",
+    "negative_prompt": "[concatenated persona.dont + variety_bank.negative, deduped]",
+    "width": 864,
+    "height": 1536
+  }},
+  "video_prompt": {{
+    "motion": "gentle push-in with subtle tilt",
+    "character_action": "sultry glance shifting from pool to camera, fingers running through hair",
+    "environment": "infinity pool ripples catching golden hour light, Tokyo skyline bokeh",
+    "duration_seconds": 6,
+    "notes": "emphasize confident allure and luxury setting ambience"
+  }}
+}}
+
+MANDATORY REQUIREMENTS - EVERY PROMPT MUST INCLUDE ALL OF THESE:
+
+1. **OPENING FORMAT** (use appearance descriptor):
+   "photorealistic vertical 9:16 image of a 28-years-old woman with {appearance}, captured in [SHOT TYPE] at [COMBINED SETTING + SCENE]"
+
+   Where appearance = {appearance}
+
+2. **SHOT TYPE** (rotate for variety - MUST specify one):
+   - Close-up portrait: face and shoulders only, emphasis on expression
+   - Medium shot: waist up, showing pose and wardrobe
+   - 3/4 body: thighs up, full outfit visible
+   - Full body: head to toe, environment context
+
+3. **SETTING + SCENE COMBINATION** (REQUIRED - two-part system):
+   - **SETTING**: Choose broad geographic location (Japan, Greece, Indonesia, United States, etc.)
+   - **SCENE**: Choose or create specific detailed environment with atmosphere and visual details
+   - **COMBINE**: Merge setting with scene, adding city/region specificity
+
+   Examples:
+   • "Japan" + "luxury penthouse rooftop infinity pool at dusk" → "at a luxury Tokyo penthouse rooftop infinity pool at dusk, city skyline glittering below, modern glass railings"
+   • "Greece" + "whitewashed cliffside terrace overlooking turquoise sea" → "at a whitewashed Santorini cliffside terrace overlooking turquoise Aegean sea, blue-domed chapel in soft-focus background"
+   • "Indonesia" + "beachfront villa deck" → "at a sun-drenched Bali beachfront villa deck with teak flooring, infinity pool merging with ocean horizon, tropical palms swaying"
+
+4. **CAMERA TECHNICAL** (REQUIRED):
+   - Specific lens: 35mm / 50mm / 85mm
+   - Aperture: f/1.8 / f/2.0 / f/2.8
+   - Angle: low angle hero / high beauty angle / Dutch tilt / eye-level intimate / side profile
+   - Include technical composition notes
+
+5. **WARDROBE** (REQUIRED - comprehensive description):
+   - Base garment with "micro" prefix: micro-crop / micro-shorts / micro-bra / barely-there bikini
+   - Color and fabric details: "champagne satin" / "sheer mesh" / "metallic rose-gold"
+   - Fit and revealing details: "underboob cutout" / "plunging neckline" / "side cutouts" / "thong-cut"
+   - Must describe completely, not just name the item
+
+6. **ACCESSORIES** (REQUIRED - select 2-3):
+   - Choose from: minimalist gold studs, delicate layered necklaces, rose-gold chain anklet, thin diamond tennis bracelet, oversized sunglasses, dainty belly chain, gold hoop earrings, gemstone body jewelry, silk hair ribbon, pearl drop earrings, stack of thin bangles, leather wrap bracelet
+
+7. **POSE & BODY MECHANICS** (REQUIRED - ultra-detailed):
+   - Specific body position: leaning forward / kneeling / lying on side / standing
+   - Body mechanics: torso angle, weight distribution, limb placement (be precise: "torso bent at 30 degrees, right elbow on knee")
+   - Micro-action: hair flip / adjusting strap / stretching / over-shoulder glance
+   - Expression: sultry / playful / confident / intense
+   - Gaze direction: to camera / away / over shoulder / downward
+
+8. **SKIN REALISM** (REQUIRED):
+   - "realistic wet skin with strong specular highlights across cheekbones, collarbones, shoulders" OR
+   - "post-workout dewy moisture sheen" OR
+   - "tan oil sheen with golden glow"
+   - Must mention specific body areas catching light
+
+9. **LIGHTING SETUP** (REQUIRED - multi-source with directions):
+   - Primary source: golden hour backlight / window key from left / studio beauty light
+   - Secondary source: bounce fill / rim light / environmental ambient
+   - Direction and effect: "creates warm rim glow along right side", "separates subject from background"
+   - Must describe 3-4 light sources with spatial details
+
+10. **ENVIRONMENT DETAILS** (REQUIRED - 3-4 specific elements):
+    - NOT generic ("beautiful beach") but specific ("crystalline infinity pool water with gentle ripples")
+    - Include foreground, midground, background elements
+    - Tie to setting expansion
+
+11. **COLOR PALETTE** (REQUIRED):
+    - Overall color scheme from variety bank: "warm golden sunset with coral accents" / "cool steel-blue ambient with bronze highlights"
+    - How it ties together: wardrobe + lighting + environment
+
+12. **COMPOSITION & FRAMING** (REQUIRED):
+    - Rule of thirds positioning
+    - Headroom/negative space
+    - Diagonal lines or visual flow
+    - Social-media vertical framing notes
+    - Safe zones for 9:16 mobile viewing
+
+**TARGET LENGTH**: 300-500 words per final_prompt - be comprehensive and holistic
+
+**VARIETY**: Rotate ALL elements across multiple generations - shot types, settings, wardrobes, poses, lighting, angles
+
+**FORBIDDEN**: "NATIVE 9:16", resolution text, "evajoy", LoRA names, identity triggers"""
+
+        # Estimated cost: ~$0.001 per bundle (smaller than full variation gen)
+        estimated_cost = Decimal("0.001") * Decimal(count)
+        add_cost(estimated_cost, "grok")
+
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "temperature": 0.9,  # High creativity for diversity
+            "max_tokens": 3000,
+        }
+
+        response = self._make_request("chat/completions", payload)
+
+        try:
+            content = response["choices"][0]["message"]["content"].strip()
+
+            # Extract JSON from markdown code blocks
+            if content.startswith("```"):
+                lines = content.split("\n")
+                content = "\n".join(lines[1:-1]) if len(lines) > 2 else content
+                content = content.replace("```json", "").replace("```", "").strip()
+
+            bundles = json.loads(content)
+
+            if not isinstance(bundles, list):
+                raise ValueError("Response is not a JSON array")
+
+            # Validate and enrich each bundle
+            enriched = []
+            for i, bundle in enumerate(bundles):
+                if not isinstance(bundle, dict):
+                    log.warning(f"Bundle {i} is not a dict, skipping")
+                    continue
+
+                if "image_prompt" not in bundle or "video_prompt" not in bundle:
+                    log.warning(f"Bundle {i} missing image_prompt or video_prompt, skipping")
+                    continue
+
+                # Validate dimensions
+                img = bundle["image_prompt"]
+                if img.get("width") != 864 or img.get("height") != 1536:
+                    raise ValueError(f"Bundle {i} has invalid dimensions: {img.get('width')}×{img.get('height')}")
+
+                # Clean up final_prompt: remove resolution prefix and identity triggers
+                if "final_prompt" in img:
+                    prompt = img["final_prompt"]
+
+                    # Remove "NATIVE 9:16 (864×1536); " prefix (simple string removal)
+                    if prompt.startswith("NATIVE "):
+                        # Find the first semicolon and remove everything before it
+                        semicolon_idx = prompt.find(";")
+                        if semicolon_idx != -1:
+                            prompt = prompt[semicolon_idx + 1:].strip()
+
+                    # Remove "evajoy, " and "evajoy " occurrences (case insensitive)
+                    prompt = prompt.replace("evajoy, ", "").replace("evajoy ", "").replace("Evajoy, ", "").replace("Evajoy ", "")
+
+                    # Remove "photorealistic vertical 9:16" prefix if present
+                    if prompt.lower().startswith("photorealistic vertical 9:16"):
+                        # Find the first semicolon and remove everything before it
+                        semicolon_idx = prompt.find(";")
+                        if semicolon_idx != -1:
+                            prompt = prompt[semicolon_idx + 1:].strip()
+
+                    img["final_prompt"] = prompt.strip()
+
+                # Validate video duration
+                vid = bundle["video_prompt"]
+                if vid.get("duration_seconds") != 6:
+                    raise ValueError(f"Bundle {i} has invalid duration: {vid.get('duration_seconds')}s")
+
+                # Generate unique ID
+                import hashlib
+                bundle_hash = hashlib.sha256(
+                    (setting + str(seed_words) + str(i) + str(time.time())).encode()
+                ).hexdigest()[:12]
+                bundle["id"] = f"pr_{bundle_hash}"
+
+                enriched.append(bundle)
+
+            if len(enriched) == 0:
+                raise ValueError("No valid bundles in Grok response")
+
+            log.info(f"Successfully generated {len(enriched)} prompt bundle(s)")
+            return enriched
+
+        except json.JSONDecodeError as e:
+            raise RuntimeError(
+                f"Failed to parse Grok prompt bundle response as JSON: {e}\n"
+                f"Response content: {content[:500]}..."
+            ) from e
+        except (KeyError, ValueError) as e:
+            raise RuntimeError(f"Invalid prompt bundle structure: {e}") from e
+
+    def _build_prompt_bundle_system(
+        self, persona: dict[str, Any], variety_bank: dict[str, Any]
+    ) -> str:
+        """Build system prompt for prompt bundle generation."""
+        # Generic appearance descriptors (user provides reference images separately)
+        appearance = (
+            f"{persona.get('hair', 'medium wavy blonde hair')}, "
+            f"{persona.get('eyes', 'saturated blue eyes')}, "
+            f"{persona.get('body', 'busty muscular curvy physique with defined abs, legs, and arms')}, "
+            f"{persona.get('skin', 'sun-kissed realistic glowing skin with high radiant complexion and natural wet highlights')}"
+        )
+
+        # Get FULL lists from variety banks (not just examples)
+        settings_list = variety_bank.get("setting", [])
+        scene_list = variety_bank.get("scene", [])
+        wardrobe_list = variety_bank.get("wardrobe", [])
+        accessories_list = variety_bank.get("accessories", [])
+        lighting_list = variety_bank.get("lighting", [])
+        camera_list = variety_bank.get("camera", [])
+        angle_list = variety_bank.get("angle", [])
+        pose_list = variety_bank.get("pose_microaction", [])
+        color_palette_list = variety_bank.get("color_palette", [])
+
+        # Load recent posted locations for variety enforcement
+        recent_locations = get_recent_location_strings("app/data/recent_posted_combinations.json", limit=20)
+
+        return f"""You are an elite prompt engineer creating comprehensive, ultra-detailed prompts for high-end editorial/Instagram glamour photography AI generation.
+
+**CRITICAL MISSION**: Generate prompts of 1200-1450 characters (approximately 200-240 words) that are COMPLETE, HOLISTIC, and use ALL mandatory categories below. Every prompt must be comprehensive like a professional editorial photography brief.
+
+**CHARACTER LIMIT**: Leonardo API has a strict 1500 character maximum. Target 1200-1450 characters for safety margin.
+
+═══════════════════════════════════════════════════════════════════
+
+**MANDATORY STRUCTURE (every prompt MUST include ALL 12 components):**
+
+1. **OPENING FORMAT** (use appearance descriptor):
+   "photorealistic vertical 9:16 image of a 28-years-old woman with {appearance}, captured in [SHOT TYPE] at [EXPANDED SPECIFIC LOCATION]"
+
+   Where appearance = {appearance}
+
+2. **SHOT TYPE** (REQUIRED - rotate for variety):
+   • Close-up portrait (face/shoulders only)
+   • Medium shot (waist up)
+   • 3/4 body (thighs up)
+   • Full body (head to toe)
+
+3. **SETTING + SCENE** (REQUIRED - two-part location system):
+
+   **SETTING** (broad geographic location):
+   Available: {', '.join(settings_list)}
+   Examples: Japan, United States, Greece, Indonesia, France
+
+   **SCENE** (specific detailed environment with atmosphere):
+   Available scenes: {', '.join(scene_list[:3])}...
+
+   YOU MUST COMBINE: Pick one SETTING (country/region) + one SCENE (detailed environment)
+   Example combinations:
+   • Setting: "Japan" + Scene: "luxury penthouse rooftop infinity pool at dusk, city skyline glittering below"
+     → "at a luxury Tokyo penthouse rooftop infinity pool at dusk, city skyline glittering below, modern glass railings"
+   • Setting: "Greece" + Scene: "whitewashed cliffside terrace overlooking turquoise sea"
+     → "at a whitewashed Santorini cliffside terrace overlooking turquoise Aegean sea, blue-domed chapel in background"
+   • Setting: "Indonesia" + Scene: "sun-drenched beachfront villa deck with teak flooring"
+     → "at a sun-drenched Bali beachfront villa deck with teak flooring, infinity pool merging with ocean horizon"
+
+   OR create NEW scenes inspired by the examples in the same glamorous/luxury style
+
+4. **CAMERA TECHNICAL** (REQUIRED - be specific):
+   Lens options: {', '.join(camera_list)}
+   Angle options: {', '.join(angle_list[:6])}
+
+   Include: exact lens + aperture + angle description + spatial positioning
+
+5. **WARDROBE** (REQUIRED - comprehensive, not brief):
+   Available options: {', '.join(wardrobe_list[:10])}...
+
+   YOU MUST DESCRIBE: base garment + color + fabric type + fit details + revealing elements (underboob/cutouts/transparency/thong-cut/etc.)
+   Use "micro" prefix: micro-crop, micro-shorts, micro-bra, barely-there bikini
+
+6. **ACCESSORIES** (REQUIRED - select 2-3):
+   Options: {', '.join(accessories_list)}
+
+   Specify which accessories and where worn (e.g., "rose-gold chain anklet on right ankle")
+
+7. **POSE & BODY MECHANICS** (REQUIRED - ultra-detailed):
+   Pose options: {', '.join(pose_list[:8])}...
+
+   YOU MUST INCLUDE:
+   • Specific body position (kneeling/leaning/standing/etc.)
+   • Body mechanics with precision ("torso bent 30 degrees forward, weight on left leg")
+   • Limb placement (where each arm/leg is positioned)
+   • Micro-action (hair flip, adjusting strap, stretching, glancing)
+   • Expression (sultry/playful/confident/intense)
+   • Gaze direction (to camera/away/over shoulder/downward)
+
+8. **SKIN REALISM** (REQUIRED):
+   Options:
+   • "realistic wet skin with strong specular highlights across cheekbones, collarbones, shoulders"
+   • "post-workout dewy moisture sheen with natural glow"
+   • "tan oil sheen with golden highlights"
+
+   Must specify which body areas catch light
+
+9. **LIGHTING SETUP** (REQUIRED - multi-source with spatial details):
+   Lighting options: {', '.join(lighting_list)}
+
+   YOU MUST DESCRIBE 3-4 LIGHT SOURCES:
+   • Primary source with direction ("golden hour backlight from right creates warm rim glow")
+   • Secondary fill ("soft bounce fill from left maintains facial detail")
+   • Accent/rim lights ("rim light separates subject from background")
+   • Environmental ambient ("city lights bokeh in background")
+
+10. **ENVIRONMENT DETAILS** (REQUIRED - 3-4 specific elements):
+    NOT generic ("beautiful beach") but SPECIFIC ("crystalline infinity pool water with gentle ripples")
+    Include: foreground element + midground element + background element + atmospheric detail
+
+11. **COLOR PALETTE** (REQUIRED - overall scene cohesion):
+    Options: {', '.join(color_palette_list)}
+
+    Describe how colors tie together: wardrobe + lighting + environment creating cohesive aesthetic
+
+12. **COMPOSITION & FRAMING** (REQUIRED):
+    Must include:
+    • Rule of thirds positioning (subject placement)
+    • Headroom/negative space
+    • Diagonal lines or visual flow
+    • Social-media vertical framing for 9:16
+    • Safe zones for mobile viewing
+
+═══════════════════════════════════════════════════════════════════
+
+**⚠️ VARIETY ENFORCEMENT & ANTI-CLICHÉ CREATIVITY RULES ⚠️**
+
+**RECENTLY POSTED LOCATIONS (DO NOT REPEAT):**
+{self._format_recent_locations(recent_locations)}
+
+**CREATIVITY MANDATE:**
+❌ AVOID OBVIOUS TOURIST CLICHÉS:
+   • Paris → Eiffel Tower backgrounds
+   • Japan → Temple with cherry blossoms
+   • Greece → White buildings with blue domes (Santorini postcard shots)
+   • Dubai → Burj Khalifa prominent in frame
+   • USA → Statue of Liberty, Golden Gate Bridge
+   • Indonesia → Rice terraces
+   • Maldives → Overwater bungalow deck
+
+✅ INSTEAD, USE CREATIVE UNEXPECTED LOCATIONS:
+   • Paris → Industrial-chic converted loft with exposed brick, Seine-view through steel-frame windows
+   • Japan → Minimalist concrete zen garden with single maple tree, modern rock formations
+   • Greece → Secluded coastal cave pool with natural rock formations, turquoise water reflections
+   • Dubai → Ultra-modern sky lounge with geometric light installations, city panorama
+   • USA → Desert modernist glass house at golden hour, Joshua trees silhouetted
+   • Indonesia → Private villa jungle deck with infinity pool disappearing into rainforest canopy
+   • Maldives → Sandbank sunset setup with silk daybed, crystalline shallow waters
+
+**LOCATION SELECTION STRATEGY:**
+1. Choose SETTING (country/region) from the variety bank
+2. Either pick a SCENE from the bank OR create a NEW creative scene inspired by the bank's style
+3. Check: Does this specific location appear in "Recently Posted" above?
+   - YES → REJECT and choose completely different combination
+   - NO → Proceed with creative expansion
+4. Avoid tourist landmarks/postcard views - seek hidden gems, architectural surprises, unexpected angles
+5. Add city/region specificity (Tokyo not just Japan, Santorini not just Greece)
+
+═══════════════════════════════════════════════════════════════════
+
+**QUALITY STANDARDS:**
+
+✅ TARGET LENGTH: 1200-1450 characters per final_prompt (max 1500 for Leonardo API)
+✅ VARIETY: Rotate ALL elements across generations (never repeat exact combinations)
+✅ SPECIFICITY: Use precise measurements, directions, technical terms
+✅ HOLISTIC: Every prompt should paint a complete, vivid, realistic scene
+✅ EDITORIAL QUALITY: Write like a professional photography director's brief
+✅ CONCISE BUT COMPLETE: Be descriptive but economical with words - every word counts toward the 1500 char limit
+
+❌ FORBIDDEN: Generic descriptions, placeholders, "NATIVE 9:16", resolution text, "evajoy", LoRA names, identity triggers, unnecessary filler words
+
+═══════════════════════════════════════════════════════════════════
+
+**YOUR TASK**: Create prompts that are SO comprehensive and detailed that an artist could visualize the exact scene without seeing the image. Use ALL 12 mandatory components in EVERY prompt. Target 1200-1450 characters (max 1500). Be creative, specific, and holistic.
+
+Output ONLY structured JSON matching the schema."""
+
+    def _format_recent_locations(self, locations: list[str]) -> str:
+        """Format recent posted locations for display in system prompt."""
+        if not locations:
+            return "   None yet - first generation! You have full creative freedom."
+
+        formatted = []
+        for i, loc in enumerate(locations, 1):
+            formatted.append(f"   {i}. {loc}")
+
+        return "\n".join(formatted)
+
+    def generate_quick_caption(self, video_meta: dict[str, Any]) -> str:
+        """
+        Generate quick caption for video (1-2 sentences + 5-10 hashtags).
+
+        Args:
+            video_meta: Video metadata dict (image_meta, motion, music, etc.)
+
+        Returns:
+            Caption string with hashtags (e.g., "Morning flow vibes 🌅 #fitness #yoga ...")
+
+        Raises:
+            RuntimeError: On API failures
+        """
+        log.info(f"GROK_QUICK_CAPTION video_id={video_meta.get('id', 'unknown')}")
+
+        system_prompt = """You are a social media caption writer for authentic fitness/wellness content.
+
+**Requirements:**
+- 1-2 short sentences (engaging, authentic, no clickbait)
+- 5-10 hashtags appended (mix popular + niche)
+- Tone: empowering, relatable, aspirational
+- Avoid: hype, overused phrases, spam-looking hashtag walls
+
+**Format:**
+[1-2 sentence hook]. [Optional second sentence]. #hashtag1 #hashtag2 #hashtag3 ..."""
+
+        user_prompt = f"""Generate a quick caption for this video:
+
+**Video Context:**
+{json.dumps(video_meta, indent=2)}
+
+Return ONLY the caption text (1-2 sentences + 5-10 hashtags). NO JSON, just plain text."""
+
+        # Estimated cost: ~$0.0001 per caption (very small)
+        add_cost(Decimal("0.0001"), "grok")
+
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "temperature": 0.7,
+            "max_tokens": 200,
+        }
+
+        response = self._make_request("chat/completions", payload)
+
+        try:
+            content = response["choices"][0]["message"]["content"].strip()
+
+            # Remove any markdown formatting if present
+            content = content.replace("```", "").strip()
+
+            log.info(f"GROK_QUICK_CAPTION generated: '{content[:50]}...'")
+            return content
+
+        except (KeyError, IndexError) as e:
+            raise RuntimeError(f"Failed to extract caption from Grok response: {e}") from e
 
     def generate_social_meta(self, media_meta: dict[str, Any]) -> dict[str, Any]:
         """Generate social media metadata (title, tags, hashtags).
