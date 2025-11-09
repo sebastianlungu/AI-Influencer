@@ -64,7 +64,7 @@ class TestSocialMetaGeneration:
 
     def test_social_meta_non_empty_and_prompt_derived(self):
         """Verify social meta includes title, tags, hashtags and is derived from media context."""
-        from app.clients.grok import GrokClient
+        from app.grok import GrokClient
 
         # Mock media metadata with image prompt and motion
         media_meta = {

@@ -52,7 +52,7 @@ def test_ffmpeg_mux_client_exists():
 
 def test_grok_client_has_all_methods():
     """Verify Grok client has all required methods for the new architecture."""
-    from app.clients.grok import GrokClient
+    from app.grok import GrokClient
     import inspect
 
     # Initialize with dummy key to test interface

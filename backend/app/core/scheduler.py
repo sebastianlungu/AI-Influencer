@@ -13,13 +13,14 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 from pytz import timezone as pytz_timezone
 
-from app.clients.grok import GrokClient
+from app.grok import GrokClient
 from app.clients.instagram import InstagramClient
 from app.clients.provider_selector import prompting_client
 from app.clients.tiktok import TikTokClient
 from app.core.config import settings
 from app.core.logging import log
 from app.core.storage import find_json_item, read_json, update_json_item
+from app.core.variety_tracker import extract_location_from_prompt, save_location
 
 scheduler: BackgroundScheduler | None = None
 
@@ -116,10 +117,10 @@ def run_posting_cycle() -> dict:
     # Parse platform order
     platform_order = [p.strip().lower() for p in settings.post_order.split(",")]
 
-    # Generate social meta if missing
-    if not video.get("social"):
-        log.info(f"SCHEDULER_GENERATE_SOCIAL_META video_id={video_id}")
-        video = _generate_social_meta(video)
+    # Ensure caption exists (either direct caption or social meta)
+    if not video.get("caption") and not video.get("social"):
+        log.info(f"SCHEDULER_GENERATE_CAPTION video_id={video_id}")
+        video = _generate_caption(video)
 
     posted_count = 0
     posted_to = []
@@ -194,6 +195,22 @@ def run_posting_cycle() -> dict:
         }
         update_json_item("app/data/videos.json", video_id, updates)
 
+        # Track location for variety enforcement (ONLY when fully posted to all platforms)
+        if status == "posted":
+            try:
+                image_id = video.get("image_id")
+                if image_id:
+                    image = find_json_item("app/data/images.json", image_id)
+                    if image and image.get("meta", {}).get("prompt"):
+                        prompt = image["meta"]["prompt"]
+                        location = extract_location_from_prompt(prompt)
+                        if location:
+                            save_location("app/data/recent_posted_combinations.json", location)
+                            log.info(f"VARIETY_TRACKER_SAVED video_id={video_id} location='{location[:50]}...'")
+            except Exception as e:
+                # Don't fail posting on variety tracking errors
+                log.warning(f"VARIETY_TRACKER_FAILED video_id={video_id} error={str(e)}")
+
         return {
             "ok": True,
             "posted": posted_count,
@@ -246,50 +263,43 @@ def _in_posting_window() -> bool:
         return True  # Fail open
 
 
-def _generate_social_meta(video: dict) -> dict:
-    """Generate social metadata (title, tags, hashtags) using Grok.
+def _generate_caption(video: dict) -> dict:
+    """Generate quick caption (1-2 sentences + hashtags) using Grok.
 
     Args:
         video: Video record from videos.json
 
     Returns:
-        Updated video record with social metadata
+        Updated video record with caption
     """
     try:
         # Get image metadata for context
         image_id = video.get("image_id")
         image = find_json_item("app/data/images.json", image_id) if image_id else None
 
-        media_meta = {
-            "video_id": video["id"],
-            "motion_prompt": video.get("video_meta", {}).get("motion_prompt", ""),
-            "image_prompt": image.get("prompt", {}) if image else {},  # Original image generation prompt
+        video_meta = {
+            "id": video["id"],
             "image_meta": image.get("meta", {}) if image else {},
+            "motion_prompt": video.get("video_meta", {}).get("motion_prompt", ""),
+            "duration_s": video.get("video_meta", {}).get("duration_s", 6),
         }
 
-        # Generate social meta via Grok
+        # Generate caption via Grok
         grok = prompting_client()
-        social_meta = grok.generate_social_meta(media_meta)
+        caption = grok.generate_quick_caption(video_meta)
 
         # Store in video record
-        video["social"] = social_meta
-        update_json_item("app/data/videos.json", video["id"], {"social": social_meta})
+        video["caption"] = caption
+        update_json_item("app/data/videos.json", video["id"], {"caption": caption})
 
-        log.info(
-            f"GROK_SOCIAL_META_SUCCESS video_id={video['id']} "
-            f"hashtags={len(social_meta.get('hashtags', []))}"
-        )
+        log.info(f"GROK_CAPTION_SUCCESS video_id={video['id']} caption='{caption[:50]}...'")
 
         return video
 
     except Exception as e:
-        log.error(f"GROK_SOCIAL_META_FAILED video_id={video['id']} error={str(e)}")
-        # Use fallback metadata
-        video["social"] = {
-            "title": "Fitness Inspiration",
-            "tags": ["fitness", "workout", "motivation"],
-            "hashtags": ["#fitness", "#workout", "#motivation"],
-        }
+        log.error(f"GROK_CAPTION_FAILED video_id={video['id']} error={str(e)}")
+        # Use fallback caption
+        video["caption"] = "Fitness inspiration. #fitness #workout #motivation #wellness"
         return video
 
 
@@ -311,11 +321,13 @@ def _post_to_tiktok(video: dict) -> str:
         access_token=settings.tiktok_access_token,
     )
 
-    # Build caption from social metadata
-    social = video.get("social", {})
-    title = social.get("title", "")
-    hashtags = " ".join(social.get("hashtags", []))
-    caption = f"{title}\n\n{hashtags}".strip()
+    # Get caption (prefer direct caption, fall back to social metadata for backward compat)
+    caption = video.get("caption")
+    if not caption:
+        social = video.get("social", {})
+        title = social.get("title", "")
+        hashtags = " ".join(social.get("hashtags", []))
+        caption = f"{title}\n\n{hashtags}".strip()
 
     # Upload video
     video_path = video["video_path"]
@@ -341,11 +353,13 @@ def _post_to_instagram(video: dict) -> str:
         access_token=settings.fb_access_token,
     )
 
-    # Build caption from social metadata
-    social = video.get("social", {})
-    title = social.get("title", "")
-    hashtags = " ".join(social.get("hashtags", []))
-    caption = f"{title}\n\n{hashtags}".strip()
+    # Get caption (prefer direct caption, fall back to social metadata for backward compat)
+    caption = video.get("caption")
+    if not caption:
+        social = video.get("social", {})
+        title = social.get("title", "")
+        hashtags = " ".join(social.get("hashtags", []))
+        caption = f"{title}\n\n{hashtags}".strip()
 
     # Upload reel
     video_path = video["video_path"]

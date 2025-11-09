@@ -13,7 +13,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from app.clients.grok import GrokClient
+from app.grok import GrokClient
 
 
 @pytest.fixture

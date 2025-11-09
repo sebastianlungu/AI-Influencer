@@ -4,18 +4,19 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import APIRouter, Body, HTTPException, Request
+from fastapi import APIRouter, Body, File, Form, HTTPException, Request, UploadFile
 from pydantic import BaseModel
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 
 from app.agents import edit, gen_video, indexer, qa_safety, qa_style, video_prompting
-from app.clients.grok import GrokClient
+from app.grok import GrokClient
 from app.clients.provider_selector import prompting_client
 from app.clients.suno import SunoClient
 from app.coordinator.orchestrator import generate_images_cycle
 from app.core.config import settings
-from app.core.logging import log
+from app.core.logging import log, truncate_log_file
+from app.core.paths import get_data_path
 from app.core.scheduler import run_posting_cycle
 from app.core.motion_dedup import (
     clear_motion_history,
@@ -42,7 +43,7 @@ limiter = Limiter(key_func=get_remote_address)
 class ImageRatingRequest(BaseModel):
     """Request body for rating an image."""
 
-    rating: str  # "dislike" | "like" | "superlike"
+    rating: str  # "dislike" | "like"
 
 
 class VideoRatingRequest(BaseModel):
@@ -219,6 +220,316 @@ def scheduler_dry_run(request: Request) -> dict:
 
 
 # ============================================================================
+# Prompt Bundle Endpoints (Manual Workflow)
+# ============================================================================
+
+
+class PromptBundleRequest(BaseModel):
+    """Request body for generating prompt bundles."""
+
+    setting: str  # High-level setting (e.g., "Japan", "Santorini")
+    seed_words: list[str] | None = None  # Optional embellisher keywords
+    count: int = 1  # Number of bundles to generate (1-10)
+
+
+@router.post("/prompts/bundle")
+@limiter.limit("10/minute")
+async def generate_prompt_bundle(request: Request) -> dict:
+    """Generate prompt bundles (image + video prompts) for manual generation workflow.
+
+    Returns N prompt bundles, each containing:
+    - Unique ID (for file naming)
+    - Image prompt (with dimensions 864×1536)
+    - Video prompt (with 6s duration)
+
+    Rate limited to 10 requests per minute per client.
+
+    Args:
+        request: FastAPI request object (for rate limiting)
+        body: Prompt bundle request with setting, seed_words, count
+
+    Returns:
+        Dict with:
+        {
+            "ok": True,
+            "bundles": [
+                {
+                    "id": "pr_abc123...",
+                    "image_prompt": {...},
+                    "video_prompt": {...}
+                },
+                ...
+            ]
+        }
+
+    Raises:
+        HTTPException: 400 if count invalid or invalid body, 500 if generation fails
+        RuntimeError: If ALLOW_LIVE=false or Grok API key missing
+    """
+    # Parse body manually to work around slowapi/FastAPI integration issue
+    try:
+        body_bytes = await request.body()
+        import json
+        body_dict = json.loads(body_bytes)
+        body = PromptBundleRequest(**body_dict)
+    except Exception as e:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid request body: {str(e)}"
+        )
+
+    # Validate count
+    if not (1 <= body.count <= 10):
+        raise HTTPException(
+            status_code=400,
+            detail="count must be between 1 and 10"
+        )
+
+    try:
+        # Generate bundles via Grok
+        grok = prompting_client()
+        bundles = grok.generate_prompt_bundle(
+            setting=body.setting,
+            seed_words=body.seed_words,
+            count=body.count
+        )
+
+        # Store each bundle to prompts.jsonl
+        from app.core.prompt_storage import append_prompt_bundle
+
+        for bundle in bundles:
+            append_prompt_bundle(
+                prompts_dir=settings.prompts_out_dir,
+                bundle=bundle,
+                setting=body.setting,
+                seed_words=body.seed_words
+            )
+
+        log.info(f"PROMPT_BUNDLE_CREATED count={len(bundles)} setting={body.setting}")
+
+        return {"ok": True, "bundles": bundles}
+
+    except Exception as e:
+        log.error(f"PROMPT_BUNDLE_FAILED: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/prompts")
+@limiter.limit("30/minute")
+def get_recent_prompts(request: Request, limit: int = 20) -> dict:
+    """Get recent prompt bundles (newest first).
+
+    Args:
+        request: FastAPI request object (for rate limiting)
+        limit: Max number of bundles to return (default 20, max 100)
+
+    Returns:
+        Dict with:
+        {
+            "ok": True,
+            "prompts": [
+                {
+                    "id": "pr_abc123...",
+                    "timestamp": "2025-11-07T12:34:56.789Z",
+                    "setting": "Japan",
+                    "seed_words": ["dojo", "dusk"],
+                    "image_prompt": {...},
+                    "video_prompt": {...}
+                },
+                ...
+            ]
+        }
+    """
+    # Cap limit to 100
+    limit = min(limit, 100)
+
+    try:
+        from app.core.prompt_storage import read_recent_prompts
+
+        prompts = read_recent_prompts(
+            prompts_dir=settings.prompts_out_dir,
+            limit=limit
+        )
+
+        return {"ok": True, "prompts": prompts}
+
+    except Exception as e:
+        log.error(f"READ_PROMPTS_FAILED: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/assets/upload")
+@limiter.limit("20/minute")
+async def upload_asset(
+    request: Request,
+    file: UploadFile = File(...),
+    asset_type: str = Form(...),
+    prompt_id: str = Form(...),
+) -> dict:
+    """Upload manually generated image or video asset.
+
+    Validates dimensions/duration and indexes to images.json or videos.json.
+
+    Rate limited to 20 uploads per minute per client.
+
+    Args:
+        request: FastAPI request object (for rate limiting)
+        file: Uploaded file (image or video)
+        asset_type: "image" or "video"
+        prompt_id: Prompt bundle ID (pr_...) to associate with this asset
+
+    Returns:
+        Dict with:
+        {
+            "ok": True,
+            "asset_id": "img_abc123" or "vid_abc123",
+            "type": "image" or "video",
+            "path": "app/data/manual/images/img_abc123.png",
+            "prompt_id": "pr_...",
+            "status": "pending_review"
+        }
+
+    Raises:
+        HTTPException: 400 if validation fails, 500 on storage errors
+    """
+    import shutil
+    import uuid
+    from datetime import datetime, timezone
+
+    from app.agents.validators import ValidationError, validate_image_dimensions, validate_video_format
+    from app.core.storage import append_json_line
+
+    # Validate asset_type
+    if asset_type not in ["image", "video"]:
+        raise HTTPException(
+            status_code=400,
+            detail='asset_type must be "image" or "video"'
+        )
+
+    # Verify prompt_id exists
+    try:
+        from app.core.prompt_storage import find_prompt_bundle
+
+        prompt_bundle = find_prompt_bundle(settings.prompts_out_dir, prompt_id)
+        if not prompt_bundle:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Prompt bundle {prompt_id} not found"
+            )
+    except Exception as e:
+        log.error(f"PROMPT_LOOKUP_FAILED prompt_id={prompt_id}: {e}")
+        raise HTTPException(status_code=400, detail=f"Invalid prompt_id: {e}")
+
+    # Determine file extension and destination directory
+    file_ext = Path(file.filename or "file").suffix.lower()
+    if asset_type == "image":
+        if file_ext not in [".png", ".jpg", ".jpeg"]:
+            raise HTTPException(
+                status_code=400,
+                detail="Image must be PNG or JPEG"
+            )
+        dest_dir = Path(settings.manual_images_dir)
+        asset_id = f"img_{uuid.uuid4().hex[:12]}"
+        final_path = dest_dir / f"{asset_id}{file_ext}"
+        index_file = "app/data/images.json"
+    else:  # video
+        if file_ext not in [".mp4", ".mov"]:
+            raise HTTPException(
+                status_code=400,
+                detail="Video must be MP4 or MOV"
+            )
+        dest_dir = Path(settings.manual_videos_dir)
+        asset_id = f"vid_{uuid.uuid4().hex[:12]}"
+        final_path = dest_dir / f"{asset_id}{file_ext}"
+        index_file = "app/data/videos.json"
+
+    # Ensure destination directory exists
+    dest_dir.mkdir(parents=True, exist_ok=True)
+
+    # Save uploaded file to temp location first
+    temp_path = dest_dir / f"temp_{uuid.uuid4().hex[:8]}{file_ext}"
+    try:
+        with temp_path.open("wb") as f:
+            shutil.copyfileobj(file.file, f)
+    except Exception as e:
+        log.error(f"UPLOAD_SAVE_FAILED: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to save file: {e}")
+
+    # Validate asset
+    try:
+        if asset_type == "image":
+            validate_image_dimensions(temp_path)
+        else:  # video
+            validate_video_format(temp_path)
+    except ValidationError as e:
+        # Delete temp file
+        temp_path.unlink(missing_ok=True)
+        log.warning(f"UPLOAD_VALIDATION_FAILED type={asset_type} prompt_id={prompt_id}: {e}")
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        # Delete temp file
+        temp_path.unlink(missing_ok=True)
+        log.error(f"UPLOAD_VALIDATION_ERROR type={asset_type}: {e}")
+        raise HTTPException(status_code=500, detail=f"Validation failed: {e}")
+
+    # Move to final location
+    try:
+        shutil.move(str(temp_path), str(final_path))
+    except Exception as e:
+        temp_path.unlink(missing_ok=True)
+        log.error(f"UPLOAD_MOVE_FAILED: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to move file: {e}")
+
+    # Index to JSON
+    try:
+        timestamp = datetime.now(timezone.utc).isoformat()
+
+        if asset_type == "image":
+            entry = {
+                "id": asset_id,
+                "status": "pending_review",
+                "image_path": str(final_path),
+                "created_at": timestamp,
+                "prompt_id": prompt_id,
+                "source": "manual_upload",
+            }
+        else:  # video
+            entry = {
+                "id": asset_id,
+                "status": "pending_review",
+                "video_path": str(final_path),
+                "created_at": timestamp,
+                "prompt_id": prompt_id,
+                "source": "manual_upload",
+                "video_meta": {
+                    "duration_s": 6,  # Validated to be exactly 6s
+                },
+            }
+
+        append_json_line(index_file, entry)
+
+        log.info(
+            f"ASSET_UPLOADED type={asset_type} id={asset_id} "
+            f"prompt_id={prompt_id} path={final_path}"
+        )
+
+        return {
+            "ok": True,
+            "asset_id": asset_id,
+            "type": asset_type,
+            "path": str(final_path),
+            "prompt_id": prompt_id,
+            "status": "pending_review",
+        }
+
+    except Exception as e:
+        # Clean up file on index failure
+        final_path.unlink(missing_ok=True)
+        log.error(f"ASSET_INDEX_FAILED type={asset_type} id={asset_id}: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to index asset: {e}")
+
+
+# ============================================================================
 # Image Rating Endpoints
 # ============================================================================
 
@@ -251,11 +562,10 @@ async def rate_image(
     request: Request,
     image_id: str
 ) -> dict:
-    """Rate an image (dislike/like/superlike).
+    """Rate an image (dislike/like).
 
     - dislike: status → "deleted", file moved to deleted/
-    - like: status → "liked" (queued for posting)
-    - superlike: status → "superliked" (queued for video generation)
+    - like: status → "liked" (ready for review/preview)
 
     Args:
         request: FastAPI request object (for rate limiting + body parsing)
@@ -279,7 +589,7 @@ async def rate_image(
             detail=f"Invalid request body: {str(e)}"
         )
 
-    valid_ratings = ["dislike", "like", "superlike"]
+    valid_ratings = ["dislike", "like"]
     if body.rating not in valid_ratings:
         raise HTTPException(
             status_code=400,
@@ -291,20 +601,12 @@ async def rate_image(
     if not image:
         raise HTTPException(status_code=404, detail=f"Image {image_id} not found")
 
-    # Determine new status and preferred export based on rating
+    # Determine new status based on rating
     status_map = {
         "dislike": "deleted",
         "like": "liked",
-        "superlike": "superliked",
     }
     new_status = status_map[body.rating]
-
-    # Set preferred export: like → 4:5 feed, superlike → 9:16 video
-    export_map = {
-        "like": "4x5",        # Instagram feed (1080×1350)
-        "superlike": "9x16",  # Video source (1080×1920)
-    }
-    preferred_export = export_map.get(body.rating)  # None for dislike
 
     # Update image metadata
     updates = {
@@ -312,14 +614,9 @@ async def rate_image(
         "status": new_status,
         "rated_at": datetime.now(timezone.utc).isoformat(),
     }
-    if preferred_export:
-        updates["preferred_export"] = preferred_export
 
     updated = update_json_item("app/data/images.json", image_id, updates)
-    log.info(
-        f"Image rated: {image_id} → rating={body.rating}, status={new_status}, "
-        f"preferred_export={preferred_export or 'N/A'}"
-    )
+    log.info(f"Image rated: {image_id} → rating={body.rating}, status={new_status}")
 
     # Move file if deleted
     if body.rating == "dislike":
@@ -341,33 +638,12 @@ async def rate_image(
         else:
             log.warning(f"Image file not found for deletion: {src_path}")
 
-        # CASCADE DELETE: Remove from video queue if queued
-        removed = remove_job(image_id)
-        if removed:
-            log.info(f"CASCADE DELETE: Removed image {image_id} from video generation queue")
-        else:
-            log.debug(f"Image {image_id} was not in video queue (no cascade needed)")
-
-    # Auto-queue video generation if superliked
-    queue_info = None
-    if body.rating == "superlike":
-        log.info(f"AUTO-QUEUE: Image {image_id} superliked, enqueueing video generation")
-        queue_info = enqueue_video_generation(image_id)
-        log.info(
-            f"AUTO-QUEUE: Video generation queued for {image_id} at position {queue_info.get('queue_position', '?')}"
-        )
-
-    response = {"ok": True, "image": updated}
-    if queue_info:
-        response["video_queued"] = True
-        response["queue_position"] = queue_info.get("queue_position", 0)
-
-    return response
+    return {"ok": True, "image": updated}
 
 
 @router.get("/images/liked")
 def get_liked_images() -> dict:
-    """Get all liked images (queued for posting).
+    """Get all liked images.
 
     Returns:
         List of images with status="liked"
@@ -376,19 +652,6 @@ def get_liked_images() -> dict:
     liked = [img for img in images if img.get("status") == "liked"]
     liked.sort(key=lambda x: x.get("rated_at", ""), reverse=True)
     return {"ok": True, "images": liked}
-
-
-@router.get("/images/superliked")
-def get_superliked_images() -> dict:
-    """Get all superliked images (queued for video generation).
-
-    Returns:
-        List of images with status="superliked"
-    """
-    images = read_json("app/data/images.json")
-    superliked = [img for img in images if img.get("status") == "superliked"]
-    superliked.sort(key=lambda x: x.get("rated_at", ""), reverse=True)
-    return {"ok": True, "images": superliked}
 
 
 # ============================================================================
@@ -424,14 +687,14 @@ async def rate_video(request: Request, video_id: str) -> dict:
     """Rate a video (dislike/like).
 
     - dislike: status → "deleted", file moved to deleted/ (will regenerate with different motion)
-    - like: status → "approved" (queued for posting to TikTok)
+    - like: status → "liked", caption auto-generated via Grok (ready for music workflow)
 
     Args:
         request: FastAPI request object (for rate limiting + body parsing)
         video_id: Video ID to rate
 
     Returns:
-        Updated video metadata
+        Updated video metadata (includes caption if liked)
 
     Raises:
         HTTPException: 400 if invalid rating or body, 404 if video not found
@@ -463,16 +726,52 @@ async def rate_video(request: Request, video_id: str) -> dict:
     # Determine new status based on rating
     status_map = {
         "dislike": "deleted",
-        "like": "approved",
+        "like": "liked",  # Triggers caption generation, ready for music workflow
     }
     new_status = status_map[body.rating]
 
-    # Update video metadata
+    # Base updates
     updates = {
         "rating": body.rating,
         "status": new_status,
         "rated_at": datetime.now(timezone.utc).isoformat(),
     }
+
+    # Generate caption when liked
+    caption = None
+    if body.rating == "like":
+        try:
+            log.info(f"VIDEO_LIKED video_id={video_id}, generating caption...")
+
+            # Get image metadata for context (if available)
+            image_id = video.get("image_id")
+            image_meta = {}
+            if image_id:
+                image = find_json_item("app/data/images.json", image_id)
+                if image:
+                    image_meta = image.get("meta", {})
+
+            # Build video metadata for caption generation
+            video_meta = {
+                "id": video_id,
+                "image_meta": image_meta,
+                "motion_prompt": video.get("video_meta", {}).get("motion_prompt", ""),
+                "duration_s": video.get("video_meta", {}).get("duration_s", 6),
+            }
+
+            # Generate caption via Grok
+            grok = prompting_client()
+            caption = grok.generate_quick_caption(video_meta)
+
+            # Add caption to updates
+            updates["caption"] = caption
+
+            log.info(f"VIDEO_CAPTION_GENERATED video_id={video_id} caption='{caption[:50]}...'")
+
+        except Exception as e:
+            log.error(f"VIDEO_CAPTION_FAILED video_id={video_id}: {e}")
+            # Continue without caption - don't block the rating
+            updates["caption_error"] = str(e)
 
     updated = update_json_item("app/data/videos.json", video_id, updates)
 
@@ -1291,21 +1590,13 @@ def healthz() -> dict:
     Returns:
         Dict with status and provider configuration (NO SECRETS)
     """
-    # Check GCP credentials for Veo
-    creds_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
-    creds_exists = bool(creds_path and os.path.exists(creds_path))
-
-    veo_status = "not_configured"
-    if settings.video_provider == "veo":
-        if settings.gcp_project_id and creds_exists:
-            veo_status = "configured"
-        else:
-            veo_status = "key_missing"
+    # Manual workflow: Leonardo and Veo are used externally by user
+    # System only generates prompts via Grok, validates uploads, and posts via TikTok/Instagram
 
     # Check provider key availability (NOT the values!)
     providers = {
-        "veo": veo_status,
-        "leonardo": "configured" if settings.leonardo_api_key else "key_missing",
+        "leonardo": "manual",  # User generates images externally
+        "veo": "manual",  # User generates videos externally
         "grok": "configured" if settings.grok_api_key else "key_missing",
         "suno": "configured" if settings.suno_api_key else "key_missing",
         "tiktok": "configured"
@@ -1314,23 +1605,6 @@ def healthz() -> dict:
         "instagram": "configured"
         if (settings.instagram_business_account_id and settings.fb_access_token)
         else "key_missing",
-    }
-
-    # Add Veo configuration info (no secrets)
-    veo_config = {}
-    if settings.video_provider == "veo":
-        veo_config = {
-            "gcp_project_id": settings.gcp_project_id or "not_set",
-            "gcp_location": settings.gcp_location,
-            "veo_model_id": settings.veo_model_id,
-            "veo_aspect": settings.veo_aspect,
-            "veo_duration_seconds": settings.veo_duration_seconds,
-            "credentials_file_exists": creds_exists,
-        }
-
-    # Add Leonardo configuration info (no secrets)
-    leonardo_config = {
-        "model_id": settings.leonardo_model_id or "default",
     }
 
     # Add Grok configuration info (no secrets)
@@ -1346,6 +1620,16 @@ def healthz() -> dict:
         "style_hints": settings.suno_style_hints_default,
     }
 
+    # Add manual workflow configuration
+    manual_config = {
+        "prompts_out_dir": settings.prompts_out_dir,
+        "manual_images_dir": settings.manual_images_dir,
+        "manual_videos_dir": settings.manual_videos_dir,
+        "enforced_image_dimensions": f"{settings.image_width}×{settings.image_height}",
+        "enforced_video_duration": f"{settings.video_must_be_seconds}s",
+        "enforced_video_aspect": settings.video_aspect,
+    }
+
     # Add ffmpeg/QA configuration
     qa_config = {
         "blur_qa_enabled": False,  # Disabled as per requirements
@@ -1356,14 +1640,11 @@ def healthz() -> dict:
 
     return {
         "ok": True,
+        "workflow": "manual",  # User generates assets externally
         "allow_live": settings.allow_live,
         "scheduler_enabled": settings.enable_scheduler,
-        "batch_size": settings.batch_size,
-        "max_parallel": settings.max_parallel,
-        "video_provider": settings.video_provider,
         "providers": providers,
-        "veo_config": veo_config,
-        "leonardo_config": leonardo_config,
+        "manual_config": manual_config,
         "grok_config": grok_config,
         "suno_config": suno_config,
         "qa_config": qa_config,
@@ -1377,13 +1658,16 @@ def get_logs_tail(request: Request, lines: int = 100) -> dict:
 
     Args:
         request: FastAPI request object (for rate limiting)
-        lines: Number of lines to return (default 100, max 500)
+        lines: Number of lines to return (default 100, max 10000)
 
     Returns:
         Dict with log lines array and metadata
     """
-    max_lines = min(lines, 500)  # Cap at 500 lines
-    log_file = "app/data/logs.txt"
+    # Truncate log file if needed (keeps last 10k lines)
+    truncate_log_file()
+
+    max_lines = min(lines, 10000)  # Cap at 10000 lines
+    log_file = str(get_data_path("logs.txt"))
 
     if not os.path.exists(log_file):
         return {"ok": True, "logs": [], "message": "No logs yet"}
