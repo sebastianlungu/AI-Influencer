@@ -1,23 +1,21 @@
-import { useEffect, useState } from "react";
-import { fetchPendingImage, rateImage } from "./api";
+import { useEffect, useState, useRef } from "react";
+import { fetchPendingImage, rateImage, uploadAsset } from "./api";
 
 export default function ImageReview() {
   const [image, setImage] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [pendingCount, setPendingCount] = useState(0);
-  const [aspectView, setAspectView] = useState("4x5"); // "9x16" or "4x5"
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [uploadPromptId, setUploadPromptId] = useState("");
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef(null);
 
   const loadNext = async () => {
     setLoading(true);
     setError(null);
-    setAspectView("4x5"); // Reset to 4:5 view on load
     try {
       const res = await fetchPendingImage();
       if (res.ok && res.image) {
         setImage(res.image);
-        // Count is implicit - we just show "reviewing" if exists
       } else {
         setImage(null);
         setError(res.message || "No pending images");
@@ -37,22 +35,9 @@ export default function ImageReview() {
     const handleKey = async (e) => {
       if (!image || loading) return;
 
-      // Aspect toggle: T key
-      if (e.key === "t" || e.key === "T") {
-        setAspectView((prev) => (prev === "9x16" ? "4x5" : "9x16"));
-        return;
-      }
-
-      // Overlay toggle: O key
-      if (e.key === "o" || e.key === "O") {
-        setShowOverlay((prev) => !prev);
-        return;
-      }
-
       let rating = null;
-      if (e.key === "1") rating = "dislike";
-      else if (e.key === "2") rating = "like";
-      else if (e.key === "3") rating = "superlike";
+      if (e.key === "1" || e.key.toLowerCase() === "j") rating = "dislike";
+      else if (e.key === "2" || e.key.toLowerCase() === "k") rating = "like";
 
       if (!rating) return;
 
@@ -66,7 +51,34 @@ export default function ImageReview() {
 
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
-  }, [image, loading, aspectView]);
+  }, [image, loading]);
+
+  const handleUpload = async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    if (!uploadPromptId.trim()) {
+      setError("Please enter a Prompt ID first");
+      return;
+    }
+
+    setUploading(true);
+    setError(null);
+
+    try {
+      await uploadAsset(file, "image", uploadPromptId.trim());
+      setUploadPromptId("");
+      if (fileInputRef.current) {
+        fileInputRef.current.value = "";
+      }
+      // Reload to show the newly uploaded image
+      await loadNext();
+    } catch (err) {
+      setError(err.message || "Upload failed");
+    } finally {
+      setUploading(false);
+    }
+  };
 
   if (loading) {
     return (
@@ -80,123 +92,102 @@ export default function ImageReview() {
     return (
       <div style={styles.container}>
         <div style={styles.header}>Image Review</div>
-        <div style={styles.error}>{error || "No images available"}</div>
+
+        {/* Upload Section */}
+        <div style={styles.uploadSection}>
+          <h3 style={styles.uploadTitle}>Upload Image (Manual Workflow)</h3>
+          <p style={styles.uploadInstructions}>
+            Upload manually generated images (864×1536, 9:16). Requires Prompt ID from Prompt Lab.
+          </p>
+          <div style={styles.uploadForm}>
+            <input
+              type="text"
+              value={uploadPromptId}
+              onChange={(e) => setUploadPromptId(e.target.value)}
+              placeholder="Enter Prompt ID (e.g., pr_abc123...)"
+              style={styles.promptInput}
+            />
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/png,image/jpeg"
+              onChange={handleUpload}
+              disabled={uploading || !uploadPromptId.trim()}
+              style={styles.fileInput}
+            />
+            {uploading && <div style={styles.uploadingText}>Uploading & validating...</div>}
+          </div>
+        </div>
+
+        {error && <div style={styles.error}>{error}</div>}
       </div>
     );
   }
 
-  // Get the appropriate image path based on view mode
-  const getImagePath = () => {
-    if (!image?.exports) return image?.image_path; // Fallback for old format
-
-    if (aspectView === "9x16") {
-      return image.exports.video_9x16_1080x1920;
-    } else {
-      return image.exports.feed_4x5_1080x1350;
-    }
-  };
-
-  const imagePath = getImagePath();
-  const hasCompositionWarning = image?.composition?.warning;
+  const imagePath = image?.image_path;
 
   return (
     <div style={styles.container}>
-      <div style={styles.header}>Image Review - Mobile-First Dual Export</div>
+      <div style={styles.header}>Image Review</div>
 
-      {/* Aspect Toggle */}
-      <div style={styles.aspectToggle}>
-        <button
-          style={{
-            ...styles.aspectButton,
-            ...(aspectView === "4x5" ? styles.aspectButtonActive : {}),
-          }}
-          onClick={() => setAspectView("4x5")}
-        >
-          4:5 Feed (1080×1350)
-        </button>
-        <button
-          style={{
-            ...styles.aspectButton,
-            ...(aspectView === "9x16" ? styles.aspectButtonActive : {}),
-          }}
-          onClick={() => setAspectView("9x16")}
-        >
-          9:16 Video (1080×1920)
-        </button>
-        <button
-          style={styles.overlayToggleButton}
-          onClick={() => setShowOverlay(!showOverlay)}
-          title="Toggle 4:5 safe area overlay (O key)"
-        >
-          {showOverlay ? "Hide" : "Show"} Overlay
-        </button>
-      </div>
-
-      {/* Composition Warning */}
-      {hasCompositionWarning && (
-        <div style={styles.warning}>
-          ⚠️ Composition Warning: {image.composition.reason || "Subject may be cropped in 4:5 view"}
-        </div>
-      )}
-
-      {/* Image Container with Overlay */}
-      <div style={styles.imageContainer}>
-        <div style={styles.imageWrapper}>
-          <img
-            src={`/${imagePath}`}
-            alt="Review"
-            style={styles.image}
+      {/* Upload Section */}
+      <div style={styles.uploadSection}>
+        <h3 style={styles.uploadTitle}>Upload New Image</h3>
+        <div style={styles.uploadForm}>
+          <input
+            type="text"
+            value={uploadPromptId}
+            onChange={(e) => setUploadPromptId(e.target.value)}
+            placeholder="Prompt ID (e.g., pr_abc123...)"
+            style={styles.promptInput}
           />
-          {/* 4:5 Safe Area Overlay (only on 9:16 view) */}
-          {aspectView === "9x16" && showOverlay && (
-            <div style={styles.safeAreaOverlay}>
-              <div style={styles.safeAreaBox}>
-                4:5 Safe Area
-              </div>
-            </div>
-          )}
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/png,image/jpeg"
+            onChange={handleUpload}
+            disabled={uploading || !uploadPromptId.trim()}
+            style={styles.fileInput}
+          />
         </div>
+        {uploading && <div style={styles.uploadingText}>Uploading...</div>}
       </div>
 
-      {/* Export Usage Hint */}
-      <div style={styles.hint}>
-        📱 <strong>Like (2)</strong> → Uses 4:5 Feed • <strong>Superlike (3)</strong> → Uses 9:16 Video
+      {/* Image Display */}
+      <div style={styles.imageContainer}>
+        <img src={`/${imagePath}`} alt="Review" style={styles.image} />
       </div>
 
+      {/* Controls */}
       <div style={styles.controls}>
         <button style={styles.button} onClick={() => rateImage(image.id, "dislike").then(loadNext)}>
-          [1] Dislike
+          [1/J] Dislike
         </button>
         <button style={styles.button} onClick={() => rateImage(image.id, "like").then(loadNext)}>
-          [2] 👍 Like (4:5)
-        </button>
-        <button style={styles.button} onClick={() => rateImage(image.id, "superlike").then(loadNext)}>
-          [3] ⭐ Superlike (9:16)
+          [2/K] Like
         </button>
       </div>
 
+      {/* Metadata */}
       <div style={styles.meta}>
+        {image.prompt_id && (
+          <div style={styles.metaLine}>
+            <strong>Prompt ID:</strong> {image.prompt_id}
+          </div>
+        )}
         <div style={styles.metaLine}>
-          <strong>Viewing:</strong> {aspectView === "9x16" ? "9:16 Video (1080×1920)" : "4:5 Feed (1080×1350)"}
+          <strong>Image ID:</strong> {image.id?.slice(0, 12) || "N/A"}
         </div>
         <div style={styles.metaLine}>
-          <strong>Variation:</strong> {image.prompt?.variation || "N/A"}
+          <strong>Source:</strong> {image.source || "N/A"}
         </div>
         <div style={styles.metaLine}>
-          <strong>ID:</strong> {image.id?.slice(0, 8) || "N/A"}
+          <strong>Created:</strong> {image.created_at ? new Date(image.created_at).toLocaleString() : "N/A"}
         </div>
-        <div style={styles.metaLine}>
-          <strong>Seed:</strong> {image.prompt?.seed || "N/A"}
-        </div>
-      </div>
-
-      <div style={styles.promptBox}>
-        <strong>Prompt:</strong>
-        <div style={styles.promptText}>{image.prompt?.base || "N/A"}</div>
       </div>
 
       <div style={styles.keyboardHints}>
-        <strong>Keyboard:</strong> 1=Dislike • 2=Like (4:5) • 3=Superlike (9:16) • T=Toggle Aspect • O=Toggle Overlay
+        <strong>Keyboard:</strong> 1/J = Dislike • 2/K = Like
       </div>
     </div>
   );
@@ -215,44 +206,48 @@ const styles = {
     borderBottom: "1px solid #ddd",
     paddingBottom: "8px",
   },
-  aspectToggle: {
-    display: "flex",
-    gap: "8px",
-    marginBottom: "16px",
-  },
-  aspectButton: {
-    flex: 1,
-    padding: "8px 12px",
-    backgroundColor: "#f5f5f5",
-    color: "#333",
+  uploadSection: {
+    backgroundColor: "#f9f9f9",
     border: "1px solid #ddd",
-    cursor: "pointer",
-    fontSize: "13px",
-    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
-    transition: "all 0.2s",
-  },
-  aspectButtonActive: {
-    backgroundColor: "#007bff",
-    color: "#fff",
-    borderColor: "#007bff",
-  },
-  overlayToggleButton: {
-    padding: "8px 16px",
-    backgroundColor: "#666",
-    color: "#fff",
-    border: "none",
-    cursor: "pointer",
-    fontSize: "13px",
-    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
-  },
-  warning: {
-    padding: "12px",
-    backgroundColor: "#fff3cd",
-    color: "#856404",
-    border: "1px solid #ffeaa7",
     borderRadius: "4px",
+    padding: "16px",
     marginBottom: "16px",
-    fontSize: "14px",
+  },
+  uploadTitle: {
+    fontSize: "16px",
+    fontWeight: "600",
+    margin: "0 0 8px 0",
+    color: "#111",
+  },
+  uploadInstructions: {
+    fontSize: "13px",
+    color: "#666",
+    margin: "0 0 12px 0",
+    lineHeight: "1.5",
+  },
+  uploadForm: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "8px",
+  },
+  promptInput: {
+    padding: "8px 12px",
+    fontSize: "13px",
+    border: "1px solid #ccc",
+    borderRadius: "3px",
+    fontFamily: "monospace",
+  },
+  fileInput: {
+    padding: "8px",
+    fontSize: "13px",
+    border: "1px solid #ccc",
+    borderRadius: "3px",
+    cursor: "pointer",
+  },
+  uploadingText: {
+    fontSize: "13px",
+    color: "#007bff",
+    fontWeight: "500",
   },
   imageContainer: {
     width: "100%",
@@ -260,48 +255,10 @@ const styles = {
     border: "1px solid #ddd",
     backgroundColor: "#fafafa",
   },
-  imageWrapper: {
-    position: "relative",
-    width: "100%",
-  },
   image: {
     width: "100%",
     height: "auto",
     display: "block",
-  },
-  safeAreaOverlay: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    pointerEvents: "none",
-  },
-  safeAreaBox: {
-    width: "100%",
-    height: "70.3125%", // 1350/1920 = 0.703125 (4:5 safe area within 9:16)
-    border: "3px dashed rgba(0, 123, 255, 0.7)",
-    backgroundColor: "rgba(0, 123, 255, 0.05)",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    color: "rgba(0, 123, 255, 0.9)",
-    fontSize: "16px",
-    fontWeight: "bold",
-    textShadow: "0 0 4px white",
-  },
-  hint: {
-    padding: "8px 12px",
-    backgroundColor: "#e7f3ff",
-    color: "#004085",
-    border: "1px solid #b8daff",
-    borderRadius: "4px",
-    marginBottom: "16px",
-    fontSize: "14px",
-    textAlign: "center",
   },
   controls: {
     display: "flex",
@@ -323,25 +280,13 @@ const styles = {
     color: "#666",
     lineHeight: "1.5",
     marginBottom: "12px",
+    padding: "12px",
+    backgroundColor: "#f9f9f9",
+    border: "1px solid #eee",
+    borderRadius: "4px",
   },
   metaLine: {
     marginBottom: "4px",
-  },
-  promptBox: {
-    marginTop: "12px",
-    marginBottom: "12px",
-    padding: "12px",
-    backgroundColor: "#f9f9f9",
-    border: "1px solid #ddd",
-    maxHeight: "200px",
-    overflow: "auto",
-  },
-  promptText: {
-    fontSize: "12px",
-    lineHeight: "1.5",
-    whiteSpace: "pre-wrap",
-    marginTop: "4px",
-    color: "#333",
   },
   keyboardHints: {
     fontSize: "13px",
@@ -353,8 +298,10 @@ const styles = {
   },
   error: {
     padding: "16px",
-    backgroundColor: "#f5f5f5",
-    color: "#666",
-    textAlign: "center",
+    backgroundColor: "#fee",
+    color: "#c00",
+    border: "1px solid #fcc",
+    borderRadius: "4px",
+    marginTop: "12px",
   },
 };

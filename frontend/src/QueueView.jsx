@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import {
   generate,
   fetchLikedImages,
-  fetchSuperlikedImages,
   fetchApprovedVideos,
   fetchVideoQueueStatus,
   processVideoQueue,
@@ -11,7 +10,6 @@ import {
 export default function QueueView() {
   const [activeTab, setActiveTab] = useState("liked");
   const [likedImages, setLikedImages] = useState([]);
-  const [superlikedImages, setSuperlikedImages] = useState([]);
   const [approvedVideos, setApprovedVideos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -31,14 +29,12 @@ export default function QueueView() {
     setLoading(true);
     setError(null);
     try {
-      const [liked, superliked, approved] = await Promise.all([
+      const [liked, approved] = await Promise.all([
         fetchLikedImages(),
-        fetchSuperlikedImages(),
         fetchApprovedVideos(),
       ]);
 
       setLikedImages(liked.images || []);
-      setSuperlikedImages(superliked.images || []);
       setApprovedVideos(approved.videos || []);
     } catch (e) {
       setError(e.message || "Failed to load queues");
@@ -113,13 +109,11 @@ export default function QueueView() {
 
   const tabs = [
     { id: "liked", label: "Liked Images", count: likedImages.length },
-    { id: "superliked", label: "Superliked Images", count: superlikedImages.length },
     { id: "approved", label: "Liked Videos", count: approvedVideos.length },
   ];
 
   let items = [];
   if (activeTab === "liked") items = likedImages;
-  else if (activeTab === "superliked") items = superlikedImages;
   else if (activeTab === "approved") items = approvedVideos;
 
   return (
@@ -224,12 +218,8 @@ export default function QueueView() {
             <div style={styles.cardMeta}>
               <div style={styles.cardId}>ID: {item.id?.slice(0, 8)}</div>
 
-              {activeTab === "superliked" && (
-                <div style={styles.cardNote}>Auto-queued for video</div>
-              )}
-
               {activeTab === "liked" && (
-                <div style={styles.cardNote}>Ready to post</div>
+                <div style={styles.cardNote}>Liked (preview)</div>
               )}
 
               {activeTab === "approved" && (

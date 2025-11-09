@@ -5,13 +5,15 @@
       "Bash(curl:*)",
       "Bash(cat:*)",
       "WebFetch(domain:docs.leonardo.ai)",
+      "WebFetch(domain:docs.x.ai)",
       "Bash(findstr:*)",
       "Bash(more:*)",
       "Bash(netstat:*)",
       "Bash(python:*)",
       "Bash(tasklist:*)",
       "WebSearch",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []

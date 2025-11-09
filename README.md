@@ -1,17 +1,19 @@
 # AI Influencer - Eva Joy
 
-> Automated AI-generated fitness influencer content pipeline with Grok AI prompting, Suno music generation, and scheduler-only posting workflow
+> Manual workflow system for fitness influencer content: AI-generated prompts + manual asset creation + human review + automated scheduling
 
-**Status**: ✅ **Production Ready** - Complete pipeline with music workflow and automated scheduling
+**Status**: ✅ **Production Ready** - Manual workflow with prompt generation, validation, music workflow, and automated scheduling
 
 ## Overview
 
-An end-to-end system for generating professional AI fitness influencer content for "Eva Joy" - from AI-generated image briefs and motion prompts to TikTok-ready videos with music. Built with fail-loud safety guards, provider abstraction, and comprehensive human review gates.
+A manual workflow system for creating professional AI fitness influencer content for "Eva Joy". Generate high-quality paired image + video prompts, create assets externally (Leonardo for images, Veo for videos), upload with strict validation, review with music workflow, and schedule posts automatically.
+
+**Workflow**: Prompt Lab → External Generation (Leonardo/Veo) → Upload & Validate → Review → Music → Auto-Schedule
 
 **Tech Stack**:
-- **AI Prompting**: xAI Grok (image briefs, motion, music, social meta)
-- **Image Generation**: Leonardo.ai
-- **Video Generation**: Google Veo 3 (6 seconds, Vertex AI) with SynthID watermark
+- **AI Prompting**: xAI Grok (image prompts, motion prompts, captions, music)
+- **Image Generation**: Leonardo.ai (user-operated, external)
+- **Video Generation**: Google Veo 3 (user-operated, external, 6s with SynthID)
 - **Music Generation**: Suno AI (6-second instrumental clips)
 - **Video Editing**: Local ffmpeg (audio/video muxing)
 - **Social Posting**: TikTok + Instagram (scheduler-only)
@@ -24,119 +26,136 @@ An end-to-end system for generating professional AI fitness influencer content f
 ## ✨ Key Features
 
 ### Production-Ready
-- ✅ **Ultra-Detailed Prompts**: 200-250 word cinematic prompts via Grok
-- ✅ **8 Diversity Banks**: 200+ variations across locations, poses, outfits, lighting, camera, props, twists
-- ✅ **Intelligent Dedupe**: SHA256 content hashing + per-video motion deduplication
-- ✅ **Cost Tracking**: Decimal-based budget caps (~$0.54/video)
-- ✅ **Security**: Path traversal protection, schema validation, rate limiting
-- ✅ **End-to-End Pipeline**: Grok → Leonardo → Veo 3 (6s) → ffmpeg → Music → Posting
-- ✅ **Rating System**: Image review (Dislike/Like/Super-like) + Video review (Like/Dislike/Regenerate)
+- ✅ **Prompt Lab**: Generate paired image + video prompts from high-level settings
+- ✅ **Identity Lock**: JSON-driven persona consistency (hair, eyes, body type never drift)
+- ✅ **Diversity Banks**: 200+ variations across locations, wardrobe, lighting, poses, camera
+- ✅ **Manual Asset Upload**: Upload externally generated images/videos with prompt linking
+- ✅ **Strict Validation**: Enforces 864×1536 (9:16) images, 6.0±0.05s videos
+- ✅ **Rolling Storage**: Keeps last 100 prompt bundles (JSONL format)
+- ✅ **Rating System**: Image review (Dislike/Like) + Video review (Like/Dislike)
+- ✅ **Auto-Caption**: Grok generates captions (1-2 sentences + 5-10 hashtags) on video like
 - ✅ **Music Workflow**: Grok music briefs → Suno generation → ffmpeg muxing → Human approval
-- ✅ **Motion Prompting**: Cinematic camera movements from image metadata (with per-video deduplication)
 - ✅ **Scheduler-Only Posting**: Automated TikTok + Instagram posting (NO manual post buttons)
-- ✅ **Social Metadata**: Grok-generated captions and hashtags at posting time
+- ✅ **Security**: Path traversal protection, schema validation, fail-loud validation
 
-### Planned
-- 📋 **Weighted Diversity**: Track recent combinations, avoid repetition across pipeline
-- 📋 **Analytics Dashboard**: Track performance, costs, diversity metrics
-- 📋 **A/B Testing**: Compare prompt variations and music styles
-
----
-
-## 📱 Mobile-First Architecture (Single-Generation Multi-Aspect Export)
-
-**Outcome**: One Leonardo generation produces THREE derivatives for maximum platform compatibility:
-
-```
-Leonardo @ 1440×2560 (9:16 master)
-    ↓
-    ├─> 1440×2560  Master (high-res archive)
-    ├─> 1080×1920  Video source (9:16 for Veo 3)
-    └─> 1080×1350  Feed export (4:5 for Instagram)
-```
-
-**Benefits**:
-- ✅ **Zero duplicate generations** - single API call, consistent identity
-- ✅ **Clean downscaling** - high-res master ensures quality derivatives
-- ✅ **Smart cropping** - subject detection with face/body-aware centering
-- ✅ **Composition safety** - 4:5 safe-area constraints in prompts
-- ✅ **Platform optimization** - correct aspect ratios for TikTok (9:16) and Instagram Feed (4:5)
-
-**Technical Details**:
-1. **Prompting** (Grok): Injects 4:5 safe-area constraints (10% headroom, 8% footroom, no edge contact)
-2. **Generation** (Leonardo): Creates master at 1440×2560 with deterministic seed
-3. **Video Downscale**: Lanczos resample to 1080×1920 for Veo 3 input
-4. **Feed Crop**: Smart 4:5 crop to 1080×1350 using OpenCV face detection + subject centering
-5. **Composition Warnings**: Alerts if subject may be cropped despite safe-area attempts
-
-**UI Features**:
-- Toggle between 9:16 and 4:5 previews (T key)
-- 4:5 safe-area overlay on 9:16 view (O key to toggle)
-- **Like** → uses 4:5 feed export
-- **Superlike** → uses 9:16 video export
-- Composition warnings displayed if subject near edges
-
-**Storage Structure**:
-```
-app/data/shots/{shot_id}/
-  shot_{shot_id}_master_9x16.jpg         # 1440×2560 master
-  shot_{shot_id}_video_9x16_1080x1920.jpg  # Veo 3 input
-  shot_{shot_id}_feed_4x5_1080x1350.jpg    # Instagram feed
-  meta.json  # Contains all export paths + composition warnings
-```
+### Workflow Benefits
+- ✅ **Full Control**: User controls exact prompts used in Leonardo/Veo
+- ✅ **Quality Gates**: Human review at every step (image → video → music → post)
+- ✅ **Cost Transparent**: Only pay for what you approve
+- ✅ **Prompt Reuse**: Save and reference previous successful prompts
 
 ---
 
-## 🎯 User Workflow (Production)
+## 📋 Identity Lock & Diversity System
 
-### Phase 1: Image Generation & Review
-```
-1. System generates image variations
-   → Grok creates ultra-detailed prompts from diversity banks
-   → Leonardo generates high-res images
-   → Images appear in Review UI ([I] tab)
+**Identity Lock** (`app/data/persona.json`):
+- **Fixed traits** that never drift: hair (medium-length wavy caramel-blonde), eyes (bright blue), body (athletic, curvy, muscular with defined abs)
+- **Trigger word**: `evajoy` (consistent across all prompts)
+- **Quality standards**: photorealistic, single lighting plan, shallow DOF, 35mm f/2.0
+- **Negative constraints**: No text, logos, watermarks, extra fingers, warped limbs
 
-2. User rates each image:
-   ❌ Dislike [1] → Deleted immediately
-   ❤️ Like [2] → Queued for direct image posting (not implemented)
-   ⭐ Super-like [3] → Queued for video generation
+**Diversity Banks** (`app/data/variety_bank.json`):
+- **Setting examples**: 30+ ultra-detailed locations (Japan, Santorini, Scandinavian home gym...)
+- **Wardrobe**: 25+ outfit combinations with materials and colors
+- **Accessories**: 25+ jewelry, watches, minimal items
+- **Lighting**: 25+ cinematic scenarios (golden hour, blue hour, rim light...)
+- **Camera**: 25+ technical specs (35mm f/2.0, 40mm f/2.2, 85mm f/1.8...)
+- **Angles**: 25+ compositions (low 3/4, eye-level, over-shoulder...)
+- **Pose/Microaction**: 25+ specific actions (tightening ponytail, glancing over shoulder...)
+- **Color palettes**: 25+ grading styles (warm amber + charcoal neutrals...)
+
+**Prompt Structure**:
+Generated prompts combine identity lock + randomly sampled diversity elements to create unique, on-brand variations that maintain character consistency while maximizing visual variety.
+
+---
+
+## 🎯 User Workflow (Manual Generation)
+
+### Phase 1: Prompt Generation
+```
+1. Navigate to Prompt Lab ([P] tab)
+   → Enter high-level setting (e.g., "Japan traditional garden at dawn")
+   → Optionally add seed words (e.g., "meditation", "serenity")
+   → Select count (1-5 prompt bundles)
+   → Click Generate
+
+2. System generates paired prompts:
+   → IMAGE PROMPT: 200+ word ultra-detailed Leonardo prompt
+     - Includes identity lock (hair, eyes, body)
+     - Samples diversity banks (wardrobe, lighting, pose, camera)
+     - Enforces 864×1536 (9:16) vertical format
+   → VIDEO PROMPT: Cinematic motion instructions for Veo 3
+     - Character action description
+     - Environment notes
+     - 6-second duration spec
+
+3. Copy prompt bundle ID (e.g., pr_abc123...)
+   → System stores last 100 prompts (rolling window)
+   → View recent prompts below generation form
 ```
 
-### Phase 2: Video Generation & Review
+### Phase 2: External Generation (Leonardo + Veo)
 ```
-3. Super-liked images automatically generate videos
-   → Grok creates cinematic motion prompt from image metadata
-   → Veo 3 converts image to 6-second video (with SynthID watermark)
-   → ffmpeg trims to exactly 6 seconds
-   → Videos appear in Video Review UI ([V] tab)
+4. Generate image in Leonardo.ai:
+   → Paste image prompt into Leonardo
+   → Use Leonardo Alchemy V2 model
+   → Set dimensions to 864×1536 (9:16 vertical)
+   → Download PNG
 
-4. User rates each video:
-   ❌ Dislike [1] → Deleted (motion history cleared)
-   ❤️ Like [2] → Advance to Music Review panel
-   🔄 Regenerate [R] → Re-create with different motion (avoids previous prompts)
-```
-
-### Phase 3: Music Generation & Approval
-```
-5. Liked videos enter Music Review workflow
-   → Suggest Music: Grok generates music brief (style, mood, prompt)
-   → Generate Music: Suno creates 6-second instrumental track
-   → Auto-mux: ffmpeg combines video + music
-   → User rates result:
-     ✅ Approve → Queued for scheduler (status: approved)
-     🔄 Regenerate → Try different music style
-     ⏭️ Skip Music → Queue without music
+5. Generate video in Veo 3:
+   → Upload image to Veo 3
+   → Paste video/motion prompt
+   → Set duration to 6 seconds exactly
+   → Download MP4 (includes SynthID watermark)
 ```
 
-### Phase 4: Automated Posting (Scheduler-Only)
+### Phase 3: Upload & Validation
 ```
-6. Scheduler posts approved videos automatically
-   → Runs every 20 minutes (configurable cron)
-   → Only posts within posting window (09:00-21:00 local time)
-   → Grok generates social metadata (caption + hashtags) at posting time
-   → Posts to TikTok or Instagram (configurable platform)
-   → Tracked in videos.json with post IDs
-   → NO MANUAL POST BUTTONS (scheduler-only workflow)
+6. Upload image ([I] Image Review tab):
+   → Enter prompt ID in upload form
+   → Select PNG file (864×1536 required)
+   → System validates dimensions exactly
+   → On success: Image appears in review queue
+
+7. Upload video ([V] Video Review tab):
+   → Enter prompt ID in upload form
+   → Select MP4 file (6.0±0.05s, 9:16 required)
+   → System validates duration and aspect ratio
+   → On success: Video appears in review queue
+```
+
+### Phase 4: Image & Video Review
+```
+8. Rate images ([I] tab):
+   ❌ Dislike [1/J] → Deleted immediately
+   ❤️ Like [2/K] → Saved (ready for direct posting, not implemented)
+
+9. Rate videos ([V] tab):
+   ❌ Dislike [1/J] → Deleted immediately
+   ❤️ Like [2/K] → Caption auto-generated via Grok, advance to Music Review
+```
+
+### Phase 5: Music Generation & Approval
+```
+10. Liked videos enter Music Review workflow:
+    → Suggest Music: Grok generates music brief (style, mood, prompt)
+    → Generate Music: Suno creates 6-second instrumental track
+    → Auto-mux: ffmpeg combines video + music
+    → User rates result:
+      ✅ Approve → Queued for scheduler (status: approved)
+      🔄 Regenerate → Try different music style
+      ⏭️ Skip Music → Queue without music (status: approved)
+```
+
+### Phase 6: Automated Posting (Scheduler-Only)
+```
+11. Scheduler posts approved videos automatically:
+    → Runs every 20 minutes (configurable cron)
+    → Only posts within posting window (09:00-21:00 local time)
+    → Uses Grok-generated caption from Phase 4
+    → Posts to TikTok or Instagram (configurable platform)
+    → Tracked in videos.json with post IDs
+    → NO MANUAL POST BUTTONS (scheduler-only workflow)
 ```
 
 ---
@@ -147,6 +166,8 @@ app/data/shots/{shot_id}/
 - **Python 3.11+**
 - **Node.js 18+**
 - **[UV](https://github.com/astral-sh/uv) package manager** ⚠️ NEVER use pip - UV ONLY
+- **Leonardo.ai account** (for external image generation)
+- **Google Veo 3 access** (for external video generation)
 
 ### Installation
 
@@ -165,7 +186,10 @@ cd frontend && npm install && cd ..
 
 # Configure environment
 cp .env.example .env
-# Edit .env with your API keys (keep ALLOW_LIVE=false initially)
+# Edit .env with your API keys:
+# - GROK_API_KEY (required for prompt generation)
+# - SUNO_API_KEY (required for music generation)
+# - Keep ALLOW_LIVE=false initially for testing
 ```
 
 ### Running the System
@@ -185,12 +209,39 @@ scripts\dev_run.bat      # Windows
 - Backend API: http://localhost:5001
 - API Docs: http://localhost:5001/docs
 
-### First Generation
+### First Workflow Run
 
-1. Set `ALLOW_LIVE=true` in `.env` (enables paid API calls)
-2. Click "Generate" in frontend
-3. Wait 2-3 minutes for full pipeline
-4. Review generated video in player
+1. **Generate Prompts**:
+   - Navigate to Prompt Lab ([P] tab)
+   - Enter setting: "Scandinavian home gym at sunrise"
+   - Click "Generate" (requires `ALLOW_LIVE=true` for Grok API)
+   - Copy prompt bundle ID (e.g., `pr_abc123...`)
+
+2. **Generate Assets Externally**:
+   - Open Leonardo.ai
+   - Paste image prompt, set to 864×1536, generate
+   - Download PNG
+   - Open Veo 3
+   - Upload image, paste motion prompt, set to 6s, generate
+   - Download MP4
+
+3. **Upload & Review**:
+   - Return to app, navigate to Image Review ([I] tab)
+   - Enter prompt ID, select PNG, upload
+   - Rate image: Like [2/K]
+   - Navigate to Video Review ([V] tab)
+   - Enter prompt ID, select MP4, upload
+   - Rate video: Like [2/K] → Caption auto-generated
+
+4. **Add Music & Approve**:
+   - Music Review panel appears
+   - Click "Suggest Music" → "Generate Music" → "Mux"
+   - Preview result, click "Approve"
+
+5. **Enable Scheduler** (optional):
+   - Set `ENABLE_SCHEDULER=true` in `.env`
+   - Configure posting window and platform
+   - Scheduler posts approved videos automatically
 
 ---
 
@@ -200,18 +251,39 @@ scripts\dev_run.bat      # Windows
 
 Set these in your `.env` file:
 
-| Provider | Variable | Purpose | Cost/Video |
-|----------|----------|---------|------------|
-| **Grok** | `GROK_API_KEY` | Prompting (image, motion, music, social) | ~$0.12/video |
-| **Leonardo** | `LEONARDO_API_KEY` | Image generation | ~$0.02 |
-| **Google Cloud** | `GOOGLE_APPLICATION_CREDENTIALS` | Veo 3 video generation (6s) | ~$0.30 |
-| **Suno** | `SUNO_API_KEY` | Music generation (6s instrumental) | ~$0.10 |
+| Provider | Variable | Purpose | Cost |
+|----------|----------|---------|------|
+| **Grok** | `GROK_API_KEY` | Prompt generation (image, motion, captions, music) | ~$0.02 per 5 bundles |
+| **Suno** | `SUNO_API_KEY` | Music generation (6s instrumental) | ~$0.10 per track |
 | **TikTok** | `TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET` | Automated posting | Free |
 | **Instagram** | `INSTAGRAM_ACCESS_TOKEN`, `INSTAGRAM_BUSINESS_ACCOUNT_ID` | Automated posting | Free |
 
-**Total cost per video with music**: ~$0.54
+**External (User-Operated)**:
+- **Leonardo.ai**: Image generation (user manages externally) | ~$0.02 per image
+- **Google Veo 3**: Video generation (user manages externally) | ~$0.30 per 6s video
+
+**Total cost per video with music**: ~$0.42 (Grok + Suno only; Leonardo + Veo paid separately)
 
 **Note**: ffmpeg is used locally for audio/video muxing (no API cost)
+
+### Manual Workflow Configuration
+
+Set these in your `.env` file for manual workflow:
+
+```bash
+# Manual Workflow Directories
+PROMPTS_OUT_DIR=app/data/prompts      # Prompt bundle storage (JSONL)
+PERSONA_FILE=app/data/persona.json    # Identity lock (hair, eyes, body)
+VARIETY_FILE=app/data/variety_bank.json  # Diversity banks
+MANUAL_IMAGES_DIR=app/data/manual/images  # Uploaded images
+MANUAL_VIDEOS_DIR=app/data/manual/videos  # Uploaded videos
+
+# Enforced Formats (strict validation)
+IMAGE_WIDTH=864                       # Exact width required
+IMAGE_HEIGHT=1536                     # Exact height required (9:16)
+VIDEO_MUST_BE_SECONDS=6               # Exact duration ±0.05s
+VIDEO_ASPECT=9:16                     # Required aspect ratio
+```
 
 ### Safety Guards
 
@@ -236,109 +308,140 @@ DEFAULT_POSTING_PLATFORM=tiktok     # tiktok or instagram
 
 ### Character Configuration
 
-Edit `app/data/prompt_config.json` to customize Eva Joy's profile and diversity banks:
+**Identity Lock** (`app/data/persona.json`):
+Edit this file to customize Eva Joy's fixed traits (never drift):
 
 ```json
 {
-  "character_profile": {
-    "name": "Eva Joy",
-    "physical": {
-      "body_type": "muscular, defined, athletic, curvy, feminine",
-      "hair": "long, slightly wavy, dark brown (brunette)",
-      "eyes": "expressive green eyes",
-      ...
-    },
-    "style": {...},
-    "fitness_focus": [...]
-  },
-  "diversity_banks": {
-    "locations": [30 ultra-detailed venues],
-    "poses": [25 specific body positions],
-    "outfits": [25 garments with materials/colors],
-    "accessories": [25 items with placement],
-    "lighting": [25 cinematic scenarios],
-    "camera": [25 technical specs],
-    "props": [25 environmental elements],
-    "creative_twists": [25 unexpected elements]
-  }
+  "trigger": "evajoy",
+  "hair": "medium-length wavy caramel-blonde",
+  "eyes": "bright blue",
+  "body": "athletic, curvy, muscular with defined abs and toned arms",
+  "skin": "realistic skin with subtle post-workout sheen",
+  "do": ["photorealistic", "single lighting plan", "clean composition", "shallow DOF", "35mm f/2.0"],
+  "dont": ["brunette", "plastic skin", "over-smooth", "uncanny", "text", "logos", "watermarks"]
 }
 ```
+
+**Diversity Banks** (`app/data/variety_bank.json`):
+Edit this file to customize variety options (sampled randomly per prompt):
+
+```json
+{
+  "setting_examples": ["Japan", "Santorini", "Scandinavian home gym", ...],
+  "wardrobe": ["orchid-purple cropped top + white shorts", ...],
+  "accessories": ["minimalist gold studs", "black fitness watch", ...],
+  "lighting": ["soft warm rim + neutral bounce fill", ...],
+  "camera": ["35mm f/2.0 shallow DOF", "40mm f/2.2", ...],
+  "angle": ["low 3/4 side angle", "eye-level editorial", ...],
+  "pose_microaction": ["tightening ponytail", "glancing over shoulder", ...],
+  "color_palette": ["sport-editorial with warm amber rim", ...],
+  "negative": ["doll-like", "uncanny face", "plastic skin", ...]
+}
+```
+
+**How It Works**:
+- `persona.json` defines **fixed identity** (hair, eyes, body) that appear in every prompt
+- `variety_bank.json` defines **diversity options** sampled randomly for each prompt bundle
+- Grok combines identity lock + diversity samples to generate unique, on-brand prompts
 
 ---
 
 ## 🏗️ Architecture
 
-### Pipeline Flow
+### Manual Workflow Flow
 
 ```
-User → Frontend → POST /api/cycle/generate
-                        ↓
-              Coordinator.run_cycle(n)
-                        ↓
-        ┌───────────────────────────────────┐
-        │ Agent Pipeline (Sequential)       │
-        ├───────────────────────────────────┤
-        │ 1. prompting.propose()            │
-        │    → Grok 200+ word prompts       │
-        │    → Diversity bank sampling      │
-        │    → Dedupe vs history.json       │
-        │                                   │
-        │ 2. gen_image.generate()           │
-        │    → Leonardo.ai API              │
-        │    → Downloads PNG                │
-        │                                   │
-        │ 3. gen_video.from_image()         │
-        │    → Veo 3 img2vid (6 seconds)    │
-        │    → SynthID watermark embedded   │
-        │                                   │
-        │ 4. edit.polish()                  │
-        │    → ffmpeg trim to exactly 6s    │
-        │    → NO MUSIC (added later)       │
-        │                                   │
-        │ 5. qa_style.ensure()              │
-        │    → Container validation only    │
-        │    → Blur QA DISABLED             │
-        │                                   │
-        │ 6. indexer.index()                │
-        │    → Write to videos.json         │
-        │    → Move to generated/           │
-        │    → Status: pending_review       │
-        └───────────────────────────────────┘
-                        ↓
-              Returns video metadata
-                        ↓
-          Frontend displays in Video Review ([V] tab)
-                        ↓
-          User rates: Dislike [1] / Like [2] / Regenerate [R]
-                        ↓
-          If Like → Music Review Panel
-                        ↓
+User → Prompt Lab ([P] tab) → POST /api/prompts/bundle
+                                        ↓
+                            Grok generates paired prompts
+                            ┌────────────────────────────┐
+                            │ IMAGE PROMPT (200+ words)  │
+                            │ - Identity lock (persona)  │
+                            │ - Diversity sampling       │
+                            │ - 864×1536 (9:16) format   │
+                            │                            │
+                            │ VIDEO PROMPT (motion)      │
+                            │ - Character action         │
+                            │ - Environment notes        │
+                            │ - 6-second duration        │
+                            └────────────────────────────┘
+                                        ↓
+                            Returns bundle with unique ID
+                                        ↓
+                            User copies prompt + ID
+                                        ↓
+                ┌───────────────────────────────────────────┐
+                │ External Generation (User-Operated)       │
+                ├───────────────────────────────────────────┤
+                │ Leonardo.ai:                              │
+                │ - Paste image prompt                      │
+                │ - Set 864×1536 dimensions                 │
+                │ - Generate & download PNG                 │
+                │                                           │
+                │ Veo 3:                                    │
+                │ - Upload image                            │
+                │ - Paste motion prompt                     │
+                │ - Set 6s duration                         │
+                │ - Generate & download MP4                 │
+                └───────────────────────────────────────────┘
+                                        ↓
+            User uploads to Image Review ([I] tab)
+                                        ↓
+                        POST /api/assets/upload
+                            ┌──────────────────┐
+                            │ validate_image() │
+                            │ - Check 864×1536 │
+                            │ - Save to manual/│
+                            │ - Index to DB    │
+                            └──────────────────┘
+                                        ↓
+            User uploads to Video Review ([V] tab)
+                                        ↓
+                        POST /api/assets/upload
+                            ┌──────────────────┐
+                            │ validate_video() │
+                            │ - Check 6.0±0.05s│
+                            │ - Check 9:16     │
+                            │ - Save to manual/│
+                            │ - Index to DB    │
+                            └──────────────────┘
+                                        ↓
+              User rates video: Like [2/K]
+                                        ↓
+              PUT /api/videos/{id}/rate
+              → Grok generates caption (1-2 sentences + hashtags)
+              → Status: liked
+                                        ↓
+              Music Review Panel appears
+                                        ↓
           Suggest → Generate → Mux → Rate (Approve/Regenerate/Skip)
-                        ↓
+                                        ↓
           If Approve → Status: approved (queued for scheduler)
-                        ↓
+                                        ↓
           Scheduler posts when within posting window
 ```
 
-### Provider Abstraction
+### System Components
 
-All external APIs hidden behind `clients/` with stable interfaces:
+**Grok Client** (`clients/grok.py`):
+- `generate_prompt_bundle()`: Creates paired image + video prompts from setting + diversity banks
+- `generate_quick_caption()`: Generates captions (1-2 sentences + hashtags) on video like
 
-```python
-# agents/prompting.py
-grok = prompting_client()  # Returns GrokClient
-variations = grok.generate_variations(profile, banks, n)
+**Validators** (`agents/validators.py`):
+- `validate_image_dimensions()`: Strict 864×1536 check using PIL
+- `validate_video_format()`: Duration (6.0±0.05s) and aspect ratio (9:16) using ffprobe
 
-# agents/gen_image.py
-leonardo = image_client()  # Returns LeonardoClient
-image_path = leonardo.generate(payload)
+**Prompt Storage** (`core/prompt_storage.py`):
+- `append_prompt_bundle()`: JSONL format with rolling window (keeps last 100)
+- `read_recent_prompts()`: Returns newest-first for UI display
+- `find_prompt_bundle()`: Lookup by ID for upload linking
 
-# agents/gen_video.py
-veo = video_client()  # Returns VeoVideoClient
-video_path = veo.img2vid(image_path, motion_prompt)
-```
+**Suno Client** (`clients/suno.py`):
+- `generate_clip()`: 6-second instrumental music generation
 
-**Why**: Swapping Leonardo → DALL·E or Veo → Runway requires only updating `clients/` directory, pipeline code unchanged.
+**FFmpeg Client** (`clients/ffmpeg_mux.py`):
+- `mux()`: Combines video + music audio tracks locally
 
 ### Fail-Loud Philosophy
 
@@ -427,30 +530,67 @@ with balanced headroom and diagonal skyline lines guiding focus.
 
 ## 📡 API Endpoints
 
-### Generation
+### Prompt Lab (Manual Workflow)
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/api/cycle/generate` | POST | Trigger generation cycle (rate limited 1/min) |
-| `/api/healthz` | GET | Provider readiness check |
+| `/api/prompts/bundle` | POST | Generate N prompt bundles (image + video prompts) |
+| `/api/prompts` | GET | Get recent prompt bundles (newest first, default: 20) |
+| `/api/assets/upload` | POST | Upload manually generated image or video with validation |
+
+**POST /api/prompts/bundle Request**:
+```json
+{
+  "setting": "Scandinavian home gym at sunrise",
+  "seed_words": ["meditation", "serenity"],
+  "count": 3
+}
+```
+
+**Response**:
+```json
+{
+  "ok": true,
+  "bundles": [
+    {
+      "id": "pr_abc123...",
+      "image_prompt": {
+        "final_prompt": "photorealistic vertical 9:16 image of evajoy...",
+        "negative_prompt": "doll-like, plastic skin...",
+        "width": 864,
+        "height": 1536
+      },
+      "video_prompt": {
+        "motion": "slow push-in with subtle upward drift...",
+        "character_action": "holding meditation pose...",
+        "environment": "soft natural light through windows...",
+        "duration_seconds": 6,
+        "notes": "Maintain serene atmosphere..."
+      }
+    }
+  ]
+}
+```
+
+**POST /api/assets/upload Request** (multipart form-data):
+- `file`: Image (PNG/JPEG) or video (MP4/MOV)
+- `asset_type`: "image" or "video"
+- `prompt_id`: Prompt bundle ID (e.g., "pr_abc123...")
 
 ### Image Review
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/api/images/pending` | GET | Fetch images awaiting review |
-| `/api/images/{id}/rate` | PUT | Rate image (dislike/like/superlike) |
+| `/api/images/{id}/rate` | PUT | Rate image (dislike/like) |
 | `/api/images/liked` | GET | Fetch images queued for posting |
-| `/api/images/superliked` | GET | Fetch images awaiting video generation |
 
 ### Video Review
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/api/videos/pending` | GET | Fetch videos awaiting review |
-| `/api/videos/{id}/rate` | PUT | Rate video (like/dislike) |
-| `/api/videos/{id}/regenerate` | POST | Re-create video with new motion prompt |
-| `/api/videos/generate/{image_id}` | POST | Generate video from super-liked image |
+| `/api/videos/{id}/rate` | PUT | Rate video (like/dislike) - auto-generates caption on like |
 | `/api/videos/approved` | GET | Fetch videos approved and queued for scheduler |
 
 ### Music Workflow
@@ -625,109 +765,95 @@ Expected response:
 
 ## 💾 Data Files
 
-### app/data/prompt_config.json
-**Purpose**: Character profile + diversity banks (single source of truth)
+### app/data/persona.json
+**Purpose**: Identity lock (fixed traits that never drift)
 
 **Structure**:
-- `character_profile`: Eva Joy's physical traits, style, fitness focus
-- `diversity_banks`: 8 categories with 25-30 detailed options each
-- `negative_prompt`: Quality/safety constraints
-- `quality_standards`: Format, resolution, photography style
-- `safety_boundaries`: Clothing, proportions, content guidelines
-
-### app/data/history.json
-**Purpose**: Rolling window of generated content hashes for deduplication
-
-**Format**:
 ```json
 {
-  "hashes": ["abc123...", "def456..."],
-  "max_size": 5000
+  "trigger": "evajoy",
+  "hair": "medium-length wavy caramel-blonde",
+  "eyes": "bright blue",
+  "body": "athletic, curvy, muscular with defined abs and toned arms",
+  "skin": "realistic skin with subtle post-workout sheen",
+  "do": ["photorealistic", "single lighting plan", "shallow DOF"],
+  "dont": ["brunette", "plastic skin", "text", "logos", "watermarks"]
 }
+```
+
+### app/data/variety_bank.json
+**Purpose**: Diversity options sampled randomly per prompt
+
+**Structure**:
+```json
+{
+  "setting_examples": ["Japan", "Santorini", "Scandinavian home gym", ...],
+  "wardrobe": ["orchid-purple cropped top + white shorts", ...],
+  "accessories": ["minimalist gold studs", "black fitness watch", ...],
+  "lighting": ["soft warm rim + neutral bounce fill", ...],
+  "camera": ["35mm f/2.0 shallow DOF", "40mm f/2.2", ...],
+  "angle": ["low 3/4 side angle", "eye-level editorial", ...],
+  "pose_microaction": ["tightening ponytail", "glancing over shoulder", ...],
+  "color_palette": ["sport-editorial with warm amber rim", ...],
+  "negative": ["doll-like", "uncanny face", "plastic skin", ...]
+}
+```
+
+### app/data/prompts/prompts.jsonl
+**Purpose**: Rolling window of prompt bundles (keeps last 100)
+
+**Format** (one JSON object per line):
+```jsonl
+{"id":"pr_abc123...","setting":"Japan traditional garden","seed_words":["meditation","serenity"],"image_prompt":{...},"video_prompt":{...},"created_at":"2025-01-07T12:34:56Z"}
+{"id":"pr_def456...","setting":"Santorini sunset terrace","seed_words":[],"image_prompt":{...},"video_prompt":{...},"created_at":"2025-01-07T13:00:00Z"}
+```
+
+### app/data/images.json
+**Purpose**: Index of all uploaded images
+
+**Schema**:
+```json
+[
+  {
+    "id": "img_abc123",
+    "prompt_id": "pr_abc123",
+    "image_path": "app/data/manual/images/img_abc123.png",
+    "status": "pending_review|liked|deleted",
+    "source": "manual_upload",
+    "created_at": "2025-01-07T14:00:00Z",
+    "rated_at": "2025-01-07T14:05:00Z"
+  }
+]
 ```
 
 ### app/data/videos.json
-**Purpose**: Index of all generated/posted/deleted videos
+**Purpose**: Index of all uploaded/posted videos
 
-**Schema** (current):
+**Schema**:
 ```json
 [
   {
-    "id": "abc123",
-    "path": "app/data/generated/abc123.mp4",
-    "seed": 1234567890,
-    "status": "generated",
-    "ts": 1706140800
+    "id": "vid_abc123",
+    "prompt_id": "pr_abc123",
+    "image_id": "img_abc123",
+    "video_path": "app/data/manual/videos/vid_abc123.mp4",
+    "status": "pending_review|liked|pending_review_music|approved|posted|deleted",
+    "source": "manual_upload",
+    "caption": "Generated caption with hashtags #fitness #motivation",
+    "music": {
+      "brief": "ambient cinematic fitness background",
+      "style": "minimal electronic",
+      "mood": "calm energizing",
+      "audio_path": "app/data/generated/music_abc123.mp3",
+      "music_status": "suggested|generated|approved|skipped"
+    },
+    "posted_platform": "tiktok",
+    "posted_id": "7123456789012345678",
+    "posted_at": "2025-01-07T18:00:00Z",
+    "created_at": "2025-01-07T14:10:00Z",
+    "rated_at": "2025-01-07T14:15:00Z"
   }
 ]
-```
-
-**Schema** (production):
-```json
-[
-  {
-    "id": "abc123",
-    "status": "pending_review|liked|approved|posted|deleted",
-    "rating": null|"dislike"|"like"|"superlike",
-    "image_path": "data/generated/img_abc123.png",
-    "video_path": "data/generated/vid_abc123.mp4",
-    "meta": {
-      "prompt": "full 200+ word prompt",
-      "diversity_meta": {
-        "location": "rooftop terrace...",
-        "pose": "over shoulder...",
-        "outfit": "terracotta blazer...",
-        ...
-      },
-      "seed": 1234,
-      "duration_s": 6
-    },
-    "video_meta": {
-      "motion_prompt": "slow push-in...",
-      "regeneration_count": 0
-    },
-    "music_meta": {
-      "music_brief": {
-        "prompt": "energetic upbeat electronic...",
-        "style": "electronic pop",
-        "mood": "energetic"
-      },
-      "music_path": "data/generated/music_abc123.mp3",
-      "music_rating": null|"approve"|"regenerate"|"skip"
-    },
-    "social_meta": {
-      "caption": "Generated caption for TikTok/Instagram",
-      "hashtags": ["#fitness", "#motivation"]
-    },
-    "created_at": "ISO8601",
-    "rated_at": "ISO8601",
-    "music_approved_at": "ISO8601",
-    "posted_at": "ISO8601",
-    "post_id": "tiktok_video_id or instagram_media_id"
-  }
-]
-```
-
-### app/data/diversity_usage.json (In Progress)
-**Purpose**: Track recent combinations for weighted sampling
-
-**Format**:
-```json
-{
-  "recent_combinations": [
-    {
-      "location": "rooftop terrace",
-      "outfit_style": "terracotta blazer",
-      "lighting": "golden hour",
-      "used_at": "ISO8601"
-    }
-  ],
-  "element_usage_count": {
-    "locations": {"rooftop terrace": 3, "Bali gym": 1},
-    "outfits": {"terracotta blazer combo": 2}
-  },
-  "max_window": 50
-}
 ```
 
 ---
@@ -780,51 +906,47 @@ ai-influencer/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py                 # FastAPI app
-│   │   ├── api/routes.py           # API endpoints (all workflows)
-│   │   ├── coordinator/            # Orchestration
-│   │   ├── agents/                 # Pipeline steps
-│   │   │   ├── prompting.py        # Grok image prompts
-│   │   │   ├── gen_image.py        # Leonardo
-│   │   │   ├── gen_video.py        # Veo 3
-│   │   │   ├── video_prompting.py  # Grok motion prompts
-│   │   │   ├── edit.py             # ffmpeg trim
-│   │   │   └── indexer.py          # Write to videos.json
+│   │   ├── api/routes.py           # API endpoints (manual workflow)
+│   │   ├── agents/                 # Validation & helpers
+│   │   │   ├── validators.py       # Image/video validation (PIL, ffprobe)
+│   │   │   └── indexer.py          # Write to images.json / videos.json
 │   │   ├── clients/                # API wrappers
-│   │   │   ├── grok.py             # xAI Grok (all prompting)
-│   │   │   ├── leonardo.py         # Image generation
-│   │   │   ├── veo.py              # Veo 3 video
+│   │   │   ├── grok.py             # xAI Grok (prompts, captions, music)
 │   │   │   ├── suno.py             # Suno music generation
 │   │   │   ├── ffmpeg_mux.py       # Local ffmpeg operations
 │   │   │   ├── tiktok.py           # TikTok posting
-│   │   │   ├── instagram.py        # Instagram posting
-│   │   │   └── provider_selector.py # DI + fail-loud guards
+│   │   │   └── instagram.py        # Instagram posting
 │   │   ├── core/                   # Infrastructure
 │   │   │   ├── config.py           # Pydantic settings
-│   │   │   ├── cost.py             # Budget tracking
 │   │   │   ├── storage.py          # Atomic JSON I/O
+│   │   │   ├── prompt_storage.py   # JSONL rolling window (last 100)
 │   │   │   ├── ids.py              # Content hashing
 │   │   │   ├── paths.py            # Safe path handling
-│   │   │   ├── scheduler.py        # APScheduler posting workflow
-│   │   │   └── motion_dedup.py     # Per-video motion tracking
+│   │   │   └── scheduler.py        # APScheduler posting workflow
 │   │   └── tests/
-│   │       ├── test_pipeline_smoke.py
-│   │       └── test_new_architecture.py  # 17 comprehensive tests
+│   │       └── test_validators.py
 │   └── pyproject.toml              # UV dependencies
 ├── frontend/
 │   ├── src/
-│   │   ├── App.jsx                 # Main component (4 tabs)
-│   │   ├── ImageReview.jsx         # Image rating UI
-│   │   ├── VideoReview.jsx         # Video + Music workflow
+│   │   ├── App.jsx                 # Main component (5 tabs)
+│   │   ├── PromptLab.jsx           # Prompt generation UI
+│   │   ├── ImageReview.jsx         # Image rating + upload UI
+│   │   ├── VideoReview.jsx         # Video rating + upload + Music workflow
 │   │   ├── QueueView.jsx           # Queue status
 │   │   ├── SchedulerSettings.jsx   # Scheduler controls
 │   │   └── api.js                  # API helpers
 │   └── package.json
 ├── app/data/
-│   ├── referral_prompts.json       # Eva Joy persona + style
-│   ├── history.json                # Dedupe hashes
+│   ├── persona.json                # Identity lock (hair, eyes, body)
+│   ├── variety_bank.json           # Diversity banks (wardrobe, lighting, etc.)
+│   ├── prompts/
+│   │   └── prompts.jsonl           # Rolling window of prompt bundles
+│   ├── images.json                 # Image index (all metadata)
 │   ├── videos.json                 # Video index (all metadata)
-│   ├── motion/                     # Per-video motion history
-│   ├── generated/                  # Output videos + music
+│   ├── manual/
+│   │   ├── images/                 # Uploaded images (validated)
+│   │   └── videos/                 # Uploaded videos (validated)
+│   ├── generated/                  # Music + muxed videos
 │   ├── posted/                     # Published content
 │   └── deleted/                    # Rejected content
 ├── .env.example
@@ -834,36 +956,40 @@ ai-influencer/
 
 ### Adding Custom Diversity Options
 
-1. Edit `app/data/prompt_config.json`
-2. Add items to any diversity bank:
+1. Edit `app/data/variety_bank.json`
+2. Add items to any diversity array:
    ```json
-   "locations": [
-     "existing location...",
-     "your new ultra-detailed location with architectural specifics..."
-   ]
+   {
+     "wardrobe": [
+       "existing outfit...",
+       "your new ultra-detailed outfit with materials and colors..."
+     ],
+     "lighting": [
+       "existing lighting...",
+       "your new cinematic lighting scenario..."
+     ]
+   }
    ```
 3. Restart backend (hot-reload picks up changes)
-4. Next generation will include new options
+4. Next prompt generation will include new options
 
-### Customizing Character Profile
+### Customizing Character Identity
 
-Edit `character_profile` in `prompt_config.json`:
+Edit `app/data/persona.json` to change Eva Joy's fixed traits:
 
 ```json
 {
-  "character_profile": {
-    "name": "Your Character",
-    "physical": {
-      "body_type": "your description",
-      "hair": "color and style",
-      "eyes": "eye color",
-      ...
-    },
-    "style": {...},
-    "fitness_focus": [...]
-  }
+  "trigger": "yourcharacter",
+  "hair": "your hair description",
+  "eyes": "your eye color",
+  "body": "your body type description",
+  "skin": "your skin description",
+  "do": ["style guidelines..."],
+  "dont": ["things to avoid..."]
 }
 ```
+
+**Note**: Changes to `persona.json` affect identity lock (appears in every prompt), while changes to `variety_bank.json` affect diversity sampling (varies per prompt).
 
 ---
 
@@ -909,39 +1035,40 @@ Edit `character_profile` in `prompt_config.json`:
 
 ## 📈 Roadmap
 
-### Phase 1: Core Pipeline ✅ (Complete)
-- [x] Grok ultra-detailed prompt generation (200+ words)
-- [x] Leonardo image generation with polling
-- [x] Veo 3 video generation (6 seconds) with SynthID watermark
-- [x] ffmpeg video trimming and muxing
-- [x] QA style gates (container validation, blur disabled)
-- [x] Cost tracking with budget caps
-- [x] Security: path traversal, schema validation, rate limiting
-- [x] Image review UI (Dislike/Like/Super-like)
-- [x] Video review UI (Like/Dislike + Regenerate)
-- [x] Queue management UI (all queues visible)
-- [x] Video motion prompting agent (Grok-powered)
-- [x] Per-video motion deduplication
+### Phase 1: Manual Workflow ✅ (Complete)
+- [x] Prompt Lab UI with prompt bundle generation
+- [x] Grok paired prompt generation (image + video prompts)
+- [x] Identity lock system (persona.json)
+- [x] Diversity banks system (variety_bank.json)
+- [x] Rolling prompt storage (JSONL, last 100)
+- [x] Manual image upload with strict validation (864×1536)
+- [x] Manual video upload with strict validation (6s, 9:16)
+- [x] Image review UI (Dislike/Like)
+- [x] Video review UI (Like/Dislike)
+- [x] Auto-caption generation on video like (Grok)
 - [x] Music workflow (Grok brief → Suno generation → ffmpeg mux)
 - [x] Music review UI (Approve/Regenerate/Skip)
 - [x] Scheduler-only posting (TikTok + Instagram)
-- [x] Social metadata generation (Grok captions + hashtags)
 - [x] Scheduler controls (run-once, dry-run)
+- [x] Security: path traversal, schema validation, fail-loud validation
 
-### Phase 2: Optimization & Analytics 📋 (Planned)
-- [ ] Weighted diversity sampling (anti-repetition across pipeline)
-- [ ] Performance dashboard (views, engagement)
-- [ ] Cost analytics (spend per video, ROI)
-- [ ] Diversity metrics (bank usage heatmap)
+### Phase 2: Enhancements 📋 (Planned)
+- [ ] Weighted diversity sampling (avoid recent combinations)
+- [ ] Prompt favorites/bookmarking system
+- [ ] Bulk prompt generation (10+ bundles at once)
+- [ ] Prompt search and filtering
+- [ ] Export/import prompt bundles
+- [ ] Leonardo API integration for optional auto-generation
+- [ ] Veo API integration for optional auto-generation
+
+### Phase 3: Analytics & Optimization 📋 (Future)
+- [ ] Performance dashboard (views, engagement per video)
+- [ ] Cost analytics (spend tracking per video)
+- [ ] Diversity metrics (bank usage heatmap, avoid repetition)
 - [ ] A/B testing (compare prompt variations and music styles)
 - [ ] Multi-platform posting analytics
-
-### Phase 3: Advanced Features 📋 (Future)
 - [ ] Dynamic posting schedule optimization (best times per platform)
 - [ ] Automated hashtag optimization based on performance
-- [ ] LoRA training integration for consistent character appearance
-- [ ] Multiple character profiles support
-- [ ] Batch video generation workflows
 
 ---
 
@@ -958,8 +1085,11 @@ Edit `character_profile` in `prompt_config.json`:
 ## 💡 Key Principles (Non-Negotiables)
 
 **❌ NO MOCK MODES**: Fail loudly on missing configs or API credentials
-**❌ NO CAPTIONS, VOICE, SUBTITLES**: Character is non-speaking
+**❌ NO CAPTIONS, VOICE, SUBTITLES**: Character is non-speaking (captions generated for posting only)
 **❌ NO WATERMARKS, OVERLAYS**: Pure visuals only (except Veo 3's invisible SynthID)
+**✅ MANUAL WORKFLOW**: User generates images/videos externally (Leonardo/Veo)
+**✅ STRICT VALIDATION**: Enforces exact dimensions (864×1536) and duration (6.0±0.05s)
+**✅ IDENTITY LOCK**: Fixed traits (hair, eyes, body) never drift from persona.json
 **✅ LIVE CALLS OFF BY DEFAULT**: Requires explicit `ALLOW_LIVE=true`
 **✅ SCHEDULER OFF BY DEFAULT**: Requires explicit `ENABLE_SCHEDULER=true`
 **✅ UV ONLY**: Never use pip - UV exclusively

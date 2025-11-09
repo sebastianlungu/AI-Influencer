@@ -21,6 +21,7 @@ dependencies = [
     "google-cloud-aiplatform>=1.122.0",
     "google-auth>=2.41.1",
     "pytz>=2025.2",
+    "python-multipart>=0.0.20",
 ]
 
 [dependency-groups]

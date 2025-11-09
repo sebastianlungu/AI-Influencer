@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   fetchPendingVideo,
   rateVideo,
@@ -7,6 +7,7 @@ import {
   generateMusic,
   muxMusic,
   rateMusic,
+  uploadAsset,
 } from "./api";
 
 export default function VideoReview() {
@@ -17,6 +18,9 @@ export default function VideoReview() {
   const [musicBrief, setMusicBrief] = useState(null);
   const [musicStatus, setMusicStatus] = useState("idle"); // idle, suggesting, suggested, generating, generated, muxing, muxed
   const [musicWorking, setMusicWorking] = useState(false);
+  const [uploadPromptId, setUploadPromptId] = useState("");
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef(null);
 
   const loadNext = async () => {
     setLoading(true);
@@ -227,6 +231,33 @@ export default function VideoReview() {
     }
   };
 
+  const handleUpload = async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    if (!uploadPromptId.trim()) {
+      setError("Please enter a Prompt ID first");
+      return;
+    }
+
+    setUploading(true);
+    setError(null);
+
+    try {
+      await uploadAsset(file, "video", uploadPromptId.trim());
+      setUploadPromptId("");
+      if (fileInputRef.current) {
+        fileInputRef.current.value = "";
+      }
+      // Reload to show the newly uploaded video
+      await loadNext();
+    } catch (err) {
+      setError(err.message || "Upload failed");
+    } finally {
+      setUploading(false);
+    }
+  };
+
   if (loading) {
     return (
       <div style={styles.container}>
@@ -239,6 +270,33 @@ export default function VideoReview() {
     return (
       <div style={styles.container}>
         <div style={styles.header}>Video Review</div>
+
+        {/* Upload Section */}
+        <div style={styles.uploadSection}>
+          <h3 style={styles.uploadTitle}>Upload Video (Manual Workflow)</h3>
+          <p style={styles.uploadInstructions}>
+            Upload manually generated videos (6s, 9:16). Requires Prompt ID from Prompt Lab.
+          </p>
+          <div style={styles.uploadForm}>
+            <input
+              type="text"
+              value={uploadPromptId}
+              onChange={(e) => setUploadPromptId(e.target.value)}
+              placeholder="Enter Prompt ID (e.g., pr_abc123...)"
+              style={styles.promptInput}
+            />
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="video/mp4,video/mov"
+              onChange={handleUpload}
+              disabled={uploading || !uploadPromptId.trim()}
+              style={styles.fileInput}
+            />
+            {uploading && <div style={styles.uploadingText}>Uploading & validating...</div>}
+          </div>
+        </div>
+
         <div style={styles.error}>{error || "No videos available"}</div>
       </div>
     );
@@ -247,6 +305,29 @@ export default function VideoReview() {
   return (
     <div style={styles.container}>
       <div style={styles.header}>Video Review</div>
+
+      {/* Upload Section */}
+      <div style={styles.uploadSection}>
+        <h3 style={styles.uploadTitle}>Upload New Video</h3>
+        <div style={styles.uploadForm}>
+          <input
+            type="text"
+            value={uploadPromptId}
+            onChange={(e) => setUploadPromptId(e.target.value)}
+            placeholder="Prompt ID (e.g., pr_abc123...)"
+            style={styles.promptInput}
+          />
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="video/mp4,video/mov"
+            onChange={handleUpload}
+            disabled={uploading || !uploadPromptId.trim()}
+            style={styles.fileInput}
+          />
+        </div>
+        {uploading && <div style={styles.uploadingText}>Uploading...</div>}
+      </div>
 
       {error && <div style={styles.errorBanner}>{error}</div>}
 
@@ -580,5 +661,48 @@ const styles = {
     color: "#666",
     textAlign: "center",
     padding: "12px",
+  },
+  uploadSection: {
+    backgroundColor: "#f9f9f9",
+    border: "1px solid #ddd",
+    borderRadius: "4px",
+    padding: "16px",
+    marginBottom: "16px",
+  },
+  uploadTitle: {
+    fontSize: "16px",
+    fontWeight: "600",
+    margin: "0 0 8px 0",
+    color: "#111",
+  },
+  uploadInstructions: {
+    fontSize: "13px",
+    color: "#666",
+    margin: "0 0 12px 0",
+    lineHeight: "1.5",
+  },
+  uploadForm: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "8px",
+  },
+  promptInput: {
+    padding: "8px 12px",
+    fontSize: "13px",
+    border: "1px solid #ccc",
+    borderRadius: "3px",
+    fontFamily: "monospace",
+  },
+  fileInput: {
+    padding: "8px",
+    fontSize: "13px",
+    border: "1px solid #ccc",
+    borderRadius: "3px",
+    cursor: "pointer",
+  },
+  uploadingText: {
+    fontSize: "13px",
+    color: "#007bff",
+    fontWeight: "500",
   },
 };

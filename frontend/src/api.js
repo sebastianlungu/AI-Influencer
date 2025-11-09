@@ -34,11 +34,6 @@ export async function fetchLikedImages() {
   return r.json();
 }
 
-export async function fetchSuperlikedImages() {
-  const r = await fetch("/api/images/superliked");
-  return r.json();
-}
-
 // ============================================================================
 // Video Rating & Queues
 // ============================================================================
@@ -134,6 +129,47 @@ export async function schedulerDryRun() {
   const r = await fetch("/api/scheduler/dry-run", {
     method: "POST",
   });
+  return r.json();
+}
+
+// ============================================================================
+// Prompt Lab (Manual Workflow)
+// ============================================================================
+
+export async function generatePromptBundle({ setting, seed_words, count }) {
+  const r = await fetch("/api/prompts/bundle", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ setting, seed_words, count }),
+  });
+  if (!r.ok) {
+    const err = await r.json();
+    throw new Error(err.detail || "Failed to generate prompt bundle");
+  }
+  return r.json();
+}
+
+export async function getRecentPrompts(limit = 20) {
+  const r = await fetch(`/api/prompts?limit=${limit}`);
+  return r.json();
+}
+
+export async function uploadAsset(file, assetType, promptId) {
+  const formData = new FormData();
+  formData.append("file", file);
+  formData.append("asset_type", assetType);
+  formData.append("prompt_id", promptId);
+
+  const r = await fetch("/api/assets/upload", {
+    method: "POST",
+    body: formData,
+  });
+
+  if (!r.ok) {
+    const err = await r.json();
+    throw new Error(err.detail || "Failed to upload asset");
+  }
+
   return r.json();
 }
 
