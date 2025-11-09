@@ -6,13 +6,13 @@ export default function LogsPanel() {
   const [filter, setFilter] = useState("");
   const [autoScroll, setAutoScroll] = useState(true);
   const [isUserScrolling, setIsUserScrolling] = useState(false);
-  const logsEndRef = useRef(null);
+  const [isCleared, setIsCleared] = useState(false);
   const logsContainerRef = useRef(null);
 
   // Load logs from backend
   async function loadLogs() {
     try {
-      const data = await fetchLogs(200);
+      const data = await fetchLogs(10000);
       if (data.ok) {
         setLogs(data.logs || []);
       }
@@ -21,17 +21,23 @@ export default function LogsPanel() {
     }
   }
 
-  // Poll every 2 seconds
+  // Poll every 2 seconds (but skip if manually cleared)
   useEffect(() => {
-    loadLogs();
-    const interval = setInterval(loadLogs, 2000);
+    if (!isCleared) {
+      loadLogs();
+    }
+    const interval = setInterval(() => {
+      if (!isCleared) {
+        loadLogs();
+      }
+    }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [isCleared]);
 
   // Auto-scroll to bottom when new logs arrive (if not manually scrolling)
   useEffect(() => {
-    if (autoScroll && !isUserScrolling && logsEndRef.current) {
-      logsEndRef.current.scrollIntoView({ behavior: "smooth" });
+    if (autoScroll && !isUserScrolling && logsContainerRef.current) {
+      logsContainerRef.current.scrollTop = logsContainerRef.current.scrollHeight;
     }
   }, [logs, autoScroll, isUserScrolling]);
 
@@ -43,9 +49,16 @@ export default function LogsPanel() {
     setIsUserScrolling(!isAtBottom);
   }
 
-  // Clear logs (client-side only)
+  // Clear logs (client-side only) and pause polling
   function handleClear() {
     setLogs([]);
+    setIsCleared(true);
+  }
+
+  // Resume polling after clearing
+  function handleResume() {
+    setIsCleared(false);
+    loadLogs();
   }
 
   // Filter logs by level
@@ -96,9 +109,15 @@ export default function LogsPanel() {
           >
             Auto-scroll: {autoScroll ? "ON" : "OFF"}
           </button>
-          <button onClick={handleClear} style={styles.button}>
-            Clear
-          </button>
+          {isCleared ? (
+            <button onClick={handleResume} style={{ ...styles.button, ...styles.buttonActive }}>
+              Resume
+            </button>
+          ) : (
+            <button onClick={handleClear} style={styles.button}>
+              Clear
+            </button>
+          )}
         </div>
       </div>
 
@@ -117,7 +136,6 @@ export default function LogsPanel() {
             </div>
           ))
         )}
-        <div ref={logsEndRef} />
       </div>
 
       {/* Footer */}

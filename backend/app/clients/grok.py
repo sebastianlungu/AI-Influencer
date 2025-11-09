@@ -168,16 +168,15 @@ class GrokClient:
             f"Generate {n} ultra-detailed, creative image prompts for Eva Joy. "
             f"CRITICAL: Each prompt MUST be 200-250 words minimum.\n\n"
             f"EXACT FORMAT TO FOLLOW:\n"
-            f"photorealistic vertical 9:16 image of [character description] [detailed pose] in [ultra-detailed location with architectural/environmental specifics]. "
+            f"photorealistic 9:16 image of [character description] [detailed pose] in [ultra-detailed location with architectural/environmental specifics]. "
             f"[Body description with lighting effects on skin - mention rim light, wet reflections, natural warmth, muscle highlights]. "
-            f"[Ultra-detailed outfit with specific materials (suede/silk/cashmere/leather), colors, and how fabrics catch light with realistic sheen/texture]. "
+            f"[Detailed outfit with specific materials (suede/silk/cashmere/leather), colors, and how fabrics catch light with realistic sheen/texture]. "
             f"Accessories: [specific accessories with materials and placement]. "
             f"Camera captures [specific angle/perspective with technical details]. "
             f"[Environmental/prop details - specific items with placement and how they interact with light]. "
             f"[Ultra-detailed lighting description with color grading, atmospheric effects, and temperature shifts]. "
             f"[Full technical camera specs: XXmm lens at f/X.X, depth of field description, composition rules (rule of thirds/golden ratio/leading lines), color balance, framing notes for vertical 9:16].\n\n"
             f"REQUIREMENTS:\n"
-            f"- MINIMUM 200 words per prompt (count carefully!)\n"
             f"- Include specific fabric materials and how they catch light\n"
             f"- Describe skin texture realistically (wet reflections, rim light, natural warmth)\n"
             f"- Full technical photography specs (lens focal length, aperture, composition, color grading)\n"
@@ -586,15 +585,7 @@ Return ONLY valid JSON:
         log.info(f"GROK_PROMPT_BUNDLE setting={setting} seed_words={seed_words} count={count}")
 
         # Build system prompt
-        try:
-            import traceback
-            log.info("DEBUG: About to build system prompt")
-            system_prompt = self._build_prompt_bundle_system(persona, variety_bank)
-            log.info("DEBUG: System prompt built successfully")
-        except Exception as e:
-            tb = traceback.format_exc()
-            log.error(f"ERROR building system prompt: {e}\n{tb}")
-            raise
+        system_prompt = self._build_prompt_bundle_system(persona, variety_bank)
 
         # Build user prompt with dynamic appearance
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
@@ -755,26 +746,12 @@ MANDATORY REQUIREMENTS - EVERY PROMPT MUST INCLUDE ALL OF THESE:
                 if img.get("width") != 864 or img.get("height") != 1536:
                     raise ValueError(f"Bundle {i} has invalid dimensions: {img.get('width')}×{img.get('height')}")
 
-                # Clean up final_prompt: remove resolution prefix and identity triggers
+                # Clean up final_prompt: remove identity triggers
                 if "final_prompt" in img:
                     prompt = img["final_prompt"]
 
-                    # Remove "NATIVE 9:16 (864×1536); " prefix (simple string removal)
-                    if prompt.startswith("NATIVE "):
-                        # Find the first semicolon and remove everything before it
-                        semicolon_idx = prompt.find(";")
-                        if semicolon_idx != -1:
-                            prompt = prompt[semicolon_idx + 1:].strip()
-
                     # Remove "evajoy, " and "evajoy " occurrences (case insensitive)
                     prompt = prompt.replace("evajoy, ", "").replace("evajoy ", "").replace("Evajoy, ", "").replace("Evajoy ", "")
-
-                    # Remove "photorealistic vertical 9:16" prefix if present
-                    if prompt.lower().startswith("photorealistic vertical 9:16"):
-                        # Find the first semicolon and remove everything before it
-                        semicolon_idx = prompt.find(";")
-                        if semicolon_idx != -1:
-                            prompt = prompt[semicolon_idx + 1:].strip()
 
                     img["final_prompt"] = prompt.strip()
 
@@ -832,108 +809,69 @@ MANDATORY REQUIREMENTS - EVERY PROMPT MUST INCLUDE ALL OF THESE:
         # Load recent posted locations for variety enforcement
         recent_locations = get_recent_location_strings("app/data/recent_posted_combinations.json", limit=20)
 
-        return f"""You are an elite prompt engineer creating comprehensive, ultra-detailed prompts for high-end editorial/Instagram glamour photography AI generation.
+        return f"""You are an elite prompt engineer creating comprehensive prompts for high-end editorial/Instagram glamour photography AI generation.
 
-**CRITICAL MISSION**: Generate prompts of 1200-1450 characters (approximately 200-240 words) that are COMPLETE, HOLISTIC, and use ALL mandatory categories below. Every prompt must be comprehensive like a professional editorial photography brief.
-
-**CHARACTER LIMIT**: Leonardo API has a strict 1500 character maximum. Target 1200-1450 characters for safety margin.
+**CRITICAL**: Leonardo API has a strict 1500 character maximum. Target 1000-1350 characters for safety margin. Be economical with words while maintaining vivid detail.
 
 ═══════════════════════════════════════════════════════════════════
 
-**MANDATORY STRUCTURE (every prompt MUST include ALL 12 components):**
+**MANDATORY STRUCTURE (every prompt MUST include these 8 components):**
 
 1. **OPENING FORMAT** (use appearance descriptor):
    "photorealistic vertical 9:16 image of a 28-years-old woman with {appearance}, captured in [SHOT TYPE] at [EXPANDED SPECIFIC LOCATION]"
 
    Where appearance = {appearance}
 
-2. **SHOT TYPE** (REQUIRED - rotate for variety):
+2. **SHOT TYPE** (rotate for variety):
    • Close-up portrait (face/shoulders only)
    • Medium shot (waist up)
    • 3/4 body (thighs up)
    • Full body (head to toe)
 
-3. **SETTING + SCENE** (REQUIRED - two-part location system):
+3. **SETTING + SCENE** (with environmental details):
 
-   **SETTING** (broad geographic location):
+   **SETTING** (geographic location):
    Available: {', '.join(settings_list)}
-   Examples: Japan, United States, Greece, Indonesia, France
 
-   **SCENE** (specific detailed environment with atmosphere):
+   **SCENE** (specific detailed environment):
    Available scenes: {', '.join(scene_list[:3])}...
 
-   YOU MUST COMBINE: Pick one SETTING (country/region) + one SCENE (detailed environment)
-   Example combinations:
-   • Setting: "Japan" + Scene: "luxury penthouse rooftop infinity pool at dusk, city skyline glittering below"
-     → "at a luxury Tokyo penthouse rooftop infinity pool at dusk, city skyline glittering below, modern glass railings"
-   • Setting: "Greece" + Scene: "whitewashed cliffside terrace overlooking turquoise sea"
-     → "at a whitewashed Santorini cliffside terrace overlooking turquoise Aegean sea, blue-domed chapel in background"
-   • Setting: "Indonesia" + Scene: "sun-drenched beachfront villa deck with teak flooring"
-     → "at a sun-drenched Bali beachfront villa deck with teak flooring, infinity pool merging with ocean horizon"
+   COMBINE setting + scene, then add 2-3 environmental specifics (foreground/midground/background elements)
 
-   OR create NEW scenes inspired by the examples in the same glamorous/luxury style
+   Examples:
+   • "at a luxury Tokyo penthouse rooftop infinity pool at dusk, city skyline glittering below, modern glass railings, pool water with gentle ripples"
+   • "at a whitewashed Santorini cliffside terrace overlooking turquoise Aegean sea, blue-domed chapel in background, bougainvillea draping stone walls"
 
-4. **CAMERA TECHNICAL** (REQUIRED - be specific):
+4. **CAMERA TECHNICAL**:
    Lens options: {', '.join(camera_list)}
    Angle options: {', '.join(angle_list[:6])}
 
-   Include: exact lens + aperture + angle description + spatial positioning
+   Include: lens + aperture + angle description
 
-5. **WARDROBE** (REQUIRED - comprehensive, not brief):
+5. **WARDROBE** (comprehensive description):
    Available options: {', '.join(wardrobe_list[:10])}...
 
-   YOU MUST DESCRIBE: base garment + color + fabric type + fit details + revealing elements (underboob/cutouts/transparency/thong-cut/etc.)
-   Use "micro" prefix: micro-crop, micro-shorts, micro-bra, barely-there bikini
+   Describe: base garment + color + fabric/material + fit details
+   Use "micro" prefix for brevity: micro-crop, micro-shorts, barely-there bikini
 
-6. **ACCESSORIES** (REQUIRED - select 2-3):
+6. **ACCESSORIES** (select 2-3):
    Options: {', '.join(accessories_list)}
 
-   Specify which accessories and where worn (e.g., "rose-gold chain anklet on right ankle")
+   Specify which accessories and placement (e.g., "rose-gold anklet on left ankle")
 
-7. **POSE & BODY MECHANICS** (REQUIRED - ultra-detailed):
+7. **POSE & BODY MECHANICS** (detailed):
    Pose options: {', '.join(pose_list[:8])}...
 
-   YOU MUST INCLUDE:
-   • Specific body position (kneeling/leaning/standing/etc.)
-   • Body mechanics with precision ("torso bent 30 degrees forward, weight on left leg")
-   • Limb placement (where each arm/leg is positioned)
-   • Micro-action (hair flip, adjusting strap, stretching, glancing)
-   • Expression (sultry/playful/confident/intense)
-   • Gaze direction (to camera/away/over shoulder/downward)
+   Include:
+   • Body position and mechanics
+   • Limb placement
+   • Micro-action
+   • Expression and gaze direction
 
-8. **SKIN REALISM** (REQUIRED):
-   Options:
-   • "realistic wet skin with strong specular highlights across cheekbones, collarbones, shoulders"
-   • "post-workout dewy moisture sheen with natural glow"
-   • "tan oil sheen with golden highlights"
-
-   Must specify which body areas catch light
-
-9. **LIGHTING SETUP** (REQUIRED - multi-source with spatial details):
+8. **LIGHTING SETUP** (natural description):
    Lighting options: {', '.join(lighting_list)}
 
-   YOU MUST DESCRIBE 3-4 LIGHT SOURCES:
-   • Primary source with direction ("golden hour backlight from right creates warm rim glow")
-   • Secondary fill ("soft bounce fill from left maintains facial detail")
-   • Accent/rim lights ("rim light separates subject from background")
-   • Environmental ambient ("city lights bokeh in background")
-
-10. **ENVIRONMENT DETAILS** (REQUIRED - 3-4 specific elements):
-    NOT generic ("beautiful beach") but SPECIFIC ("crystalline infinity pool water with gentle ripples")
-    Include: foreground element + midground element + background element + atmospheric detail
-
-11. **COLOR PALETTE** (REQUIRED - overall scene cohesion):
-    Options: {', '.join(color_palette_list)}
-
-    Describe how colors tie together: wardrobe + lighting + environment creating cohesive aesthetic
-
-12. **COMPOSITION & FRAMING** (REQUIRED):
-    Must include:
-    • Rule of thirds positioning (subject placement)
-    • Headroom/negative space
-    • Diagonal lines or visual flow
-    • Social-media vertical framing for 9:16
-    • Safe zones for mobile viewing
+   Describe lighting sources naturally - can be 1-4 sources depending on scene. Include directions and effects.
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -974,18 +912,18 @@ MANDATORY REQUIREMENTS - EVERY PROMPT MUST INCLUDE ALL OF THESE:
 
 **QUALITY STANDARDS:**
 
-✅ TARGET LENGTH: 1200-1450 characters per final_prompt (max 1500 for Leonardo API)
+✅ TARGET LENGTH: 1000-1350 characters per final_prompt (max 1500 for Leonardo API)
 ✅ VARIETY: Rotate ALL elements across generations (never repeat exact combinations)
-✅ SPECIFICITY: Use precise measurements, directions, technical terms
-✅ HOLISTIC: Every prompt should paint a complete, vivid, realistic scene
-✅ EDITORIAL QUALITY: Write like a professional photography director's brief
-✅ CONCISE BUT COMPLETE: Be descriptive but economical with words - every word counts toward the 1500 char limit
+✅ SPECIFICITY: Use precise terms but avoid unnecessary wordiness
+✅ HOLISTIC: Paint a complete, vivid scene with essential details only
+✅ EDITORIAL QUALITY: Professional photography brief style
+✅ ECONOMICAL: Every word must earn its place - strict 1500 char hard limit
 
-❌ FORBIDDEN: Generic descriptions, placeholders, "NATIVE 9:16", resolution text, "evajoy", LoRA names, identity triggers, unnecessary filler words
+❌ FORBIDDEN: Generic descriptions, placeholders, "NATIVE 9:16", resolution text, "evajoy", LoRA names, identity triggers, filler words, redundant adjectives
 
 ═══════════════════════════════════════════════════════════════════
 
-**YOUR TASK**: Create prompts that are SO comprehensive and detailed that an artist could visualize the exact scene without seeing the image. Use ALL 12 mandatory components in EVERY prompt. Target 1200-1450 characters (max 1500). Be creative, specific, and holistic.
+**YOUR TASK**: Create comprehensive, vivid prompts using ALL 8 mandatory components. Target 1000-1350 characters. Be specific and creative while staying economical with words.
 
 Output ONLY structured JSON matching the schema."""
 

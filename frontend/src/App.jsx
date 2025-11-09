@@ -3,10 +3,11 @@ import ImageReview from "./ImageReview";
 import VideoReview from "./VideoReview";
 import QueueView from "./QueueView";
 import SchedulerSettings from "./SchedulerSettings";
+import PromptLab from "./PromptLab";
 import LogsPanel from "./LogsPanel";
 
 export default function App() {
-  const [currentView, setCurrentView] = useState("images");
+  const [currentView, setCurrentView] = useState("prompts");
   const [showLogs, setShowLogs] = useState(true);
 
   useEffect(() => {
@@ -14,7 +15,8 @@ export default function App() {
       // Only listen for uppercase or lowercase
       const key = e.key.toLowerCase();
 
-      if (key === "i") setCurrentView("images");
+      if (key === "p") setCurrentView("prompts");
+      else if (key === "i") setCurrentView("images");
       else if (key === "v") setCurrentView("videos");
       else if (key === "q") setCurrentView("queues");
       else if (key === "s") setCurrentView("scheduler");
@@ -30,6 +32,12 @@ export default function App() {
       <div style={styles.mainArea}>
         <div style={styles.nav}>
           <div style={styles.navLeft}>
+            <button
+              style={currentView === "prompts" ? styles.navButtonActive : styles.navButton}
+              onClick={() => setCurrentView("prompts")}
+            >
+              [P] Prompt Lab
+            </button>
             <button
               style={currentView === "images" ? styles.navButtonActive : styles.navButton}
               onClick={() => setCurrentView("images")}
@@ -64,6 +72,7 @@ export default function App() {
         </div>
 
         <div style={styles.content}>
+          {currentView === "prompts" && <PromptLab />}
           {currentView === "images" && <ImageReview />}
           {currentView === "videos" && <VideoReview />}
           {currentView === "queues" && <QueueView />}
@@ -106,46 +115,46 @@ const styles = {
     gap: "0",
   },
   navButton: {
-    padding: "16px 24px",
+    padding: "10px 16px",
     backgroundColor: "transparent",
     color: "#666",
     border: "none",
     borderBottom: "3px solid transparent",
     cursor: "pointer",
-    fontSize: "14px",
+    fontSize: "13px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
     fontWeight: "400",
   },
   navButtonActive: {
-    padding: "16px 24px",
+    padding: "10px 16px",
     backgroundColor: "transparent",
     color: "#111",
     border: "none",
     borderBottom: "3px solid #111",
     cursor: "pointer",
-    fontSize: "14px",
+    fontSize: "13px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
     fontWeight: "500",
   },
   logsButton: {
-    padding: "16px 24px",
+    padding: "10px 16px",
     backgroundColor: "transparent",
     color: "#666",
     border: "none",
     borderBottom: "3px solid transparent",
     cursor: "pointer",
-    fontSize: "14px",
+    fontSize: "13px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
     fontWeight: "400",
   },
   logsButtonActive: {
-    padding: "16px 24px",
+    padding: "10px 16px",
     backgroundColor: "#2d2d30",
     color: "#fff",
     border: "none",
     borderBottom: "3px solid #0e639c",
     cursor: "pointer",
-    fontSize: "14px",
+    fontSize: "13px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
     fontWeight: "500",
   },
@@ -154,7 +163,7 @@ const styles = {
     flex: 1,
   },
   logsPanel: {
-    width: "500px",
+    width: "400px",
     flexShrink: 0,
   },
 };
