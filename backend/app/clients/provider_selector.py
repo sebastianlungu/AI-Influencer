@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from app.clients.grok import GrokClient
+from app.grok import GrokClient
 from app.clients.leonardo import LeonardoClient
 from app.clients.veo import VeoVideoClient
 from app.core.config import settings

@@ -145,9 +145,9 @@ export default function PromptLab() {
                 const charCount = selectedBundle.image_prompt.final_prompt.length;
                 const remaining = 1500 - charCount;
                 const getColor = () => {
-                  if (charCount > 1450) return '#c00';
-                  if (charCount > 1350) return '#f80';
-                  return '#080';
+                  if (charCount > 1400) return '#c00';  // Red: exceeds safe zone
+                  if (charCount > 1100) return '#f80';  // Orange: above target
+                  return '#080';                         // Green: within target (900-1100)
                 };
                 return (
                   <span style={{ ...styles.charCount, color: getColor() }}>
