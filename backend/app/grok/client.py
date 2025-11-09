@@ -349,7 +349,7 @@ Create music brief. Return JSON:
         negative_list = variety_bank.get("negative", [])
         negative_prompt = ", ".join(set(dont_list + negative_list))
 
-        # Build simplified system prompt
+        # Build simplified system prompt with explicit character limit
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {setting}{seed_text}
@@ -357,6 +357,8 @@ Create music brief. Return JSON:
 Each bundle has:
 1. Image prompt (900-1100 chars) - photorealistic glamour portrait
 2. Video prompt (6s motion + action)
+
+**CRITICAL: Image prompt MUST be 900-1100 characters including spaces. Count carefully. Prompts exceeding 1500 chars will be rejected.**
 
 Character: {appearance}
 
@@ -376,40 +378,71 @@ Return JSON array of {count} bundle(s):
 
         user_prompt = f"Generate {count} creative bundle(s). Be vivid, concise, varied. No clichés."
 
-        content = self._call_api(system_prompt, user_prompt, temperature=0.9, max_tokens=4000)
+        # Retry loop for character limit enforcement (max 3 attempts)
+        max_attempts = 3
+        last_error = None
 
-        try:
-            bundles_raw = extract_json(content)
+        for attempt in range(1, max_attempts + 1):
+            try:
+                content = self._call_api(system_prompt, user_prompt, temperature=0.9, max_tokens=4000)
 
-            if not isinstance(bundles_raw, list) or len(bundles_raw) != count:
-                raise ValueError(f"Expected {count} bundles, got {len(bundles_raw) if isinstance(bundles_raw, list) else 'non-array'}")
+                bundles_raw = extract_json(content)
 
-            # Validate and generate IDs
-            bundles = []
-            for bundle_raw in bundles_raw:
-                # Generate deterministic ID
-                prompt_text = bundle_raw["image_prompt"]["final_prompt"]
-                bundle_id = self._generate_bundle_id(setting, prompt_text)
-                bundle_raw["id"] = bundle_id
+                if not isinstance(bundles_raw, list) or len(bundles_raw) != count:
+                    raise ValueError(f"Expected {count} bundles, got {len(bundles_raw) if isinstance(bundles_raw, list) else 'non-array'}")
 
-                # Validate with Pydantic
-                validated = PromptBundle(**bundle_raw)
+                # Validate and generate IDs
+                bundles = []
+                over_limit_prompts = []
 
-                # Check character limit
-                prompt_len = len(validated.image_prompt.final_prompt)
-                if prompt_len > self.config.max_prompt_chars:
-                    log.warning(
-                        f"GROK_BUNDLE prompt too long: {prompt_len} chars (max {self.config.max_prompt_chars})"
+                for bundle_raw in bundles_raw:
+                    # Generate deterministic ID
+                    prompt_text = bundle_raw["image_prompt"]["final_prompt"]
+                    bundle_id = self._generate_bundle_id(setting, prompt_text)
+                    bundle_raw["id"] = bundle_id
+
+                    # Validate with Pydantic
+                    validated = PromptBundle(**bundle_raw)
+
+                    # Enforce character limit (fail-loud policy)
+                    prompt_len = len(validated.image_prompt.final_prompt)
+                    if prompt_len > self.config.max_prompt_chars:
+                        over_limit_prompts.append((bundle_id, prompt_len))
+                        log.warning(
+                            f"GROK_BUNDLE prompt too long: bundle_id={bundle_id} length={prompt_len} "
+                            f"(max {self.config.max_prompt_chars}) attempt={attempt}/{max_attempts}"
+                        )
+
+                    bundles.append(bundle_raw)  # Keep building bundles for validation
+
+                # If ANY prompt exceeds limit, reject entire batch and retry
+                if over_limit_prompts:
+                    error_details = ", ".join([f"{bid}:{length}" for bid, length in over_limit_prompts])
+                    last_error = RuntimeError(
+                        f"Character limit exceeded on attempt {attempt}/{max_attempts}. "
+                        f"Over-limit prompts: {error_details}. "
+                        f"Leonardo API has hard limit of {self.config.max_prompt_chars} chars (includes spaces)."
                     )
+                    if attempt < max_attempts:
+                        log.info(f"GROK_BUNDLE retrying (attempt {attempt + 1}/{max_attempts})...")
+                        continue  # Retry
+                    else:
+                        raise last_error  # Fail loud after max attempts
 
-                bundles.append(bundle_raw)  # Return dict for backwards compatibility
+                # All prompts within limit - success!
+                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all within {self.config.max_prompt_chars} char limit)")
+                return bundles
 
-            log.info(f"GROK_BUNDLE generated {len(bundles)} bundles")
-            return bundles
+            except Exception as e:
+                log.error(f"GROK_BUNDLE failed on attempt {attempt}/{max_attempts}: {e}")
+                last_error = e
+                if attempt < max_attempts and "limit exceeded" not in str(e):
+                    continue  # Retry on parsing errors
+                else:
+                    raise RuntimeError(f"Failed to generate valid prompt bundles after {attempt} attempts: {e}") from e
 
-        except Exception as e:
-            log.error(f"GROK_BUNDLE failed: {e}")
-            raise RuntimeError(f"Failed to parse prompt bundles from Grok: {e}") from e
+        # Should never reach here, but fail loud just in case
+        raise last_error or RuntimeError("Failed to generate prompt bundles (unknown error)")
 
     def generate_quick_caption(self, video_meta: dict[str, Any]) -> str:
         """

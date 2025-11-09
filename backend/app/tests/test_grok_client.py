@@ -328,3 +328,207 @@ def test_cost_tracking_scales_with_batch_size(
     # Cost should approximately double
     assert cost_30 > cost_15
     assert abs(cost_30 / cost_15 - Decimal("2.0")) < Decimal("0.1")  # Within 10% of 2x
+
+
+@patch("app.grok.client.open")
+@patch("app.grok.client.XAITransport")
+@patch("app.grok.client.GrokClient._call_api")
+@patch("app.grok.client.add_cost")
+def test_prompt_bundle_character_limit_retry_success(mock_add_cost, mock_call_api, mock_transport, mock_open):
+    """Test that over-limit prompts trigger retry and succeed on 2nd attempt."""
+    from app.grok import GrokClient
+
+    # Mock config file loading
+    mock_persona = {"hair": "blonde", "eyes": "blue", "body": "athletic", "do": [], "dont": []}
+    mock_variety = {"scene": ["gym"], "wardrobe": ["leggings"], "accessories": ["watch"],
+                    "pose_microaction": ["squat"], "lighting": ["sunset"], "camera": ["50mm"],
+                    "angle": ["low"], "negative": []}
+
+    mock_file_persona = MagicMock()
+    mock_file_persona.__enter__.return_value.read.return_value = json.dumps(mock_persona)
+    mock_file_variety = MagicMock()
+    mock_file_variety.__enter__.return_value.read.return_value = json.dumps(mock_variety)
+
+    def open_side_effect(path, *args, **kwargs):
+        if "persona.json" in str(path):
+            return mock_file_persona
+        elif "variety_bank.json" in str(path):
+            return mock_file_variety
+        raise FileNotFoundError(f"Unexpected file: {path}")
+
+    mock_open.side_effect = open_side_effect
+
+    # First response: prompt too long (2027 chars)
+    long_prompt = "x" * 2027  # Exceeds 1500 limit
+    response_over_limit = json.dumps([{
+        "id": "pr_test1",
+        "image_prompt": {
+            "final_prompt": long_prompt,
+            "negative_prompt": "cartoon",
+            "width": 864,
+            "height": 1536
+        },
+        "video_prompt": {
+            "motion": "pan right",
+            "character_action": "squatting",
+            "environment": "gym",
+            "duration_seconds": 6,
+            "notes": "test"
+        }
+    }])
+
+    # Second response: valid prompt (1200 chars)
+    valid_prompt = "x" * 1200  # Within 1500 limit
+    response_valid = json.dumps([{
+        "id": "pr_test2",
+        "image_prompt": {
+            "final_prompt": valid_prompt,
+            "negative_prompt": "cartoon",
+            "width": 864,
+            "height": 1536
+        },
+        "video_prompt": {
+            "motion": "pan right",
+            "character_action": "squatting",
+            "environment": "gym",
+            "duration_seconds": 6,
+            "notes": "test"
+        }
+    }])
+
+    # Mock API responses: first fails, second succeeds
+    # _call_api returns content string (already extracted from JSON response)
+    mock_call_api.side_effect = [response_over_limit, response_valid]
+
+    # Generate bundles
+    client = GrokClient(api_key="test-key", model="grok-4-fast-reasoning")
+    bundles = client.generate_prompt_bundle(setting="Tokyo Gym", count=1)
+
+    # Verify retry happened (2 calls)
+    assert mock_call_api.call_count == 2
+
+    # Verify final bundle is valid
+    assert len(bundles) == 1
+    assert len(bundles[0]["image_prompt"]["final_prompt"]) == 1200
+    assert len(bundles[0]["image_prompt"]["final_prompt"]) <= 1500
+
+
+@patch("app.grok.client.open")
+@patch("app.grok.client.XAITransport")
+@patch("app.grok.client.GrokClient._call_api")
+@patch("app.grok.client.add_cost")
+def test_prompt_bundle_character_limit_fail_loud(mock_add_cost, mock_call_api, mock_transport, mock_open):
+    """Test that 3 over-limit attempts raise RuntimeError with clear message."""
+    from app.grok import GrokClient
+
+    # Mock config file loading
+    mock_persona = {"hair": "blonde", "eyes": "blue", "body": "athletic", "do": [], "dont": []}
+    mock_variety = {"scene": ["gym"], "wardrobe": ["leggings"], "accessories": ["watch"],
+                    "pose_microaction": ["squat"], "lighting": ["sunset"], "camera": ["50mm"],
+                    "angle": ["low"], "negative": []}
+
+    mock_file_persona = MagicMock()
+    mock_file_persona.__enter__.return_value.read.return_value = json.dumps(mock_persona)
+    mock_file_variety = MagicMock()
+    mock_file_variety.__enter__.return_value.read.return_value = json.dumps(mock_variety)
+
+    def open_side_effect(path, *args, **kwargs):
+        if "persona.json" in str(path):
+            return mock_file_persona
+        elif "variety_bank.json" in str(path):
+            return mock_file_variety
+        raise FileNotFoundError(f"Unexpected file: {path}")
+
+    mock_open.side_effect = open_side_effect
+
+    # All 3 attempts: prompt too long (2027 chars)
+    long_prompt = "x" * 2027  # Exceeds 1500 limit
+    response_over_limit = json.dumps([{
+        "id": "pr_test",
+        "image_prompt": {
+            "final_prompt": long_prompt,
+            "negative_prompt": "cartoon",
+            "width": 864,
+            "height": 1536
+        },
+        "video_prompt": {
+            "motion": "pan right",
+            "character_action": "squatting",
+            "environment": "gym",
+            "duration_seconds": 6,
+            "notes": "test"
+        }
+    }])
+
+    # All attempts return over-limit prompt
+    mock_call_api.side_effect = [response_over_limit, response_over_limit, response_over_limit]
+
+    # Should fail loud after 3 attempts
+    client = GrokClient(api_key="test-key", model="grok-4-fast-reasoning")
+    with pytest.raises(RuntimeError, match="Character limit exceeded on attempt 3/3"):
+        client.generate_prompt_bundle(setting="Tokyo Gym", count=1)
+
+    # Verify 3 attempts were made
+    assert mock_call_api.call_count == 3
+
+
+@patch("app.grok.client.open")
+@patch("app.grok.client.XAITransport")
+@patch("app.grok.client.GrokClient._call_api")
+@patch("app.grok.client.add_cost")
+def test_prompt_bundle_character_limit_validation(mock_add_cost, mock_call_api, mock_transport, mock_open):
+    """Test that prompts within limit pass validation without retry."""
+    from app.grok import GrokClient
+
+    # Mock config file loading
+    mock_persona = {"hair": "blonde", "eyes": "blue", "body": "athletic", "do": [], "dont": []}
+    mock_variety = {"scene": ["gym"], "wardrobe": ["leggings"], "accessories": ["watch"],
+                    "pose_microaction": ["squat"], "lighting": ["sunset"], "camera": ["50mm"],
+                    "angle": ["low"], "negative": []}
+
+    mock_file_persona = MagicMock()
+    mock_file_persona.__enter__.return_value.read.return_value = json.dumps(mock_persona)
+    mock_file_variety = MagicMock()
+    mock_file_variety.__enter__.return_value.read.return_value = json.dumps(mock_variety)
+
+    def open_side_effect(path, *args, **kwargs):
+        if "persona.json" in str(path):
+            return mock_file_persona
+        elif "variety_bank.json" in str(path):
+            return mock_file_variety
+        raise FileNotFoundError(f"Unexpected file: {path}")
+
+    mock_open.side_effect = open_side_effect
+
+    # Valid prompt (1000 chars - within target and limit)
+    valid_prompt = "x" * 1000
+    response_valid = json.dumps([{
+        "id": "pr_test",
+        "image_prompt": {
+            "final_prompt": valid_prompt,
+            "negative_prompt": "cartoon",
+            "width": 864,
+            "height": 1536
+        },
+        "video_prompt": {
+            "motion": "pan right",
+            "character_action": "squatting",
+            "environment": "gym",
+            "duration_seconds": 6,
+            "notes": "test"
+        }
+    }])
+
+    mock_call_api.return_value = response_valid
+
+    # Generate bundles
+    client = GrokClient(api_key="test-key", model="grok-4-fast-reasoning")
+    bundles = client.generate_prompt_bundle(setting="Tokyo Gym", count=1)
+
+    # Verify no retry (only 1 call)
+    assert mock_call_api.call_count == 1
+
+    # Verify bundle is valid
+    assert len(bundles) == 1
+    assert len(bundles[0]["image_prompt"]["final_prompt"]) == 1000
+    assert len(bundles[0]["image_prompt"]["final_prompt"]) <= 1500
