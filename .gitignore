@@ -22,17 +22,11 @@ dist/
 
 # Environment & Secrets
 .env
-# Ignore ALL .json files in app/data/ EXCEPT config templates
-app/data/*.json
-!app/data/prompt_config.json
-# Allow empty structure files
-!app/data/history.json
-!app/data/videos.json
 
 # GCP Credentials (never commit service account keys)
 app/data/*-*.json
-*service-account*.json
-*credentials*.json
+
+# Track other JSON files (persona, variety_bank, etc.)
 
 # Logs
 *.log
