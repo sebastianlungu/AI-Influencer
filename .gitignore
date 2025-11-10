@@ -24,7 +24,7 @@ dist/
 .env
 
 # GCP Credentials (never commit service account keys)
-app/data/*-*.json
+app/data/gen-lang-client-*-*.json
 
 # Track other JSON files (persona, variety_bank, etc.)
 
