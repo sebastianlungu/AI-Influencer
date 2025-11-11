@@ -359,7 +359,7 @@ Each bundle has:
 
 **CRITICAL CHARACTER COUNT REQUIREMENTS:**
 - Target: 900-1100 characters (including spaces)
-- Minimum: 900 chars (prompts under 900 will be REJECTED)
+- Enforced minimum: 900 chars (our quality standard; prompts under 900 will be REJECTED)
 - Maximum: 1500 chars (Leonardo API hard limit)
 - Count carefully before submitting!
 
@@ -374,7 +374,7 @@ Variety banks:
 
 **WARDROBE - INVENT NEW (examples for style inspiration only):**
 Examples: {', '.join(wardrobe[:5])}
-**DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars).**
+**DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars). Avoid repeating fabric types from examples.**
 
 Detailed template (aim for 900-1100 chars total):
 "photorealistic vertical 9:16 image of a 28-year-old woman with [full appearance: hair, eyes, body, skin - 60 chars], [shot type: 3/4 body/full body/thighs up] at [very specific {setting} location with architectural/environmental details - 80 chars]. Camera: [lens focal length + f-stop + specific angle - 20 chars]. Wardrobe: [INVENT unique outfit with fabric types, fit details, colors, style - 50-80 chars]. Accessories: [2-3 specific items with materials - 30 chars]. Pose: [detailed body mechanics + facial expression + hand placement - 60 chars]. Lighting: [specific lighting description with direction and quality - 50 chars]. Environment: [atmospheric details, textures, background elements - 70 chars]."
@@ -436,7 +436,7 @@ Return JSON array of {count} bundle(s):
                     last_error = RuntimeError(
                         f"Character limit violation on attempt {attempt}/{max_attempts}. "
                         f"Invalid prompts: {error_details}. "
-                        f"Required: 900-1500 chars (Leonardo API constraint)."
+                        f"Required: 900-1500 chars (enforced minimum: 900, Leonardo API max: 1500)."
                     )
                     if attempt < max_attempts:
                         log.info(f"GROK_BUNDLE retrying (attempt {attempt + 1}/{max_attempts})...")
