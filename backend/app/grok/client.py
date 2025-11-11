@@ -355,23 +355,30 @@ Create music brief. Return JSON:
         system_prompt = f"""Create {count} prompt bundle(s) for: {setting}{seed_text}
 
 Each bundle has:
-1. Image prompt (900-1100 chars) - photorealistic glamour portrait
+1. Image prompt (900-1100 chars TARGET) - photorealistic glamour portrait
 2. Video prompt (6s motion + action)
 
-**CRITICAL: Image prompt MUST be 900-1100 characters including spaces. Count carefully. Prompts exceeding 1500 chars will be rejected.**
+**CRITICAL CHARACTER COUNT REQUIREMENTS:**
+- Target: 900-1100 characters (including spaces)
+- Minimum: 900 chars (prompts under 900 will be REJECTED)
+- Maximum: 1500 chars (Leonardo API hard limit)
+- Count carefully before submitting!
 
 Character: {appearance}
 
-Variety (rotate):
-- Scenes: {', '.join(scenes[:4])}...
-- Wardrobe: {', '.join(wardrobe[:8])}...
-- Accessories: {', '.join(accessories[:6])}...
-- Poses: {', '.join(poses[:6])}...
-- Lighting: {', '.join(lighting[:5])}...
-- Camera: {', '.join(camera[:4])}... + angles: {', '.join(angles[:6])}...
+Variety banks:
+- Scenes (rotate/select): {', '.join(scenes[:4])}...
+- Accessories (select 2-3): {', '.join(accessories[:6])}...
+- Poses (select/vary): {', '.join(poses[:6])}...
+- Lighting (select): {', '.join(lighting[:5])}...
+- Camera (select): {', '.join(camera[:4])}... + angles: {', '.join(angles[:6])}...
 
-Image template:
-"photorealistic vertical 9:16 image of a 28-year-old woman with [appearance], [shot type] at [specific {setting} location]. Camera: [lens + angle]. Wardrobe: [detailed]. Accessories: [2-3 items]. Pose: [body mechanics + expression]. Lighting: [description]. Environment: [details]."
+**WARDROBE - INVENT NEW (examples for style inspiration only):**
+Examples: {', '.join(wardrobe[:5])}
+**DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars).**
+
+Detailed template (aim for 900-1100 chars total):
+"photorealistic vertical 9:16 image of a 28-year-old woman with [full appearance: hair, eyes, body, skin - 60 chars], [shot type: 3/4 body/full body/thighs up] at [very specific {setting} location with architectural/environmental details - 80 chars]. Camera: [lens focal length + f-stop + specific angle - 20 chars]. Wardrobe: [INVENT unique outfit with fabric types, fit details, colors, style - 50-80 chars]. Accessories: [2-3 specific items with materials - 30 chars]. Pose: [detailed body mechanics + facial expression + hand placement - 60 chars]. Lighting: [specific lighting description with direction and quality - 50 chars]. Environment: [atmospheric details, textures, background elements - 70 chars]."
 
 Return JSON array of {count} bundle(s):
 [{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}, "video_prompt": {{"motion": "...", "character_action": "...", "environment": "...", "duration_seconds": 6, "notes": "..."}}}}]"""
@@ -393,7 +400,7 @@ Return JSON array of {count} bundle(s):
 
                 # Validate and generate IDs
                 bundles = []
-                over_limit_prompts = []
+                invalid_prompts = []  # Track both over-limit AND under-limit
 
                 for bundle_raw in bundles_raw:
                     # Generate deterministic ID
@@ -404,24 +411,33 @@ Return JSON array of {count} bundle(s):
                     # Validate with Pydantic
                     validated = PromptBundle(**bundle_raw)
 
-                    # Enforce character limit (fail-loud policy)
+                    # Enforce character limits (fail-loud policy)
                     prompt_len = len(validated.image_prompt.final_prompt)
-                    if prompt_len > self.config.max_prompt_chars:
-                        over_limit_prompts.append((bundle_id, prompt_len))
+                    min_chars = 900  # Target minimum
+                    max_chars = self.config.max_prompt_chars  # 1500 hard limit
+
+                    if prompt_len < min_chars:
+                        invalid_prompts.append((bundle_id, prompt_len, "too_short"))
+                        log.warning(
+                            f"GROK_BUNDLE prompt too short: bundle_id={bundle_id} length={prompt_len} "
+                            f"(min {min_chars}) attempt={attempt}/{max_attempts}"
+                        )
+                    elif prompt_len > max_chars:
+                        invalid_prompts.append((bundle_id, prompt_len, "too_long"))
                         log.warning(
                             f"GROK_BUNDLE prompt too long: bundle_id={bundle_id} length={prompt_len} "
-                            f"(max {self.config.max_prompt_chars}) attempt={attempt}/{max_attempts}"
+                            f"(max {max_chars}) attempt={attempt}/{max_attempts}"
                         )
 
                     bundles.append(bundle_raw)  # Keep building bundles for validation
 
-                # If ANY prompt exceeds limit, reject entire batch and retry
-                if over_limit_prompts:
-                    error_details = ", ".join([f"{bid}:{length}" for bid, length in over_limit_prompts])
+                # If ANY prompt violates limits, reject entire batch and retry
+                if invalid_prompts:
+                    error_details = ", ".join([f"{bid}:{length}({reason})" for bid, length, reason in invalid_prompts])
                     last_error = RuntimeError(
-                        f"Character limit exceeded on attempt {attempt}/{max_attempts}. "
-                        f"Over-limit prompts: {error_details}. "
-                        f"Leonardo API has hard limit of {self.config.max_prompt_chars} chars (includes spaces)."
+                        f"Character limit violation on attempt {attempt}/{max_attempts}. "
+                        f"Invalid prompts: {error_details}. "
+                        f"Required: 900-1500 chars (Leonardo API constraint)."
                     )
                     if attempt < max_attempts:
                         log.info(f"GROK_BUNDLE retrying (attempt {attempt + 1}/{max_attempts})...")
@@ -429,8 +445,8 @@ Return JSON array of {count} bundle(s):
                     else:
                         raise last_error  # Fail loud after max attempts
 
-                # All prompts within limit - success!
-                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all within {self.config.max_prompt_chars} char limit)")
+                # All prompts within limits - success!
+                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all within 900-{self.config.max_prompt_chars} char range)")
                 return bundles
 
             except Exception as e:

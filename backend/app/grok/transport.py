@@ -53,7 +53,12 @@ class XAITransport:
         # Create persistent HTTP session
         self.client = httpx.Client(
             base_url=self.base_url,
-            timeout=httpx.Timeout(connect=timeout_connect_s, read=timeout_read_s),
+            timeout=httpx.Timeout(
+                connect=timeout_connect_s,
+                read=timeout_read_s,
+                write=timeout_read_s,  # Use same as read timeout
+                pool=5.0,  # 5 seconds to acquire connection from pool
+            ),
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",

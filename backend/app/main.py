@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import subprocess
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -14,8 +13,7 @@ from slowapi.util import get_remote_address
 from app.api.routes import router
 from app.core.config import settings
 from app.core.logging import log
-from app.core.paths import get_data_path, PROJECT_ROOT
-from app.core.scheduler import start_scheduler, stop_scheduler
+from app.core.paths import get_data_path
 
 
 # Rate limiter
@@ -24,63 +22,19 @@ limiter = Limiter(key_func=get_remote_address)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Lifecycle manager for FastAPI app."""
+    """Lifecycle manager for FastAPI app (Prompt Lab mode)."""
     # Startup
-    log.info("app_startup")
+    log.info("PROMPT_LAB_STARTUP mode=prompt_generation_only")
 
-    # Verify ffmpeg and ffprobe are available (required for video/audio processing)
-    _check_ffmpeg_presence()
+    # Ensure prompts output directory exists
+    prompts_dir = Path(settings.prompts_out_dir)
+    prompts_dir.mkdir(parents=True, exist_ok=True)
+    log.info(f"PROMPT_LAB_READY prompts_dir={prompts_dir}")
 
-    start_scheduler()
     yield
+
     # Shutdown
-    log.info("app_shutdown")
-    stop_scheduler()
-
-
-def _check_ffmpeg_presence() -> None:
-    """Verify ffmpeg and ffprobe are installed and accessible.
-
-    Raises:
-        RuntimeError: If ffmpeg or ffprobe is missing
-    """
-    # Check ffmpeg
-    try:
-        subprocess.run(
-            [settings.ffmpeg_path, "-version"],
-            capture_output=True,
-            check=True,
-            timeout=5,
-        )
-        log.info(f"STARTUP_CHECK ffmpeg found at {settings.ffmpeg_path}")
-    except (subprocess.CalledProcessError, FileNotFoundError) as e:
-        raise RuntimeError(
-            f"STARTUP_FAILED: ffmpeg not found at '{settings.ffmpeg_path}'. "
-            f"Install ffmpeg or set FFMPEG_PATH in .env. Error: {e}"
-        )
-    except subprocess.TimeoutExpired:
-        raise RuntimeError(
-            f"STARTUP_FAILED: ffmpeg check timeout at '{settings.ffmpeg_path}'"
-        )
-
-    # Check ffprobe
-    try:
-        subprocess.run(
-            [settings.ffprobe_path, "-version"],
-            capture_output=True,
-            check=True,
-            timeout=5,
-        )
-        log.info(f"STARTUP_CHECK ffprobe found at {settings.ffprobe_path}")
-    except (subprocess.CalledProcessError, FileNotFoundError) as e:
-        raise RuntimeError(
-            f"STARTUP_FAILED: ffprobe not found at '{settings.ffprobe_path}'. "
-            f"Install ffmpeg (includes ffprobe) or set FFPROBE_PATH in .env. Error: {e}"
-        )
-    except subprocess.TimeoutExpired:
-        raise RuntimeError(
-            f"STARTUP_FAILED: ffprobe check timeout at '{settings.ffprobe_path}'"
-        )
+    log.info("PROMPT_LAB_SHUTDOWN")
 
 
 app = FastAPI(lifespan=lifespan)
@@ -158,27 +112,12 @@ app.mount("/media", StaticFiles(directory=str(get_data_path())), name="media")
 def root() -> dict:
     """Root endpoint."""
     return {
-        "name": "AI Influencer Backend",
+        "name": "Prompt Lab API",
+        "mode": "prompt_generation_only",
         "docs": "/docs",
         "health": "/api/healthz",
-    }
-
-
-@app.get("/debug/image-path")
-def debug_image_path() -> dict:
-    """Debug endpoint to check image path resolution."""
-    from pathlib import Path
-    import os
-
-    backend_app = Path(__file__).resolve().parent
-    image_rel_path = "data/generated/images/9311562dfcf5d60a.png"
-    image_full_path = backend_app / image_rel_path
-
-    return {
-        "backend_app_dir": str(backend_app),
-        "image_rel_path": image_rel_path,
-        "image_full_path": str(image_full_path),
-        "file_exists": image_full_path.exists(),
-        "file_size": image_full_path.stat().st_size if image_full_path.exists() else None,
-        "is_file": image_full_path.is_file() if image_full_path.exists() else None,
+        "endpoints": {
+            "prompts": "/api/prompts",
+            "logs": "/api/logs/tail",
+        },
     }

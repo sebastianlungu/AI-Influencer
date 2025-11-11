@@ -83,6 +83,7 @@ def append_prompt_bundle(
         "seed_words": seed_words or [],
         "image_prompt": bundle["image_prompt"],
         "video_prompt": bundle["video_prompt"],
+        "social_meta": bundle.get("social_meta", {}),
     }
 
     with LOCK:

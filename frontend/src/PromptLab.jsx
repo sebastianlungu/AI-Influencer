@@ -9,6 +9,7 @@ export default function PromptLab() {
   const [error, setError] = useState(null);
   const [recentPrompts, setRecentPrompts] = useState([]);
   const [selectedBundle, setSelectedBundle] = useState(null);
+  const [showSocial, setShowSocial] = useState(false);
 
   // Load recent prompts on mount
   useEffect(() => {
@@ -48,6 +49,7 @@ export default function PromptLab() {
       // Select first bundle for display
       if (data.bundles && data.bundles.length > 0) {
         setSelectedBundle(data.bundles[0]);
+        setShowSocial(false); // Collapse social by default
       }
 
       // Reload recent prompts
@@ -71,9 +73,9 @@ export default function PromptLab() {
   return (
     <div style={styles.container}>
       <div style={styles.header}>
-        <h2 style={styles.title}>Prompt Lab</h2>
+        <h2 style={styles.title}>Prompt Generation</h2>
         <p style={styles.subtitle}>
-          Generate image & video prompt pairs for manual generation workflow
+          Generate image + video motion + social prompts for manual copy/paste to Leonardo & Veo
         </p>
       </div>
 
@@ -119,7 +121,7 @@ export default function PromptLab() {
           disabled={loading || !setting.trim()}
           style={loading ? styles.buttonDisabled : styles.button}
         >
-          {loading ? "Generating..." : "Generate Prompt Pair(s)"}
+          {loading ? "Generating..." : "Generate Prompt Bundle(s)"}
         </button>
       </div>
 
@@ -138,16 +140,17 @@ export default function PromptLab() {
             </div>
           </div>
 
+          {/* Image Prompt Section */}
           <div style={styles.promptSection}>
             <div style={styles.promptHeader}>
-              <h4 style={styles.sectionTitle}>Image Prompt (864×1536)</h4>
+              <h4 style={styles.sectionTitle}>📷 IMAGE PROMPT (864×1536, native 9:16, no upscale)</h4>
               {(() => {
                 const charCount = selectedBundle.image_prompt.final_prompt.length;
                 const remaining = 1500 - charCount;
                 const getColor = () => {
-                  if (charCount > 1400) return '#c00';  // Red: exceeds safe zone
-                  if (charCount > 1100) return '#f80';  // Orange: above target
-                  return '#080';                         // Green: within target (900-1100)
+                  if (charCount > 1400) return '#c00';
+                  if (charCount > 1100) return '#f80';
+                  return '#080';
                 };
                 return (
                   <span style={{ ...styles.charCount, color: getColor() }}>
@@ -167,42 +170,71 @@ export default function PromptLab() {
             </button>
           </div>
 
+          {/* Video Motion Brief Section */}
           <div style={styles.promptSection}>
-            <h4 style={styles.sectionTitle}>Video Prompt (6s, 9:16)</h4>
+            <h4 style={styles.sectionTitle}>🎬 VIDEO MOTION BRIEF (6s, single subtle move)</h4>
             <div style={styles.videoPromptDetails}>
-              <p>
-                <strong>Motion:</strong> {selectedBundle.video_prompt.motion}
-              </p>
-              <p>
-                <strong>Character Action:</strong> {selectedBundle.video_prompt.character_action}
-              </p>
-              <p>
-                <strong>Environment:</strong> {selectedBundle.video_prompt.environment}
-              </p>
-              <p>
-                <strong>Notes:</strong> {selectedBundle.video_prompt.notes}
-              </p>
+              <p><strong>Camera Motion:</strong> {selectedBundle.video_prompt.motion}</p>
+              <p><strong>Character Action:</strong> {selectedBundle.video_prompt.character_action}</p>
+              <p><strong>Environment:</strong> {selectedBundle.video_prompt.environment}</p>
+              {selectedBundle.video_prompt.notes && (
+                <p><strong>Notes:</strong> {selectedBundle.video_prompt.notes}</p>
+              )}
             </div>
             <button
               onClick={() =>
                 copyToClipboard(
-                  `Motion: ${selectedBundle.video_prompt.motion}\nCharacter: ${selectedBundle.video_prompt.character_action}\nEnvironment: ${selectedBundle.video_prompt.environment}\nNotes: ${selectedBundle.video_prompt.notes}`
+                  `Motion: ${selectedBundle.video_prompt.motion}\nCharacter: ${selectedBundle.video_prompt.character_action}\nEnvironment: ${selectedBundle.video_prompt.environment}${selectedBundle.video_prompt.notes ? '\nNotes: ' + selectedBundle.video_prompt.notes : ''}`
                 )
               }
               style={styles.copyButton}
             >
-              Copy Video Prompt
+              Copy Video Motion Brief
             </button>
+          </div>
+
+          {/* Social Meta Section (Collapsible) */}
+          <div style={styles.promptSection}>
+            <div style={styles.socialHeader}>
+              <h4 style={styles.sectionTitle}>📱 SOCIAL META (optional)</h4>
+              <button
+                onClick={() => setShowSocial(!showSocial)}
+                style={styles.toggleButton}
+              >
+                {showSocial ? "Hide" : "Show"}
+              </button>
+            </div>
+            {showSocial && selectedBundle.social_meta && (
+              <>
+                <div style={styles.socialDetails}>
+                  <p><strong>Title:</strong> {selectedBundle.social_meta.title}</p>
+                  <p><strong>Tags:</strong> {selectedBundle.social_meta.tags?.join(", ")}</p>
+                  <p><strong>Hashtags:</strong> {selectedBundle.social_meta.hashtags?.join(" ")}</p>
+                </div>
+                <button
+                  onClick={() =>
+                    copyToClipboard(
+                      `Title: ${selectedBundle.social_meta.title}\nTags: ${selectedBundle.social_meta.tags?.join(", ")}\nHashtags: ${selectedBundle.social_meta.hashtags?.join(" ")}`
+                    )
+                  }
+                  style={styles.copyButton}
+                >
+                  Copy Social Meta
+                </button>
+              </>
+            )}
           </div>
 
           <div style={styles.instructions}>
             <h4 style={styles.instructionsTitle}>Next Steps:</h4>
             <ol style={styles.instructionsList}>
-              <li>Copy the Prompt ID above</li>
-              <li>Rename your generated files: <code>{selectedBundle.id}_image.png</code>, <code>{selectedBundle.id}_video.mp4</code></li>
-              <li>Generate image in Leonardo using the Image Prompt</li>
-              <li>Generate video in Veo using the Video Prompt</li>
-              <li>Upload via Image/Video Review tabs using the Prompt ID</li>
+              <li>Copy the <strong>Image Prompt</strong> above</li>
+              <li>Paste into Leonardo.ai (Vision XL model, 864×1536, native 9:16)</li>
+              <li>Download generated image (save as <code>{selectedBundle.id}_image.png</code>)</li>
+              <li>Copy the <strong>Video Motion Brief</strong> above</li>
+              <li>Upload image to Veo 3 with motion prompt (6s duration)</li>
+              <li>Download generated video (save as <code>{selectedBundle.id}_video.mp4</code>)</li>
+              <li>(Optional) Use Social Meta for posting manually</li>
             </ol>
           </div>
         </div>
@@ -218,7 +250,7 @@ export default function PromptLab() {
             <div
               key={prompt.id}
               style={styles.recentItem}
-              onClick={() => setSelectedBundle(prompt)}
+              onClick={() => { setSelectedBundle(prompt); setShowSocial(false); }}
             >
               <div style={styles.recentHeader}>
                 <code style={styles.recentId}>{prompt.id}</code>
@@ -305,28 +337,28 @@ const styles = {
     marginBottom: "16px",
   },
   button: {
-    padding: "8px 16px",
+    padding: "10px 20px",
     backgroundColor: "#111",
     color: "#fff",
     border: "none",
     borderRadius: "4px",
     fontSize: "14px",
-    fontWeight: "500",
+    fontWeight: "600",
     cursor: "pointer",
   },
   buttonDisabled: {
-    padding: "8px 16px",
+    padding: "10px 20px",
     backgroundColor: "#ccc",
     color: "#999",
     border: "none",
     borderRadius: "4px",
     fontSize: "14px",
-    fontWeight: "500",
+    fontWeight: "600",
     cursor: "not-allowed",
   },
   bundleDisplay: {
     backgroundColor: "#fff",
-    border: "1px solid #ddd",
+    border: "2px solid #111",
     borderRadius: "8px",
     padding: "24px",
     marginBottom: "24px",
@@ -334,11 +366,11 @@ const styles = {
   bundleHeader: {
     marginBottom: "24px",
     paddingBottom: "16px",
-    borderBottom: "1px solid #eee",
+    borderBottom: "2px solid #eee",
   },
   bundleTitle: {
-    fontSize: "18px",
-    fontWeight: "600",
+    fontSize: "20px",
+    fontWeight: "700",
     margin: "0 0 12px 0",
     color: "#111",
   },
@@ -372,10 +404,10 @@ const styles = {
     marginBottom: "24px",
   },
   sectionTitle: {
-    fontSize: "15px",
+    fontSize: "16px",
     fontWeight: "600",
     margin: "0",
-    color: "#333",
+    color: "#111",
   },
   promptHeader: {
     display: "flex",
@@ -385,7 +417,7 @@ const styles = {
   },
   charCount: {
     fontSize: "12px",
-    fontWeight: "500",
+    fontWeight: "600",
     fontFamily: "monospace",
   },
   promptBox: {
@@ -399,10 +431,32 @@ const styles = {
     whiteSpace: "pre-wrap",
     wordWrap: "break-word",
     marginBottom: "12px",
-    maxHeight: "150px",
+    maxHeight: "200px",
     overflowY: "auto",
   },
   videoPromptDetails: {
+    padding: "16px",
+    backgroundColor: "#f9f9f9",
+    border: "1px solid #ddd",
+    borderRadius: "4px",
+    marginTop: "12px",
+    marginBottom: "12px",
+  },
+  socialHeader: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: "12px",
+  },
+  toggleButton: {
+    padding: "4px 12px",
+    backgroundColor: "#e9e9e9",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    fontSize: "12px",
+    cursor: "pointer",
+  },
+  socialDetails: {
     padding: "16px",
     backgroundColor: "#f9f9f9",
     border: "1px solid #ddd",
@@ -412,7 +466,7 @@ const styles = {
   instructions: {
     padding: "16px",
     backgroundColor: "#f0f8ff",
-    border: "1px solid #cce",
+    border: "2px solid #0066cc",
     borderRadius: "4px",
   },
   instructionsTitle: {

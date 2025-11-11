@@ -1,26 +1,23 @@
 import { useState, useEffect } from "react";
-import ImageReview from "./ImageReview";
-import VideoReview from "./VideoReview";
-import QueueView from "./QueueView";
-import SchedulerSettings from "./SchedulerSettings";
 import PromptLab from "./PromptLab";
 import LogsPanel from "./LogsPanel";
 
 export default function App() {
-  const [currentView, setCurrentView] = useState("prompts");
   const [showLogs, setShowLogs] = useState(true);
 
   useEffect(() => {
     const handleKey = (e) => {
-      // Only listen for uppercase or lowercase
-      const key = e.key.toLowerCase();
-
-      if (key === "p") setCurrentView("prompts");
-      else if (key === "i") setCurrentView("images");
-      else if (key === "v") setCurrentView("videos");
-      else if (key === "q") setCurrentView("queues");
-      else if (key === "s") setCurrentView("scheduler");
-      else if (key === "l") setShowLogs(!showLogs);
+      // Ctrl+P → Prompt Lab (currently the only view, so this is a no-op)
+      if (e.ctrlKey && e.key.toLowerCase() === "p") {
+        e.preventDefault();
+        // Prompt Lab is always visible, so this doesn't do anything
+        // But we keep it for consistency and future expansion
+      }
+      // Ctrl+L → Toggle Logs
+      else if (e.ctrlKey && e.key.toLowerCase() === "l") {
+        e.preventDefault();
+        setShowLogs(!showLogs);
+      }
     };
 
     window.addEventListener("keydown", handleKey);
@@ -32,51 +29,19 @@ export default function App() {
       <div style={styles.mainArea}>
         <div style={styles.nav}>
           <div style={styles.navLeft}>
-            <button
-              style={currentView === "prompts" ? styles.navButtonActive : styles.navButton}
-              onClick={() => setCurrentView("prompts")}
-            >
-              [P] Prompt Lab
-            </button>
-            <button
-              style={currentView === "images" ? styles.navButtonActive : styles.navButton}
-              onClick={() => setCurrentView("images")}
-            >
-              [I] Images
-            </button>
-            <button
-              style={currentView === "videos" ? styles.navButtonActive : styles.navButton}
-              onClick={() => setCurrentView("videos")}
-            >
-              [V] Videos
-            </button>
-            <button
-              style={currentView === "queues" ? styles.navButtonActive : styles.navButton}
-              onClick={() => setCurrentView("queues")}
-            >
-              [Q] Queues
-            </button>
-            <button
-              style={currentView === "scheduler" ? styles.navButtonActive : styles.navButton}
-              onClick={() => setCurrentView("scheduler")}
-            >
-              [S] Scheduler
-            </button>
+            <div style={styles.navTitle}>Prompt Lab</div>
+            <div style={styles.navHint}>Ctrl+P: Prompt Lab | Ctrl+L: Toggle Logs</div>
           </div>
           <button
             style={showLogs ? styles.logsButtonActive : styles.logsButton}
             onClick={() => setShowLogs(!showLogs)}
           >
-            [L] Logs
+            {showLogs ? "Hide Logs [Ctrl+L]" : "Show Logs [Ctrl+L]"}
           </button>
         </div>
 
         <div style={styles.content}>
-          {currentView === "prompts" && <PromptLab />}
-          {currentView === "images" && <ImageReview />}
-          {currentView === "videos" && <VideoReview />}
-          {currentView === "queues" && <QueueView />}
-          {currentView === "scheduler" && <SchedulerSettings />}
+          <PromptLab />
         </div>
       </div>
 
@@ -99,60 +64,49 @@ const styles = {
     flex: 1,
     display: "flex",
     flexDirection: "column",
-    minWidth: 0, // Allow flex shrinking
+    minWidth: 0,
   },
   nav: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    gap: "0",
+    padding: "12px 16px",
     borderBottom: "2px solid #111",
     backgroundColor: "#fff",
-    padding: "0",
   },
   navLeft: {
     display: "flex",
-    gap: "0",
+    flexDirection: "column",
+    gap: "4px",
   },
-  navButton: {
-    padding: "10px 16px",
-    backgroundColor: "transparent",
-    color: "#666",
-    border: "none",
-    borderBottom: "3px solid transparent",
-    cursor: "pointer",
-    fontSize: "13px",
-    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
-    fontWeight: "400",
-  },
-  navButtonActive: {
-    padding: "10px 16px",
-    backgroundColor: "transparent",
+  navTitle: {
+    fontSize: "18px",
+    fontWeight: "600",
     color: "#111",
-    border: "none",
-    borderBottom: "3px solid #111",
+    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
+  },
+  navHint: {
+    fontSize: "11px",
+    color: "#666",
+    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
+  },
+  logsButton: {
+    padding: "8px 16px",
+    backgroundColor: "#f5f5f5",
+    color: "#666",
+    border: "1px solid #ddd",
+    borderRadius: "4px",
     cursor: "pointer",
     fontSize: "13px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
     fontWeight: "500",
   },
-  logsButton: {
-    padding: "10px 16px",
-    backgroundColor: "transparent",
-    color: "#666",
-    border: "none",
-    borderBottom: "3px solid transparent",
-    cursor: "pointer",
-    fontSize: "13px",
-    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
-    fontWeight: "400",
-  },
   logsButtonActive: {
-    padding: "10px 16px",
+    padding: "8px 16px",
     backgroundColor: "#2d2d30",
     color: "#fff",
-    border: "none",
-    borderBottom: "3px solid #0e639c",
+    border: "1px solid #0e639c",
+    borderRadius: "4px",
     cursor: "pointer",
     fontSize: "13px",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto",
@@ -161,9 +115,11 @@ const styles = {
   content: {
     padding: "0",
     flex: 1,
+    overflowY: "auto",
   },
   logsPanel: {
     width: "400px",
     flexShrink: 0,
+    borderLeft: "1px solid #ddd",
   },
 };

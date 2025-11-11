@@ -1,57 +1,74 @@
+"""LLM provider selection for Prompt Lab (provider-agnostic).
+
+Supports swapping between Grok, Gemini, GPT via LLM_PROVIDER env var.
+Prompt Lab mode: only prompting_client() is available.
+"""
+
 from __future__ import annotations
 
+from app.clients.llm_interface import LLMClient, GrokAdapter
 from app.grok import GrokClient
-from app.clients.leonardo import LeonardoClient
-from app.clients.veo import VeoVideoClient
 from app.core.config import settings
 
 
-def _guard(name: str, key: str | None) -> None:
-    """Validates that live calls are enabled and API key is present.
+def _guard_llm(provider: str, key: str | None) -> None:
+    """Validates that LLM API key is present.
 
     Args:
-        name: Provider name (for error messages)
+        provider: Provider name (for error messages)
         key: API key value
 
     Raises:
-        RuntimeError: If ALLOW_LIVE=false or key is missing
+        RuntimeError: If key is missing
     """
-    if not settings.allow_live:
-        raise RuntimeError(
-            "Live calls disabled (ALLOW_LIVE=false). "
-            "Set ALLOW_LIVE=true in .env to enable paid API calls."
-        )
     if not key:
         raise RuntimeError(
-            f"{name}_API_KEY is missing. "
-            f"Set {name.upper()}_API_KEY in .env to enable {name} API calls."
+            f"Prompt Lab mode requires {provider.upper()}_API_KEY. "
+            f"Set {provider.upper()}_API_KEY in .env to enable prompt generation."
         )
 
 
-def prompting_client() -> GrokClient:
-    """Returns configured Grok client with guards applied.
+def prompting_client() -> LLMClient:
+    """Returns configured LLM client for prompt generation.
 
-    Grok generates diverse, creative image prompts for Eva Joy fitness content.
+    Provider selection based on LLM_PROVIDER env var (default: grok).
+    Returns LLMClient interface for provider-agnostic access.
+
+    Supported providers:
+    - grok: xAI Grok (default)
+    - gemini: Google Gemini Pro (future)
+    - gpt: OpenAI GPT-4 (future)
+
+    Returns:
+        LLMClient implementation for selected provider
+
+    Raises:
+        RuntimeError: If API key missing or provider unknown
     """
-    _guard("GROK", settings.grok_api_key)
-    return GrokClient(
-        api_key=settings.grok_api_key,
-        model=settings.grok_model,
-    )
+    provider = settings.llm_provider.lower()
 
+    if provider == "grok":
+        _guard_llm("grok", settings.grok_api_key)
+        grok = GrokClient(
+            api_key=settings.grok_api_key,
+            model=settings.grok_model,
+        )
+        return GrokAdapter(grok)
 
-def image_client() -> LeonardoClient:
-    """Returns configured Leonardo client with guards applied."""
-    _guard("LEONARDO", settings.leonardo_api_key)
-    return LeonardoClient(
-        api_key=settings.leonardo_api_key, model_id=settings.leonardo_model_id
-    )
+    elif provider == "gemini":
+        raise RuntimeError(
+            "Gemini provider not yet implemented. "
+            "Set LLM_PROVIDER=grok to use Grok (default)."
+        )
 
+    elif provider == "gpt":
+        raise RuntimeError(
+            "GPT provider not yet implemented. "
+            "Set LLM_PROVIDER=grok to use Grok (default)."
+        )
 
-def video_client() -> VeoVideoClient:
-    """Returns configured Veo 3 video generation client.
-
-    Veo 3 generates video from images via Vertex AI.
-    SynthID watermark is automatically embedded.
-    """
-    return VeoVideoClient()
+    else:
+        raise RuntimeError(
+            f"Unknown LLM provider: {provider}. "
+            f"Supported providers: grok (default), gemini (future), gpt (future)."
+        )
