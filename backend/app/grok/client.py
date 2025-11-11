@@ -20,7 +20,6 @@ from app.core import concurrency
 from app.core.cost import add_cost
 from app.core.logging import log
 from app.core.paths import get_data_path
-from app.core.variety_tracker import get_recent_location_strings
 
 from .models import ImagePrompt, MusicBrief, MotionSpec, PromptBundle, VideoPrompt
 from .transport import XAITransport

@@ -1,7 +1,7 @@
 [project]
 name = "ai-influencer"
 version = "0.1.0"
-description = "Automated video generation pipeline with fail-loud safety guards"
+description = "Prompt Lab for manual content generation workflow"
 requires-python = ">=3.11"
 readme = "README.md"
 license = { text = "MIT" }
@@ -15,11 +15,7 @@ dependencies = [
     "tenacity>=8.2.0",
     "python-dotenv>=1.0.0",
     "pillow>=10.1.0",
-    "opencv-python>=4.8.0",
-    "apscheduler>=3.10.0",
     "slowapi>=0.1.9",
-    "google-cloud-aiplatform>=1.122.0",
-    "google-auth>=2.41.1",
     "pytz>=2025.2",
     "python-multipart>=0.0.20",
 ]
