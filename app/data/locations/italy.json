@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "sunken courtyard canal dock featuring vespa silhouettes amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side vintage funicular with mirrored boutique windows under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside cobble courtyard with potted olive trees under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark tram stop platform featuring candle clusters amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned marble quarry ledge featuring floral market wraps amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove canal dock framed by vespa silhouettes during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze marina quay framed by polished gondola rails during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined rooftop terrazza framed by patterned marble inlay during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark fashion house portico framed by woven reed mats during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove marble quarry ledge framed by linen cafe chairs during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined canal dock with patterned marble inlay under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard citrus grove aisle with caramel travertine tiles under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard fashion house portico featuring candle clusters amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit vespa lane featuring cured leather awnings amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched bridge balustrade with caramel travertine tiles under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marble quarry ledge featuring cured leather awnings amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash marina quay with patterned marble inlay under canal mist wave",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone marble quarry ledge framed by caramel travertine tiles during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark spiral stair landing featuring shadow-striped arches amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard midnight piazza with polished gondola rails under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched olive mill patio with polished gondola rails under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade wine cave mouth with linen cafe chairs under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched vintage funicular framed by polished gondola rails during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined rail station hall with polished gondola rails under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marina quay with vespa silhouettes under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop terrazza framed by planter boxes during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone palazzo loggia with woven reed mats under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rooftop terrazza featuring candle clusters amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove colonnade shadow path featuring floral market wraps amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade midnight piazza with vespa silhouettes under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side bridge balustrade with marble busts under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit midnight piazza featuring mirrored boutique windows amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "buttery-stucco vintage funicular framed by wine crate stacks during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone fashion house portico with vespa silhouettes under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark colonnade shadow path with potted olive trees under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark volcanic beachwalk framed by candle clusters during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "alpine breeze spiral stair landing framed by floral market wraps during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark spiral stair landing with patterned marble inlay under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard olive mill patio featuring fountain mist amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side vespa lane featuring vespa silhouettes amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit volcanic beachwalk framed by potted olive trees during metro neon pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside midnight piazza framed by caramel travertine tiles during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rail station hall framed by iron gate lattice during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned volcanic beachwalk framed by vespa silhouettes during warm espresso dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "shadowy arcade cobble courtyard framed by polished gondola rails during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove wine cave mouth with amber glass sconces under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side colonnade shadow path featuring iron gate lattice amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vintage funicular with shadow-striped arches under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched olive mill patio framed by patterned marble inlay during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy volcanic beachwalk with shadow-striped arches under copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside vespa lane framed by patterned marble inlay during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze colonnade shadow path featuring woven reed mats amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-metro olive mill patio framed by shadow-striped arches during warm espresso dawn",
+      "weight": 0.9
+    },
+    {
+      "text": "marble-veined colonnade shadow path featuring marble busts amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vespa lane with mirrored boutique windows under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze glasshouse atrium with marble busts under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro olive mill patio framed by polished gondola rails during copper dusk glow",
+      "weight": 0.9
+    },
+    {
+      "text": "volcanic ash cobble courtyard framed by potted olive trees during copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit spiral stair landing featuring cured leather awnings amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze vintage funicular framed by marble busts during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro vespa lane featuring caramel travertine tiles amidst storm-soft noon",
+      "weight": 0.9
+    },
+    {
+      "text": "cobblestone vintage funicular featuring amber glass sconces amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark marble quarry ledge with floral market wraps under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble courtyard framed by shadow-striped arches during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined cobble courtyard featuring planter boxes amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro palazzo loggia framed by linen cafe chairs during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze cobble courtyard framed by patterned marble inlay during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit marble quarry ledge framed by potted olive trees during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined canal dock framed by amber glass sconces during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside canal dock featuring patterned marble inlay amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit marble quarry ledge framed by potted olive trees during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched tram stop platform with patterned marble inlay under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit vintage funicular featuring string lights amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned vespa lane with mirrored boutique windows under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "buttery-stucco colonnade shadow path with potted olive trees under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded wine cave mouth with vespa silhouettes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit midnight piazza featuring marble busts amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone midnight piazza framed by floral market wraps during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark rail station hall with cured leather awnings under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco colonnade shadow path featuring cured leather awnings amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched rooftop terrazza with woven reed mats under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade colonnade shadow path with planter boxes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside vintage funicular with potted olive trees under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside marina quay with amber glass sconces under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rooftop terrazza framed by potted olive trees during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside colonnade shadow path featuring polished gondola rails amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined citrus grove aisle with iron gate lattice under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic ash spiral stair landing with wine crate stacks under vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned citrus grove aisle featuring linen cafe chairs amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit citrus grove aisle featuring patterned marble inlay amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco spiral stair landing framed by vespa silhouettes during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark vespa lane featuring linen cafe chairs amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy rail station hall featuring linen cafe chairs amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade midnight piazza with planter boxes under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side colonnade shadow path framed by potted olive trees during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade olive mill patio with shadow-striped arches under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade glasshouse atrium framed by amber glass sconces during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside volcanic beachwalk framed by caramel travertine tiles during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined palazzo loggia featuring candle clusters amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal dock framed by floral market wraps during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit palazzo loggia framed by string lights during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy olive mill patio framed by linen cafe chairs during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded spiral stair landing featuring marble busts amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit midnight piazza featuring caramel travertine tiles amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco olive mill patio framed by amber glass sconces during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro cobble courtyard framed by mirrored boutique windows during canal mist wave",
+      "weight": 0.9
+    },
+    {
+      "text": "sunken courtyard cobble courtyard framed by candle clusters during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard wine cave mouth with wine crate stacks under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone midnight piazza featuring patterned marble inlay amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco spiral stair landing with amber glass sconces under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned volcanic beachwalk framed by string lights during copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-metro citrus grove aisle featuring mirrored boutique windows amidst storm-soft noon",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched midnight piazza with woven reed mats under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit colonnade shadow path featuring amber glass sconces amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove bridge balustrade with copper lanterns under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned vespa lane featuring shadow-striped arches amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade palazzo loggia framed by fountain mist during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned tram stop platform featuring caramel travertine tiles amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard canal dock with iron gate lattice under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marble-veined volcanic beachwalk framed by planter boxes during heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "alpine breeze palazzo loggia with woven reed mats under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined vespa lane with fountain mist under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade fashion house portico with cured leather awnings under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined wine cave mouth framed by copper lanterns during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard bridge balustrade with marble busts under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard fashion house portico framed by fountain mist during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove fashion house portico with copper lanterns under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash midnight piazza with cured leather awnings under market chatter echo",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit fashion house portico framed by marble busts during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze canal dock featuring candle clusters amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned volcanic beachwalk featuring floral market wraps amidst string-light midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard vintage funicular with cured leather awnings under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side olive mill patio framed by candle clusters during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit spiral stair landing framed by vespa silhouettes during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside palazzo loggia framed by iron gate lattice during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy tram stop platform with iron gate lattice under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned spiral stair landing with patterned marble inlay under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco colonnade shadow path framed by copper lanterns during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched midnight piazza featuring patterned marble inlay amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned canal dock featuring caramel travertine tiles amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "tram-lit colonnade shadow path featuring woven reed mats amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded colonnade shadow path with polished gondola rails under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove volcanic beachwalk framed by planter boxes during market chatter echo",
+      "weight": 0.7
+    },
+    {
+      "text": "canal-side marina quay framed by cured leather awnings during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone vintage funicular featuring mirrored boutique windows amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched olive mill patio framed by patterned marble inlay during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove volcanic beachwalk with linen cafe chairs under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard vespa lane with floral market wraps under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark palazzo loggia framed by wine crate stacks during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vintage funicular with linen cafe chairs under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "palazzo-lit palazzo loggia framed by woven reed mats during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone volcanic beachwalk framed by potted olive trees during fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside canal dock with copper lanterns under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched vintage funicular with shadow-striped arches under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded rail station hall framed by polished gondola rails during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched olive mill patio featuring marble busts amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rooftop terrazza featuring candle clusters amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit colonnade shadow path with floral market wraps under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit olive mill patio framed by planter boxes during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned midnight piazza with marble busts under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco fashion house portico with wine crate stacks under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched bridge balustrade featuring wine crate stacks amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove spiral stair landing framed by vespa silhouettes during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side palazzo loggia featuring floral market wraps amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash palazzo loggia with fountain mist under copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "gilded citrus grove aisle framed by caramel travertine tiles during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark vintage funicular with marble busts under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone canal dock framed by cured leather awnings during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined rail station hall with patterned marble inlay under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone marina quay with copper lanterns under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze citrus grove aisle framed by copper lanterns during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade vintage funicular featuring potted olive trees amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble courtyard with iron gate lattice under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone canal dock with patterned marble inlay under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone rail station hall featuring marble busts amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard marble quarry ledge featuring wine crate stacks amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard citrus grove aisle framed by wine crate stacks during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze wine cave mouth with wine crate stacks under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched vintage funicular framed by potted olive trees during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove bridge balustrade framed by vespa silhouettes during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone colonnade shadow path with floral market wraps under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal dock featuring cured leather awnings amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone tram stop platform framed by polished gondola rails during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco cobble courtyard with mirrored boutique windows under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside colonnade shadow path with caramel travertine tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove marina quay framed by patterned marble inlay during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze colonnade shadow path with iron gate lattice under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit spiral stair landing featuring iron gate lattice amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside marina quay with floral market wraps under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade palazzo loggia framed by vespa silhouettes during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard midnight piazza with patterned marble inlay under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone canal dock framed by floral market wraps during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy citrus grove aisle with linen cafe chairs under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard colonnade shadow path featuring shadow-striped arches amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marble quarry ledge with potted olive trees under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade canal dock with woven reed mats under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit olive mill patio with vespa silhouettes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark marina quay with vespa silhouettes under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned marble quarry ledge featuring vespa silhouettes amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard marina quay featuring cured leather awnings amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark tram stop platform featuring polished gondola rails amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched wine cave mouth framed by linen cafe chairs during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone fashion house portico with fountain mist under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard citrus grove aisle featuring caramel travertine tiles amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched fashion house portico with floral market wraps under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze rooftop terrazza with string lights under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned vintage funicular framed by planter boxes during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vespa lane framed by string lights during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco cobble courtyard featuring string lights amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side cobble courtyard featuring caramel travertine tiles amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash vintage funicular framed by floral market wraps during heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined colonnade shadow path with amber glass sconces under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone rail station hall framed by vespa silhouettes during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined olive mill patio featuring caramel travertine tiles amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone rail station hall featuring cured leather awnings amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash vespa lane framed by vespa silhouettes during storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit marina quay featuring marble busts amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade spiral stair landing with vespa silhouettes under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side olive mill patio framed by copper lanterns during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned vintage funicular featuring patterned marble inlay amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone wine cave mouth with shadow-striped arches under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard tram stop platform featuring mirrored boutique windows amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "hazy vineyard olive mill patio featuring caramel travertine tiles amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove marble quarry ledge with woven reed mats under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rooftop terrazza framed by cured leather awnings during canal mist wave",
+      "weight": 0.7
+    },
+    {
+      "text": "buttery-stucco rooftop terrazza framed by patterned marble inlay during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit fashion house portico featuring cured leather awnings amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined palazzo loggia featuring candle clusters amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco fashion house portico featuring woven reed mats amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy tram stop platform featuring polished gondola rails amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned volcanic beachwalk featuring wine crate stacks amidst copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched rooftop terrazza featuring candle clusters amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded vintage funicular framed by caramel travertine tiles during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze cobble courtyard featuring string lights amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze tram stop platform featuring planter boxes amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "tram-lit fashion house portico framed by shadow-striped arches during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined volcanic beachwalk framed by linen cafe chairs during fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone marina quay framed by string lights during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined rooftop terrazza with linen cafe chairs under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marina quay framed by planter boxes during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze olive mill patio with cured leather awnings under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark vintage funicular framed by floral market wraps during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rooftop terrazza with woven reed mats under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit colonnade shadow path featuring string lights amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark vespa lane with fountain mist under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined canal dock framed by potted olive trees during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark marina quay featuring caramel travertine tiles amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit marina quay featuring caramel travertine tiles amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco vespa lane featuring woven reed mats amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze fashion house portico featuring planter boxes amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard cobble courtyard with fountain mist under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched canal dock featuring caramel travertine tiles amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marina quay framed by planter boxes during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard volcanic beachwalk framed by mirrored boutique windows during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "gilded wine cave mouth featuring floral market wraps amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark bridge balustrade framed by fountain mist during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side citrus grove aisle framed by cured leather awnings during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro bridge balustrade framed by string lights during alpine light spill",
+      "weight": 0.9
+    },
+    {
+      "text": "volcanic ash vespa lane framed by mirrored boutique windows during heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "buttery-stucco bridge balustrade featuring marble busts amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rooftop terrazza framed by wine crate stacks during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard vintage funicular featuring potted olive trees amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard marina quay featuring wine crate stacks amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rooftop terrazza featuring potted olive trees amidst canal mist wave",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned tram stop platform framed by woven reed mats during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marble quarry ledge framed by potted olive trees during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy vespa lane framed by shadow-striped arches during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side spiral stair landing framed by shadow-striped arches during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched wine cave mouth framed by polished gondola rails during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco olive mill patio framed by mirrored boutique windows during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit marina quay featuring vespa silhouettes amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove fashion house portico featuring amber glass sconces amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard canal dock featuring marble busts amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit citrus grove aisle with marble busts under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro canal dock featuring iron gate lattice amidst copper dusk glow",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade citrus grove aisle featuring amber glass sconces amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade cobble courtyard framed by copper lanterns during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco fashion house portico featuring shadow-striped arches amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded tram stop platform featuring floral market wraps amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside vespa lane with linen cafe chairs under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy canal dock with candle clusters under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade wine cave mouth framed by iron gate lattice during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched fashion house portico framed by string lights during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit bridge balustrade with copper lanterns under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit tram stop platform framed by iron gate lattice during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble courtyard featuring cured leather awnings amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit bridge balustrade with polished gondola rails under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "limestone marina quay featuring planter boxes amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash fashion house portico featuring copper lanterns amidst alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy citrus grove aisle with caramel travertine tiles under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy volcanic beachwalk featuring patterned marble inlay amidst vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside volcanic beachwalk with iron gate lattice under storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "canal-side volcanic beachwalk featuring floral market wraps amidst fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched glasshouse atrium featuring iron gate lattice amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded midnight piazza framed by copper lanterns during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze vespa lane featuring planter boxes amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside midnight piazza featuring mirrored boutique windows amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rail station hall featuring candle clusters amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop terrazza framed by fountain mist during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined spiral stair landing with woven reed mats under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy canal dock featuring woven reed mats amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard glasshouse atrium featuring linen cafe chairs amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined volcanic beachwalk featuring cured leather awnings amidst late-night fashion week hum",
+      "weight": 0.7
+    },
+    {
+      "text": "sunken courtyard midnight piazza framed by copper lanterns during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze volcanic beachwalk featuring mirrored boutique windows amidst vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic ash midnight piazza framed by amber glass sconces during copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove palazzo loggia with candle clusters under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded spiral stair landing featuring potted olive trees amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco vespa lane with caramel travertine tiles under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone rail station hall framed by string lights during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade tram stop platform framed by woven reed mats during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit glasshouse atrium featuring shadow-striped arches amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side tram stop platform featuring string lights amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marble quarry ledge with woven reed mats under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined fashion house portico with iron gate lattice under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned volcanic beachwalk featuring floral market wraps amidst heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard midnight piazza featuring linen cafe chairs amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marble quarry ledge with shadow-striped arches under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze rooftop terrazza framed by planter boxes during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marble quarry ledge framed by shadow-striped arches during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove vintage funicular framed by wine crate stacks during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash glasshouse atrium framed by floral market wraps during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched vespa lane framed by iron gate lattice during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone tram stop platform framed by caramel travertine tiles during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "espresso-dark spiral stair landing framed by wine crate stacks during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone bridge balustrade framed by mirrored boutique windows during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark rail station hall framed by amber glass sconces during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark rail station hall framed by polished gondola rails during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit fashion house portico featuring copper lanterns amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard marina quay framed by fountain mist during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside palazzo loggia featuring candle clusters amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy wine cave mouth framed by candle clusters during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy cobble courtyard framed by patterned marble inlay during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone spiral stair landing featuring woven reed mats amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze vintage funicular featuring woven reed mats amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade palazzo loggia with wine crate stacks under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone vintage funicular featuring polished gondola rails amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade cobble courtyard featuring linen cafe chairs amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy canal dock framed by planter boxes during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned wine cave mouth featuring mirrored boutique windows amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove marble quarry ledge featuring linen cafe chairs amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash midnight piazza framed by woven reed mats during heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit colonnade shadow path framed by mirrored boutique windows during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned vespa lane with candle clusters under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard midnight piazza framed by iron gate lattice during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside marina quay framed by copper lanterns during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove bridge balustrade with floral market wraps under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco volcanic beachwalk with floral market wraps under fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit colonnade shadow path with wine crate stacks under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove marina quay framed by woven reed mats during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy marina quay with patterned marble inlay under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade glasshouse atrium with caramel travertine tiles under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze palazzo loggia framed by iron gate lattice during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned citrus grove aisle framed by iron gate lattice during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove glasshouse atrium with potted olive trees under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone cobble courtyard featuring vespa silhouettes amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rail station hall featuring iron gate lattice amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove colonnade shadow path with patterned marble inlay under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "buttery-stucco palazzo loggia featuring wine crate stacks amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone vintage funicular featuring marble busts amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard olive mill patio with linen cafe chairs under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rail station hall with marble busts under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark bridge balustrade with mirrored boutique windows under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove vespa lane with shadow-striped arches under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone cobble courtyard with candle clusters under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rail station hall with floral market wraps under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned canal dock featuring wine crate stacks amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marble quarry ledge featuring vespa silhouettes amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade olive mill patio with marble busts under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard wine cave mouth with copper lanterns under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark olive mill patio featuring patterned marble inlay amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade fashion house portico featuring mirrored boutique windows amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit bridge balustrade framed by copper lanterns during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned canal dock framed by shadow-striped arches during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined palazzo loggia featuring linen cafe chairs amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside marble quarry ledge featuring mirrored boutique windows amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit olive mill patio framed by amber glass sconces during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched olive mill patio featuring vespa silhouettes amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside colonnade shadow path framed by caramel travertine tiles during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned citrus grove aisle framed by iron gate lattice during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard midnight piazza featuring marble busts amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard olive mill patio featuring linen cafe chairs amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze marble quarry ledge framed by candle clusters during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside midnight piazza featuring planter boxes amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched vintage funicular with candle clusters under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove tram stop platform featuring woven reed mats amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro vespa lane featuring wine crate stacks amidst storm-soft noon",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark olive mill patio featuring caramel travertine tiles amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside glasshouse atrium framed by patterned marble inlay during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark tram stop platform framed by string lights during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove marble quarry ledge with candle clusters under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove rail station hall featuring amber glass sconces amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone palazzo loggia framed by string lights during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade glasshouse atrium framed by planter boxes during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone vespa lane framed by mirrored boutique windows during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit fashion house portico with caramel travertine tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro rooftop terrazza with marble busts under truffle-scented breeze",
+      "weight": 0.9
+    },
+    {
+      "text": "palazzo-lit colonnade shadow path with linen cafe chairs under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash glasshouse atrium with string lights under storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned canal dock featuring copper lanterns amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side vespa lane with floral market wraps under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit volcanic beachwalk featuring string lights amidst vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "espresso-dark spiral stair landing featuring woven reed mats amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove midnight piazza featuring potted olive trees amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard spiral stair landing featuring planter boxes amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched canal dock featuring marble busts amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard wine cave mouth featuring patterned marble inlay amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rooftop terrazza with vespa silhouettes under market chatter echo",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove tram stop platform framed by polished gondola rails during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit palazzo loggia with polished gondola rails under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove rooftop terrazza featuring iron gate lattice amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "buttery-stucco bridge balustrade featuring wine crate stacks amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined citrus grove aisle with fountain mist under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade cobble courtyard with copper lanterns under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside fashion house portico with floral market wraps under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble courtyard framed by iron gate lattice during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove olive mill patio framed by floral market wraps during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side tram stop platform with vespa silhouettes under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark glasshouse atrium featuring patterned marble inlay amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard bridge balustrade with string lights under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside vespa lane framed by planter boxes during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove vespa lane featuring floral market wraps amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched marble quarry ledge featuring fountain mist amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side fashion house portico framed by fountain mist during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side fashion house portico with floral market wraps under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marina quay framed by woven reed mats during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned rooftop terrazza featuring iron gate lattice amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined palazzo loggia with cured leather awnings under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit marina quay featuring patterned marble inlay amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove tram stop platform with woven reed mats under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined vintage funicular featuring shadow-striped arches amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove canal dock with patterned marble inlay under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "espresso-dark colonnade shadow path framed by mirrored boutique windows during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marina quay with copper lanterns under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone olive mill patio featuring linen cafe chairs amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit wine cave mouth featuring marble busts amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded midnight piazza framed by copper lanterns during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove volcanic beachwalk framed by shadow-striped arches during truffle-scented breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "shadowy arcade marble quarry ledge framed by fountain mist during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded fashion house portico featuring vespa silhouettes amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned cobble courtyard framed by woven reed mats during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit olive mill patio with potted olive trees under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side cobble courtyard with shadow-striped arches under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded rooftop terrazza framed by cured leather awnings during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side vespa lane with shadow-striped arches under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vespa lane featuring fountain mist amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard olive mill patio framed by linen cafe chairs during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined cobble courtyard framed by linen cafe chairs during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded tram stop platform framed by iron gate lattice during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco spiral stair landing featuring candle clusters amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy bridge balustrade featuring caramel travertine tiles amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash spiral stair landing featuring candle clusters amidst string-light midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "sunken courtyard tram stop platform featuring cured leather awnings amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco fashion house portico framed by caramel travertine tiles during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marina quay framed by floral market wraps during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined glasshouse atrium framed by planter boxes during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marina quay framed by polished gondola rails during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard tram stop platform framed by fountain mist during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side vintage funicular with caramel travertine tiles under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vintage funicular with iron gate lattice under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard marble quarry ledge featuring candle clusters amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-metro marble quarry ledge featuring iron gate lattice amidst heritage lamp wash",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze colonnade shadow path framed by linen cafe chairs during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy fashion house portico framed by iron gate lattice during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy spiral stair landing featuring vespa silhouettes amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove wine cave mouth with marble busts under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside midnight piazza featuring wine crate stacks amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove canal dock with candle clusters under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone spiral stair landing framed by vespa silhouettes during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vespa lane framed by woven reed mats during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash vintage funicular featuring cured leather awnings amidst metro neon pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic ash rooftop terrazza featuring vespa silhouettes amidst vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone olive mill patio framed by wine crate stacks during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard olive mill patio featuring candle clusters amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside volcanic beachwalk framed by linen cafe chairs during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "canal-side canal dock with planter boxes under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone wine cave mouth with linen cafe chairs under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "lakeside rooftop terrazza featuring polished gondola rails amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rooftop terrazza with amber glass sconces under copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit tram stop platform with fountain mist under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade canal dock framed by potted olive trees during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "buttery-stucco rail station hall featuring string lights amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard tram stop platform with patterned marble inlay under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded spiral stair landing featuring mirrored boutique windows amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "alpine breeze olive mill patio featuring patterned marble inlay amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-metro fashion house portico framed by polished gondola rails during copper dusk glow",
+      "weight": 0.9
+    },
+    {
+      "text": "buttery-stucco citrus grove aisle featuring patterned marble inlay amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove palazzo loggia framed by candle clusters during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned canal dock featuring patterned marble inlay amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade midnight piazza framed by marble busts during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard cobble courtyard with candle clusters under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash cobble courtyard featuring woven reed mats amidst alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit citrus grove aisle framed by patterned marble inlay during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard spiral stair landing featuring string lights amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit citrus grove aisle framed by linen cafe chairs during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade rail station hall with string lights under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "cobblestone spiral stair landing framed by woven reed mats during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit citrus grove aisle featuring marble busts amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside tram stop platform framed by linen cafe chairs during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy vespa lane framed by planter boxes during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side tram stop platform with shadow-striped arches under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched vespa lane featuring shadow-striped arches amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze cobble courtyard featuring vespa silhouettes amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash cobble courtyard framed by woven reed mats during storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy midnight piazza featuring iron gate lattice amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marble quarry ledge with wine crate stacks under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard citrus grove aisle with fountain mist under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro citrus grove aisle with shadow-striped arches under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "olive-grove rail station hall featuring amber glass sconces amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched rooftop terrazza featuring woven reed mats amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rail station hall with fountain mist under market chatter echo",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched citrus grove aisle framed by string lights during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard glasshouse atrium featuring planter boxes amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched spiral stair landing featuring linen cafe chairs amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded palazzo loggia with candle clusters under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard glasshouse atrium featuring candle clusters amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze spiral stair landing with patterned marble inlay under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined bridge balustrade framed by vespa silhouettes during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove citrus grove aisle with copper lanterns under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone palazzo loggia framed by iron gate lattice during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rooftop terrazza featuring string lights amidst storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone marina quay with woven reed mats under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned marina quay framed by mirrored boutique windows during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit citrus grove aisle framed by string lights during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone spiral stair landing framed by caramel travertine tiles during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marina quay featuring amber glass sconces amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade fashion house portico with candle clusters under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side spiral stair landing framed by copper lanterns during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro spiral stair landing with planter boxes under string-light midnight",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched colonnade shadow path framed by cured leather awnings during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded spiral stair landing framed by woven reed mats during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned vintage funicular with potted olive trees under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco vintage funicular framed by amber glass sconces during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined volcanic beachwalk featuring woven reed mats amidst fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard bridge balustrade featuring marble busts amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined fashion house portico featuring copper lanterns amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone olive mill patio featuring string lights amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit fashion house portico with string lights under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned vespa lane featuring caramel travertine tiles amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark volcanic beachwalk with woven reed mats under alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit marina quay framed by candle clusters during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside vespa lane featuring copper lanterns amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard bridge balustrade featuring shadow-striped arches amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marble-veined rooftop terrazza with potted olive trees under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit volcanic beachwalk framed by potted olive trees during heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "espresso-dark citrus grove aisle framed by caramel travertine tiles during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark colonnade shadow path with string lights under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone palazzo loggia with amber glass sconces under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade wine cave mouth with string lights under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marble quarry ledge featuring planter boxes amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside bridge balustrade with fountain mist under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard canal dock framed by planter boxes during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned spiral stair landing with copper lanterns under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade rooftop terrazza with amber glass sconces under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze vespa lane framed by caramel travertine tiles during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash cobble courtyard framed by floral market wraps during copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard volcanic beachwalk featuring shadow-striped arches amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined tram stop platform framed by candle clusters during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rail station hall featuring fountain mist amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marble quarry ledge with potted olive trees under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash bridge balustrade framed by linen cafe chairs during vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic ash tram stop platform framed by planter boxes during storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone cobble courtyard featuring vespa silhouettes amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side bridge balustrade framed by iron gate lattice during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "alpine breeze marble quarry ledge featuring iron gate lattice amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "limestone colonnade shadow path with candle clusters under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco marble quarry ledge with floral market wraps under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro rooftop terrazza featuring potted olive trees amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched wine cave mouth featuring floral market wraps amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard marble quarry ledge with vespa silhouettes under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched glasshouse atrium with polished gondola rails under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro vintage funicular featuring iron gate lattice amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone rooftop terrazza framed by caramel travertine tiles during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone midnight piazza featuring mirrored boutique windows amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard spiral stair landing featuring polished gondola rails amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marble quarry ledge framed by iron gate lattice during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "cobblestone vespa lane framed by woven reed mats during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched rooftop terrazza with amber glass sconces under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit midnight piazza framed by potted olive trees during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "hazy vineyard vespa lane with amber glass sconces under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone rail station hall with planter boxes under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit rail station hall framed by mirrored boutique windows during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit vespa lane with iron gate lattice under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark volcanic beachwalk with shadow-striped arches under warm espresso dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit palazzo loggia framed by mirrored boutique windows during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard marina quay with potted olive trees under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside cobble courtyard featuring shadow-striped arches amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy rail station hall featuring woven reed mats amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard palazzo loggia framed by caramel travertine tiles during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy cobble courtyard framed by mirrored boutique windows during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard olive mill patio framed by wine crate stacks during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro volcanic beachwalk with planter boxes under heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "sunken courtyard rooftop terrazza framed by copper lanterns during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined wine cave mouth featuring amber glass sconces amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned canal dock with woven reed mats under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash fashion house portico framed by string lights during metro neon pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside tram stop platform with vespa silhouettes under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco vespa lane with copper lanterns under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard colonnade shadow path featuring planter boxes amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard vintage funicular featuring vespa silhouettes amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched rail station hall framed by planter boxes during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco volcanic beachwalk featuring planter boxes amidst metro neon pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove palazzo loggia framed by vespa silhouettes during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove rail station hall with iron gate lattice under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone tram stop platform with iron gate lattice under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade colonnade shadow path framed by woven reed mats during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched wine cave mouth with planter boxes under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined colonnade shadow path with string lights under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "volcanic ash vespa lane with linen cafe chairs under fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside marble quarry ledge with polished gondola rails under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard wine cave mouth featuring linen cafe chairs amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched cobble courtyard framed by patterned marble inlay during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove tram stop platform framed by polished gondola rails during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro marina quay featuring potted olive trees amidst alpine light spill",
+      "weight": 0.9
+    },
+    {
+      "text": "lakeside fashion house portico featuring copper lanterns amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned canal dock framed by potted olive trees during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vintage funicular framed by shadow-striped arches during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco colonnade shadow path framed by iron gate lattice during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined midnight piazza with patterned marble inlay under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-metro rooftop terrazza framed by wine crate stacks during warm espresso dawn",
+      "weight": 0.9
+    },
+    {
+      "text": "dawn-rosy tram stop platform with vespa silhouettes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rooftop terrazza framed by polished gondola rails during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside citrus grove aisle with string lights under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy midnight piazza with fountain mist under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "palazzo-lit rooftop terrazza with patterned marble inlay under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded tram stop platform with cured leather awnings under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded olive mill patio featuring patterned marble inlay amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined bridge balustrade framed by shadow-striped arches during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "terracotta-toned rooftop terrazza featuring cured leather awnings amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "dawn-rosy vespa lane featuring iron gate lattice amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marble quarry ledge with shadow-striped arches under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "terracotta-toned bridge balustrade with candle clusters under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marina quay with caramel travertine tiles under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched marble quarry ledge with woven reed mats under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco canal dock with polished gondola rails under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash palazzo loggia with woven reed mats under moonlit marble gleam",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit marble quarry ledge with copper lanterns under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash fashion house portico framed by caramel travertine tiles during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit rooftop terrazza framed by polished gondola rails during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade canal dock with candle clusters under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash colonnade shadow path with wine crate stacks under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove rail station hall featuring marble busts amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone volcanic beachwalk with fountain mist under market chatter echo",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard bridge balustrade featuring caramel travertine tiles amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "gilded vespa lane with planter boxes under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade bridge balustrade featuring string lights amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone marina quay framed by candle clusters during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy marina quay featuring woven reed mats amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side colonnade shadow path with iron gate lattice under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco colonnade shadow path with polished gondola rails under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "dawn-rosy citrus grove aisle framed by wine crate stacks during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade olive mill patio featuring amber glass sconces amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark vespa lane featuring candle clusters amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove wine cave mouth with polished gondola rails under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard spiral stair landing with iron gate lattice under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard colonnade shadow path framed by shadow-striped arches during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched vintage funicular with polished gondola rails under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside bridge balustrade framed by wine crate stacks during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit glasshouse atrium featuring cured leather awnings amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside citrus grove aisle featuring candle clusters amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit olive mill patio framed by marble busts during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark bridge balustrade featuring linen cafe chairs amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove glasshouse atrium with planter boxes under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard midnight piazza framed by polished gondola rails during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze tram stop platform framed by vespa silhouettes during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal dock with floral market wraps under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze fashion house portico featuring vespa silhouettes amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy glasshouse atrium featuring planter boxes amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone vintage funicular featuring marble busts amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "olive-grove vintage funicular framed by candle clusters during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco rooftop terrazza featuring patterned marble inlay amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone colonnade shadow path with planter boxes under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard glasshouse atrium featuring floral market wraps amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard volcanic beachwalk featuring string lights amidst heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched rooftop terrazza with wine crate stacks under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded citrus grove aisle featuring marble busts amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marble quarry ledge with mirrored boutique windows under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side volcanic beachwalk with amber glass sconces under moonlit marble gleam",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-metro rail station hall with cured leather awnings under warm espresso dawn",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark vintage funicular framed by caramel travertine tiles during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash volcanic beachwalk with candle clusters under heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "sunken courtyard glasshouse atrium framed by patterned marble inlay during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marina quay featuring iron gate lattice amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze midnight piazza featuring potted olive trees amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone olive mill patio framed by vespa silhouettes during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "shadowy arcade spiral stair landing framed by wine crate stacks during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash tram stop platform framed by copper lanterns during vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned rail station hall featuring planter boxes amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined cobble courtyard with candle clusters under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard vespa lane with caramel travertine tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark marble quarry ledge featuring polished gondola rails amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard cobble courtyard with iron gate lattice under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze midnight piazza framed by patterned marble inlay during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rooftop terrazza with polished gondola rails under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "volcanic ash bridge balustrade framed by string lights during string-light midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy volcanic beachwalk featuring vespa silhouettes amidst truffle-scented breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "shadowy arcade spiral stair landing framed by shadow-striped arches during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded palazzo loggia featuring string lights amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marina quay featuring planter boxes amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro midnight piazza with amber glass sconces under copper dusk glow",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark marble quarry ledge featuring candle clusters amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit palazzo loggia with string lights under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side marina quay featuring planter boxes amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop terrazza with cured leather awnings under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side olive mill patio with linen cafe chairs under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit fashion house portico with patterned marble inlay under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit wine cave mouth with amber glass sconces under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro wine cave mouth featuring amber glass sconces amidst alpine light spill",
+      "weight": 0.9
+    },
+    {
+      "text": "olive-grove canal dock framed by planter boxes during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit marble quarry ledge framed by woven reed mats during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit vintage funicular framed by cured leather awnings during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside olive mill patio with mirrored boutique windows under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro colonnade shadow path framed by iron gate lattice during market chatter echo",
+      "weight": 0.9
+    },
+    {
+      "text": "volcanic ash tram stop platform with copper lanterns under alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined colonnade shadow path framed by vespa silhouettes during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark tram stop platform featuring planter boxes amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove olive mill patio featuring patterned marble inlay amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marble quarry ledge framed by polished gondola rails during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone spiral stair landing framed by marble busts during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone rail station hall framed by amber glass sconces during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark canal dock framed by string lights during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone olive mill patio with candle clusters under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit colonnade shadow path featuring polished gondola rails amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched canal dock framed by mirrored boutique windows during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze citrus grove aisle featuring copper lanterns amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined marble quarry ledge framed by potted olive trees during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone palazzo loggia framed by vespa silhouettes during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard palazzo loggia featuring wine crate stacks amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded rail station hall with string lights under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard citrus grove aisle with vespa silhouettes under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched vintage funicular framed by woven reed mats during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze cobble courtyard featuring marble busts amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marble quarry ledge with planter boxes under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove canal dock framed by polished gondola rails during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rooftop terrazza framed by candle clusters during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone cobble courtyard with linen cafe chairs under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone midnight piazza framed by fountain mist during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone tram stop platform with cured leather awnings under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined midnight piazza featuring mirrored boutique windows amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded fashion house portico with woven reed mats under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside fashion house portico with caramel travertine tiles under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched rail station hall featuring wine crate stacks amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side palazzo loggia framed by cured leather awnings during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned midnight piazza framed by wine crate stacks during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade rooftop terrazza framed by floral market wraps during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro bridge balustrade featuring mirrored boutique windows amidst truffle-scented breeze",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched citrus grove aisle featuring wine crate stacks amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rail station hall featuring amber glass sconces amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone midnight piazza featuring cured leather awnings amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze rail station hall framed by candle clusters during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone marble quarry ledge featuring caramel travertine tiles amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone citrus grove aisle with iron gate lattice under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade marina quay framed by woven reed mats during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco wine cave mouth featuring floral market wraps amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade wine cave mouth featuring shadow-striped arches amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze bridge balustrade with woven reed mats under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit vintage funicular featuring patterned marble inlay amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside tram stop platform with polished gondola rails under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro vespa lane with potted olive trees under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade rail station hall framed by mirrored boutique windows during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit rail station hall featuring linen cafe chairs amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined canal dock framed by woven reed mats during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard rooftop terrazza featuring polished gondola rails amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble courtyard framed by woven reed mats during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned vintage funicular with iron gate lattice under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined tram stop platform framed by copper lanterns during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze midnight piazza featuring iron gate lattice amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove colonnade shadow path featuring linen cafe chairs amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit cobble courtyard featuring iron gate lattice amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit olive mill patio with caramel travertine tiles under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside marble quarry ledge featuring polished gondola rails amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit canal dock framed by wine crate stacks during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside cobble courtyard featuring woven reed mats amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside citrus grove aisle framed by fountain mist during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit marina quay featuring linen cafe chairs amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched olive mill patio featuring potted olive trees amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marble-veined cobble courtyard framed by caramel travertine tiles during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched cobble courtyard with linen cafe chairs under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy rooftop terrazza framed by planter boxes during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro rail station hall featuring fountain mist amidst canal mist wave",
+      "weight": 0.9
+    },
+    {
+      "text": "terracotta-toned spiral stair landing featuring mirrored boutique windows amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy volcanic beachwalk framed by copper lanterns during truffle-scented breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "limestone bridge balustrade featuring floral market wraps amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side palazzo loggia featuring planter boxes amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy midnight piazza with patterned marble inlay under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade colonnade shadow path featuring patterned marble inlay amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy rooftop terrazza with string lights under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard marina quay framed by caramel travertine tiles during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash fashion house portico with floral market wraps under copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "espresso-dark wine cave mouth framed by caramel travertine tiles during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "hazy vineyard olive mill patio with mirrored boutique windows under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy olive mill patio framed by caramel travertine tiles during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side vespa lane framed by shadow-striped arches during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded palazzo loggia with wine crate stacks under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark cobble courtyard with vespa silhouettes under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded midnight piazza framed by candle clusters during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side volcanic beachwalk with vespa silhouettes under canal mist wave",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside rail station hall framed by amber glass sconces during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash colonnade shadow path featuring linen cafe chairs amidst alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove palazzo loggia featuring mirrored boutique windows amidst moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone fashion house portico framed by amber glass sconces during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco volcanic beachwalk framed by linen cafe chairs during metro neon pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "shadowy arcade citrus grove aisle with wine crate stacks under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit vintage funicular with planter boxes under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash marble quarry ledge framed by iron gate lattice during copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone rail station hall framed by iron gate lattice during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark palazzo loggia featuring amber glass sconces amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco palazzo loggia framed by fountain mist during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded palazzo loggia framed by floral market wraps during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined vespa lane featuring cured leather awnings amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "limestone olive mill patio featuring amber glass sconces amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side olive mill patio framed by vespa silhouettes during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned citrus grove aisle featuring candle clusters amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined marina quay with amber glass sconces under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit vespa lane with patterned marble inlay under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash vespa lane framed by marble busts during storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone midnight piazza with wine crate stacks under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched citrus grove aisle framed by marble busts during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove bridge balustrade with cured leather awnings under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit canal dock featuring amber glass sconces amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove colonnade shadow path featuring potted olive trees amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shadowy arcade volcanic beachwalk with string lights under warm espresso dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone marble quarry ledge framed by caramel travertine tiles during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard palazzo loggia framed by polished gondola rails during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove volcanic beachwalk framed by shadow-striped arches during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit cobble courtyard with marble busts under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard citrus grove aisle with linen cafe chairs under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit wine cave mouth with amber glass sconces under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded tram stop platform with mirrored boutique windows under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze glasshouse atrium featuring shadow-striped arches amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy wine cave mouth featuring caramel travertine tiles amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside wine cave mouth featuring candle clusters amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove cobble courtyard with caramel travertine tiles under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded volcanic beachwalk featuring amber glass sconces amidst moonlit marble gleam",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove rooftop terrazza with amber glass sconces under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone citrus grove aisle with planter boxes under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone glasshouse atrium featuring woven reed mats amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned midnight piazza featuring shadow-striped arches amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy olive mill patio with patterned marble inlay under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned citrus grove aisle framed by linen cafe chairs during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard colonnade shadow path featuring planter boxes amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy fashion house portico with woven reed mats under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze palazzo loggia with caramel travertine tiles under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side fashion house portico featuring candle clusters amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside marble quarry ledge framed by candle clusters during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone rail station hall featuring shadow-striped arches amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "limestone vespa lane featuring marble busts amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone colonnade shadow path featuring mirrored boutique windows amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone canal dock with patterned marble inlay under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside palazzo loggia with candle clusters under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark cobble courtyard featuring iron gate lattice amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro marina quay featuring caramel travertine tiles amidst alpine light spill",
+      "weight": 0.9
+    },
+    {
+      "text": "dawn-rosy marina quay framed by polished gondola rails during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco fashion house portico featuring planter boxes amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rail station hall framed by linen cafe chairs during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone midnight piazza framed by iron gate lattice during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched vintage funicular framed by woven reed mats during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned tram stop platform featuring candle clusters amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard rail station hall featuring candle clusters amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove rail station hall featuring woven reed mats amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "dawn-rosy glasshouse atrium framed by cured leather awnings during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side citrus grove aisle with planter boxes under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark midnight piazza framed by caramel travertine tiles during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined spiral stair landing with vespa silhouettes under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rail station hall featuring fountain mist amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lit glasshouse atrium with mirrored boutique windows under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone citrus grove aisle framed by linen cafe chairs during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched spiral stair landing with planter boxes under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit canal dock with potted olive trees under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched marble quarry ledge with linen cafe chairs under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined spiral stair landing framed by polished gondola rails during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined palazzo loggia framed by candle clusters during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit spiral stair landing featuring planter boxes amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone citrus grove aisle framed by candle clusters during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched spiral stair landing featuring woven reed mats amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone glasshouse atrium framed by fountain mist during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit volcanic beachwalk framed by vespa silhouettes during string-light midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy bridge balustrade framed by amber glass sconces during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy citrus grove aisle with woven reed mats under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze citrus grove aisle featuring woven reed mats amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro spiral stair landing framed by vespa silhouettes during string-light midnight",
+      "weight": 0.9
+    },
+    {
+      "text": "sepia-drenched glasshouse atrium with copper lanterns under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade canal dock featuring floral market wraps amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade palazzo loggia with mirrored boutique windows under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard citrus grove aisle framed by woven reed mats during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit vespa lane with cured leather awnings under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone olive mill patio with floral market wraps under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco spiral stair landing framed by mirrored boutique windows during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade midnight piazza featuring patterned marble inlay amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy canal dock with polished gondola rails under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze citrus grove aisle framed by linen cafe chairs during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside cobble courtyard featuring patterned marble inlay amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy marina quay with caramel travertine tiles under storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash wine cave mouth with candle clusters under moonlit marble gleam",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard rail station hall framed by fountain mist during market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro wine cave mouth with shadow-striped arches under fog-laced sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "buttery-stucco rail station hall featuring mirrored boutique windows amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine breeze rooftop terrazza featuring wine crate stacks amidst market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove fashion house portico framed by shadow-striped arches during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy spiral stair landing featuring caramel travertine tiles amidst alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned rail station hall framed by amber glass sconces during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone marina quay featuring cured leather awnings amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vespa lane framed by copper lanterns during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop terrazza framed by potted olive trees during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit bridge balustrade with wine crate stacks under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded tram stop platform framed by iron gate lattice during fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit rail station hall framed by amber glass sconces during string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade volcanic beachwalk featuring vespa silhouettes amidst heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic ash citrus grove aisle featuring shadow-striped arches amidst warm espresso dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "hazy vineyard rail station hall with patterned marble inlay under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined spiral stair landing featuring marble busts amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco volcanic beachwalk framed by marble busts during alpine light spill",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined canal dock with marble busts under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard marble quarry ledge framed by candle clusters during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside tram stop platform with shadow-striped arches under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side vintage funicular featuring linen cafe chairs amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade rail station hall featuring polished gondola rails amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade volcanic beachwalk with polished gondola rails under canal mist wave",
+      "weight": 0.7
+    },
+    {
+      "text": "palazzo-lit bridge balustrade framed by fountain mist during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone vintage funicular featuring amber glass sconces amidst metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side citrus grove aisle framed by amber glass sconces during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark vespa lane with potted olive trees under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard marble quarry ledge featuring woven reed mats amidst canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone olive mill patio framed by iron gate lattice during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "sepia-drenched colonnade shadow path framed by floral market wraps during moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded tram stop platform framed by patterned marble inlay during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined palazzo loggia with cured leather awnings under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone marble quarry ledge featuring planter boxes amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove tram stop platform framed by planter boxes during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy canal dock with copper lanterns under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard palazzo loggia featuring potted olive trees amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit volcanic beachwalk with planter boxes under heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "sunken courtyard tram stop platform framed by marble busts during truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard cobble courtyard featuring linen cafe chairs amidst storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade midnight piazza framed by caramel travertine tiles during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned bridge balustrade featuring polished gondola rails amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove citrus grove aisle with marble busts under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside rail station hall framed by marble busts during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove olive mill patio featuring caramel travertine tiles amidst warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy vespa lane featuring caramel travertine tiles amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard marble quarry ledge framed by iron gate lattice during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-veined cobble courtyard with vespa silhouettes under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta-toned marina quay with patterned marble inlay under metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "espresso-dark rail station hall with planter boxes under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched spiral stair landing featuring marble busts amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit glasshouse atrium framed by copper lanterns during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marble-veined marina quay featuring string lights amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone rooftop terrazza framed by wine crate stacks during alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard colonnade shadow path featuring string lights amidst fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash cobble courtyard framed by polished gondola rails during late-night fashion week hum",
+      "weight": 0.7
+    },
+    {
+      "text": "cobblestone rooftop terrazza framed by vespa silhouettes during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone palazzo loggia featuring mirrored boutique windows amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunken courtyard colonnade shadow path featuring potted olive trees amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro marble quarry ledge framed by cured leather awnings during moonlit marble gleam",
+      "weight": 0.9
+    },
+    {
+      "text": "palazzo-lit olive mill patio with vespa silhouettes under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit tram stop platform featuring shadow-striped arches amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit olive mill patio framed by linen cafe chairs during copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone colonnade shadow path framed by woven reed mats during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded colonnade shadow path featuring candle clusters amidst heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side palazzo loggia featuring planter boxes amidst late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched olive mill patio with string lights under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched rooftop terrazza featuring cured leather awnings amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit palazzo loggia with woven reed mats under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side vintage funicular framed by planter boxes during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched glasshouse atrium featuring wine crate stacks amidst string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone spiral stair landing with cured leather awnings under market chatter echo",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit colonnade shadow path with floral market wraps under heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stucco bridge balustrade with caramel travertine tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone volcanic beachwalk with potted olive trees under fog-laced sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "buttery-stucco marina quay framed by amber glass sconces during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-metro volcanic beachwalk with patterned marble inlay under volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "shadowy arcade fashion house portico framed by iron gate lattice during metro neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "dawn-rosy volcanic beachwalk with floral market wraps under vineyard golden haze",
+      "weight": 0.7
+    },
+    {
+      "text": "dawn-rosy vespa lane with cured leather awnings under moonlit marble gleam",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit glasshouse atrium with string lights under alpine light spill",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside rail station hall featuring linen cafe chairs amidst volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "lakeside olive mill patio with linen cafe chairs under truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side wine cave mouth framed by fountain mist during heritage lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-rosy olive mill patio with potted olive trees under warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard palazzo loggia with polished gondola rails under copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shadowy arcade canal dock framed by marble busts during volcanic heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic ash tram stop platform with iron gate lattice under string-light midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "gilded rooftop terrazza framed by floral market wraps during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone canal dock with iron gate lattice under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "lakeside marina quay with planter boxes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ash rooftop terrazza with caramel travertine tiles under storm-soft noon",
+      "weight": 0.7
+    },
+    {
+      "text": "buttery-stucco rail station hall framed by woven reed mats during storm-soft noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded volcanic beachwalk with vespa silhouettes under copper dusk glow",
+      "weight": 0.7
+    },
+    {
+      "text": "terracotta-toned palazzo loggia framed by candle clusters during late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "palazzo-lit midnight piazza featuring cured leather awnings amidst truffle-scented breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-metro marina quay with copper lanterns under market chatter echo",
+      "weight": 0.9
+    },
+    {
+      "text": "tram-lit palazzo loggia with candle clusters under fog-laced sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sepia-drenched glasshouse atrium framed by vespa silhouettes during canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lit marina quay with cured leather awnings under canal mist wave",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-veined cobble courtyard with cured leather awnings under late-night fashion week hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove volcanic beachwalk framed by wine crate stacks during heritage lamp wash",
+      "weight": 0.7
+    },
+    {
+      "text": "sunken courtyard vespa lane with copper lanterns under string-light midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobblestone fashion house portico featuring iron gate lattice amidst copper dusk glow",
+      "weight": 1.0
+    },
+    {
+      "text": "espresso-dark citrus grove aisle framed by candle clusters during warm espresso dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "hazy vineyard wine cave mouth featuring fountain mist amidst warm espresso dawn",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "caramel leather micro-satchel with orchid stitching",
+        "weight": 0.6
+      },
+      {
+        "text": "gold filigree choker anchoring electric-blue bead",
+        "weight": 0.6
+      },
+      {
+        "text": "silk foulard threaded through braid",
+        "weight": 0.6
+      },
+      {
+        "text": "architectural cuff shaped like Duomo ribs",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "espresso steam drifting near face",
+        "weight": 0.6
+      },
+      {
+        "text": "vespa headlight flare kissing lens",
+        "weight": 0.6
+      },
+      {
+        "text": "canal ripple bouncing electric shimmer",
+        "weight": 0.6
+      },
+      {
+        "text": "confetti from festa swirling midair",
+        "weight": 0.6
+      }
+    ]
+  }
+}

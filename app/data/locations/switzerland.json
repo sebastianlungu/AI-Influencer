@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "steel viaduct granite stair framed by frosted glass walls during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist meadow boardwalk with stone inlays under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district river lock with ski racks under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine rooftop greenhouse with watch faces under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine lake promenade featuring tram cables amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine river lock with clock gears under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glacial river lock with frosted glass walls under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking rooftop greenhouse framed by avalanche fencing during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine cobble bridge with mirror lake reflections under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy cobble bridge featuring frosted glass walls amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost meadow boardwalk framed by planed timber posts during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "valley mist lake promenade featuring alpine wildflowers amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost granite stair with clock gears under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car rooftop greenhouse with frosted glass walls under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine hydroelectric spillway with granite benches under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture rooftop greenhouse featuring snowmelt puddles amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet tram bend with clock gears under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern forested switchback featuring clock gears amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern ski lodge deck with mirror lake reflections under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend mountain lookout framed by flower boxes during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost tram bend with architectural louvers under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower art museum court framed by frosted glass walls during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern river lock with tram cables under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel art museum court featuring copper gutters amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern funicular platform featuring ski racks amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial tram bend with architectural louvers under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct river lock framed by watch faces during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking lake promenade featuring avalanche fencing amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "steel viaduct granite stair framed by planed timber posts during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower clock tower terrace framed by alpine wildflowers during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront urban plaza with steel trusses under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial rooftop greenhouse framed by clock gears during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom mountain lookout framed by alpine wildflowers during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern glacial canyon framed by bike lanes during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine ski lodge deck framed by mirror lake reflections during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge hydroelectric spillway featuring snowmelt puddles amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend cobble bridge with flower boxes under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist ski lodge deck framed by granite benches during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern meadow boardwalk with bike lanes under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "snowfield airport skylink framed by frosted glass walls during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet lake promenade featuring mirror lake reflections amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge river lock framed by watch faces during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct glacial canyon framed by tram cables during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture funicular platform with mirror lake reflections under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel clock tower terrace framed by stone inlays during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "meadow bloom funicular platform with architectural louvers under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel watch factory floor with tram cables under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy glacial canyon featuring watch faces amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield train hall with stone inlays under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend funicular platform featuring glacial runoff amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield lake promenade framed by snowmelt puddles during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture granite stair featuring planed timber posts amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront mountain lookout featuring alpine wildflowers amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet rooftop greenhouse with flower boxes under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend lake promenade featuring tram cables amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture ski lodge deck framed by mirror lake reflections during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial train hall featuring avalanche fencing amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial airport skylink with precision railings under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking airport skylink framed by mirror lake reflections during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel mountain lookout featuring avalanche fencing amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge airport skylink featuring ski racks amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture hydroelectric spillway with snowmelt puddles under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom art museum court featuring watch faces amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking art museum court featuring frosted glass walls amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct ski lodge deck framed by copper gutters during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost meadow boardwalk framed by frosted glass walls during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined mountain lookout with bike lanes under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront urban plaza framed by architectural louvers during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture funicular platform featuring tram cables amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district funicular platform featuring bike lanes amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined ski lodge deck framed by snowmelt puddles during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car granite stair framed by copper gutters during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower hydroelectric spillway featuring alpine wildflowers amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower glacial canyon with steel trusses under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost tram bend with alpine wildflowers under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom hydroelectric spillway framed by steel trusses during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture ski lodge deck featuring granite benches amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district mountain lookout with glacial runoff under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge lake promenade framed by ski racks during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy art museum court with stone inlays under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel glacial canyon with tram cables under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial clock tower terrace featuring glacial runoff amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture chalet balcony framed by mirror lake reflections during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge chalet balcony framed by ski racks during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist ski lodge deck with stone inlays under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy train hall featuring clock gears amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront art museum court featuring steel trusses amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield airport skylink framed by planed timber posts during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking airport skylink framed by cable shadows during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge funicular platform with precision railings under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "watchmaking river lock with cable shadows under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost meadow boardwalk framed by flower boxes during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine lake promenade featuring watch faces amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined airport skylink with cable shadows under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "clocktower hydroelectric spillway framed by bike lanes during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct river lock featuring bike lanes amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront tram bend featuring ski racks amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower watch factory floor featuring planed timber posts amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront cobble bridge with stone inlays under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern airport skylink featuring clock gears amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district glacial canyon featuring stone inlays amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet tram bend framed by planed timber posts during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car forested switchback framed by frosted glass walls during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking urban plaza featuring avalanche fencing amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district art museum court framed by architectural louvers during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon framed by frosted glass walls during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "river bend train hall featuring mirror lake reflections amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine clock tower terrace framed by snowmelt puddles during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower urban plaza framed by cable shadows during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon with copper gutters under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct chalet balcony featuring clock gears amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial clock tower terrace framed by granite benches during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost funicular platform with bike lanes under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial urban plaza featuring copper gutters amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower forested switchback framed by mirror lake reflections during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield hydroelectric spillway with stone inlays under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct tram bend framed by clock gears during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet train hall framed by precision railings during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge urban plaza featuring planed timber posts amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet cobble bridge framed by watch faces during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom watch factory floor featuring precision railings amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct forested switchback with stone inlays under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "sunlit pasture airport skylink with bike lanes under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district train hall featuring mirror lake reflections amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend tram bend framed by clock gears during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower ski lodge deck with mirror lake reflections under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost lake promenade with ski racks under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield glacial canyon framed by glacial runoff during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct watch factory floor with ski racks under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine art museum court framed by architectural louvers during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom forested switchback featuring copper gutters amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "cable-car granite stair with ski racks under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront glacial canyon featuring avalanche fencing amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet hydroelectric spillway framed by ski racks during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom funicular platform framed by clock gears during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront forested switchback framed by architectural louvers during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza featuring planed timber posts amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern cobble bridge with cable shadows under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "river bend glacial canyon with alpine wildflowers under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking forested switchback framed by mirror lake reflections during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower airport skylink featuring mirror lake reflections amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district rooftop greenhouse featuring mirror lake reflections amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "snowfield river lock framed by tram cables during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined funicular platform with steel trusses under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking cobble bridge framed by granite benches during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "alpine funicular platform framed by alpine wildflowers during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost tram bend featuring avalanche fencing amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom train hall framed by stone inlays during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower chalet balcony framed by glacial runoff during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge forested switchback with frosted glass walls under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy glacial canyon framed by clock gears during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet mountain lookout framed by planed timber posts during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront urban plaza featuring granite benches amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "pre-dawn frost forested switchback framed by precision railings during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture art museum court with granite benches under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "pre-dawn frost meadow boardwalk featuring copper gutters amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined art museum court with watch faces under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine forested switchback featuring alpine wildflowers amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct watch factory floor with granite benches under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine granite stair with clock gears under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car lake promenade featuring steel trusses amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "stone chalet funicular platform framed by granite benches during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct hydroelectric spillway framed by snowmelt puddles during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car forested switchback framed by planed timber posts during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower ski lodge deck with alpine wildflowers under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking hydroelectric spillway featuring snowmelt puddles amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern hydroelectric spillway framed by alpine wildflowers during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom lake promenade featuring avalanche fencing amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "snowfield train hall with cable shadows under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza framed by architectural louvers during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel ski lodge deck featuring steel trusses amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend cobble bridge featuring alpine wildflowers amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield lake promenade framed by clock gears during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel granite stair framed by mirror lake reflections during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined glacial canyon with precision railings under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine train hall framed by stone inlays during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge clock tower terrace with snowmelt puddles under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking cobble bridge framed by alpine wildflowers during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom granite stair framed by ski racks during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon framed by copper gutters during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car watch factory floor featuring clock gears amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district ski lodge deck framed by clock gears during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture lake promenade with mirror lake reflections under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy glacial canyon featuring watch faces amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct glacial canyon with alpine wildflowers under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture mountain lookout framed by avalanche fencing during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist chalet balcony with glacial runoff under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct hydroelectric spillway with stone inlays under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon featuring tram cables amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial watch factory floor framed by bike lanes during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking river lock with mirror lake reflections under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost urban plaza framed by tram cables during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking funicular platform framed by tram cables during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "forest-edge cobble bridge with copper gutters under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield meadow boardwalk featuring glacial runoff amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront forested switchback with alpine wildflowers under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern glacial canyon framed by precision railings during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza framed by clock gears during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "granite tunnel cobble bridge with planed timber posts under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine meadow boardwalk featuring planed timber posts amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist meadow boardwalk featuring alpine wildflowers amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture lake promenade framed by cable shadows during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car chalet balcony framed by avalanche fencing during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet rooftop greenhouse framed by watch faces during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine art museum court with copper gutters under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet clock tower terrace with ski racks under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist cobble bridge with snowmelt puddles under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car mountain lookout framed by bike lanes during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "clocktower granite stair with steel trusses under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower rooftop greenhouse featuring watch faces amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy glacial canyon with avalanche fencing under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel train hall framed by avalanche fencing during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture chalet balcony featuring snowmelt puddles amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge clock tower terrace with tram cables under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "forest-edge glacial canyon framed by cable shadows during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car clock tower terrace featuring planed timber posts amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking mountain lookout with flower boxes under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield airport skylink with snowmelt puddles under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern rooftop greenhouse framed by stone inlays during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "lakefront mountain lookout featuring cable shadows amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "cable-car forested switchback framed by architectural louvers during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost cobble bridge featuring clock gears amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield chalet balcony featuring steel trusses amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern clock tower terrace with watch faces under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend meadow boardwalk with snowmelt puddles under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost meadow boardwalk with avalanche fencing under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture clock tower terrace with ski racks under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture lake promenade with cable shadows under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern urban plaza with flower boxes under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district granite stair with clock gears under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock featuring cable shadows amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield funicular platform framed by snowmelt puddles during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined funicular platform with tram cables under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial mountain lookout framed by steel trusses during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial meadow boardwalk framed by flower boxes during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist river lock with clock gears under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture ski lodge deck with copper gutters under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel urban plaza framed by tram cables during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district art museum court with avalanche fencing under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine rooftop greenhouse framed by cable shadows during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel rooftop greenhouse framed by flower boxes during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist chalet balcony with steel trusses under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront watch factory floor framed by mirror lake reflections during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield watch factory floor with precision railings under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture ski lodge deck framed by frosted glass walls during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist airport skylink with snowmelt puddles under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist cobble bridge framed by snowmelt puddles during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy rooftop greenhouse featuring precision railings amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom glacial canyon framed by frosted glass walls during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom airport skylink framed by steel trusses during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "snowfield meadow boardwalk with watch faces under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock with cable shadows under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist forested switchback featuring watch faces amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial lake promenade with flower boxes under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial granite stair featuring mirror lake reflections amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car ski lodge deck with architectural louvers under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower glacial canyon framed by clock gears during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "bank district lake promenade with cable shadows under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet train hall framed by frosted glass walls during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking river lock framed by planed timber posts during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge urban plaza framed by clock gears during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy meadow boardwalk framed by precision railings during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial lake promenade with avalanche fencing under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom train hall with avalanche fencing under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet ski lodge deck with avalanche fencing under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine granite stair with planed timber posts under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district mountain lookout framed by cable shadows during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "sunlit pasture rooftop greenhouse with planed timber posts under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture train hall framed by steel trusses during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct funicular platform framed by clock gears during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial funicular platform with planed timber posts under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture chalet balcony featuring mirror lake reflections amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield ski lodge deck with ski racks under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel tram bend framed by watch faces during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost rooftop greenhouse with frosted glass walls under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined river lock with steel trusses under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern train hall framed by architectural louvers during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy lake promenade framed by ski racks during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "cable-car funicular platform featuring bike lanes amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct tram bend framed by snowmelt puddles during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "lakefront cobble bridge featuring avalanche fencing amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district art museum court framed by cable shadows during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront chalet balcony featuring copper gutters amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist cobble bridge framed by precision railings during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel tram bend featuring snowmelt puddles amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost glacial canyon featuring avalanche fencing amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom river lock with planed timber posts under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district chalet balcony framed by ski racks during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "watchmaking mountain lookout featuring tram cables amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend tram bend featuring snowmelt puddles amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge hydroelectric spillway framed by bike lanes during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture cobble bridge framed by granite benches during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "granite tunnel meadow boardwalk framed by tram cables during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "mid-century modern forested switchback featuring flower boxes amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car ski lodge deck with frosted glass walls under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern airport skylink framed by tram cables during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined art museum court framed by granite benches during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom rooftop greenhouse featuring mirror lake reflections amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined forested switchback featuring granite benches amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy meadow boardwalk framed by frosted glass walls during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car clock tower terrace with tram cables under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower river lock framed by mirror lake reflections during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom airport skylink featuring stone inlays amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel ski lodge deck with clock gears under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car tram bend with planed timber posts under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct ski lodge deck framed by frosted glass walls during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial granite stair featuring snowmelt puddles amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom train hall with clock gears under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern mountain lookout with clock gears under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist airport skylink with steel trusses under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture ski lodge deck featuring cable shadows amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist lake promenade featuring avalanche fencing amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom glacial canyon with frosted glass walls under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district hydroelectric spillway with stone inlays under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist funicular platform with alpine wildflowers under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend watch factory floor featuring granite benches amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glass canopy rooftop greenhouse with precision railings under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom granite stair with watch faces under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car rooftop greenhouse framed by copper gutters during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glass canopy train hall featuring cable shadows amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "lakefront urban plaza framed by cable shadows during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet granite stair framed by tram cables during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge forested switchback framed by snowmelt puddles during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined hydroelectric spillway framed by tram cables during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glass canopy rooftop greenhouse featuring mirror lake reflections amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district hydroelectric spillway with tram cables under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge tram bend with steel trusses under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel rooftop greenhouse with planed timber posts under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial mountain lookout with stone inlays under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial clock tower terrace featuring glacial runoff amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district ski lodge deck featuring architectural louvers amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront art museum court with tram cables under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined meadow boardwalk with avalanche fencing under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "steel viaduct urban plaza featuring snowmelt puddles amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet train hall framed by cable shadows during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined meadow boardwalk framed by stone inlays during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking art museum court framed by watch faces during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern lake promenade framed by alpine wildflowers during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "bank district hydroelectric spillway framed by steel trusses during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car river lock with tram cables under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront granite stair featuring snowmelt puddles amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost cobble bridge featuring steel trusses amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel mountain lookout with mirror lake reflections under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist meadow boardwalk framed by frosted glass walls during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel hydroelectric spillway featuring steel trusses amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car river lock with clock gears under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial granite stair featuring precision railings amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield clock tower terrace framed by alpine wildflowers during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture lake promenade with ski racks under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist meadow boardwalk featuring ski racks amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "mid-century modern tram bend with alpine wildflowers under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car tram bend featuring copper gutters amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glacial watch factory floor framed by snowmelt puddles during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture rooftop greenhouse with frosted glass walls under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost train hall framed by precision railings during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "lakefront glacial canyon with steel trusses under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "watchmaking clock tower terrace featuring watch faces amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture ski lodge deck framed by cable shadows during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial river lock with flower boxes under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "valley mist meadow boardwalk featuring watch faces amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist mountain lookout featuring steel trusses amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern ski lodge deck featuring glacial runoff amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet hydroelectric spillway with bike lanes under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet watch factory floor featuring frosted glass walls amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist mountain lookout framed by bike lanes during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower river lock featuring watch faces amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined airport skylink featuring glacial runoff amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel watch factory floor featuring avalanche fencing amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet cobble bridge framed by copper gutters during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge tram bend framed by glacial runoff during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront granite stair with ski racks under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car cobble bridge framed by clock gears during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined meadow boardwalk featuring tram cables amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture clock tower terrace featuring snowmelt puddles amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined river lock featuring architectural louvers amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined funicular platform framed by mirror lake reflections during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial tram bend framed by stone inlays during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet train hall featuring planed timber posts amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking tram bend framed by granite benches during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture river lock framed by planed timber posts during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist urban plaza featuring flower boxes amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower tram bend with mirror lake reflections under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom granite stair featuring ski racks amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist watch factory floor with clock gears under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct forested switchback framed by stone inlays during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "snowfield airport skylink with avalanche fencing under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy art museum court with tram cables under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel rooftop greenhouse framed by glacial runoff during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine mountain lookout with steel trusses under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend glacial canyon featuring alpine wildflowers amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront rooftop greenhouse featuring stone inlays amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom forested switchback with granite benches under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking tram bend with ski racks under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district forested switchback featuring watch faces amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost chalet balcony featuring tram cables amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car granite stair with ski racks under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet tram bend framed by alpine wildflowers during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist mountain lookout featuring cable shadows amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial ski lodge deck framed by snowmelt puddles during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower watch factory floor featuring steel trusses amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern mountain lookout framed by mirror lake reflections during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "snowfield meadow boardwalk with clock gears under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glass canopy forested switchback with planed timber posts under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct funicular platform framed by steel trusses during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom clock tower terrace with frosted glass walls under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy cobble bridge framed by alpine wildflowers during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza featuring ski racks amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield train hall featuring alpine wildflowers amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza featuring frosted glass walls amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel cobble bridge framed by architectural louvers during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial granite stair with bike lanes under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car urban plaza framed by snowmelt puddles during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car watch factory floor featuring mirror lake reflections amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock framed by architectural louvers during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy airport skylink with cable shadows under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge airport skylink with mirror lake reflections under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking clock tower terrace framed by granite benches during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine ski lodge deck featuring mirror lake reflections amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "river bend airport skylink with glacial runoff under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy art museum court featuring copper gutters amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge art museum court with watch faces under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined art museum court with ski racks under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture rooftop greenhouse with steel trusses under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy airport skylink with glacial runoff under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial mountain lookout featuring flower boxes amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower lake promenade framed by avalanche fencing during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car watch factory floor framed by mirror lake reflections during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront cobble bridge framed by mirror lake reflections during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district train hall with steel trusses under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend clock tower terrace with mirror lake reflections under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "cable-car granite stair featuring planed timber posts amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car rooftop greenhouse framed by copper gutters during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture funicular platform with cable shadows under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel granite stair with mirror lake reflections under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom art museum court framed by planed timber posts during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "river bend train hall framed by precision railings during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture mountain lookout featuring frosted glass walls amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom lake promenade featuring clock gears amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront granite stair featuring precision railings amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend airport skylink framed by alpine wildflowers during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel glacial canyon featuring precision railings amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking watch factory floor featuring alpine wildflowers amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist ski lodge deck with granite benches under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom watch factory floor with avalanche fencing under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon with ski racks under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine chalet balcony featuring flower boxes amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge chalet balcony featuring alpine wildflowers amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist chalet balcony framed by snowmelt puddles during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield lake promenade with architectural louvers under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern granite stair with bike lanes under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy granite stair framed by ski racks during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture watch factory floor framed by snowmelt puddles during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower art museum court framed by watch faces during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield art museum court framed by stone inlays during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glass canopy funicular platform framed by stone inlays during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car chalet balcony with granite benches under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern lake promenade with steel trusses under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet ski lodge deck with tram cables under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock featuring snowmelt puddles amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge funicular platform with architectural louvers under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine glacial canyon with bike lanes under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "river bend cobble bridge framed by cable shadows during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy hydroelectric spillway with stone inlays under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct art museum court featuring cable shadows amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost airport skylink framed by mirror lake reflections during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district mountain lookout with planed timber posts under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "stone chalet mountain lookout featuring frosted glass walls amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined clock tower terrace featuring watch faces amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial airport skylink framed by flower boxes during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower tram bend with avalanche fencing under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture glacial canyon featuring snowmelt puddles amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower train hall framed by frosted glass walls during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "lakefront train hall featuring mirror lake reflections amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car granite stair featuring copper gutters amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy chalet balcony with avalanche fencing under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern river lock featuring mirror lake reflections amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist glacial canyon with watch faces under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture train hall with clock gears under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined watch factory floor featuring watch faces amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture funicular platform featuring cable shadows amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking mountain lookout featuring steel trusses amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined lake promenade with glacial runoff under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist train hall with glacial runoff under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "forest-edge urban plaza framed by copper gutters during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking chalet balcony featuring frosted glass walls amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza framed by tram cables during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom cobble bridge featuring alpine wildflowers amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield glacial canyon framed by mirror lake reflections during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district granite stair featuring snowmelt puddles amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "snowfield forested switchback with copper gutters under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost urban plaza with clock gears under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car funicular platform framed by glacial runoff during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking granite stair framed by stone inlays during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "tram-lined meadow boardwalk framed by avalanche fencing during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "meadow bloom hydroelectric spillway framed by frosted glass walls during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined granite stair with copper gutters under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel river lock with snowmelt puddles under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy art museum court framed by mirror lake reflections during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking meadow boardwalk framed by granite benches during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy meadow boardwalk with tram cables under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield ski lodge deck with architectural louvers under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district train hall with snowmelt puddles under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern airport skylink with bike lanes under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car glacial canyon featuring avalanche fencing amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield urban plaza framed by frosted glass walls during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern clock tower terrace framed by bike lanes during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower funicular platform framed by avalanche fencing during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy watch factory floor featuring snowmelt puddles amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined cobble bridge with glacial runoff under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined art museum court featuring glacial runoff amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend glacial canyon framed by ski racks during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district lake promenade with alpine wildflowers under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom airport skylink featuring stone inlays amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet tram bend featuring watch faces amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture art museum court with alpine wildflowers under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel train hall with alpine wildflowers under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture mountain lookout framed by snowmelt puddles during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom art museum court framed by ski racks during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "river bend funicular platform with architectural louvers under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct tram bend framed by snowmelt puddles during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge hydroelectric spillway featuring architectural louvers amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist granite stair with frosted glass walls under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct mountain lookout framed by bike lanes during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy river lock featuring copper gutters amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture cobble bridge framed by mirror lake reflections during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost train hall framed by architectural louvers during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district art museum court featuring steel trusses amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine glacial canyon framed by bike lanes during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "sunlit pasture mountain lookout framed by stone inlays during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district urban plaza framed by avalanche fencing during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district funicular platform framed by watch faces during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking clock tower terrace featuring steel trusses amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine watch factory floor framed by avalanche fencing during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glass canopy hydroelectric spillway featuring cable shadows amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel urban plaza framed by copper gutters during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car cobble bridge featuring steel trusses amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined rooftop greenhouse with bike lanes under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost chalet balcony with precision railings under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern rooftop greenhouse featuring avalanche fencing amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet watch factory floor framed by precision railings during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern train hall with precision railings under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront ski lodge deck featuring architectural louvers amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "stone chalet mountain lookout featuring glacial runoff amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district meadow boardwalk framed by mirror lake reflections during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost chalet balcony with granite benches under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct granite stair with mirror lake reflections under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial airport skylink with alpine wildflowers under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial cobble bridge framed by frosted glass walls during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet river lock featuring granite benches amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge hydroelectric spillway with granite benches under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet watch factory floor framed by copper gutters during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car funicular platform featuring ski racks amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine train hall featuring architectural louvers amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend lake promenade with avalanche fencing under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine river lock framed by precision railings during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower lake promenade with frosted glass walls under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "lakefront granite stair framed by ski racks during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy train hall featuring alpine wildflowers amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern glacial canyon featuring copper gutters amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined lake promenade featuring planed timber posts amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist ski lodge deck with clock gears under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist chalet balcony framed by alpine wildflowers during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront funicular platform framed by glacial runoff during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet art museum court framed by architectural louvers during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost glacial canyon with granite benches under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "forest-edge cobble bridge framed by flower boxes during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "clocktower glacial canyon framed by alpine wildflowers during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet urban plaza featuring cable shadows amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower clock tower terrace framed by planed timber posts during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glacial tram bend featuring watch faces amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined tram bend with bike lanes under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial river lock with tram cables under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower cobble bridge with flower boxes under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct rooftop greenhouse framed by watch faces during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture lake promenade featuring glacial runoff amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel airport skylink with frosted glass walls under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost urban plaza featuring mirror lake reflections amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower glacial canyon framed by bike lanes during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car cobble bridge with avalanche fencing under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine granite stair featuring avalanche fencing amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend rooftop greenhouse with cable shadows under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend clock tower terrace framed by avalanche fencing during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct watch factory floor featuring steel trusses amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront ski lodge deck framed by alpine wildflowers during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined art museum court with tram cables under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern clock tower terrace framed by tram cables during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower watch factory floor with precision railings under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture lake promenade with bike lanes under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glass canopy granite stair framed by bike lanes during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district hydroelectric spillway featuring granite benches amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower glacial canyon featuring glacial runoff amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district watch factory floor featuring avalanche fencing amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture urban plaza with copper gutters under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront chalet balcony with avalanche fencing under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car forested switchback with steel trusses under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district mountain lookout featuring cable shadows amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist granite stair featuring ski racks amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct train hall featuring alpine wildflowers amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront cobble bridge with bike lanes under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking river lock with stone inlays under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy ski lodge deck framed by copper gutters during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking clock tower terrace framed by ski racks during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy mountain lookout featuring planed timber posts amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking ski lodge deck with avalanche fencing under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "meadow bloom funicular platform featuring flower boxes amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture granite stair framed by snowmelt puddles during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district airport skylink featuring clock gears amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car glacial canyon featuring granite benches amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost glacial canyon with ski racks under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture granite stair featuring ski racks amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial cobble bridge with frosted glass walls under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist airport skylink featuring stone inlays amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "river bend forested switchback with alpine wildflowers under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined mountain lookout with copper gutters under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car airport skylink framed by copper gutters during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield river lock framed by bike lanes during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking meadow boardwalk with mirror lake reflections under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "tram-lined granite stair featuring clock gears amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking art museum court with alpine wildflowers under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine watch factory floor featuring flower boxes amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car chalet balcony framed by cable shadows during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined meadow boardwalk with avalanche fencing under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost hydroelectric spillway featuring snowmelt puddles amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge airport skylink with glacial runoff under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost cobble bridge featuring precision railings amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower tram bend framed by watch faces during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car hydroelectric spillway framed by steel trusses during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture airport skylink framed by planed timber posts during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge train hall featuring mirror lake reflections amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend watch factory floor featuring bike lanes amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront cobble bridge with frosted glass walls under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel funicular platform featuring planed timber posts amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district hydroelectric spillway framed by copper gutters during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "lakefront rooftop greenhouse with bike lanes under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon with frosted glass walls under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "forest-edge tram bend framed by granite benches during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "clocktower rooftop greenhouse featuring flower boxes amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield river lock with flower boxes under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "pre-dawn frost funicular platform featuring cable shadows amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture art museum court framed by alpine wildflowers during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking tram bend featuring glacial runoff amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern glacial canyon featuring alpine wildflowers amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car clock tower terrace with granite benches under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower tram bend featuring avalanche fencing amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock featuring clock gears amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct rooftop greenhouse featuring architectural louvers amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront train hall with watch faces under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car tram bend featuring flower boxes amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield tram bend with tram cables under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "stone chalet watch factory floor with mirror lake reflections under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine river lock framed by steel trusses during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district train hall framed by ski racks during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking airport skylink featuring ski racks amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district granite stair with glacial runoff under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "stone chalet meadow boardwalk framed by tram cables during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine hydroelectric spillway with planed timber posts under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial airport skylink featuring precision railings amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist granite stair featuring watch faces amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern granite stair featuring precision railings amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "valley mist hydroelectric spillway featuring ski racks amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost rooftop greenhouse framed by architectural louvers during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "mid-century modern airport skylink with architectural louvers under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "snowfield train hall with precision railings under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glacial train hall featuring frosted glass walls amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge rooftop greenhouse framed by bike lanes during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct mountain lookout with tram cables under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront watch factory floor framed by precision railings during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined forested switchback framed by tram cables during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront watch factory floor with copper gutters under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking cobble bridge with watch faces under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "lakefront meadow boardwalk with stone inlays under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom lake promenade featuring steel trusses amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist rooftop greenhouse featuring ski racks amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "bank district art museum court framed by snowmelt puddles during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "sunlit pasture rooftop greenhouse with bike lanes under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car hydroelectric spillway framed by glacial runoff during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower rooftop greenhouse framed by granite benches during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern river lock featuring bike lanes amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial meadow boardwalk framed by glacial runoff during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield chalet balcony framed by steel trusses during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct clock tower terrace with planed timber posts under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock featuring granite benches amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield ski lodge deck with cable shadows under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "alpine rooftop greenhouse framed by planed timber posts during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "alpine rooftop greenhouse with tram cables under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge watch factory floor featuring alpine wildflowers amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern funicular platform featuring snowmelt puddles amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet tram bend with cable shadows under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront clock tower terrace framed by glacial runoff during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern chalet balcony featuring mirror lake reflections amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront train hall framed by watch faces during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom granite stair featuring cable shadows amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost funicular platform framed by copper gutters during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet forested switchback with clock gears under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking chalet balcony framed by granite benches during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car glacial canyon framed by bike lanes during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture river lock framed by copper gutters during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy forested switchback featuring architectural louvers amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glacial chalet balcony framed by flower boxes during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district granite stair featuring architectural louvers amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern lake promenade featuring stone inlays amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car river lock framed by steel trusses during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined hydroelectric spillway framed by planed timber posts during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "bank district rooftop greenhouse with bike lanes under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "granite tunnel forested switchback featuring tram cables amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car ski lodge deck framed by snowmelt puddles during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom meadow boardwalk framed by flower boxes during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct rooftop greenhouse framed by avalanche fencing during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel mountain lookout framed by tram cables during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel granite stair featuring cable shadows amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine clock tower terrace featuring stone inlays amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking watch factory floor with architectural louvers under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom art museum court with steel trusses under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge forested switchback featuring copper gutters amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern glacial canyon featuring bike lanes amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront clock tower terrace featuring ski racks amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine forested switchback featuring granite benches amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined lake promenade featuring ski racks amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined art museum court framed by alpine wildflowers during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield ski lodge deck featuring watch faces amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial ski lodge deck featuring watch faces amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom clock tower terrace featuring architectural louvers amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car hydroelectric spillway framed by architectural louvers during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking watch factory floor featuring avalanche fencing amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking art museum court with precision railings under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield forested switchback featuring snowmelt puddles amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom rooftop greenhouse with stone inlays under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined glacial canyon framed by avalanche fencing during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct forested switchback with mirror lake reflections under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "mid-century modern rooftop greenhouse with architectural louvers under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield lake promenade with stone inlays under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower cobble bridge with bike lanes under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost river lock framed by cable shadows during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist clock tower terrace with planed timber posts under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine tram bend framed by precision railings during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend meadow boardwalk with glacial runoff under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy chalet balcony featuring flower boxes amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district granite stair with steel trusses under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "valley mist rooftop greenhouse featuring avalanche fencing amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glass canopy forested switchback featuring precision railings amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "mid-century modern granite stair featuring frosted glass walls amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist hydroelectric spillway featuring architectural louvers amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "bank district rooftop greenhouse with mirror lake reflections under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking chalet balcony with copper gutters under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield train hall with ski racks under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking funicular platform with watch faces under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture forested switchback featuring ski racks amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking urban plaza framed by precision railings during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking river lock framed by stone inlays during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct train hall with clock gears under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine river lock framed by clock gears during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine mountain lookout featuring ski racks amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost meadow boardwalk with ski racks under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car mountain lookout with granite benches under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom forested switchback featuring frosted glass walls amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend art museum court with clock gears under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine chalet balcony featuring steel trusses amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial tram bend framed by snowmelt puddles during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy tram bend featuring avalanche fencing amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "watchmaking funicular platform featuring watch faces amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial art museum court with copper gutters under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine tram bend with frosted glass walls under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "sunlit pasture airport skylink framed by steel trusses during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "tram-lined river lock framed by glacial runoff during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy hydroelectric spillway with mirror lake reflections under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower funicular platform featuring watch faces amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct chalet balcony framed by tram cables during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield river lock featuring alpine wildflowers amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel chalet balcony featuring frosted glass walls amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car ski lodge deck framed by planed timber posts during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom lake promenade featuring flower boxes amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom rooftop greenhouse featuring glacial runoff amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower lake promenade with cable shadows under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy cobble bridge framed by precision railings during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield watch factory floor framed by clock gears during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom funicular platform with glacial runoff under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "mid-century modern mountain lookout with watch faces under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist clock tower terrace featuring cable shadows amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield forested switchback featuring frosted glass walls amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "cable-car train hall featuring precision railings amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car urban plaza framed by bike lanes during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car meadow boardwalk framed by cable shadows during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront meadow boardwalk framed by steel trusses during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield forested switchback featuring bike lanes amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined rooftop greenhouse with planed timber posts under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge lake promenade with planed timber posts under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost funicular platform with clock gears under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern granite stair framed by precision railings during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet lake promenade framed by granite benches during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking tram bend with avalanche fencing under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking airport skylink featuring bike lanes amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "steel viaduct rooftop greenhouse framed by planed timber posts during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "bank district train hall with avalanche fencing under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district art museum court with copper gutters under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge glacial canyon framed by precision railings during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom glacial canyon featuring stone inlays amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost forested switchback featuring mirror lake reflections amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial chalet balcony featuring flower boxes amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel chalet balcony framed by copper gutters during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial lake promenade featuring granite benches amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist clock tower terrace with tram cables under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial hydroelectric spillway featuring copper gutters amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined urban plaza featuring avalanche fencing amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine ski lodge deck with stone inlays under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking airport skylink with alpine wildflowers under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture forested switchback framed by alpine wildflowers during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "tram-lined cobble bridge with snowmelt puddles under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend airport skylink framed by cable shadows during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower cobble bridge framed by glacial runoff during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront lake promenade featuring mirror lake reflections amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glass canopy rooftop greenhouse with tram cables under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture meadow boardwalk framed by cable shadows during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "mid-century modern rooftop greenhouse with mirror lake reflections under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct forested switchback featuring precision railings amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "lakefront urban plaza with flower boxes under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district rooftop greenhouse featuring cable shadows amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist glacial canyon with watch faces under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge granite stair with alpine wildflowers under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost train hall featuring watch faces amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy meadow boardwalk framed by ski racks during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist train hall framed by mirror lake reflections during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist granite stair featuring clock gears amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet airport skylink framed by stone inlays during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist mountain lookout framed by mirror lake reflections during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct meadow boardwalk with snowmelt puddles under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct tram bend featuring planed timber posts amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "meadow bloom forested switchback featuring planed timber posts amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront lake promenade with stone inlays under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern chalet balcony featuring mirror lake reflections amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom river lock with tram cables under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined chalet balcony framed by bike lanes during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glass canopy chalet balcony framed by bike lanes during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district rooftop greenhouse with stone inlays under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel tram bend with ski racks under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge art museum court featuring copper gutters amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined meadow boardwalk featuring glacial runoff amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy rooftop greenhouse framed by alpine wildflowers during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront hydroelectric spillway featuring watch faces amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost chalet balcony with flower boxes under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend granite stair featuring watch faces amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district granite stair featuring avalanche fencing amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist glacial canyon with tram cables under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial rooftop greenhouse framed by planed timber posts during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine glacial canyon framed by mirror lake reflections during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel mountain lookout featuring granite benches amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge rooftop greenhouse featuring mirror lake reflections amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower urban plaza with tram cables under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "sunlit pasture airport skylink framed by avalanche fencing during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined chalet balcony framed by clock gears during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "snowfield glacial canyon with glacial runoff under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "glacial meadow boardwalk with snowmelt puddles under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy lake promenade framed by flower boxes during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge meadow boardwalk with copper gutters under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost funicular platform framed by glacial runoff during misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy art museum court framed by cable shadows during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield art museum court framed by copper gutters during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "sunlit pasture mountain lookout with granite benches under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "stone chalet tram bend featuring clock gears amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy glacial canyon featuring copper gutters amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend clock tower terrace featuring copper gutters amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost ski lodge deck with clock gears under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "granite tunnel lake promenade framed by mirror lake reflections during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist watch factory floor featuring tram cables amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower granite stair with avalanche fencing under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist granite stair framed by cable shadows during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel forested switchback featuring watch faces amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district glacial canyon with bike lanes under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "river bend urban plaza featuring planed timber posts amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom granite stair featuring architectural louvers amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car clock tower terrace featuring planed timber posts amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost airport skylink featuring granite benches amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car urban plaza framed by mirror lake reflections during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower forested switchback featuring bike lanes amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district ski lodge deck framed by cable shadows during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "clocktower art museum court with tram cables under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking rooftop greenhouse framed by frosted glass walls during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel cobble bridge framed by watch faces during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined forested switchback framed by watch faces during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy funicular platform with architectural louvers under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glass canopy urban plaza framed by glacial runoff during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking rooftop greenhouse framed by mirror lake reflections during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower train hall with granite benches under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom ski lodge deck framed by planed timber posts during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge chalet balcony with stone inlays under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront rooftop greenhouse featuring copper gutters amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom art museum court featuring granite benches amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car cobble bridge with planed timber posts under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon framed by stone inlays during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost glacial canyon with watch faces under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower clock tower terrace framed by mirror lake reflections during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined chalet balcony framed by bike lanes during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield granite stair with snowmelt puddles under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield rooftop greenhouse featuring tram cables amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower watch factory floor featuring cable shadows amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car ski lodge deck with granite benches under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower clock tower terrace framed by stone inlays during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower glacial canyon featuring clock gears amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost hydroelectric spillway with stone inlays under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "clocktower tram bend with flower boxes under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial lake promenade with cable shadows under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend clock tower terrace with precision railings under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower watch factory floor featuring copper gutters amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "clocktower tram bend with precision railings under tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct cobble bridge framed by tram cables during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom mountain lookout featuring cable shadows amidst nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "mid-century modern urban plaza featuring mirror lake reflections amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine clock tower terrace framed by avalanche fencing during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost tram bend featuring precision railings amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct train hall featuring ski racks amidst glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront train hall with planed timber posts under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge meadow boardwalk framed by tram cables during lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine funicular platform framed by snowmelt puddles during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district cobble bridge featuring watch faces amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower rooftop greenhouse featuring glacial runoff amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car mountain lookout featuring architectural louvers amidst factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car meadow boardwalk featuring stone inlays amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet meadow boardwalk framed by ski racks during clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern cobble bridge framed by architectural louvers during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial river lock with architectural louvers under glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost mountain lookout featuring ski racks amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "mid-century modern glacial canyon framed by steel trusses during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "watchmaking clock tower terrace featuring precision railings amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet train hall with planed timber posts under pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct watch factory floor featuring planed timber posts amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom lake promenade featuring snowmelt puddles amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet mountain lookout framed by architectural louvers during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car forested switchback featuring steel trusses amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial hydroelectric spillway framed by snowmelt puddles during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist cobble bridge featuring frosted glass walls amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost art museum court with mirror lake reflections under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom tram bend with frosted glass walls under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom funicular platform featuring precision railings amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "cable-car urban plaza with tram cables under silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel chalet balcony featuring granite benches amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "clocktower forested switchback with copper gutters under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend tram bend framed by avalanche fencing during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined watch factory floor with flower boxes under winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge mountain lookout with glacial runoff under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge lake promenade with architectural louvers under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "pre-dawn frost rooftop greenhouse framed by cable shadows during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel tram bend featuring flower boxes amidst aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "cable-car river lock with granite benches under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower urban plaza with stone inlays under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial glacial canyon featuring architectural louvers amidst clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend river lock with glacial runoff under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend ski lodge deck featuring copper gutters amidst cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy clock tower terrace with granite benches under golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glass canopy cobble bridge with mirror lake reflections under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower tram bend framed by glacial runoff during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine lake promenade framed by watch faces during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "valley mist train hall featuring alpine wildflowers amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glacial rooftop greenhouse with glacial runoff under cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower tram bend featuring mirror lake reflections amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern funicular platform featuring frosted glass walls amidst storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car lake promenade framed by glacial runoff during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "forest-edge tram bend with precision railings under nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "watchmaking airport skylink featuring clock gears amidst winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge granite stair framed by cable shadows during storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern lake promenade framed by precision railings during glacier moon glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront clock tower terrace framed by snowmelt puddles during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cable-car watch factory floor framed by copper gutters during tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine hydroelectric spillway framed by watch faces during silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet hydroelectric spillway with alpine wildflowers under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined ski lodge deck with steel trusses under summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist train hall framed by architectural louvers during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district rooftop greenhouse with clock gears under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct airport skylink featuring frosted glass walls amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct glacial canyon with steel trusses under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "stone chalet glacial canyon framed by glacial runoff during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sunlit pasture river lock framed by avalanche fencing during golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield river lock featuring copper gutters amidst golden alpine dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel urban plaza featuring glacial runoff amidst pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend meadow boardwalk featuring mirror lake reflections amidst tram spark twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "valley mist hydroelectric spillway framed by granite benches during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "alpine ski lodge deck framed by precision railings during pre-storm graphite sky",
+      "weight": 1.0
+    },
+    {
+      "text": "bank district mountain lookout with steel trusses under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom clock tower terrace featuring cable shadows amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-lined tram bend with glacial runoff under factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "granite tunnel rooftop greenhouse featuring precision railings amidst silver blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge watch factory floor framed by cable shadows during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost funicular platform with copper gutters under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "glass canopy chalet balcony framed by clock gears during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "cable-car urban plaza framed by steel trusses during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "meadow bloom granite stair framed by copper gutters during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct lake promenade with steel trusses under storm-cleared afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "clocktower mountain lookout with stone inlays under aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "sunlit pasture mountain lookout featuring glacial runoff amidst lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking meadow boardwalk framed by architectural louvers during nocturne sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "watchmaking hydroelectric spillway framed by ski racks during winter market glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn frost rooftop greenhouse featuring copper gutters amidst summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "mid-century modern rooftop greenhouse with precision railings under misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lakefront watch factory floor with snowmelt puddles under clear midnight frost",
+      "weight": 1.0
+    },
+    {
+      "text": "forest-edge funicular platform framed by architectural louvers during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "alpine train hall framed by avalanche fencing during factory warm spill",
+      "weight": 1.0
+    },
+    {
+      "text": "river bend tram bend framed by planed timber posts during summit star field",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield airport skylink featuring copper gutters amidst misty meadow sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "snowfield glacial canyon framed by stone inlays during cafe lamp wash",
+      "weight": 1.0
+    },
+    {
+      "text": "watchmaking tram bend framed by avalanche fencing during aurora surprise",
+      "weight": 0.7
+    },
+    {
+      "text": "granite tunnel lake promenade with planed timber posts under lake mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel viaduct glacial canyon framed by planed timber posts during lake mist hush",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "precision chain belt with enamel edelweiss",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel leather ski pass holster",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue rope leash wrist wrap",
+        "weight": 0.6
+      },
+      {
+        "text": "felt alpine hat pin with orchid crystal",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "snow dust devils spiraling at boots",
+        "weight": 0.6
+      },
+      {
+        "text": "lake spray misting calves",
+        "weight": 0.6
+      },
+      {
+        "text": "cable car shadow sweeping torso",
+        "weight": 0.6
+      },
+      {
+        "text": "clock tower chime vibration blurring lights",
+        "weight": 0.6
+      }
+    ]
+  }
+}

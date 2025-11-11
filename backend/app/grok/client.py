@@ -12,6 +12,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+import random
+import time
 from dataclasses import dataclass
 from decimal import Decimal
 from typing import Any
@@ -77,6 +79,49 @@ class GrokClient:
             max_retries=self.config.max_retries,
             rps=self.config.rps,
         )
+
+    @staticmethod
+    def _weighted_sample_texts(bank: list, k: int, rng: random.Random) -> list[str]:
+        """
+        Sample texts from bank with weights.
+        bank can be a list[str] or list[dict{'text': str, 'weight': float}]
+        Returns up to k unique texts, sampled with weights when present.
+        """
+        if not bank:
+            return []
+        # Normalize to (text, weight)
+        norm = []
+        for item in bank:
+            if isinstance(item, dict):
+                t = item.get("text") or item.get("name") or ""
+                w = float(item.get("weight", 1.0))
+            else:
+                t, w = str(item), 1.0
+            if t:
+                norm.append((t, max(w, 0.0001)))
+        if not norm:
+            return []
+        # Sample without replacement using weights
+        if k >= len(norm):
+            items = norm[:]
+            rng.shuffle(items)
+            return [t for t, _ in items]
+        # Weighted sampling without replacement
+        out = []
+        pool = norm[:]
+        for _ in range(k):
+            total_w = sum(w for _, w in pool)
+            r = rng.random() * total_w
+            acc = 0.0
+            idx = 0
+            for i, (t, w) in enumerate(pool):
+                acc += w
+                if acc >= r:
+                    idx = i
+                    break
+            t, _ = pool.pop(idx)
+            out.append(t)
+        return out
 
     def _call_api(
         self,
@@ -334,19 +379,36 @@ Create music brief. Return JSON:
         # Build appearance
         appearance = self._build_appearance(persona)
 
-        # Get variety options
-        scenes = variety_bank.get("scene", [])
-        wardrobe = variety_bank.get("wardrobe", [])
+        # Get variety options (keep as weighted objects for sampling)
         accessories = variety_bank.get("accessories", [])
         poses = variety_bank.get("pose_microaction", [])
         lighting = variety_bank.get("lighting", [])
         camera = variety_bank.get("camera", [])
         angles = variety_bank.get("angle", [])
+        wardrobe_top = variety_bank.get("wardrobe_top", [])
+        wardrobe_bottom = variety_bank.get("wardrobe_bottom", [])
+        twists = variety_bank.get("twist", [])
+        scenes = variety_bank.get("scene", [])
 
         # Build negative prompt
         dont_list = persona.get("dont", [])
         negative_list = variety_bank.get("negative", [])
         negative_prompt = ", ".join(set(dont_list + negative_list))
+
+        # Per-call RNG for varied sampling (includes timestamp for true randomness)
+        rng = random.Random()
+        rng.seed(hash(f"{setting}|{seed_words}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
+
+        # Weighted sample variety options for this generation
+        acc_panel = self._weighted_sample_texts(accessories, 8, rng)
+        pose_panel = self._weighted_sample_texts(poses, 8, rng)
+        light_panel = self._weighted_sample_texts(lighting, 8, rng)
+        cam_panel = self._weighted_sample_texts(camera, 6, rng)
+        ang_panel = self._weighted_sample_texts(angles, 8, rng)
+        top_panel = self._weighted_sample_texts(wardrobe_top, 8, rng)
+        bot_panel = self._weighted_sample_texts(wardrobe_bottom, 8, rng)
+        twist_panel = self._weighted_sample_texts(twists, 6, rng)
+        scene_panel = self._weighted_sample_texts(scenes, 4, rng)
 
         # Build simplified system prompt with explicit character limit
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
@@ -366,15 +428,18 @@ Each bundle has:
 Character: {appearance}
 
 Variety banks:
-- Scenes (rotate/select): {', '.join(scenes[:4])}...
-- Accessories (select 2-3): {', '.join(accessories[:6])}...
-- Poses (select/vary): {', '.join(poses[:6])}...
-- Lighting (select): {', '.join(lighting[:5])}...
-- Camera (select): {', '.join(camera[:4])}... + angles: {', '.join(angles[:6])}...
+- Scenes (rotate/select): {', '.join(scene_panel)}...
+- Accessories (select 2-3): {', '.join(acc_panel)}
+- Poses (select/vary): {', '.join(pose_panel)}
+- Lighting (select): {', '.join(light_panel)}
+- Camera (select): {', '.join(cam_panel)} + angles: {', '.join(ang_panel)}
 
 **WARDROBE - INVENT NEW (examples for style inspiration only):**
-Examples: {', '.join(wardrobe[:5])}
+Tops: {', '.join(top_panel[:4])}
+Bottoms: {', '.join(bot_panel[:4])}
 **DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars). Avoid repeating fabric types from examples.**
+
+**TWIST (optional micro-events):** {', '.join(twist_panel)}
 
 Detailed template (aim for 900-1100 chars total):
 "photorealistic vertical 9:16 image of a 28-year-old woman with [full appearance: hair, eyes, body, skin - 60 chars], [shot type: 3/4 body/full body/thighs up] at [very specific {setting} location with architectural/environmental details - 80 chars]. Camera: [lens focal length + f-stop + specific angle - 20 chars]. Wardrobe: [INVENT unique outfit with fabric types, fit details, colors, style - 50-80 chars]. Accessories: [2-3 specific items with materials - 30 chars]. Pose: [detailed body mechanics + facial expression + hand placement - 60 chars]. Lighting: [specific lighting description with direction and quality - 50 chars]. Environment: [atmospheric details, textures, background elements - 70 chars]."

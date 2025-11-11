@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "seine-mist atelier bay window framed by chalk dust haze during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined sunken plaza mirror with cast-iron lampposts under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian sunken plaza mirror with ivory pebbles under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced winter garden with mirror puddles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded botanical orangerie framed by cast-iron lampposts during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian quai bookstall framed by carousel bulbs during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance cafe terrace with lace curtains under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market gilded stair framed by patisserie boxes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone pont landing featuring balcony planters amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall framed by umbrella canopy during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced pont landing featuring electric-blue accent light amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank butte rooftop framed by steam vent glow during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced quai bookstall featuring couture racks amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab winter garden with tricolor ribbons under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance botanical orangerie framed by carousel bulbs during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone canal lock with carousel bulbs under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc gilded stair with gilded railings under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night sunken plaza mirror with gilded railings under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market atelier bay window with patisserie boxes under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank sunken plaza mirror featuring mirror puddles amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone gilded stair framed by gilded railings during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed loft freight elevator with ivory pebbles under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall featuring ivory pebbles amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab gilded stair framed by patisserie boxes during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc marche canopy featuring ivory pebbles amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced train hall skylight with carousel bulbs under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc opera colonnade framed by tricolor ribbons during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone midnight carousel with patisserie boxes under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky butte rooftop with lacquered doors under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo glass canopy arcade featuring gilded railings amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc fashion week tent with sculpted hedges under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone botanical orangerie featuring sculpted hedges amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone marche canopy featuring patisserie boxes amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky cafe terrace framed by carousel bulbs during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market glass canopy arcade with sculpted hedges under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded butte rooftop framed by chalkboard menus during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone midnight carousel featuring steam vent glow amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced train hall skylight framed by umbrella canopy during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky atelier bay window framed by carousel bulbs during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined canal lock framed by folding bistro chairs during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night midnight carousel framed by umbrella canopy during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet opera colonnade with metro tiles under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc glass canopy arcade featuring lace curtains amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet pont landing framed by chalk dust haze during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined glass canopy arcade framed by balcony planters during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab midnight carousel featuring ivory pebbles amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced glass canopy arcade with lace curtains under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo pont landing with electric-blue accent light under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky sunken plaza mirror with tricolor ribbons under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist atelier bay window framed by gallery plinths during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky canal lock framed by lacquered doors during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded gilded stair framed by mirror puddles during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded midnight carousel with chalk dust haze under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone sunken plaza mirror featuring mirror puddles amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night butte rooftop featuring patisserie boxes amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cafe terrace featuring couture racks amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet canal lock framed by lace curtains during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance cobble musee court featuring electric-blue accent light amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed opera colonnade with folding bistro chairs under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded marche canopy featuring sculpted hedges amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed opera colonnade with lacquered doors under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone sunken plaza mirror framed by balcony planters during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night atelier bay window with chalk dust haze under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc train hall skylight with metro tiles under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert with steam vent glow under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc gilded stair framed by metro tiles during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit loft freight elevator with steam vent glow under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cafe terrace featuring chalk dust haze amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined winter garden featuring chalk dust haze amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded art deco metro stop with lacquered doors under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined botanical orangerie with patisserie boxes under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market atelier bay window framed by umbrella canopy during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone botanical orangerie with chalkboard menus under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank marche canopy featuring metro tiles amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court with lacquered doors under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist butte rooftop framed by lacquered doors during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab opera colonnade with lacquered doors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone midnight carousel featuring electric-blue accent light amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit botanical orangerie with lacquered doors under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night quai bookstall featuring lace curtains amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded cafe terrace featuring steam vent glow amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet loft freight elevator featuring carousel bulbs amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop with chalkboard menus under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded quai bookstall framed by gallery plinths during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab quai bookstall framed by sculpted hedges during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded glass canopy arcade featuring tricolor ribbons amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed quai bookstall featuring patisserie boxes amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky canal lock framed by metro tiles during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab loft freight elevator featuring balcony planters amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded pont landing featuring gallery plinths amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab glass canopy arcade featuring gilded railings amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian midnight carousel with steam vent glow under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded canal lock featuring electric-blue accent light amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit glass canopy arcade framed by gilded railings during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced fashion week tent framed by gilded railings during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded gilded stair framed by couture racks during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marche canopy with ivory pebbles under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined marche canopy with steam vent glow under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian gilded stair with electric-blue accent light under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab passage couvert featuring metro tiles amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed midnight carousel with carousel bulbs under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded train hall skylight featuring balcony planters amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded pont landing with electric-blue accent light under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market botanical orangerie framed by umbrella canopy during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian butte rooftop framed by electric-blue accent light during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone cobble musee court with patisserie boxes under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit canal lock framed by couture racks during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone midnight carousel with folding bistro chairs under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night glass canopy arcade featuring mirror puddles amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky atelier bay window featuring steam vent glow amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian canal lock with lace curtains under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed pont landing featuring tricolor ribbons amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed canal lock with tricolor ribbons under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian gilded stair framed by electric-blue accent light during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian gilded stair featuring chalkboard menus amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky pont landing framed by gilded railings during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist pont landing with chalk dust haze under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo opera colonnade framed by chalk dust haze during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo botanical orangerie with umbrella canopy under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined botanical orangerie featuring cast-iron lampposts amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian canal lock with chalkboard menus under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist winter garden featuring steam vent glow amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky winter garden framed by steam vent glow during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed pont landing with lacquered doors under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc train hall skylight framed by steam vent glow during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo midnight carousel with carousel bulbs under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc pont landing featuring cast-iron lampposts amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed train hall skylight with steam vent glow under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed winter garden featuring sculpted hedges amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo sunken plaza mirror with balcony planters under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet atelier bay window framed by gallery plinths during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed art deco metro stop framed by folding bistro chairs during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market canal lock featuring electric-blue accent light amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet midnight carousel with patisserie boxes under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky fashion week tent featuring ivory pebbles amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian quai bookstall featuring couture racks amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced cafe terrace framed by gallery plinths during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab cafe terrace framed by steam vent glow during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo pont landing with steam vent glow under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded loft freight elevator framed by carousel bulbs during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed loft freight elevator framed by cast-iron lampposts during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed art deco metro stop framed by electric-blue accent light during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank art deco metro stop with balcony planters under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone loft freight elevator framed by tricolor ribbons during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded art deco metro stop featuring balcony planters amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist gilded stair with mirror puddles under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone glass canopy arcade with tricolor ribbons under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone sunken plaza mirror featuring gallery plinths amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined midnight carousel featuring patisserie boxes amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone marche canopy featuring chalk dust haze amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night marche canopy framed by umbrella canopy during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank opera colonnade framed by gilded railings during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced canal lock with umbrella canopy under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian marche canopy featuring chalkboard menus amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab butte rooftop with sculpted hedges under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone loft freight elevator featuring electric-blue accent light amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marche canopy with balcony planters under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert framed by lace curtains during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist passage couvert framed by gilded railings during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone midnight carousel with lace curtains under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank gilded stair with steam vent glow under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance art deco metro stop featuring sculpted hedges amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded pont landing framed by balcony planters during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab opera colonnade featuring folding bistro chairs amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab train hall skylight framed by carousel bulbs during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank pont landing featuring lace curtains amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cafe terrace with patisserie boxes under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit gilded stair with metro tiles under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance cobble musee court framed by chalkboard menus during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded opera colonnade featuring lacquered doors amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone glass canopy arcade featuring electric-blue accent light amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit pont landing with chalk dust haze under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night cafe terrace featuring sculpted hedges amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced loft freight elevator with metro tiles under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo glass canopy arcade featuring ivory pebbles amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian cobble musee court with chalkboard menus under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc sunken plaza mirror with ivory pebbles under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet atelier bay window framed by mirror puddles during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab canal lock featuring metro tiles amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded train hall skylight with mirror puddles under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab passage couvert featuring patisserie boxes amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded pont landing framed by chalk dust haze during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced botanical orangerie with lacquered doors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet cafe terrace featuring chalkboard menus amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank canal lock with couture racks under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist butte rooftop with gallery plinths under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded midnight carousel featuring folding bistro chairs amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced gilded stair featuring lace curtains amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded passage couvert featuring folding bistro chairs amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian gilded stair featuring electric-blue accent light amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded botanical orangerie framed by umbrella canopy during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc butte rooftop with gilded railings under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet sunken plaza mirror featuring tricolor ribbons amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cafe terrace featuring ivory pebbles amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit gilded stair framed by lacquered doors during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab butte rooftop featuring balcony planters amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit art deco metro stop with chalk dust haze under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet fashion week tent featuring gilded railings amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced quai bookstall featuring metro tiles amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed loft freight elevator with gilded railings under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cafe terrace with metro tiles under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo train hall skylight framed by cast-iron lampposts during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc botanical orangerie with electric-blue accent light under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded fashion week tent featuring umbrella canopy amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance train hall skylight framed by steam vent glow during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market sunken plaza mirror with balcony planters under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced marche canopy featuring carousel bulbs amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone butte rooftop featuring umbrella canopy amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded botanical orangerie featuring tricolor ribbons amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded cafe terrace framed by folding bistro chairs during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop featuring sculpted hedges amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded glass canopy arcade framed by lacquered doors during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc midnight carousel framed by patisserie boxes during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance marche canopy featuring steam vent glow amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone atelier bay window featuring cast-iron lampposts amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance train hall skylight with sculpted hedges under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo loft freight elevator with carousel bulbs under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed loft freight elevator featuring steam vent glow amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc sunken plaza mirror framed by gallery plinths during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet midnight carousel with electric-blue accent light under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden with lacquered doors under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance midnight carousel framed by lace curtains during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance fashion week tent with metro tiles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc marche canopy with folding bistro chairs under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed quai bookstall featuring electric-blue accent light amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed opera colonnade featuring lace curtains amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab train hall skylight framed by sculpted hedges during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance art deco metro stop framed by folding bistro chairs during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone opera colonnade with gilded railings under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit sunken plaza mirror featuring mirror puddles amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night atelier bay window framed by lace curtains during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone pont landing featuring chalkboard menus amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night pont landing framed by folding bistro chairs during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc winter garden with patisserie boxes under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank cafe terrace featuring cast-iron lampposts amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop featuring lace curtains amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone winter garden framed by lace curtains during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined botanical orangerie with couture racks under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market loft freight elevator framed by tricolor ribbons during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc fashion week tent with sculpted hedges under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed fashion week tent with umbrella canopy under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced train hall skylight with tricolor ribbons under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced butte rooftop with lace curtains under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank cafe terrace framed by patisserie boxes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed train hall skylight with sculpted hedges under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc atelier bay window framed by ivory pebbles during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined fashion week tent framed by chalk dust haze during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian fashion week tent framed by umbrella canopy during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded butte rooftop with lace curtains under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance canal lock with sculpted hedges under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded cobble musee court framed by umbrella canopy during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced pont landing framed by lace curtains during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall featuring mirror puddles amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market botanical orangerie featuring metro tiles amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert framed by gilded railings during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab cobble musee court featuring umbrella canopy amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab train hall skylight with carousel bulbs under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky marche canopy with mirror puddles under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone atelier bay window featuring electric-blue accent light amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab winter garden framed by chalk dust haze during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank marche canopy framed by umbrella canopy during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined winter garden framed by metro tiles during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded midnight carousel framed by patisserie boxes during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian train hall skylight with electric-blue accent light under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky fashion week tent featuring couture racks amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed midnight carousel with lace curtains under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit sunken plaza mirror with tricolor ribbons under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky butte rooftop with steam vent glow under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced butte rooftop with balcony planters under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance winter garden with metro tiles under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit glass canopy arcade framed by steam vent glow during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet midnight carousel with chalkboard menus under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab cafe terrace featuring patisserie boxes amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone glass canopy arcade framed by metro tiles during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone art deco metro stop with mirror puddles under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky train hall skylight with mirror puddles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop featuring gallery plinths amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian train hall skylight framed by gilded railings during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night midnight carousel with couture racks under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone art deco metro stop framed by carousel bulbs during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced passage couvert framed by chalk dust haze during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop framed by chalkboard menus during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed quai bookstall framed by tricolor ribbons during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo butte rooftop featuring sculpted hedges amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian atelier bay window with metro tiles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night gilded stair framed by chalk dust haze during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit cobble musee court framed by mirror puddles during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab atelier bay window with gilded railings under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced sunken plaza mirror featuring lacquered doors amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone sunken plaza mirror featuring chalkboard menus amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc train hall skylight with gallery plinths under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist fashion week tent framed by gilded railings during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night atelier bay window with folding bistro chairs under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market gilded stair framed by gilded railings during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank winter garden featuring chalkboard menus amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky botanical orangerie with steam vent glow under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo atelier bay window with patisserie boxes under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone sunken plaza mirror with patisserie boxes under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cafe terrace with metro tiles under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist atelier bay window featuring electric-blue accent light amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo quai bookstall with umbrella canopy under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cobble musee court with chalk dust haze under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone opera colonnade with ivory pebbles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone passage couvert framed by folding bistro chairs during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank sunken plaza mirror featuring umbrella canopy amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank loft freight elevator with metro tiles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone glass canopy arcade with umbrella canopy under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky botanical orangerie framed by cast-iron lampposts during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone atelier bay window featuring carousel bulbs amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab botanical orangerie featuring lacquered doors amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist butte rooftop with patisserie boxes under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded opera colonnade featuring patisserie boxes amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance marche canopy framed by mirror puddles during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced cafe terrace framed by steam vent glow during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined winter garden with ivory pebbles under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced sunken plaza mirror featuring folding bistro chairs amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank atelier bay window framed by carousel bulbs during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab glass canopy arcade framed by tricolor ribbons during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist loft freight elevator framed by gallery plinths during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit atelier bay window framed by gilded railings during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian art deco metro stop framed by steam vent glow during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone botanical orangerie framed by lace curtains during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced passage couvert featuring gilded railings amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced botanical orangerie featuring gilded railings amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night train hall skylight with lace curtains under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined loft freight elevator with electric-blue accent light under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky cobble musee court featuring steam vent glow amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone gilded stair framed by folding bistro chairs during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court featuring carousel bulbs amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed pont landing with couture racks under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet passage couvert with chalk dust haze under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance cobble musee court framed by tricolor ribbons during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market opera colonnade with folding bistro chairs under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc passage couvert with mirror puddles under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone glass canopy arcade framed by tricolor ribbons during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo botanical orangerie with mirror puddles under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance botanical orangerie framed by couture racks during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night cafe terrace framed by tricolor ribbons during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc quai bookstall framed by chalk dust haze during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky botanical orangerie framed by chalk dust haze during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab botanical orangerie with folding bistro chairs under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cobble musee court featuring gilded railings amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo botanical orangerie featuring carousel bulbs amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank loft freight elevator with gilded railings under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc midnight carousel with tricolor ribbons under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc marche canopy featuring electric-blue accent light amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist loft freight elevator with sculpted hedges under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market glass canopy arcade with tricolor ribbons under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit train hall skylight featuring gallery plinths amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank gilded stair with lacquered doors under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist opera colonnade framed by ivory pebbles during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded butte rooftop featuring umbrella canopy amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined glass canopy arcade with umbrella canopy under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market train hall skylight with ivory pebbles under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court with couture racks under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone cafe terrace framed by gallery plinths during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit cobble musee court framed by folding bistro chairs during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian passage couvert with patisserie boxes under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone butte rooftop with carousel bulbs under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank cobble musee court with mirror puddles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist art deco metro stop with ivory pebbles under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed train hall skylight framed by gallery plinths during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab botanical orangerie framed by chalkboard menus during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court featuring gallery plinths amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night quai bookstall featuring chalkboard menus amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist loft freight elevator with steam vent glow under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded cafe terrace with mirror puddles under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc butte rooftop with sculpted hedges under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc pont landing featuring tricolor ribbons amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo midnight carousel framed by folding bistro chairs during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank fashion week tent with mirror puddles under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone train hall skylight with balcony planters under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed butte rooftop with metro tiles under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky gilded stair with couture racks under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marche canopy featuring patisserie boxes amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank opera colonnade framed by tricolor ribbons during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist loft freight elevator featuring lace curtains amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed fashion week tent featuring tricolor ribbons amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo art deco metro stop with lace curtains under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall with umbrella canopy under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night fashion week tent framed by patisserie boxes during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo fashion week tent with gilded railings under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone atelier bay window framed by folding bistro chairs during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet glass canopy arcade with gallery plinths under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank atelier bay window featuring folding bistro chairs amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank butte rooftop featuring cast-iron lampposts amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded pont landing framed by umbrella canopy during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night art deco metro stop with mirror puddles under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined passage couvert with ivory pebbles under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded sunken plaza mirror framed by folding bistro chairs during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky butte rooftop framed by ivory pebbles during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance opera colonnade framed by cast-iron lampposts during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed midnight carousel featuring couture racks amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky passage couvert framed by ivory pebbles during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist art deco metro stop with couture racks under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance marche canopy featuring carousel bulbs amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marche canopy framed by folding bistro chairs during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance gilded stair featuring patisserie boxes amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cafe terrace featuring carousel bulbs amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market pont landing featuring chalkboard menus amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market opera colonnade with lacquered doors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone botanical orangerie framed by electric-blue accent light during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit botanical orangerie framed by cast-iron lampposts during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced fashion week tent with umbrella canopy under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded gilded stair framed by cast-iron lampposts during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance art deco metro stop featuring metro tiles amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night marche canopy with metro tiles under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet midnight carousel framed by balcony planters during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop featuring tricolor ribbons amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky butte rooftop featuring gilded railings amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab opera colonnade with patisserie boxes under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc cafe terrace framed by chalk dust haze during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone cafe terrace featuring electric-blue accent light amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night quai bookstall framed by electric-blue accent light during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank atelier bay window with sculpted hedges under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert with metro tiles under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet passage couvert featuring mirror puddles amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market cobble musee court featuring ivory pebbles amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo train hall skylight framed by umbrella canopy during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian butte rooftop framed by chalkboard menus during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded train hall skylight featuring gilded railings amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined canal lock framed by sculpted hedges during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank midnight carousel with gallery plinths under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed train hall skylight with gallery plinths under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market canal lock with steam vent glow under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc opera colonnade framed by steam vent glow during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance canal lock with mirror puddles under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance botanical orangerie featuring ivory pebbles amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky botanical orangerie framed by lace curtains during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit quai bookstall with metro tiles under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist cafe terrace with metro tiles under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court with lacquered doors under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky art deco metro stop framed by tricolor ribbons during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined sunken plaza mirror with lace curtains under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market butte rooftop framed by gilded railings during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded canal lock featuring umbrella canopy amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist fashion week tent framed by balcony planters during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc cafe terrace featuring metro tiles amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed fashion week tent framed by folding bistro chairs during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden with patisserie boxes under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit canal lock featuring chalkboard menus amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance art deco metro stop featuring balcony planters amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded opera colonnade with balcony planters under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced train hall skylight framed by carousel bulbs during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone loft freight elevator featuring sculpted hedges amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market glass canopy arcade with tricolor ribbons under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo canal lock with metro tiles under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined gilded stair with tricolor ribbons under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone winter garden framed by folding bistro chairs during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist sunken plaza mirror featuring tricolor ribbons amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab botanical orangerie with cast-iron lampposts under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone atelier bay window framed by chalkboard menus during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced opera colonnade featuring patisserie boxes amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab loft freight elevator with couture racks under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo glass canopy arcade with patisserie boxes under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night quai bookstall framed by couture racks during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit pont landing with electric-blue accent light under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab butte rooftop with folding bistro chairs under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian art deco metro stop featuring umbrella canopy amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab sunken plaza mirror with metro tiles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance canal lock featuring mirror puddles amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance midnight carousel with lace curtains under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab gilded stair framed by folding bistro chairs during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank gilded stair framed by chalk dust haze during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab midnight carousel with cast-iron lampposts under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist cafe terrace with folding bistro chairs under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone marche canopy framed by electric-blue accent light during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist quai bookstall with patisserie boxes under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky winter garden framed by chalkboard menus during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian sunken plaza mirror featuring tricolor ribbons amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist atelier bay window framed by lace curtains during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone botanical orangerie with umbrella canopy under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist quai bookstall with ivory pebbles under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall with electric-blue accent light under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed train hall skylight featuring carousel bulbs amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cafe terrace with folding bistro chairs under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced winter garden with chalk dust haze under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded butte rooftop featuring lace curtains amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo sunken plaza mirror with chalk dust haze under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden featuring mirror puddles amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded sunken plaza mirror with carousel bulbs under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank glass canopy arcade with electric-blue accent light under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced midnight carousel with carousel bulbs under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist fashion week tent featuring tricolor ribbons amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet pont landing with electric-blue accent light under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit opera colonnade with ivory pebbles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone glass canopy arcade framed by gilded railings during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone opera colonnade framed by lace curtains during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian cobble musee court with balcony planters under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet sunken plaza mirror featuring carousel bulbs amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone pont landing with couture racks under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed sunken plaza mirror featuring balcony planters amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank opera colonnade with chalkboard menus under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet train hall skylight framed by electric-blue accent light during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc glass canopy arcade framed by metro tiles during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit winter garden framed by umbrella canopy during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet sunken plaza mirror featuring lacquered doors amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced quai bookstall framed by lacquered doors during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist sunken plaza mirror featuring balcony planters amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance opera colonnade framed by steam vent glow during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo atelier bay window framed by folding bistro chairs during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab winter garden framed by umbrella canopy during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian fashion week tent featuring folding bistro chairs amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall with tricolor ribbons under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone pont landing featuring carousel bulbs amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist cobble musee court with chalkboard menus under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit canal lock with cast-iron lampposts under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian loft freight elevator with patisserie boxes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone winter garden featuring electric-blue accent light amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank atelier bay window framed by chalkboard menus during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded art deco metro stop with umbrella canopy under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc glass canopy arcade featuring steam vent glow amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance atelier bay window with chalk dust haze under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded loft freight elevator framed by chalkboard menus during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone midnight carousel with carousel bulbs under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank midnight carousel framed by mirror puddles during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian sunken plaza mirror with sculpted hedges under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky glass canopy arcade framed by gilded railings during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank quai bookstall featuring lacquered doors amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined glass canopy arcade with patisserie boxes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone quai bookstall with lacquered doors under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed midnight carousel framed by carousel bulbs during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cobble musee court featuring balcony planters amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian cobble musee court framed by lace curtains during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky midnight carousel featuring couture racks amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night pont landing framed by gilded railings during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab canal lock with gilded railings under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced cobble musee court featuring lace curtains amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian canal lock with folding bistro chairs under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced marche canopy featuring carousel bulbs amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop featuring couture racks amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab cobble musee court featuring mirror puddles amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded winter garden featuring folding bistro chairs amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded loft freight elevator with ivory pebbles under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night botanical orangerie with lacquered doors under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo canal lock with lacquered doors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab cobble musee court with gallery plinths under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed botanical orangerie featuring steam vent glow amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced cafe terrace framed by sculpted hedges during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden with cast-iron lampposts under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc loft freight elevator featuring lacquered doors amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded art deco metro stop with carousel bulbs under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank butte rooftop featuring ivory pebbles amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded passage couvert framed by chalkboard menus during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market cobble musee court with lace curtains under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop featuring electric-blue accent light amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall with metro tiles under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded butte rooftop framed by electric-blue accent light during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded gilded stair with folding bistro chairs under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market art deco metro stop with gilded railings under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop framed by steam vent glow during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall with folding bistro chairs under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night art deco metro stop with ivory pebbles under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc quai bookstall framed by umbrella canopy during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone gilded stair featuring patisserie boxes amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone winter garden with metro tiles under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky passage couvert with folding bistro chairs under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cafe terrace with gilded railings under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet art deco metro stop featuring mirror puddles amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist pont landing framed by cast-iron lampposts during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist pont landing with electric-blue accent light under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden with mirror puddles under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance train hall skylight featuring folding bistro chairs amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed midnight carousel framed by chalk dust haze during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo winter garden with couture racks under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian train hall skylight featuring tricolor ribbons amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded loft freight elevator featuring umbrella canopy amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc midnight carousel featuring ivory pebbles amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone fashion week tent framed by folding bistro chairs during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop with sculpted hedges under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab botanical orangerie featuring chalkboard menus amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit quai bookstall featuring carousel bulbs amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc gilded stair featuring patisserie boxes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist pont landing framed by chalk dust haze during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit loft freight elevator featuring umbrella canopy amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall featuring mirror puddles amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone quai bookstall with lace curtains under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo fashion week tent featuring mirror puddles amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded glass canopy arcade featuring folding bistro chairs amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist loft freight elevator featuring chalkboard menus amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc butte rooftop framed by umbrella canopy during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market sunken plaza mirror with electric-blue accent light under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance butte rooftop with couture racks under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank cobble musee court framed by steam vent glow during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall framed by gallery plinths during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marche canopy framed by ivory pebbles during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance art deco metro stop framed by carousel bulbs during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet cobble musee court with patisserie boxes under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone botanical orangerie with electric-blue accent light under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank botanical orangerie with umbrella canopy under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone midnight carousel framed by cast-iron lampposts during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank cafe terrace featuring chalk dust haze amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance atelier bay window featuring gilded railings amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky opera colonnade with couture racks under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank canal lock with ivory pebbles under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded train hall skylight with electric-blue accent light under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank winter garden featuring gilded railings amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined canal lock with lace curtains under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance pont landing with cast-iron lampposts under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded butte rooftop framed by folding bistro chairs during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed marche canopy framed by electric-blue accent light during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone opera colonnade featuring couture racks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced midnight carousel framed by cast-iron lampposts during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky sunken plaza mirror featuring couture racks amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky gilded stair with folding bistro chairs under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian botanical orangerie featuring gilded railings amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced winter garden with electric-blue accent light under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced botanical orangerie featuring gallery plinths amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian opera colonnade featuring balcony planters amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit train hall skylight with sculpted hedges under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone sunken plaza mirror with lacquered doors under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone quai bookstall with sculpted hedges under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist cafe terrace framed by lacquered doors during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed gilded stair featuring lace curtains amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone glass canopy arcade with umbrella canopy under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist opera colonnade featuring gallery plinths amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone cobble musee court with steam vent glow under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab midnight carousel framed by sculpted hedges during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced passage couvert with patisserie boxes under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone cafe terrace featuring gallery plinths amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded canal lock featuring balcony planters amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded loft freight elevator featuring patisserie boxes amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian quai bookstall framed by balcony planters during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed art deco metro stop with gilded railings under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced loft freight elevator framed by couture racks during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market passage couvert with folding bistro chairs under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed fashion week tent framed by chalk dust haze during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone midnight carousel with couture racks under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall framed by metro tiles during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded pont landing featuring sculpted hedges amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced midnight carousel with lacquered doors under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky botanical orangerie framed by umbrella canopy during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed atelier bay window framed by chalk dust haze during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined glass canopy arcade featuring ivory pebbles amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded opera colonnade with lace curtains under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded passage couvert with metro tiles under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank passage couvert framed by chalk dust haze during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble musee court framed by couture racks during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed fashion week tent with couture racks under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab loft freight elevator framed by carousel bulbs during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone glass canopy arcade featuring gallery plinths amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded passage couvert framed by mirror puddles during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced passage couvert framed by mirror puddles during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market cobble musee court featuring lace curtains amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab canal lock framed by lace curtains during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance butte rooftop featuring gallery plinths amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky pont landing with tricolor ribbons under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined canal lock framed by lace curtains during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed winter garden with gilded railings under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc marche canopy with tricolor ribbons under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market marche canopy framed by carousel bulbs during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced art deco metro stop framed by couture racks during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist gilded stair featuring umbrella canopy amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market fashion week tent framed by chalk dust haze during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone pont landing framed by steam vent glow during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky butte rooftop featuring chalk dust haze amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit marche canopy framed by lacquered doors during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market canal lock framed by electric-blue accent light during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo opera colonnade framed by electric-blue accent light during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo botanical orangerie framed by tricolor ribbons during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist passage couvert with ivory pebbles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist passage couvert with electric-blue accent light under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed quai bookstall with chalkboard menus under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined quai bookstall with gallery plinths under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone gilded stair with umbrella canopy under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab winter garden with cast-iron lampposts under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist butte rooftop with umbrella canopy under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed fashion week tent framed by chalkboard menus during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit pont landing featuring couture racks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo train hall skylight featuring steam vent glow amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit botanical orangerie featuring chalk dust haze amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed midnight carousel featuring gallery plinths amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab fashion week tent framed by ivory pebbles during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded glass canopy arcade with steam vent glow under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night quai bookstall with gallery plinths under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet passage couvert framed by gilded railings during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night fashion week tent with chalkboard menus under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank winter garden with carousel bulbs under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank fashion week tent with tricolor ribbons under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit gilded stair featuring cast-iron lampposts amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky passage couvert featuring folding bistro chairs amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone fashion week tent featuring lacquered doors amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank train hall skylight with balcony planters under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet art deco metro stop featuring chalkboard menus amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo quai bookstall framed by steam vent glow during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo sunken plaza mirror with cast-iron lampposts under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank loft freight elevator featuring ivory pebbles amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab winter garden with ivory pebbles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab quai bookstall framed by metro tiles during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed passage couvert featuring couture racks amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky midnight carousel featuring cast-iron lampposts amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded winter garden framed by folding bistro chairs during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian botanical orangerie with lace curtains under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet loft freight elevator with folding bistro chairs under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet gilded stair with carousel bulbs under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky loft freight elevator featuring chalkboard menus amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance midnight carousel with tricolor ribbons under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab passage couvert with patisserie boxes under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo opera colonnade featuring steam vent glow amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist sunken plaza mirror with carousel bulbs under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court with gallery plinths under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded butte rooftop with lace curtains under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed fashion week tent featuring patisserie boxes amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded train hall skylight featuring chalk dust haze amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian pont landing with cast-iron lampposts under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone atelier bay window with folding bistro chairs under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone butte rooftop with folding bistro chairs under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit gilded stair framed by gilded railings during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed train hall skylight featuring chalkboard menus amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert with lace curtains under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab glass canopy arcade framed by folding bistro chairs during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined opera colonnade with gilded railings under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone gilded stair framed by couture racks during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab winter garden with chalkboard menus under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky fashion week tent with sculpted hedges under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian midnight carousel framed by chalkboard menus during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian passage couvert framed by umbrella canopy during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab pont landing featuring cast-iron lampposts amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed train hall skylight framed by tricolor ribbons during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit botanical orangerie featuring gallery plinths amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed cafe terrace featuring ivory pebbles amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined gilded stair featuring carousel bulbs amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky glass canopy arcade with carousel bulbs under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian passage couvert featuring carousel bulbs amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist winter garden featuring patisserie boxes amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market marche canopy with gallery plinths under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed glass canopy arcade framed by gallery plinths during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo quai bookstall featuring folding bistro chairs amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit midnight carousel featuring gilded railings amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab quai bookstall featuring metro tiles amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded cafe terrace with sculpted hedges under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert with mirror puddles under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank fashion week tent featuring ivory pebbles amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet cafe terrace featuring electric-blue accent light amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist cafe terrace with sculpted hedges under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded passage couvert featuring umbrella canopy amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marche canopy featuring metro tiles amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden framed by metro tiles during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded art deco metro stop featuring chalkboard menus amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc midnight carousel with tricolor ribbons under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit midnight carousel featuring metro tiles amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance winter garden framed by electric-blue accent light during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian art deco metro stop with lacquered doors under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed opera colonnade featuring gallery plinths amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet gilded stair framed by patisserie boxes during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded canal lock with umbrella canopy under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined opera colonnade framed by sculpted hedges during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded canal lock framed by mirror puddles during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist fashion week tent with umbrella canopy under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian glass canopy arcade with cast-iron lampposts under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo art deco metro stop with patisserie boxes under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed fashion week tent featuring tricolor ribbons amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit pont landing featuring cast-iron lampposts amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded opera colonnade with steam vent glow under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined fashion week tent featuring gilded railings amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit train hall skylight featuring folding bistro chairs amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit marche canopy featuring chalk dust haze amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cafe terrace with gilded railings under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone quai bookstall with balcony planters under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone opera colonnade framed by couture racks during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined glass canopy arcade featuring umbrella canopy amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert featuring chalk dust haze amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night atelier bay window with couture racks under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone gilded stair with gallery plinths under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance cobble musee court framed by lace curtains during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky train hall skylight featuring steam vent glow amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky atelier bay window featuring lacquered doors amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc marche canopy with metro tiles under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded passage couvert framed by mirror puddles during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed sunken plaza mirror framed by chalk dust haze during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market art deco metro stop with gallery plinths under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance marche canopy featuring couture racks amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance sunken plaza mirror with lacquered doors under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit art deco metro stop featuring electric-blue accent light amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab fashion week tent featuring carousel bulbs amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed cobble musee court with lace curtains under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cafe terrace framed by chalkboard menus during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded fashion week tent framed by umbrella canopy during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone cafe terrace framed by ivory pebbles during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined marche canopy framed by lacquered doors during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian butte rooftop framed by gallery plinths during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night botanical orangerie with electric-blue accent light under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market opera colonnade with lace curtains under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian art deco metro stop framed by tricolor ribbons during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed glass canopy arcade framed by electric-blue accent light during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone glass canopy arcade framed by gilded railings during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone sunken plaza mirror with balcony planters under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet train hall skylight with lacquered doors under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist quai bookstall with couture racks under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed atelier bay window with electric-blue accent light under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab art deco metro stop with chalkboard menus under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market marche canopy featuring metro tiles amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance train hall skylight framed by lacquered doors during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market opera colonnade framed by umbrella canopy during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet gilded stair framed by metro tiles during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank pont landing with mirror puddles under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist botanical orangerie featuring tricolor ribbons amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed glass canopy arcade framed by chalk dust haze during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded canal lock with ivory pebbles under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night atelier bay window featuring folding bistro chairs amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo fashion week tent framed by lacquered doors during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone opera colonnade with ivory pebbles under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed cafe terrace with gallery plinths under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded loft freight elevator featuring metro tiles amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab passage couvert with carousel bulbs under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone winter garden with electric-blue accent light under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed opera colonnade with balcony planters under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab pont landing with carousel bulbs under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone botanical orangerie framed by ivory pebbles during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet art deco metro stop with lacquered doors under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall framed by gilded railings during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded marche canopy featuring carousel bulbs amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian winter garden with carousel bulbs under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab midnight carousel featuring folding bistro chairs amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone butte rooftop framed by balcony planters during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night botanical orangerie featuring sculpted hedges amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined marche canopy with folding bistro chairs under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky gilded stair with sculpted hedges under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance gilded stair with tricolor ribbons under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert featuring ivory pebbles amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded cobble musee court with couture racks under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed cafe terrace featuring couture racks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone cobble musee court featuring lacquered doors amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab pont landing with tricolor ribbons under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab sunken plaza mirror featuring electric-blue accent light amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed passage couvert with steam vent glow under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc botanical orangerie featuring electric-blue accent light amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined botanical orangerie featuring gallery plinths amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded opera colonnade featuring chalk dust haze amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit train hall skylight featuring gilded railings amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed passage couvert featuring gallery plinths amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced pont landing featuring sculpted hedges amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded train hall skylight framed by ivory pebbles during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cobble musee court featuring gilded railings amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced atelier bay window with cast-iron lampposts under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court with chalk dust haze under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed gilded stair framed by couture racks during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed canal lock framed by couture racks during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced quai bookstall with chalkboard menus under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded opera colonnade featuring carousel bulbs amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist pont landing with tricolor ribbons under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist butte rooftop framed by umbrella canopy during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded atelier bay window with cast-iron lampposts under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marche canopy with gallery plinths under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab marche canopy featuring balcony planters amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet passage couvert with lacquered doors under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night sunken plaza mirror featuring patisserie boxes amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded opera colonnade with chalk dust haze under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet glass canopy arcade featuring folding bistro chairs amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian train hall skylight with chalk dust haze under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc loft freight elevator framed by chalk dust haze during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone opera colonnade featuring ivory pebbles amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone fashion week tent with tricolor ribbons under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced loft freight elevator framed by chalkboard menus during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank gilded stair featuring ivory pebbles amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo canal lock with patisserie boxes under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist loft freight elevator framed by umbrella canopy during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc pont landing with carousel bulbs under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone art deco metro stop featuring chalkboard menus amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit fashion week tent featuring carousel bulbs amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian midnight carousel framed by chalk dust haze during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed cafe terrace featuring sculpted hedges amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian butte rooftop with lacquered doors under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank glass canopy arcade with gallery plinths under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky atelier bay window with electric-blue accent light under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky quai bookstall featuring chalkboard menus amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc train hall skylight framed by electric-blue accent light during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded gilded stair with patisserie boxes under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet winter garden framed by balcony planters during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market cobble musee court featuring gallery plinths amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop with patisserie boxes under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky fashion week tent with sculpted hedges under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone opera colonnade framed by metro tiles during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone fashion week tent with cast-iron lampposts under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed sunken plaza mirror featuring chalk dust haze amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo glass canopy arcade with tricolor ribbons under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed quai bookstall featuring metro tiles amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit cafe terrace framed by umbrella canopy during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market sunken plaza mirror featuring balcony planters amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night art deco metro stop framed by lace curtains during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed cobble musee court framed by gallery plinths during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky sunken plaza mirror featuring ivory pebbles amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed midnight carousel with mirror puddles under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit canal lock featuring sculpted hedges amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian winter garden with patisserie boxes under soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced marche canopy featuring balcony planters amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market marche canopy featuring mirror puddles amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed glass canopy arcade featuring electric-blue accent light amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo atelier bay window featuring gilded railings amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian botanical orangerie framed by balcony planters during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc loft freight elevator with gilded railings under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed sunken plaza mirror framed by lacquered doors during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist train hall skylight featuring couture racks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist pont landing featuring gallery plinths amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night pont landing featuring chalk dust haze amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo botanical orangerie with steam vent glow under crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc opera colonnade featuring electric-blue accent light amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc opera colonnade featuring chalkboard menus amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone fashion week tent featuring gallery plinths amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded butte rooftop framed by chalkboard menus during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit marche canopy featuring gallery plinths amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night train hall skylight with couture racks under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-framed butte rooftop with gallery plinths under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marche canopy featuring sculpted hedges amidst bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone fashion week tent framed by gilded railings during magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded sunken plaza mirror featuring electric-blue accent light amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc loft freight elevator with gallery plinths under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank winter garden framed by couture racks during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone gilded stair featuring gallery plinths amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone botanical orangerie featuring mirror puddles amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone cobble musee court framed by chalkboard menus during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab butte rooftop featuring gilded railings amidst arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky botanical orangerie framed by sculpted hedges during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced gilded stair featuring steam vent glow amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit loft freight elevator with mirror puddles under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet glass canopy arcade featuring balcony planters amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed canal lock framed by lace curtains during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian gilded stair framed by gallery plinths during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded canal lock with electric-blue accent light under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market atelier bay window with gallery plinths under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance midnight carousel with sculpted hedges under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marche canopy featuring electric-blue accent light amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian glass canopy arcade with tricolor ribbons under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined train hall skylight with patisserie boxes under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night fashion week tent featuring gilded railings amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet quai bookstall with steam vent glow under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded canal lock framed by ivory pebbles during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit passage couvert featuring steam vent glow amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc canal lock featuring umbrella canopy amidst coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone quai bookstall featuring ivory pebbles amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night pont landing with chalk dust haze under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced quai bookstall framed by umbrella canopy during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance quai bookstall with sculpted hedges under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc opera colonnade featuring tricolor ribbons amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo loft freight elevator with couture racks under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian canal lock with tricolor ribbons under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance botanical orangerie with tricolor ribbons under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop framed by patisserie boxes during winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone loft freight elevator framed by steam vent glow during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone gilded stair with gallery plinths under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky sunken plaza mirror framed by patisserie boxes during balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone winter garden with tricolor ribbons under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian canal lock with chalk dust haze under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank cobble musee court with ivory pebbles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit winter garden framed by carousel bulbs during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank gilded stair framed by metro tiles during streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance quai bookstall with mirror puddles under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed quai bookstall with electric-blue accent light under magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cafe terrace framed by carousel bulbs during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined passage couvert framed by steam vent glow during gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop framed by chalkboard menus during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "haussmannian canal lock featuring patisserie boxes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc fashion week tent with tricolor ribbons under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone gilded stair with lacquered doors under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined winter garden featuring gallery plinths amidst limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone gilded stair featuring umbrella canopy amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night glass canopy arcade featuring cast-iron lampposts amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined fashion week tent featuring chalkboard menus amidst sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab midnight carousel with mirror puddles under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market butte rooftop framed by lacquered doors during coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab canal lock featuring cast-iron lampposts amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced passage couvert with umbrella canopy under gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone opera colonnade with carousel bulbs under coppery sunset drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced atelier bay window framed by couture racks during arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined art deco metro stop framed by chalkboard menus during crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist sunken plaza mirror featuring gallery plinths amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky pont landing featuring tricolor ribbons amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance glass canopy arcade with chalk dust haze under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced gilded stair featuring cast-iron lampposts amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night butte rooftop with patisserie boxes under winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded winter garden featuring ivory pebbles amidst winter mist veil",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky midnight carousel featuring tricolor ribbons amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-sky opera colonnade featuring lace curtains amidst soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gilded butte rooftop featuring couture racks amidst streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined passage couvert with umbrella canopy under bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo cafe terrace featuring patisserie boxes amidst fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded quai bookstall featuring electric-blue accent light amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed glass canopy arcade with tricolor ribbons under limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined cobble musee court featuring steam vent glow amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalky limestone passage couvert framed by chalk dust haze during limelight spill",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet gilded stair featuring umbrella canopy amidst balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo train hall skylight featuring metro tiles amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-entrance winter garden framed by ivory pebbles during soft overcast morning",
+      "weight": 1.0
+    },
+    {
+      "text": "garden-laced midnight carousel with chalk dust haze under sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "rooftop zinc cobble musee court framed by steam vent glow during fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter market opera colonnade framed by electric-blue accent light during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined marche canopy with gilded railings under streetlamp halo",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo butte rooftop with umbrella canopy under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit passage couvert with mirror puddles under balcony breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "atelier-lit train hall skylight with chalkboard menus under arcade shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "balcony-lined gilded stair framed by patisserie boxes during sodium rim reflection",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet pont landing with gallery plinths under fog-laced spotlight",
+      "weight": 1.0
+    },
+    {
+      "text": "arcaded loft freight elevator framed by cast-iron lampposts during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "seine-mist butte rooftop featuring chalkboard menus amidst gallery hush",
+      "weight": 1.0
+    },
+    {
+      "text": "buttery-stone sunken plaza mirror featuring lacquered doors amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank art deco metro stop featuring gilded railings amidst crisp blue noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-brushed art deco metro stop with steam vent glow under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "riverbank atelier bay window featuring umbrella canopy amidst magenta show wash",
+      "weight": 1.0
+    },
+    {
+      "text": "velvet-night passage couvert framed by gallery plinths during bastille fireworks haze",
+      "weight": 1.0
+    },
+    {
+      "text": "couture-lab pont landing with chalk dust haze under magenta show wash",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "mini beret hairpin with orchid thread",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel leather wristlet with metallic tassel",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue silk neckerchief",
+        "weight": 0.6
+      },
+      {
+        "text": "lace opera gloves with rubberized grip",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "metro breeze lifting coat hem",
+        "weight": 0.6
+      },
+      {
+        "text": "champagne bubble spray softening highlights",
+        "weight": 0.6
+      },
+      {
+        "text": "Seine mist hugging calves",
+        "weight": 0.6
+      },
+      {
+        "text": "carousel sparkles streaking bokeh",
+        "weight": 0.6
+      }
+    ]
+  }
+}

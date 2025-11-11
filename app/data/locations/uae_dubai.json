@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "glass-canopy desert camp platform with jet stream plumes under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe metro mezzanine with glass fins under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist dune edge deck framed by hover drone lights during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined industrial crane bay framed by saffron carpets during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district luxury tram stop framed by aqua taxis during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe souk courtyard with chrome bollards under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist glass elevator lobby framed by jet stream plumes during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden helipad rim with palm sculptures under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber solar farm lane with desert rose planters under moonlit marina breeze",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist glass elevator lobby with LED fountain arcs under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit dune edge deck featuring LED fountain arcs amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis crypto gallery featuring chrome bollards amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe solar farm lane with glass fins under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "dune-fringe luxury tram stop with fiber optic palms under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district desert camp platform framed by jet stream plumes during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis glass elevator lobby featuring smart kiosks amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled metro mezzanine featuring saffron carpets amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy steel skywalk featuring architectural screens amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "glass-canopy dune edge deck featuring desert rose planters amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge marina promenade framed by hover drone lights during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall luxury tram stop framed by palm sculptures during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port yacht slip framed by LED fountain arcs during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "marina-lit luxury tram stop with palm sculptures under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district luxury tram stop framed by scent misters during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline fountain plaza featuring carbon-fiber benches amidst metro cyan wash",
+      "weight": 0.9
+    },
+    {
+      "text": "opulent atrium industrial crane bay with jet stream plumes under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe crypto gallery with jet stream plumes under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm skybridge walkway with saffron carpets under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit palm frond pier framed by chrome bollards during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district industrial crane bay with prayer lantern stacks under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium fountain plaza framed by LED fountain arcs during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside mirage garden featuring jet stream plumes amidst metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium steel skywalk with prayer lantern stacks under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge museum atrium with jet stream plumes under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall glass elevator lobby framed by marina ropes during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined palm frond pier featuring hover drone lights amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "glass-canopy desert camp platform featuring smart kiosks amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist yacht slip framed by mirror cladding during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium future park canopy with chrome bollards under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "industrial port dune edge deck with scent misters under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "skydeck dune edge deck with mirror cladding under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden skybridge walkway with architectural screens under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber future park canopy featuring marina ropes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "oasis luxury tram stop with fiber optic palms under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis fountain plaza with desert rose planters under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe desert camp platform featuring saffron carpets amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium glass elevator lobby featuring gold mashrabiya shadows amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit future park canopy with aqua taxis under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district metro mezzanine with chrome bollards under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside luxury tram stop featuring smart kiosks amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm yacht slip framed by saffron carpets during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy luxury tram stop featuring chrome bollards amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist mirage garden framed by smart kiosks during desert dawn blush",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium metro mezzanine with mirror cladding under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined skybridge walkway featuring smart kiosks amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined future park canopy framed by smart kiosks during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside palm frond pier featuring palm sculptures amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge fountain plaza featuring architectural screens amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined crypto gallery with fiber optic palms under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad crypto gallery framed by scent misters during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit crypto gallery featuring palm sculptures amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined luxury tram stop featuring marina ropes amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe crypto gallery framed by LED fountain arcs during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district solar farm lane framed by carbon-fiber benches during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district metro mezzanine featuring aqua taxis amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist souk courtyard featuring desert rose planters amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit crypto gallery with prayer lantern stacks under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe desert camp platform with jet stream plumes under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber fountain plaza framed by carbon-fiber benches during helipad sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "opulent atrium souk courtyard framed by scent misters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit luxury tram stop with hover drone lights under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge helipad rim with architectural screens under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber mirage garden featuring laser beam fog amidst oasis twilight cool",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-canopy roof pool causeway framed by carbon-fiber benches during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district fountain plaza featuring palm sculptures amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy solar farm lane framed by smart kiosks during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "neon-skyline industrial crane bay framed by laminated dunes during atrium diffused noon",
+      "weight": 0.9
+    },
+    {
+      "text": "futurist souk courtyard framed by chrome bollards during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad palm frond pier framed by jet stream plumes during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall desert camp platform with architectural screens under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "oasis steel skywalk framed by scent misters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad marina promenade framed by carbon-fiber benches during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad helipad rim with gold mashrabiya shadows under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad luxury tram stop with chrome bollards under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled metro mezzanine featuring prayer lantern stacks amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit palm frond pier with scent misters under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall steel skywalk featuring jet stream plumes amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline future park canopy framed by jet stream plumes during storm build teal",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit mirage garden with saffron carpets under fountain mist sparkle",
+      "weight": 0.75
+    },
+    {
+      "text": "helipad roof pool causeway framed by smart kiosks during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline solar farm lane featuring LED fountain arcs amidst carbon fiber sheen night",
+      "weight": 0.9
+    },
+    {
+      "text": "oasis helipad rim with mirror cladding under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby with desert rose planters under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port roof pool causeway framed by laser beam fog during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis mirage garden framed by LED fountain arcs during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "palm-garden solar farm lane featuring laser beam fog amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck palm frond pier featuring jet stream plumes amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district solar farm lane framed by carbon-fiber benches during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy skybridge walkway framed by glass fins during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm solar farm lane framed by mirror cladding during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden roof pool causeway featuring aqua taxis amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline solar farm lane featuring hover drone lights amidst skyline laser wash",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe industrial crane bay with LED fountain arcs under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium fountain plaza featuring laminated dunes amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district metro mezzanine with fiber optic palms under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline souk courtyard with architectural screens under mirage noon glare",
+      "weight": 0.9
+    },
+    {
+      "text": "pierside glass elevator lobby framed by fiber optic palms during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm museum atrium framed by LED fountain arcs during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist palm frond pier with mirror cladding under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden future park canopy with laser beam fog under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge luxury tram stop featuring jet stream plumes amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "art-district palm frond pier with chrome bollards under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber marina promenade framed by hover drone lights during fountain mist sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "pierside roof pool causeway featuring LED fountain arcs amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber desert camp platform framed by laser beam fog during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "midnight mall marina promenade featuring desert rose planters amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe fountain plaza with saffron carpets under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy yacht slip with jet stream plumes under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck luxury tram stop framed by laminated dunes during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline crypto gallery with fiber optic palms under desert dawn blush",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline industrial crane bay featuring carbon-fiber benches amidst carbon fiber sheen night",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe skybridge walkway featuring architectural screens amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled marina promenade with saffron carpets under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis solar farm lane featuring carbon-fiber benches amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled marina promenade framed by chrome bollards during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe fountain plaza with marina ropes under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "industrial port dune edge deck with saffron carpets under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist glass elevator lobby with laser beam fog under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm crypto gallery featuring chrome bollards amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis luxury tram stop framed by smart kiosks during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium luxury tram stop with carbon-fiber benches under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit metro mezzanine framed by gold mashrabiya shadows during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit roof pool causeway featuring fiber optic palms amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe dune edge deck featuring desert rose planters amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe future park canopy featuring marina ropes amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "dune-fringe skybridge walkway with laminated dunes under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled luxury tram stop framed by mirror cladding during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium solar farm lane with prayer lantern stacks under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled yacht slip featuring carbon-fiber benches amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined dune edge deck featuring carbon-fiber benches amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "desert-luxe steel skywalk with laser beam fog under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined luxury tram stop featuring smart kiosks amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium helipad rim framed by marina ropes during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port roof pool causeway framed by LED fountain arcs during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber desert camp platform featuring mirror cladding amidst atrium diffused noon",
+      "weight": 0.85
+    },
+    {
+      "text": "neon-skyline metro mezzanine with smart kiosks under storm build teal",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad metro mezzanine featuring prayer lantern stacks amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck steel skywalk with aqua taxis under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge mirage garden framed by carbon-fiber benches during oasis twilight cool",
+      "weight": 0.75
+    },
+    {
+      "text": "palm-garden solar farm lane framed by scent misters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "industrial port solar farm lane framed by palm sculptures during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "dune-fringe industrial crane bay with chrome bollards under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis mirage garden with carbon-fiber benches under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "skydeck roof pool causeway with carbon-fiber benches under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit souk courtyard featuring prayer lantern stacks amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline industrial crane bay featuring chrome bollards amidst desert dawn blush",
+      "weight": 0.9
+    },
+    {
+      "text": "glass-canopy museum atrium framed by glass fins during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "dune-fringe industrial crane bay framed by prayer lantern stacks during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall yacht slip framed by mirror cladding during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge skybridge walkway featuring fiber optic palms amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm palm frond pier framed by smart kiosks during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "pierside souk courtyard featuring laser beam fog amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck mirage garden featuring scent misters amidst skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "desert-luxe crypto gallery framed by jet stream plumes during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad yacht slip featuring fiber optic palms amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined luxury tram stop with saffron carpets under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district souk courtyard framed by saffron carpets during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district museum atrium featuring LED fountain arcs amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis desert camp platform framed by fiber optic palms during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe palm frond pier with fiber optic palms under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium crypto gallery with aqua taxis under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe crypto gallery framed by glass fins during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall souk courtyard with glass fins under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district glass elevator lobby framed by LED fountain arcs during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad fountain plaza framed by saffron carpets during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall fountain plaza framed by scent misters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge crypto gallery framed by fiber optic palms during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber solar farm lane with hover drone lights under fountain mist sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "helipad mirage garden with laminated dunes under skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber solar farm lane with scent misters under mirage noon glare",
+      "weight": 0.85
+    },
+    {
+      "text": "midnight mall marina promenade with carbon-fiber benches under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm metro mezzanine featuring LED fountain arcs amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe glass elevator lobby featuring mirror cladding amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium souk courtyard framed by laminated dunes during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside desert camp platform framed by mirror cladding during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm solar farm lane with LED fountain arcs under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge skybridge walkway featuring fiber optic palms amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "art-district mirage garden framed by hover drone lights during skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber industrial crane bay with LED fountain arcs under fountain mist sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "art-district crypto gallery featuring fiber optic palms amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis helipad rim framed by palm sculptures during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad luxury tram stop with carbon-fiber benches under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist helipad rim featuring scent misters amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port marina promenade framed by aqua taxis during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe future park canopy framed by desert rose planters during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe helipad rim with laminated dunes under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm crypto gallery framed by mirror cladding during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall fountain plaza framed by desert rose planters during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist museum atrium with scent misters under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad roof pool causeway framed by palm sculptures during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled mirage garden with fiber optic palms under helipad sodium rim",
+      "weight": 0.75
+    },
+    {
+      "text": "skydeck roof pool causeway framed by scent misters during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis palm frond pier with smart kiosks under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist fountain plaza framed by chrome bollards during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge yacht slip featuring carbon-fiber benches amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge solar farm lane with architectural screens under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden museum atrium featuring palm sculptures amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck desert camp platform with laser beam fog under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge museum atrium framed by gold mashrabiya shadows during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "desert-luxe glass elevator lobby framed by smart kiosks during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "industrial port metro mezzanine framed by mirror cladding during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium future park canopy with laser beam fog under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden metro mezzanine framed by laminated dunes during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium steel skywalk framed by marina ropes during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port mirage garden featuring gold mashrabiya shadows amidst metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "sandstorm fountain plaza with marina ropes under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "midnight mall museum atrium with gold mashrabiya shadows under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined museum atrium with jet stream plumes under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "art-district souk courtyard with LED fountain arcs under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis marina promenade featuring prayer lantern stacks amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall desert camp platform featuring laser beam fog amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port souk courtyard with laminated dunes under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck dune edge deck framed by marina ropes during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck helipad rim framed by laser beam fog during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis palm frond pier with palm sculptures under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber yacht slip featuring jet stream plumes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm palm frond pier with fiber optic palms under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm roof pool causeway featuring laminated dunes amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined future park canopy with mirror cladding under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district helipad rim framed by mirror cladding during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium skybridge walkway framed by carbon-fiber benches during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall roof pool causeway with saffron carpets under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined desert camp platform featuring palm sculptures amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled skybridge walkway with saffron carpets under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck steel skywalk featuring jet stream plumes amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist industrial crane bay framed by desert rose planters during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe metro mezzanine with gold mashrabiya shadows under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy fountain plaza with scent misters under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy future park canopy featuring smart kiosks amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm dune edge deck featuring mirror cladding amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber future park canopy with laser beam fog under fountain mist sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "midnight mall mirage garden framed by hover drone lights during desert dawn blush",
+      "weight": 0.75
+    },
+    {
+      "text": "marina-lit luxury tram stop with laminated dunes under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "oasis yacht slip framed by architectural screens during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "pierside yacht slip with glass fins under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm roof pool causeway framed by laser beam fog during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled mirage garden with architectural screens under storm build teal",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline luxury tram stop with gold mashrabiya shadows under sandstorm amber haze",
+      "weight": 0.9
+    },
+    {
+      "text": "glass-canopy roof pool causeway framed by laser beam fog during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck mirage garden with palm sculptures under helipad sodium rim",
+      "weight": 0.75
+    },
+    {
+      "text": "marina-lit solar farm lane framed by architectural screens during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy fountain plaza framed by laminated dunes during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy solar farm lane with carbon-fiber benches under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district roof pool causeway featuring saffron carpets amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled helipad rim framed by hover drone lights during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port roof pool causeway framed by mirror cladding during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber desert camp platform featuring mirror cladding amidst helipad sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis glass elevator lobby framed by laminated dunes during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium glass elevator lobby with aqua taxis under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port marina promenade framed by smart kiosks during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber solar farm lane featuring mirror cladding amidst helipad sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "neon-skyline souk courtyard with aqua taxis under oasis twilight cool",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit desert camp platform featuring glass fins amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled solar farm lane with hover drone lights under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium metro mezzanine featuring gold mashrabiya shadows amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe yacht slip with laser beam fog under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist museum atrium with prayer lantern stacks under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline museum atrium framed by mirror cladding during sandstorm amber haze",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad yacht slip featuring LED fountain arcs amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline desert camp platform featuring carbon-fiber benches amidst fountain mist sparkle",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm luxury tram stop with jet stream plumes under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm crypto gallery framed by scent misters during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad helipad rim featuring mirror cladding amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck industrial crane bay with saffron carpets under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe steel skywalk with glass fins under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "palm-garden helipad rim featuring laminated dunes amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm metro mezzanine featuring laminated dunes amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis future park canopy with gold mashrabiya shadows under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm glass elevator lobby with desert rose planters under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist fountain plaza featuring marina ropes amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck helipad rim with LED fountain arcs under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall museum atrium with jet stream plumes under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium glass elevator lobby with laser beam fog under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "art-district desert camp platform with laminated dunes under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline dune edge deck featuring carbon-fiber benches amidst carbon fiber sheen night",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad palm frond pier featuring palm sculptures amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis helipad rim with gold mashrabiya shadows under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist museum atrium with smart kiosks under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "pierside roof pool causeway featuring mirror cladding amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "helipad steel skywalk featuring architectural screens amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden palm frond pier with LED fountain arcs under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled glass elevator lobby featuring LED fountain arcs amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis industrial crane bay featuring mirror cladding amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined industrial crane bay featuring gold mashrabiya shadows amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge future park canopy with architectural screens under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside roof pool causeway framed by glass fins during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district palm frond pier framed by fiber optic palms during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside metro mezzanine framed by prayer lantern stacks during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck marina promenade featuring mirror cladding amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port souk courtyard with carbon-fiber benches under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall roof pool causeway framed by aqua taxis during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined fountain plaza featuring smart kiosks amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "pierside steel skywalk featuring fiber optic palms amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis helipad rim with carbon-fiber benches under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad glass elevator lobby featuring prayer lantern stacks amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck metro mezzanine with mirror cladding under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port dune edge deck with laser beam fog under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad luxury tram stop featuring LED fountain arcs amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy yacht slip with scent misters under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber palm frond pier with glass fins under fountain mist sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden roof pool causeway framed by gold mashrabiya shadows during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge industrial crane bay with mirror cladding under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside fountain plaza framed by chrome bollards during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium palm frond pier featuring chrome bollards amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe marina promenade framed by scent misters during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden skybridge walkway with glass fins under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis solar farm lane framed by smart kiosks during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside glass elevator lobby with palm sculptures under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit palm frond pier featuring laser beam fog amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline skybridge walkway with chrome bollards under storm build teal",
+      "weight": 0.9
+    },
+    {
+      "text": "opulent atrium future park canopy featuring laminated dunes amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist fountain plaza with aqua taxis under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined palm frond pier framed by fiber optic palms during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden helipad rim featuring carbon-fiber benches amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit industrial crane bay with saffron carpets under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined crypto gallery framed by hover drone lights during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe desert camp platform framed by marina ropes during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit roof pool causeway featuring glass fins amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge metro mezzanine with mirror cladding under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck steel skywalk featuring chrome bollards amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled industrial crane bay framed by palm sculptures during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district yacht slip featuring chrome bollards amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside metro mezzanine featuring laminated dunes amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm desert camp platform framed by carbon-fiber benches during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis skybridge walkway featuring gold mashrabiya shadows amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit museum atrium featuring marina ropes amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe steel skywalk featuring saffron carpets amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall crypto gallery framed by smart kiosks during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium desert camp platform with architectural screens under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy mirage garden framed by saffron carpets during palm shadow rhythm",
+      "weight": 0.75
+    },
+    {
+      "text": "skydeck fountain plaza framed by chrome bollards during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden industrial crane bay with mirror cladding under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad skybridge walkway with laser beam fog under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis palm frond pier with chrome bollards under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad future park canopy with laser beam fog under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district yacht slip framed by laser beam fog during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district crypto gallery with laminated dunes under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline skybridge walkway featuring architectural screens amidst metro cyan wash",
+      "weight": 0.9
+    },
+    {
+      "text": "midnight mall luxury tram stop featuring gold mashrabiya shadows amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "dune-fringe future park canopy framed by aqua taxis during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber glass elevator lobby with gold mashrabiya shadows under atrium diffused noon",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist skybridge walkway with laser beam fog under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe mirage garden featuring gold mashrabiya shadows amidst metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "art-district museum atrium with laminated dunes under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "gold-foiled steel skywalk with laminated dunes under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist marina promenade featuring prayer lantern stacks amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline roof pool causeway framed by fiber optic palms during sandstorm amber haze",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit solar farm lane featuring hover drone lights amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit skybridge walkway featuring glass fins amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "palm-garden luxury tram stop with desert rose planters under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit solar farm lane with marina ropes under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden steel skywalk framed by mirror cladding during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port metro mezzanine with desert rose planters under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium fountain plaza featuring architectural screens amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe helipad rim framed by LED fountain arcs during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm steel skywalk featuring architectural screens amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby featuring smart kiosks amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm yacht slip framed by desert rose planters during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline fountain plaza with architectural screens under desert dawn blush",
+      "weight": 0.9
+    },
+    {
+      "text": "gold-foiled industrial crane bay with gold mashrabiya shadows under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis roof pool causeway framed by marina ropes during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis marina promenade with architectural screens under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis museum atrium with prayer lantern stacks under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "skydeck luxury tram stop with palm sculptures under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "pierside luxury tram stop framed by glass fins during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber museum atrium framed by marina ropes during storm build teal",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber metro mezzanine featuring smart kiosks amidst storm build teal",
+      "weight": 0.85
+    },
+    {
+      "text": "metro-skybridge desert camp platform framed by laser beam fog during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm roof pool causeway framed by LED fountain arcs during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district steel skywalk featuring smart kiosks amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline dune edge deck featuring jet stream plumes amidst helipad sodium rim",
+      "weight": 0.9
+    },
+    {
+      "text": "art-district helipad rim featuring aqua taxis amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm glass elevator lobby framed by smart kiosks during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber desert camp platform framed by fiber optic palms during metro cyan wash",
+      "weight": 0.85
+    },
+    {
+      "text": "industrial port museum atrium framed by scent misters during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium marina promenade framed by saffron carpets during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden roof pool causeway featuring scent misters amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined luxury tram stop featuring glass fins amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden mirage garden framed by smart kiosks during metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "souk-lined fountain plaza with scent misters under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled future park canopy featuring jet stream plumes amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "dune-fringe luxury tram stop featuring gold mashrabiya shadows amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit fountain plaza framed by jet stream plumes during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside museum atrium framed by smart kiosks during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck marina promenade framed by hover drone lights during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium desert camp platform with architectural screens under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall crypto gallery featuring smart kiosks amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm future park canopy featuring scent misters amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district steel skywalk framed by jet stream plumes during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "dune-fringe steel skywalk featuring LED fountain arcs amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "desert-luxe metro mezzanine featuring architectural screens amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist steel skywalk framed by chrome bollards during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit luxury tram stop featuring LED fountain arcs amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "sandstorm glass elevator lobby with carbon-fiber benches under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden metro mezzanine framed by fiber optic palms during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium marina promenade featuring saffron carpets amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad desert camp platform with saffron carpets under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium luxury tram stop framed by jet stream plumes during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit roof pool causeway framed by smart kiosks during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "industrial port marina promenade featuring architectural screens amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden solar farm lane framed by laser beam fog during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck marina promenade with glass fins under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist skybridge walkway framed by chrome bollards during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge fountain plaza featuring jet stream plumes amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber helipad rim with jet stream plumes under desert dawn blush",
+      "weight": 0.85
+    },
+    {
+      "text": "dune-fringe souk courtyard framed by mirror cladding during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden metro mezzanine framed by LED fountain arcs during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled marina promenade framed by glass fins during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe dune edge deck framed by gold mashrabiya shadows during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm fountain plaza with saffron carpets under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis metro mezzanine framed by chrome bollards during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "souk-lined steel skywalk with smart kiosks under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad fountain plaza featuring jet stream plumes amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe helipad rim with saffron carpets under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline solar farm lane featuring gold mashrabiya shadows amidst carbon fiber sheen night",
+      "weight": 0.9
+    },
+    {
+      "text": "pierside industrial crane bay framed by smart kiosks during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis fountain plaza with palm sculptures under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist skybridge walkway featuring architectural screens amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe desert camp platform framed by laser beam fog during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden souk courtyard with carbon-fiber benches under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall mirage garden framed by laminated dunes during LED synchronized glow",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber mirage garden featuring hover drone lights amidst sandstorm amber haze",
+      "weight": 0.85
+    },
+    {
+      "text": "souk-lined industrial crane bay framed by desert rose planters during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside marina promenade featuring architectural screens amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled crypto gallery with gold mashrabiya shadows under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside fountain plaza framed by fiber optic palms during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "souk-lined crypto gallery featuring jet stream plumes amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist marina promenade featuring glass fins amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "glass-canopy helipad rim framed by laminated dunes during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm glass elevator lobby featuring saffron carpets amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall solar farm lane with prayer lantern stacks under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis dune edge deck with saffron carpets under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside yacht slip framed by chrome bollards during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline mirage garden with gold mashrabiya shadows under metro cyan wash",
+      "weight": 0.9
+    },
+    {
+      "text": "gold-foiled fountain plaza framed by palm sculptures during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall museum atrium framed by chrome bollards during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district mirage garden framed by laminated dunes during oasis twilight cool",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber metro mezzanine framed by desert rose planters during skyline laser wash",
+      "weight": 0.85
+    },
+    {
+      "text": "industrial port fountain plaza with fiber optic palms under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge fountain plaza with laser beam fog under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis museum atrium featuring palm sculptures amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside mirage garden with smart kiosks under moonlit marina breeze",
+      "weight": 0.75
+    },
+    {
+      "text": "helipad palm frond pier framed by fiber optic palms during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis skybridge walkway featuring hover drone lights amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck glass elevator lobby framed by hover drone lights during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit glass elevator lobby framed by aqua taxis during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline yacht slip featuring marina ropes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck metro mezzanine with scent misters under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district crypto gallery with jet stream plumes under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge mirage garden framed by marina ropes during skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "souk-lined solar farm lane with LED fountain arcs under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "opulent atrium marina promenade featuring palm sculptures amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district roof pool causeway with hover drone lights under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled desert camp platform featuring mirror cladding amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden museum atrium featuring aqua taxis amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined helipad rim with mirror cladding under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber fountain plaza featuring desert rose planters amidst LED synchronized glow",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden souk courtyard framed by marina ropes during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck industrial crane bay framed by fiber optic palms during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "neon-skyline crypto gallery with architectural screens under storm build teal",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit museum atrium featuring mirror cladding amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit roof pool causeway framed by palm sculptures during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined mirage garden with glass fins under metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium helipad rim framed by aqua taxis during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden crypto gallery framed by aqua taxis during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit museum atrium framed by laser beam fog during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "helipad skybridge walkway with desert rose planters under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist crypto gallery with scent misters under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist glass elevator lobby framed by scent misters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck dune edge deck with aqua taxis under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline mirage garden framed by palm sculptures during atrium diffused noon",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe desert camp platform featuring jet stream plumes amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline helipad rim with laminated dunes under palm shadow rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe museum atrium with laminated dunes under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall museum atrium with LED fountain arcs under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis yacht slip with glass fins under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled skybridge walkway with gold mashrabiya shadows under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge yacht slip framed by desert rose planters during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck metro mezzanine featuring laminated dunes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline skybridge walkway framed by smart kiosks during LED synchronized glow",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck luxury tram stop framed by laminated dunes during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall crypto gallery featuring hover drone lights amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled yacht slip framed by scent misters during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad industrial crane bay with palm sculptures under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port fountain plaza with laminated dunes under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled crypto gallery with glass fins under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm metro mezzanine framed by LED fountain arcs during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy metro mezzanine featuring architectural screens amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden souk courtyard with mirror cladding under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district souk courtyard framed by marina ropes during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit fountain plaza framed by gold mashrabiya shadows during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "industrial port palm frond pier with palm sculptures under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium marina promenade featuring scent misters amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy metro mezzanine featuring scent misters amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist souk courtyard with architectural screens under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber skybridge walkway with scent misters under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-canopy metro mezzanine with saffron carpets under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy yacht slip featuring fiber optic palms amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit dune edge deck framed by gold mashrabiya shadows during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside industrial crane bay with glass fins under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby framed by prayer lantern stacks during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck palm frond pier framed by aqua taxis during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled dune edge deck featuring laser beam fog amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall glass elevator lobby featuring LED fountain arcs amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside solar farm lane framed by architectural screens during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall solar farm lane featuring LED fountain arcs amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium mirage garden with desert rose planters under skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber marina promenade featuring palm sculptures amidst atrium diffused noon",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist solar farm lane with glass fins under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge industrial crane bay framed by fiber optic palms during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden dune edge deck framed by hover drone lights during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber mirage garden with fiber optic palms under helipad sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "metro-skybridge dune edge deck featuring laser beam fog amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck industrial crane bay featuring mirror cladding amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside museum atrium featuring prayer lantern stacks amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside crypto gallery with jet stream plumes under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden skybridge walkway featuring LED fountain arcs amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline solar farm lane featuring gold mashrabiya shadows amidst fountain mist sparkle",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge industrial crane bay featuring marina ropes amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "industrial port industrial crane bay featuring scent misters amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber industrial crane bay featuring laminated dunes amidst metro cyan wash",
+      "weight": 0.85
+    },
+    {
+      "text": "art-district crypto gallery with scent misters under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline metro mezzanine framed by jet stream plumes during skyline laser wash",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm palm frond pier featuring laminated dunes amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck industrial crane bay featuring prayer lantern stacks amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "art-district industrial crane bay framed by laser beam fog during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "opulent atrium solar farm lane featuring LED fountain arcs amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "futurist souk courtyard framed by jet stream plumes during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden dune edge deck with fiber optic palms under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district dune edge deck featuring gold mashrabiya shadows amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe palm frond pier framed by desert rose planters during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe industrial crane bay featuring laser beam fog amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined palm frond pier with laser beam fog under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist glass elevator lobby framed by smart kiosks during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled fountain plaza featuring laser beam fog amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck dune edge deck with laser beam fog under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district skybridge walkway framed by palm sculptures during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled dune edge deck with palm sculptures under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port museum atrium featuring laminated dunes amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit dune edge deck framed by marina ropes during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined future park canopy framed by jet stream plumes during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe marina promenade featuring prayer lantern stacks amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist metro mezzanine with architectural screens under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy desert camp platform framed by architectural screens during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "gold-foiled desert camp platform framed by saffron carpets during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "skydeck metro mezzanine framed by prayer lantern stacks during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis yacht slip framed by architectural screens during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist marina promenade with saffron carpets under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe industrial crane bay featuring glass fins amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy palm frond pier featuring jet stream plumes amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm future park canopy framed by chrome bollards during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy crypto gallery framed by mirror cladding during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber industrial crane bay framed by scent misters during oasis twilight cool",
+      "weight": 0.85
+    },
+    {
+      "text": "gold-foiled future park canopy framed by saffron carpets during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port skybridge walkway featuring laser beam fog amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist museum atrium with architectural screens under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside roof pool causeway framed by carbon-fiber benches during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm dune edge deck with marina ropes under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "carbon fiber luxury tram stop featuring palm sculptures amidst oasis twilight cool",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis steel skywalk with palm sculptures under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "opulent atrium industrial crane bay with LED fountain arcs under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium helipad rim with scent misters under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby featuring aqua taxis amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber fountain plaza featuring laminated dunes amidst skyline laser wash",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis skybridge walkway framed by saffron carpets during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline future park canopy framed by marina ropes during sandstorm amber haze",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit glass elevator lobby featuring saffron carpets amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis dune edge deck featuring jet stream plumes amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge fountain plaza featuring fiber optic palms amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad marina promenade with laminated dunes under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "pierside mirage garden with carbon-fiber benches under LED synchronized glow",
+      "weight": 0.75
+    },
+    {
+      "text": "midnight mall yacht slip with saffron carpets under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck marina promenade with fiber optic palms under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium fountain plaza framed by aqua taxis during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "palm-garden souk courtyard with marina ropes under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "pierside museum atrium featuring palm sculptures amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall fountain plaza with laser beam fog under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled fountain plaza featuring LED fountain arcs amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist marina promenade framed by desert rose planters during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined future park canopy featuring glass fins amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "dune-fringe roof pool causeway featuring scent misters amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "souk-lined yacht slip featuring chrome bollards amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit industrial crane bay framed by architectural screens during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "opulent atrium future park canopy with mirror cladding under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline solar farm lane with gold mashrabiya shadows under sandstorm amber haze",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm glass elevator lobby with jet stream plumes under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden helipad rim framed by smart kiosks during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist yacht slip framed by LED fountain arcs during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad palm frond pier featuring fiber optic palms amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "opulent atrium metro mezzanine with scent misters under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined museum atrium framed by laser beam fog during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port helipad rim with chrome bollards under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium fountain plaza framed by LED fountain arcs during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium yacht slip with saffron carpets under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district metro mezzanine framed by marina ropes during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall dune edge deck with desert rose planters under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber yacht slip framed by palm sculptures during palm shadow rhythm",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-canopy museum atrium with gold mashrabiya shadows under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline fountain plaza featuring glass fins amidst fountain mist sparkle",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe dune edge deck featuring gold mashrabiya shadows amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist glass elevator lobby with saffron carpets under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm industrial crane bay framed by prayer lantern stacks during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis desert camp platform with jet stream plumes under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port future park canopy with laser beam fog under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge roof pool causeway framed by smart kiosks during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy crypto gallery featuring laser beam fog amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "sandstorm fountain plaza framed by desert rose planters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe yacht slip featuring carbon-fiber benches amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled steel skywalk featuring mirror cladding amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district mirage garden with architectural screens under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "souk-lined yacht slip framed by marina ropes during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "midnight mall industrial crane bay framed by smart kiosks during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck museum atrium framed by laser beam fog during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall luxury tram stop with gold mashrabiya shadows under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit desert camp platform framed by carbon-fiber benches during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe desert camp platform featuring hover drone lights amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck skybridge walkway framed by architectural screens during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber industrial crane bay framed by desert rose planters during storm build teal",
+      "weight": 0.85
+    },
+    {
+      "text": "metro-skybridge metro mezzanine framed by chrome bollards during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside crypto gallery framed by jet stream plumes during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy glass elevator lobby framed by carbon-fiber benches during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe yacht slip framed by hover drone lights during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium desert camp platform framed by gold mashrabiya shadows during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe industrial crane bay framed by saffron carpets during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "metro-skybridge industrial crane bay framed by carbon-fiber benches during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit future park canopy framed by glass fins during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district dune edge deck featuring smart kiosks amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad marina promenade featuring laminated dunes amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm museum atrium with prayer lantern stacks under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe marina promenade featuring architectural screens amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge dune edge deck with fiber optic palms under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis desert camp platform featuring LED fountain arcs amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge museum atrium featuring prayer lantern stacks amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist fountain plaza with LED fountain arcs under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis solar farm lane with aqua taxis under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe museum atrium featuring palm sculptures amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe marina promenade featuring saffron carpets amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "oasis solar farm lane framed by architectural screens during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined crypto gallery with glass fins under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm helipad rim with carbon-fiber benches under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis dune edge deck framed by fiber optic palms during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline metro mezzanine featuring mirror cladding amidst helipad sodium rim",
+      "weight": 0.9
+    },
+    {
+      "text": "dune-fringe helipad rim with gold mashrabiya shadows under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist metro mezzanine framed by smart kiosks during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline yacht slip featuring aqua taxis amidst LED synchronized glow",
+      "weight": 0.9
+    },
+    {
+      "text": "carbon fiber souk courtyard framed by prayer lantern stacks during moonlit marina breeze",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist crypto gallery with carbon-fiber benches under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm crypto gallery with laminated dunes under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined crypto gallery framed by fiber optic palms during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden museum atrium featuring hover drone lights amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad souk courtyard framed by smart kiosks during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe marina promenade featuring hover drone lights amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall palm frond pier featuring smart kiosks amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck roof pool causeway with laminated dunes under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy glass elevator lobby framed by palm sculptures during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "glass-canopy glass elevator lobby framed by smart kiosks during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit luxury tram stop with chrome bollards under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist souk courtyard framed by desert rose planters during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist dune edge deck with hover drone lights under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline skybridge walkway framed by scent misters during fountain mist sparkle",
+      "weight": 0.9
+    },
+    {
+      "text": "gold-foiled luxury tram stop featuring jet stream plumes amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy marina promenade framed by hover drone lights during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined mirage garden with LED fountain arcs under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-canopy roof pool causeway with aqua taxis under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber desert camp platform with fiber optic palms under moonlit marina breeze",
+      "weight": 0.85
+    },
+    {
+      "text": "art-district skybridge walkway with mirror cladding under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "futurist roof pool causeway featuring laser beam fog amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled future park canopy featuring gold mashrabiya shadows amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled crypto gallery featuring mirror cladding amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe mirage garden framed by aqua taxis during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "marina-lit yacht slip featuring fiber optic palms amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm mirage garden featuring aqua taxis amidst oasis twilight cool",
+      "weight": 0.75
+    },
+    {
+      "text": "midnight mall mirage garden with carbon-fiber benches under metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline skybridge walkway featuring marina ropes amidst skyline laser wash",
+      "weight": 0.9
+    },
+    {
+      "text": "pierside desert camp platform framed by desert rose planters during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm industrial crane bay framed by desert rose planters during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "desert-luxe industrial crane bay framed by chrome bollards during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe souk courtyard featuring scent misters amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline desert camp platform featuring jet stream plumes amidst metro cyan wash",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad mirage garden with architectural screens under moonlit marina breeze",
+      "weight": 0.75
+    },
+    {
+      "text": "art-district yacht slip with saffron carpets under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall steel skywalk with glass fins under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district dune edge deck with gold mashrabiya shadows under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge museum atrium framed by gold mashrabiya shadows during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis desert camp platform featuring fiber optic palms amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck industrial crane bay featuring laser beam fog amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled palm frond pier featuring glass fins amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "sandstorm souk courtyard framed by scent misters during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist desert camp platform framed by chrome bollards during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside future park canopy featuring scent misters amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck souk courtyard framed by LED fountain arcs during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge future park canopy featuring laminated dunes amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline helipad rim with mirror cladding under storm build teal",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm fountain plaza with laser beam fog under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis skybridge walkway featuring smart kiosks amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port palm frond pier framed by smart kiosks during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden souk courtyard featuring jet stream plumes amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district palm frond pier featuring laminated dunes amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist dune edge deck featuring carbon-fiber benches amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district fountain plaza with prayer lantern stacks under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port solar farm lane featuring architectural screens amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist helipad rim featuring aqua taxis amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium mirage garden with palm sculptures under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "industrial port souk courtyard framed by prayer lantern stacks during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe souk courtyard framed by chrome bollards during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall helipad rim featuring architectural screens amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber dune edge deck featuring chrome bollards amidst desert dawn blush",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-canopy dune edge deck featuring architectural screens amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge yacht slip with LED fountain arcs under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy desert camp platform with carbon-fiber benches under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad solar farm lane with palm sculptures under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit steel skywalk with carbon-fiber benches under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe steel skywalk with aqua taxis under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district luxury tram stop framed by gold mashrabiya shadows during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden helipad rim framed by aqua taxis during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge solar farm lane featuring prayer lantern stacks amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber helipad rim featuring glass fins amidst fountain mist sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "industrial port crypto gallery framed by desert rose planters during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm future park canopy with architectural screens under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm future park canopy featuring prayer lantern stacks amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "futurist roof pool causeway with laser beam fog under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge souk courtyard framed by mirror cladding during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium desert camp platform with scent misters under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck luxury tram stop featuring chrome bollards amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium glass elevator lobby with scent misters under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "palm-garden glass elevator lobby with hover drone lights under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm museum atrium featuring smart kiosks amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy luxury tram stop framed by laser beam fog during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad souk courtyard with laminated dunes under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled museum atrium framed by saffron carpets during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist luxury tram stop featuring fiber optic palms amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "opulent atrium souk courtyard framed by glass fins during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber helipad rim framed by marina ropes during palm shadow rhythm",
+      "weight": 0.85
+    },
+    {
+      "text": "pierside palm frond pier with prayer lantern stacks under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "industrial port luxury tram stop framed by scent misters during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy fountain plaza featuring fiber optic palms amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis museum atrium with architectural screens under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port metro mezzanine with LED fountain arcs under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "souk-lined industrial crane bay featuring desert rose planters amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber roof pool causeway framed by laser beam fog during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad industrial crane bay framed by aqua taxis during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby with carbon-fiber benches under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "midnight mall crypto gallery featuring desert rose planters amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled crypto gallery framed by smart kiosks during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium dune edge deck featuring saffron carpets amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden mirage garden framed by hover drone lights during skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "sandstorm palm frond pier with mirror cladding under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist glass elevator lobby with architectural screens under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline metro mezzanine with palm sculptures under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "midnight mall crypto gallery featuring scent misters amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit luxury tram stop framed by scent misters during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber yacht slip with smart kiosks under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "helipad solar farm lane featuring mirror cladding amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe dune edge deck with mirror cladding under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port luxury tram stop framed by hover drone lights during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck crypto gallery framed by hover drone lights during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district helipad rim framed by gold mashrabiya shadows during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port skybridge walkway with smart kiosks under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district helipad rim framed by gold mashrabiya shadows during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis steel skywalk framed by jet stream plumes during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby featuring laminated dunes amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck roof pool causeway with architectural screens under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist industrial crane bay featuring carbon-fiber benches amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden luxury tram stop framed by jet stream plumes during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist mirage garden framed by gold mashrabiya shadows during desert dawn blush",
+      "weight": 0.75
+    },
+    {
+      "text": "glass-canopy roof pool causeway featuring aqua taxis amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined dune edge deck featuring gold mashrabiya shadows amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall metro mezzanine framed by mirror cladding during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside palm frond pier featuring LED fountain arcs amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad marina promenade with chrome bollards under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden yacht slip featuring jet stream plumes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "oasis souk courtyard with hover drone lights under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside desert camp platform featuring saffron carpets amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad future park canopy featuring scent misters amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium industrial crane bay featuring carbon-fiber benches amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe steel skywalk framed by desert rose planters during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis solar farm lane framed by glass fins during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium museum atrium framed by saffron carpets during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy helipad rim featuring hover drone lights amidst carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "sandstorm metro mezzanine featuring aqua taxis amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "carbon fiber souk courtyard featuring laminated dunes amidst storm build teal",
+      "weight": 0.85
+    },
+    {
+      "text": "neon-skyline palm frond pier featuring gold mashrabiya shadows amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "glass-canopy luxury tram stop with hover drone lights under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden solar farm lane featuring fiber optic palms amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad palm frond pier framed by architectural screens during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port skybridge walkway featuring scent misters amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber metro mezzanine with desert rose planters under atrium diffused noon",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis solar farm lane framed by architectural screens during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled industrial crane bay featuring aqua taxis amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm yacht slip framed by desert rose planters during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck roof pool causeway framed by hover drone lights during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port future park canopy featuring saffron carpets amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis luxury tram stop featuring hover drone lights amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside mirage garden featuring marina ropes amidst moonlit marina breeze",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist crypto gallery featuring desert rose planters amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "gold-foiled yacht slip with glass fins under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad glass elevator lobby featuring gold mashrabiya shadows amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy mirage garden framed by chrome bollards during skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "marina-lit desert camp platform with palm sculptures under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit roof pool causeway with palm sculptures under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck fountain plaza framed by smart kiosks during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy glass elevator lobby featuring smart kiosks amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall yacht slip with glass fins under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port skybridge walkway framed by LED fountain arcs during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside souk courtyard featuring marina ropes amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber skybridge walkway with laminated dunes under storm build teal",
+      "weight": 0.85
+    },
+    {
+      "text": "sandstorm yacht slip framed by scent misters during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall solar farm lane featuring architectural screens amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit roof pool causeway framed by prayer lantern stacks during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis fountain plaza with carbon-fiber benches under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber fountain plaza framed by chrome bollards during moonlit marina breeze",
+      "weight": 0.85
+    },
+    {
+      "text": "helipad yacht slip with aqua taxis under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe crypto gallery featuring laminated dunes amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad glass elevator lobby featuring scent misters amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge luxury tram stop with architectural screens under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck museum atrium with marina ropes under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge marina promenade with marina ropes under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe luxury tram stop featuring laminated dunes amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "oasis future park canopy featuring marina ropes amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm skybridge walkway with fiber optic palms under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium skybridge walkway with desert rose planters under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit mirage garden featuring fiber optic palms amidst skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled roof pool causeway featuring marina ropes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "carbon fiber desert camp platform featuring prayer lantern stacks amidst helipad sodium rim",
+      "weight": 0.85
+    },
+    {
+      "text": "metro-skybridge yacht slip with mirror cladding under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge glass elevator lobby with laser beam fog under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad glass elevator lobby featuring gold mashrabiya shadows amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis museum atrium framed by palm sculptures during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit palm frond pier framed by saffron carpets during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber dune edge deck featuring glass fins amidst palm shadow rhythm",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist souk courtyard featuring mirror cladding amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline souk courtyard with fiber optic palms under desert dawn blush",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit souk courtyard with carbon-fiber benches under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "skydeck industrial crane bay with prayer lantern stacks under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined fountain plaza featuring laminated dunes amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe industrial crane bay featuring glass fins amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit glass elevator lobby framed by palm sculptures during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe dune edge deck featuring carbon-fiber benches amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe skybridge walkway framed by prayer lantern stacks during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber roof pool causeway featuring laminated dunes amidst oasis twilight cool",
+      "weight": 0.85
+    },
+    {
+      "text": "palm-garden steel skywalk with laminated dunes under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "souk-lined roof pool causeway featuring chrome bollards amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall solar farm lane framed by hover drone lights during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall desert camp platform framed by smart kiosks during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden mirage garden featuring desert rose planters amidst LED synchronized glow",
+      "weight": 0.75
+    },
+    {
+      "text": "marina-lit skybridge walkway framed by fiber optic palms during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck museum atrium with desert rose planters under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "midnight mall dune edge deck with laminated dunes under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "marina-lit future park canopy featuring scent misters amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe future park canopy with fiber optic palms under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge roof pool causeway featuring prayer lantern stacks amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port museum atrium with jet stream plumes under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium future park canopy with architectural screens under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit palm frond pier featuring desert rose planters amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck mirage garden featuring LED fountain arcs amidst metro cyan wash",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium souk courtyard with laser beam fog under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber glass elevator lobby featuring glass fins amidst palm shadow rhythm",
+      "weight": 0.85
+    },
+    {
+      "text": "oasis skybridge walkway with LED fountain arcs under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "palm-garden souk courtyard framed by gold mashrabiya shadows during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis marina promenade featuring palm sculptures amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber helipad rim with gold mashrabiya shadows under storm build teal",
+      "weight": 0.85
+    },
+    {
+      "text": "industrial port roof pool causeway framed by glass fins during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe museum atrium with glass fins under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm metro mezzanine with fiber optic palms under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck industrial crane bay featuring saffron carpets amidst desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe skybridge walkway framed by LED fountain arcs during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port mirage garden with laminated dunes under storm build teal",
+      "weight": 0.75
+    },
+    {
+      "text": "helipad fountain plaza with scent misters under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside mirage garden with palm sculptures under sandstorm amber haze",
+      "weight": 0.75
+    },
+    {
+      "text": "glass-canopy helipad rim framed by smart kiosks during helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis industrial crane bay with saffron carpets under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe future park canopy framed by hover drone lights during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden glass elevator lobby with glass fins under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "gold-foiled helipad rim framed by mirror cladding during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist fountain plaza with marina ropes under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port metro mezzanine with hover drone lights under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined steel skywalk with aqua taxis under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber souk courtyard with fiber optic palms under palm shadow rhythm",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist future park canopy framed by marina ropes during storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe marina promenade with marina ropes under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined yacht slip framed by prayer lantern stacks during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline souk courtyard framed by aqua taxis during LED synchronized glow",
+      "weight": 0.9
+    },
+    {
+      "text": "marina-lit metro mezzanine featuring palm sculptures amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside luxury tram stop framed by LED fountain arcs during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline future park canopy featuring laser beam fog amidst storm build teal",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline desert camp platform featuring laminated dunes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "art-district industrial crane bay featuring jet stream plumes amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge marina promenade framed by prayer lantern stacks during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "industrial port yacht slip with hover drone lights under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "neon-skyline souk courtyard with saffron carpets under skyline laser wash",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck future park canopy with marina ropes under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad future park canopy framed by hover drone lights during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis luxury tram stop framed by marina ropes during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "opulent atrium crypto gallery framed by laminated dunes during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district souk courtyard with glass fins under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge fountain plaza with smart kiosks under carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "dune-fringe museum atrium framed by LED fountain arcs during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck marina promenade featuring LED fountain arcs amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber helipad rim featuring laminated dunes amidst metro cyan wash",
+      "weight": 0.85
+    },
+    {
+      "text": "futurist desert camp platform framed by carbon-fiber benches during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled industrial crane bay featuring desert rose planters amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside crypto gallery featuring hover drone lights amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad desert camp platform framed by palm sculptures during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe steel skywalk framed by aqua taxis during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside crypto gallery with hover drone lights under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck yacht slip framed by scent misters during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined glass elevator lobby with carbon-fiber benches under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge crypto gallery with aqua taxis under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist desert camp platform featuring aqua taxis amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium skybridge walkway framed by palm sculptures during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit museum atrium with laser beam fog under helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall museum atrium framed by architectural screens during mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline roof pool causeway framed by jet stream plumes during helipad sodium rim",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad glass elevator lobby with gold mashrabiya shadows under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium marina promenade framed by carbon-fiber benches during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad metro mezzanine featuring jet stream plumes amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe souk courtyard with jet stream plumes under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled crypto gallery framed by LED fountain arcs during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe helipad rim framed by aqua taxis during oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist mirage garden featuring LED fountain arcs amidst skyline laser wash",
+      "weight": 0.75
+    },
+    {
+      "text": "neon-skyline marina promenade framed by laser beam fog during mirage noon glare",
+      "weight": 0.9
+    },
+    {
+      "text": "sandstorm marina promenade framed by LED fountain arcs during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-skyline metro mezzanine with prayer lantern stacks under metro cyan wash",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck museum atrium framed by saffron carpets during skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad palm frond pier featuring marina ropes amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber skybridge walkway with gold mashrabiya shadows under metro cyan wash",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber palm frond pier with marina ropes under oasis twilight cool",
+      "weight": 0.85
+    },
+    {
+      "text": "metro-skybridge helipad rim with chrome bollards under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "palm-garden glass elevator lobby featuring laser beam fog amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis industrial crane bay with smart kiosks under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad dune edge deck featuring gold mashrabiya shadows amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "sandstorm fountain plaza with prayer lantern stacks under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis skybridge walkway with scent misters under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "midnight mall roof pool causeway with gold mashrabiya shadows under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden helipad rim framed by marina ropes during palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm yacht slip with chrome bollards under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "metro-skybridge metro mezzanine framed by saffron carpets during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden future park canopy featuring architectural screens amidst moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-foiled dune edge deck framed by scent misters during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck metro mezzanine framed by architectural screens during fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist roof pool causeway framed by carbon-fiber benches during sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "art-district fountain plaza framed by architectural screens during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "desert-luxe steel skywalk framed by gold mashrabiya shadows during moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "carbon fiber skybridge walkway featuring jet stream plumes amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "souk-lined metro mezzanine featuring laser beam fog amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm palm frond pier featuring glass fins amidst storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "souk-lined luxury tram stop featuring desert rose planters amidst atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside dune edge deck featuring carbon-fiber benches amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall solar farm lane with desert rose planters under mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "midnight mall palm frond pier with fiber optic palms under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port marina promenade with palm sculptures under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist roof pool causeway framed by aqua taxis during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad museum atrium featuring palm sculptures amidst mirage noon glare",
+      "weight": 0.75
+    },
+    {
+      "text": "carbon fiber fountain plaza featuring fiber optic palms amidst sandstorm amber haze",
+      "weight": 0.85
+    },
+    {
+      "text": "carbon fiber souk courtyard framed by LED fountain arcs during carbon fiber sheen night",
+      "weight": 0.85
+    },
+    {
+      "text": "gold-foiled solar farm lane framed by carbon-fiber benches during midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "futurist souk courtyard with saffron carpets under storm build teal",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge future park canopy featuring gold mashrabiya shadows amidst midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "skydeck souk courtyard with saffron carpets under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm future park canopy featuring aqua taxis amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist steel skywalk with chrome bollards under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "desert-luxe yacht slip framed by saffron carpets during metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "metro-skybridge solar farm lane with fiber optic palms under palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis marina promenade with laser beam fog under metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad solar farm lane framed by laminated dunes during desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside luxury tram stop framed by carbon-fiber benches during LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "futurist marina promenade featuring aqua taxis amidst LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside palm frond pier featuring marina ropes amidst oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden future park canopy featuring marina ropes amidst sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis souk courtyard with desert rose planters under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandstorm marina promenade featuring desert rose planters amidst skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "pierside mirage garden framed by aqua taxis during oasis twilight cool",
+      "weight": 0.75
+    },
+    {
+      "text": "futurist crypto gallery with chrome bollards under oasis twilight cool",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy souk courtyard with scent misters under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-skyline crypto gallery featuring carbon-fiber benches amidst atrium diffused noon",
+      "weight": 0.9
+    },
+    {
+      "text": "helipad mirage garden framed by desert rose planters during atrium diffused noon",
+      "weight": 0.75
+    },
+    {
+      "text": "skydeck metro mezzanine featuring aqua taxis amidst palm shadow rhythm",
+      "weight": 1.0
+    },
+    {
+      "text": "skydeck helipad rim framed by saffron carpets during atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-canopy desert camp platform with jet stream plumes under atrium diffused noon",
+      "weight": 1.0
+    },
+    {
+      "text": "dune-fringe steel skywalk with jet stream plumes under desert dawn blush",
+      "weight": 1.0
+    },
+    {
+      "text": "palm-garden crypto gallery with marina ropes under moonlit marina breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marina-lit museum atrium with desert rose planters under sandstorm amber haze",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium industrial crane bay with jet stream plumes under LED synchronized glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall dune edge deck with hover drone lights under fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "oasis desert camp platform featuring hover drone lights amidst fountain mist sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "industrial port metro mezzanine featuring mirror cladding amidst helipad sodium rim",
+      "weight": 1.0
+    },
+    {
+      "text": "opulent atrium glass elevator lobby featuring saffron carpets amidst metro cyan wash",
+      "weight": 1.0
+    },
+    {
+      "text": "helipad palm frond pier with gold mashrabiya shadows under skyline laser wash",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight mall marina promenade with fiber optic palms under midnight neon pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "gold-foiled dune edge deck framed by laser beam fog during metro cyan wash",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "gold filigree waist chain with orchid crystal",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel leather falconry glove-inspired cuff",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue visor with mirrored shield",
+        "weight": 0.6
+      },
+      {
+        "text": "souk bead anklet with carbon charm",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "dune breeze lofting silk panels",
+        "weight": 0.6
+      },
+      {
+        "text": "fountain jets refracting across lens",
+        "weight": 0.6
+      },
+      {
+        "text": "thermal updraft nudging hair",
+        "weight": 0.6
+      },
+      {
+        "text": "skyline holo ads pulsing reflections",
+        "weight": 0.6
+      }
+    ]
+  }
+}

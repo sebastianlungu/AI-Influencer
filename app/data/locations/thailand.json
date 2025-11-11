@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "jungle-border bazaar arcade featuring rattan screens amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard heritage tram stop framed by neon tuk-tuk trails during cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food skytrain platform with hanging flower garlands under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange mango orchard row with spice baskets under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled spa pavilion featuring neon tuk-tuk trails amidst sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff rice terrace ridge with color flag strings under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit limestone beach arch with hanging flower garlands under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border tech park skywalk framed by palm halos during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain lotus pond deck framed by woven mats during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food limestone beach arch with neon tuk-tuk trails under skytrain shimmer night",
+      "weight": 0.9
+    },
+    {
+      "text": "old-town limestone beach arch featuring mist fans amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung lotus pond deck with teak balustrades under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border jungle boardwalk featuring rattan screens amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled spa pavilion with color flag strings under lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit wat staircase framed by banana leaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard floating market dock with saffron monk umbrellas under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange skytrain platform featuring woven mats amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove heritage tram stop with wet cobbles under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove night market aisle with market chalkboards under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff wat staircase featuring color flag strings amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon spa pavilion framed by saffron monk umbrellas during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange night market aisle with pho leaves under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung skytrain platform featuring neon tuk-tuk trails amidst storm-cleared moon",
+      "weight": 0.9
+    },
+    {
+      "text": "limestone-cliff wat staircase with palm halos under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit rooftop infinity ledge framed by banana leaves during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border spa pavilion with color flag strings under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon skytrain platform framed by palm halos during electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier bazaar arcade with rattan screens under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove bazaar arcade with woven mats under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest island karst cave featuring canal reflections amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed bazaar arcade framed by mist fans during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed bazaar arcade featuring wet cobbles amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange limestone beach arch framed by color flag strings during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest monsoon rooftop with woven mats under lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove canal footbridge with dripping eaves under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market lotus pond deck with dragonfruit crates under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse teak mansion veranda framed by spice baskets during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier monsoon rooftop featuring market chalkboards amidst sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food island karst cave featuring palm halos amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled wat staircase framed by banana leaves during electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side mango orchard row framed by dripping eaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff harbor ferry gate with neon tuk-tuk trails under sunrise saffron wash",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed limestone beach arch framed by spice baskets during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain monsoon rooftop framed by mist fans during blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon spa pavilion with spice baskets under electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market night market aisle featuring market chalkboards amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-washed lotus pond deck framed by lotus lanterns during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed canal footbridge framed by dripping eaves during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food harbor ferry gate with wet cobbles under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung night market aisle with pho leaves under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit night market aisle framed by color flag strings during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed limestone beach arch with rattan screens under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung rooftop infinity ledge framed by palm halos during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market spa pavilion framed by market chalkboards during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard canal footbridge framed by hanging flower garlands during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard wat staircase with palm halos under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit monsoon rooftop with hanging flower garlands under cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted wat staircase framed by saffron monk umbrellas during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border skytrain platform with saffron monk umbrellas under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market limestone beach arch featuring pho leaves amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted lotus pond deck framed by wet cobbles during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border night market aisle with palm halos under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse heritage tram stop featuring wet cobbles amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung heritage tram stop with mist fans under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "island-pier rice terrace ridge featuring floating blooms amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled tech park skywalk framed by dragonfruit crates during humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff wat staircase with teak balustrades under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side harbor ferry gate with mist fans under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side heritage tram stop with floating blooms under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon tech park skywalk with market chalkboards under humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted island karst cave with wet cobbles under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard island karst cave framed by candle clusters during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted mango orchard row with mist fans under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market canal footbridge featuring dripping eaves amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest jungle boardwalk featuring canal reflections amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border skytrain platform featuring color flag strings amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard teak mansion veranda framed by neon tuk-tuk trails during storm-cleared moon",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung harbor ferry gate framed by floating blooms during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side floating market dock framed by teak balustrades during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed bazaar arcade featuring spice baskets amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon teak mansion veranda featuring hanging flower garlands amidst humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon limestone beach arch framed by lotus lanterns during sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit floating market dock featuring rattan screens amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier mango orchard row framed by floating blooms during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier island karst cave featuring floating blooms amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rice terrace ridge framed by color flag strings during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard teak mansion veranda with rattan screens under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain rice terrace ridge featuring lotus lanterns amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food limestone beach arch featuring dripping eaves amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed limestone beach arch with color flag strings under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed heritage tram stop framed by neon tuk-tuk trails during lotus mist morning",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food harbor ferry gate framed by color flag strings during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung monsoon rooftop framed by neon tuk-tuk trails during river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung floating market dock framed by rattan screens during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side wat staircase with rattan screens under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange spa pavilion with candle clusters under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed jungle boardwalk featuring color flag strings amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon canal footbridge with lotus lanterns under candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse rice terrace ridge with saffron monk umbrellas under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard soi mural lane with woven mats under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier spa pavilion framed by banana leaves during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit soi mural lane with market chalkboards under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town spa pavilion with pho leaves under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier floating market dock with neon tuk-tuk trails under candlelit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung wat staircase featuring mist fans amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon wat staircase framed by candle clusters during jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain mango orchard row framed by lotus lanterns during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon teak mansion veranda framed by market chalkboards during skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed limestone beach arch framed by dripping eaves during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove tech park skywalk featuring floating blooms amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled monsoon rooftop framed by saffron monk umbrellas during sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung night market aisle featuring rattan screens amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff island karst cave with palm halos under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food bazaar arcade featuring dragonfruit crates amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border skytrain platform with wet cobbles under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed night market aisle framed by color flag strings during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market skytrain platform framed by dripping eaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rice terrace ridge with dripping eaves under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed limestone beach arch with lotus lanterns under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border bazaar arcade featuring color flag strings amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard soi mural lane framed by color flag strings during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange rice terrace ridge featuring wet cobbles amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food spa pavilion with rattan screens under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff skytrain platform featuring floating blooms amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled soi mural lane featuring banana leaves amidst sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse mango orchard row featuring pho leaves amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung lotus pond deck framed by wet cobbles during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side rooftop infinity ledge with floating blooms under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "market-lit jungle boardwalk framed by woven mats during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon island karst cave featuring palm halos amidst sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side heritage tram stop with canal reflections under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted soi mural lane featuring wet cobbles amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled night market aisle framed by teak balustrades during jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange heritage tram stop framed by market chalkboards during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange harbor ferry gate with floating blooms under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted rooftop infinity ledge featuring banana leaves amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff wat staircase featuring saffron monk umbrellas amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border floating market dock framed by wet cobbles during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck with dripping eaves under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon heritage tram stop framed by teak balustrades during storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest skytrain platform featuring dragonfruit crates amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed bazaar arcade framed by canal reflections during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town mango orchard row featuring dripping eaves amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed heritage tram stop featuring dragonfruit crates amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled floating market dock framed by mist fans during humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side night market aisle framed by hanging flower garlands during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled wat staircase framed by wet cobbles during candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest floating market dock with spice baskets under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain tech park skywalk framed by mist fans during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest rooftop infinity ledge framed by neon tuk-tuk trails during skytrain shimmer night",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side spa pavilion with lotus lanterns under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted jungle boardwalk featuring woven mats amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled jungle boardwalk with market chalkboards under storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed skytrain platform framed by spice baskets during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest canal footbridge framed by saffron monk umbrellas during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange night market aisle with rattan screens under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon teak mansion veranda featuring lotus lanterns amidst storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted heritage tram stop featuring neon tuk-tuk trails amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border night market aisle with teak balustrades under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side soi mural lane featuring rattan screens amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side wat staircase with palm halos under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed floating market dock with saffron monk umbrellas under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier island karst cave framed by woven mats during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food rooftop infinity ledge with canal reflections under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain harbor ferry gate framed by floating blooms during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food heritage tram stop featuring dripping eaves amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung soi mural lane framed by lotus lanterns during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse skytrain platform framed by dragonfruit crates during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "old-town skytrain platform featuring palm halos amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side limestone beach arch framed by pho leaves during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town wat staircase with palm halos under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side jungle boardwalk featuring neon tuk-tuk trails amidst lotus mist morning",
+      "weight": 0.9
+    },
+    {
+      "text": "old-town teak mansion veranda with teak balustrades under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled soi mural lane featuring mist fans amidst lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange lotus pond deck with floating blooms under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted canal footbridge featuring pho leaves amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung mango orchard row featuring mist fans amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side monsoon rooftop with wet cobbles under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted bazaar arcade featuring market chalkboards amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse floating market dock with mist fans under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market night market aisle featuring neon tuk-tuk trails amidst river breeze shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed monsoon rooftop featuring floating blooms amidst lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "monsoon-cooled skytrain platform with dripping eaves under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange bazaar arcade framed by banana leaves during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff wat staircase framed by dragonfruit crates during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard harbor ferry gate with woven mats under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town spa pavilion featuring hanging flower garlands amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town island karst cave with spice baskets under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange canal footbridge featuring canal reflections amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest spa pavilion featuring market chalkboards amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange skytrain platform featuring spice baskets amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove monsoon rooftop featuring candle clusters amidst lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff monsoon rooftop framed by banana leaves during lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff mango orchard row framed by pho leaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse tech park skywalk with spice baskets under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange spa pavilion with teak balustrades under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed mango orchard row with dripping eaves under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier bazaar arcade featuring dragonfruit crates amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon skytrain platform framed by canal reflections during skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier lotus pond deck featuring hanging flower garlands amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange island karst cave featuring lotus lanterns amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted monsoon rooftop framed by saffron monk umbrellas during skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest lotus pond deck featuring saffron monk umbrellas amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove island karst cave featuring wet cobbles amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled mango orchard row featuring floating blooms amidst lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed floating market dock featuring dragonfruit crates amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side limestone beach arch framed by banana leaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff canal footbridge featuring spice baskets amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon jungle boardwalk framed by neon tuk-tuk trails during electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border lotus pond deck framed by teak balustrades during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange lotus pond deck with floating blooms under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food canal footbridge framed by market chalkboards during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung island karst cave with neon tuk-tuk trails under thunder build glow",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border mango orchard row with neon tuk-tuk trails under jungle chorus dawn",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side mango orchard row framed by market chalkboards during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung floating market dock featuring palm halos amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side bazaar arcade with dragonfruit crates under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border rice terrace ridge framed by pho leaves during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border monsoon rooftop featuring spice baskets amidst lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side jungle boardwalk featuring palm halos amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse floating market dock framed by lotus lanterns during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town tech park skywalk framed by pho leaves during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon tech park skywalk featuring floating blooms amidst blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border canal footbridge framed by dripping eaves during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove canal footbridge featuring dripping eaves amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier harbor ferry gate with rattan screens under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest island karst cave featuring dragonfruit crates amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market rooftop infinity ledge with lotus lanterns under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung wat staircase with wet cobbles under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse jungle boardwalk with banana leaves under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon skytrain platform featuring woven mats amidst electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "temple-courtyard harbor ferry gate framed by hanging flower garlands during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier monsoon rooftop with market chalkboards under canal mirror noon",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung monsoon rooftop with woven mats under cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted rooftop infinity ledge with spice baskets under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border harbor ferry gate featuring rattan screens amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard limestone beach arch framed by neon tuk-tuk trails during skytrain shimmer night",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border mango orchard row framed by candle clusters during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange soi mural lane featuring woven mats amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed wat staircase featuring floating blooms amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard night market aisle framed by lotus lanterns during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung spa pavilion with mist fans under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange heritage tram stop framed by teak balustrades during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border tech park skywalk framed by neon tuk-tuk trails during canal mirror noon",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food jungle boardwalk featuring rattan screens amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier floating market dock featuring dragonfruit crates amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon wat staircase featuring palm halos amidst skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit skytrain platform with mist fans under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon skytrain platform featuring hanging flower garlands amidst candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed harbor ferry gate framed by lotus lanterns during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit island karst cave with dragonfruit crates under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "nocturne-neon soi mural lane with mist fans under blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier monsoon rooftop featuring pho leaves amidst canal mirror noon",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed bazaar arcade framed by saffron monk umbrellas during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard rice terrace ridge with spice baskets under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "nocturne-neon teak mansion veranda framed by neon tuk-tuk trails during canal mirror noon",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed harbor ferry gate framed by candle clusters during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed teak mansion veranda featuring wet cobbles amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border jungle boardwalk framed by palm halos during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town lotus pond deck featuring color flag strings amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff bazaar arcade framed by palm halos during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon limestone beach arch with palm halos under blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed soi mural lane with hanging flower garlands under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange island karst cave featuring wet cobbles amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung floating market dock featuring banana leaves amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain rice terrace ridge with market chalkboards under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain mango orchard row with palm halos under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop infinity ledge framed by saffron monk umbrellas during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung bazaar arcade framed by wet cobbles during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market limestone beach arch framed by rattan screens during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung island karst cave framed by neon tuk-tuk trails during blue-hour incense haze",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange rooftop infinity ledge with market chalkboards under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market bazaar arcade framed by mist fans during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food mango orchard row with teak balustrades under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest lotus pond deck featuring mist fans amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff rooftop infinity ledge framed by spice baskets during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market teak mansion veranda framed by rattan screens during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon monsoon rooftop framed by pho leaves during cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "old-town jungle boardwalk framed by neon tuk-tuk trails during canal mirror noon",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed heritage tram stop featuring pho leaves amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed mango orchard row framed by mist fans during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange lotus pond deck framed by rattan screens during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "cloud-forest wat staircase featuring pho leaves amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed night market aisle featuring neon tuk-tuk trails amidst candlelit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed wat staircase featuring spice baskets amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain rooftop infinity ledge featuring market chalkboards amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard harbor ferry gate featuring rattan screens amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed heritage tram stop framed by rattan screens during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side island karst cave framed by mist fans during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck featuring mist fans amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove lotus pond deck with wet cobbles under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit rice terrace ridge with pho leaves under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit mango orchard row framed by candle clusters during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled lotus pond deck with rattan screens under sunrise saffron wash",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side night market aisle with woven mats under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse monsoon rooftop featuring floating blooms amidst humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side floating market dock with rattan screens under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard teak mansion veranda featuring color flag strings amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck with canal reflections under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse island karst cave featuring neon tuk-tuk trails amidst cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange limestone beach arch framed by market chalkboards during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain skytrain platform featuring banana leaves amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard floating market dock framed by neon tuk-tuk trails during blue-hour incense haze",
+      "weight": 0.9
+    },
+    {
+      "text": "mango-grove soi mural lane with teak balustrades under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest heritage tram stop framed by hanging flower garlands during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border limestone beach arch featuring banana leaves amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon limestone beach arch framed by color flag strings during jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse teak mansion veranda framed by teak balustrades during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse wat staircase featuring woven mats amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff wat staircase framed by mist fans during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed harbor ferry gate with banana leaves under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung skytrain platform with candle clusters under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border rooftop infinity ledge with spice baskets under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest skytrain platform with pho leaves under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town limestone beach arch featuring woven mats amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange floating market dock featuring mist fans amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed rice terrace ridge framed by mist fans during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest monsoon rooftop framed by color flag strings during skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange monsoon rooftop framed by market chalkboards during cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed floating market dock featuring pho leaves amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed rooftop infinity ledge with dripping eaves under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market bazaar arcade featuring woven mats amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange soi mural lane framed by pho leaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier floating market dock featuring canal reflections amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove bazaar arcade with rattan screens under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border canal footbridge with color flag strings under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard limestone beach arch with dragonfruit crates under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff rice terrace ridge framed by spice baskets during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed rice terrace ridge featuring mist fans amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove heritage tram stop with spice baskets under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food rooftop infinity ledge featuring woven mats amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon rooftop infinity ledge featuring color flag strings amidst electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "monsoon-cooled lotus pond deck framed by dragonfruit crates during skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side spa pavilion featuring teak balustrades amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed spa pavilion framed by wet cobbles during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit heritage tram stop framed by candle clusters during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town spa pavilion framed by canal reflections during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard floating market dock framed by candle clusters during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "nocturne-neon limestone beach arch featuring hanging flower garlands amidst lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "monsoon-cooled tech park skywalk framed by floating blooms during humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest wat staircase featuring dragonfruit crates amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side heritage tram stop framed by banana leaves during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market limestone beach arch featuring color flag strings amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border jungle boardwalk framed by dripping eaves during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "floating-market heritage tram stop framed by canal reflections during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed floating market dock framed by color flag strings during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove lotus pond deck featuring spice baskets amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse skytrain platform framed by saffron monk umbrellas during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal footbridge featuring saffron monk umbrellas amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse bazaar arcade featuring rattan screens amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food island karst cave with hanging flower garlands under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse jungle boardwalk with dragonfruit crates under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard teak mansion veranda with dragonfruit crates under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed spa pavilion featuring pho leaves amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove monsoon rooftop featuring banana leaves amidst cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain rooftop infinity ledge featuring wet cobbles amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side bazaar arcade featuring canal reflections amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain monsoon rooftop framed by pho leaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food rooftop infinity ledge featuring floating blooms amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard rooftop infinity ledge featuring rattan screens amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse island karst cave framed by wet cobbles during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange island karst cave featuring mist fans amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse lotus pond deck featuring dripping eaves amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange spa pavilion with hanging flower garlands under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed limestone beach arch framed by spice baskets during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier mango orchard row featuring palm halos amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange mango orchard row with spice baskets under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard night market aisle framed by woven mats during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food soi mural lane featuring teak balustrades amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard jungle boardwalk featuring saffron monk umbrellas amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled limestone beach arch framed by pho leaves during lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "temple-courtyard island karst cave framed by wet cobbles during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest tech park skywalk with lotus lanterns under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit heritage tram stop with banana leaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse jungle boardwalk framed by neon tuk-tuk trails during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side tech park skywalk featuring candle clusters amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier lotus pond deck framed by mist fans during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food island karst cave with rattan screens under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rice terrace ridge framed by neon tuk-tuk trails during candlelit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "monsoon-cooled rice terrace ridge framed by palm halos during electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food island karst cave with spice baskets under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung jungle boardwalk with palm halos under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted heritage tram stop with banana leaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard mango orchard row featuring neon tuk-tuk trails amidst cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung heritage tram stop framed by market chalkboards during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed rooftop infinity ledge featuring rattan screens amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove spa pavilion with dripping eaves under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side night market aisle with wet cobbles under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck featuring saffron monk umbrellas amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove limestone beach arch with mist fans under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rice terrace ridge framed by pho leaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse mango orchard row featuring teak balustrades amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse skytrain platform with dragonfruit crates under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "island-pier soi mural lane framed by dripping eaves during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-washed tech park skywalk with pho leaves under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier wat staircase with floating blooms under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain skytrain platform framed by floating blooms during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain heritage tram stop with pho leaves under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled mango orchard row featuring dragonfruit crates amidst jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "monsoon-cooled wat staircase featuring hanging flower garlands amidst storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border teak mansion veranda featuring neon tuk-tuk trails amidst blue-hour incense haze",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side mango orchard row with color flag strings under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop infinity ledge framed by banana leaves during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit canal footbridge framed by rattan screens during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest limestone beach arch with canal reflections under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff rice terrace ridge framed by palm halos during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit rooftop infinity ledge framed by candle clusters during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal footbridge featuring dripping eaves amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove skytrain platform with banana leaves under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side jungle boardwalk featuring dragonfruit crates amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest rooftop infinity ledge framed by saffron monk umbrellas during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse skytrain platform framed by woven mats during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled bazaar arcade with banana leaves under candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted canal footbridge framed by dripping eaves during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain heritage tram stop featuring market chalkboards amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed floating market dock with market chalkboards under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit island karst cave with pho leaves under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung rice terrace ridge featuring dripping eaves amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange island karst cave with hanging flower garlands under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove island karst cave framed by floating blooms during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest heritage tram stop with saffron monk umbrellas under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse lotus pond deck framed by banana leaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit limestone beach arch framed by pho leaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food floating market dock framed by neon tuk-tuk trails during candlelit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung soi mural lane framed by rattan screens during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest canal footbridge featuring candle clusters amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse limestone beach arch featuring dragonfruit crates amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon floating market dock with pho leaves under storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food teak mansion veranda featuring banana leaves amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff teak mansion veranda framed by saffron monk umbrellas during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon lotus pond deck featuring wet cobbles amidst canal mirror noon",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange rooftop infinity ledge with woven mats under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange floating market dock with neon tuk-tuk trails under canal mirror noon",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain skytrain platform framed by palm halos during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled monsoon rooftop with pho leaves under cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side tech park skywalk with banana leaves under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side night market aisle framed by mist fans during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town wat staircase framed by dripping eaves during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest harbor ferry gate framed by woven mats during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed mango orchard row framed by wet cobbles during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market skytrain platform with market chalkboards under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled wat staircase framed by canal reflections during storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest island karst cave with floating blooms under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung rice terrace ridge framed by saffron monk umbrellas during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange tech park skywalk framed by dragonfruit crates during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon jungle boardwalk with floating blooms under humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse rice terrace ridge featuring rattan screens amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain harbor ferry gate framed by canal reflections during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food soi mural lane framed by neon tuk-tuk trails during lantern festival blaze",
+      "weight": 0.9
+    },
+    {
+      "text": "old-town bazaar arcade framed by rattan screens during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side tech park skywalk framed by palm halos during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse island karst cave with hanging flower garlands under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest heritage tram stop framed by banana leaves during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff rooftop infinity ledge featuring wet cobbles amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side tech park skywalk with floating blooms under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon spa pavilion framed by canal reflections during candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove soi mural lane with banana leaves under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed rooftop infinity ledge featuring floating blooms amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town monsoon rooftop featuring dripping eaves amidst humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "old-town mango orchard row with palm halos under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove canal footbridge featuring color flag strings amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung island karst cave featuring palm halos amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border floating market dock with neon tuk-tuk trails under cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food monsoon rooftop featuring lotus lanterns amidst jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side island karst cave framed by teak balustrades during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rooftop infinity ledge featuring rattan screens amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung spa pavilion with wet cobbles under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain night market aisle framed by dripping eaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food jungle boardwalk featuring wet cobbles amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market lotus pond deck with color flag strings under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard limestone beach arch framed by canal reflections during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed rooftop infinity ledge with color flag strings under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border island karst cave featuring saffron monk umbrellas amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest rice terrace ridge framed by woven mats during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon wat staircase featuring dragonfruit crates amidst lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange teak mansion veranda with mist fans under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard wat staircase framed by rattan screens during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food soi mural lane with lotus lanterns under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed spa pavilion featuring saffron monk umbrellas amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market spa pavilion featuring hanging flower garlands amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town island karst cave framed by dragonfruit crates during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard skytrain platform framed by spice baskets during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest skytrain platform featuring pho leaves amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed bazaar arcade featuring mist fans amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted floating market dock featuring market chalkboards amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse teak mansion veranda framed by market chalkboards during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit mango orchard row with floating blooms under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier tech park skywalk featuring mist fans amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border night market aisle featuring wet cobbles amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon bazaar arcade featuring candle clusters amidst humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side teak mansion veranda with floating blooms under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town skytrain platform framed by woven mats during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border island karst cave featuring dragonfruit crates amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed harbor ferry gate framed by dragonfruit crates during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side floating market dock featuring dragonfruit crates amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain canal footbridge featuring pho leaves amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border island karst cave featuring floating blooms amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse skytrain platform framed by rattan screens during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed island karst cave with floating blooms under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed skytrain platform framed by palm halos during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side lotus pond deck with teak balustrades under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed soi mural lane with rattan screens under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung limestone beach arch featuring rattan screens amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border monsoon rooftop featuring pho leaves amidst river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff wat staircase with wet cobbles under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit harbor ferry gate with dragonfruit crates under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove limestone beach arch framed by floating blooms during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff bazaar arcade with hanging flower garlands under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse bazaar arcade featuring dragonfruit crates amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit soi mural lane framed by spice baskets during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled spa pavilion featuring saffron monk umbrellas amidst storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed floating market dock framed by spice baskets during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard teak mansion veranda with market chalkboards under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side floating market dock framed by spice baskets during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed bazaar arcade framed by wet cobbles during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted island karst cave framed by rattan screens during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier teak mansion veranda with neon tuk-tuk trails under skytrain shimmer night",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard soi mural lane featuring hanging flower garlands amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange jungle boardwalk featuring mist fans amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier soi mural lane framed by neon tuk-tuk trails during skytrain shimmer night",
+      "weight": 0.9
+    },
+    {
+      "text": "island-pier teak mansion veranda with color flag strings under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed rooftop infinity ledge with woven mats under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung teak mansion veranda with neon tuk-tuk trails under river breeze shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung skytrain platform framed by spice baskets during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rooftop infinity ledge featuring spice baskets amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon tech park skywalk featuring saffron monk umbrellas amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed teak mansion veranda framed by floating blooms during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit mango orchard row framed by woven mats during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier floating market dock with canal reflections under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain rice terrace ridge framed by spice baskets during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest lotus pond deck featuring pho leaves amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted bazaar arcade framed by spice baskets during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "limestone-cliff bazaar arcade framed by woven mats during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange canal footbridge with spice baskets under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed monsoon rooftop framed by banana leaves during blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed rooftop infinity ledge with spice baskets under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed wat staircase featuring hanging flower garlands amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung teak mansion veranda featuring saffron monk umbrellas amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange rice terrace ridge with rattan screens under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange monsoon rooftop featuring spice baskets amidst lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff wat staircase with mist fans under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market heritage tram stop framed by banana leaves during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange jungle boardwalk with market chalkboards under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted harbor ferry gate framed by woven mats during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed heritage tram stop with teak balustrades under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest wat staircase with dripping eaves under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange canal footbridge framed by mist fans during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market heritage tram stop with pho leaves under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung night market aisle featuring color flag strings amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier tech park skywalk featuring market chalkboards amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed jungle boardwalk featuring saffron monk umbrellas amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market jungle boardwalk framed by woven mats during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff canal footbridge framed by hanging flower garlands during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled tech park skywalk featuring spice baskets amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange tech park skywalk framed by canal reflections during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side limestone beach arch framed by rattan screens during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food rice terrace ridge featuring floating blooms amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted night market aisle featuring floating blooms amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed monsoon rooftop with spice baskets under skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain limestone beach arch featuring floating blooms amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food night market aisle framed by color flag strings during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border floating market dock with teak balustrades under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange soi mural lane framed by lotus lanterns during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck featuring lotus lanterns amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain heritage tram stop with banana leaves under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "lagoon-misted heritage tram stop framed by neon tuk-tuk trails during skytrain shimmer night",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed harbor ferry gate framed by wet cobbles during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff teak mansion veranda with dragonfruit crates under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit heritage tram stop featuring neon tuk-tuk trails amidst jungle chorus dawn",
+      "weight": 0.9
+    },
+    {
+      "text": "market-lit limestone beach arch with lotus lanterns under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "old-town wat staircase featuring spice baskets amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rooftop infinity ledge featuring teak balustrades amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung skytrain platform with saffron monk umbrellas under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon wat staircase with hanging flower garlands under cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed night market aisle featuring spice baskets amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung jungle boardwalk framed by market chalkboards during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed limestone beach arch featuring pho leaves amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung island karst cave framed by dripping eaves during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange spa pavilion with dripping eaves under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled harbor ferry gate framed by hanging flower garlands during lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit limestone beach arch featuring wet cobbles amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange rice terrace ridge framed by pho leaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit night market aisle framed by spice baskets during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted jungle boardwalk with wet cobbles under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town lotus pond deck with banana leaves under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border rice terrace ridge with neon tuk-tuk trails under lotus mist morning",
+      "weight": 0.9
+    },
+    {
+      "text": "teakhouse island karst cave featuring lotus lanterns amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain rooftop infinity ledge framed by palm halos during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted mango orchard row featuring palm halos amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed skytrain platform with teak balustrades under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest soi mural lane featuring dragonfruit crates amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung night market aisle featuring dragonfruit crates amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove soi mural lane featuring neon tuk-tuk trails amidst cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "floating-market monsoon rooftop with floating blooms under thunder build glow",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border island karst cave framed by spice baskets during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard rice terrace ridge with saffron monk umbrellas under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town skytrain platform featuring lotus lanterns amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled rooftop infinity ledge framed by spice baskets during blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove teak mansion veranda framed by dripping eaves during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange rice terrace ridge framed by canal reflections during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove rooftop infinity ledge featuring market chalkboards amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon rice terrace ridge featuring color flag strings amidst thunder build glow",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest bazaar arcade framed by market chalkboards during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled tech park skywalk with wet cobbles under skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain wat staircase with hanging flower garlands under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market mango orchard row framed by banana leaves during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed harbor ferry gate with woven mats under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain heritage tram stop with saffron monk umbrellas under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung lotus pond deck framed by neon tuk-tuk trails during cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-washed harbor ferry gate featuring teak balustrades amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal footbridge framed by woven mats during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain bazaar arcade featuring candle clusters amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "market-lit monsoon rooftop framed by lotus lanterns during thunder build glow",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side jungle boardwalk with color flag strings under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange skytrain platform featuring mist fans amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest rooftop infinity ledge featuring canal reflections amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit heritage tram stop featuring dripping eaves amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food monsoon rooftop framed by hanging flower garlands during river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit jungle boardwalk featuring color flag strings amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove canal footbridge with dripping eaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest island karst cave framed by banana leaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food floating market dock featuring floating blooms amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit island karst cave with lotus lanterns under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon tech park skywalk framed by mist fans during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed jungle boardwalk featuring spice baskets amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier harbor ferry gate with floating blooms under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town rice terrace ridge framed by teak balustrades during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff mango orchard row framed by neon tuk-tuk trails during candlelit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border island karst cave featuring wet cobbles amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain lotus pond deck featuring dragonfruit crates amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard monsoon rooftop framed by saffron monk umbrellas during candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier teak mansion veranda with mist fans under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff wat staircase with canal reflections under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung rice terrace ridge framed by dragonfruit crates during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier floating market dock featuring spice baskets amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier tech park skywalk framed by teak balustrades during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border wat staircase framed by pho leaves during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side tech park skywalk with dripping eaves under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove tech park skywalk featuring mist fans amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange island karst cave featuring wet cobbles amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard floating market dock with dragonfruit crates under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled rooftop infinity ledge with palm halos under candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove wat staircase framed by dripping eaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit harbor ferry gate framed by market chalkboards during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market monsoon rooftop featuring candle clusters amidst storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse wat staircase framed by banana leaves during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side night market aisle with market chalkboards under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier floating market dock framed by woven mats during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove lotus pond deck framed by banana leaves during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit teak mansion veranda framed by market chalkboards during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange monsoon rooftop with canal reflections under humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange bazaar arcade with pho leaves under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove limestone beach arch with hanging flower garlands under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted tech park skywalk featuring dragonfruit crates amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain teak mansion veranda framed by woven mats during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange canal footbridge with candle clusters under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border floating market dock framed by neon tuk-tuk trails during electric market hum",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain spa pavilion with palm halos under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit mango orchard row framed by dragonfruit crates during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled tech park skywalk with lotus lanterns under jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "temple-courtyard canal footbridge featuring wet cobbles amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "old-town island karst cave with color flag strings under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange jungle boardwalk with pho leaves under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food wat staircase framed by hanging flower garlands during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard skytrain platform featuring teak balustrades amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "mango-grove teak mansion veranda framed by market chalkboards during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market heritage tram stop featuring spice baskets amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town floating market dock framed by floating blooms during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit soi mural lane with pho leaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung teak mansion veranda framed by rattan screens during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung canal footbridge with market chalkboards under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed bazaar arcade featuring mist fans amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market heritage tram stop framed by palm halos during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side mango orchard row with saffron monk umbrellas under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard rice terrace ridge featuring saffron monk umbrellas amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rice terrace ridge featuring teak balustrades amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "market-lit monsoon rooftop featuring neon tuk-tuk trails amidst river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit floating market dock framed by candle clusters during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed limestone beach arch with wet cobbles under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon bazaar arcade framed by mist fans during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung mango orchard row with wet cobbles under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse wat staircase with canal reflections under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain limestone beach arch featuring mist fans amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit tech park skywalk featuring canal reflections amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border monsoon rooftop framed by lotus lanterns during lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "island-pier tech park skywalk featuring wet cobbles amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed island karst cave with banana leaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed bazaar arcade framed by canal reflections during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled tech park skywalk framed by hanging flower garlands during lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed night market aisle framed by pho leaves during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard jungle boardwalk framed by neon tuk-tuk trails during sunrise saffron wash",
+      "weight": 0.9
+    },
+    {
+      "text": "old-town mango orchard row framed by canal reflections during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse rooftop infinity ledge with mist fans under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town mango orchard row framed by saffron monk umbrellas during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed night market aisle framed by pho leaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung lotus pond deck framed by woven mats during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit tech park skywalk featuring banana leaves amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rice terrace ridge framed by hanging flower garlands during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse harbor ferry gate framed by mist fans during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted canal footbridge featuring dripping eaves amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border wat staircase with pho leaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard lotus pond deck featuring dripping eaves amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse rooftop infinity ledge with pho leaves under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest heritage tram stop featuring dragonfruit crates amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain canal footbridge featuring woven mats amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled rooftop infinity ledge framed by palm halos during humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food limestone beach arch with woven mats under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market heritage tram stop with pho leaves under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "temple-courtyard tech park skywalk framed by color flag strings during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side soi mural lane featuring neon tuk-tuk trails amidst river breeze shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "monsoon-cooled night market aisle framed by mist fans during thunder build glow",
+      "weight": 0.85
+    },
+    {
+      "text": "old-town bazaar arcade featuring floating blooms amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff tech park skywalk framed by palm halos during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed soi mural lane framed by floating blooms during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove night market aisle featuring rattan screens amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market rice terrace ridge featuring spice baskets amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse spa pavilion with hanging flower garlands under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard mango orchard row with pho leaves under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food soi mural lane featuring rattan screens amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food teak mansion veranda featuring banana leaves amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed night market aisle with lotus lanterns under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung night market aisle framed by pho leaves during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove floating market dock framed by mist fans during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled harbor ferry gate with market chalkboards under jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "cloud-forest lotus pond deck with color flag strings under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon jungle boardwalk framed by dragonfruit crates during cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "temple-courtyard teak mansion veranda framed by color flag strings during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market skytrain platform framed by banana leaves during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff harbor ferry gate featuring candle clusters amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove monsoon rooftop framed by saffron monk umbrellas during electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market rooftop infinity ledge framed by hanging flower garlands during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled island karst cave with woven mats under lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "temple-courtyard wat staircase featuring woven mats amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side soi mural lane framed by rattan screens during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove bazaar arcade featuring color flag strings amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed island karst cave featuring saffron monk umbrellas amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side skytrain platform featuring hanging flower garlands amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain canal footbridge framed by dragonfruit crates during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange soi mural lane framed by saffron monk umbrellas during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit bazaar arcade with wet cobbles under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove canal footbridge featuring wet cobbles amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain lotus pond deck with rattan screens under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market jungle boardwalk with lotus lanterns under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit bazaar arcade with candle clusters under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse limestone beach arch framed by hanging flower garlands during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted spa pavilion with floating blooms under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side jungle boardwalk framed by wet cobbles during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rice terrace ridge framed by color flag strings during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse soi mural lane framed by neon tuk-tuk trails during thunder build glow",
+      "weight": 0.9
+    },
+    {
+      "text": "market-lit lotus pond deck featuring floating blooms amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market rice terrace ridge with candle clusters under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse limestone beach arch featuring candle clusters amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard heritage tram stop featuring dragonfruit crates amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed rice terrace ridge with saffron monk umbrellas under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed island karst cave featuring market chalkboards amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff bazaar arcade with candle clusters under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted bazaar arcade featuring canal reflections amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "floating-market limestone beach arch featuring canal reflections amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "teakhouse island karst cave featuring wet cobbles amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted canal footbridge with floating blooms under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market jungle boardwalk with saffron monk umbrellas under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon limestone beach arch framed by color flag strings during storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted heritage tram stop with candle clusters under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted mango orchard row with rattan screens under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse mango orchard row with candle clusters under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border island karst cave framed by dragonfruit crates during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed mango orchard row with neon tuk-tuk trails under cicada twilight",
+      "weight": 0.9
+    },
+    {
+      "text": "cloud-forest jungle boardwalk framed by neon tuk-tuk trails during storm-cleared moon",
+      "weight": 0.9
+    },
+    {
+      "text": "sunrise-orange lotus pond deck with candle clusters under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town lotus pond deck framed by dripping eaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "limestone-cliff canal footbridge framed by pho leaves during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side island karst cave framed by color flag strings during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff harbor ferry gate with candle clusters under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food heritage tram stop framed by wet cobbles during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon harbor ferry gate featuring wet cobbles amidst electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market spa pavilion framed by banana leaves during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff tech park skywalk framed by color flag strings during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border bazaar arcade featuring dripping eaves amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange wat staircase with banana leaves under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove jungle boardwalk framed by lotus lanterns during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "old-town spa pavilion framed by teak balustrades during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier tech park skywalk with rattan screens under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange soi mural lane with floating blooms under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest tech park skywalk featuring floating blooms amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain wat staircase framed by market chalkboards during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market spa pavilion with candle clusters under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town jungle boardwalk framed by hanging flower garlands during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side rooftop infinity ledge featuring pho leaves amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest monsoon rooftop with woven mats under lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove heritage tram stop featuring hanging flower garlands amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit rice terrace ridge featuring neon tuk-tuk trails amidst electric market hum",
+      "weight": 0.9
+    },
+    {
+      "text": "lagoon-misted rooftop infinity ledge framed by market chalkboards during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove island karst cave framed by floating blooms during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck framed by floating blooms during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed island karst cave featuring floating blooms amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff jungle boardwalk featuring saffron monk umbrellas amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain floating market dock with neon tuk-tuk trails under sunrise saffron wash",
+      "weight": 0.9
+    },
+    {
+      "text": "monsoon-cooled teak mansion veranda framed by banana leaves during thunder build glow",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain bazaar arcade featuring banana leaves amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted soi mural lane featuring pho leaves amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung spa pavilion with neon tuk-tuk trails under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "skytrain monsoon rooftop featuring dragonfruit crates amidst skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food limestone beach arch framed by dripping eaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border monsoon rooftop featuring lotus lanterns amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted monsoon rooftop with teak balustrades under skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung night market aisle with mist fans under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed soi mural lane with woven mats under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "nocturne-neon heritage tram stop framed by spice baskets during storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung rice terrace ridge framed by candle clusters during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "mango-grove soi mural lane framed by dragonfruit crates during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted wat staircase framed by saffron monk umbrellas during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain heritage tram stop featuring woven mats amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange tech park skywalk with pho leaves under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted tech park skywalk framed by banana leaves during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon bazaar arcade framed by teak balustrades during humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border monsoon rooftop featuring saffron monk umbrellas amidst cicada twilight",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung bazaar arcade featuring color flag strings amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove island karst cave framed by candle clusters during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff heritage tram stop featuring palm halos amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed jungle boardwalk framed by banana leaves during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed spa pavilion featuring woven mats amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "monsoon-cooled wat staircase with color flag strings under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "nocturne-neon jungle boardwalk with lotus lanterns under lotus mist morning",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border mango orchard row framed by mist fans during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse spa pavilion with lotus lanterns under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border lotus pond deck with mist fans under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit night market aisle framed by color flag strings during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town spa pavilion with market chalkboards under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest floating market dock framed by mist fans during humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "street-food heritage tram stop with banana leaves under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town monsoon rooftop with hanging flower garlands under storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market harbor ferry gate featuring floating blooms amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side night market aisle featuring pho leaves amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled wat staircase with mist fans under canal mirror noon",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted spa pavilion featuring market chalkboards amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town bazaar arcade framed by banana leaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest bazaar arcade featuring floating blooms amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed monsoon rooftop with candle clusters under river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit tech park skywalk framed by pho leaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest soi mural lane with neon tuk-tuk trails under electric market hum",
+      "weight": 0.9
+    },
+    {
+      "text": "canal-side teak mansion veranda framed by mist fans during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard tech park skywalk with woven mats under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier rooftop infinity ledge featuring banana leaves amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side jungle boardwalk framed by hanging flower garlands during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market island karst cave with pho leaves under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed tech park skywalk featuring palm halos amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed island karst cave with palm halos under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled monsoon rooftop framed by lotus lanterns during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market jungle boardwalk framed by color flag strings during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff lotus pond deck featuring woven mats amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed tech park skywalk featuring rattan screens amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border lotus pond deck featuring wet cobbles amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon island karst cave featuring canal reflections amidst jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border floating market dock with color flag strings under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove harbor ferry gate with color flag strings under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff rooftop infinity ledge with candle clusters under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market bazaar arcade featuring mist fans amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "monsoon-cooled mango orchard row framed by neon tuk-tuk trails during jungle chorus dawn",
+      "weight": 0.85
+    },
+    {
+      "text": "jungle-border rice terrace ridge framed by pho leaves during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier heritage tram stop featuring pho leaves amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market night market aisle framed by neon tuk-tuk trails during sunrise saffron wash",
+      "weight": 0.9
+    },
+    {
+      "text": "monsoon-cooled teak mansion veranda with woven mats under storm-cleared moon",
+      "weight": 0.85
+    },
+    {
+      "text": "rain-washed bazaar arcade framed by spice baskets during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed island karst cave framed by banana leaves during lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung monsoon rooftop framed by neon tuk-tuk trails during lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung soi mural lane featuring candle clusters amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove tech park skywalk with teak balustrades under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung limestone beach arch framed by banana leaves during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse limestone beach arch with dragonfruit crates under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard bazaar arcade framed by dragonfruit crates during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town teak mansion veranda with neon tuk-tuk trails under lantern festival blaze",
+      "weight": 0.9
+    },
+    {
+      "text": "jungle-border teak mansion veranda with neon tuk-tuk trails under blue-hour incense haze",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain rooftop infinity ledge framed by dragonfruit crates during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit skytrain platform with dragonfruit crates under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed limestone beach arch with pho leaves under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove island karst cave with dragonfruit crates under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain canal footbridge featuring palm halos amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard island karst cave with floating blooms under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "cloud-forest limestone beach arch featuring palm halos amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff canal footbridge featuring canal reflections amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain island karst cave framed by pho leaves during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon canal footbridge featuring floating blooms amidst electric market hum",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung tech park skywalk with woven mats under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse lotus pond deck featuring canal reflections amidst storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed monsoon rooftop featuring pho leaves amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side floating market dock framed by pho leaves during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove tech park skywalk framed by lotus lanterns during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange jungle boardwalk framed by color flag strings during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff soi mural lane featuring canal reflections amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung monsoon rooftop framed by saffron monk umbrellas during lantern festival blaze",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-misted lotus pond deck with dripping eaves under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier mango orchard row with floating blooms under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange jungle boardwalk featuring lotus lanterns amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove jungle boardwalk framed by dripping eaves during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff soi mural lane framed by rattan screens during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier canal footbridge with candle clusters under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town bazaar arcade with neon tuk-tuk trails under candlelit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "skytrain night market aisle with woven mats under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-washed limestone beach arch framed by woven mats during skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung limestone beach arch with saffron monk umbrellas under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon floating market dock featuring wet cobbles amidst canal mirror noon",
+      "weight": 0.85
+    },
+    {
+      "text": "saffron-robed bazaar arcade with color flag strings under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain lotus pond deck featuring woven mats amidst cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove bazaar arcade framed by palm halos during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier spa pavilion featuring canal reflections amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted teak mansion veranda with wet cobbles under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market monsoon rooftop with hanging flower garlands under skytrain shimmer night",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market spa pavilion with mist fans under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit soi mural lane framed by dragonfruit crates during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town spa pavilion featuring banana leaves amidst electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "skytrain rooftop infinity ledge framed by canal reflections during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon mango orchard row framed by lotus lanterns during river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove jungle boardwalk with dripping eaves under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier wat staircase with woven mats under skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse bazaar arcade featuring woven mats amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit lotus pond deck featuring mist fans amidst canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse harbor ferry gate with woven mats under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "temple-courtyard mango orchard row with spice baskets under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border floating market dock featuring saffron monk umbrellas amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung canal footbridge with pho leaves under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed skytrain platform framed by color flag strings during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town island karst cave with hanging flower garlands under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "jungle-border bazaar arcade with color flag strings under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung skytrain platform featuring hanging flower garlands amidst lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier harbor ferry gate with palm halos under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon soi mural lane framed by hanging flower garlands during thunder build glow",
+      "weight": 0.85
+    },
+    {
+      "text": "canal-side night market aisle with lotus lanterns under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town teak mansion veranda featuring market chalkboards amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier bazaar arcade with color flag strings under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed canal footbridge with market chalkboards under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted bazaar arcade with dragonfruit crates under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted harbor ferry gate featuring woven mats amidst sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove lotus pond deck featuring woven mats amidst lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse spa pavilion framed by palm halos during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side canal footbridge with banana leaves under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung heritage tram stop with woven mats under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit mango orchard row featuring floating blooms amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed limestone beach arch framed by floating blooms during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange monsoon rooftop featuring dripping eaves amidst river breeze shimmer",
+      "weight": 0.85
+    },
+    {
+      "text": "market-lit skytrain platform with floating blooms under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff bazaar arcade framed by woven mats during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit bazaar arcade framed by floating blooms during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung wat staircase with dripping eaves under lantern festival blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier soi mural lane framed by neon tuk-tuk trails during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung night market aisle framed by market chalkboards during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier wat staircase framed by rattan screens during electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard skytrain platform framed by dripping eaves during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff harbor ferry gate framed by dripping eaves during lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard limestone beach arch framed by canal reflections during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove rice terrace ridge framed by banana leaves during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff mango orchard row with color flag strings under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market rooftop infinity ledge framed by palm halos during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon canal footbridge framed by woven mats during humid midnight neon",
+      "weight": 0.85
+    },
+    {
+      "text": "street-food floating market dock featuring pho leaves amidst jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed lotus pond deck featuring lotus lanterns amidst monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "floating-market spa pavilion with canal reflections under river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed heritage tram stop with lotus lanterns under jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted mango orchard row with saffron monk umbrellas under storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food island karst cave featuring wet cobbles amidst candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side mango orchard row framed by hanging flower garlands during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-lit jungle boardwalk with mist fans under canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff wat staircase with palm halos under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town night market aisle with candle clusters under sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market limestone beach arch framed by pho leaves during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side jungle boardwalk featuring spice baskets amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon skytrain platform featuring market chalkboards amidst blue-hour incense haze",
+      "weight": 0.85
+    },
+    {
+      "text": "sunrise-orange spa pavilion featuring neon tuk-tuk trails amidst storm-cleared moon",
+      "weight": 0.9
+    },
+    {
+      "text": "saffron-robed rice terrace ridge framed by market chalkboards during thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed mango orchard row featuring rattan screens amidst skytrain shimmer night",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town spa pavilion with floating blooms under thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff canal footbridge featuring palm halos amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food harbor ferry gate framed by pho leaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "old-town mango orchard row with pho leaves under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse soi mural lane featuring hanging flower garlands amidst river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "saffron-robed tech park skywalk featuring saffron monk umbrellas amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-misted soi mural lane with spice baskets under electric market hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sunrise-orange spa pavilion framed by teak balustrades during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mango-grove jungle boardwalk framed by candle clusters during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "island-pier lotus pond deck with hanging flower garlands under cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff harbor ferry gate framed by market chalkboards during cicada twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed canal footbridge with rattan screens under candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed skytrain platform framed by woven mats during blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food skytrain platform framed by wet cobbles during storm-cleared moon",
+      "weight": 1.0
+    },
+    {
+      "text": "temple-courtyard jungle boardwalk framed by woven mats during canal mirror noon",
+      "weight": 1.0
+    },
+    {
+      "text": "teakhouse canal footbridge featuring floating blooms amidst blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "nocturne-neon tech park skywalk featuring rattan screens amidst candlelit dusk",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung night market aisle framed by dripping eaves during monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "lantern-strung lotus pond deck framed by banana leaves during sunrise saffron wash",
+      "weight": 1.0
+    },
+    {
+      "text": "floating-market tech park skywalk with dragonfruit crates under monsoon drizzle sparkle",
+      "weight": 0.85
+    },
+    {
+      "text": "mango-grove bazaar arcade with saffron monk umbrellas under humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "mango-grove canal footbridge framed by woven mats during jungle chorus dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-washed canal footbridge framed by canal reflections during river breeze shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung harbor ferry gate with woven mats under lotus mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "canal-side tech park skywalk featuring neon tuk-tuk trails amidst humid midnight neon",
+      "weight": 0.9
+    },
+    {
+      "text": "lantern-strung spa pavilion with hanging flower garlands under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "limestone-cliff rooftop infinity ledge with saffron monk umbrellas under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "street-food limestone beach arch featuring candle clusters amidst thunder build glow",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town canal footbridge with canal reflections under blue-hour incense haze",
+      "weight": 1.0
+    },
+    {
+      "text": "old-town harbor ferry gate framed by pho leaves during candlelit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-strung night market aisle featuring color flag strings amidst sunrise saffron wash",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "silk pha khao ma belt with orchid line",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel teak bead bracelet",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue lacquered hair stick",
+        "weight": 0.6
+      },
+      {
+        "text": "lotus charm anklet with bells",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "incense smoke ribbons weaving around arms",
+        "weight": 0.6
+      },
+      {
+        "text": "longtail boat spray crossing background",
+        "weight": 0.6
+      },
+      {
+        "text": "monsoon fan gust rippling outfit",
+        "weight": 0.6
+      },
+      {
+        "text": "firefly arcs peppering bokeh",
+        "weight": 0.6
+      }
+    ]
+  }
+}

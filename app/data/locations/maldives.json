@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "storm-cleared coral nursery raft featuring mist fans amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned reef dock framed by driftwood stacks during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove sandbar runway featuring wave spray amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "moon-washed lagoon swing with orchid garlands under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed lagoon swing framed by glass floor panels during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored yacht stern featuring tiki lanterns amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay glow plankton bay framed by glass floor panels during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater reef dock featuring silk cabana drapes amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared overwater villa walk featuring bioluminescent trails amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed yacht stern featuring orchid garlands amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa lagoon swing framed by driftwood stacks during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared glow plankton bay featuring woven parasols amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "hammock-bay catamaran net featuring kelp ropes amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored manta point platform framed by coral tiles during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove catamaran net featuring silk cabana drapes amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored yacht stern featuring kelp ropes amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater overwater villa walk with tiki lanterns under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet lagoon swing featuring glistening shells amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sunset deck with bioluminescent trails under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay tidepool patio with rope hammocks under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunset deck with glistening shells under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned yacht stern featuring rattan lantern cords amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa lagoon swing featuring silk cabana drapes amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned palm tunnel with orchid garlands under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "storm-cleared sky bar bridge with coral tiles under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit overwater villa walk framed by glistening shells during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sky bar bridge framed by persimmon cushions during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "storm-cleared spa courtyard featuring wave spray amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood glow plankton bay featuring bubble curtain amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside spa courtyard featuring silk cabana drapes amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned yacht stern with silk cabana drapes under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "jetty-lined glow plankton bay framed by palm shadows during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set spa courtyard featuring persimmon cushions amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit lagoon swing with teal surfboards under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set yacht stern featuring rope hammocks amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared spa courtyard with palm shadows under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "reefside overwater villa walk with kelp ropes under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove overwater villa walk framed by driftwood stacks during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck manta point platform featuring bubble curtain amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit coral nursery raft framed by woven parasols during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sun-bleached jungle boardwalk framed by persimmon cushions during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar tidepool patio with kelp ropes under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored jungle boardwalk featuring mist fans amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined coral nursery raft with rattan lantern cords under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sandbar runway framed by floating breakfast trays during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa palm tunnel featuring coral tiles amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater reef dock featuring persimmon cushions amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa jungle boardwalk framed by palm shadows during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater reef dock featuring rope hammocks amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck rain pavilion framed by palm shadows during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned rain pavilion featuring glistening shells amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "hammock-bay overwater villa walk framed by silk cabana drapes during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater jungle boardwalk featuring persimmon cushions amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned coral nursery raft featuring persimmon cushions amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood catamaran net with coral tiles under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed lagoon swing framed by persimmon cushions during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "palapa palm tunnel with mist fans under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set infinity pool lip with wave spray under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck overwater villa walk framed by woven parasols during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed coral nursery raft framed by fiber optic railings during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent outdoor cinema with bioluminescent trails under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "mangrove rain pavilion featuring rattan lantern cords amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck outdoor cinema with driftwood stacks under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sunset deck featuring bubble curtain amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored tidepool patio with floating breakfast trays under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sandbar sky bar bridge featuring glistening shells amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside hammock lounge with rope hammocks under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet overwater villa walk featuring kelp ropes amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed jungle boardwalk with fiber optic railings under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jetty pavilion with coral tiles under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sky bar bridge with floating breakfast trays under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar reef dock featuring persimmon cushions amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached glow plankton bay featuring orchid garlands amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sky bar bridge framed by persimmon cushions during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "storm-cleared yacht stern framed by rope hammocks during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit manta point platform framed by floating breakfast trays during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned jungle boardwalk framed by woven parasols during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached tidepool patio framed by bioluminescent trails during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "dawn-lit outdoor cinema framed by tiki lanterns during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay tidepool patio with silk cabana drapes under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sandbar runway with fiber optic railings under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sunset deck framed by woven parasols during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay glow plankton bay featuring floating breakfast trays amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned lagoon swing featuring mist fans amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar glow plankton bay framed by rope hammocks during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "dawn-lit yacht stern with glistening shells under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed sunset deck framed by mist fans during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned jungle boardwalk with glistening shells under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jetty pavilion featuring persimmon cushions amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached overwater villa walk with glass floor panels under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined tidepool patio framed by kelp ropes during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied manta point platform with kelp ropes under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood rain pavilion with teal surfboards under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay lagoon swing with rope hammocks under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck infinity pool lip framed by tiki lanterns during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sandbar runway framed by glass floor panels during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sunset deck with rope hammocks under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa rain pavilion featuring rope hammocks amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "hammock-bay tidepool patio featuring woven parasols amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached overwater villa walk featuring tiki lanterns amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood jetty pavilion with mist fans under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa manta point platform framed by teal surfboards during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "yacht-anchored rain pavilion featuring wave spray amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed overwater villa walk featuring coral tiles amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard featuring driftwood stacks amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned infinity pool lip with fiber optic railings under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside sandbar runway framed by floating breakfast trays during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "yacht-anchored yacht stern featuring persimmon cushions amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jetty pavilion framed by floating breakfast trays during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck sandbar runway with tiki lanterns under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored overwater villa walk framed by tiki lanterns during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared tidepool patio featuring fiber optic railings amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent reef dock featuring bioluminescent trails amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "orchid-canopied sky bar bridge with rope hammocks under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent yacht stern with glass floor panels under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay yacht stern framed by glistening shells during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "storm-cleared spa courtyard framed by palm shadows during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned jetty pavilion framed by woven parasols during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit sky bar bridge with kelp ropes under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent jetty pavilion framed by wave spray during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "hammock-bay hammock lounge featuring driftwood stacks amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined glow plankton bay framed by silk cabana drapes during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "overwater coral nursery raft featuring glass floor panels amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached infinity pool lip featuring glass floor panels amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached rain pavilion with silk cabana drapes under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied catamaran net featuring palm shadows amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed spa courtyard featuring tiki lanterns amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "spa-quiet outdoor cinema featuring bioluminescent trails amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned reef dock featuring wave spray amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed overwater villa walk framed by rope hammocks during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "lagoon-set infinity pool lip featuring mist fans amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sun-bleached jungle boardwalk featuring fiber optic railings amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit sunset deck featuring coral tiles amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sandbar runway featuring orchid garlands amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood palm tunnel featuring rattan lantern cords amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent glow plankton bay featuring rope hammocks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform featuring bubble curtain amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned spa courtyard with mist fans under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set infinity pool lip framed by persimmon cushions during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set jetty pavilion featuring wave spray amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent yacht stern with coral tiles under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied hammock lounge featuring wave spray amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay yacht stern with bubble curtain under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove catamaran net framed by driftwood stacks during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed infinity pool lip framed by bubble curtain during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned lagoon swing framed by coral tiles during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside hammock lounge framed by teal surfboards during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove coral nursery raft with rope hammocks under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside manta point platform framed by kelp ropes during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jetty pavilion framed by tiki lanterns during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck jetty pavilion framed by driftwood stacks during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed sandbar runway featuring floating breakfast trays amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sandbar overwater villa walk framed by floating breakfast trays during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet yacht stern with fiber optic railings under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "driftwood overwater villa walk framed by kelp ropes during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned manta point platform with persimmon cushions under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set palm tunnel with silk cabana drapes under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar spa courtyard featuring fiber optic railings amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined lagoon swing with fiber optic railings under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sunset deck with bioluminescent trails under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned coral nursery raft featuring glistening shells amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform framed by rope hammocks during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "dawn-lit jungle boardwalk with woven parasols under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared outdoor cinema framed by wave spray during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sunset deck featuring persimmon cushions amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared infinity pool lip with woven parasols under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet catamaran net with driftwood stacks under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net framed by bubble curtain during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed rain pavilion framed by rope hammocks during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "storm-cleared jetty pavilion featuring mist fans amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "aqua-latticed sky bar bridge featuring glistening shells amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored tidepool patio featuring teal surfboards amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "overwater tidepool patio featuring wave spray amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "overwater hammock lounge with rattan lantern cords under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored infinity pool lip featuring driftwood stacks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside catamaran net with glass floor panels under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sandbar runway framed by rope hammocks during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net framed by mist fans during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-deck glow plankton bay with orchid garlands under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent reef dock framed by fiber optic railings during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform featuring mist fans amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "mangrove infinity pool lip with bubble curtain under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "jetty-lined glow plankton bay featuring rattan lantern cords amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood lagoon swing framed by silk cabana drapes during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay overwater villa walk with silk cabana drapes under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined glow plankton bay with woven parasols under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "palapa catamaran net framed by teal surfboards during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "hammock-bay jetty pavilion featuring rope hammocks amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared coral nursery raft with fiber optic railings under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet outdoor cinema framed by rope hammocks during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit spa courtyard featuring persimmon cushions amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied glow plankton bay featuring floating breakfast trays amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sky bar bridge framed by kelp ropes during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck spa courtyard framed by coral tiles during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set palm tunnel with persimmon cushions under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa sunset deck featuring glistening shells amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jungle boardwalk with orchid garlands under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jetty pavilion with floating breakfast trays under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "lagoon-set sky bar bridge framed by bioluminescent trails during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached coral nursery raft with teal surfboards under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar glow plankton bay with rattan lantern cords under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net framed by palm shadows during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside hammock lounge framed by orchid garlands during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sandbar outdoor cinema with driftwood stacks under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood reef dock featuring kelp ropes amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet reef dock with glistening shells under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood palm tunnel featuring glistening shells amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jungle boardwalk with driftwood stacks under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed jetty pavilion featuring kelp ropes amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined outdoor cinema featuring glistening shells amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove catamaran net with silk cabana drapes under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck lagoon swing with rope hammocks under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar spa courtyard with persimmon cushions under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet jetty pavilion framed by silk cabana drapes during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined coral nursery raft with fiber optic railings under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove outdoor cinema framed by bioluminescent trails during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sunset deck with glass floor panels under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "spa-quiet jungle boardwalk with teal surfboards under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck glow plankton bay featuring rope hammocks amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet catamaran net framed by glistening shells during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached reef dock with floating breakfast trays under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set lagoon swing framed by driftwood stacks during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit manta point platform with glass floor panels under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside overwater villa walk featuring rattan lantern cords amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached infinity pool lip featuring tiki lanterns amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined manta point platform featuring coral tiles amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent sky bar bridge featuring driftwood stacks amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet jungle boardwalk framed by palm shadows during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed lagoon swing featuring silk cabana drapes amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sun-bleached reef dock featuring rattan lantern cords amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove glow plankton bay featuring tiki lanterns amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined reef dock featuring silk cabana drapes amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater jungle boardwalk featuring bioluminescent trails amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay lagoon swing framed by mist fans during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa jungle boardwalk framed by wave spray during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet yacht stern featuring kelp ropes amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck outdoor cinema with rope hammocks under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern with rope hammocks under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed sandbar runway featuring fiber optic railings amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed sunset deck framed by driftwood stacks during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit manta point platform with floating breakfast trays under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck manta point platform featuring glass floor panels amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sandbar runway featuring rope hammocks amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned rain pavilion framed by palm shadows during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied glow plankton bay featuring rope hammocks amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sunset deck with wave spray under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside coral nursery raft framed by palm shadows during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached hammock lounge with teal surfboards under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove rain pavilion featuring teal surfboards amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood tidepool patio framed by bubble curtain during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck yacht stern with silk cabana drapes under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "glass-deck yacht stern framed by persimmon cushions during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside sky bar bridge with orchid garlands under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood rain pavilion framed by driftwood stacks during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood rain pavilion framed by teal surfboards during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard framed by bubble curtain during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit coral nursery raft with fiber optic railings under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa sunset deck framed by fiber optic railings during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside lagoon swing with fiber optic railings under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside yacht stern featuring mist fans amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet manta point platform with floating breakfast trays under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored jetty pavilion featuring kelp ropes amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached tidepool patio with woven parasols under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "jetty-lined sunset deck with rattan lantern cords under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit lagoon swing with wave spray under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-canopied glow plankton bay with bioluminescent trails under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa infinity pool lip featuring floating breakfast trays amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove sunset deck with bioluminescent trails under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck glow plankton bay with palm shadows under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored jetty pavilion framed by rope hammocks during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar manta point platform featuring persimmon cushions amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-canopied yacht stern framed by mist fans during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed coral nursery raft framed by mist fans during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed reef dock featuring wave spray amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored reef dock with silk cabana drapes under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied reef dock with woven parasols under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sunset deck featuring bioluminescent trails amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "jetty-lined lagoon swing featuring rattan lantern cords amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-canopied outdoor cinema featuring glistening shells amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "aqua-latticed manta point platform with silk cabana drapes under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit glow plankton bay with glistening shells under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored jetty pavilion with bioluminescent trails under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sky bar bridge with glistening shells under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet sky bar bridge with bubble curtain under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "moon-washed lagoon swing framed by fiber optic railings during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored spa courtyard featuring teal surfboards amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay outdoor cinema with fiber optic railings under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "aqua-latticed jetty pavilion featuring rope hammocks amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove reef dock with persimmon cushions under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck glow plankton bay with rattan lantern cords under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied rain pavilion framed by orchid garlands during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached spa courtyard framed by floating breakfast trays during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "spa-quiet reef dock framed by silk cabana drapes during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "luminescent sunset deck with glistening shells under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck reef dock framed by bubble curtain during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-set sunset deck featuring bioluminescent trails amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove coral nursery raft featuring driftwood stacks amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove overwater villa walk framed by orchid garlands during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck jungle boardwalk with palm shadows under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sunset deck framed by tiki lanterns during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "luminescent hammock lounge with glass floor panels under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar spa courtyard featuring mist fans amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit reef dock with glass floor panels under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood palm tunnel framed by mist fans during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater reef dock featuring glistening shells amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside manta point platform framed by mist fans during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sunset deck framed by rattan lantern cords during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set rain pavilion with palm shadows under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached lagoon swing featuring kelp ropes amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "luminescent infinity pool lip framed by orchid garlands during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern featuring floating breakfast trays amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "overwater overwater villa walk featuring palm shadows amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sandbar runway framed by tiki lanterns during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined sunset deck with silk cabana drapes under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set jetty pavilion framed by wave spray during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside catamaran net with teal surfboards under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored lagoon swing featuring palm shadows amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "storm-cleared lagoon swing featuring driftwood stacks amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater hammock lounge with orchid garlands under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove coral nursery raft framed by tiki lanterns during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern featuring driftwood stacks amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood outdoor cinema with rope hammocks under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined outdoor cinema featuring coral tiles amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed glow plankton bay featuring coral tiles amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined jetty pavilion framed by silk cabana drapes during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay hammock lounge with tiki lanterns under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "hammock-bay reef dock with persimmon cushions under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar coral nursery raft framed by kelp ropes during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sandbar runway with fiber optic railings under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sandbar manta point platform with coral tiles under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood overwater villa walk framed by orchid garlands during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck reef dock framed by wave spray during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed reef dock framed by silk cabana drapes during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sandbar runway featuring rope hammocks amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached jungle boardwalk featuring mist fans amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa hammock lounge framed by mist fans during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater coral nursery raft with orchid garlands under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sun-bleached outdoor cinema featuring woven parasols amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared jungle boardwalk framed by rattan lantern cords during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sandbar runway framed by orchid garlands during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet lagoon swing with mist fans under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa jungle boardwalk with fiber optic railings under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed yacht stern featuring mist fans amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jetty pavilion featuring driftwood stacks amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck lagoon swing with bubble curtain under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa rain pavilion framed by woven parasols during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood jungle boardwalk with kelp ropes under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside rain pavilion framed by silk cabana drapes during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside overwater villa walk framed by silk cabana drapes during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set reef dock framed by orchid garlands during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "palapa yacht stern featuring rope hammocks amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined spa courtyard featuring rope hammocks amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "yacht-anchored catamaran net featuring teal surfboards amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned yacht stern framed by driftwood stacks during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sandbar overwater villa walk with bubble curtain under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar rain pavilion framed by rope hammocks during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent glow plankton bay framed by rope hammocks during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater catamaran net framed by driftwood stacks during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar palm tunnel featuring rope hammocks amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sandbar runway featuring wave spray amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet tidepool patio framed by rope hammocks during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached jetty pavilion featuring fiber optic railings amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned palm tunnel framed by orchid garlands during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet hammock lounge framed by wave spray during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove overwater villa walk framed by tiki lanterns during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "jetty-lined hammock lounge featuring fiber optic railings amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed outdoor cinema with teal surfboards under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay jetty pavilion framed by rope hammocks during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied glow plankton bay with bioluminescent trails under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit infinity pool lip framed by glistening shells during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned jetty pavilion with driftwood stacks under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside hammock lounge featuring fiber optic railings amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-canopied spa courtyard featuring woven parasols amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned hammock lounge featuring silk cabana drapes amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "reefside glow plankton bay framed by tiki lanterns during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sunset deck featuring bubble curtain amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "driftwood rain pavilion framed by bioluminescent trails during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit yacht stern featuring silk cabana drapes amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar catamaran net with teal surfboards under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined overwater villa walk with floating breakfast trays under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored rain pavilion with wave spray under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent coral nursery raft framed by orchid garlands during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa jetty pavilion featuring driftwood stacks amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached yacht stern featuring persimmon cushions amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa jetty pavilion with persimmon cushions under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent sandbar runway featuring persimmon cushions amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied jetty pavilion with bubble curtain under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside yacht stern with orchid garlands under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent rain pavilion featuring kelp ropes amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent palm tunnel framed by teal surfboards during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar yacht stern framed by palm shadows during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater catamaran net framed by rope hammocks during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set overwater villa walk framed by coral tiles during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "yacht-anchored palm tunnel with rope hammocks under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck overwater villa walk featuring rope hammocks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa sky bar bridge with fiber optic railings under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "luminescent hammock lounge featuring woven parasols amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay jungle boardwalk with rope hammocks under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed overwater villa walk with floating breakfast trays under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared overwater villa walk framed by persimmon cushions during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed glow plankton bay framed by tiki lanterns during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside reef dock with wave spray under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied rain pavilion with palm shadows under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside coral nursery raft featuring woven parasols amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet hammock lounge framed by persimmon cushions during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit overwater villa walk with mist fans under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay glow plankton bay featuring rope hammocks amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "aqua-latticed manta point platform with fiber optic railings under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set jetty pavilion with silk cabana drapes under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached palm tunnel with silk cabana drapes under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit sandbar runway featuring kelp ropes amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa infinity pool lip featuring bioluminescent trails amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed overwater villa walk framed by floating breakfast trays during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay yacht stern framed by bubble curtain during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "yacht-anchored catamaran net with mist fans under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined reef dock featuring kelp ropes amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned outdoor cinema with bubble curtain under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet lagoon swing featuring floating breakfast trays amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet sunset deck featuring palm shadows amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform framed by rope hammocks during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit glow plankton bay with bubble curtain under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa lagoon swing featuring bioluminescent trails amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar manta point platform with mist fans under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck glow plankton bay with rattan lantern cords under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "orchid-canopied manta point platform framed by mist fans during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sandbar runway with bioluminescent trails under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet overwater villa walk featuring coral tiles amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "driftwood tidepool patio with teal surfboards under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck sky bar bridge with fiber optic railings under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent overwater villa walk with floating breakfast trays under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "reefside outdoor cinema framed by fiber optic railings during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sky bar bridge framed by coral tiles during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood jungle boardwalk framed by silk cabana drapes during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "dawn-lit sky bar bridge featuring glass floor panels amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside sky bar bridge featuring bioluminescent trails amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared lagoon swing framed by floating breakfast trays during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa palm tunnel framed by tiki lanterns during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar hammock lounge featuring silk cabana drapes amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet palm tunnel featuring teal surfboards amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-set tidepool patio with glistening shells under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater yacht stern featuring silk cabana drapes amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "glass-deck reef dock with kelp ropes under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined hammock lounge framed by fiber optic railings during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed sunset deck framed by fiber optic railings during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored outdoor cinema with kelp ropes under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar catamaran net featuring tiki lanterns amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood sandbar runway featuring woven parasols amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored spa courtyard with tiki lanterns under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay rain pavilion framed by palm shadows during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "hammock-bay sunset deck featuring rope hammocks amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit coral nursery raft with glistening shells under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "palapa manta point platform featuring coral tiles amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa manta point platform framed by teal surfboards during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove palm tunnel featuring glass floor panels amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied catamaran net featuring glistening shells amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit sky bar bridge featuring kelp ropes amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove tidepool patio with coral tiles under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "dawn-lit sky bar bridge framed by orchid garlands during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set yacht stern featuring wave spray amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sandbar runway framed by glistening shells during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove lagoon swing featuring kelp ropes amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "storm-cleared sunset deck with bubble curtain under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored outdoor cinema framed by mist fans during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set glow plankton bay featuring fiber optic railings amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set yacht stern framed by fiber optic railings during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay glow plankton bay framed by rope hammocks during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "dawn-lit infinity pool lip with palm shadows under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay coral nursery raft with tiki lanterns under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside rain pavilion featuring rattan lantern cords amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay spa courtyard framed by driftwood stacks during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied jungle boardwalk featuring silk cabana drapes amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sunset deck with glistening shells under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay palm tunnel with teal surfboards under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay jungle boardwalk featuring rope hammocks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net framed by palm shadows during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "driftwood glow plankton bay framed by coral tiles during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard with rope hammocks under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed reef dock with tiki lanterns under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jetty pavilion framed by rope hammocks during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set hammock lounge featuring woven parasols amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied overwater villa walk featuring driftwood stacks amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined catamaran net with orchid garlands under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay tidepool patio framed by bioluminescent trails during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sandbar overwater villa walk with teal surfboards under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined overwater villa walk with wave spray under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sunset deck featuring bioluminescent trails amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "hammock-bay rain pavilion featuring palm shadows amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater rain pavilion featuring orchid garlands amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit rain pavilion featuring kelp ropes amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa sky bar bridge featuring silk cabana drapes amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "mangrove overwater villa walk featuring wave spray amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent hammock lounge featuring tiki lanterns amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored sunset deck with floating breakfast trays under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "driftwood rain pavilion with glass floor panels under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck sandbar runway framed by bubble curtain during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent hammock lounge framed by floating breakfast trays during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "lagoon-set sunset deck with bioluminescent trails under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit reef dock with bioluminescent trails under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay tidepool patio featuring tiki lanterns amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay palm tunnel with tiki lanterns under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood reef dock framed by fiber optic railings during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa infinity pool lip framed by teal surfboards during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored hammock lounge with coral tiles under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "moon-washed sky bar bridge featuring coral tiles amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet jetty pavilion with persimmon cushions under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood lagoon swing framed by teal surfboards during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned palm tunnel framed by kelp ropes during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "hammock-bay spa courtyard framed by rattan lantern cords during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned glow plankton bay with mist fans under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sandbar runway framed by palm shadows during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "overwater rain pavilion with wave spray under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar spa courtyard featuring coral tiles amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored hammock lounge framed by bioluminescent trails during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sandbar runway framed by tiki lanterns during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "spa-quiet palm tunnel featuring glass floor panels amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove lagoon swing with coral tiles under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed palm tunnel featuring palm shadows amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove catamaran net featuring mist fans amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed catamaran net framed by fiber optic railings during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sandbar runway with persimmon cushions under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove sunset deck featuring rope hammocks amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed sandbar runway featuring teal surfboards amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied lagoon swing with orchid garlands under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside coral nursery raft with glass floor panels under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned infinity pool lip framed by rope hammocks during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater tidepool patio featuring bioluminescent trails amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sky bar bridge with mist fans under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined spa courtyard featuring glistening shells amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined spa courtyard with orchid garlands under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set catamaran net framed by wave spray during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet jetty pavilion with woven parasols under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern with floating breakfast trays under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck outdoor cinema with woven parasols under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jungle boardwalk framed by kelp ropes during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood overwater villa walk framed by teal surfboards during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside infinity pool lip with glistening shells under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed sunset deck with palm shadows under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck palm tunnel featuring silk cabana drapes amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa sunset deck with persimmon cushions under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar manta point platform with rope hammocks under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay hammock lounge framed by rattan lantern cords during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside sandbar runway framed by kelp ropes during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned manta point platform with floating breakfast trays under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit outdoor cinema with silk cabana drapes under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent palm tunnel with persimmon cushions under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck reef dock framed by mist fans during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored spa courtyard with kelp ropes under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set jungle boardwalk framed by coral tiles during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit tidepool patio with silk cabana drapes under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned manta point platform framed by silk cabana drapes during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck hammock lounge featuring floating breakfast trays amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed reef dock framed by glass floor panels during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck spa courtyard framed by teal surfboards during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood yacht stern with silk cabana drapes under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sunset deck with rope hammocks under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "palapa tidepool patio with orchid garlands under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard with tiki lanterns under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined lagoon swing framed by persimmon cushions during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit manta point platform framed by rope hammocks during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared rain pavilion with rope hammocks under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jungle boardwalk with rattan lantern cords under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck glow plankton bay featuring driftwood stacks amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined reef dock with glistening shells under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit spa courtyard featuring palm shadows amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "aqua-latticed sandbar runway with glistening shells under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared reef dock framed by palm shadows during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sandbar overwater villa walk with teal surfboards under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "overwater manta point platform framed by bioluminescent trails during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater infinity pool lip featuring rattan lantern cords amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar reef dock featuring woven parasols amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied overwater villa walk featuring rope hammocks amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sun-bleached coral nursery raft featuring glistening shells amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood catamaran net with bubble curtain under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove outdoor cinema framed by orchid garlands during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set rain pavilion featuring wave spray amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent overwater villa walk featuring fiber optic railings amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared palm tunnel featuring silk cabana drapes amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar reef dock with rope hammocks under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set yacht stern framed by bubble curtain during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached manta point platform with kelp ropes under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa catamaran net featuring persimmon cushions amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet overwater villa walk featuring bioluminescent trails amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood tidepool patio framed by bioluminescent trails during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net with tiki lanterns under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jetty pavilion framed by woven parasols during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood infinity pool lip featuring tiki lanterns amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed rain pavilion framed by coral tiles during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied infinity pool lip with silk cabana drapes under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored yacht stern framed by woven parasols during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "lagoon-set rain pavilion framed by wave spray during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed outdoor cinema featuring persimmon cushions amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet tidepool patio featuring coral tiles amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed infinity pool lip featuring teal surfboards amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned rain pavilion featuring palm shadows amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored glow plankton bay with driftwood stacks under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa infinity pool lip framed by woven parasols during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached yacht stern with silk cabana drapes under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "dawn-lit coral nursery raft framed by rope hammocks during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored reef dock framed by rattan lantern cords during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached lagoon swing with kelp ropes under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "dawn-lit spa courtyard framed by coral tiles during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater jetty pavilion framed by floating breakfast trays during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned outdoor cinema framed by rope hammocks during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "jetty-lined hammock lounge featuring tiki lanterns amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar infinity pool lip with bubble curtain under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood rain pavilion framed by glistening shells during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside sandbar runway framed by persimmon cushions during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set lagoon swing featuring orchid garlands amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "reefside hammock lounge featuring rattan lantern cords amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove sandbar runway featuring fiber optic railings amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned hammock lounge with teal surfboards under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside tidepool patio with bioluminescent trails under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay yacht stern featuring coral tiles amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied coral nursery raft framed by driftwood stacks during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "jetty-lined hammock lounge framed by palm shadows during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined hammock lounge featuring wave spray amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent catamaran net featuring woven parasols amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned jungle boardwalk with fiber optic railings under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached catamaran net with glass floor panels under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned yacht stern framed by bubble curtain during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard featuring rope hammocks amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "mangrove yacht stern featuring bioluminescent trails amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sky bar bridge framed by rattan lantern cords during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood reef dock featuring woven parasols amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater palm tunnel framed by glass floor panels during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent jetty pavilion framed by wave spray during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared outdoor cinema with driftwood stacks under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "storm-cleared palm tunnel framed by mist fans during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed sunset deck with palm shadows under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined reef dock with coral tiles under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared palm tunnel with mist fans under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sun-bleached manta point platform featuring woven parasols amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit manta point platform featuring coral tiles amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned glow plankton bay with floating breakfast trays under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned rain pavilion with coral tiles under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned tidepool patio with driftwood stacks under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed hammock lounge featuring bioluminescent trails amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern featuring wave spray amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit overwater villa walk featuring floating breakfast trays amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored jetty pavilion framed by rattan lantern cords during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned yacht stern framed by glistening shells during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sky bar bridge featuring orchid garlands amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net with coral tiles under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "jetty-lined rain pavilion framed by glass floor panels during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove infinity pool lip featuring persimmon cushions amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored tidepool patio featuring glass floor panels amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar tidepool patio framed by glass floor panels during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay rain pavilion featuring tiki lanterns amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored catamaran net featuring floating breakfast trays amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sandbar lagoon swing with persimmon cushions under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater outdoor cinema framed by teal surfboards during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed sandbar runway featuring silk cabana drapes amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater catamaran net featuring glistening shells amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside manta point platform framed by silk cabana drapes during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay coral nursery raft framed by coral tiles during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck palm tunnel with fiber optic railings under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck infinity pool lip framed by fiber optic railings during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater glow plankton bay framed by orchid garlands during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform featuring woven parasols amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed overwater villa walk with palm shadows under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set reef dock featuring rope hammocks amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet coral nursery raft framed by coral tiles during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set reef dock with tiki lanterns under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent jungle boardwalk framed by glistening shells during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove hammock lounge framed by driftwood stacks during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater jetty pavilion featuring tiki lanterns amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent reef dock with persimmon cushions under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned outdoor cinema featuring persimmon cushions amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood outdoor cinema framed by driftwood stacks during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove manta point platform featuring palm shadows amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove sandbar runway with persimmon cushions under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed overwater villa walk framed by rope hammocks during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside infinity pool lip featuring driftwood stacks amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "lagoon-set hammock lounge framed by tiki lanterns during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood infinity pool lip featuring fiber optic railings amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "orchid-canopied sunset deck featuring wave spray amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed reef dock featuring orchid garlands amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "coral-toned coral nursery raft framed by glass floor panels during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined catamaran net with fiber optic railings under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sunset deck framed by palm shadows during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood infinity pool lip featuring mist fans amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-canopied sunset deck framed by kelp ropes during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored outdoor cinema featuring rattan lantern cords amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit sandbar runway with driftwood stacks under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "moon-washed spa courtyard featuring bioluminescent trails amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove catamaran net featuring glass floor panels amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored sky bar bridge featuring driftwood stacks amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined reef dock featuring bubble curtain amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sandbar reef dock featuring palm shadows amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sun-bleached jetty pavilion framed by coral tiles during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit infinity pool lip featuring floating breakfast trays amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jungle boardwalk framed by bioluminescent trails during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "luminescent spa courtyard framed by bioluminescent trails during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored outdoor cinema with bioluminescent trails under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater manta point platform with woven parasols under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar catamaran net with kelp ropes under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "spa-quiet manta point platform featuring floating breakfast trays amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet yacht stern with tiki lanterns under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied yacht stern with orchid garlands under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa rain pavilion framed by glass floor panels during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set lagoon swing with rope hammocks under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood jungle boardwalk with wave spray under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed lagoon swing framed by tiki lanterns during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar spa courtyard framed by rope hammocks during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside tidepool patio featuring glistening shells amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "mangrove spa courtyard framed by wave spray during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood infinity pool lip with bubble curtain under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet jetty pavilion framed by wave spray during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sandbar sandbar runway featuring rattan lantern cords amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay tidepool patio with persimmon cushions under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sun-bleached jetty pavilion with coral tiles under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard featuring rope hammocks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed rain pavilion with orchid garlands under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "reefside spa courtyard framed by kelp ropes during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa outdoor cinema featuring wave spray amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "spa-quiet jungle boardwalk framed by wave spray during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar palm tunnel with silk cabana drapes under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa palm tunnel featuring teal surfboards amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet coral nursery raft framed by orchid garlands during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa lagoon swing featuring wave spray amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached outdoor cinema with bioluminescent trails under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck spa courtyard with rope hammocks under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood catamaran net with woven parasols under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sandbar sunset deck featuring glass floor panels amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jungle boardwalk with mist fans under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater overwater villa walk with orchid garlands under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet manta point platform framed by bioluminescent trails during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned yacht stern with kelp ropes under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined sunset deck framed by wave spray during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied outdoor cinema featuring rattan lantern cords amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform with kelp ropes under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "palapa manta point platform featuring fiber optic railings amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned rain pavilion with glass floor panels under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "luminescent sunset deck featuring bubble curtain amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed glow plankton bay framed by persimmon cushions during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "yacht-anchored coral nursery raft with fiber optic railings under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent palm tunnel with glass floor panels under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove infinity pool lip with kelp ropes under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit palm tunnel featuring glistening shells amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned glow plankton bay featuring rope hammocks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern framed by teal surfboards during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater hammock lounge featuring glass floor panels amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sandbar runway framed by silk cabana drapes during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar tidepool patio framed by floating breakfast trays during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa spa courtyard with bioluminescent trails under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "moon-washed palm tunnel with palm shadows under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored spa courtyard framed by bioluminescent trails during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay yacht stern featuring driftwood stacks amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored overwater villa walk featuring orchid garlands amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sunset deck framed by mist fans during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck jetty pavilion featuring palm shadows amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "glass-deck outdoor cinema featuring coral tiles amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed hammock lounge featuring palm shadows amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned lagoon swing featuring teal surfboards amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied spa courtyard with fiber optic railings under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set catamaran net with bubble curtain under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "jetty-lined palm tunnel framed by persimmon cushions during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove infinity pool lip framed by coral tiles during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "hammock-bay lagoon swing featuring woven parasols amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined outdoor cinema framed by glistening shells during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck tidepool patio with persimmon cushions under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sunset deck with glass floor panels under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay coral nursery raft framed by mist fans during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined catamaran net featuring fiber optic railings amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed outdoor cinema with teal surfboards under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied yacht stern with bioluminescent trails under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside glow plankton bay featuring orchid garlands amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "yacht-anchored glow plankton bay featuring glass floor panels amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored rain pavilion featuring silk cabana drapes amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater rain pavilion with rope hammocks under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed rain pavilion with coral tiles under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside hammock lounge framed by mist fans during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jungle boardwalk framed by mist fans during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard with fiber optic railings under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay glow plankton bay framed by persimmon cushions during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-canopied sky bar bridge with coral tiles under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside reef dock featuring coral tiles amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned palm tunnel framed by glistening shells during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay jetty pavilion featuring woven parasols amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "orchid-canopied sandbar runway featuring bubble curtain amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "storm-cleared palm tunnel with teal surfboards under sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent rain pavilion framed by glass floor panels during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned rain pavilion framed by bioluminescent trails during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet sandbar runway featuring teal surfboards amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside spa courtyard featuring woven parasols amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned palm tunnel featuring fiber optic railings amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "palapa sky bar bridge featuring coral tiles amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached coral nursery raft with palm shadows under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "dawn-lit glow plankton bay with floating breakfast trays under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit hammock lounge framed by kelp ropes during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa glow plankton bay with tiki lanterns under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa glow plankton bay with kelp ropes under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet infinity pool lip with mist fans under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned jetty pavilion featuring rope hammocks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed catamaran net featuring fiber optic railings amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed catamaran net featuring wave spray amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared hammock lounge framed by glass floor panels during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jungle boardwalk framed by driftwood stacks during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined yacht stern framed by glass floor panels during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove palm tunnel featuring wave spray amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored spa courtyard featuring coral tiles amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "storm-cleared coral nursery raft with bubble curtain under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar sandbar runway framed by palm shadows during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay reef dock featuring bioluminescent trails amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit tidepool patio with bioluminescent trails under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "orchid-canopied hammock lounge framed by driftwood stacks during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied coral nursery raft framed by bubble curtain during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "jetty-lined yacht stern featuring mist fans amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater rain pavilion featuring bioluminescent trails amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed tidepool patio with wave spray under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "driftwood jetty pavilion featuring tiki lanterns amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sky bar bridge with kelp ropes under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck outdoor cinema framed by driftwood stacks during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck palm tunnel featuring floating breakfast trays amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa hammock lounge featuring kelp ropes amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "yacht-anchored sunset deck framed by glistening shells during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jungle boardwalk framed by teal surfboards during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sunset deck with wave spray under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood hammock lounge framed by driftwood stacks during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood manta point platform framed by tiki lanterns during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent infinity pool lip featuring silk cabana drapes amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove sandbar runway with fiber optic railings under rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent glow plankton bay with orchid garlands under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jungle boardwalk framed by floating breakfast trays during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside manta point platform featuring mist fans amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sandbar runway framed by bioluminescent trails during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jungle boardwalk with persimmon cushions under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set palm tunnel framed by bioluminescent trails during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck overwater villa walk with floating breakfast trays under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "spa-quiet jetty pavilion with mist fans under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "storm-cleared lagoon swing with silk cabana drapes under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar infinity pool lip framed by tiki lanterns during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sandbar reef dock featuring bioluminescent trails amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned hammock lounge featuring orchid garlands amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa infinity pool lip featuring glistening shells amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set jungle boardwalk featuring driftwood stacks amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay sandbar runway with woven parasols under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar tidepool patio with bubble curtain under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied yacht stern featuring floating breakfast trays amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "aqua-latticed palm tunnel featuring wave spray amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored yacht stern framed by floating breakfast trays during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent glow plankton bay framed by palm shadows during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned glow plankton bay with glass floor panels under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa tidepool patio with rope hammocks under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined jungle boardwalk framed by mist fans during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed manta point platform framed by tiki lanterns during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck glow plankton bay with rattan lantern cords under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove rain pavilion featuring glistening shells amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet lagoon swing featuring driftwood stacks amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "driftwood overwater villa walk featuring fiber optic railings amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sky bar bridge framed by rope hammocks during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent hammock lounge featuring palm shadows amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached rain pavilion featuring fiber optic railings amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "driftwood yacht stern framed by glass floor panels during UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned tidepool patio framed by bubble curtain during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit sky bar bridge with bubble curtain under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned palm tunnel featuring coral tiles amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater outdoor cinema featuring rattan lantern cords amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "reefside glow plankton bay featuring fiber optic railings amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jetty pavilion featuring orchid garlands amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored sunset deck featuring bubble curtain amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside coral nursery raft with silk cabana drapes under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sky bar bridge framed by glistening shells during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa hammock lounge featuring glass floor panels amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside manta point platform featuring glistening shells amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "reefside yacht stern framed by orchid garlands during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent tidepool patio featuring bubble curtain amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar tidepool patio featuring floating breakfast trays amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached outdoor cinema featuring coral tiles amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed jungle boardwalk framed by floating breakfast trays during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sun-bleached tidepool patio featuring rope hammocks amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "aqua-latticed jungle boardwalk framed by wave spray during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove rain pavilion with kelp ropes under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined jetty pavilion with rattan lantern cords under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed catamaran net featuring bioluminescent trails amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed palm tunnel featuring teal surfboards amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove jetty pavilion with glass floor panels under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared jetty pavilion framed by silk cabana drapes during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet outdoor cinema featuring fiber optic railings amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned coral nursery raft with palm shadows under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood infinity pool lip featuring tiki lanterns amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood jetty pavilion framed by persimmon cushions during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared sunset deck framed by rattan lantern cords during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa coral nursery raft framed by woven parasols during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed tidepool patio with driftwood stacks under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet manta point platform featuring bioluminescent trails amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood sunset deck featuring persimmon cushions amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent reef dock featuring teal surfboards amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed manta point platform featuring orchid garlands amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "coral-toned outdoor cinema featuring bioluminescent trails amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet coral nursery raft featuring rope hammocks amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "jetty-lined overwater villa walk featuring floating breakfast trays amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed jungle boardwalk framed by palm shadows during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored coral nursery raft with palm shadows under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit catamaran net featuring persimmon cushions amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater manta point platform featuring silk cabana drapes amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove yacht stern featuring orchid garlands amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater infinity pool lip with glass floor panels under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned sky bar bridge with wave spray under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent catamaran net featuring palm shadows amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "overwater yacht stern framed by glass floor panels during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "driftwood jungle boardwalk framed by driftwood stacks during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent reef dock featuring woven parasols amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined infinity pool lip with bioluminescent trails under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "orchid-canopied reef dock with persimmon cushions under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned manta point platform featuring kelp ropes amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sunset deck framed by wave spray during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "hammock-bay jungle boardwalk featuring kelp ropes amidst rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck manta point platform framed by woven parasols during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa hammock lounge with woven parasols under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit jetty pavilion featuring kelp ropes amidst starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned lagoon swing with orchid garlands under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned jungle boardwalk framed by woven parasols during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "dawn-lit infinity pool lip framed by woven parasols during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached coral nursery raft framed by glass floor panels during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed tidepool patio featuring rope hammocks amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent yacht stern featuring rope hammocks amidst pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed sandbar runway featuring mist fans amidst tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa catamaran net framed by orchid garlands during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sun-bleached outdoor cinema featuring kelp ropes amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared jungle boardwalk with bubble curtain under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar infinity pool lip with glass floor panels under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed jetty pavilion featuring rattan lantern cords amidst storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined overwater villa walk featuring tiki lanterns amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa spa courtyard with bioluminescent trails under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck jungle boardwalk framed by palm shadows during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined glow plankton bay framed by teal surfboards during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-canopied sky bar bridge featuring floating breakfast trays amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "palapa sandbar runway with palm shadows under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "storm-cleared reef dock framed by woven parasols during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard with palm shadows under starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared reef dock framed by fiber optic railings during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater rain pavilion featuring palm shadows amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside sky bar bridge with teal surfboards under storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored infinity pool lip with bubble curtain under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove tidepool patio featuring driftwood stacks amidst monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "jetty-lined sunset deck framed by persimmon cushions during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored infinity pool lip with palm shadows under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater sandbar runway framed by floating breakfast trays during rain cooled dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned catamaran net featuring tiki lanterns amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater overwater villa walk featuring persimmon cushions amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay manta point platform featuring woven parasols amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "driftwood jetty pavilion with floating breakfast trays under pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed hammock lounge featuring mist fans amidst drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached palm tunnel with rope hammocks under drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined sandbar runway framed by bioluminescent trails during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent outdoor cinema featuring orchid garlands amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned manta point platform featuring palm shadows amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove outdoor cinema featuring rope hammocks amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit palm tunnel with floating breakfast trays under tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned coral nursery raft framed by rattan lantern cords during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside jungle boardwalk featuring coral tiles amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined hammock lounge framed by bioluminescent trails during pale moon tide",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-cleared reef dock featuring bioluminescent trails amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet overwater villa walk framed by driftwood stacks during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar rain pavilion framed by driftwood stacks during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed overwater villa walk with wave spray under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "sun-bleached tidepool patio framed by woven parasols during storm lantern glow",
+      "weight": 1.0
+    },
+    {
+      "text": "palapa manta point platform framed by orchid garlands during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater palm tunnel with tiki lanterns under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "moon-washed overwater villa walk featuring glistening shells amidst UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "coral-toned jetty pavilion featuring rattan lantern cords amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed overwater villa walk framed by mist fans during monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "coral-toned sunset deck with glass floor panels under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sun-bleached tidepool patio framed by palm shadows during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "sun-bleached jungle boardwalk with mist fans under paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set palm tunnel framed by mist fans during turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar jungle boardwalk framed by bubble curtain during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater reef dock framed by coral tiles during bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "palapa lagoon swing with kelp ropes under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored lagoon swing with tiki lanterns under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet sunset deck featuring rope hammocks amidst turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined hammock lounge framed by teal surfboards during starlit midnight lagoon",
+      "weight": 1.0
+    },
+    {
+      "text": "glass-deck hammock lounge featuring coral tiles amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "aqua-latticed hammock lounge with bubble curtain under mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored rain pavilion with coral tiles under turquoise noon shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overwater rain pavilion framed by palm shadows during tropic noon glare",
+      "weight": 1.0
+    },
+    {
+      "text": "mangrove spa courtyard framed by woven parasols during sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "coral-toned lagoon swing with mist fans under copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar reef dock featuring persimmon cushions amidst copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "lagoon-set sandbar runway with glistening shells under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "luminescent spa courtyard framed by orchid garlands during paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dawn-lit coral nursery raft framed by palm shadows during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar palm tunnel featuring floating breakfast trays amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "hammock-bay catamaran net featuring silk cabana drapes amidst paddle splash sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached palm tunnel with bubble curtain under trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside yacht stern featuring bioluminescent trails amidst sunrise pastel wash",
+      "weight": 1.0
+    },
+    {
+      "text": "spa-quiet jungle boardwalk featuring coral tiles amidst bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "luminescent manta point platform with floating breakfast trays under UV neon party",
+      "weight": 0.9
+    },
+    {
+      "text": "reefside reef dock framed by tiki lanterns during drizzle cooled afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined palm tunnel framed by palm shadows during copper sunset melt",
+      "weight": 1.0
+    },
+    {
+      "text": "jetty-lined outdoor cinema featuring bioluminescent trails amidst mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sandbar spa courtyard framed by bubble curtain during mangrove mist morning",
+      "weight": 1.0
+    },
+    {
+      "text": "reefside hammock lounge featuring rope hammocks amidst trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "yacht-anchored jungle boardwalk with glistening shells under monsoon break calm",
+      "weight": 0.85
+    },
+    {
+      "text": "sandbar jungle boardwalk with teal surfboards under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "reefside hammock lounge framed by coral tiles during trade wind gust",
+      "weight": 1.0
+    },
+    {
+      "text": "luminescent sky bar bridge with glass floor panels under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "lagoon-set manta point platform with kelp ropes under bio-lum glow",
+      "weight": 0.65
+    },
+    {
+      "text": "palapa jungle boardwalk framed by bubble curtain during rain cooled dusk",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "shell-inlaid anklet with electric-blue bead",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel raffia visor edged in orchid cord",
+        "weight": 0.6
+      },
+      {
+        "text": "reef-safe bangles stacked with glassy sheen",
+        "weight": 0.6
+      },
+      {
+        "text": "waterproof waist pack with copper zipper",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "bioluminescent wake streaking past calves",
+        "weight": 0.6
+      },
+      {
+        "text": "salt mist halo coating arms",
+        "weight": 0.6
+      },
+      {
+        "text": "palm shadow lattice drifting over torso",
+        "weight": 0.6
+      },
+      {
+        "text": "flying fish arc blurring background",
+        "weight": 0.6
+      }
+    ]
+  }
+}

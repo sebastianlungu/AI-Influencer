@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "deserted plaza harbor ramp featuring wicker lights amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge tram viaduct framed by saffron banners during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung gothic cloister with cable shadows under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque vineyard crush pad with chalk dust clouds under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port olive mill lane with saffron banners under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze glass canopy station with cable shadows under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge desert wind farm with arched brickwork under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge bullring tunnel framed by scooter blur during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed gothic cloister featuring saffron banners amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza bullring tunnel featuring rope lighting amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road with rope lighting under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed gothic cloister with sunshade stripes under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch gothic cloister featuring cork basket towers amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque rooftop mirador framed by misting fountains during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze chalk canyon road with palm shadows under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted tram viaduct framed by scooter blur during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque chalk canyon road with gaudi mosaics under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined vineyard crush pad framed by porcelain jars during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted vineyard crush pad with scooter blur under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque rooftop mirador framed by palm shadows during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza chalk canyon road framed by scooter blur during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch glass canopy station featuring wind turbine silhouettes amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed market arcade framed by palm shadows during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit olive mill lane with rope lighting under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed glass canopy station with wicker lights under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined sunken patio with wrought iron gates under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled desert wind farm framed by cork basket towers during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador featuring rope lighting amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed plaza fountain lip framed by arched brickwork during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block glass canopy station framed by gaudi mosaics during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge metro mezzanine with wrought iron gates under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge orange grove path framed by ripe citrus piles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit vineyard crush pad featuring scooter blur amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached palm promenade framed by wrought iron gates during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze azulejo courtyard featuring misting fountains amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed industrial loft framed by wind turbine silhouettes during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit glass canopy station featuring arched brickwork amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed seaside amphitheater framed by cable shadows during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff harbor ramp with cork basket towers under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge market arcade featuring cable shadows amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff palm promenade featuring rope lighting amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined cathedral step with rope lighting under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined harbor ramp framed by wicker lights during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached cathedral step with cable shadows under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented palm promenade with painted tiles under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador with arched brickwork under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled plaza fountain lip featuring chalk dust clouds amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane metro mezzanine featuring flamenco fan stack amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed sunken patio framed by chalk dust clouds during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port harbor ramp featuring painted tiles amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy bullring tunnel featuring scooter blur amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port cathedral step featuring wind turbine silhouettes amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented industrial loft with painted tiles under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff industrial loft with cable shadows under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed cathedral step framed by arched brickwork during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined cathedral step featuring ripe citrus piles amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque chalk canyon road featuring hanging lanterns amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza plaza fountain lip framed by scooter blur during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined harbor ramp with cable shadows under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane orange grove path with chalk dust clouds under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined desert wind farm framed by wrought iron gates during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached metro mezzanine framed by misting fountains during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed sunken patio framed by cork basket towers during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block gothic cloister featuring saffron banners amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza desert wind farm framed by ripe citrus piles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm with wicker lights under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze palm promenade framed by cork basket towers during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza industrial loft featuring hanging lanterns amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque harbor ramp featuring wind turbine silhouettes amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel with chalk dust clouds under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch seaside amphitheater with hanging lanterns under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block seaside amphitheater featuring flamenco fan stack amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque industrial loft with cork basket towers under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane orange grove path with misting fountains under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed sunken patio framed by salt pans during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted bullring tunnel framed by gaudi mosaics during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block bullring tunnel with wind turbine silhouettes under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port cathedral step framed by cable shadows during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive mill lane featuring gaudi mosaics amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy orange grove path featuring salt pans amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze olive mill lane framed by porcelain jars during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque orange grove path with wicker lights under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze metro mezzanine featuring salt pans amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung vineyard crush pad featuring saffron banners amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block tram viaduct featuring gaudi mosaics amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled plaza fountain lip framed by arched brickwork during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque rooftop mirador framed by sunshade stripes during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled chalk canyon road featuring wicker lights amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port plaza fountain lip with palm shadows under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung plaza fountain lip with cork basket towers under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff market arcade featuring palm shadows amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block vineyard crush pad framed by rope lighting during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit vineyard crush pad framed by hanging lanterns during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane plaza fountain lip featuring porcelain jars amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block sunken patio framed by arched brickwork during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy vineyard crush pad framed by wicker lights during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted vineyard crush pad framed by hanging lanterns during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block orange grove path with saffron banners under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined desert wind farm with palm shadows under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed sunken patio framed by flamenco fan stack during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung gothic cloister framed by painted tiles during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy desert wind farm with wicker lights under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled bullring tunnel featuring flamenco fan stack amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined bullring tunnel framed by wicker lights during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined harbor ramp with rope lighting under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung cathedral step framed by sunshade stripes during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff desert wind farm with wind turbine silhouettes under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined glass canopy station with saffron banners under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port desert wind farm featuring ripe citrus piles amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port industrial loft with gaudi mosaics under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block seaside amphitheater with ripe citrus piles under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port azulejo courtyard framed by cable shadows during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane rooftop mirador framed by rope lighting during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff seaside amphitheater with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge orange grove path framed by gaudi mosaics during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza orange grove path with gaudi mosaics under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached palm promenade framed by rope lighting during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed palm promenade framed by wind turbine silhouettes during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port azulejo courtyard featuring rope lighting amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed cathedral step featuring porcelain jars amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed plaza fountain lip with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio with wind turbine silhouettes under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted azulejo courtyard featuring chalk dust clouds amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block plaza fountain lip framed by chalk dust clouds during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined seaside amphitheater with wrought iron gates under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented desert wind farm with flamenco fan stack under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached orange grove path with saffron banners under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block sunken patio framed by salt pans during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed azulejo courtyard featuring wind turbine silhouettes amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador framed by ripe citrus piles during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port sunken patio featuring sunshade stripes amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached glass canopy station featuring sunshade stripes amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung azulejo courtyard framed by ripe citrus piles during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge bullring tunnel framed by misting fountains during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza plaza fountain lip featuring saffron banners amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined desert wind farm featuring flamenco fan stack amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed industrial loft with painted tiles under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit rooftop mirador featuring hanging lanterns amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path with ripe citrus piles under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block harbor ramp featuring scooter blur amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined tram viaduct featuring wicker lights amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador featuring wind turbine silhouettes amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted palm promenade featuring ripe citrus piles amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block olive mill lane framed by palm shadows during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge harbor ramp featuring saffron banners amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port plaza fountain lip featuring ripe citrus piles amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge olive mill lane framed by wind turbine silhouettes during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block orange grove path featuring cork basket towers amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze vineyard crush pad with cork basket towers under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached harbor ramp framed by palm shadows during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block metro mezzanine with ripe citrus piles under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung olive mill lane with ripe citrus piles under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed seaside amphitheater with cable shadows under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque industrial loft with wrought iron gates under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze gothic cloister with chalk dust clouds under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunken patio with scooter blur under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung plaza fountain lip framed by porcelain jars during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block market arcade with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff industrial loft featuring painted tiles amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed seaside amphitheater featuring cable shadows amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza seaside amphitheater with gaudi mosaics under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft with misting fountains under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff bullring tunnel framed by hanging lanterns during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung rooftop mirador framed by ripe citrus piles during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy market arcade framed by sunshade stripes during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block metro mezzanine framed by wicker lights during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled metro mezzanine with wrought iron gates under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined sunken patio framed by arched brickwork during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted glass canopy station featuring wicker lights amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff azulejo courtyard featuring flamenco fan stack amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed seaside amphitheater framed by saffron banners during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit orange grove path with salt pans under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled tram viaduct with ripe citrus piles under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge metro mezzanine with palm shadows under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung palm promenade featuring saffron banners amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port industrial loft featuring gaudi mosaics amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled orange grove path framed by painted tiles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit harbor ramp with salt pans under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit palm promenade featuring flamenco fan stack amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed seaside amphitheater with cable shadows under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path with porcelain jars under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented azulejo courtyard framed by palm shadows during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel framed by hanging lanterns during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit tram viaduct framed by painted tiles during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane harbor ramp with arched brickwork under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached market arcade with saffron banners under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed vineyard crush pad featuring flamenco fan stack amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed azulejo courtyard framed by palm shadows during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch palm promenade featuring wicker lights amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented chalk canyon road featuring wrought iron gates amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm with saffron banners under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit glass canopy station with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge desert wind farm with hanging lanterns under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled gothic cloister featuring cable shadows amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block palm promenade featuring wind turbine silhouettes amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff sunken patio featuring saffron banners amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft featuring scooter blur amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented palm promenade featuring cable shadows amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented plaza fountain lip with ripe citrus piles under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch tram viaduct featuring ripe citrus piles amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza market arcade featuring cable shadows amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled seaside amphitheater with arched brickwork under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane glass canopy station framed by chalk dust clouds during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit sunken patio with palm shadows under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador featuring saffron banners amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit olive mill lane featuring arched brickwork amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed market arcade framed by saffron banners during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached chalk canyon road with flamenco fan stack under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque plaza fountain lip with ripe citrus piles under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented azulejo courtyard featuring wicker lights amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze cathedral step framed by gaudi mosaics during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented azulejo courtyard with arched brickwork under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached vineyard crush pad featuring misting fountains amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza bullring tunnel framed by arched brickwork during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed palm promenade featuring flamenco fan stack amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador featuring wind turbine silhouettes amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque industrial loft framed by hanging lanterns during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block rooftop mirador framed by cable shadows during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio with hanging lanterns under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block harbor ramp featuring misting fountains amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge olive mill lane featuring misting fountains amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block vineyard crush pad featuring saffron banners amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit metro mezzanine framed by painted tiles during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached azulejo courtyard framed by chalk dust clouds during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted seaside amphitheater framed by palm shadows during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch tram viaduct framed by flamenco fan stack during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented orange grove path framed by painted tiles during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed sunken patio with palm shadows under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined chalk canyon road featuring saffron banners amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined chalk canyon road framed by wrought iron gates during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined desert wind farm framed by saffron banners during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff plaza fountain lip featuring ripe citrus piles amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted plaza fountain lip framed by cable shadows during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled harbor ramp featuring cable shadows amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block bullring tunnel with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque vineyard crush pad framed by salt pans during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path framed by arched brickwork during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy harbor ramp with flamenco fan stack under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze gothic cloister featuring porcelain jars amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached tram viaduct framed by chalk dust clouds during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane azulejo courtyard framed by porcelain jars during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge market arcade with rope lighting under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed harbor ramp with porcelain jars under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze rooftop mirador framed by arched brickwork during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port sunken patio with gaudi mosaics under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch bullring tunnel with arched brickwork under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented gothic cloister featuring painted tiles amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane glass canopy station with misting fountains under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block sunken patio featuring arched brickwork amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch gothic cloister framed by cork basket towers during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy plaza fountain lip framed by chalk dust clouds during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze azulejo courtyard framed by saffron banners during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port olive mill lane framed by flamenco fan stack during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed industrial loft with painted tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane orange grove path featuring wind turbine silhouettes amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff cathedral step with hanging lanterns under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge olive mill lane framed by palm shadows during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted palm promenade with painted tiles under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff cathedral step framed by scooter blur during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm featuring ripe citrus piles amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted glass canopy station featuring gaudi mosaics amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff industrial loft featuring wind turbine silhouettes amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge gothic cloister featuring cork basket towers amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch palm promenade framed by cable shadows during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted plaza fountain lip featuring rope lighting amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung palm promenade with wind turbine silhouettes under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane market arcade featuring rope lighting amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted tram viaduct framed by arched brickwork during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff desert wind farm with palm shadows under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel with misting fountains under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted cathedral step framed by arched brickwork during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane seaside amphitheater with arched brickwork under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque market arcade with gaudi mosaics under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block rooftop mirador with misting fountains under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled industrial loft featuring wind turbine silhouettes amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch chalk canyon road framed by cable shadows during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza seaside amphitheater featuring saffron banners amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung bullring tunnel with wicker lights under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy vineyard crush pad with flamenco fan stack under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit palm promenade featuring sunshade stripes amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented tram viaduct framed by wind turbine silhouettes during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed chalk canyon road with cable shadows under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached metro mezzanine framed by cork basket towers during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza cathedral step with wind turbine silhouettes under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road featuring gaudi mosaics amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch palm promenade framed by salt pans during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive mill lane framed by wrought iron gates during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed rooftop mirador framed by saffron banners during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled plaza fountain lip featuring flamenco fan stack amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane gothic cloister featuring misting fountains amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque desert wind farm with wrought iron gates under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed market arcade with scooter blur under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft framed by misting fountains during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft featuring saffron banners amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented bullring tunnel featuring wrought iron gates amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff rooftop mirador featuring salt pans amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port sunken patio framed by saffron banners during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed tram viaduct with porcelain jars under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled orange grove path framed by flamenco fan stack during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed market arcade with chalk dust clouds under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed industrial loft featuring scooter blur amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy desert wind farm with saffron banners under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block azulejo courtyard framed by rope lighting during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy glass canopy station with wrought iron gates under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit seaside amphitheater framed by gaudi mosaics during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel featuring flamenco fan stack amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed bullring tunnel with cable shadows under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy metro mezzanine featuring rope lighting amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit vineyard crush pad featuring wrought iron gates amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque vineyard crush pad framed by hanging lanterns during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined sunken patio with wicker lights under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined seaside amphitheater with misting fountains under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze metro mezzanine with scooter blur under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached bullring tunnel featuring wrought iron gates amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port sunken patio framed by misting fountains during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block vineyard crush pad featuring porcelain jars amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed orange grove path featuring gaudi mosaics amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch rooftop mirador with rope lighting under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze industrial loft with cork basket towers under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted glass canopy station featuring painted tiles amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador featuring flamenco fan stack amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled olive mill lane framed by sunshade stripes during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge bullring tunnel with cable shadows under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented olive mill lane with rope lighting under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached vineyard crush pad framed by palm shadows during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted olive mill lane framed by scooter blur during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch market arcade featuring salt pans amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed sunken patio framed by wind turbine silhouettes during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane vineyard crush pad featuring porcelain jars amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio featuring painted tiles amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed market arcade with cable shadows under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block olive mill lane with rope lighting under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel featuring misting fountains amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted market arcade featuring gaudi mosaics amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane plaza fountain lip with palm shadows under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza cathedral step with sunshade stripes under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed glass canopy station framed by saffron banners during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque desert wind farm framed by palm shadows during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached vineyard crush pad with salt pans under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch gothic cloister featuring arched brickwork amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza industrial loft framed by wicker lights during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit gothic cloister framed by ripe citrus piles during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port sunken patio with painted tiles under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit orange grove path framed by rope lighting during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff market arcade with chalk dust clouds under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge seaside amphitheater featuring saffron banners amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted azulejo courtyard featuring ripe citrus piles amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit azulejo courtyard with wicker lights under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze harbor ramp featuring arched brickwork amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed olive mill lane featuring ripe citrus piles amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff seaside amphitheater with chalk dust clouds under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port seaside amphitheater framed by painted tiles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled azulejo courtyard with scooter blur under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza market arcade with painted tiles under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed bullring tunnel framed by sunshade stripes during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed metro mezzanine featuring palm shadows amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff bullring tunnel featuring misting fountains amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed plaza fountain lip with porcelain jars under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador featuring ripe citrus piles amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block seaside amphitheater with sunshade stripes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel framed by arched brickwork during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted bullring tunnel framed by cable shadows during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined plaza fountain lip featuring cork basket towers amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted sunken patio featuring wrought iron gates amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed palm promenade with saffron banners under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch orange grove path with saffron banners under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented orange grove path with hanging lanterns under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze seaside amphitheater featuring ripe citrus piles amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block orange grove path with ripe citrus piles under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented vineyard crush pad featuring palm shadows amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed chalk canyon road featuring porcelain jars amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block desert wind farm featuring rope lighting amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador featuring gaudi mosaics amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch rooftop mirador with wind turbine silhouettes under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented cathedral step with rope lighting under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister framed by chalk dust clouds during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza vineyard crush pad with arched brickwork under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch seaside amphitheater with salt pans under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm framed by cork basket towers during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque desert wind farm with gaudi mosaics under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted seaside amphitheater with chalk dust clouds under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch tram viaduct with palm shadows under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block sunken patio framed by palm shadows during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined industrial loft with painted tiles under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented industrial loft with arched brickwork under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit seaside amphitheater with arched brickwork under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached gothic cloister with saffron banners under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister with wrought iron gates under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached glass canopy station framed by cable shadows during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined industrial loft featuring painted tiles amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung chalk canyon road with hanging lanterns under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed tram viaduct featuring palm shadows amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza chalk canyon road framed by wind turbine silhouettes during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted metro mezzanine featuring saffron banners amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed orange grove path with arched brickwork under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch plaza fountain lip framed by hanging lanterns during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm with ripe citrus piles under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined chalk canyon road with salt pans under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed market arcade featuring painted tiles amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunken patio featuring wind turbine silhouettes amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff vineyard crush pad framed by rope lighting during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza desert wind farm framed by painted tiles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque vineyard crush pad featuring cork basket towers amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted plaza fountain lip with painted tiles under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza cathedral step with hanging lanterns under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung rooftop mirador with wicker lights under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy tram viaduct framed by arched brickwork during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung bullring tunnel framed by hanging lanterns during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane palm promenade framed by sunshade stripes during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined gothic cloister with arched brickwork under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch bullring tunnel featuring saffron banners amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch sunken patio featuring saffron banners amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch cathedral step with hanging lanterns under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff palm promenade featuring cable shadows amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza desert wind farm framed by palm shadows during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port olive mill lane with misting fountains under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled seaside amphitheater featuring ripe citrus piles amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive mill lane featuring flamenco fan stack amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza bullring tunnel featuring chalk dust clouds amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed seaside amphitheater framed by painted tiles during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze vineyard crush pad with chalk dust clouds under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented desert wind farm with arched brickwork under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block bullring tunnel with wind turbine silhouettes under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch plaza fountain lip framed by saffron banners during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy plaza fountain lip framed by chalk dust clouds during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch azulejo courtyard with gaudi mosaics under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy chalk canyon road with wicker lights under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed glass canopy station with painted tiles under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached azulejo courtyard with wind turbine silhouettes under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed industrial loft framed by rope lighting during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed orange grove path with porcelain jars under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block harbor ramp featuring palm shadows amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted desert wind farm with palm shadows under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed desert wind farm framed by rope lighting during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled tram viaduct with cork basket towers under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port tram viaduct with hanging lanterns under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy tram viaduct with chalk dust clouds under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze palm promenade framed by hanging lanterns during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane bullring tunnel featuring flamenco fan stack amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port tram viaduct with scooter blur under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza cathedral step featuring chalk dust clouds amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed palm promenade featuring wicker lights amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze metro mezzanine framed by scooter blur during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza tram viaduct featuring wrought iron gates amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit olive mill lane with wicker lights under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed azulejo courtyard framed by scooter blur during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane tram viaduct with arched brickwork under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port chalk canyon road featuring misting fountains amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed glass canopy station with ripe citrus piles under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled olive mill lane with flamenco fan stack under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed tram viaduct featuring ripe citrus piles amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung plaza fountain lip with rope lighting under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane desert wind farm framed by sunshade stripes during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed cathedral step with flamenco fan stack under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed harbor ramp with wrought iron gates under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port industrial loft featuring sunshade stripes amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed metro mezzanine framed by flamenco fan stack during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed sunken patio framed by saffron banners during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented azulejo courtyard featuring wicker lights amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung olive mill lane featuring palm shadows amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached vineyard crush pad framed by hanging lanterns during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled plaza fountain lip with salt pans under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza plaza fountain lip framed by scooter blur during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit palm promenade framed by salt pans during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze vineyard crush pad featuring palm shadows amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque rooftop mirador framed by wrought iron gates during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled harbor ramp framed by sunshade stripes during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza desert wind farm featuring flamenco fan stack amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented olive mill lane with ripe citrus piles under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block metro mezzanine framed by gaudi mosaics during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch gothic cloister framed by arched brickwork during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff orange grove path with arched brickwork under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung bullring tunnel featuring ripe citrus piles amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit plaza fountain lip featuring misting fountains amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed industrial loft featuring wind turbine silhouettes amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy palm promenade featuring scooter blur amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff market arcade with cable shadows under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze harbor ramp with saffron banners under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung market arcade framed by wind turbine silhouettes during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza industrial loft with arched brickwork under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed tram viaduct featuring sunshade stripes amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza tram viaduct with arched brickwork under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block market arcade featuring saffron banners amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane seaside amphitheater featuring chalk dust clouds amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented metro mezzanine with saffron banners under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled chalk canyon road with scooter blur under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit cathedral step featuring wrought iron gates amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane plaza fountain lip with flamenco fan stack under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze cathedral step featuring hanging lanterns amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft framed by gaudi mosaics during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge olive mill lane with painted tiles under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted glass canopy station featuring scooter blur amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block bullring tunnel framed by cork basket towers during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge gothic cloister with cork basket towers under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza industrial loft with rope lighting under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze metro mezzanine with wind turbine silhouettes under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit bullring tunnel framed by cable shadows during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted sunken patio framed by scooter blur during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled azulejo courtyard with scooter blur under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza market arcade featuring wicker lights amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunken patio framed by wrought iron gates during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge palm promenade with cork basket towers under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed glass canopy station framed by misting fountains during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed market arcade framed by palm shadows during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port palm promenade framed by cable shadows during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff gothic cloister framed by saffron banners during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy orange grove path with cable shadows under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed glass canopy station with palm shadows under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza seaside amphitheater framed by gaudi mosaics during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed sunken patio with saffron banners under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented azulejo courtyard featuring cork basket towers amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted plaza fountain lip with chalk dust clouds under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff seaside amphitheater with wicker lights under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented bullring tunnel framed by salt pans during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador with cable shadows under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road with wrought iron gates under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented bullring tunnel with salt pans under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio framed by cable shadows during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge bullring tunnel framed by painted tiles during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block palm promenade featuring scooter blur amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block seaside amphitheater featuring arched brickwork amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path framed by gaudi mosaics during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled seaside amphitheater featuring salt pans amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed tram viaduct featuring rope lighting amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque plaza fountain lip with painted tiles under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted bullring tunnel framed by flamenco fan stack during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador with porcelain jars under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block olive mill lane framed by scooter blur during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch gothic cloister featuring cork basket towers amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza chalk canyon road framed by hanging lanterns during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque olive mill lane with painted tiles under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque seaside amphitheater framed by chalk dust clouds during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted plaza fountain lip framed by painted tiles during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador featuring painted tiles amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached rooftop mirador with hanging lanterns under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit palm promenade featuring painted tiles amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch cathedral step featuring flamenco fan stack amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port sunken patio framed by wicker lights during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung palm promenade with sunshade stripes under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached orange grove path featuring chalk dust clouds amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled metro mezzanine with painted tiles under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze seaside amphitheater featuring ripe citrus piles amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed glass canopy station featuring gaudi mosaics amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge gothic cloister framed by chalk dust clouds during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined rooftop mirador featuring arched brickwork amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister with sunshade stripes under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit palm promenade with wicker lights under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza bullring tunnel featuring misting fountains amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road featuring flamenco fan stack amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane rooftop mirador with salt pans under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed seaside amphitheater with misting fountains under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined gothic cloister framed by cable shadows during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff chalk canyon road framed by wicker lights during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge tram viaduct framed by gaudi mosaics during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio featuring palm shadows amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy tram viaduct framed by misting fountains during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy chalk canyon road featuring scooter blur amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block olive mill lane framed by porcelain jars during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge glass canopy station framed by salt pans during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path framed by wicker lights during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port seaside amphitheater with ripe citrus piles under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit industrial loft featuring salt pans amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff industrial loft featuring salt pans amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled sunken patio framed by palm shadows during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff palm promenade with porcelain jars under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed palm promenade with scooter blur under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port orange grove path featuring painted tiles amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung glass canopy station with misting fountains under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque desert wind farm with painted tiles under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge chalk canyon road featuring flamenco fan stack amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled metro mezzanine framed by palm shadows during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled harbor ramp framed by chalk dust clouds during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled gothic cloister framed by painted tiles during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted chalk canyon road featuring wind turbine silhouettes amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed bullring tunnel framed by cable shadows during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port cathedral step framed by porcelain jars during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge orange grove path featuring arched brickwork amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed vineyard crush pad with cork basket towers under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit rooftop mirador featuring palm shadows amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio featuring chalk dust clouds amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge bullring tunnel with cable shadows under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge glass canopy station featuring flamenco fan stack amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed olive mill lane framed by wicker lights during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached rooftop mirador framed by salt pans during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined plaza fountain lip featuring porcelain jars amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque olive mill lane featuring ripe citrus piles amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung olive mill lane featuring salt pans amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza harbor ramp with wind turbine silhouettes under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road framed by saffron banners during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung bullring tunnel featuring sunshade stripes amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined palm promenade framed by hanging lanterns during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined bullring tunnel framed by cable shadows during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented azulejo courtyard framed by rope lighting during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined plaza fountain lip featuring saffron banners amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze bullring tunnel with wind turbine silhouettes under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed orange grove path framed by painted tiles during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed gothic cloister framed by chalk dust clouds during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff market arcade framed by salt pans during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff seaside amphitheater featuring sunshade stripes amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented sunken patio with painted tiles under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted glass canopy station with misting fountains under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung sunken patio framed by hanging lanterns during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted industrial loft framed by rope lighting during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy rooftop mirador with gaudi mosaics under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff desert wind farm featuring salt pans amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza glass canopy station with salt pans under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed harbor ramp with chalk dust clouds under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled rooftop mirador featuring cork basket towers amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port vineyard crush pad with painted tiles under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff market arcade framed by cable shadows during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented rooftop mirador featuring gaudi mosaics amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff glass canopy station framed by porcelain jars during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted seaside amphitheater featuring wrought iron gates amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza orange grove path framed by salt pans during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed metro mezzanine framed by hanging lanterns during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff chalk canyon road with palm shadows under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge metro mezzanine framed by scooter blur during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed seaside amphitheater featuring scooter blur amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque harbor ramp framed by ripe citrus piles during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy olive mill lane framed by misting fountains during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit cathedral step with chalk dust clouds under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque vineyard crush pad with salt pans under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit gothic cloister with misting fountains under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff market arcade framed by ripe citrus piles during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff olive mill lane framed by rope lighting during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed market arcade with sunshade stripes under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza sunken patio framed by ripe citrus piles during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed olive mill lane featuring gaudi mosaics amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached market arcade featuring misting fountains amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge cathedral step with scooter blur under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed tram viaduct with rope lighting under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza orange grove path with ripe citrus piles under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block plaza fountain lip with scooter blur under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge seaside amphitheater with salt pans under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza azulejo courtyard with rope lighting under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block industrial loft framed by wrought iron gates during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff tram viaduct framed by porcelain jars during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane sunken patio with ripe citrus piles under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador framed by arched brickwork during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane sunken patio featuring cable shadows amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented plaza fountain lip featuring cork basket towers amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane cathedral step featuring arched brickwork amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge orange grove path with ripe citrus piles under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy desert wind farm framed by rope lighting during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit metro mezzanine framed by gaudi mosaics during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung harbor ramp featuring flamenco fan stack amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy cathedral step with cork basket towers under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined vineyard crush pad with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung tram viaduct featuring porcelain jars amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled metro mezzanine featuring sunshade stripes amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch metro mezzanine featuring sunshade stripes amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze market arcade with palm shadows under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze market arcade featuring misting fountains amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed market arcade with saffron banners under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port plaza fountain lip with wrought iron gates under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza palm promenade framed by gaudi mosaics during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port market arcade featuring sunshade stripes amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane industrial loft featuring hanging lanterns amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached seaside amphitheater with cork basket towers under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block market arcade with wind turbine silhouettes under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road framed by wrought iron gates during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff plaza fountain lip with saffron banners under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff seaside amphitheater with hanging lanterns under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit market arcade framed by saffron banners during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block orange grove path framed by painted tiles during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit vineyard crush pad featuring painted tiles amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted azulejo courtyard with cable shadows under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch metro mezzanine framed by porcelain jars during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung sunken patio framed by ripe citrus piles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza vineyard crush pad with saffron banners under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane olive mill lane with chalk dust clouds under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch vineyard crush pad framed by palm shadows during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm featuring painted tiles amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled vineyard crush pad with palm shadows under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed palm promenade with saffron banners under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed metro mezzanine framed by cable shadows during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted metro mezzanine featuring sunshade stripes amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block gothic cloister with painted tiles under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch vineyard crush pad with cable shadows under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port azulejo courtyard framed by hanging lanterns during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block sunken patio featuring hanging lanterns amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy harbor ramp with porcelain jars under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed orange grove path featuring hanging lanterns amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza seaside amphitheater framed by painted tiles during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block rooftop mirador with wicker lights under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit orange grove path framed by misting fountains during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy market arcade featuring cork basket towers amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented plaza fountain lip with saffron banners under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached rooftop mirador featuring cable shadows amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque orange grove path with arched brickwork under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge olive mill lane featuring wicker lights amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit market arcade with painted tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung vineyard crush pad with ripe citrus piles under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block metro mezzanine featuring porcelain jars amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented sunken patio with rope lighting under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy olive mill lane framed by chalk dust clouds during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza sunken patio featuring hanging lanterns amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port seaside amphitheater framed by painted tiles during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed vineyard crush pad with porcelain jars under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung palm promenade featuring hanging lanterns amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted plaza fountain lip featuring porcelain jars amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed sunken patio featuring flamenco fan stack amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge palm promenade with wicker lights under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled vineyard crush pad framed by wicker lights during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane desert wind farm featuring porcelain jars amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm framed by sunshade stripes during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze glass canopy station with wind turbine silhouettes under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed glass canopy station with palm shadows under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed industrial loft framed by flamenco fan stack during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive mill lane with gaudi mosaics under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy market arcade with cork basket towers under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch glass canopy station framed by cable shadows during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached seaside amphitheater featuring cork basket towers amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy bullring tunnel framed by flamenco fan stack during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunken patio featuring ripe citrus piles amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled azulejo courtyard with salt pans under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze orange grove path featuring misting fountains amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed plaza fountain lip with painted tiles under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed gothic cloister featuring cable shadows amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit vineyard crush pad framed by cable shadows during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch cathedral step framed by saffron banners during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy harbor ramp framed by saffron banners during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block market arcade framed by wicker lights during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled seaside amphitheater featuring chalk dust clouds amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch metro mezzanine featuring chalk dust clouds amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff glass canopy station with rope lighting under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy harbor ramp with painted tiles under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted vineyard crush pad framed by saffron banners during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed metro mezzanine featuring cable shadows amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached metro mezzanine featuring wicker lights amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze glass canopy station with wind turbine silhouettes under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy rooftop mirador framed by wind turbine silhouettes during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch palm promenade with flamenco fan stack under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy orange grove path framed by cork basket towers during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane metro mezzanine featuring wind turbine silhouettes amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed seaside amphitheater framed by arched brickwork during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed orange grove path featuring porcelain jars amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze market arcade with cable shadows under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch sunken patio framed by flamenco fan stack during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch glass canopy station featuring hanging lanterns amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached metro mezzanine framed by hanging lanterns during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm framed by wind turbine silhouettes during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza market arcade featuring porcelain jars amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road framed by palm shadows during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff plaza fountain lip featuring cork basket towers amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined metro mezzanine with rope lighting under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block harbor ramp framed by cork basket towers during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff bullring tunnel featuring salt pans amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze harbor ramp with saffron banners under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge seaside amphitheater framed by sunshade stripes during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed bullring tunnel featuring flamenco fan stack amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane bullring tunnel with cable shadows under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge metro mezzanine framed by cable shadows during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane azulejo courtyard with rope lighting under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze bullring tunnel framed by chalk dust clouds during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit seaside amphitheater framed by palm shadows during olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung market arcade framed by wicker lights during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined harbor ramp featuring porcelain jars amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented tram viaduct with wind turbine silhouettes under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza harbor ramp with salt pans under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze olive mill lane with saffron banners under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented orange grove path framed by flamenco fan stack during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunken patio with arched brickwork under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze cathedral step featuring wind turbine silhouettes amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque vineyard crush pad featuring cork basket towers amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff glass canopy station with gaudi mosaics under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge olive mill lane framed by salt pans during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza bullring tunnel framed by saffron banners during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm with wrought iron gates under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed harbor ramp with salt pans under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed sunken patio framed by cork basket towers during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza desert wind farm featuring scooter blur amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge chalk canyon road with misting fountains under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block market arcade with wicker lights under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy seaside amphitheater with wrought iron gates under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented vineyard crush pad featuring saffron banners amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge cathedral step framed by sunshade stripes during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza azulejo courtyard framed by flamenco fan stack during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge metro mezzanine featuring salt pans amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque cathedral step framed by ripe citrus piles during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff vineyard crush pad featuring scooter blur amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed industrial loft with arched brickwork under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm with sunshade stripes under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza gothic cloister featuring cork basket towers amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted orange grove path with misting fountains under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch orange grove path featuring palm shadows amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza harbor ramp featuring misting fountains amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch seaside amphitheater featuring wicker lights amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed plaza fountain lip framed by gaudi mosaics during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge tram viaduct featuring hanging lanterns amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane azulejo courtyard with scooter blur under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch gothic cloister featuring wrought iron gates amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port azulejo courtyard featuring wind turbine silhouettes amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane sunken patio with palm shadows under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch azulejo courtyard with wrought iron gates under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister with arched brickwork under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented harbor ramp featuring cable shadows amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane olive mill lane featuring salt pans amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge seaside amphitheater with gaudi mosaics under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze rooftop mirador framed by cork basket towers during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza cathedral step featuring palm shadows amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy olive mill lane featuring saffron banners amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff plaza fountain lip with cork basket towers under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined metro mezzanine framed by saffron banners during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit industrial loft with scooter blur under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined glass canopy station framed by scooter blur during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached orange grove path with arched brickwork under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza sunken patio featuring hanging lanterns amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane cathedral step featuring scooter blur amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented chalk canyon road framed by sunshade stripes during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed glass canopy station featuring cork basket towers amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff tram viaduct framed by palm shadows during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff cathedral step framed by salt pans during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm framed by wrought iron gates during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane rooftop mirador featuring wicker lights amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit plaza fountain lip with hanging lanterns under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza rooftop mirador featuring rope lighting amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit azulejo courtyard with wind turbine silhouettes under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque sunken patio featuring wind turbine silhouettes amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane glass canopy station featuring chalk dust clouds amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached orange grove path framed by wind turbine silhouettes during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed plaza fountain lip featuring porcelain jars amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza tram viaduct framed by rope lighting during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted seaside amphitheater with hanging lanterns under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister framed by painted tiles during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze desert wind farm framed by arched brickwork during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled olive mill lane featuring misting fountains amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed rooftop mirador featuring wrought iron gates amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed vineyard crush pad with flamenco fan stack under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached seaside amphitheater featuring sunshade stripes amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm featuring ripe citrus piles amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze rooftop mirador with rope lighting under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque metro mezzanine with flamenco fan stack under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch plaza fountain lip framed by rope lighting during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port gothic cloister featuring cork basket towers amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed palm promenade framed by saffron banners during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung harbor ramp with ripe citrus piles under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed rooftop mirador featuring chalk dust clouds amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block seaside amphitheater with misting fountains under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit sunken patio featuring hanging lanterns amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch vineyard crush pad with sunshade stripes under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached seaside amphitheater framed by rope lighting during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit chalk canyon road with scooter blur under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze azulejo courtyard featuring sunshade stripes amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port vineyard crush pad with ripe citrus piles under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached gothic cloister with arched brickwork under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft framed by wrought iron gates during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined palm promenade featuring arched brickwork amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane palm promenade featuring painted tiles amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane glass canopy station framed by rope lighting during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza harbor ramp featuring sunshade stripes amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy cathedral step framed by sunshade stripes during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch harbor ramp framed by gaudi mosaics during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted palm promenade with flamenco fan stack under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque plaza fountain lip framed by ripe citrus piles during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted azulejo courtyard featuring sunshade stripes amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block olive mill lane featuring wicker lights amidst storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block cathedral step framed by sunshade stripes during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque orange grove path framed by flamenco fan stack during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached market arcade with painted tiles under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined vineyard crush pad featuring palm shadows amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff sunken patio featuring sunshade stripes amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port market arcade featuring wrought iron gates amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented olive mill lane framed by salt pans during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch palm promenade featuring rope lighting amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined chalk canyon road framed by porcelain jars during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined tram viaduct featuring wrought iron gates amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit azulejo courtyard framed by flamenco fan stack during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed glass canopy station with wind turbine silhouettes under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy gothic cloister framed by porcelain jars during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined rooftop mirador featuring palm shadows amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled metro mezzanine featuring cork basket towers amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed market arcade framed by chalk dust clouds during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed desert wind farm with salt pans under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit orange grove path framed by chalk dust clouds during saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path framed by salt pans during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane palm promenade with cable shadows under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled seaside amphitheater framed by misting fountains during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached sunken patio featuring salt pans amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled metro mezzanine framed by sunshade stripes during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path framed by gaudi mosaics during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port orange grove path framed by arched brickwork during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge gothic cloister framed by cork basket towers during storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed chalk canyon road framed by misting fountains during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed vineyard crush pad featuring sunshade stripes amidst roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane harbor ramp with cork basket towers under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung glass canopy station framed by salt pans during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane palm promenade featuring saffron banners amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit desert wind farm featuring cable shadows amidst metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed rooftop mirador with wicker lights under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled industrial loft framed by porcelain jars during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung metro mezzanine with palm shadows under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted rooftop mirador with flamenco fan stack under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed olive mill lane framed by porcelain jars during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed glass canopy station with gaudi mosaics under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed rooftop mirador with ripe citrus piles under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block industrial loft framed by wrought iron gates during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff olive mill lane framed by gaudi mosaics during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block desert wind farm with palm shadows under porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed desert wind farm featuring saffron banners amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined industrial loft with misting fountains under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung chalk canyon road featuring wind turbine silhouettes amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port olive mill lane featuring ripe citrus piles amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port industrial loft featuring sunshade stripes amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached tram viaduct featuring saffron banners amidst desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port bullring tunnel framed by rope lighting during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy seaside amphitheater framed by wrought iron gates during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze market arcade framed by painted tiles during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block harbor ramp framed by wrought iron gates during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed tram viaduct featuring wicker lights amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed azulejo courtyard with flamenco fan stack under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block rooftop mirador with cable shadows under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza plaza fountain lip with misting fountains under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted metro mezzanine with palm shadows under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled industrial loft with salt pans under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch desert wind farm framed by cork basket towers during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane bullring tunnel framed by scooter blur during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane azulejo courtyard framed by cork basket towers during harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented glass canopy station framed by wicker lights during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted chalk canyon road with painted tiles under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed industrial loft featuring flamenco fan stack amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque orange grove path featuring sunshade stripes amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung desert wind farm with saffron banners under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached market arcade featuring wicker lights amidst porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block plaza fountain lip framed by painted tiles during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy glass canopy station framed by flamenco fan stack during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza market arcade with chalk dust clouds under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff tram viaduct featuring cork basket towers amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff olive mill lane featuring palm shadows amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung market arcade with rope lighting under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane vineyard crush pad framed by flamenco fan stack during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung plaza fountain lip with cork basket towers under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung metro mezzanine with cork basket towers under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung market arcade with hanging lanterns under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached bullring tunnel featuring scooter blur amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined olive mill lane with rope lighting under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block desert wind farm with chalk dust clouds under desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block azulejo courtyard with palm shadows under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gaudi-esque desert wind farm framed by gaudi mosaics during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed sunken patio framed by salt pans during blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port glass canopy station framed by flamenco fan stack during sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented sunken patio with misting fountains under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy vineyard crush pad framed by wicker lights during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister with wrought iron gates under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed tram viaduct framed by cork basket towers during metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy industrial loft featuring porcelain jars amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane plaza fountain lip framed by saffron banners during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port olive mill lane with sunshade stripes under dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane vineyard crush pad with painted tiles under storm-washed morning",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled olive mill lane with gaudi mosaics under metro fluorescence pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined cathedral step framed by saffron banners during vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza plaza fountain lip with sunshade stripes under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy plaza fountain lip with chalk dust clouds under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached tram viaduct framed by cable shadows during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached desert wind farm with porcelain jars under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached azulejo courtyard framed by chalk dust clouds during rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sirena-lit glass canopy station featuring saffron banners amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung azulejo courtyard with saffron banners under harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze sunken patio featuring sunshade stripes amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted harbor ramp with porcelain jars under olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted gothic cloister with gaudi mosaics under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung harbor ramp with misting fountains under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff metro mezzanine featuring wind turbine silhouettes amidst feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted industrial loft featuring misting fountains amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch azulejo courtyard with wind turbine silhouettes under blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal haze harbor ramp featuring cork basket towers amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port olive mill lane framed by salt pans during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed market arcade with scooter blur under sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port industrial loft framed by wrought iron gates during roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung chalk canyon road with flamenco fan stack under saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-noisy orange grove path featuring chalk dust clouds amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane metro mezzanine with flamenco fan stack under vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled orange grove path featuring palm shadows amidst blue-hour tram sparks",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented olive mill lane featuring chalk dust clouds amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled olive mill lane featuring scooter blur amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza sunken patio with wicker lights under roofline lightning arc",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined azulejo courtyard featuring hanging lanterns amidst harbor sodium wash",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed industrial loft framed by painted tiles during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block bullring tunnel framed by arched brickwork during dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "breeze-block plaza fountain lip framed by ripe citrus piles during porcelain moonlight",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff plaza fountain lip featuring misting fountains amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "albero-dusted palm promenade featuring gaudi mosaics amidst sea breeze glitter",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza olive mill lane featuring painted tiles amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached chalk canyon road framed by rope lighting during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "vine-strung industrial loft featuring wicker lights amidst rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "graffiti-splashed desert wind farm featuring chalk dust clouds amidst saffron sunset glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-shadowed orange grove path framed by wrought iron gates during feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-port seaside amphitheater with rope lighting under rain-cooled midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "deserted plaza palm promenade framed by sunshade stripes during desert gust swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented harbor ramp featuring misting fountains amidst vineyard golden haze",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented olive mill lane with cork basket towers under feria lantern blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gothic arch rooftop mirador featuring porcelain jars amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "terracotta ridge harbor ramp featuring arched brickwork amidst olive-smoke dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "vineyard lane chalk canyon road featuring wrought iron gates amidst noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tram-crossed olive mill lane with porcelain jars under noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "storm cooled vineyard crush pad framed by cork basket towers during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "citrus-scented plaza fountain lip featuring palm shadows amidst dawn fog rolling in",
+      "weight": 1.0
+    },
+    {
+      "text": "tile-lined market arcade framed by rope lighting during noon heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "chalk cliff cathedral step featuring porcelain jars amidst storm-washed morning",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "embroidered mantilla clip securing waves",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel leather fan holster",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue cord bracelet with ceramic charm",
+        "weight": 0.6
+      },
+      {
+        "text": "filigree peineta comb with orchid enamel",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "flamenco fringe snapping midair",
+        "weight": 0.6
+      },
+      {
+        "text": "cava mist condensing on frame edge",
+        "weight": 0.6
+      },
+      {
+        "text": "metro sparks tracing bokeh",
+        "weight": 0.6
+      },
+      {
+        "text": "orange blossom gust drifting through light",
+        "weight": 0.6
+      }
+    ]
+  }
+}

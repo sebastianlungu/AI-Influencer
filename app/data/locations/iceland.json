@@ -1,0 +1,4042 @@
+{
+  "scenes": [
+    {
+      "text": "basalt glacier overlook framed by sleet streaks during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung harbor pier with harbor chainlines under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt waterfall mist shelf featuring rope barriers amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon harbor pier featuring glacial pools amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone arctic greenhouse with icicle strings under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit snowfield runway featuring charcoal windbreaks amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon saga church step with black sand spray under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon skyr warehouse with ember warning lights under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave reclaimed factory loft with geo steam jets under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit ice cave entry featuring mossy stones amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt fjord ferry dock with reflective puddles under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung arctic greenhouse with recycled glass walls under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun waterfall mist shelf with reflective puddles under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun harbor pier framed by harbor chainlines during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled harbor pier framed by harbor chainlines during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown skyr warehouse with reflective puddles under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved arctic greenhouse framed by snow tractors during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss volcanic crater rim with rope barriers under snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field glacier overlook with harbor chainlines under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright saga church step framed by geo steam jets during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave moss meadow featuring sleet streaks amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss aurora observatory featuring snow tractors amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown arctic greenhouse featuring shipping pallets amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled aurora observatory with ember warning lights under snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand aurora observatory framed by glacial pools during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss ice cave entry featuring icicle strings amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon waterfall mist shelf with geo steam jets under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal lava ridge with mossy stones under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field black sand dune featuring solar-powered lanterns amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone ice cave entry with geo steam jets under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain aurora observatory with glacial pools under fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss sleeted streetcar bay featuring harbor chainlines amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand reclaimed factory loft framed by drone beacons during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave urban mural lane featuring black sand spray amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt glacier overlook framed by geo steam jets during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave volcanic crater rim with shipping pallets under copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss urban mural lane with drone beacons under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain reclaimed factory loft framed by drone beacons during geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit arctic greenhouse framed by sleet streaks during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain ice cave entry framed by harbor chainlines during fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave urban mural lane featuring glacial pools amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave aurora observatory with recycled glass walls under arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled saga church step featuring shipping pallets amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon fjord ferry dock with recycled glass walls under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky black sand dune with wind-blown flags under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave lava ridge framed by solar-powered lanterns during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright glacier overlook with harbor chainlines under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled lava ridge featuring geo steam jets amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky harbor pier with black sand spray under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave urban mural lane framed by drone beacons during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain ice cave entry featuring solar-powered lanterns amidst snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave coastal pool deck featuring charcoal windbreaks amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside saga church step featuring reflective puddles amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss saga church step featuring icicle strings amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled fjord ferry dock with mossy stones under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky wind farm platform with basalt columns under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright wind farm platform framed by drone beacons during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal volcanic crater rim framed by ember warning lights during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved geothermal boardwalk with glacial pools under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun reclaimed factory loft with drone beacons under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field waterfall mist shelf with drone beacons under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled skyr warehouse framed by wind-blown flags during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave waterfall mist shelf with shipping pallets under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit volcanic crater rim framed by geo steam jets during fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand moss meadow featuring mossy stones amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss snowfield runway featuring charcoal windbreaks amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal moss meadow framed by charcoal windbreaks during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field volcanic crater rim framed by wind-blown flags during storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal black sand dune framed by recycled glass walls during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved urban mural lane featuring mossy stones amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun arctic greenhouse framed by glacial pools during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal arctic greenhouse featuring icicle strings amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright snowfield runway featuring reflective puddles amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand sleeted streetcar bay featuring basalt columns amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field sleeted streetcar bay framed by ember warning lights during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved volcanic crater rim featuring mossy stones amidst snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown waterfall mist shelf framed by geo steam jets during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon saga church step framed by mossy stones during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled snowfield runway featuring black sand spray amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright fjord ferry dock featuring solar-powered lanterns amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright waterfall mist shelf with basalt columns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone coastal pool deck featuring sleet streaks amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit lava ridge framed by snow tractors during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon sleeted streetcar bay with icicle strings under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit reclaimed factory loft featuring solar-powered lanterns amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright glacier overlook featuring reflective puddles amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright aurora observatory with glacial pools under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon fjord ferry dock framed by aurora rods during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain lava ridge featuring reflective puddles amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt reclaimed factory loft featuring recycled glass walls amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved urban mural lane framed by basalt columns during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave fjord ferry dock featuring solar-powered lanterns amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside coastal pool deck framed by ember warning lights during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon sleeted streetcar bay featuring sleet streaks amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit coastal pool deck featuring charcoal windbreaks amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted snowfield runway with ember warning lights under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted glacier overlook featuring glacial pools amidst geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside sleeted streetcar bay featuring charcoal windbreaks amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung harbor pier with geo steam jets under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal snowfield runway framed by snow tractors during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone snowfield runway framed by snow tractors during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field saga church step featuring glacial pools amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun glacier overlook with drift ice chunks under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone glacier overlook with sleet streaks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt reclaimed factory loft with charcoal windbreaks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss geothermal boardwalk featuring glacial pools amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled arctic greenhouse with drone beacons under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled arctic greenhouse with black sand spray under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss waterfall mist shelf with shipping pallets under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved volcanic crater rim featuring icicle strings amidst fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown ice cave entry featuring geo steam jets amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand glacier overlook featuring mossy stones amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky snowfield runway framed by harbor chainlines during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain glacier overlook framed by geo steam jets during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone coastal pool deck with glacial pools under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal skyr warehouse featuring charcoal windbreaks amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon urban mural lane framed by sleet streaks during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit snowfield runway with mossy stones under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky moss meadow featuring mossy stones amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal saga church step featuring reflective puddles amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved urban mural lane with rope barriers under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun arctic greenhouse featuring reflective puddles amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss coastal pool deck framed by sleet streaks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown coastal pool deck featuring aurora rods amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside coastal pool deck with icicle strings under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt lava ridge with shipping pallets under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave skyr warehouse featuring black sand spray amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal reclaimed factory loft with basalt columns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted lava ridge with aurora rods under arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field reclaimed factory loft with icicle strings under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted geothermal boardwalk with shipping pallets under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand arctic greenhouse featuring ember warning lights amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon sleeted streetcar bay featuring charcoal windbreaks amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain snowfield runway with reflective puddles under storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit aurora observatory with drift ice chunks under fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung coastal pool deck featuring wind-blown flags amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal sleeted streetcar bay with basalt columns under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown reclaimed factory loft with icicle strings under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted arctic greenhouse featuring rope barriers amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun glacier overlook featuring aurora rods amidst harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave volcanic crater rim framed by glacial pools during arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved ice cave entry framed by reflective puddles during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky volcanic crater rim framed by harbor chainlines during snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field geothermal boardwalk with drone beacons under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand fjord ferry dock framed by mossy stones during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave volcanic crater rim featuring sleet streaks amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun geothermal boardwalk featuring harbor chainlines amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung reclaimed factory loft with aurora rods under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal aurora observatory featuring wind-blown flags amidst ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside glacier overlook with recycled glass walls under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain urban mural lane framed by wind-blown flags during ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky moss meadow framed by wind-blown flags during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown volcanic crater rim with drone beacons under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss moss meadow featuring ember warning lights amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside wind farm platform framed by icicle strings during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain geothermal boardwalk with aurora rods under freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal lava ridge framed by glacial pools during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted sleeted streetcar bay featuring charcoal windbreaks amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright moss meadow with harbor chainlines under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss lava ridge with solar-powered lanterns under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside wind farm platform framed by black sand spray during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon urban mural lane with ember warning lights under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown skyr warehouse framed by basalt columns during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun glacier overlook framed by icicle strings during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown sleeted streetcar bay featuring snow tractors amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt waterfall mist shelf with geo steam jets under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky wind farm platform featuring black sand spray amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun saga church step with glacial pools under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted glacier overlook framed by solar-powered lanterns during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung arctic greenhouse with solar-powered lanterns under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal arctic greenhouse featuring solar-powered lanterns amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved black sand dune featuring mossy stones amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright ice cave entry with recycled glass walls under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand coastal pool deck with rope barriers under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown sleeted streetcar bay featuring charcoal windbreaks amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field ice cave entry framed by snow tractors during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted black sand dune with snow tractors under arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field waterfall mist shelf with shipping pallets under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted lava ridge with basalt columns under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown saga church step with wind-blown flags under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit lava ridge framed by recycled glass walls during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright black sand dune framed by harbor chainlines during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled wind farm platform featuring snow tractors amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon aurora observatory framed by drone beacons during freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field reclaimed factory loft framed by icicle strings during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave lava ridge framed by wind-blown flags during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt harbor pier with drone beacons under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky wind farm platform featuring aurora rods amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky sleeted streetcar bay featuring recycled glass walls amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown volcanic crater rim featuring reflective puddles amidst nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside coastal pool deck with glacial pools under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown waterfall mist shelf featuring black sand spray amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun volcanic crater rim framed by rope barriers during copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave geothermal boardwalk framed by solar-powered lanterns during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung harbor pier with drone beacons under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal black sand dune with snow tractors under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal volcanic crater rim framed by geo steam jets during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted sleeted streetcar bay framed by rope barriers during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved black sand dune featuring black sand spray amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright geothermal boardwalk framed by ember warning lights during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun fjord ferry dock with drone beacons under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain reclaimed factory loft featuring icicle strings amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand sleeted streetcar bay featuring rope barriers amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright reclaimed factory loft framed by shipping pallets during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss reclaimed factory loft framed by solar-powered lanterns during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun ice cave entry featuring black sand spray amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung saga church step featuring charcoal windbreaks amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone moss meadow framed by rope barriers during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside skyr warehouse featuring ember warning lights amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field black sand dune featuring icicle strings amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt coastal pool deck with drone beacons under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss moss meadow featuring mossy stones amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss sleeted streetcar bay featuring solar-powered lanterns amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright urban mural lane with solar-powered lanterns under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave volcanic crater rim featuring drone beacons amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain lava ridge featuring snow tractors amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside geothermal boardwalk featuring harbor chainlines amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung wind farm platform with reflective puddles under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave wind farm platform with drone beacons under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled wind farm platform framed by basalt columns during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit fjord ferry dock featuring solar-powered lanterns amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field urban mural lane framed by ember warning lights during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand geothermal boardwalk framed by recycled glass walls during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted aurora observatory featuring icicle strings amidst nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside skyr warehouse framed by ember warning lights during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field sleeted streetcar bay featuring recycled glass walls amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field urban mural lane framed by wind-blown flags during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted wind farm platform with charcoal windbreaks under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain volcanic crater rim featuring icicle strings amidst fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside geothermal boardwalk featuring snow tractors amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand black sand dune framed by sleet streaks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled wind farm platform with reflective puddles under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown urban mural lane with basalt columns under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone volcanic crater rim framed by black sand spray during copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss saga church step with sleet streaks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand fjord ferry dock with charcoal windbreaks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung sleeted streetcar bay framed by drift ice chunks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss geothermal boardwalk with rope barriers under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon volcanic crater rim framed by black sand spray during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon geothermal boardwalk framed by geo steam jets during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown harbor pier with reflective puddles under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt moss meadow with geo steam jets under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown snowfield runway featuring solar-powered lanterns amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside skyr warehouse with solar-powered lanterns under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt lava ridge featuring icicle strings amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved fjord ferry dock framed by solar-powered lanterns during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled urban mural lane framed by drone beacons during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal volcanic crater rim featuring harbor chainlines amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted sleeted streetcar bay framed by rope barriers during copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved ice cave entry with shipping pallets under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt reclaimed factory loft featuring reflective puddles amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt arctic greenhouse framed by snow tractors during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown volcanic crater rim with geo steam jets under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave snowfield runway featuring sleet streaks amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon saga church step framed by solar-powered lanterns during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone ice cave entry with reflective puddles under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss sleeted streetcar bay with harbor chainlines under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave snowfield runway framed by glacial pools during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky arctic greenhouse featuring ember warning lights amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand coastal pool deck with recycled glass walls under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain reclaimed factory loft framed by black sand spray during moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal geothermal boardwalk featuring glacial pools amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside skyr warehouse with glacial pools under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted black sand dune framed by drift ice chunks during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside urban mural lane featuring basalt columns amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung glacier overlook with harbor chainlines under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain glacier overlook with mossy stones under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved sleeted streetcar bay framed by sleet streaks during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung ice cave entry featuring solar-powered lanterns amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain glacier overlook with wind-blown flags under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved fjord ferry dock with harbor chainlines under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon ice cave entry featuring drone beacons amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone fjord ferry dock with drone beacons under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain urban mural lane with aurora rods under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal lava ridge framed by charcoal windbreaks during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal saga church step with charcoal windbreaks under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit coastal pool deck with basalt columns under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung aurora observatory featuring snow tractors amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit volcanic crater rim with aurora rods under copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved aurora observatory framed by wind-blown flags during freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside aurora observatory with sleet streaks under wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled lava ridge with reflective puddles under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field skyr warehouse framed by wind-blown flags during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun aurora observatory with charcoal windbreaks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky glacier overlook featuring sleet streaks amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky lava ridge with ember warning lights under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown geothermal boardwalk framed by charcoal windbreaks during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt saga church step with glacial pools under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit moss meadow framed by basalt columns during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal sleeted streetcar bay featuring black sand spray amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky reclaimed factory loft with shipping pallets under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal wind farm platform framed by snow tractors during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun snowfield runway featuring wind-blown flags amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone fjord ferry dock framed by geo steam jets during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted saga church step with aurora rods under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave skyr warehouse with drift ice chunks under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave geothermal boardwalk framed by solar-powered lanterns during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit volcanic crater rim featuring recycled glass walls amidst geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright lava ridge framed by drone beacons during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown skyr warehouse featuring geo steam jets amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside arctic greenhouse with recycled glass walls under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled snowfield runway featuring shipping pallets amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright harbor pier framed by wind-blown flags during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand lava ridge with wind-blown flags under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun geothermal boardwalk featuring shipping pallets amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt volcanic crater rim framed by drone beacons during freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon reclaimed factory loft with mossy stones under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave reclaimed factory loft featuring ember warning lights amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled sleeted streetcar bay framed by geo steam jets during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown glacier overlook featuring shipping pallets amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field aurora observatory framed by glacial pools during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky moss meadow with rope barriers under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted saga church step with aurora rods under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown skyr warehouse with drift ice chunks under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss fjord ferry dock framed by ember warning lights during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun coastal pool deck with reflective puddles under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal wind farm platform with reflective puddles under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung fjord ferry dock featuring shipping pallets amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside sleeted streetcar bay with icicle strings under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled waterfall mist shelf with basalt columns under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted saga church step with glacial pools under arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss saga church step featuring ember warning lights amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky reclaimed factory loft featuring shipping pallets amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss snowfield runway with shipping pallets under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon reclaimed factory loft with sleet streaks under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside glacier overlook with sleet streaks under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal waterfall mist shelf featuring ember warning lights amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt harbor pier featuring icicle strings amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt coastal pool deck framed by charcoal windbreaks during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave moss meadow with basalt columns under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown geothermal boardwalk framed by wind-blown flags during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss harbor pier featuring aurora rods amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung reclaimed factory loft featuring mossy stones amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal moss meadow framed by solar-powered lanterns during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled wind farm platform featuring wind-blown flags amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved harbor pier framed by reflective puddles during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss skyr warehouse with ember warning lights under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt sleeted streetcar bay framed by recycled glass walls during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand aurora observatory with reflective puddles under geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon snowfield runway featuring mossy stones amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled urban mural lane with wind-blown flags under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand fjord ferry dock framed by charcoal windbreaks during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit saga church step with basalt columns under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted wind farm platform framed by wind-blown flags during wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss saga church step featuring icicle strings amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung sleeted streetcar bay featuring ember warning lights amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt skyr warehouse with ember warning lights under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain saga church step with mossy stones under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside fjord ferry dock featuring black sand spray amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled moss meadow featuring harbor chainlines amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal moss meadow with shipping pallets under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone waterfall mist shelf featuring geo steam jets amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown harbor pier with geo steam jets under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled ice cave entry featuring solar-powered lanterns amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted volcanic crater rim with glacial pools under wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal ice cave entry featuring basalt columns amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field reclaimed factory loft framed by rope barriers during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt skyr warehouse framed by black sand spray during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt wind farm platform featuring rope barriers amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand snowfield runway with solar-powered lanterns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss snowfield runway featuring charcoal windbreaks amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside snowfield runway with black sand spray under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun harbor pier featuring recycled glass walls amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky volcanic crater rim with sleet streaks under copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain reclaimed factory loft featuring mossy stones amidst geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky harbor pier framed by wind-blown flags during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown urban mural lane framed by charcoal windbreaks during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted aurora observatory featuring drone beacons amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved sleeted streetcar bay featuring sleet streaks amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun waterfall mist shelf with drift ice chunks under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal coastal pool deck featuring reflective puddles amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright glacier overlook with wind-blown flags under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt black sand dune featuring harbor chainlines amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand skyr warehouse framed by reflective puddles during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved moss meadow with rope barriers under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit ice cave entry with aurora rods under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled saga church step framed by wind-blown flags during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted glacier overlook framed by sleet streaks during harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone coastal pool deck featuring drone beacons amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone volcanic crater rim framed by snow tractors during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright geothermal boardwalk featuring reflective puddles amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt glacier overlook featuring harbor chainlines amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun moss meadow with harbor chainlines under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun fjord ferry dock with mossy stones under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain aurora observatory with drone beacons under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright coastal pool deck with solar-powered lanterns under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field volcanic crater rim with solar-powered lanterns under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung coastal pool deck featuring drone beacons amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted geothermal boardwalk with harbor chainlines under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave glacier overlook featuring geo steam jets amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand aurora observatory with wind-blown flags under fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain saga church step framed by wind-blown flags during wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown reclaimed factory loft framed by aurora rods during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside aurora observatory featuring charcoal windbreaks amidst geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone reclaimed factory loft with sleet streaks under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted reclaimed factory loft framed by reflective puddles during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field sleeted streetcar bay framed by solar-powered lanterns during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted coastal pool deck framed by recycled glass walls during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled waterfall mist shelf with ember warning lights under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field aurora observatory with snow tractors under freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand wind farm platform with wind-blown flags under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky saga church step with drone beacons under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain glacier overlook featuring harbor chainlines amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky glacier overlook with basalt columns under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved snowfield runway framed by sleet streaks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved urban mural lane with sleet streaks under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt sleeted streetcar bay featuring icicle strings amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand wind farm platform with harbor chainlines under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon lava ridge featuring geo steam jets amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone coastal pool deck with shipping pallets under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside saga church step framed by drift ice chunks during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright skyr warehouse featuring charcoal windbreaks amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung geothermal boardwalk with black sand spray under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand reclaimed factory loft with snow tractors under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain urban mural lane with wind-blown flags under freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun fjord ferry dock framed by wind-blown flags during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone urban mural lane with shipping pallets under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun harbor pier featuring charcoal windbreaks amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal snowfield runway featuring sleet streaks amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon skyr warehouse framed by wind-blown flags during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss saga church step with basalt columns under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung saga church step framed by charcoal windbreaks during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal arctic greenhouse with mossy stones under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal wind farm platform framed by harbor chainlines during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave volcanic crater rim featuring solar-powered lanterns amidst storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave reclaimed factory loft framed by recycled glass walls during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung moss meadow framed by drift ice chunks during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled moss meadow with ember warning lights under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled black sand dune framed by reflective puddles during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal glacier overlook featuring solar-powered lanterns amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone reclaimed factory loft featuring recycled glass walls amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung glacier overlook with rope barriers under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung snowfield runway framed by snow tractors during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit geothermal boardwalk featuring solar-powered lanterns amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun coastal pool deck featuring sleet streaks amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain coastal pool deck framed by icicle strings during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon skyr warehouse with wind-blown flags under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun ice cave entry framed by reflective puddles during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal volcanic crater rim framed by aurora rods during snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon waterfall mist shelf featuring glacial pools amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung waterfall mist shelf featuring black sand spray amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit skyr warehouse framed by shipping pallets during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave saga church step with recycled glass walls under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright black sand dune with aurora rods under ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted volcanic crater rim with recycled glass walls under freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand volcanic crater rim with snow tractors under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside snowfield runway framed by black sand spray during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky moss meadow framed by snow tractors during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave black sand dune with harbor chainlines under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved urban mural lane with geo steam jets under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside snowfield runway featuring rope barriers amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted waterfall mist shelf featuring aurora rods amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled lava ridge framed by charcoal windbreaks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown geothermal boardwalk framed by mossy stones during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown volcanic crater rim with black sand spray under ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss aurora observatory featuring mossy stones amidst storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon sleeted streetcar bay featuring harbor chainlines amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss moss meadow featuring aurora rods amidst ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field arctic greenhouse with geo steam jets under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave moss meadow featuring black sand spray amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon waterfall mist shelf with icicle strings under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun aurora observatory framed by aurora rods during ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand lava ridge framed by reflective puddles during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon wind farm platform framed by snow tractors during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt waterfall mist shelf featuring ember warning lights amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved waterfall mist shelf with recycled glass walls under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field black sand dune with geo steam jets under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal moss meadow featuring mossy stones amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright wind farm platform featuring charcoal windbreaks amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone saga church step with charcoal windbreaks under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand coastal pool deck framed by geo steam jets during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown snowfield runway featuring snow tractors amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt aurora observatory with snow tractors under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun lava ridge with glacial pools under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown arctic greenhouse featuring drift ice chunks amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun reclaimed factory loft framed by basalt columns during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled reclaimed factory loft framed by drift ice chunks during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit urban mural lane framed by mossy stones during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal ice cave entry featuring mossy stones amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone coastal pool deck with recycled glass walls under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung sleeted streetcar bay with glacial pools under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside black sand dune featuring drone beacons amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside waterfall mist shelf featuring rope barriers amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave coastal pool deck featuring reflective puddles amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun coastal pool deck with black sand spray under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown moss meadow framed by drone beacons during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown reclaimed factory loft featuring snow tractors amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright skyr warehouse featuring reflective puddles amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand volcanic crater rim featuring black sand spray amidst nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted moss meadow with mossy stones under geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung sleeted streetcar bay with ember warning lights under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave aurora observatory framed by drone beacons during geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon wind farm platform with charcoal windbreaks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt urban mural lane with basalt columns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field geothermal boardwalk framed by rope barriers during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss wind farm platform with reflective puddles under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave volcanic crater rim with drone beacons under copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field black sand dune with shipping pallets under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave coastal pool deck featuring geo steam jets amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon moss meadow featuring black sand spray amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal geothermal boardwalk featuring drift ice chunks amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone urban mural lane framed by geo steam jets during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand coastal pool deck with shipping pallets under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt sleeted streetcar bay with recycled glass walls under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone harbor pier featuring basalt columns amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal ice cave entry framed by sleet streaks during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt saga church step framed by mossy stones during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit skyr warehouse featuring shipping pallets amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun lava ridge framed by black sand spray during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside urban mural lane featuring mossy stones amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave glacier overlook framed by drift ice chunks during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain skyr warehouse with sleet streaks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain urban mural lane with solar-powered lanterns under wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown aurora observatory with solar-powered lanterns under wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave black sand dune featuring basalt columns amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon coastal pool deck framed by glacial pools during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field snowfield runway featuring snow tractors amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss glacier overlook featuring snow tractors amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field sleeted streetcar bay featuring icicle strings amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun aurora observatory featuring recycled glass walls amidst storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit arctic greenhouse with charcoal windbreaks under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand glacier overlook with ember warning lights under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain urban mural lane featuring wind-blown flags amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone black sand dune framed by geo steam jets during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon sleeted streetcar bay with drift ice chunks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit moss meadow with black sand spray under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain moss meadow featuring drone beacons amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal snowfield runway with reflective puddles under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside black sand dune featuring sleet streaks amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand black sand dune featuring recycled glass walls amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field moss meadow framed by basalt columns during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field snowfield runway with rope barriers under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain lava ridge featuring charcoal windbreaks amidst storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt volcanic crater rim with black sand spray under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown geothermal boardwalk with mossy stones under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal black sand dune with ember warning lights under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit moss meadow featuring ember warning lights amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved waterfall mist shelf with icicle strings under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt wind farm platform featuring icicle strings amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal saga church step with reflective puddles under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon skyr warehouse framed by mossy stones during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright volcanic crater rim featuring wind-blown flags amidst fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled geothermal boardwalk with rope barriers under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside snowfield runway framed by rope barriers during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal wind farm platform with harbor chainlines under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted harbor pier featuring ember warning lights amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss volcanic crater rim with reflective puddles under storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky wind farm platform featuring recycled glass walls amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown harbor pier featuring aurora rods amidst moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun wind farm platform framed by recycled glass walls during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit harbor pier with solar-powered lanterns under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain waterfall mist shelf featuring glacial pools amidst moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun fjord ferry dock with rope barriers under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss waterfall mist shelf featuring charcoal windbreaks amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung ice cave entry with recycled glass walls under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky harbor pier featuring mossy stones amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright fjord ferry dock framed by charcoal windbreaks during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled coastal pool deck framed by harbor chainlines during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon geothermal boardwalk framed by icicle strings during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone volcanic crater rim featuring drift ice chunks amidst nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss glacier overlook featuring solar-powered lanterns amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss urban mural lane framed by ember warning lights during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright ice cave entry with snow tractors under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone snowfield runway framed by solar-powered lanterns during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand moss meadow featuring black sand spray amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand moss meadow framed by aurora rods during freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand volcanic crater rim featuring aurora rods amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun lava ridge with aurora rods under copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted glacier overlook framed by shipping pallets during moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit urban mural lane featuring ember warning lights amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss fjord ferry dock framed by black sand spray during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky volcanic crater rim featuring glacial pools amidst nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit saga church step framed by charcoal windbreaks during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit skyr warehouse with recycled glass walls under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung saga church step featuring drone beacons amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand volcanic crater rim with drift ice chunks under geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon saga church step featuring aurora rods amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain harbor pier framed by wind-blown flags during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone glacier overlook featuring reflective puddles amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled volcanic crater rim framed by sleet streaks during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright reclaimed factory loft with geo steam jets under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung lava ridge featuring reflective puddles amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand harbor pier framed by solar-powered lanterns during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon wind farm platform with wind-blown flags under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss fjord ferry dock featuring black sand spray amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand saga church step with black sand spray under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon fjord ferry dock framed by basalt columns during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun coastal pool deck featuring wind-blown flags amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted waterfall mist shelf framed by aurora rods during moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved fjord ferry dock framed by charcoal windbreaks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt skyr warehouse with geo steam jets under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun harbor pier framed by aurora rods during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown glacier overlook featuring black sand spray amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss sleeted streetcar bay with geo steam jets under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky arctic greenhouse framed by aurora rods during harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit fjord ferry dock with charcoal windbreaks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone moss meadow with harbor chainlines under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted arctic greenhouse featuring icicle strings amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved black sand dune framed by rope barriers during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt saga church step framed by black sand spray during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field coastal pool deck featuring charcoal windbreaks amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal snowfield runway with glacial pools under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone glacier overlook framed by rope barriers during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted urban mural lane framed by drone beacons during wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright urban mural lane framed by shipping pallets during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled harbor pier framed by wind-blown flags during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun saga church step featuring drift ice chunks amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field harbor pier featuring geo steam jets amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain wind farm platform featuring drone beacons amidst geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung urban mural lane with solar-powered lanterns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt volcanic crater rim featuring black sand spray amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal saga church step with harbor chainlines under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit harbor pier with snow tractors under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright harbor pier with rope barriers under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside ice cave entry framed by ember warning lights during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon harbor pier with black sand spray under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss geothermal boardwalk with icicle strings under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt volcanic crater rim with geo steam jets under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung reclaimed factory loft featuring glacial pools amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave harbor pier with sleet streaks under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt snowfield runway with snow tractors under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun ice cave entry featuring glacial pools amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit waterfall mist shelf with drift ice chunks under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal arctic greenhouse framed by wind-blown flags during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss skyr warehouse framed by shipping pallets during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field wind farm platform with aurora rods under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit harbor pier featuring shipping pallets amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave fjord ferry dock framed by shipping pallets during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss snowfield runway featuring recycled glass walls amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss glacier overlook featuring ember warning lights amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain volcanic crater rim framed by sleet streaks during copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand glacier overlook framed by aurora rods during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt ice cave entry with black sand spray under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt urban mural lane framed by aurora rods during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright fjord ferry dock featuring charcoal windbreaks amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand lava ridge framed by recycled glass walls during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved lava ridge with black sand spray under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung wind farm platform with icicle strings under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved geothermal boardwalk with wind-blown flags under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted arctic greenhouse featuring glacial pools amidst snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky coastal pool deck featuring ember warning lights amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone geothermal boardwalk framed by black sand spray during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright saga church step framed by icicle strings during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field harbor pier framed by wind-blown flags during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt skyr warehouse framed by mossy stones during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung coastal pool deck framed by drift ice chunks during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved moss meadow framed by wind-blown flags during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave coastal pool deck featuring shipping pallets amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky fjord ferry dock featuring recycled glass walls amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss coastal pool deck with shipping pallets under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave ice cave entry framed by drone beacons during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal ice cave entry framed by shipping pallets during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field aurora observatory with harbor chainlines under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone lava ridge with wind-blown flags under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field black sand dune featuring mossy stones amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt lava ridge featuring wind-blown flags amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung ice cave entry featuring recycled glass walls amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss arctic greenhouse with mossy stones under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon glacier overlook featuring glacial pools amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt volcanic crater rim featuring basalt columns amidst arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss sleeted streetcar bay framed by drift ice chunks during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved glacier overlook with geo steam jets under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved moss meadow framed by drone beacons during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright geothermal boardwalk featuring basalt columns amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved coastal pool deck with charcoal windbreaks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon snowfield runway featuring snow tractors amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone volcanic crater rim framed by black sand spray during snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown snowfield runway featuring wind-blown flags amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted reclaimed factory loft with snow tractors under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field aurora observatory featuring rope barriers amidst moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown glacier overlook featuring reflective puddles amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone reclaimed factory loft featuring harbor chainlines amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field geothermal boardwalk framed by basalt columns during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside waterfall mist shelf featuring recycled glass walls amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun black sand dune framed by glacial pools during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside moss meadow featuring drone beacons amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled reclaimed factory loft with glacial pools under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt saga church step with black sand spray under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky geothermal boardwalk framed by geo steam jets during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky urban mural lane framed by aurora rods during ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky reclaimed factory loft featuring rope barriers amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright geothermal boardwalk framed by solar-powered lanterns during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave wind farm platform framed by solar-powered lanterns during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown fjord ferry dock featuring charcoal windbreaks amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone volcanic crater rim featuring sleet streaks amidst storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung black sand dune featuring sleet streaks amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside skyr warehouse framed by icicle strings during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal ice cave entry with drift ice chunks under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown black sand dune framed by shipping pallets during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside lava ridge featuring geo steam jets amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand sleeted streetcar bay with charcoal windbreaks under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown sleeted streetcar bay with recycled glass walls under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright lava ridge with ember warning lights under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt harbor pier framed by shipping pallets during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand arctic greenhouse framed by drift ice chunks during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled lava ridge with glacial pools under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved reclaimed factory loft with black sand spray under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain fjord ferry dock with mossy stones under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal urban mural lane with reflective puddles under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave saga church step featuring mossy stones amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung saga church step framed by reflective puddles during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal fjord ferry dock framed by aurora rods during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown arctic greenhouse with geo steam jets under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown skyr warehouse featuring mossy stones amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal volcanic crater rim with harbor chainlines under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright ice cave entry framed by snow tractors during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain coastal pool deck with basalt columns under fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt waterfall mist shelf featuring reflective puddles amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun harbor pier with recycled glass walls under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal urban mural lane framed by solar-powered lanterns during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon sleeted streetcar bay framed by drone beacons during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon waterfall mist shelf featuring shipping pallets amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown sleeted streetcar bay with mossy stones under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright reclaimed factory loft with drone beacons under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt snowfield runway framed by snow tractors during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss saga church step with mossy stones under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand urban mural lane featuring aurora rods amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown black sand dune with solar-powered lanterns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung saga church step framed by harbor chainlines during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon black sand dune featuring shipping pallets amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave skyr warehouse featuring recycled glass walls amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal coastal pool deck with black sand spray under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon glacier overlook featuring black sand spray amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside moss meadow framed by drift ice chunks during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit geothermal boardwalk framed by shipping pallets during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone glacier overlook with snow tractors under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside glacier overlook framed by ember warning lights during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal arctic greenhouse featuring snow tractors amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun urban mural lane featuring rope barriers amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon lava ridge featuring black sand spray amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit arctic greenhouse framed by drift ice chunks during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal aurora observatory framed by basalt columns during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field aurora observatory featuring harbor chainlines amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled waterfall mist shelf featuring sleet streaks amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun waterfall mist shelf with mossy stones under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit volcanic crater rim with wind-blown flags under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal skyr warehouse featuring recycled glass walls amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand aurora observatory framed by harbor chainlines during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal arctic greenhouse framed by drift ice chunks during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field black sand dune framed by icicle strings during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun waterfall mist shelf with snow tractors under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone sleeted streetcar bay with mossy stones under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss snowfield runway framed by snow tractors during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field arctic greenhouse framed by black sand spray during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted coastal pool deck framed by drone beacons during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted wind farm platform featuring mossy stones amidst storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone geothermal boardwalk featuring shipping pallets amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand geothermal boardwalk framed by solar-powered lanterns during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field coastal pool deck featuring recycled glass walls amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand geothermal boardwalk featuring icicle strings amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung arctic greenhouse framed by shipping pallets during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone sleeted streetcar bay framed by drift ice chunks during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand arctic greenhouse framed by ember warning lights during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled glacier overlook framed by shipping pallets during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright black sand dune featuring basalt columns amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit black sand dune with harbor chainlines under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal harbor pier featuring glacial pools amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal saga church step framed by basalt columns during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside lava ridge with drift ice chunks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted skyr warehouse featuring icicle strings amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss waterfall mist shelf featuring reflective puddles amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung sleeted streetcar bay with sleet streaks under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit urban mural lane framed by mossy stones during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon arctic greenhouse framed by snow tractors during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal sleeted streetcar bay featuring shipping pallets amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved volcanic crater rim featuring drone beacons amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain waterfall mist shelf featuring rope barriers amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky aurora observatory with drone beacons under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown moss meadow with harbor chainlines under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone black sand dune framed by snow tractors during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung aurora observatory framed by charcoal windbreaks during moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit black sand dune framed by geo steam jets during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky lava ridge featuring recycled glass walls amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit skyr warehouse framed by glacial pools during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright coastal pool deck with reflective puddles under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal waterfall mist shelf with geo steam jets under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun lava ridge with glacial pools under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon aurora observatory with black sand spray under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss snowfield runway framed by shipping pallets during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit fjord ferry dock with geo steam jets under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright wind farm platform with ember warning lights under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal arctic greenhouse featuring drift ice chunks amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal aurora observatory framed by snow tractors during fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun black sand dune featuring mossy stones amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave black sand dune with sleet streaks under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave lava ridge featuring ember warning lights amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt urban mural lane with sleet streaks under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand saga church step framed by harbor chainlines during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain volcanic crater rim with sleet streaks under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung black sand dune framed by recycled glass walls during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled glacier overlook with rope barriers under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit black sand dune framed by wind-blown flags during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky geothermal boardwalk framed by solar-powered lanterns during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal moss meadow framed by shipping pallets during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown ice cave entry with basalt columns under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown waterfall mist shelf framed by shipping pallets during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved coastal pool deck featuring snow tractors amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled black sand dune featuring sleet streaks amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved lava ridge framed by drone beacons during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone harbor pier with basalt columns under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside aurora observatory framed by solar-powered lanterns during wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown volcanic crater rim framed by solar-powered lanterns during freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone lava ridge featuring charcoal windbreaks amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave glacier overlook framed by solar-powered lanterns during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon ice cave entry featuring shipping pallets amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon aurora observatory with icicle strings under copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss geothermal boardwalk with basalt columns under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright moss meadow with charcoal windbreaks under wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon wind farm platform framed by ember warning lights during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit snowfield runway with glacial pools under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal fjord ferry dock featuring icicle strings amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside geothermal boardwalk with harbor chainlines under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field fjord ferry dock featuring icicle strings amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon urban mural lane with charcoal windbreaks under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved volcanic crater rim with charcoal windbreaks under harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal ice cave entry with shipping pallets under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright aurora observatory framed by drift ice chunks during fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky aurora observatory featuring reflective puddles amidst copper low sun",
+      "weight": 0.7
+    },
+    {
+      "text": "steam-veiled urban mural lane with geo steam jets under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown moss meadow featuring recycled glass walls amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal ice cave entry featuring shipping pallets amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal volcanic crater rim featuring mossy stones amidst nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand ice cave entry with solar-powered lanterns under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside arctic greenhouse framed by icicle strings during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved ice cave entry framed by solar-powered lanterns during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside snowfield runway framed by wind-blown flags during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain fjord ferry dock framed by sleet streaks during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field wind farm platform with rope barriers under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung aurora observatory framed by wind-blown flags during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field reclaimed factory loft framed by recycled glass walls during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave arctic greenhouse with drone beacons under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted lava ridge featuring drone beacons amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt waterfall mist shelf with reflective puddles under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave urban mural lane featuring ember warning lights amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field urban mural lane featuring harbor chainlines amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal skyr warehouse featuring recycled glass walls amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun arctic greenhouse with rope barriers under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung moss meadow with aurora rods under storm break shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright waterfall mist shelf with charcoal windbreaks under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal coastal pool deck framed by geo steam jets during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal moss meadow featuring drone beacons amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss urban mural lane featuring ember warning lights amidst freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown lava ridge featuring mossy stones amidst aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "black-sand harbor pier with aurora rods under polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun coastal pool deck with sleet streaks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal skyr warehouse with sleet streaks under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt skyr warehouse framed by solar-powered lanterns during geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun fjord ferry dock framed by mossy stones during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field waterfall mist shelf featuring recycled glass walls amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright geothermal boardwalk framed by black sand spray during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit reclaimed factory loft framed by basalt columns during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal sleeted streetcar bay featuring solar-powered lanterns amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave skyr warehouse framed by aurora rods during snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal geothermal boardwalk featuring charcoal windbreaks amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal geothermal boardwalk featuring recycled glass walls amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun moss meadow featuring glacial pools amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright volcanic crater rim framed by drift ice chunks during snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon saga church step with geo steam jets under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright snowfield runway framed by aurora rods during arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside skyr warehouse framed by shipping pallets during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung volcanic crater rim framed by glacial pools during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon aurora observatory with aurora rods under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "ice cave lava ridge framed by sleet streaks during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside aurora observatory featuring aurora rods amidst wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside urban mural lane framed by black sand spray during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand aurora observatory featuring geo steam jets amidst harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "tundra moss skyr warehouse framed by drone beacons during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright saga church step with geo steam jets under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown fjord ferry dock framed by harbor chainlines during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved fjord ferry dock framed by drone beacons during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon arctic greenhouse featuring wind-blown flags amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung arctic greenhouse featuring black sand spray amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss waterfall mist shelf with icicle strings under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon ice cave entry framed by ember warning lights during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt harbor pier with basalt columns under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung reclaimed factory loft with drone beacons under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit skyr warehouse framed by icicle strings during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit sleeted streetcar bay framed by harbor chainlines during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved saga church step framed by snow tractors during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky urban mural lane with wind-blown flags under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon volcanic crater rim framed by mossy stones during polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt lava ridge framed by icicle strings during harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted snowfield runway framed by drone beacons during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted black sand dune with mossy stones under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "glacier-lit aurora observatory featuring black sand spray amidst ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky snowfield runway framed by glacial pools during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "mist-slung saga church step framed by wind-blown flags during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon black sand dune with rope barriers under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal fjord ferry dock with black sand spray under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss sleeted streetcar bay featuring harbor chainlines amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone skyr warehouse framed by shipping pallets during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside moss meadow with drift ice chunks under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain glacier overlook with black sand spray under ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun saga church step with shipping pallets under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky reclaimed factory loft featuring harbor chainlines amidst volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun black sand dune featuring harbor chainlines amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon wind farm platform featuring charcoal windbreaks amidst wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled wind farm platform featuring ember warning lights amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky snowfield runway framed by icicle strings during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal waterfall mist shelf featuring solar-powered lanterns amidst copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted urban mural lane with harbor chainlines under fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside snowfield runway framed by icicle strings during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain wind farm platform framed by ember warning lights during fjord mist hush",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown arctic greenhouse featuring recycled glass walls amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted fjord ferry dock framed by drift ice chunks during arctic twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon reclaimed factory loft with geo steam jets under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun sleeted streetcar bay featuring basalt columns amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown urban mural lane with aurora rods under moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "low-sun urban mural lane framed by charcoal windbreaks during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon lava ridge framed by wind-blown flags during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand glacier overlook featuring shipping pallets amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-carved sleeted streetcar bay with harbor chainlines under copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown geothermal boardwalk featuring glacial pools amidst geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave waterfall mist shelf featuring drift ice chunks amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit snowfield runway framed by mossy stones during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon snowfield runway framed by solar-powered lanterns during storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal glacier overlook framed by sleet streaks during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon snowfield runway with mossy stones under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon saga church step featuring sleet streaks amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit saga church step with rope barriers under arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled reclaimed factory loft framed by glacial pools during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal aurora observatory framed by geo steam jets during harbor sodium hush",
+      "weight": 0.7
+    },
+    {
+      "text": "storm-blown snowfield runway featuring wind-blown flags amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit waterfall mist shelf framed by drone beacons during arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon wind farm platform framed by drift ice chunks during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun sleeted streetcar bay featuring sleet streaks amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain sleeted streetcar bay framed by snow tractors during moonbow glint",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside lava ridge framed by drift ice chunks during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun sleeted streetcar bay featuring glacial pools amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled harbor pier framed by rope barriers during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "aurora-tinted harbor pier framed by wind-blown flags during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "mist-slung reclaimed factory loft framed by solar-powered lanterns during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon fjord ferry dock featuring drift ice chunks amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand fjord ferry dock with shipping pallets under nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "sleet-bright arctic greenhouse featuring basalt columns amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal snowfield runway with reflective puddles under harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone moss meadow framed by reflective puddles during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal skyr warehouse framed by rope barriers during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field volcanic crater rim with harbor chainlines under nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside coastal pool deck featuring solar-powered lanterns amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain waterfall mist shelf framed by glacial pools during wind-lashed noon",
+      "weight": 0.7
+    },
+    {
+      "text": "blue-lagoon glacier overlook featuring wind-blown flags amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside snowfield runway with solar-powered lanterns under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field glacier overlook framed by geo steam jets during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave glacier overlook featuring aurora rods amidst snowglobe swirl",
+      "weight": 0.7
+    },
+    {
+      "text": "geothermal coastal pool deck featuring recycled glass walls amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun ice cave entry with snow tractors under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "basalt sleeted streetcar bay featuring drift ice chunks amidst arctic twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky arctic greenhouse with icicle strings under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun reclaimed factory loft with drift ice chunks under aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field urban mural lane framed by icicle strings during moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown arctic greenhouse framed by basalt columns during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal waterfall mist shelf featuring snow tractors amidst harbor sodium hush",
+      "weight": 1.0
+    },
+    {
+      "text": "ice cave waterfall mist shelf with charcoal windbreaks under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted ice cave entry framed by harbor chainlines during ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "arctic coastal moss meadow with basalt columns under geothermal fog glow",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand waterfall mist shelf framed by solar-powered lanterns during nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt wind farm platform framed by harbor chainlines during aurora sweep midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright fjord ferry dock framed by drone beacons during polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "aurora-tinted saga church step featuring ember warning lights amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "lupine-field volcanic crater rim featuring reflective puddles amidst freezing rain sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "sleet-bright coastal pool deck featuring ember warning lights amidst fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone moss meadow with black sand spray under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun ice cave entry framed by shipping pallets during freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside waterfall mist shelf framed by glacial pools during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside ice cave entry featuring drone beacons amidst polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "fjordside skyr warehouse framed by ember warning lights during snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown reclaimed factory loft featuring solar-powered lanterns amidst moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal waterfall mist shelf framed by drift ice chunks during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "tundra moss fjord ferry dock featuring drone beacons amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "low-sun fjord ferry dock with drone beacons under fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonstone reclaimed factory loft featuring basalt columns amidst nightless sky wash",
+      "weight": 1.0
+    },
+    {
+      "text": "basalt reclaimed factory loft featuring solar-powered lanterns amidst snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal urban mural lane with geo steam jets under moonbow glint",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain arctic greenhouse framed by sleet streaks during nightless sky wash",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside coastal pool deck with charcoal windbreaks under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field snowfield runway framed by basalt columns during volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "fjordside urban mural lane with glacial pools under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky black sand dune with drone beacons under storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field black sand dune framed by sleet streaks during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "black-sand skyr warehouse with reflective puddles under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain black sand dune featuring aurora rods amidst ice crystal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-carved saga church step with recycled glass walls under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky fjord ferry dock with basalt columns under freezing rain sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "glacier-lit black sand dune framed by reflective puddles during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown saga church step featuring wind-blown flags amidst ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain skyr warehouse featuring snow tractors amidst polar blue dawn",
+      "weight": 0.7
+    },
+    {
+      "text": "steel-sky harbor pier with wind-blown flags under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-sky skyr warehouse framed by ember warning lights during copper low sun",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic plain moss meadow with drift ice chunks under geothermal fog glow",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic plain fjord ferry dock with black sand spray under volcanic ember haze",
+      "weight": 0.7
+    },
+    {
+      "text": "moonstone arctic greenhouse with sleet streaks under snowglobe swirl",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal urban mural lane with ember warning lights under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal sleeted streetcar bay framed by reflective puddles during ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field ice cave entry with reflective puddles under ice crystal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "storm-blown reclaimed factory loft framed by recycled glass walls during wind-lashed noon",
+      "weight": 1.0
+    },
+    {
+      "text": "geothermal urban mural lane framed by drift ice chunks during fjord mist hush",
+      "weight": 1.0
+    },
+    {
+      "text": "lupine-field fjord ferry dock featuring basalt columns amidst storm break shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-lagoon wind farm platform with rope barriers under polar blue dawn",
+      "weight": 1.0
+    },
+    {
+      "text": "arctic coastal waterfall mist shelf framed by solar-powered lanterns during nightless sky wash",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "thermal ear wrap with orchid piping",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel shearling mitt clips",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue crampon straps",
+        "weight": 0.6
+      },
+      {
+        "text": "ice spike anklets",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "aurora reflection rippling across cheeks",
+        "weight": 0.6
+      },
+      {
+        "text": "volcanic spark ember drifting by",
+        "weight": 0.6
+      },
+      {
+        "text": "steam bursts outlining silhouette",
+        "weight": 0.6
+      },
+      {
+        "text": "snow microflakes glittering at lens",
+        "weight": 0.6
+      }
+    ]
+  }
+}

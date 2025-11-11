@@ -1,0 +1,4054 @@
+{
+  "scenes": [
+    {
+      "text": "ink-brushed plum orchard row featuring fiber optic railings amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed neon rooftop dojo framed by orchid noren sway during humid midnight pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed rooftop zen garden featuring koi pond sparkle amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit onsen deck with fiber optic railings under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked metro platform framed by charcoal gravel sprays during monorail shadow bands",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed shinkansen concourse with holographic ads under pre-dawn hush",
+      "weight": 0.6
+    },
+    {
+      "text": "charcoal-stone riverwalk tatami landing with amber taiko drums under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked riverwalk tatami landing featuring polished stone lanterns amidst moonbow shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze neon rooftop dojo framed by woven basket stalls during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber glass monorail bridge framed by silk banners during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked kumiko lobby framed by mirror puddles during rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined shoji alley with fiber optic railings under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit glass monorail bridge framed by glowing vending glass during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze bamboo skywalk with steam wisps under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "misty bamboo skywalk framed by floating petals during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern coastal torii causeway with silk banners under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing featuring bike streaks amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber rain tunnel crossing framed by condensation rising during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "misty kumiko lobby with ferried light trails under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed lantern market lane featuring koi pond sparkle amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed neon rooftop dojo with bike streaks under amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "summer-heat underground arcade with luminous kanji signage under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit rain tunnel crossing framed by ceramic wind chimes during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber riverwalk tatami landing with fiber optic railings under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone glass monorail bridge with ferried light trails under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing featuring polished stone lanterns amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed riverwalk tatami landing framed by holographic ads during sodium vapor hum",
+      "weight": 0.6
+    },
+    {
+      "text": "orchid-accented riverwalk tatami landing with mirror puddles under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned tea house courtyard with koi pond sparkle under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "powder-snow onsen deck with bamboo shadows under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow riverwalk tatami landing framed by ceramic wind chimes during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow bamboo skywalk with orchid noren sway under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed shinkansen concourse featuring condensation rising amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "misty neon rooftop dojo with luminous kanji signage under sodium vapor hum",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed rooftop zen garden framed by orchid noren sway during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed plum orchard row with orchid noren sway under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted plum orchard row with koi pond sparkle under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined kumiko lobby featuring glowing vending glass amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit volcanic sand path with orchid noren sway under moonbow shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-soaked rain tunnel crossing with polished stone lanterns under blue-hour glow",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined harbor boardwalk featuring bike streaks amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed tea house courtyard framed by floating petals during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber tea house courtyard with charcoal gravel sprays under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber volcanic sand path framed by woven basket stalls during typhoon break calm",
+      "weight": 0.7
+    },
+    {
+      "text": "misty stone stair switchback framed by glowing vending glass during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow elevated expressway shoulder featuring luminous kanji signage amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted shoji alley featuring bamboo shadows amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone glass monorail bridge featuring ferried light trails amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit coastal torii causeway with ferried light trails under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone riverwalk tatami landing featuring bike streaks amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed harbor boardwalk with floating petals under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed volcanic sand path framed by polished stone lanterns during fog-softened sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "summer-heat shinkansen concourse with koi pond sparkle under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted shoji alley with silk banners under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "bamboo-shadowed stone stair switchback with ceramic wind chimes under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit coastal torii causeway with polished stone lanterns under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "shoji-framed volcanic sand path featuring fiber optic railings amidst cicada-laced afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-soaked riverwalk tatami landing framed by bamboo shadows during fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed neon rooftop dojo featuring holographic ads amidst moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "copper-roofed shinkansen concourse featuring condensation rising amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted elevated expressway shoulder with glowing vending glass under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed kumiko lobby framed by steam wisps during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit bamboo skywalk with koi pond sparkle under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "stormlit rooftop zen garden featuring paper umbrella stacks amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit plum orchard row with ferried light trails under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze bamboo skywalk framed by glowing vending glass during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed riverwalk tatami landing framed by amber taiko drums during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber elevated expressway shoulder featuring holographic ads amidst festival neon rhythm",
+      "weight": 0.6
+    },
+    {
+      "text": "paper-lantern elevated expressway shoulder framed by polished stone lanterns during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed neon rooftop dojo with steam wisps under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "dusk-toned metro platform framed by holographic ads during rain chorus echo",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned harbor boardwalk framed by amber taiko drums during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed coastal torii causeway featuring koi pond sparkle amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed riverwalk tatami landing framed by woven basket stalls during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented plum orchard row featuring glowing vending glass amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow coastal torii causeway framed by charcoal gravel sprays during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed coastal torii causeway featuring luminous kanji signage amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit riverwalk tatami landing with paper umbrella stacks under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "stormlit shoji alley featuring ferried light trails amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit bamboo skywalk framed by ferried light trails during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed plum orchard row featuring floating petals amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit bamboo skywalk with bike streaks under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked riverwalk tatami landing featuring fiber optic railings amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "powder-snow shoji alley with bike streaks under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed onsen deck featuring ceramic wind chimes amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "neon-soaked rooftop zen garden framed by steam wisps during fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern metro platform framed by glowing vending glass during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted underground arcade with holographic ads under amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze stone stair switchback with charcoal gravel sprays under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed harbor boardwalk with bamboo shadows under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked stone stair switchback framed by bike streaks during fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed volcanic sand path with steam wisps under fog-softened sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "rain-glossed rooftop zen garden framed by silk banners during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed volcanic sand path featuring holographic ads amidst rain chorus echo",
+      "weight": 0.6
+    },
+    {
+      "text": "bamboo-shadowed tea house courtyard framed by polished stone lanterns during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze underground arcade framed by koi pond sparkle during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked neon rooftop dojo with holographic ads under humid midnight pulse",
+      "weight": 0.6
+    },
+    {
+      "text": "orchid-accented plum orchard row framed by condensation rising during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit stone stair switchback featuring luminous kanji signage amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "rain-glossed bamboo skywalk featuring polished stone lanterns amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed plum orchard row with condensation rising under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked metro platform featuring charcoal gravel sprays amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "shoji-framed stone stair switchback featuring paper umbrella stacks amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed lantern market lane featuring mirror puddles amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit shoji alley with orchid noren sway under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit volcanic sand path framed by glowing vending glass during winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "bamboo-shadowed elevated expressway shoulder with bamboo shadows under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass monorail bridge featuring bamboo shadows amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone shoji alley featuring charcoal gravel sprays amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plum orchard row featuring ceramic wind chimes amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "misty shinkansen concourse with polished stone lanterns under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed neon rooftop dojo with bike streaks under amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "plaza-lit shoji alley framed by ceramic wind chimes during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed elevated expressway shoulder featuring bike streaks amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "powder-snow underground arcade framed by woven basket stalls during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern lantern market lane featuring amber taiko drums amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "misty lantern market lane with paper umbrella stacks under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze onsen deck featuring ferried light trails amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "stormlit harbor boardwalk framed by ceramic wind chimes during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed tea house courtyard with holographic ads under sodium vapor hum",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze volcanic sand path featuring orchid noren sway amidst winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "misty lantern market lane featuring fiber optic railings amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted onsen deck with ceramic wind chimes under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone neon rooftop dojo with polished stone lanterns under storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone rooftop zen garden featuring floating petals amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented stone stair switchback featuring glowing vending glass amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern coastal torii causeway featuring silk banners amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit rain tunnel crossing featuring floating petals amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed riverwalk tatami landing featuring floating petals amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing featuring fiber optic railings amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted shoji alley framed by mirror puddles during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit shoji alley framed by condensation rising during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed glass monorail bridge with ferried light trails under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed harbor boardwalk featuring ferried light trails amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat elevated expressway shoulder featuring ferried light trails amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed neon rooftop dojo with orchid noren sway under rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined elevated expressway shoulder framed by luminous kanji signage during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rooftop zen garden featuring bike streaks amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze kumiko lobby framed by bike streaks during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed stone stair switchback featuring amber taiko drums amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber stone stair switchback with ferried light trails under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "misty coastal torii causeway framed by mirror puddles during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit metro platform featuring charcoal gravel sprays amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber shoji alley framed by fiber optic railings during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze kumiko lobby featuring charcoal gravel sprays amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed onsen deck with holographic ads under sodium vapor hum",
+      "weight": 0.6
+    },
+    {
+      "text": "misty onsen deck with ferried light trails under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit neon rooftop dojo with holographic ads under cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "cedar-lined kumiko lobby featuring silk banners amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed glass monorail bridge featuring orchid noren sway amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed harbor boardwalk with charcoal gravel sprays under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plum orchard row framed by polished stone lanterns during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone volcanic sand path framed by condensation rising during rain chorus echo",
+      "weight": 0.7
+    },
+    {
+      "text": "moonlit underground arcade featuring mirror puddles amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented glass monorail bridge with steam wisps under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed bamboo skywalk with woven basket stalls under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit coastal torii causeway featuring silk banners amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "misty kumiko lobby framed by polished stone lanterns during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed harbor boardwalk framed by charcoal gravel sprays during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed riverwalk tatami landing with ceramic wind chimes under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed lantern market lane with charcoal gravel sprays under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rain tunnel crossing featuring koi pond sparkle amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed rain tunnel crossing framed by koi pond sparkle during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow bamboo skywalk framed by steam wisps during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted neon rooftop dojo with woven basket stalls under storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze kumiko lobby with holographic ads under monorail shadow bands",
+      "weight": 0.6
+    },
+    {
+      "text": "neon-soaked elevated expressway shoulder featuring charcoal gravel sprays amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone rooftop zen garden with amber taiko drums under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit shoji alley with ceramic wind chimes under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow rain tunnel crossing featuring luminous kanji signage amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "charcoal-stone shinkansen concourse featuring silk banners amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit stone stair switchback with condensation rising under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone volcanic sand path framed by charcoal gravel sprays during festival neon rhythm",
+      "weight": 0.7
+    },
+    {
+      "text": "ink-brushed rain tunnel crossing framed by koi pond sparkle during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "shoji-framed coastal torii causeway with silk banners under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked volcanic sand path with fiber optic railings under monorail shadow bands",
+      "weight": 0.7
+    },
+    {
+      "text": "rain-glossed volcanic sand path featuring mirror puddles amidst monorail shadow bands",
+      "weight": 0.7
+    },
+    {
+      "text": "charcoal-stone underground arcade framed by orchid noren sway during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "neon-soaked tea house courtyard framed by mirror puddles during amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined metro platform framed by ferried light trails during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "summer-heat rain tunnel crossing featuring silk banners amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit shoji alley framed by polished stone lanterns during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned kumiko lobby framed by polished stone lanterns during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber plum orchard row featuring bamboo shadows amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow underground arcade with koi pond sparkle under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow underground arcade featuring ferried light trails amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed rooftop zen garden featuring ceramic wind chimes amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked rooftop zen garden framed by koi pond sparkle during winter noon clarity",
+      "weight": 0.9
+    },
+    {
+      "text": "powder-snow bamboo skywalk framed by floating petals during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze tea house courtyard featuring amber taiko drums amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze lantern market lane with steam wisps under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined plum orchard row featuring luminous kanji signage amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed plum orchard row with bamboo shadows under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed coastal torii causeway framed by woven basket stalls during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "moonlit onsen deck with silk banners under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked neon rooftop dojo featuring luminous kanji signage amidst moonbow shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed lantern market lane framed by ferried light trails during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented lantern market lane featuring ceramic wind chimes amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed metro platform framed by glowing vending glass during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit onsen deck featuring floating petals amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern rain tunnel crossing with paper umbrella stacks under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted kumiko lobby with bamboo shadows under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit underground arcade framed by amber taiko drums during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed metro platform with floating petals under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed underground arcade featuring condensation rising amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze glass monorail bridge framed by luminous kanji signage during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "dusk-toned onsen deck framed by amber taiko drums during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "sakura-drifted coastal torii causeway framed by paper umbrella stacks during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze metro platform featuring floating petals amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed stone stair switchback with ferried light trails under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rooftop zen garden framed by condensation rising during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rain tunnel crossing with paper umbrella stacks under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit lantern market lane featuring bamboo shadows amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit volcanic sand path with ceramic wind chimes under typhoon break calm",
+      "weight": 0.7
+    },
+    {
+      "text": "charcoal-stone shoji alley with bamboo shadows under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed volcanic sand path framed by holographic ads during blue-hour glow",
+      "weight": 0.6
+    },
+    {
+      "text": "bamboo-shadowed stone stair switchback with holographic ads under rain chorus echo",
+      "weight": 0.6
+    },
+    {
+      "text": "powder-snow plum orchard row with koi pond sparkle under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rooftop zen garden framed by bike streaks during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rooftop zen garden framed by holographic ads during moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "stormlit bamboo skywalk featuring ferried light trails amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed volcanic sand path framed by glowing vending glass during rain chorus echo",
+      "weight": 0.7
+    },
+    {
+      "text": "plaza-lit shoji alley featuring paper umbrella stacks amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit glass monorail bridge framed by mirror puddles during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed neon rooftop dojo with ferried light trails under pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern metro platform framed by condensation rising during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit lantern market lane featuring amber taiko drums amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed neon rooftop dojo framed by glowing vending glass during rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed rooftop zen garden framed by condensation rising during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern elevated expressway shoulder featuring steam wisps amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "misty lantern market lane featuring paper umbrella stacks amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented tea house courtyard with luminous kanji signage under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented tea house courtyard with koi pond sparkle under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed rooftop zen garden with charcoal gravel sprays under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined plum orchard row with silk banners under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat harbor boardwalk with charcoal gravel sprays under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed glass monorail bridge featuring holographic ads amidst monorail shadow bands",
+      "weight": 0.6
+    },
+    {
+      "text": "rain-glossed rain tunnel crossing with fiber optic railings under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat metro platform with condensation rising under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined plum orchard row with steam wisps under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow kumiko lobby featuring fiber optic railings amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "dusk-toned coastal torii causeway featuring floating petals amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit elevated expressway shoulder featuring ferried light trails amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked harbor boardwalk featuring luminous kanji signage amidst storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked bamboo skywalk with orchid noren sway under humid midnight pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze riverwalk tatami landing featuring bamboo shadows amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern volcanic sand path featuring steam wisps amidst rain chorus echo",
+      "weight": 0.7
+    },
+    {
+      "text": "moonlit stone stair switchback featuring ferried light trails amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow bamboo skywalk framed by luminous kanji signage during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze volcanic sand path with steam wisps under blue-hour glow",
+      "weight": 0.7
+    },
+    {
+      "text": "plaza-lit shinkansen concourse featuring ferried light trails amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber riverwalk tatami landing framed by polished stone lanterns during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented glass monorail bridge framed by mirror puddles during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit elevated expressway shoulder with fiber optic railings under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed harbor boardwalk featuring charcoal gravel sprays amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed stone stair switchback with bamboo shadows under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "misty volcanic sand path framed by polished stone lanterns during rain chorus echo",
+      "weight": 0.7
+    },
+    {
+      "text": "powder-snow plum orchard row with silk banners under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "powder-snow onsen deck framed by amber taiko drums during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked kumiko lobby featuring ceramic wind chimes amidst pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed harbor boardwalk featuring amber taiko drums amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed metro platform with floating petals under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented kumiko lobby with amber taiko drums under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented glass monorail bridge with luminous kanji signage under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern tea house courtyard framed by luminous kanji signage during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed neon rooftop dojo framed by bamboo shadows during fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed shinkansen concourse featuring orchid noren sway amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "glowing-amber tea house courtyard featuring orchid noren sway amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "neon-soaked volcanic sand path framed by charcoal gravel sprays during sodium vapor hum",
+      "weight": 0.7
+    },
+    {
+      "text": "rain-glossed underground arcade framed by koi pond sparkle during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit shoji alley featuring paper umbrella stacks amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "sakura-drifted shinkansen concourse framed by ferried light trails during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze shinkansen concourse with koi pond sparkle under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked rain tunnel crossing framed by woven basket stalls during winter noon clarity",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-accented shinkansen concourse framed by fiber optic railings during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed riverwalk tatami landing with woven basket stalls under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned neon rooftop dojo framed by mirror puddles during pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked onsen deck framed by amber taiko drums during rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed underground arcade featuring woven basket stalls amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze rain tunnel crossing framed by orchid noren sway during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed riverwalk tatami landing framed by orchid noren sway during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit stone stair switchback with mirror puddles under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone coastal torii causeway framed by amber taiko drums during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "misty lantern market lane with amber taiko drums under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze rain tunnel crossing framed by woven basket stalls during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rooftop zen garden with steam wisps under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented kumiko lobby framed by paper umbrella stacks during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow bamboo skywalk framed by glowing vending glass during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "dusk-toned glass monorail bridge framed by woven basket stalls during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed shinkansen concourse with holographic ads under moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned rain tunnel crossing featuring bike streaks amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined rain tunnel crossing framed by orchid noren sway during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined rooftop zen garden framed by polished stone lanterns during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "stormlit neon rooftop dojo framed by ferried light trails during sodium vapor hum",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed glass monorail bridge featuring bike streaks amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned coastal torii causeway framed by luminous kanji signage during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined stone stair switchback featuring orchid noren sway amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow metro platform framed by bamboo shadows during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented bamboo skywalk featuring woven basket stalls amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "misty rooftop zen garden featuring amber taiko drums amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze shoji alley with condensation rising under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed rain tunnel crossing framed by woven basket stalls during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow kumiko lobby featuring amber taiko drums amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat elevated expressway shoulder with bamboo shadows under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned onsen deck featuring ferried light trails amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed bamboo skywalk with steam wisps under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "summer-heat neon rooftop dojo framed by fiber optic railings during rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed shinkansen concourse with paper umbrella stacks under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed shoji alley featuring bamboo shadows amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat plum orchard row framed by woven basket stalls during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed underground arcade featuring luminous kanji signage amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber glass monorail bridge framed by orchid noren sway during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit lantern market lane framed by woven basket stalls during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit stone stair switchback framed by bike streaks during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "misty plum orchard row featuring glowing vending glass amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit elevated expressway shoulder with amber taiko drums under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed onsen deck featuring floating petals amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined neon rooftop dojo with condensation rising under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "powder-snow glass monorail bridge with polished stone lanterns under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined shinkansen concourse with koi pond sparkle under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit coastal torii causeway framed by steam wisps during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat harbor boardwalk framed by steam wisps during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber underground arcade featuring floating petals amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber stone stair switchback featuring koi pond sparkle amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed shoji alley framed by glowing vending glass during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow kumiko lobby with fiber optic railings under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked shinkansen concourse featuring steam wisps amidst rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked metro platform framed by ferried light trails during lantern-lit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit kumiko lobby with woven basket stalls under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat glass monorail bridge featuring orchid noren sway amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit coastal torii causeway with orchid noren sway under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "bamboo-shadowed harbor boardwalk framed by condensation rising during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "dusk-toned lantern market lane with polished stone lanterns under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat glass monorail bridge featuring condensation rising amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber bamboo skywalk featuring holographic ads amidst typhoon break calm",
+      "weight": 0.6
+    },
+    {
+      "text": "sakura-drifted riverwalk tatami landing framed by mirror puddles during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern lantern market lane with ferried light trails under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed rain tunnel crossing featuring holographic ads amidst blue-hour glow",
+      "weight": 0.6
+    },
+    {
+      "text": "summer-heat rain tunnel crossing featuring steam wisps amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit shoji alley featuring bike streaks amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit stone stair switchback featuring glowing vending glass amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned elevated expressway shoulder framed by floating petals during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed onsen deck with floating petals under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked elevated expressway shoulder with silk banners under cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "plaza-lit lantern market lane with ferried light trails under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed lantern market lane framed by koi pond sparkle during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed shoji alley with polished stone lanterns under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat underground arcade with silk banners under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed elevated expressway shoulder framed by ferried light trails during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned shinkansen concourse featuring mirror puddles amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted coastal torii causeway with fiber optic railings under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit bamboo skywalk with holographic ads under sodium vapor hum",
+      "weight": 0.6
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing featuring mirror puddles amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "summer-heat lantern market lane framed by paper umbrella stacks during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback featuring mirror puddles amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow metro platform with amber taiko drums under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit metro platform featuring mirror puddles amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit glass monorail bridge with steam wisps under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plum orchard row featuring glowing vending glass amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze harbor boardwalk featuring condensation rising amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit lantern market lane framed by amber taiko drums during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow glass monorail bridge with ferried light trails under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rain tunnel crossing featuring paper umbrella stacks amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing featuring koi pond sparkle amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber volcanic sand path featuring polished stone lanterns amidst festival neon rhythm",
+      "weight": 0.7
+    },
+    {
+      "text": "charcoal-stone rooftop zen garden framed by condensation rising during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rooftop zen garden framed by polished stone lanterns during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted lantern market lane with mirror puddles under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "misty bamboo skywalk with steam wisps under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern lantern market lane featuring orchid noren sway amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted lantern market lane framed by bike streaks during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rooftop zen garden framed by charcoal gravel sprays during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat kumiko lobby featuring ceramic wind chimes amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow riverwalk tatami landing with floating petals under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plum orchard row featuring condensation rising amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit onsen deck featuring fiber optic railings amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "rain-glossed harbor boardwalk with fiber optic railings under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit shinkansen concourse with fiber optic railings under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing featuring condensation rising amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit volcanic sand path with fiber optic railings under rain chorus echo",
+      "weight": 0.7
+    },
+    {
+      "text": "powder-snow lantern market lane featuring holographic ads amidst cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "moonlit onsen deck framed by condensation rising during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed harbor boardwalk featuring mirror puddles amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted metro platform framed by charcoal gravel sprays during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented coastal torii causeway with condensation rising under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze rooftop zen garden framed by orchid noren sway during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber underground arcade featuring orchid noren sway amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit rain tunnel crossing featuring steam wisps amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed riverwalk tatami landing framed by mirror puddles during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze glass monorail bridge with bamboo shadows under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined onsen deck with charcoal gravel sprays under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback featuring condensation rising amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit tea house courtyard framed by mirror puddles during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted rain tunnel crossing featuring paper umbrella stacks amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed rooftop zen garden featuring charcoal gravel sprays amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat plum orchard row with bike streaks under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined rain tunnel crossing with bamboo shadows under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "misty underground arcade framed by mirror puddles during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed coastal torii causeway framed by glowing vending glass during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "misty shoji alley framed by silk banners during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit tea house courtyard framed by glowing vending glass during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat metro platform featuring steam wisps amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed shinkansen concourse with fiber optic railings under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented metro platform framed by polished stone lanterns during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed lantern market lane with steam wisps under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted rain tunnel crossing framed by polished stone lanterns during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented metro platform framed by woven basket stalls during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "misty bamboo skywalk framed by koi pond sparkle during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed kumiko lobby framed by koi pond sparkle during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit elevated expressway shoulder with bike streaks under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit riverwalk tatami landing featuring polished stone lanterns amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow riverwalk tatami landing featuring ferried light trails amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit shinkansen concourse framed by bike streaks during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat metro platform framed by bamboo shadows during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed coastal torii causeway with glowing vending glass under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat harbor boardwalk framed by charcoal gravel sprays during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed onsen deck with amber taiko drums under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed rain tunnel crossing featuring polished stone lanterns amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "misty stone stair switchback with bamboo shadows under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit volcanic sand path framed by amber taiko drums during festival neon rhythm",
+      "weight": 0.7
+    },
+    {
+      "text": "paper-lantern shoji alley framed by charcoal gravel sprays during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned shoji alley featuring floating petals amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed shinkansen concourse with ceramic wind chimes under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze lantern market lane featuring ferried light trails amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted underground arcade framed by ferried light trails during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked plum orchard row featuring holographic ads amidst sodium vapor hum",
+      "weight": 0.6
+    },
+    {
+      "text": "rain-glossed plum orchard row framed by luminous kanji signage during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented onsen deck with bamboo shadows under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze onsen deck featuring polished stone lanterns amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern onsen deck with glowing vending glass under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned volcanic sand path featuring glowing vending glass amidst monorail shadow bands",
+      "weight": 0.7
+    },
+    {
+      "text": "dusk-toned shinkansen concourse featuring bike streaks amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit plum orchard row featuring ceramic wind chimes amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed volcanic sand path with silk banners under winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "shoji-framed kumiko lobby with amber taiko drums under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "sakura-drifted harbor boardwalk framed by ceramic wind chimes during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat tea house courtyard featuring charcoal gravel sprays amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented lantern market lane with glowing vending glass under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze lantern market lane framed by steam wisps during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed rooftop zen garden with steam wisps under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat neon rooftop dojo featuring charcoal gravel sprays amidst cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked glass monorail bridge featuring luminous kanji signage amidst amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "misty plum orchard row featuring ferried light trails amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone neon rooftop dojo framed by luminous kanji signage during amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "plaza-lit volcanic sand path framed by orchid noren sway during storm-cleared sky",
+      "weight": 0.7
+    },
+    {
+      "text": "glowing-amber kumiko lobby with silk banners under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow volcanic sand path with holographic ads under cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "cedar-lined shinkansen concourse with bike streaks under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit lantern market lane featuring steam wisps amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback with koi pond sparkle under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern volcanic sand path framed by glowing vending glass during fog-softened sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "orchid-accented rooftop zen garden with paper umbrella stacks under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit plum orchard row framed by orchid noren sway during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "stormlit harbor boardwalk with charcoal gravel sprays under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit plum orchard row framed by charcoal gravel sprays during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked volcanic sand path framed by paper umbrella stacks during moonbow shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "paper-lantern lantern market lane featuring glowing vending glass amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned lantern market lane featuring polished stone lanterns amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed volcanic sand path with orchid noren sway under amber heater warmth",
+      "weight": 0.7
+    },
+    {
+      "text": "stormlit rooftop zen garden framed by luminous kanji signage during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted rooftop zen garden with bike streaks under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback framed by ferried light trails during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined plum orchard row framed by charcoal gravel sprays during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat rooftop zen garden featuring fiber optic railings amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted shoji alley framed by bike streaks during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat metro platform framed by steam wisps during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed bamboo skywalk framed by orchid noren sway during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone elevated expressway shoulder framed by steam wisps during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit onsen deck with ferried light trails under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned onsen deck with bike streaks under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned coastal torii causeway featuring condensation rising amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow kumiko lobby framed by polished stone lanterns during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked coastal torii causeway featuring ceramic wind chimes amidst monorail shadow bands",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit tea house courtyard with silk banners under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze neon rooftop dojo framed by glowing vending glass during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "misty plum orchard row with bike streaks under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "charcoal-stone volcanic sand path framed by ceramic wind chimes during winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "charcoal-stone volcanic sand path with charcoal gravel sprays under humid midnight pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "paper-lantern shinkansen concourse featuring polished stone lanterns amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted onsen deck framed by orchid noren sway during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern neon rooftop dojo featuring charcoal gravel sprays amidst rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "stormlit glass monorail bridge with fiber optic railings under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed neon rooftop dojo with mirror puddles under cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "sakura-drifted rooftop zen garden with luminous kanji signage under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit rooftop zen garden with condensation rising under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rooftop zen garden featuring ferried light trails amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented volcanic sand path framed by mirror puddles during amber heater warmth",
+      "weight": 0.7
+    },
+    {
+      "text": "rain-glossed riverwalk tatami landing featuring orchid noren sway amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "misty elevated expressway shoulder framed by fiber optic railings during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit neon rooftop dojo framed by charcoal gravel sprays during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "shoji-framed onsen deck with orchid noren sway under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed riverwalk tatami landing framed by silk banners during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed plum orchard row framed by holographic ads during amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned glass monorail bridge featuring amber taiko drums amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "moonlit underground arcade framed by luminous kanji signage during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed onsen deck with holographic ads under cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "summer-heat onsen deck with floating petals under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed underground arcade framed by ceramic wind chimes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber harbor boardwalk framed by floating petals during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber onsen deck featuring koi pond sparkle amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed underground arcade framed by polished stone lanterns during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted coastal torii causeway with charcoal gravel sprays under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed bamboo skywalk framed by bamboo shadows during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed metro platform with condensation rising under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit neon rooftop dojo with glowing vending glass under humid midnight pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber harbor boardwalk featuring fiber optic railings amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed rooftop zen garden featuring floating petals amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit volcanic sand path framed by ceramic wind chimes during cicada-laced afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "glowing-amber harbor boardwalk framed by ceramic wind chimes during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined elevated expressway shoulder featuring amber taiko drums amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit harbor boardwalk framed by koi pond sparkle during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern onsen deck featuring orchid noren sway amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned tea house courtyard with orchid noren sway under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed glass monorail bridge with paper umbrella stacks under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone lantern market lane featuring woven basket stalls amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass monorail bridge framed by holographic ads during fog-softened sunrise",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze volcanic sand path framed by polished stone lanterns during monorail shadow bands",
+      "weight": 0.7
+    },
+    {
+      "text": "summer-heat onsen deck with holographic ads under monorail shadow bands",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze volcanic sand path framed by silk banners during winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "charcoal-stone lantern market lane framed by woven basket stalls during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "charcoal-stone coastal torii causeway with woven basket stalls under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed kumiko lobby with ferried light trails under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat onsen deck featuring bamboo shadows amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern metro platform with bamboo shadows under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "bamboo-shadowed underground arcade framed by holographic ads during amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "charcoal-stone lantern market lane featuring koi pond sparkle amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked kumiko lobby framed by holographic ads during sodium vapor hum",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze tea house courtyard framed by luminous kanji signage during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "orchid-accented shinkansen concourse with holographic ads under festival neon rhythm",
+      "weight": 0.6
+    },
+    {
+      "text": "neon-soaked stone stair switchback featuring condensation rising amidst lantern-lit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone coastal torii causeway with holographic ads under lantern-lit dusk",
+      "weight": 0.6
+    },
+    {
+      "text": "orchid-accented bamboo skywalk featuring glowing vending glass amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed tea house courtyard framed by ferried light trails during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze shinkansen concourse framed by polished stone lanterns during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed rain tunnel crossing with steam wisps under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked rain tunnel crossing with koi pond sparkle under fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined kumiko lobby with woven basket stalls under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "sakura-drifted bamboo skywalk featuring glowing vending glass amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern kumiko lobby framed by glowing vending glass during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow metro platform featuring steam wisps amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback framed by holographic ads during winter noon clarity",
+      "weight": 0.6
+    },
+    {
+      "text": "glowing-amber underground arcade featuring charcoal gravel sprays amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked metro platform featuring orchid noren sway amidst storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed glass monorail bridge framed by condensation rising during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze coastal torii causeway framed by holographic ads during amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze harbor boardwalk framed by glowing vending glass during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit rain tunnel crossing with glowing vending glass under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented shinkansen concourse with ceramic wind chimes under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed coastal torii causeway featuring ceramic wind chimes amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern shinkansen concourse featuring ceramic wind chimes amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit coastal torii causeway framed by bike streaks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow riverwalk tatami landing featuring luminous kanji signage amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed metro platform with woven basket stalls under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed rain tunnel crossing with amber taiko drums under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed rain tunnel crossing framed by paper umbrella stacks during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed metro platform featuring ferried light trails amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined glass monorail bridge framed by woven basket stalls during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "summer-heat shoji alley featuring polished stone lanterns amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit riverwalk tatami landing featuring silk banners amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat volcanic sand path framed by woven basket stalls during typhoon break calm",
+      "weight": 0.7
+    },
+    {
+      "text": "sakura-drifted rooftop zen garden featuring ceramic wind chimes amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked onsen deck with condensation rising under cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone volcanic sand path with ferried light trails under humid midnight pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "plaza-lit volcanic sand path featuring amber taiko drums amidst winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "orchid-accented coastal torii causeway framed by bamboo shadows during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern lantern market lane framed by luminous kanji signage during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed elevated expressway shoulder featuring koi pond sparkle amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed elevated expressway shoulder framed by charcoal gravel sprays during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked volcanic sand path with glowing vending glass under monorail shadow bands",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-soaked shoji alley featuring ceramic wind chimes amidst rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined stone stair switchback featuring woven basket stalls amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber riverwalk tatami landing featuring charcoal gravel sprays amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "dusk-toned harbor boardwalk featuring condensation rising amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat underground arcade with ceramic wind chimes under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit plum orchard row with amber taiko drums under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone harbor boardwalk with glowing vending glass under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented rooftop zen garden framed by bamboo shadows during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed bamboo skywalk framed by fiber optic railings during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit tea house courtyard featuring silk banners amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed glass monorail bridge featuring mirror puddles amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit metro platform with paper umbrella stacks under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit harbor boardwalk framed by amber taiko drums during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked coastal torii causeway featuring glowing vending glass amidst cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed rooftop zen garden with holographic ads under cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned rain tunnel crossing with steam wisps under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "summer-heat elevated expressway shoulder featuring floating petals amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze riverwalk tatami landing framed by polished stone lanterns during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber plum orchard row featuring silk banners amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "misty metro platform framed by ferried light trails during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked tea house courtyard framed by glowing vending glass during amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern harbor boardwalk with condensation rising under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone shoji alley framed by polished stone lanterns during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow tea house courtyard with floating petals under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber underground arcade featuring holographic ads amidst cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "sakura-drifted metro platform with paper umbrella stacks under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "plaza-lit lantern market lane featuring bamboo shadows amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned shinkansen concourse featuring luminous kanji signage amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted tea house courtyard featuring bike streaks amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit onsen deck featuring amber taiko drums amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "powder-snow kumiko lobby with bike streaks under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked shinkansen concourse with steam wisps under humid midnight pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed stone stair switchback framed by charcoal gravel sprays during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze stone stair switchback framed by fiber optic railings during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern riverwalk tatami landing with mirror puddles under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze kumiko lobby featuring polished stone lanterns amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed metro platform featuring polished stone lanterns amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "misty lantern market lane featuring amber taiko drums amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed harbor boardwalk featuring woven basket stalls amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented volcanic sand path with silk banners under lantern-lit dusk",
+      "weight": 0.7
+    },
+    {
+      "text": "glowing-amber onsen deck featuring koi pond sparkle amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked tea house courtyard featuring orchid noren sway amidst moonbow shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed rooftop zen garden with silk banners under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit kumiko lobby featuring floating petals amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked underground arcade with glowing vending glass under blue-hour glow",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone bamboo skywalk framed by silk banners during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit tea house courtyard featuring orchid noren sway amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted riverwalk tatami landing with silk banners under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow stone stair switchback featuring bamboo shadows amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed shinkansen concourse featuring charcoal gravel sprays amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed shoji alley featuring koi pond sparkle amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing framed by ferried light trails during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined kumiko lobby featuring paper umbrella stacks amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed rain tunnel crossing with ferried light trails under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed stone stair switchback featuring fiber optic railings amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed kumiko lobby framed by glowing vending glass during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "cedar-lined shinkansen concourse with amber taiko drums under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed plum orchard row framed by woven basket stalls during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "misty rooftop zen garden featuring silk banners amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented underground arcade featuring ceramic wind chimes amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed riverwalk tatami landing featuring condensation rising amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone elevated expressway shoulder with koi pond sparkle under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow onsen deck with holographic ads under rain chorus echo",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned metro platform featuring bike streaks amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern shinkansen concourse featuring amber taiko drums amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone kumiko lobby with amber taiko drums under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned shoji alley framed by steam wisps during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked rain tunnel crossing framed by polished stone lanterns during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber elevated expressway shoulder featuring silk banners amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit shinkansen concourse framed by orchid noren sway during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze harbor boardwalk framed by silk banners during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed glass monorail bridge framed by fiber optic railings during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat harbor boardwalk framed by woven basket stalls during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit plum orchard row framed by ceramic wind chimes during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit neon rooftop dojo featuring amber taiko drums amidst blue-hour glow",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed stone stair switchback with fiber optic railings under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "bamboo-shadowed glass monorail bridge with steam wisps under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber kumiko lobby featuring holographic ads amidst cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "neon-soaked elevated expressway shoulder featuring amber taiko drums amidst storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed plum orchard row with luminous kanji signage under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "misty stone stair switchback framed by luminous kanji signage during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed underground arcade framed by silk banners during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze harbor boardwalk featuring woven basket stalls amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted plum orchard row framed by bike streaks during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "cedar-lined bamboo skywalk featuring holographic ads amidst lantern-lit dusk",
+      "weight": 0.6
+    },
+    {
+      "text": "rain-glossed coastal torii causeway featuring bamboo shadows amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed stone stair switchback framed by fiber optic railings during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber elevated expressway shoulder with steam wisps under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit underground arcade framed by ceramic wind chimes during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit tea house courtyard framed by silk banners during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed metro platform with ferried light trails under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned coastal torii causeway framed by woven basket stalls during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed bamboo skywalk with ceramic wind chimes under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined riverwalk tatami landing framed by paper umbrella stacks during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat shinkansen concourse with holographic ads under amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned neon rooftop dojo framed by amber taiko drums during fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed harbor boardwalk framed by floating petals during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit rooftop zen garden framed by orchid noren sway during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented volcanic sand path framed by holographic ads during amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "ink-brushed bamboo skywalk featuring woven basket stalls amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit rain tunnel crossing with woven basket stalls under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented lantern market lane framed by holographic ads during winter noon clarity",
+      "weight": 0.6
+    },
+    {
+      "text": "sakura-drifted tea house courtyard framed by amber taiko drums during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat shoji alley framed by luminous kanji signage during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed lantern market lane with orchid noren sway under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed shoji alley with charcoal gravel sprays under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined stone stair switchback framed by koi pond sparkle during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented shinkansen concourse framed by polished stone lanterns during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze shinkansen concourse with holographic ads under moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "shoji-framed volcanic sand path framed by paper umbrella stacks during winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "ink-brushed onsen deck framed by steam wisps during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback with luminous kanji signage under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined neon rooftop dojo with amber taiko drums under monorail shadow bands",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit riverwalk tatami landing framed by woven basket stalls during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit stone stair switchback with bamboo shadows under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow neon rooftop dojo framed by steam wisps during lantern-lit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber onsen deck framed by luminous kanji signage during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber riverwalk tatami landing featuring bike streaks amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat stone stair switchback framed by condensation rising during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed coastal torii causeway framed by steam wisps during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "copper-roofed lantern market lane featuring ceramic wind chimes amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat onsen deck framed by floating petals during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed bamboo skywalk framed by steam wisps during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted rooftop zen garden featuring orchid noren sway amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked coastal torii causeway with koi pond sparkle under pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "stormlit stone stair switchback featuring bamboo shadows amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked rooftop zen garden framed by ceramic wind chimes during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "moonlit plum orchard row with holographic ads under lantern-lit dusk",
+      "weight": 0.6
+    },
+    {
+      "text": "shoji-framed volcanic sand path featuring bike streaks amidst humid midnight pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "rain-glossed shinkansen concourse framed by koi pond sparkle during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed glass monorail bridge framed by ceramic wind chimes during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "misty glass monorail bridge with ceramic wind chimes under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "ink-brushed neon rooftop dojo with orchid noren sway under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "summer-heat underground arcade framed by polished stone lanterns during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern underground arcade with amber taiko drums under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow kumiko lobby featuring luminous kanji signage amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked rain tunnel crossing with koi pond sparkle under pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "plaza-lit metro platform featuring paper umbrella stacks amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed kumiko lobby featuring charcoal gravel sprays amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed stone stair switchback featuring luminous kanji signage amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit glass monorail bridge featuring fiber optic railings amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow shoji alley featuring floating petals amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed underground arcade with silk banners under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted shinkansen concourse framed by paper umbrella stacks during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze neon rooftop dojo framed by holographic ads during festival neon rhythm",
+      "weight": 0.6
+    },
+    {
+      "text": "moonlit plum orchard row featuring bamboo shadows amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "shoji-framed rain tunnel crossing framed by silk banners during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone volcanic sand path with ferried light trails under winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "coastal-breeze stone stair switchback framed by glowing vending glass during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked onsen deck featuring fiber optic railings amidst pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "coastal-breeze lantern market lane featuring condensation rising amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined stone stair switchback framed by holographic ads during moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze stone stair switchback with orchid noren sway under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined shinkansen concourse framed by ferried light trails during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat rooftop zen garden framed by amber taiko drums during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat volcanic sand path framed by ferried light trails during amber heater warmth",
+      "weight": 0.7
+    },
+    {
+      "text": "misty harbor boardwalk with mirror puddles under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted glass monorail bridge framed by ceramic wind chimes during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked lantern market lane featuring polished stone lanterns amidst amber heater warmth",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed bamboo skywalk featuring polished stone lanterns amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit shinkansen concourse featuring floating petals amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "misty volcanic sand path with amber taiko drums under pre-dawn hush",
+      "weight": 0.7
+    },
+    {
+      "text": "cedar-lined metro platform featuring luminous kanji signage amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "neon-soaked metro platform framed by koi pond sparkle during storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit shoji alley framed by holographic ads during cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "rain-glossed shinkansen concourse framed by paper umbrella stacks during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed volcanic sand path with luminous kanji signage under sodium vapor hum",
+      "weight": 0.7
+    },
+    {
+      "text": "ink-brushed tea house courtyard featuring charcoal gravel sprays amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "misty rooftop zen garden with bamboo shadows under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned tea house courtyard framed by fiber optic railings during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed bamboo skywalk framed by amber taiko drums during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-accented riverwalk tatami landing featuring glowing vending glass amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit kumiko lobby framed by mirror puddles during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed plum orchard row with bamboo shadows under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow harbor boardwalk featuring polished stone lanterns amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed shoji alley framed by fiber optic railings during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed riverwalk tatami landing featuring glowing vending glass amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit plum orchard row with floating petals under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed riverwalk tatami landing with floating petals under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze metro platform with amber taiko drums under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined kumiko lobby with polished stone lanterns under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "misty tea house courtyard with silk banners under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit onsen deck with fiber optic railings under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed kumiko lobby framed by amber taiko drums during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented kumiko lobby with woven basket stalls under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit shoji alley featuring luminous kanji signage amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed metro platform framed by koi pond sparkle during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined kumiko lobby with luminous kanji signage under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined kumiko lobby featuring steam wisps amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing with floating petals under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze harbor boardwalk with fiber optic railings under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned harbor boardwalk with floating petals under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented glass monorail bridge framed by paper umbrella stacks during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted onsen deck with charcoal gravel sprays under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed lantern market lane with amber taiko drums under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined metro platform featuring ferried light trails amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit riverwalk tatami landing framed by orchid noren sway during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "glowing-amber harbor boardwalk featuring glowing vending glass amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit underground arcade framed by bike streaks during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern harbor boardwalk framed by holographic ads during moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "bamboo-shadowed onsen deck with silk banners under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented volcanic sand path featuring orchid noren sway amidst humid midnight pulse",
+      "weight": 0.7
+    },
+    {
+      "text": "shoji-framed underground arcade framed by glowing vending glass during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted coastal torii causeway framed by mirror puddles during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit shinkansen concourse framed by amber taiko drums during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined metro platform featuring amber taiko drums amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone shoji alley with condensation rising under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze shoji alley featuring steam wisps amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed stone stair switchback framed by glowing vending glass during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern plum orchard row framed by floating petals during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "bamboo-shadowed rooftop zen garden framed by glowing vending glass during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone rain tunnel crossing framed by ferried light trails during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze volcanic sand path featuring ferried light trails amidst amber heater warmth",
+      "weight": 0.7
+    },
+    {
+      "text": "coastal-breeze shoji alley framed by koi pond sparkle during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted coastal torii causeway with luminous kanji signage under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern lantern market lane with steam wisps under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "powder-snow plum orchard row featuring glowing vending glass amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber kumiko lobby with bike streaks under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned lantern market lane framed by charcoal gravel sprays during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed metro platform featuring ceramic wind chimes amidst moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plum orchard row with orchid noren sway under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat underground arcade featuring orchid noren sway amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern glass monorail bridge framed by woven basket stalls during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze underground arcade featuring mirror puddles amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed neon rooftop dojo with woven basket stalls under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "dusk-toned coastal torii causeway featuring steam wisps amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "plaza-lit volcanic sand path featuring koi pond sparkle amidst sodium vapor hum",
+      "weight": 0.7
+    },
+    {
+      "text": "sakura-drifted rooftop zen garden with mirror puddles under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "sakura-drifted riverwalk tatami landing with amber taiko drums under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber volcanic sand path featuring holographic ads amidst pre-dawn hush",
+      "weight": 0.6
+    },
+    {
+      "text": "moonlit onsen deck with fiber optic railings under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit stone stair switchback featuring condensation rising amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "sakura-drifted elevated expressway shoulder with orchid noren sway under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "misty riverwalk tatami landing featuring amber taiko drums amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow shinkansen concourse featuring paper umbrella stacks amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "paper-lantern riverwalk tatami landing featuring koi pond sparkle amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed underground arcade with koi pond sparkle under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow neon rooftop dojo featuring koi pond sparkle amidst winter noon clarity",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern coastal torii causeway with silk banners under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit riverwalk tatami landing framed by condensation rising during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented onsen deck with fiber optic railings under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed shinkansen concourse framed by koi pond sparkle during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "misty tea house courtyard featuring polished stone lanterns amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "paper-lantern glass monorail bridge featuring koi pond sparkle amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked lantern market lane with fiber optic railings under humid midnight pulse",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed metro platform framed by paper umbrella stacks during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked lantern market lane featuring steam wisps amidst lantern-lit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed tea house courtyard featuring paper umbrella stacks amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "coastal-breeze volcanic sand path with floating petals under fog-softened sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "cedar-lined shinkansen concourse with woven basket stalls under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone shinkansen concourse featuring amber taiko drums amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber onsen deck featuring polished stone lanterns amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber coastal torii causeway framed by mirror puddles during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed harbor boardwalk with amber taiko drums under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit rain tunnel crossing with glowing vending glass under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "misty metro platform framed by polished stone lanterns during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber coastal torii causeway featuring paper umbrella stacks amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted lantern market lane featuring amber taiko drums amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "moonlit elevated expressway shoulder with bike streaks under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow shoji alley with floating petals under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined bamboo skywalk framed by bamboo shadows during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow coastal torii causeway with glowing vending glass under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat shoji alley featuring floating petals amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber lantern market lane framed by holographic ads during blue-hour glow",
+      "weight": 0.6
+    },
+    {
+      "text": "powder-snow glass monorail bridge framed by steam wisps during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed riverwalk tatami landing with floating petals under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed riverwalk tatami landing framed by charcoal gravel sprays during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit glass monorail bridge framed by woven basket stalls during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern volcanic sand path with glowing vending glass under festival neon rhythm",
+      "weight": 0.7
+    },
+    {
+      "text": "neon-soaked metro platform framed by paper umbrella stacks during monorail shadow bands",
+      "weight": 0.9
+    },
+    {
+      "text": "ink-brushed shinkansen concourse framed by bamboo shadows during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone plum orchard row with woven basket stalls under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit rain tunnel crossing with paper umbrella stacks under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed coastal torii causeway framed by polished stone lanterns during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "stormlit plum orchard row with charcoal gravel sprays under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined onsen deck framed by floating petals during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "dusk-toned rooftop zen garden featuring charcoal gravel sprays amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed lantern market lane with bike streaks under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit harbor boardwalk featuring holographic ads amidst festival neon rhythm",
+      "weight": 0.6
+    },
+    {
+      "text": "misty rain tunnel crossing featuring amber taiko drums amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented glass monorail bridge featuring steam wisps amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed kumiko lobby featuring mirror puddles amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed rooftop zen garden featuring orchid noren sway amidst sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat glass monorail bridge with fiber optic railings under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber elevated expressway shoulder framed by orchid noren sway during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber glass monorail bridge featuring luminous kanji signage amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed metro platform framed by ceramic wind chimes during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked stone stair switchback framed by luminous kanji signage during winter noon clarity",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed glass monorail bridge framed by bamboo shadows during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "shoji-framed shoji alley featuring woven basket stalls amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted onsen deck framed by glowing vending glass during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented glass monorail bridge featuring silk banners amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit onsen deck featuring bike streaks amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone shinkansen concourse featuring glowing vending glass amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed glass monorail bridge framed by bike streaks during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked rooftop zen garden featuring floating petals amidst fog-softened sunrise",
+      "weight": 0.9
+    },
+    {
+      "text": "plaza-lit onsen deck with paper umbrella stacks under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed shoji alley featuring mirror puddles amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze volcanic sand path featuring holographic ads amidst rain chorus echo",
+      "weight": 0.6
+    },
+    {
+      "text": "copper-roofed volcanic sand path framed by silk banners during blue-hour glow",
+      "weight": 0.7
+    },
+    {
+      "text": "copper-roofed neon rooftop dojo with floating petals under pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber rain tunnel crossing featuring condensation rising amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone volcanic sand path framed by bike streaks during blue-hour glow",
+      "weight": 0.7
+    },
+    {
+      "text": "paper-lantern underground arcade with fiber optic railings under winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed elevated expressway shoulder featuring ceramic wind chimes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed stone stair switchback with koi pond sparkle under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned stone stair switchback with fiber optic railings under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed neon rooftop dojo framed by bike streaks during cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed harbor boardwalk framed by condensation rising during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit kumiko lobby featuring polished stone lanterns amidst festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed rain tunnel crossing featuring luminous kanji signage amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented underground arcade featuring mirror puddles amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow shoji alley featuring ferried light trails amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed kumiko lobby with silk banners under pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit tea house courtyard featuring holographic ads amidst storm-cleared sky",
+      "weight": 0.6
+    },
+    {
+      "text": "copper-roofed riverwalk tatami landing with silk banners under monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rain tunnel crossing framed by charcoal gravel sprays during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit underground arcade with fiber optic railings under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone neon rooftop dojo with koi pond sparkle under pre-dawn hush",
+      "weight": 0.9
+    },
+    {
+      "text": "bamboo-shadowed stone stair switchback featuring mirror puddles amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit riverwalk tatami landing featuring bike streaks amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit volcanic sand path featuring amber taiko drums amidst blue-hour glow",
+      "weight": 0.7
+    },
+    {
+      "text": "powder-snow stone stair switchback framed by paper umbrella stacks during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit metro platform featuring koi pond sparkle amidst winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit neon rooftop dojo framed by holographic ads during blue-hour glow",
+      "weight": 0.6
+    },
+    {
+      "text": "charcoal-stone harbor boardwalk framed by holographic ads during cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "moonlit neon rooftop dojo framed by bamboo shadows during lantern-lit dusk",
+      "weight": 0.9
+    },
+    {
+      "text": "charcoal-stone shoji alley framed by steam wisps during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat kumiko lobby framed by koi pond sparkle during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone underground arcade framed by condensation rising during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit tea house courtyard with fiber optic railings under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed rain tunnel crossing with paper umbrella stacks under fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber glass monorail bridge featuring bamboo shadows amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed tea house courtyard framed by glowing vending glass during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat lantern market lane with orchid noren sway under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted coastal torii causeway featuring luminous kanji signage amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed tea house courtyard framed by ceramic wind chimes during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined onsen deck framed by glowing vending glass during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit underground arcade framed by holographic ads during lantern-lit dusk",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze elevated expressway shoulder with holographic ads under amber heater warmth",
+      "weight": 0.6
+    },
+    {
+      "text": "coastal-breeze tea house courtyard featuring mirror puddles amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed harbor boardwalk framed by luminous kanji signage during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed neon rooftop dojo framed by condensation rising during moonbow shimmer",
+      "weight": 0.9
+    },
+    {
+      "text": "rain-glossed coastal torii causeway with orchid noren sway under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed lantern market lane with ceramic wind chimes under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined stone stair switchback framed by condensation rising during festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "dusk-toned elevated expressway shoulder framed by charcoal gravel sprays during lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented rooftop zen garden framed by paper umbrella stacks during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned volcanic sand path featuring koi pond sparkle amidst typhoon break calm",
+      "weight": 0.7
+    },
+    {
+      "text": "shoji-framed rain tunnel crossing featuring fiber optic railings amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze kumiko lobby framed by ferried light trails during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern shinkansen concourse featuring ferried light trails amidst pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit elevated expressway shoulder with paper umbrella stacks under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed stone stair switchback framed by mirror puddles during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked lantern market lane with holographic ads under cicada-laced afternoon",
+      "weight": 0.6
+    },
+    {
+      "text": "dusk-toned bamboo skywalk with ceramic wind chimes under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit underground arcade with ceramic wind chimes under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone stone stair switchback with glowing vending glass under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit rain tunnel crossing framed by woven basket stalls during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "orchid-accented lantern market lane with fiber optic railings under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed volcanic sand path featuring glowing vending glass amidst winter noon clarity",
+      "weight": 0.7
+    },
+    {
+      "text": "ink-brushed rooftop zen garden with amber taiko drums under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted riverwalk tatami landing featuring paper umbrella stacks amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked lantern market lane featuring fiber optic railings amidst rain chorus echo",
+      "weight": 0.9
+    },
+    {
+      "text": "glowing-amber coastal torii causeway with holographic ads under storm-cleared sky",
+      "weight": 0.6
+    },
+    {
+      "text": "plaza-lit coastal torii causeway with floating petals under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit onsen deck with koi pond sparkle under sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed rooftop zen garden framed by charcoal gravel sprays during storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit coastal torii causeway with orchid noren sway under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit tea house courtyard with orchid noren sway under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze rooftop zen garden with bamboo shadows under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern lantern market lane featuring ceramic wind chimes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed shoji alley with ceramic wind chimes under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed tea house courtyard featuring holographic ads amidst blue-hour glow",
+      "weight": 0.6
+    },
+    {
+      "text": "rain-glossed shinkansen concourse with glowing vending glass under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow underground arcade framed by amber taiko drums during monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat rooftop zen garden featuring luminous kanji signage amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted lantern market lane with charcoal gravel sprays under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed coastal torii causeway featuring bike streaks amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat underground arcade framed by bamboo shadows during fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow glass monorail bridge featuring ceramic wind chimes amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted glass monorail bridge featuring mirror puddles amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber elevated expressway shoulder framed by amber taiko drums during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed underground arcade with woven basket stalls under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "powder-snow onsen deck with bamboo shadows under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit harbor boardwalk framed by amber taiko drums during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber glass monorail bridge featuring charcoal gravel sprays amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern harbor boardwalk featuring steam wisps amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow coastal torii causeway with woven basket stalls under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit lantern market lane framed by woven basket stalls during sodium vapor hum",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed metro platform featuring glowing vending glass amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented tea house courtyard featuring amber taiko drums amidst rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "powder-snow harbor boardwalk framed by mirror puddles during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed kumiko lobby featuring amber taiko drums amidst lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit harbor boardwalk framed by holographic ads during moonbow shimmer",
+      "weight": 0.6
+    },
+    {
+      "text": "rain-glossed lantern market lane featuring charcoal gravel sprays amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "plaza-lit riverwalk tatami landing with mirror puddles under lantern-lit dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber stone stair switchback with ferried light trails under moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed bamboo skywalk with bike streaks under festival neon rhythm",
+      "weight": 0.9
+    },
+    {
+      "text": "neon-soaked elevated expressway shoulder featuring orchid noren sway amidst blue-hour glow",
+      "weight": 0.9
+    },
+    {
+      "text": "cedar-lined underground arcade with luminous kanji signage under blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber glass monorail bridge with polished stone lanterns under amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed lantern market lane featuring charcoal gravel sprays amidst cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit harbor boardwalk featuring luminous kanji signage amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "glowing-amber volcanic sand path framed by orchid noren sway during pre-dawn hush",
+      "weight": 0.7
+    },
+    {
+      "text": "misty coastal torii causeway featuring orchid noren sway amidst blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "charcoal-stone harbor boardwalk with steam wisps under storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "misty plum orchard row with floating petals under typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "rain-glossed harbor boardwalk framed by amber taiko drums during blue-hour glow",
+      "weight": 1.0
+    },
+    {
+      "text": "orchid-accented neon rooftop dojo framed by luminous kanji signage during storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "copper-roofed elevated expressway shoulder framed by woven basket stalls during pre-dawn hush",
+      "weight": 1.0
+    },
+    {
+      "text": "shoji-framed plum orchard row framed by woven basket stalls during amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "cedar-lined coastal torii causeway framed by bike streaks during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "moonlit metro platform featuring fiber optic railings amidst amber heater warmth",
+      "weight": 1.0
+    },
+    {
+      "text": "bamboo-shadowed volcanic sand path with amber taiko drums under rain chorus echo",
+      "weight": 0.7
+    },
+    {
+      "text": "glowing-amber rooftop zen garden featuring silk banners amidst typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "shoji-framed shoji alley framed by glowing vending glass during cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-roofed underground arcade framed by orchid noren sway during winter noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "summer-heat bamboo skywalk framed by paper umbrella stacks during moonbow shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sakura-drifted kumiko lobby featuring fiber optic railings amidst storm-cleared sky",
+      "weight": 1.0
+    },
+    {
+      "text": "paper-lantern tea house courtyard framed by ceramic wind chimes during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "plaza-lit onsen deck featuring luminous kanji signage amidst fog-softened sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "coastal-breeze neon rooftop dojo featuring fiber optic railings amidst storm-cleared sky",
+      "weight": 0.9
+    },
+    {
+      "text": "plaza-lit onsen deck framed by ceramic wind chimes during typhoon break calm",
+      "weight": 0.8
+    },
+    {
+      "text": "rain-glossed harbor boardwalk with luminous kanji signage under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit bamboo skywalk featuring condensation rising amidst monorail shadow bands",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed metro platform with woven basket stalls under cicada-laced afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "ink-brushed riverwalk tatami landing with koi pond sparkle under rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-soaked shoji alley featuring fiber optic railings amidst cicada-laced afternoon",
+      "weight": 0.9
+    },
+    {
+      "text": "orchid-accented coastal torii causeway framed by luminous kanji signage during rain chorus echo",
+      "weight": 1.0
+    },
+    {
+      "text": "stormlit harbor boardwalk with ceramic wind chimes under festival neon rhythm",
+      "weight": 0.9
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "lacquered kanzashi hairpin with orchid tips",
+        "weight": 0.6
+      },
+      {
+        "text": "charcoal sensu fan tucked into belt",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel obi sash repurposed as wrist wrap",
+        "weight": 0.6
+      },
+      {
+        "text": "braided omamori charm clipped to bag",
+        "weight": 0.6
+      },
+      {
+        "text": "rice paper visor with electric-blue trim",
+        "weight": 0.6
+      },
+      {
+        "text": "bamboo bottle slung across shoulder",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "paper lantern embers drifting across frame",
+        "weight": 0.6
+      },
+      {
+        "text": "bullet train wind ripping through hair",
+        "weight": 0.6
+      },
+      {
+        "text": "onsen steam veiling lower frame",
+        "weight": 0.6
+      },
+      {
+        "text": "koi splash refracting electric-blue highlights",
+        "weight": 0.6
+      },
+      {
+        "text": "plum blossom flurry crossing lens",
+        "weight": 0.6
+      }
+    ]
+  }
+}

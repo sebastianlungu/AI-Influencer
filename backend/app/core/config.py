@@ -24,6 +24,9 @@ class Settings(BaseSettings):
     grok_model: str = Field(default="grok-beta", env="GROK_MODEL")
     grok_timeout_s: int = Field(default=30, env="GROK_TIMEOUT_S")
 
+    # Cost tracking (Prompt Lab manual workflow)
+    max_cost_per_run: float = Field(default=10.0, env="MAX_COST_PER_RUN")
+
     # Future LLM Providers (stubs for later implementation)
     # gemini_api_key: str | None = Field(default=None, env="GEMINI_API_KEY")
     # gemini_model: str = Field(default="gemini-pro", env="GEMINI_MODEL")

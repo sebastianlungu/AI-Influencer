@@ -1,0 +1,4050 @@
+{
+  "scenes": [
+    {
+      "text": "market-bright stone agora framed by olive crates during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped cafe arcade with sailcloth folds under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "dusk-lavender windmill deck featuring stone bench carve amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped ferry gangway featuring terracotta urn stacks amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging caldera overlook featuring linen awnings amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied labyrinth alley featuring chalky stucco texture amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic moonlit colonnade with sun dial shadows under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic pebble harbor featuring dune grass tufts amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready pebble harbor featuring chalky stucco texture amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender clifftop amphitheater framed by chalky stucco texture during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled navy rooftop framed by sailcloth folds during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze monastery courtyard framed by dune grass tufts during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ferry gangway featuring cobalt door frames amidst cicada noon hum",
+      "weight": 0.7
+    },
+    {
+      "text": "dusk-lavender olive press patio with copper bells under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze pebble harbor with netted floats under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic fishing quay framed by cobalt door frames during beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready caldera overlook framed by linen awnings during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed pebble harbor featuring rope-lashed posts amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented vineyard terrace framed by harbor lanterns during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined market promenade framed by terracotta urn stacks during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented navy rooftop featuring candled niches amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled clifftop amphitheater featuring bougainvillea ribbons amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed terracotta stair framed by salt spray sparkle during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed clifftop amphitheater framed by harbor lanterns during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed glass-bottom pier with chalky stucco texture under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined stone agora with sun dial shadows under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined sunken plaza featuring rope-lashed posts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed fishing quay featuring marble mosaic tiles amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright navy rooftop featuring olive crates amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched sunken plaza framed by netted floats during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready stone agora framed by salt spray sparkle during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic fishing quay with salt spray sparkle under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched glass-bottom pier framed by painted pottery during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic stone agora featuring candled niches amidst mosaic-reflected sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "salt-kissed pebble harbor featuring sun dial shadows amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped limestone breakwater framed by marble mosaic tiles during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "marble-lined monastery courtyard with bougainvillea ribbons under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging navy rooftop with painted pottery under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed windmill deck featuring candled niches amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented windmill deck framed by linen awnings during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented market promenade with chalky stucco texture under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze monastery courtyard featuring dune grass tufts amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove cafe arcade with cobalt door frames under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender caldera overlook framed by terracotta urn stacks during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed sunken plaza framed by rope rail shadows during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled moonlit colonnade with harbor lanterns under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled limestone breakwater featuring cobalt door frames amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging cafe arcade framed by salt spray sparkle during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed navy rooftop framed by marble mosaic tiles during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied market promenade with cobalt door frames under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic moonlit colonnade with marble mosaic tiles under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed caldera overlook framed by chalky stucco texture during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented laneway overlook with terracotta urn stacks under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging limestone breakwater with salt spray sparkle under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze pebble harbor with sailcloth folds under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed laneway overlook featuring sun dial shadows amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed sunken plaza featuring rope-lashed posts amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached clifftop amphitheater framed by stone bench carve during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped caldera overlook featuring stone bench carve amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender windmill deck with salt spray sparkle under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled vineyard terrace with harbor lanterns under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio with bougainvillea ribbons under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched laneway overlook framed by whitecap reflections during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed limestone breakwater framed by cobalt door frames during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched limestone breakwater framed by candled niches during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed windmill deck featuring netted floats amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed fishing quay featuring cobalt door frames amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging terracotta stair with stone bench carve under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove sunken plaza featuring marble mosaic tiles amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached fishing quay with chalky stucco texture under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched moonlit colonnade featuring netted floats amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched market promenade featuring bougainvillea ribbons amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed fishing quay featuring sailcloth folds amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready navy rooftop featuring rope rail shadows amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright ferry gangway featuring cobalt door frames amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed labyrinth alley featuring cobalt door frames amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed limestone breakwater featuring terracotta urn stacks amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright clifftop amphitheater featuring painted pottery amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender sunken plaza featuring dune grass tufts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove vineyard terrace featuring sailcloth folds amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "shadow-cooled market promenade framed by sailcloth folds during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright olive press patio framed by linen awnings during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic navy rooftop with copper bells under pre-storm teal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "whitewashed fishing quay framed by sailcloth folds during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched laneway overlook featuring whitecap reflections amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender market promenade framed by sailcloth folds during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed navy rooftop framed by olive crates during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging vineyard terrace with linen awnings under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging moonlit colonnade featuring terracotta urn stacks amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic clifftop amphitheater featuring painted pottery amidst pre-storm teal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-etched caldera overlook with chalky stucco texture under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed clifftop amphitheater framed by dune grass tufts during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready moonlit colonnade framed by rope-lashed posts during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging cafe arcade with whitecap reflections under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed ferry gangway with whitecap reflections under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready moonlit colonnade featuring rope rail shadows amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched laneway overlook with olive crates under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched stone agora featuring stone bench carve amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined labyrinth alley with dune grass tufts under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender fishing quay featuring rope rail shadows amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled fishing quay with dune grass tufts under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined limestone breakwater framed by marble mosaic tiles during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready ferry gangway framed by bougainvillea ribbons during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed windmill deck framed by candled niches during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove clifftop amphitheater featuring dune grass tufts amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender caldera overlook framed by salt spray sparkle during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright cafe arcade featuring rope-lashed posts amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cerulean-skied sunken plaza framed by cobalt door frames during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic laneway overlook framed by rope-lashed posts during cerulean midday blaze",
+      "weight": 0.7
+    },
+    {
+      "text": "sage-scented limestone breakwater with marble mosaic tiles under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze cafe arcade framed by painted pottery during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging laneway overlook framed by linen awnings during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed pebble harbor featuring chalky stucco texture amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented navy rooftop featuring olive crates amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender olive press patio with marble mosaic tiles under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled monastery courtyard featuring linen awnings amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached glass-bottom pier featuring painted pottery amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed clifftop amphitheater with terracotta urn stacks under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender limestone breakwater with copper bells under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic glass-bottom pier framed by candled niches during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched moonlit colonnade framed by marble mosaic tiles during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze stone agora framed by linen awnings during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging monastery courtyard framed by olive crates during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed clifftop amphitheater featuring harbor lanterns amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed windmill deck featuring harbor lanterns amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor with whitecap reflections under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented olive press patio with linen awnings under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped ferry gangway featuring salt spray sparkle amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached windmill deck with rope-lashed posts under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready moonlit colonnade featuring copper bells amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed laneway overlook with marble mosaic tiles under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic pebble harbor with netted floats under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender ferry gangway featuring olive crates amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "shadow-cooled laneway overlook framed by stone bench carve during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined windmill deck framed by rope rail shadows during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched moonlit colonnade with painted pottery under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic terracotta stair with chalky stucco texture under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cliff-hugging laneway overlook featuring netted floats amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater featuring cobalt door frames amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic stone agora framed by linen awnings during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "bougainvillea-draped windmill deck featuring olive crates amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped pebble harbor with bougainvillea ribbons under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "dusk-lavender market promenade featuring bougainvillea ribbons amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cycladic windmill deck with candled niches under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic laneway overlook framed by sun dial shadows during moonlit breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "shadow-cooled ferry gangway featuring harbor lanterns amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging windmill deck framed by rope rail shadows during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed clifftop amphitheater featuring harbor lanterns amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "lantern-ready market promenade featuring cobalt door frames amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic monastery courtyard featuring copper bells amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled cafe arcade featuring cobalt door frames amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed caldera overlook framed by linen awnings during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "market-bright navy rooftop featuring harbor lanterns amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging market promenade featuring sun dial shadows amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ferry gangway with terracotta urn stacks under moonlit breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "market-bright laneway overlook with stone bench carve under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender terracotta stair with olive crates under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging laneway overlook with whitecap reflections under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed labyrinth alley framed by candled niches during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic laneway overlook featuring marble mosaic tiles amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready monastery courtyard with bougainvillea ribbons under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched limestone breakwater framed by terracotta urn stacks during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze terracotta stair featuring painted pottery amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed clifftop amphitheater framed by netted floats during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender limestone breakwater with painted pottery under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented limestone breakwater with sailcloth folds under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched vineyard terrace framed by salt spray sparkle during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "salt-kissed caldera overlook with rope-lashed posts under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender stone agora framed by terracotta urn stacks during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled vineyard terrace framed by painted pottery during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed vineyard terrace framed by salt spray sparkle during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled vineyard terrace with bougainvillea ribbons under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed monastery courtyard framed by terracotta urn stacks during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cliff-hugging laneway overlook featuring olive crates amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed stone agora with sailcloth folds under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "terrace-perched glass-bottom pier framed by rope rail shadows during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented monastery courtyard with rope-lashed posts under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic terracotta stair featuring chalky stucco texture amidst distant lightning flicker",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove stone agora featuring sun dial shadows amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready cafe arcade framed by terracotta urn stacks during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "whitewashed market promenade framed by copper bells during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented labyrinth alley featuring candled niches amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "olive-grove glass-bottom pier with painted pottery under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready sunken plaza featuring whitecap reflections amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched clifftop amphitheater framed by sun dial shadows during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "market-bright limestone breakwater with candled niches under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright stone agora framed by linen awnings during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove windmill deck framed by bougainvillea ribbons during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready moonlit colonnade framed by bougainvillea ribbons during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed sunken plaza framed by chalky stucco texture during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "bougainvillea-draped monastery courtyard featuring rope-lashed posts amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic fishing quay framed by sun dial shadows during shadow-banded afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "market-bright cafe arcade framed by candled niches during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "bougainvillea-draped laneway overlook framed by sailcloth folds during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled glass-bottom pier framed by rope-lashed posts during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic moonlit colonnade featuring harbor lanterns amidst beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "cerulean-skied fishing quay with netted floats under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented monastery courtyard framed by whitecap reflections during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic monastery courtyard featuring bougainvillea ribbons amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched windmill deck framed by dune grass tufts during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled clifftop amphitheater featuring painted pottery amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "sage-scented monastery courtyard framed by cobalt door frames during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched monastery courtyard framed by olive crates during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright olive press patio with whitecap reflections under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove navy rooftop framed by rope-lashed posts during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender monastery courtyard featuring cobalt door frames amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic vineyard terrace featuring marble mosaic tiles amidst moonlit breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "salt-kissed glass-bottom pier featuring netted floats amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented caldera overlook framed by linen awnings during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched windmill deck framed by painted pottery during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed olive press patio featuring sun dial shadows amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive press patio with whitecap reflections under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied windmill deck with rope-lashed posts under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready cafe arcade framed by marble mosaic tiles during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined caldera overlook framed by netted floats during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed caldera overlook framed by bougainvillea ribbons during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied moonlit colonnade featuring sailcloth folds amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed ferry gangway with netted floats under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed clifftop amphitheater featuring dune grass tufts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed market promenade with cobalt door frames under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed cafe arcade featuring bougainvillea ribbons amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater framed by whitecap reflections during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic sunken plaza framed by painted pottery during lavender nautical dusk",
+      "weight": 0.7
+    },
+    {
+      "text": "shadow-cooled navy rooftop with linen awnings under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio with salt spray sparkle under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped moonlit colonnade framed by painted pottery during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "sun-bleached windmill deck with marble mosaic tiles under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached market promenade framed by cobalt door frames during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater with rope rail shadows under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "sun-bleached stone agora featuring painted pottery amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze sunken plaza featuring linen awnings amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic terracotta stair featuring copper bells amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed market promenade framed by salt spray sparkle during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed windmill deck featuring sailcloth folds amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove limestone breakwater with harbor lanterns under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed olive press patio framed by salt spray sparkle during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled monastery courtyard with painted pottery under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic navy rooftop framed by netted floats during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor with sun dial shadows under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze olive press patio with painted pottery under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched clifftop amphitheater framed by olive crates during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined moonlit colonnade framed by harbor lanterns during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender laneway overlook with olive crates under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater featuring stone bench carve amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented navy rooftop with sailcloth folds under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined market promenade framed by harbor lanterns during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined terracotta stair with cobalt door frames under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze olive press patio framed by bougainvillea ribbons during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "aegean-breeze cafe arcade with copper bells under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped limestone breakwater framed by olive crates during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed limestone breakwater framed by terracotta urn stacks during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched vineyard terrace featuring salt spray sparkle amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched windmill deck with salt spray sparkle under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright cafe arcade with sailcloth folds under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cobalt-trimmed fishing quay with rope rail shadows under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched olive press patio featuring dune grass tufts amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched glass-bottom pier featuring chalky stucco texture amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched market promenade framed by sun dial shadows during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped olive press patio featuring stone bench carve amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped olive press patio with whitecap reflections under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped clifftop amphitheater framed by netted floats during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped caldera overlook with rope-lashed posts under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze clifftop amphitheater with linen awnings under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched laneway overlook featuring netted floats amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied vineyard terrace featuring stone bench carve amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped cafe arcade featuring marble mosaic tiles amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove windmill deck framed by bougainvillea ribbons during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic glass-bottom pier featuring linen awnings amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed ferry gangway framed by sun dial shadows during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging sunken plaza framed by bougainvillea ribbons during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled pebble harbor with rope rail shadows under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented sunken plaza framed by linen awnings during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed market promenade featuring olive crates amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched navy rooftop framed by sailcloth folds during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched sunken plaza with painted pottery under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped fishing quay featuring harbor lanterns amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled terracotta stair featuring harbor lanterns amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor featuring rope rail shadows amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched labyrinth alley featuring olive crates amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched fishing quay with painted pottery under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender olive press patio framed by dune grass tufts during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed monastery courtyard framed by whitecap reflections during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed windmill deck featuring netted floats amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined caldera overlook with rope rail shadows under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright ferry gangway featuring whitecap reflections amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed labyrinth alley framed by netted floats during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic olive press patio framed by whitecap reflections during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging labyrinth alley framed by whitecap reflections during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed cafe arcade framed by olive crates during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright clifftop amphitheater with copper bells under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented olive press patio featuring bougainvillea ribbons amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender cafe arcade featuring linen awnings amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic monastery courtyard featuring marble mosaic tiles amidst moonlit breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "gold-leafed cafe arcade framed by linen awnings during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed olive press patio featuring marble mosaic tiles amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled windmill deck framed by rope-lashed posts during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed laneway overlook framed by candled niches during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined olive press patio framed by olive crates during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched laneway overlook featuring dune grass tufts amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "dusk-lavender ferry gangway featuring marble mosaic tiles amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender moonlit colonnade featuring olive crates amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "salt-kissed navy rooftop featuring painted pottery amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped ferry gangway framed by salt spray sparkle during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed stone agora featuring painted pottery amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove terracotta stair with chalky stucco texture under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached limestone breakwater featuring salt spray sparkle amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "lantern-ready ferry gangway framed by cobalt door frames during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched terracotta stair featuring whitecap reflections amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied moonlit colonnade featuring dune grass tufts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached laneway overlook featuring harbor lanterns amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender monastery courtyard with linen awnings under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped stone agora featuring netted floats amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed navy rooftop featuring olive crates amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze navy rooftop framed by terracotta urn stacks during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined caldera overlook framed by dune grass tufts during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped clifftop amphitheater featuring bougainvillea ribbons amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed terracotta stair with salt spray sparkle under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed windmill deck with dune grass tufts under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied glass-bottom pier framed by dune grass tufts during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed pebble harbor featuring marble mosaic tiles amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied glass-bottom pier featuring linen awnings amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic vineyard terrace framed by terracotta urn stacks during harbor light bloom",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic limestone breakwater framed by chalky stucco texture during pre-storm teal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "sage-scented stone agora with rope rail shadows under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed stone agora with cobalt door frames under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender market promenade featuring copper bells amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined pebble harbor with marble mosaic tiles under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic stone agora with olive crates under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic labyrinth alley with dune grass tufts under olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "whitewashed cafe arcade with rope rail shadows under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined ferry gangway featuring rope-lashed posts amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright laneway overlook framed by rope-lashed posts during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright moonlit colonnade framed by chalky stucco texture during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped laneway overlook featuring copper bells amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic limestone breakwater featuring dune grass tufts amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender clifftop amphitheater featuring dune grass tufts amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined caldera overlook featuring whitecap reflections amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove vineyard terrace featuring sailcloth folds amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready caldera overlook featuring sailcloth folds amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed navy rooftop framed by terracotta urn stacks during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed moonlit colonnade framed by copper bells during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze labyrinth alley framed by linen awnings during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender moonlit colonnade featuring painted pottery amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready terracotta stair featuring candled niches amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging glass-bottom pier framed by salt spray sparkle during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed vineyard terrace with whitecap reflections under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove cafe arcade framed by stone bench carve during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched moonlit colonnade with cobalt door frames under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "whitewashed fishing quay featuring chalky stucco texture amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging cafe arcade featuring salt spray sparkle amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging limestone breakwater framed by sun dial shadows during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging terracotta stair framed by rope-lashed posts during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined navy rooftop featuring netted floats amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready windmill deck framed by sailcloth folds during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined ferry gangway framed by harbor lanterns during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic olive press patio featuring copper bells amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached ferry gangway featuring dune grass tufts amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined moonlit colonnade with dune grass tufts under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped olive press patio featuring chalky stucco texture amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic laneway overlook with salt spray sparkle under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready navy rooftop framed by dune grass tufts during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed terracotta stair featuring bougainvillea ribbons amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled limestone breakwater with terracotta urn stacks under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright navy rooftop featuring harbor lanterns amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched cafe arcade framed by stone bench carve during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready market promenade framed by stone bench carve during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready windmill deck featuring painted pottery amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched ferry gangway featuring chalky stucco texture amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging olive press patio with painted pottery under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove stone agora featuring stone bench carve amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached labyrinth alley with rope rail shadows under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed moonlit colonnade framed by marble mosaic tiles during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched terracotta stair featuring dune grass tufts amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed limestone breakwater featuring painted pottery amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented clifftop amphitheater featuring sailcloth folds amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging vineyard terrace with chalky stucco texture under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached terracotta stair framed by dune grass tufts during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging fishing quay framed by candled niches during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender clifftop amphitheater framed by olive crates during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready market promenade framed by stone bench carve during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright ferry gangway framed by stone bench carve during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched monastery courtyard with painted pottery under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed monastery courtyard framed by dune grass tufts during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled navy rooftop framed by netted floats during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic glass-bottom pier with olive crates under cicada noon hum",
+      "weight": 0.7
+    },
+    {
+      "text": "terrace-perched labyrinth alley featuring netted floats amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled sunken plaza featuring candled niches amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic clifftop amphitheater featuring stone bench carve amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed sunken plaza with copper bells under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze market promenade featuring rope-lashed posts amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied fishing quay with painted pottery under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic caldera overlook framed by marble mosaic tiles during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled fishing quay with olive crates under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented fishing quay featuring rope-lashed posts amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic sunken plaza with netted floats under beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "cycladic glass-bottom pier with painted pottery under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented stone agora featuring rope rail shadows amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented moonlit colonnade framed by harbor lanterns during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed laneway overlook with stone bench carve under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed limestone breakwater featuring painted pottery amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging market promenade framed by sun dial shadows during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove ferry gangway featuring sailcloth folds amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented limestone breakwater with bougainvillea ribbons under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled ferry gangway framed by olive crates during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched cafe arcade featuring stone bench carve amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched pebble harbor framed by candled niches during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched limestone breakwater framed by terracotta urn stacks during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready laneway overlook featuring dune grass tufts amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic fishing quay featuring sun dial shadows amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic caldera overlook framed by whitecap reflections during beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "terrace-perched vineyard terrace with linen awnings under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined moonlit colonnade with bougainvillea ribbons under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed clifftop amphitheater featuring whitecap reflections amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze stone agora featuring bougainvillea ribbons amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove labyrinth alley with marble mosaic tiles under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic labyrinth alley framed by olive crates during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed stone agora with netted floats under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging pebble harbor with linen awnings under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented glass-bottom pier with rope-lashed posts under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled labyrinth alley with chalky stucco texture under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed navy rooftop with bougainvillea ribbons under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed stone agora featuring sun dial shadows amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender olive press patio framed by salt spray sparkle during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging clifftop amphitheater framed by sailcloth folds during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped labyrinth alley with stone bench carve under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed caldera overlook featuring sailcloth folds amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached cafe arcade framed by sailcloth folds during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented clifftop amphitheater featuring sun dial shadows amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed cafe arcade featuring harbor lanterns amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed caldera overlook framed by rope rail shadows during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed navy rooftop with linen awnings under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched windmill deck featuring marble mosaic tiles amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied limestone breakwater with rope rail shadows under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled limestone breakwater with linen awnings under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "volcanic labyrinth alley framed by linen awnings during chalk dust sparkle",
+      "weight": 0.7
+    },
+    {
+      "text": "terrace-perched caldera overlook featuring painted pottery amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic cafe arcade featuring olive crates amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender clifftop amphitheater with salt spray sparkle under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready labyrinth alley featuring dune grass tufts amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented navy rooftop featuring copper bells amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented glass-bottom pier featuring candled niches amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "olive-grove ferry gangway framed by whitecap reflections during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic pebble harbor framed by salt spray sparkle during mosaic-reflected sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "salt-kissed olive press patio framed by marble mosaic tiles during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied labyrinth alley featuring chalky stucco texture amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed navy rooftop featuring harbor lanterns amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove terracotta stair framed by chalky stucco texture during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined clifftop amphitheater framed by rope rail shadows during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped pebble harbor with cobalt door frames under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled moonlit colonnade framed by candled niches during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched moonlit colonnade framed by sun dial shadows during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic monastery courtyard with sailcloth folds under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed glass-bottom pier featuring salt spray sparkle amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped olive press patio featuring dune grass tufts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed limestone breakwater featuring rope-lashed posts amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped cafe arcade featuring terracotta urn stacks amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched caldera overlook featuring rope-lashed posts amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic moonlit colonnade framed by rope rail shadows during olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "dusk-lavender monastery courtyard with olive crates under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented navy rooftop with salt spray sparkle under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic navy rooftop framed by rope rail shadows during shadow-banded afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready market promenade framed by olive crates during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed olive press patio featuring painted pottery amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "olive-grove olive press patio featuring stone bench carve amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed ferry gangway featuring cobalt door frames amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached terracotta stair framed by bougainvillea ribbons during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed stone agora featuring copper bells amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed stone agora with cobalt door frames under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio featuring linen awnings amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive press patio featuring whitecap reflections amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic olive press patio framed by harbor lanterns during moonlit breeze",
+      "weight": 0.7
+    },
+    {
+      "text": "sage-scented pebble harbor featuring harbor lanterns amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready clifftop amphitheater with netted floats under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed market promenade framed by bougainvillea ribbons during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive press patio framed by dune grass tufts during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached labyrinth alley with chalky stucco texture under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze monastery courtyard with stone bench carve under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed monastery courtyard framed by copper bells during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented vineyard terrace framed by salt spray sparkle during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed navy rooftop framed by dune grass tufts during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "terrace-perched monastery courtyard framed by rope-lashed posts during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed cafe arcade framed by terracotta urn stacks during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "marble-lined glass-bottom pier featuring chalky stucco texture amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor with dune grass tufts under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped limestone breakwater framed by linen awnings during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging monastery courtyard with stone bench carve under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined monastery courtyard framed by copper bells during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze sunken plaza framed by rope-lashed posts during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied laneway overlook with stone bench carve under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached limestone breakwater with dune grass tufts under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed ferry gangway framed by olive crates during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic cafe arcade with whitecap reflections under pre-storm teal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "shadow-cooled stone agora framed by terracotta urn stacks during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed pebble harbor framed by olive crates during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic sunken plaza framed by whitecap reflections during shadow-banded afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "cycladic clifftop amphitheater featuring rope-lashed posts amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "terrace-perched moonlit colonnade featuring bougainvillea ribbons amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched pebble harbor featuring netted floats amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic cafe arcade featuring terracotta urn stacks amidst lantern-flecked midnight",
+      "weight": 0.7
+    },
+    {
+      "text": "olive-grove stone agora featuring stone bench carve amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched caldera overlook featuring copper bells amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched caldera overlook framed by linen awnings during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready terracotta stair with salt spray sparkle under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined windmill deck featuring rope-lashed posts amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready clifftop amphitheater with netted floats under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze glass-bottom pier featuring terracotta urn stacks amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed glass-bottom pier with harbor lanterns under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze stone agora with salt spray sparkle under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied fishing quay framed by stone bench carve during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached stone agora with candled niches under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed ferry gangway with copper bells under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor framed by marble mosaic tiles during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed caldera overlook framed by sailcloth folds during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped market promenade with linen awnings under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright glass-bottom pier with netted floats under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic vineyard terrace with dune grass tufts under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied ferry gangway featuring bougainvillea ribbons amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented navy rooftop with rope-lashed posts under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled limestone breakwater with terracotta urn stacks under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented laneway overlook framed by rope rail shadows during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied windmill deck with terracotta urn stacks under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging pebble harbor featuring painted pottery amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging ferry gangway framed by terracotta urn stacks during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented glass-bottom pier with whitecap reflections under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "sun-bleached market promenade featuring linen awnings amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright navy rooftop framed by dune grass tufts during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched olive press patio with candled niches under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging ferry gangway with sailcloth folds under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched caldera overlook with rope-lashed posts under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched cafe arcade framed by salt spray sparkle during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright limestone breakwater with sailcloth folds under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped labyrinth alley with painted pottery under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied laneway overlook framed by linen awnings during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging sunken plaza featuring whitecap reflections amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic stone agora featuring sun dial shadows amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented monastery courtyard framed by linen awnings during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped stone agora featuring sailcloth folds amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "salt-kissed vineyard terrace with olive crates under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed limestone breakwater framed by painted pottery during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached glass-bottom pier framed by marble mosaic tiles during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached limestone breakwater with marble mosaic tiles under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender caldera overlook framed by terracotta urn stacks during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove ferry gangway framed by whitecap reflections during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic cafe arcade featuring candled niches amidst gold retreated twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "cliff-hugging limestone breakwater with sailcloth folds under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic vineyard terrace with rope rail shadows under shadow-banded afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "cobalt-trimmed pebble harbor featuring rope rail shadows amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped vineyard terrace featuring sun dial shadows amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio framed by chalky stucco texture during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed olive press patio framed by bougainvillea ribbons during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender clifftop amphitheater framed by linen awnings during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic clifftop amphitheater with bougainvillea ribbons under lavender nautical dusk",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready olive press patio featuring harbor lanterns amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic sunken plaza featuring whitecap reflections amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright clifftop amphitheater with bougainvillea ribbons under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented monastery courtyard featuring sailcloth folds amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed ferry gangway with harbor lanterns under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented olive press patio framed by whitecap reflections during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped olive press patio with cobalt door frames under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready laneway overlook with dune grass tufts under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready moonlit colonnade framed by terracotta urn stacks during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed sunken plaza framed by cobalt door frames during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove fishing quay with whitecap reflections under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied fishing quay featuring chalky stucco texture amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging laneway overlook with rope rail shadows under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched clifftop amphitheater with sun dial shadows under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "volcanic navy rooftop featuring terracotta urn stacks amidst olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready caldera overlook with linen awnings under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched cafe arcade featuring olive crates amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied ferry gangway featuring bougainvillea ribbons amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched caldera overlook framed by harbor lanterns during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright moonlit colonnade framed by harbor lanterns during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender vineyard terrace with cobalt door frames under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater featuring harbor lanterns amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze pebble harbor framed by linen awnings during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled terracotta stair featuring bougainvillea ribbons amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented moonlit colonnade featuring painted pottery amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched moonlit colonnade framed by marble mosaic tiles during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "wind-etched ferry gangway framed by terracotta urn stacks during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio featuring chalky stucco texture amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied labyrinth alley with bougainvillea ribbons under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender glass-bottom pier featuring linen awnings amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched labyrinth alley framed by rope rail shadows during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright vineyard terrace featuring olive crates amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched terracotta stair with marble mosaic tiles under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached pebble harbor featuring rope rail shadows amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched windmill deck with rope-lashed posts under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready labyrinth alley with chalky stucco texture under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright labyrinth alley featuring whitecap reflections amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed sunken plaza with olive crates under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied pebble harbor featuring chalky stucco texture amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright ferry gangway with whitecap reflections under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging monastery courtyard featuring salt spray sparkle amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed ferry gangway with cobalt door frames under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed limestone breakwater with harbor lanterns under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic labyrinth alley featuring painted pottery amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging moonlit colonnade framed by salt spray sparkle during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed labyrinth alley framed by sailcloth folds during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic terracotta stair framed by netted floats during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove olive press patio featuring terracotta urn stacks amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached caldera overlook featuring linen awnings amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed moonlit colonnade featuring painted pottery amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed navy rooftop featuring rope rail shadows amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied glass-bottom pier framed by terracotta urn stacks during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready stone agora featuring rope rail shadows amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched olive press patio framed by cobalt door frames during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached moonlit colonnade framed by rope rail shadows during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied moonlit colonnade featuring sun dial shadows amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright labyrinth alley featuring rope-lashed posts amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined windmill deck framed by bougainvillea ribbons during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "whitewashed navy rooftop with harbor lanterns under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed limestone breakwater framed by candled niches during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled vineyard terrace with whitecap reflections under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched clifftop amphitheater framed by netted floats during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "volcanic terracotta stair with olive crates under lavender nautical dusk",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready terracotta stair featuring candled niches amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached glass-bottom pier featuring olive crates amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze market promenade featuring whitecap reflections amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove market promenade featuring olive crates amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright clifftop amphitheater with rope rail shadows under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined fishing quay featuring chalky stucco texture amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready navy rooftop framed by whitecap reflections during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied navy rooftop framed by terracotta urn stacks during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed laneway overlook featuring chalky stucco texture amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed windmill deck with rope rail shadows under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed limestone breakwater with sailcloth folds under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed fishing quay framed by harbor lanterns during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove limestone breakwater featuring terracotta urn stacks amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender laneway overlook featuring marble mosaic tiles amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "lantern-ready sunken plaza with whitecap reflections under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright pebble harbor framed by chalky stucco texture during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed stone agora featuring painted pottery amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped vineyard terrace with terracotta urn stacks under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined terracotta stair framed by harbor lanterns during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed monastery courtyard featuring marble mosaic tiles amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed limestone breakwater with olive crates under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove market promenade with copper bells under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched laneway overlook framed by netted floats during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached limestone breakwater with cobalt door frames under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped market promenade framed by candled niches during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled olive press patio framed by sun dial shadows during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze navy rooftop framed by chalky stucco texture during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed windmill deck featuring netted floats amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled terracotta stair featuring whitecap reflections amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic cafe arcade with netted floats under shadow-banded afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "cliff-hugging vineyard terrace with netted floats under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached stone agora featuring olive crates amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled cafe arcade framed by sailcloth folds during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched navy rooftop featuring sun dial shadows amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed fishing quay with candled niches under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped fishing quay with cobalt door frames under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic glass-bottom pier featuring painted pottery amidst harbor light bloom",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-etched cafe arcade with bougainvillea ribbons under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched ferry gangway featuring sun dial shadows amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove fishing quay with sailcloth folds under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched limestone breakwater featuring cobalt door frames amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready olive press patio featuring rope-lashed posts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic pebble harbor framed by netted floats during cicada noon hum",
+      "weight": 0.7
+    },
+    {
+      "text": "whitewashed vineyard terrace framed by sun dial shadows during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging monastery courtyard featuring rope-lashed posts amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched stone agora featuring harbor lanterns amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic pebble harbor framed by whitecap reflections during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright limestone breakwater framed by stone bench carve during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped laneway overlook featuring bougainvillea ribbons amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched pebble harbor featuring terracotta urn stacks amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "marble-lined vineyard terrace framed by rope rail shadows during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright sunken plaza with harbor lanterns under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented fishing quay featuring whitecap reflections amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled moonlit colonnade featuring copper bells amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined limestone breakwater featuring olive crates amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed sunken plaza framed by chalky stucco texture during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging market promenade with painted pottery under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove terracotta stair framed by chalky stucco texture during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented limestone breakwater featuring stone bench carve amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed moonlit colonnade framed by marble mosaic tiles during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied ferry gangway with marble mosaic tiles under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove laneway overlook with netted floats under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender olive press patio framed by netted floats during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined sunken plaza featuring sun dial shadows amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright limestone breakwater featuring copper bells amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed vineyard terrace framed by marble mosaic tiles during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented olive press patio with sun dial shadows under chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove glass-bottom pier with sailcloth folds under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied windmill deck with chalky stucco texture under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached monastery courtyard featuring painted pottery amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped ferry gangway featuring salt spray sparkle amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled monastery courtyard framed by dune grass tufts during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor framed by cobalt door frames during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic vineyard terrace featuring netted floats amidst distant lightning flicker",
+      "weight": 0.7
+    },
+    {
+      "text": "bougainvillea-draped terracotta stair featuring rope rail shadows amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic moonlit colonnade with rope-lashed posts under lavender nautical dusk",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready clifftop amphitheater featuring whitecap reflections amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender monastery courtyard with whitecap reflections under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "marble-lined glass-bottom pier framed by stone bench carve during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined pebble harbor with painted pottery under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented moonlit colonnade with rope rail shadows under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed stone agora featuring netted floats amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic olive press patio featuring whitecap reflections amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready navy rooftop featuring chalky stucco texture amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze sunken plaza framed by bougainvillea ribbons during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic terracotta stair with sailcloth folds under cicada noon hum",
+      "weight": 0.7
+    },
+    {
+      "text": "cycladic caldera overlook with harbor lanterns under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed market promenade framed by whitecap reflections during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic caldera overlook featuring marble mosaic tiles amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "olive-grove vineyard terrace featuring netted floats amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled vineyard terrace with stone bench carve under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed laneway overlook featuring olive crates amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched labyrinth alley featuring rope rail shadows amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed laneway overlook featuring marble mosaic tiles amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "bougainvillea-draped caldera overlook framed by dune grass tufts during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped terracotta stair framed by salt spray sparkle during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic stone agora framed by sun dial shadows during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic laneway overlook with candled niches under cerulean midday blaze",
+      "weight": 0.7
+    },
+    {
+      "text": "volcanic caldera overlook with marble mosaic tiles under beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "sage-scented pebble harbor with copper bells under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic stone agora framed by copper bells during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed stone agora featuring painted pottery amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined windmill deck with harbor lanterns under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic terracotta stair with rope-lashed posts under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed laneway overlook framed by rope-lashed posts during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "bougainvillea-draped laneway overlook with olive crates under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove terracotta stair framed by painted pottery during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic caldera overlook with bougainvillea ribbons under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed stone agora framed by salt spray sparkle during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched caldera overlook with stone bench carve under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped navy rooftop with harbor lanterns under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready market promenade framed by bougainvillea ribbons during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled monastery courtyard with chalky stucco texture under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached terracotta stair framed by candled niches during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready caldera overlook featuring sun dial shadows amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped moonlit colonnade framed by rope-lashed posts during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed stone agora framed by harbor lanterns during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic olive press patio with bougainvillea ribbons under gold retreated twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "cobalt-trimmed terracotta stair with olive crates under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped pebble harbor with olive crates under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled limestone breakwater framed by marble mosaic tiles during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic laneway overlook featuring cobalt door frames amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied clifftop amphitheater featuring chalky stucco texture amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached labyrinth alley framed by stone bench carve during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready clifftop amphitheater featuring chalky stucco texture amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined clifftop amphitheater with rope rail shadows under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging limestone breakwater featuring terracotta urn stacks amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined fishing quay with stone bench carve under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready terracotta stair framed by painted pottery during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed olive press patio with bougainvillea ribbons under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled olive press patio framed by terracotta urn stacks during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic market promenade with copper bells under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor with netted floats under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender windmill deck with linen awnings under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined navy rooftop featuring terracotta urn stacks amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed market promenade framed by rope rail shadows during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed navy rooftop with sailcloth folds under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze windmill deck featuring salt spray sparkle amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove market promenade framed by harbor lanterns during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio with whitecap reflections under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cerulean-skied limestone breakwater featuring candled niches amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender pebble harbor framed by terracotta urn stacks during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached fishing quay framed by salt spray sparkle during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze market promenade with candled niches under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented limestone breakwater framed by sun dial shadows during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging cafe arcade featuring painted pottery amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender clifftop amphitheater framed by rope rail shadows during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender sunken plaza featuring marble mosaic tiles amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped moonlit colonnade with sun dial shadows under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging vineyard terrace featuring rope rail shadows amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready glass-bottom pier with painted pottery under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched navy rooftop framed by sun dial shadows during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed caldera overlook framed by rope rail shadows during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched ferry gangway featuring rope rail shadows amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled glass-bottom pier with marble mosaic tiles under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic monastery courtyard framed by rope rail shadows during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove moonlit colonnade framed by sailcloth folds during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined market promenade with painted pottery under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright windmill deck framed by stone bench carve during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied moonlit colonnade featuring olive crates amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic labyrinth alley framed by chalky stucco texture during gold retreated twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "sage-scented fishing quay framed by harbor lanterns during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched cafe arcade with chalky stucco texture under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed limestone breakwater featuring rope-lashed posts amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented vineyard terrace featuring rope rail shadows amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging market promenade framed by terracotta urn stacks during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright navy rooftop with harbor lanterns under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed laneway overlook featuring sailcloth folds amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied clifftop amphitheater with cobalt door frames under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze terracotta stair with chalky stucco texture under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging olive press patio with netted floats under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched navy rooftop featuring harbor lanterns amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined sunken plaza framed by painted pottery during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached clifftop amphitheater framed by terracotta urn stacks during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched ferry gangway framed by linen awnings during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed fishing quay with chalky stucco texture under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed cafe arcade with dune grass tufts under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed laneway overlook featuring dune grass tufts amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached vineyard terrace featuring chalky stucco texture amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped labyrinth alley framed by chalky stucco texture during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic limestone breakwater featuring netted floats amidst shadow-banded afternoon",
+      "weight": 0.7
+    },
+    {
+      "text": "dusk-lavender ferry gangway featuring bougainvillea ribbons amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled sunken plaza framed by netted floats during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed sunken plaza featuring chalky stucco texture amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic laneway overlook framed by painted pottery during cicada noon hum",
+      "weight": 0.7
+    },
+    {
+      "text": "salt-kissed clifftop amphitheater featuring painted pottery amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove market promenade featuring olive crates amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze market promenade framed by terracotta urn stacks during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze ferry gangway with rope-lashed posts under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender vineyard terrace featuring copper bells amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented market promenade with chalky stucco texture under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined limestone breakwater with netted floats under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic vineyard terrace featuring terracotta urn stacks amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied market promenade featuring salt spray sparkle amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed market promenade framed by rope rail shadows during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed market promenade featuring marble mosaic tiles amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied caldera overlook framed by sailcloth folds during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater featuring painted pottery amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic laneway overlook featuring rope-lashed posts amidst olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "aegean-breeze fishing quay framed by linen awnings during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "volcanic ferry gangway framed by sailcloth folds during distant lightning flicker",
+      "weight": 0.7
+    },
+    {
+      "text": "sun-bleached limestone breakwater framed by olive crates during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic vineyard terrace with sailcloth folds under olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "bougainvillea-draped limestone breakwater with whitecap reflections under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright caldera overlook framed by sailcloth folds during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright clifftop amphitheater featuring rope-lashed posts amidst harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed caldera overlook framed by rope-lashed posts during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached cafe arcade framed by olive crates during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove cafe arcade with rope-lashed posts under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze vineyard terrace with harbor lanterns under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed monastery courtyard framed by marble mosaic tiles during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "dusk-lavender vineyard terrace framed by whitecap reflections during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "dusk-lavender terracotta stair featuring rope-lashed posts amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled moonlit colonnade framed by cobalt door frames during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied windmill deck featuring rope-lashed posts amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed limestone breakwater featuring sailcloth folds amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped vineyard terrace with marble mosaic tiles under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic ferry gangway framed by painted pottery during beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "bougainvillea-draped glass-bottom pier framed by sun dial shadows during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched ferry gangway featuring stone bench carve amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender labyrinth alley featuring sun dial shadows amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright navy rooftop with salt spray sparkle under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging clifftop amphitheater framed by sailcloth folds during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched clifftop amphitheater with linen awnings under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed limestone breakwater with salt spray sparkle under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched stone agora with stone bench carve under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed pebble harbor framed by salt spray sparkle during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped caldera overlook with dune grass tufts under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "wind-etched olive press patio featuring sun dial shadows amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender limestone breakwater framed by dune grass tufts during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached market promenade with rope rail shadows under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied olive press patio framed by bougainvillea ribbons during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove olive press patio with linen awnings under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging labyrinth alley with copper bells under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender cafe arcade featuring copper bells amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging sunken plaza featuring painted pottery amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached olive press patio featuring marble mosaic tiles amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging vineyard terrace featuring harbor lanterns amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied vineyard terrace with stone bench carve under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined terracotta stair framed by olive crates during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed terracotta stair framed by bougainvillea ribbons during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic vineyard terrace with cobalt door frames under beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "aegean-breeze terracotta stair with sailcloth folds under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed ferry gangway with candled niches under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender glass-bottom pier with netted floats under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed clifftop amphitheater framed by rope rail shadows during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready ferry gangway framed by olive crates during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled market promenade framed by copper bells during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender cafe arcade with candled niches under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright sunken plaza featuring sailcloth folds amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "marble-lined caldera overlook featuring stone bench carve amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "olive-grove labyrinth alley featuring cobalt door frames amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied sunken plaza framed by bougainvillea ribbons during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "cobalt-trimmed terracotta stair featuring sailcloth folds amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined caldera overlook featuring cobalt door frames amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "marble-lined sunken plaza with marble mosaic tiles under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed moonlit colonnade framed by rope rail shadows during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed terracotta stair with netted floats under distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic stone agora featuring marble mosaic tiles amidst mirage heat shimmer",
+      "weight": 0.7
+    },
+    {
+      "text": "lantern-ready ferry gangway framed by chalky stucco texture during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed vineyard terrace featuring linen awnings amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed cafe arcade with chalky stucco texture under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready olive press patio with cobalt door frames under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic glass-bottom pier with linen awnings under cicada noon hum",
+      "weight": 0.7
+    },
+    {
+      "text": "shadow-cooled windmill deck framed by terracotta urn stacks during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze stone agora featuring bougainvillea ribbons amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove clifftop amphitheater framed by harbor lanterns during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped laneway overlook featuring harbor lanterns amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped cafe arcade featuring candled niches amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging stone agora featuring stone bench carve amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove olive press patio featuring candled niches amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender glass-bottom pier with sun dial shadows under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready laneway overlook framed by marble mosaic tiles during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze stone agora framed by cobalt door frames during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined cafe arcade framed by harbor lanterns during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove terracotta stair featuring chalky stucco texture amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined vineyard terrace framed by sailcloth folds during mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "bougainvillea-draped fishing quay featuring rope-lashed posts amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready glass-bottom pier with candled niches under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "shadow-cooled olive press patio with chalky stucco texture under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented market promenade framed by candled niches during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic limestone breakwater featuring whitecap reflections amidst olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "whitewashed moonlit colonnade framed by terracotta urn stacks during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze terracotta stair with marble mosaic tiles under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched moonlit colonnade framed by rope rail shadows during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic sunken plaza with rope-lashed posts under gold retreated twilight",
+      "weight": 0.7
+    },
+    {
+      "text": "marble-lined stone agora with candled niches under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "salt-kissed navy rooftop featuring stone bench carve amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright market promenade with candled niches under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed vineyard terrace featuring rope rail shadows amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender market promenade with marble mosaic tiles under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed sunken plaza featuring whitecap reflections amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic olive press patio featuring netted floats amidst gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented monastery courtyard framed by harbor lanterns during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined navy rooftop featuring sailcloth folds amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic laneway overlook featuring netted floats amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "lantern-ready laneway overlook featuring bougainvillea ribbons amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender navy rooftop with linen awnings under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "whitewashed navy rooftop framed by harbor lanterns during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed pebble harbor framed by harbor lanterns during moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze moonlit colonnade with whitecap reflections under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "lantern-ready labyrinth alley featuring copper bells amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed cafe arcade framed by whitecap reflections during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove navy rooftop featuring copper bells amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed navy rooftop with chalky stucco texture under pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender laneway overlook framed by linen awnings during chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped ferry gangway featuring painted pottery amidst moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "aegean-breeze monastery courtyard featuring bougainvillea ribbons amidst lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed glass-bottom pier featuring chalky stucco texture amidst pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined vineyard terrace featuring copper bells amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched cafe arcade featuring copper bells amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed terracotta stair framed by terracotta urn stacks during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed laneway overlook framed by dune grass tufts during harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed monastery courtyard with copper bells under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging caldera overlook featuring rope rail shadows amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined olive press patio framed by sun dial shadows during lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready cafe arcade featuring whitecap reflections amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched clifftop amphitheater framed by chalky stucco texture during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright cafe arcade framed by sailcloth folds during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-lavender moonlit colonnade with linen awnings under olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched labyrinth alley framed by sailcloth folds during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready terracotta stair featuring sun dial shadows amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "olive-grove pebble harbor framed by stone bench carve during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched navy rooftop framed by olive crates during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched laneway overlook featuring painted pottery amidst chalk dust sparkle",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic laneway overlook framed by linen awnings during mosaic-reflected sunrise",
+      "weight": 0.7
+    },
+    {
+      "text": "wind-etched moonlit colonnade with salt spray sparkle under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "bougainvillea-draped sunken plaza framed by copper bells during shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined terracotta stair featuring cobalt door frames amidst distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined fishing quay featuring painted pottery amidst beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove fishing quay framed by candled niches during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic stone agora with painted pottery under pre-storm teal haze",
+      "weight": 0.7
+    },
+    {
+      "text": "cliff-hugging stone agora with painted pottery under beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging limestone breakwater featuring salt spray sparkle amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic monastery courtyard framed by rope-lashed posts during beacon sweep glow",
+      "weight": 0.7
+    },
+    {
+      "text": "cliff-hugging sunken plaza featuring bougainvillea ribbons amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "olive-grove laneway overlook with copper bells under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed ferry gangway with terracotta urn stacks under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied moonlit colonnade framed by stone bench carve during cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied moonlit colonnade framed by dune grass tufts during mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed glass-bottom pier with netted floats under cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed navy rooftop framed by rope-lashed posts during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed moonlit colonnade featuring bougainvillea ribbons amidst olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined terracotta stair framed by dune grass tufts during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented clifftop amphitheater featuring terracotta urn stacks amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "gold-leafed windmill deck with chalky stucco texture under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "sage-scented navy rooftop with stone bench carve under cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed sunken plaza featuring olive crates amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed market promenade with rope rail shadows under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached clifftop amphitheater framed by salt spray sparkle during lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic limestone breakwater with sailcloth folds under olive smoke drift",
+      "weight": 0.7
+    },
+    {
+      "text": "aegean-breeze pebble harbor framed by harbor lanterns during olive smoke drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied stone agora framed by whitecap reflections during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached pebble harbor framed by stone bench carve during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined sunken plaza featuring linen awnings amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed limestone breakwater featuring candled niches amidst mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "terrace-perched windmill deck framed by whitecap reflections during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "whitewashed sunken plaza framed by sun dial shadows during distant lightning flicker",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed olive press patio with dune grass tufts under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready limestone breakwater framed by bougainvillea ribbons during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cerulean-skied limestone breakwater with rope rail shadows under lavender nautical dusk",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready glass-bottom pier framed by painted pottery during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched terracotta stair with copper bells under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached limestone breakwater framed by rope rail shadows during gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched navy rooftop featuring cobalt door frames amidst cicada noon hum",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached moonlit colonnade featuring sun dial shadows amidst mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "terrace-perched cafe arcade featuring salt spray sparkle amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright olive press patio framed by dune grass tufts during beacon sweep glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic moonlit colonnade with whitecap reflections under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cycladic olive press patio framed by stone bench carve during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "wind-etched sunken plaza featuring terracotta urn stacks amidst shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "marble-lined stone agora with olive crates under shadow-banded afternoon",
+      "weight": 1.0
+    },
+    {
+      "text": "lantern-ready ferry gangway with sailcloth folds under gold retreated twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed labyrinth alley with whitecap reflections under moonlit breeze",
+      "weight": 1.0
+    },
+    {
+      "text": "cobalt-trimmed olive press patio framed by cobalt door frames during pre-storm teal haze",
+      "weight": 1.0
+    },
+    {
+      "text": "sun-bleached laneway overlook with rope rail shadows under mirage heat shimmer",
+      "weight": 0.75
+    },
+    {
+      "text": "terrace-perched windmill deck framed by copper bells during cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright sunken plaza featuring linen awnings amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented moonlit colonnade featuring netted floats amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed terracotta stair with stone bench carve under lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "market-bright pebble harbor featuring rope-lashed posts amidst cerulean midday blaze",
+      "weight": 1.0
+    },
+    {
+      "text": "salt-kissed limestone breakwater with stone bench carve under mosaic-reflected sunrise",
+      "weight": 1.0
+    },
+    {
+      "text": "cliff-hugging clifftop amphitheater featuring chalky stucco texture amidst lantern-flecked midnight",
+      "weight": 1.0
+    },
+    {
+      "text": "sage-scented pebble harbor with netted floats under harbor light bloom",
+      "weight": 1.0
+    },
+    {
+      "text": "volcanic clifftop amphitheater with terracotta urn stacks under beacon sweep glow",
+      "weight": 0.7
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "woven leather gladiator cuffs with orchid laces",
+        "weight": 0.6
+      },
+      {
+        "text": "caramel amphora pendant on satin cord",
+        "weight": 0.6
+      },
+      {
+        "text": "electric-blue enamel worry beads on wrist",
+        "weight": 0.6
+      },
+      {
+        "text": "marble cabochon arm cuff",
+        "weight": 0.6
+      },
+      {
+        "text": "linen headwrap pinned with bronze disc",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "meltemi gust carving through draped fabric",
+        "weight": 0.6
+      },
+      {
+        "text": "salt spray halo scattering highlights",
+        "weight": 0.6
+      },
+      {
+        "text": "sun flare refracting from cobalt dome",
+        "weight": 0.6
+      },
+      {
+        "text": "goat bell jingle caught in background blur",
+        "weight": 0.6
+      },
+      {
+        "text": "sand eddies tracing ankles",
+        "weight": 0.6
+      }
+    ]
+  }
+}
