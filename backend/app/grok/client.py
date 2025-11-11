@@ -14,6 +14,7 @@ import hashlib
 import json
 import random
 import time
+from collections import deque
 from dataclasses import dataclass
 from decimal import Decimal
 from typing import Any
@@ -54,6 +55,20 @@ class GrokConfig:
 class GrokClient:
     """Refactored Grok API client for prompt generation."""
 
+    # Binding policy: which slots to bind and how many items per slot
+    BIND_POLICY = {
+        "scene": {"k": 1, "recent": 50},
+        "pose_microaction": {"k": 1, "recent": 50},
+        "lighting": {"k": 1, "recent": 50},
+        "camera": {"k": 1, "recent": 50},
+        "angle": {"k": 1, "recent": 50},
+        "twist": {"k": 1, "recent": 40},  # mandatory now
+        "accessories": {"k": 2, "recent": 50},  # already enforced before; keep it
+    }
+
+    # Slots that are inspiration-only (never bound)
+    INSPIRE_ONLY = {"wardrobe_top", "wardrobe_bottom"}
+
     def __init__(
         self,
         api_key: str,
@@ -79,6 +94,13 @@ class GrokClient:
             max_retries=self.config.max_retries,
             rps=self.config.rps,
         )
+
+        # Initialize recency tracking for all bound slots
+        if not hasattr(self, "_recent"):
+            self._recent = {
+                slot: deque(maxlen=cfg["recent"])
+                for slot, cfg in self.BIND_POLICY.items()
+            }
 
     @staticmethod
     def _weighted_sample_texts(bank: list, k: int, rng: random.Random) -> list[str]:
@@ -185,6 +207,39 @@ class GrokClient:
             return content
         except (KeyError, IndexError) as e:
             raise RuntimeError(f"Failed to extract content from Grok response: {e}") from e
+
+    def _has_phrase(self, text: str, phrase: str) -> bool:
+        """
+        Check if text contains a phrase (case-insensitive).
+
+        Args:
+            text: Text to search in
+            phrase: Phrase to search for
+
+        Returns:
+            True if phrase is present (case-insensitive)
+        """
+        return phrase.lower() in text.lower()
+
+    def _all_bound_present(
+        self, text: str, bound: dict[str, list[str]]
+    ) -> tuple[bool, list[tuple[str, str]]]:
+        """
+        Check if prompt text contains all bound phrases from all slots.
+
+        Args:
+            text: Prompt text to check
+            bound: Dict mapping slot name to list of bound phrases
+
+        Returns:
+            Tuple of (all_present: bool, missing: list of (slot, phrase) tuples)
+        """
+        misses = []
+        for slot, items in bound.items():
+            for phrase in items:
+                if not self._has_phrase(text, phrase):
+                    misses.append((slot, phrase))
+        return (len(misses) == 0, misses)
 
     def generate_variations(
         self,
@@ -396,53 +451,86 @@ Create music brief. Return JSON:
         negative_prompt = ", ".join(set(dont_list + negative_list))
 
         # Per-call RNG for varied sampling (includes timestamp for true randomness)
-        rng = random.Random()
-        rng.seed(hash(f"{setting}|{seed_words}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
+        seed_mix = f"{setting}:{time.time()}"
+        rng = random.Random(hashlib.sha256(seed_mix.encode("utf-8")).hexdigest())
 
-        # Weighted sample variety options for this generation
-        acc_panel = self._weighted_sample_texts(accessories, 8, rng)
+        # Sample variety panels
+        acc_panel = self._weighted_sample_texts(accessories, 12, rng)
         pose_panel = self._weighted_sample_texts(poses, 8, rng)
         light_panel = self._weighted_sample_texts(lighting, 8, rng)
-        cam_panel = self._weighted_sample_texts(camera, 6, rng)
+        cam_panel = self._weighted_sample_texts(camera, 8, rng)
         ang_panel = self._weighted_sample_texts(angles, 8, rng)
         top_panel = self._weighted_sample_texts(wardrobe_top, 8, rng)
         bot_panel = self._weighted_sample_texts(wardrobe_bottom, 8, rng)
-        twist_panel = self._weighted_sample_texts(twists, 6, rng)
-        scene_panel = self._weighted_sample_texts(scenes, 4, rng)
+        twist_panel = self._weighted_sample_texts(twists, 8, rng)
+        scene_panel = self._weighted_sample_texts(scenes, 6, rng)
 
-        # Build simplified system prompt with explicit character limit
+        # Helper to bind from panel while avoiding recent items
+        def _bind_from_panel(slot_name: str, panel: list[str], k: int) -> list[str]:
+            recent = set(self._recent[slot_name])
+            available = [t for t in panel if t not in recent] or panel
+            if k >= len(available):
+                chosen = available[:]
+                rng.shuffle(chosen)
+                return chosen[:k]
+            return self._weighted_sample_texts(available, k, rng)
+
+        # Bind all slots according to BIND_POLICY
+        bound = {
+            "accessories": _bind_from_panel("accessories", acc_panel, self.BIND_POLICY["accessories"]["k"]),
+            "pose_microaction": _bind_from_panel("pose_microaction", pose_panel, self.BIND_POLICY["pose_microaction"]["k"]),
+            "lighting": _bind_from_panel("lighting", light_panel, self.BIND_POLICY["lighting"]["k"]),
+            "camera": _bind_from_panel("camera", cam_panel, self.BIND_POLICY["camera"]["k"]),
+            "angle": _bind_from_panel("angle", ang_panel, self.BIND_POLICY["angle"]["k"]),
+            "twist": _bind_from_panel("twist", twist_panel, self.BIND_POLICY["twist"]["k"]) if twist_panel else ["subtle creative twist"],
+            "scene": _bind_from_panel("scene", scene_panel, self.BIND_POLICY["scene"]["k"]),
+        }
+
+        # Log bound phrases for auditing
+        log.info("BOUND", extra={"bound": {k: v for k, v in bound.items()}})
+
+        # Build system prompt with all bound phrases and exact requirements
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
+
+        # Format bound phrases for display
+        acc_str = f"`{bound['accessories'][0]}`, `{bound['accessories'][1]}`" if len(bound['accessories']) > 1 else f"`{bound['accessories'][0]}`"
+        twist_str = f"`{bound['twist'][0]}`" if bound['twist'] else "`subtle creative twist`"
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {setting}{seed_text}
 
 Each bundle has:
-1. Image prompt (900-1100 chars TARGET) - photorealistic glamour portrait
+1. Image prompt (900-1100 chars) - photorealistic glamour portrait
 2. Video prompt (6s motion + action)
 
-**CRITICAL CHARACTER COUNT REQUIREMENTS:**
-- Target: 900-1100 characters (including spaces)
-- Enforced minimum: 900 chars (our quality standard; prompts under 900 will be REJECTED)
-- Maximum: 1500 chars (Leonardo API hard limit)
-- Count carefully before submitting!
+**CRITICAL: Image prompt MUST be 900-1100 characters including spaces. Count carefully. Prompts exceeding 1500 chars will be rejected.**
 
 Character: {appearance}
 
-Variety banks:
-- Scenes (rotate/select): {', '.join(scene_panel)}...
-- Accessories (select 2-3): {', '.join(acc_panel)}
-- Poses (select/vary): {', '.join(pose_panel)}
-- Lighting (select): {', '.join(light_panel)}
-- Camera (select): {', '.join(cam_panel)} + angles: {', '.join(ang_panel)}
+Variety banks (for inspiration):
+- Scenes: {', '.join(scene_panel)}
+- Accessories: {', '.join(acc_panel)}
+- Poses: {', '.join(pose_panel)}
+- Lighting: {', '.join(light_panel)}
+- Camera: {', '.join(cam_panel)}
+- Angles: {', '.join(ang_panel)}
+- Twists: {', '.join(twist_panel) if twist_panel else 'creative variations'}
 
-**WARDROBE - INVENT NEW (examples for style inspiration only):**
-Tops: {', '.join(top_panel[:4])}
-Bottoms: {', '.join(bot_panel[:4])}
-**DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars). Avoid repeating fabric types from examples.**
+**MUST USE THESE EXACT PHRASES (copy-paste verbatim; do not paraphrase or replace):**
+- Scene: `{bound['scene'][0]}`
+- Pose microaction: `{bound['pose_microaction'][0]}`
+- Lighting: `{bound['lighting'][0]}`
+- Camera: `{bound['camera'][0]}`
+- Angle: `{bound['angle'][0]}`
+- Accessories (use both): {acc_str}
+- Twist: {twist_str}
 
-**TWIST (optional micro-events):** {', '.join(twist_panel)}
+**WARDROBE — INVENT NEW**
+- Tops (examples): {', '.join(top_panel[:4])}
+- Bottoms (examples): {', '.join(bot_panel[:4])}
+Do not reuse the examples; create a brand-new outfit (50–80 chars) with fabrics, fit, colors, details.
 
-Detailed template (aim for 900-1100 chars total):
-"photorealistic vertical 9:16 image of a 28-year-old woman with [full appearance: hair, eyes, body, skin - 60 chars], [shot type: 3/4 body/full body/thighs up] at [very specific {setting} location with architectural/environmental details - 80 chars]. Camera: [lens focal length + f-stop + specific angle - 20 chars]. Wardrobe: [INVENT unique outfit with fabric types, fit details, colors, style - 50-80 chars]. Accessories: [2-3 specific items with materials - 30 chars]. Pose: [detailed body mechanics + facial expression + hand placement - 60 chars]. Lighting: [specific lighting description with direction and quality - 50 chars]. Environment: [atmospheric details, textures, background elements - 70 chars]."
+Image template (aim for 900–1100 chars total):
+"photorealistic vertical 9:16 image of a 28-year-old woman with [appearance], [shot type] at [specific scene location]. Camera: [exact camera + angle]. Wardrobe: [NEW outfit with details]. Accessories: [both bound items]. Pose: [bound pose microaction + expression]. Lighting: [bound lighting]. Twist: [bound twist integrated naturally]. Environment: [scene details]."
 
 Return JSON array of {count} bundle(s):
 [{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}, "video_prompt": {{"motion": "...", "character_action": "...", "environment": "...", "duration_seconds": 6, "notes": "..."}}}}]"""
@@ -509,8 +597,122 @@ Return JSON array of {count} bundle(s):
                     else:
                         raise last_error  # Fail loud after max attempts
 
-                # All prompts within limits - success!
-                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all within 900-{self.config.max_prompt_chars} char range)")
+                # Character limits passed - now validate bound phrases
+                all_compliant = True
+                missing_details = []
+
+                for bundle_raw in bundles:
+                    prompt_text = bundle_raw["image_prompt"]["final_prompt"]
+                    bundle_id = bundle_raw["id"]
+                    compliant, misses = self._all_bound_present(prompt_text, bound)
+
+                    if not compliant:
+                        all_compliant = False
+                        missing_details.append((bundle_id, misses))
+                        miss_str = ", ".join([f"{slot}:{phrase}" for slot, phrase in misses])
+                        log.warning(
+                            "NONCOMPLIANT",
+                            extra={
+                                "bundle_id": bundle_id,
+                                "missing": misses,
+                                "attempt": attempt,
+                            },
+                        )
+
+                # If any bundle is non-compliant and we haven't retried yet, issue corrective retry
+                if not all_compliant and attempt == 1:
+                    log.info("GROK_BUNDLE issuing corrective retry for missing bound phrases")
+
+                    # Build corrective system prompt emphasizing the missing phrases
+                    missing_summary = []
+                    for bundle_id, misses in missing_details:
+                        miss_str = ", ".join([f"{slot}=`{phrase}`" for slot, phrase in misses])
+                        missing_summary.append(f"{bundle_id}: {miss_str}")
+
+                    corrective_note = (
+                        "\n\n**CORRECTION REQUIRED:** Previous output was missing these EXACT phrases. "
+                        f"You MUST include them verbatim:\n{chr(10).join(missing_summary)}\n"
+                        "Copy-paste the phrases exactly as shown in backticks. Do not paraphrase."
+                    )
+
+                    system_prompt_corrective = system_prompt + corrective_note
+
+                    # Retry with corrective prompt
+                    log.info("GROK_BUNDLE corrective attempt (2/3)...")
+                    content = self._call_api(system_prompt_corrective, user_prompt, temperature=0.9, max_tokens=4000)
+
+                    bundles_raw = extract_json(content)
+
+                    if not isinstance(bundles_raw, list) or len(bundles_raw) != count:
+                        raise ValueError(f"Expected {count} bundles on corrective retry, got {len(bundles_raw) if isinstance(bundles_raw, list) else 'non-array'}")
+
+                    # Re-validate bundles (both character limits and bound phrases)
+                    bundles = []
+                    invalid_prompts = []
+                    still_missing = []
+
+                    for bundle_raw in bundles_raw:
+                        prompt_text = bundle_raw["image_prompt"]["final_prompt"]
+                        bundle_id = self._generate_bundle_id(setting, prompt_text)
+                        bundle_raw["id"] = bundle_id
+
+                        validated = PromptBundle(**bundle_raw)
+
+                        # Check character limits
+                        prompt_len = len(validated.image_prompt.final_prompt)
+                        if prompt_len < min_chars:
+                            invalid_prompts.append((bundle_id, prompt_len, "too_short"))
+                        elif prompt_len > max_chars:
+                            invalid_prompts.append((bundle_id, prompt_len, "too_long"))
+
+                        # Check bound phrases
+                        compliant, misses = self._all_bound_present(prompt_text, bound)
+                        if not compliant:
+                            still_missing.append((bundle_id, misses))
+                            miss_str = ", ".join([f"{slot}:{phrase}" for slot, phrase in misses])
+                            log.warning(
+                                "STILL_NONCOMPLIANT",
+                                extra={
+                                    "bundle_id": bundle_id,
+                                    "missing": misses,
+                                },
+                            )
+                        else:
+                            log.info(
+                                "CORRECTED",
+                                extra={"bundle_id": bundle_id},
+                            )
+
+                        bundles.append(bundle_raw)
+
+                    # If character limits violated, reject and retry
+                    if invalid_prompts:
+                        error_details = ", ".join([f"{bid}:{length}({reason})" for bid, length, reason in invalid_prompts])
+                        last_error = RuntimeError(
+                            f"Character limit violation after corrective retry. "
+                            f"Invalid prompts: {error_details}."
+                        )
+                        log.info("GROK_BUNDLE retrying (attempt 3/3)...")
+                        continue  # Retry
+
+                    # Accept corrected bundles even if some phrases still missing (logged above)
+                    log.info(f"GROK_BUNDLE corrective attempt complete: {len(bundles)} bundles, {len(still_missing)} still non-compliant")
+
+                    # Update recency tracking for all bound slots
+                    for slot, items in bound.items():
+                        for phrase in items:
+                            self._recent[slot].append(phrase)
+
+                    return bundles
+
+                # All prompts compliant on first attempt - success!
+                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all within limits, all phrases present)")
+
+                # Update recency tracking for all bound slots
+                for slot, items in bound.items():
+                    for phrase in items:
+                        self._recent[slot].append(phrase)
+
                 return bundles
 
             except Exception as e:
