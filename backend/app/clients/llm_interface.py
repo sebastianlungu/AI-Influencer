@@ -18,6 +18,15 @@ class LLMClient(ABC):
         setting: str,
         seed_words: list[str] | None = None,
         count: int = 1,
+        bind_scene: bool = True,
+        bind_pose_microaction: bool = True,
+        bind_lighting: bool = True,
+        bind_camera: bool = True,
+        bind_angle: bool = True,
+        bind_twist: bool = True,
+        bind_accessories: bool = True,
+        bind_wardrobe: bool = False,
+        single_accessory: bool = True,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles (image + video + social).
 
@@ -25,6 +34,15 @@ class LLMClient(ABC):
             setting: High-level setting (e.g., "Japan", "Santorini")
             seed_words: Optional embellisher keywords
             count: Number of bundles to generate (1-10)
+            bind_scene: Bind scene from location JSON
+            bind_pose_microaction: Bind pose/micro-action
+            bind_lighting: Bind lighting
+            bind_camera: Bind camera
+            bind_angle: Bind angle
+            bind_twist: Bind twist (mandatory by default)
+            bind_accessories: Bind accessories
+            bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
+            single_accessory: If True, bind exactly 1 accessory; if False, bind 2
 
         Returns:
             List of bundle dicts with keys:
@@ -110,12 +128,30 @@ class GrokAdapter(LLMClient):
         setting: str,
         seed_words: list[str] | None = None,
         count: int = 1,
+        bind_scene: bool = True,
+        bind_pose_microaction: bool = True,
+        bind_lighting: bool = True,
+        bind_camera: bool = True,
+        bind_angle: bool = True,
+        bind_twist: bool = True,
+        bind_accessories: bool = True,
+        bind_wardrobe: bool = False,
+        single_accessory: bool = True,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles via Grok."""
         return self._client.generate_prompt_bundle(
             setting=setting,
             seed_words=seed_words,
             count=count,
+            bind_scene=bind_scene,
+            bind_pose_microaction=bind_pose_microaction,
+            bind_lighting=bind_lighting,
+            bind_camera=bind_camera,
+            bind_angle=bind_angle,
+            bind_twist=bind_twist,
+            bind_accessories=bind_accessories,
+            bind_wardrobe=bind_wardrobe,
+            single_accessory=single_accessory,
         )
 
     def suggest_motion(

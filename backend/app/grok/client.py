@@ -13,6 +13,7 @@ from __future__ import annotations
 import hashlib
 import json
 import random
+import re
 import time
 from dataclasses import dataclass
 from decimal import Decimal
@@ -26,6 +27,60 @@ from app.core.paths import get_data_path
 from .models import ImagePrompt, MusicBrief, MotionSpec, PromptBundle, VideoPrompt
 from .transport import XAITransport
 from .utils import estimate_cost, estimate_tokens, extract_json, redact
+
+
+# --- Accessory categorization for smart single-pick ---
+ACCESSORY_MAP = {
+    "face_head": r"(earring|ear[- ]?cuff|visor|headband|beret|hair stick|hairpin|kanzashi|glasses|sunglass|mask)",
+    "neck_chest": r"(necklace|choker|pendant|torque\b|foulard|scarf|collar)",
+    "waist_body": r"(\bbelt(?!\s*bag)\b|waist\s*chain|obi|harness|corset|waist pack)",
+    "arm_hand": r"(wrist|bracelet|watch|wrap|glove|lifting strap|arm[- ]?band)",
+    "leg_ankle": r"(anklet|calf sleeve|thigh holster|crampon|stirrup)",
+    "bag": r"(belt bag|waist pack|micro-?satchel|purse|backpack)",
+}
+
+# Binding policy for recency tracking
+BIND_POLICY = {
+    "scene": {"k": 1, "recent": 50},
+    "pose_microaction": {"k": 1, "recent": 50},
+    "lighting": {"k": 1, "recent": 40},
+    "camera": {"k": 1, "recent": 40},
+    "angle": {"k": 1, "recent": 40},
+    "twist": {"k": 1, "recent": 50},
+    "accessories": {"k": 1, "recent": 50},
+}
+
+
+def _acc_category(text: str) -> str:
+    """Categorize accessory by body location."""
+    t = text.lower()
+    for cat, rx in ACCESSORY_MAP.items():
+        if re.search(rx, t):
+            return cat
+    return "other"
+
+
+def _one_accessory_from_panel(acc_panel: list[str], pose_text: str) -> str:
+    """
+    Smart single accessory selection.
+    Prefers non-arm categories; deprioritizes arm/hand if pose involves hands/wrists.
+    """
+    if not acc_panel:
+        return ""
+
+    prefer = ["face_head", "neck_chest", "waist_body", "bag", "leg_ankle", "other", "arm_hand"]
+
+    # If pose involves hands/wrists, further deprioritize arm_hand
+    if any(w in pose_text.lower() for w in ["wrist", "hand", "wrap", "glove", "fingers"]):
+        prefer = ["face_head", "neck_chest", "waist_body", "bag", "leg_ankle", "other", "arm_hand"]
+
+    # Categorize all accessories
+    cats = {a: _acc_category(a) for a in acc_panel}
+
+    # Sort by preference order
+    ranked = sorted(acc_panel, key=lambda a: prefer.index(cats[a]))
+
+    return ranked[0] if ranked else acc_panel[0]
 
 
 @dataclass(frozen=True)
@@ -122,6 +177,74 @@ class GrokClient:
             t, _ = pool.pop(idx)
             out.append(t)
         return out
+
+    @staticmethod
+    def _load_recent_prompts(limit: int = 100) -> list[dict[str, Any]]:
+        """Load recent prompt bundles from JSONL storage."""
+        try:
+            prompts_path = get_data_path("prompts/prompts.jsonl")
+            if not prompts_path.exists():
+                return []
+
+            recent = []
+            with open(prompts_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.strip():
+                        recent.append(json.loads(line))
+
+            # Return most recent first
+            return recent[-limit:] if len(recent) > limit else recent
+
+        except Exception as e:
+            log.warning(f"Failed to load recent prompts: {e}")
+            return []
+
+    def _bind_from_panel(
+        self,
+        slot_name: str,
+        panel: list[str],
+        bind_policy: dict[str, dict[str, int]],
+        rng: random.Random,
+    ) -> list[str]:
+        """
+        Bind k items from panel, avoiding recent use.
+
+        Args:
+            slot_name: Slot name (e.g., "scene", "pose_microaction")
+            panel: Available items for this slot
+            bind_policy: Binding configuration
+            rng: Random number generator
+
+        Returns:
+            List of k bound items
+        """
+        if slot_name not in bind_policy or not panel:
+            return []
+
+        k = bind_policy[slot_name]["k"]
+        recent_window = bind_policy[slot_name]["recent"]
+
+        # Load recent prompts
+        recent_bundles = self._load_recent_prompts(recent_window)
+
+        # Extract recently used items for this slot
+        recently_used = set()
+        for bundle in recent_bundles:
+            # Check image prompt for slot content
+            img_prompt = bundle.get("image_prompt", {}).get("final_prompt", "")
+            for item in panel:
+                if item.lower() in img_prompt.lower():
+                    recently_used.add(item)
+
+        # Filter out recently used items
+        available = [item for item in panel if item not in recently_used]
+
+        # If not enough available, fall back to full panel
+        if len(available) < k:
+            available = panel
+
+        # Sample k items
+        return self._weighted_sample_texts(available, k, rng)
 
     def _call_api(
         self,
@@ -351,6 +474,15 @@ Create music brief. Return JSON:
         setting: str,
         seed_words: list[str] | None = None,
         count: int = 1,
+        bind_scene: bool = True,
+        bind_pose_microaction: bool = True,
+        bind_lighting: bool = True,
+        bind_camera: bool = True,
+        bind_angle: bool = True,
+        bind_twist: bool = True,
+        bind_accessories: bool = True,
+        bind_wardrobe: bool = False,
+        single_accessory: bool = True,
     ) -> list[dict[str, Any]]:
         """
         Generate prompt bundles (image + video) for manual workflow.
@@ -359,11 +491,25 @@ Create music brief. Return JSON:
             setting: High-level setting (e.g., "Japan", "Santorini")
             seed_words: Optional embellisher keywords
             count: Number of bundles to generate (1-10)
+            bind_scene: Bind scene from location JSON
+            bind_pose_microaction: Bind pose/micro-action
+            bind_lighting: Bind lighting
+            bind_camera: Bind camera
+            bind_angle: Bind angle
+            bind_twist: Bind twist (mandatory by default)
+            bind_accessories: Bind accessories
+            bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
+            single_accessory: If True, bind exactly 1 accessory; if False, bind 2
 
         Returns:
             List of bundle dicts (backwards compatible format)
         """
-        log.info(f"GROK_BUNDLE setting={setting} seed_words={seed_words} count={count}")
+        log.info(
+            f"GROK_BUNDLE setting={setting} seed_words={seed_words} count={count} "
+            f"bind_scene={bind_scene} bind_pose={bind_pose_microaction} bind_lighting={bind_lighting} "
+            f"bind_camera={bind_camera} bind_angle={bind_angle} bind_twist={bind_twist} "
+            f"bind_accessories={bind_accessories} bind_wardrobe={bind_wardrobe} single_accessory={single_accessory}"
+        )
 
         # Load persona and variety bank
         try:
@@ -375,6 +521,24 @@ Create music brief. Return JSON:
                 variety_bank = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError) as e:
             raise RuntimeError(f"Failed to load config files: {e}") from e
+
+        # Load scenes from location-specific JSON
+        location_key = setting.lower().replace(" ", "_").replace("-", "_")
+        location_path = get_data_path(f"locations/{location_key}.json")
+        scenes = []
+
+        if location_path.exists():
+            try:
+                with open(location_path, "r", encoding="utf-8") as f:
+                    location_data = json.load(f)
+                    scenes = location_data.get("scenes", [])
+                    log.info(f"GROK_BUNDLE loaded {len(scenes)} scenes from {location_key}.json")
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                log.warning(f"Failed to load location file {location_key}.json: {e}, falling back to variety bank")
+                scenes = variety_bank.get("scene", [])
+        else:
+            log.warning(f"Location file {location_key}.json not found, using variety bank scenes")
+            scenes = variety_bank.get("scene", [])
 
         # Build appearance
         appearance = self._build_appearance(persona)
@@ -399,50 +563,169 @@ Create music brief. Return JSON:
         rng = random.Random()
         rng.seed(hash(f"{setting}|{seed_words}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
 
-        # Weighted sample variety options for this generation
-        acc_panel = self._weighted_sample_texts(accessories, 8, rng)
-        pose_panel = self._weighted_sample_texts(poses, 8, rng)
-        light_panel = self._weighted_sample_texts(lighting, 8, rng)
-        cam_panel = self._weighted_sample_texts(camera, 6, rng)
-        ang_panel = self._weighted_sample_texts(angles, 8, rng)
-        top_panel = self._weighted_sample_texts(wardrobe_top, 8, rng)
-        bot_panel = self._weighted_sample_texts(wardrobe_bottom, 8, rng)
-        twist_panel = self._weighted_sample_texts(twists, 6, rng)
-        scene_panel = self._weighted_sample_texts(scenes, 4, rng)
+        # Setup binding policy based on UI flags
+        bind_policy = {}
+        if bind_scene:
+            bind_policy["scene"] = {"k": 1, "recent": 50}
+        if bind_pose_microaction:
+            bind_policy["pose_microaction"] = {"k": 1, "recent": 50}
+        if bind_lighting:
+            bind_policy["lighting"] = {"k": 1, "recent": 40}
+        if bind_camera:
+            bind_policy["camera"] = {"k": 1, "recent": 40}
+        if bind_angle:
+            bind_policy["angle"] = {"k": 1, "recent": 40}
+        if bind_twist:
+            bind_policy["twist"] = {"k": 1, "recent": 50}
+        if bind_accessories:
+            # Respect single_accessory flag
+            bind_policy["accessories"] = {"k": 1 if single_accessory else 2, "recent": 50}
+        if bind_wardrobe:
+            bind_policy["wardrobe_top"] = {"k": 1, "recent": 50}
+            bind_policy["wardrobe_bottom"] = {"k": 1, "recent": 50}
 
-        # Build simplified system prompt with explicit character limit
+        # Create panels (larger for diversity)
+        acc_panel = self._weighted_sample_texts(accessories, 15, rng)
+        pose_panel = self._weighted_sample_texts(poses, 15, rng)
+        light_panel = self._weighted_sample_texts(lighting, 12, rng)
+        cam_panel = self._weighted_sample_texts(camera, 10, rng)
+        ang_panel = self._weighted_sample_texts(angles, 12, rng)
+        top_panel = self._weighted_sample_texts(wardrobe_top, 12, rng)
+        bot_panel = self._weighted_sample_texts(wardrobe_bottom, 12, rng)
+        twist_panel = self._weighted_sample_texts(twists, 12, rng)
+        scene_panel = self._weighted_sample_texts(scenes, 10, rng)
+
+        # Bind slots according to policy
+        bound = {}
+        bound["scene"] = self._bind_from_panel("scene", scene_panel, bind_policy, rng) if bind_scene else []
+        bound["pose_microaction"] = self._bind_from_panel("pose_microaction", pose_panel, bind_policy, rng) if bind_pose_microaction else []
+        bound["lighting"] = self._bind_from_panel("lighting", light_panel, bind_policy, rng) if bind_lighting else []
+        bound["camera"] = self._bind_from_panel("camera", cam_panel, bind_policy, rng) if bind_camera else []
+        bound["angle"] = self._bind_from_panel("angle", ang_panel, bind_policy, rng) if bind_angle else []
+        bound["twist"] = self._bind_from_panel("twist", twist_panel, bind_policy, rng) if bind_twist else []
+
+        # Accessory binding with smart selection
+        if bind_accessories:
+            pose_text = bound["pose_microaction"][0] if bound.get("pose_microaction") else ""
+            if single_accessory:
+                # Smart single accessory selection (avoid arm accessories if pose is hands-busy)
+                chosen_acc = _one_accessory_from_panel(acc_panel, pose_text)
+                bound["accessories"] = [chosen_acc] if chosen_acc else []
+            else:
+                # Legacy: bind 2 accessories
+                bound["accessories"] = self._bind_from_panel("accessories", acc_panel, bind_policy, rng)
+        else:
+            bound["accessories"] = []
+
+        # Wardrobe binding (only if requested)
+        if bind_wardrobe:
+            bound["wardrobe_top"] = self._bind_from_panel("wardrobe_top", top_panel, bind_policy, rng)
+            bound["wardrobe_bottom"] = self._bind_from_panel("wardrobe_bottom", bot_panel, bind_policy, rng)
+        else:
+            bound["wardrobe_top"] = []
+            bound["wardrobe_bottom"] = []
+
+        # Build system prompt with binding constraints
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
+
+        # Build BOUND CONSTRAINTS section dynamically
+        bound_constraints = []
+        if bind_scene and bound.get("scene"):
+            bound_constraints.append(f"Scene: `<scene>[{bound['scene'][0]}]`")
+        if bind_pose_microaction and bound.get("pose_microaction"):
+            bound_constraints.append(f"Pose (must include this bound micro-action): `<pose_microaction>[{bound['pose_microaction'][0]}]`")
+        if bind_twist and bound.get("twist"):
+            bound_constraints.append(f"Twist (must include this bound twist): `<twist>[{bound['twist'][0]}]`")
+        if bind_lighting and bound.get("lighting"):
+            bound_constraints.append(f"Lighting: `<lighting>[{bound['lighting'][0]}]`")
+        if bind_camera and bound.get("camera"):
+            bound_constraints.append(f"Camera: `<camera>[{bound['camera'][0]}]`")
+        if bind_angle and bound.get("angle"):
+            bound_constraints.append(f"Angle: `<angle>[{bound['angle'][0]}]`")
+
+        # Accessory section
+        if bind_accessories and bound.get("accessories"):
+            if single_accessory:
+                accessories_section = f"""**ACCESSORIES:**
+Use **exactly ONE** of the bound items below. Do NOT add or replace.
+BOUND ACCESSORY: `<accessories>[{bound['accessories'][0]}]`"""
+            else:
+                accessories_section = f"""**ACCESSORIES:**
+Use **exactly THESE TWO** bound items. Do NOT add or replace.
+BOUND ACCESSORIES: `<accessories>[{', '.join(bound['accessories'])}]`"""
+        else:
+            accessories_section = f"""**ACCESSORIES (INSPIRE ONLY):**
+Select 1-2 accessories from: {', '.join(acc_panel[:8])}"""
+
+        # Wardrobe section
+        if bind_wardrobe and bound.get("wardrobe_top") and bound.get("wardrobe_bottom"):
+            wardrobe_section = f"""**WARDROBE (BOUND):**
+Use both exact phrases below; do not add substitutes.
+- BOUND TOP: `<wardrobe_top>[{bound['wardrobe_top'][0]}]`
+- BOUND BOTTOM: `<wardrobe_bottom>[{bound['wardrobe_bottom'][0]}]`"""
+        else:
+            wardrobe_section = f"""**WARDROBE (INVENT NEW):**
+50-70 chars, max 2 fabrics, no repeating panel fabrics.
+Examples (DO NOT REUSE): {', '.join(top_panel[:3])}, {', '.join(bot_panel[:3])}"""
+
+        # Build inspiration panels for unbound slots
+        inspiration_panels = []
+        if not bind_scene:
+            inspiration_panels.append(f"Scenes (select/vary): {', '.join(scene_panel[:6])}")
+        if not bind_pose_microaction:
+            inspiration_panels.append(f"Poses (select/vary): {', '.join(pose_panel[:6])}")
+        if not bind_lighting:
+            inspiration_panels.append(f"Lighting (select): {', '.join(light_panel[:6])}")
+        if not bind_camera:
+            inspiration_panels.append(f"Camera (select): {', '.join(cam_panel[:5])}")
+        if not bind_angle:
+            inspiration_panels.append(f"Angles (select): {', '.join(ang_panel[:6])}")
+        if not bind_twist:
+            inspiration_panels.append(f"Twists (optional): {', '.join(twist_panel[:6])}")
+
+        # Build the prompt sections
+        bound_section = ""
+        if bound_constraints:
+            bound_section = f"""**BOUND CONSTRAINTS (must use exact phrases):**
+{chr(10).join(bound_constraints)}
+
+"""
+
+        inspiration_section = ""
+        if inspiration_panels:
+            inspiration_section = f"""**VARIETY BANKS (inspiration for unbound slots):**
+{chr(10).join(inspiration_panels)}
+
+"""
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {setting}{seed_text}
 
 Each bundle has:
-1. Image prompt (900-1100 chars TARGET) - photorealistic glamour portrait
-2. Video prompt (6s motion + action)
+1. **IMAGE** prompt (800-1050 chars TARGET) - photorealistic glamour portrait
+2. **VIDEO** prompt (< 160 chars, 3-part format)
 
 **CRITICAL CHARACTER COUNT REQUIREMENTS:**
-- Target: 900-1100 characters (including spaces)
-- Enforced minimum: 900 chars (our quality standard; prompts under 900 will be REJECTED)
+- Target: 800-1050 characters (including spaces)
+- Enforced minimum: 800 chars
 - Maximum: 1500 chars (Leonardo API hard limit)
 - Count carefully before submitting!
 
-Character: {appearance}
+**CHARACTER:** {appearance}
 
-Variety banks:
-- Scenes (rotate/select): {', '.join(scene_panel)}...
-- Accessories (select 2-3): {', '.join(acc_panel)}
-- Poses (select/vary): {', '.join(pose_panel)}
-- Lighting (select): {', '.join(light_panel)}
-- Camera (select): {', '.join(cam_panel)} + angles: {', '.join(ang_panel)}
+{bound_section}{inspiration_section}{accessories_section}
 
-**WARDROBE - INVENT NEW (examples for style inspiration only):**
-Tops: {', '.join(top_panel[:4])}
-Bottoms: {', '.join(bot_panel[:4])}
-**DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars). Avoid repeating fabric types from examples.**
+{wardrobe_section}
 
-**TWIST (optional micro-events):** {', '.join(twist_panel)}
+**IMAGE STRUCTURE (aim for 800-1050 chars total):**
+Sections (ordered): Character, Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Twist (if bound), Environment.
+Use concise wording; avoid repeating location/ambience phrases.
 
-Detailed template (aim for 900-1100 chars total):
-"photorealistic vertical 9:16 image of a 28-year-old woman with [full appearance: hair, eyes, body, skin - 60 chars], [shot type: 3/4 body/full body/thighs up] at [very specific {setting} location with architectural/environmental details - 80 chars]. Camera: [lens focal length + f-stop + specific angle - 20 chars]. Wardrobe: [INVENT unique outfit with fabric types, fit details, colors, style - 50-80 chars]. Accessories: [2-3 specific items with materials - 30 chars]. Pose: [detailed body mechanics + facial expression + hand placement - 60 chars]. Lighting: [specific lighting description with direction and quality - 50 chars]. Environment: [atmospheric details, textures, background elements - 70 chars]."
+**VIDEO (6s, keep < 160 chars total):**
+Format: "[camera move]; [character micro-action]; [environment cue]."
+Examples:
+- "Dolly push; over-shoulder hair flip; lantern mist drifting."
+- "Slider creep; slow inhale, chin lift; rain beads catching neon."
+One sentence, plain English, no lenses/f-stops/rigs.
 
 Return JSON array of {count} bundle(s):
 [{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}, "video_prompt": {{"motion": "...", "character_action": "...", "environment": "...", "duration_seconds": 6, "notes": "..."}}}}]"""
@@ -464,7 +747,8 @@ Return JSON array of {count} bundle(s):
 
                 # Validate and generate IDs
                 bundles = []
-                invalid_prompts = []  # Track both over-limit AND under-limit
+                invalid_prompts = []  # Track character limit violations
+                validation_errors = []  # Track binding/format violations
 
                 for bundle_raw in bundles_raw:
                     # Generate deterministic ID
@@ -477,7 +761,7 @@ Return JSON array of {count} bundle(s):
 
                     # Enforce character limits (fail-loud policy)
                     prompt_len = len(validated.image_prompt.final_prompt)
-                    min_chars = 900  # Target minimum
+                    min_chars = 800  # Target minimum (updated to 800)
                     max_chars = self.config.max_prompt_chars  # 1500 hard limit
 
                     if prompt_len < min_chars:
@@ -493,24 +777,53 @@ Return JSON array of {count} bundle(s):
                             f"(max {max_chars}) attempt={attempt}/{max_attempts}"
                         )
 
+                    # Validate binding constraints (pass all bind flags)
+                    is_valid, errors = self._validate_bundle(
+                        bundle_raw, bound,
+                        bind_scene, bind_pose_microaction, bind_lighting,
+                        bind_camera, bind_angle, bind_twist,
+                        bind_accessories, bind_wardrobe
+                    )
+                    if not is_valid:
+                        validation_errors.append((bundle_id, errors))
+                        log.warning(
+                            f"GROK_BUNDLE validation failed: bundle_id={bundle_id} "
+                            f"errors={errors} attempt={attempt}/{max_attempts}"
+                        )
+
                     bundles.append(bundle_raw)  # Keep building bundles for validation
 
-                # If ANY prompt violates limits, reject entire batch and retry
-                if invalid_prompts:
-                    error_details = ", ".join([f"{bid}:{length}({reason})" for bid, length, reason in invalid_prompts])
+                # If ANY prompt violates limits or constraints, reject entire batch and retry
+                if invalid_prompts or validation_errors:
+                    error_parts = []
+
+                    if invalid_prompts:
+                        char_errors = ", ".join([f"{bid}:{length}({reason})" for bid, length, reason in invalid_prompts])
+                        error_parts.append(f"Character violations: {char_errors}")
+
+                    if validation_errors:
+                        bind_errors = "; ".join([f"{bid}: {', '.join(errs)}" for bid, errs in validation_errors])
+                        error_parts.append(f"Binding violations: {bind_errors}")
+
+                    error_message = " | ".join(error_parts)
+
                     last_error = RuntimeError(
-                        f"Character limit violation on attempt {attempt}/{max_attempts}. "
-                        f"Invalid prompts: {error_details}. "
-                        f"Required: 900-1500 chars (enforced minimum: 900, Leonardo API max: 1500)."
+                        f"Validation failed on attempt {attempt}/{max_attempts}. {error_message}"
                     )
+
                     if attempt < max_attempts:
                         log.info(f"GROK_BUNDLE retrying (attempt {attempt + 1}/{max_attempts})...")
                         continue  # Retry
                     else:
-                        raise last_error  # Fail loud after max attempts
+                        # Fail-soft: log as STILL_NONCOMPLIANT and return bundles
+                        log.error(f"STILL_NONCOMPLIANT after {max_attempts} attempts: {error_message}")
+                        # Return bundles anyway but with warning
+                        for bundle in bundles:
+                            bundle["_validation_warning"] = "STILL_NONCOMPLIANT"
+                        return bundles
 
-                # All prompts within limits - success!
-                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all within 900-{self.config.max_prompt_chars} char range)")
+                # All prompts valid - success!
+                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all valid)")
                 return bundles
 
             except Exception as e:
@@ -602,6 +915,91 @@ Create metadata. Return JSON:
         content = f"{setting}:{prompt[:200]}"
         hash_hex = hashlib.sha256(content.encode("utf-8")).hexdigest()
         return f"pr_{hash_hex[:12]}"
+
+    def _validate_bundle(
+        self,
+        bundle: dict[str, Any],
+        bound: dict[str, list[str]],
+        bind_scene: bool,
+        bind_pose_microaction: bool,
+        bind_lighting: bool,
+        bind_camera: bool,
+        bind_angle: bool,
+        bind_twist: bool,
+        bind_accessories: bool,
+        bind_wardrobe: bool,
+    ) -> tuple[bool, list[str]]:
+        """
+        Validate bundle against binding constraints.
+
+        Returns:
+            (is_valid, list_of_errors)
+        """
+        errors = []
+        img_prompt = bundle.get("image_prompt", {}).get("final_prompt", "").lower()
+        video_prompt = bundle.get("video_prompt", {})
+
+        # Build full video string for validation
+        video_full = f"{video_prompt.get('motion', '')} {video_prompt.get('character_action', '')} {video_prompt.get('environment', '')}"
+
+        # Check bound slots (case-insensitive) - only for enabled bindings
+        if bind_scene and bound.get("scene"):
+            bound_text = bound["scene"][0].lower()
+            if bound_text and bound_text not in img_prompt:
+                errors.append(f"Missing bound scene: '{bound['scene'][0]}'")
+
+        if bind_pose_microaction and bound.get("pose_microaction"):
+            bound_text = bound["pose_microaction"][0].lower()
+            if bound_text and bound_text not in img_prompt:
+                errors.append(f"Missing bound pose: '{bound['pose_microaction'][0]}'")
+
+        if bind_lighting and bound.get("lighting"):
+            bound_text = bound["lighting"][0].lower()
+            if bound_text and bound_text not in img_prompt:
+                errors.append(f"Missing bound lighting: '{bound['lighting'][0]}'")
+
+        if bind_camera and bound.get("camera"):
+            bound_text = bound["camera"][0].lower()
+            if bound_text and bound_text not in img_prompt:
+                errors.append(f"Missing bound camera: '{bound['camera'][0]}'")
+
+        if bind_angle and bound.get("angle"):
+            bound_text = bound["angle"][0].lower()
+            if bound_text and bound_text not in img_prompt:
+                errors.append(f"Missing bound angle: '{bound['angle'][0]}'")
+
+        if bind_twist and bound.get("twist"):
+            bound_text = bound["twist"][0].lower()
+            if bound_text and bound_text not in img_prompt:
+                errors.append(f"Missing bound twist: '{bound['twist'][0]}'")
+
+        if bind_accessories and bound.get("accessories"):
+            for acc in bound["accessories"]:
+                bound_text = acc.lower()
+                if bound_text and bound_text not in img_prompt:
+                    errors.append(f"Missing bound accessory: '{acc}'")
+
+        if bind_wardrobe:
+            if bound.get("wardrobe_top"):
+                bound_text = bound["wardrobe_top"][0].lower()
+                if bound_text and bound_text not in img_prompt:
+                    errors.append(f"Missing bound wardrobe_top: '{bound['wardrobe_top'][0]}'")
+            if bound.get("wardrobe_bottom"):
+                bound_text = bound["wardrobe_bottom"][0].lower()
+                if bound_text and bound_text not in img_prompt:
+                    errors.append(f"Missing bound wardrobe_bottom: '{bound['wardrobe_bottom'][0]}'")
+
+        # Check VIDEO format and length
+        video_len = len(video_full)
+        if video_len > 160:
+            errors.append(f"VIDEO too long: {video_len} chars (max 160)")
+
+        # Check VIDEO has 2 semicolons (3-part format)
+        semicolon_count = video_full.count(";")
+        if semicolon_count != 2:
+            errors.append(f"VIDEO must have exactly 2 semicolons (found {semicolon_count})")
+
+        return (len(errors) == 0, errors)
 
     def close(self) -> None:
         """Close transport session."""

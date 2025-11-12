@@ -33,6 +33,18 @@ class PromptBundleRequest(BaseModel):
     seed_words: list[str] | None = None  # Optional embellisher keywords
     count: int = 1  # Number of bundles to generate (1-10)
 
+    # Per-slot binding toggles
+    bind_scene: bool = True
+    bind_pose_microaction: bool = True
+    bind_lighting: bool = True
+    bind_camera: bool = True
+    bind_angle: bool = True
+    bind_twist: bool = True  # Mandatory by default
+    bind_accessories: bool = True
+    bind_wardrobe: bool = False  # Inspire-only by default
+
+    single_accessory: bool = True  # If True, bind exactly 1 accessory; if False, bind 2
+
 
 @router.post("/prompts/bundle")
 @limiter.limit("10/minute")
@@ -94,7 +106,16 @@ async def generate_prompt_bundle(request: Request) -> dict:
         bundles = llm.generate_prompt_bundle(
             setting=body.setting,
             seed_words=body.seed_words,
-            count=body.count
+            count=body.count,
+            bind_scene=body.bind_scene,
+            bind_pose_microaction=body.bind_pose_microaction,
+            bind_lighting=body.bind_lighting,
+            bind_camera=body.bind_camera,
+            bind_angle=body.bind_angle,
+            bind_twist=body.bind_twist,
+            bind_accessories=body.bind_accessories,
+            bind_wardrobe=body.bind_wardrobe,
+            single_accessory=body.single_accessory,
         )
 
         # Store each bundle to prompts.jsonl
