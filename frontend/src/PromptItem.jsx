@@ -21,6 +21,8 @@ export default function PromptItem({ item, active, onClick }) {
     }
   };
 
+  const isUsed = item.used || false;
+
   return (
     <li
       onClick={onClick}
@@ -31,9 +33,21 @@ export default function PromptItem({ item, active, onClick }) {
       }`}
     >
       <div className="flex items-center justify-between mb-1">
-        <span className="text-xs font-mono text-zinc-600">
-          {item.id.slice(0, 10)}...
-        </span>
+        <div className="flex items-center gap-1.5">
+          <span className="text-xs font-mono text-zinc-600">
+            {item.id.slice(0, 10)}...
+          </span>
+          {/* Used/Unused badge */}
+          <span
+            className={`text-[9px] px-1.5 py-0.5 rounded font-medium ${
+              isUsed
+                ? "bg-blue-100 text-blue-700"
+                : "bg-gray-100 text-gray-600"
+            }`}
+          >
+            {isUsed ? "Used" : "Unused"}
+          </span>
+        </div>
         <span className="text-[11px] text-zinc-500">
           {formatDate(item.timestamp)}
         </span>

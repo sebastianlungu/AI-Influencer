@@ -36,6 +36,10 @@ export default function PromptLab() {
   const [bundles, setBundles] = useState([]);
   const [activeId, setActiveId] = useState(null);
 
+  // Filtering state
+  const [promptSearchQuery, setPromptSearchQuery] = useState("");
+  const [usageFilter, setUsageFilter] = useState("all"); // "all" | "used" | "unused"
+
   // Load locations and recent prompts on mount
   useEffect(() => {
     loadLocations();
@@ -169,6 +173,32 @@ export default function PromptLab() {
     } finally {
       setLoading(false);
     }
+  };
+
+  // Filter bundles based on search query and usage filter
+  const getFilteredBundles = () => {
+    return bundles.filter((bundle) => {
+      // Usage filter
+      if (usageFilter === "used" && !bundle.used) return false;
+      if (usageFilter === "unused" && bundle.used) return false;
+
+      // Search filter
+      if (promptSearchQuery) {
+        const q = promptSearchQuery.toLowerCase();
+        const matchesId = bundle.id?.toLowerCase().includes(q);
+        const matchesSetting = bundle.setting?.toLowerCase().includes(q);
+        const matchesSeedWords = bundle.seed_words?.some((w) =>
+          w.toLowerCase().includes(q)
+        );
+        const matchesPreview = bundle.preview?.toLowerCase().includes(q);
+
+        if (!matchesId && !matchesSetting && !matchesSeedWords && !matchesPreview) {
+          return false;
+        }
+      }
+
+      return true;
+    });
   };
 
   return (
@@ -383,24 +413,75 @@ export default function PromptLab() {
         <section className="lg:col-span-8 grid grid-cols-12 gap-3">
           {/* Master List (left side of right column) */}
           <aside className="col-span-12 lg:col-span-5 rounded-lg border border-zinc-200 bg-white p-2 h-[75vh] flex flex-col">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-xs font-semibold text-gray-900">
-                Recent Prompts ({bundles.length})
-              </h3>
-              <button
-                onClick={loadRecentPrompts}
-                className="text-[11px] text-blue-600 hover:underline"
-              >
-                Refresh
-              </button>
+            <div className="mb-2">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="text-xs font-semibold text-gray-900">
+                  Recent Prompts ({bundles.length})
+                </h3>
+                <button
+                  onClick={loadRecentPrompts}
+                  className="text-[11px] text-blue-600 hover:underline"
+                >
+                  Refresh
+                </button>
+              </div>
+
+              {/* Search box */}
+              <input
+                type="text"
+                value={promptSearchQuery}
+                onChange={(e) => setPromptSearchQuery(e.target.value)}
+                placeholder="Search prompts..."
+                className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 focus:border-blue-500 mb-2"
+              />
+
+              {/* Filter pills */}
+              <div className="flex gap-1">
+                <button
+                  onClick={() => setUsageFilter("all")}
+                  className={`px-2 py-0.5 text-[10px] font-medium rounded border ${
+                    usageFilter === "all"
+                      ? "bg-blue-100 border-blue-300 text-blue-700"
+                      : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                  }`}
+                >
+                  All
+                </button>
+                <button
+                  onClick={() => setUsageFilter("used")}
+                  className={`px-2 py-0.5 text-[10px] font-medium rounded border ${
+                    usageFilter === "used"
+                      ? "bg-blue-100 border-blue-300 text-blue-700"
+                      : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                  }`}
+                >
+                  Used
+                </button>
+                <button
+                  onClick={() => setUsageFilter("unused")}
+                  className={`px-2 py-0.5 text-[10px] font-medium rounded border ${
+                    usageFilter === "unused"
+                      ? "bg-blue-100 border-blue-300 text-blue-700"
+                      : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                  }`}
+                >
+                  Unused
+                </button>
+              </div>
             </div>
+
             <ul className="space-y-1 overflow-auto flex-1">
+              {getFilteredBundles().length === 0 && bundles.length > 0 && (
+                <li className="text-xs text-zinc-500 text-center py-8">
+                  No prompts match your filters
+                </li>
+              )}
               {bundles.length === 0 && (
                 <li className="text-xs text-zinc-500 text-center py-8">
                   No prompts generated yet
                 </li>
               )}
-              {bundles.map((bundle) => (
+              {getFilteredBundles().map((bundle) => (
                 <PromptItem
                   key={bundle.id}
                   item={bundle}
