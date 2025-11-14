@@ -1,0 +1,124 @@
+{
+  "destinations": [
+    {
+      "slug": "sf_embarcadero_fidi",
+      "name": "San Francisco – Embarcadero/FiDi",
+      "file": "app\\data\\locations_us\\ca\\us_ca_sf_embarcadero_fidi.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared bayside walkway featuring trail signage amidst blue-hour hush",
+        "neon-washed embarcadero rail framed by scaffolding tubes during overcast noon clarity",
+        "pre-dawn pier deck edge alongside string lights beneath desert wind bands"
+      ]
+    },
+    {
+      "slug": "sf_mission_valencia",
+      "name": "San Francisco – Mission/Valencia",
+      "file": "app\\data\\locations_us\\ca\\us_ca_sf_mission_valencia.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "slate-washed taqueria awning framed by newspaper boxes during humid midnight pulse",
+        "winter-mist painted garage door alongside steam vents beneath ocean spray shimmer",
+        "ocean-spray corner bodega front beside scaffolding tubes through humid midnight pulse"
+      ]
+    },
+    {
+      "slug": "la_arts_district",
+      "name": "Los Angeles – Arts District",
+      "file": "app\\data\\locations_us\\ca\\us_ca_la_arts_district.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "winter-mist shipping container installation featuring wooden pier posts amidst copper drizzle",
+        "fog-swept street art plaza alongside bike racks beneath sparkling midnight rain",
+        "cobble-wet converted factory courtyard featuring umbrella canopies amidst sparkling midnight rain"
+      ]
+    },
+    {
+      "slug": "la_venice_boardwalk",
+      "name": "Los Angeles – Venice Boardwalk",
+      "file": "app\\data\\locations_us\\ca\\us_ca_la_venice_boardwalk.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "river-breeze beach volleyball court edge alongside delivery carts beneath blue-hour hush",
+        "humid-midnight sand-dusted pathway alongside awning stripes beneath overcast noon clarity",
+        "cobble-wet palm-lined walkway with steam vents under winter evening glow"
+      ]
+    },
+    {
+      "slug": "la_griffith_los_feliz",
+      "name": "Los Angeles – Griffith/Los Feliz",
+      "file": "app\\data\\locations_us\\ca\\us_ca_la_griffith_los_feliz.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared scenic overlook rail framed by puddle mirrors during pre-dawn metro glow",
+        "desert-dusk griffith park picnic area with deli fruit bins under sparkling midnight rain",
+        "midnight-indigo scenic overlook rail beside trail signage through overcast noon clarity"
+      ]
+    },
+    {
+      "slug": "sd_gaslamp_harbor",
+      "name": "San Diego – Gaslamp/Harbor",
+      "file": "app\\data\\locations_us\\ca\\us_ca_sd_gaslamp_harbor.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "steel-grey historic building arcade featuring handrails amidst copper drizzle",
+        "overcast-soft historic building arcade beside wrought-iron fences through blue-hour hush",
+        "rain-glossed marina walkway alongside park benches beneath storm-cleared twilight"
+      ]
+    },
+    {
+      "slug": "santa_monica",
+      "name": "Santa Monica – Pier/Promenade",
+      "file": "app\\data\\locations_us\\ca\\us_ca_santa_monica.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "drizzle-slick ocean-front promenade framed by puddle mirrors during humid midnight pulse",
+        "steel-grey beachfront bike path with hydrant sentinels under snow-flurry shimmer",
+        "winter-mist pacific park ferris wheel base framed by trail signage during overcast noon clarity"
+      ]
+    },
+    {
+      "slug": "palm_springs",
+      "name": "Palm Springs – Mid-Century Strip",
+      "file": "app\\data\\locations_us\\ca\\us_ca_palm_springs.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared historic tram station platform beside palm shadows through winter evening glow",
+        "amber-glow desert modernist courtyard beside bike racks through overcast noon clarity",
+        "marquee-flecked desert oasis fountain featuring puddle mirrors amidst ocean spray shimmer"
+      ]
+    },
+    {
+      "slug": "napa",
+      "name": "Napa – Downtown & Riverfront",
+      "file": "app\\data\\locations_us\\ca\\us_ca_napa.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "marquee-flecked riverfront promenade bench with trail signage under copper drizzle",
+        "neon-washed downtown plaza fountain with palm shadows under winter evening glow",
+        "cobble-wet historic wine train depot with wrought-iron fences under autumn mist drift"
+      ]
+    },
+    {
+      "slug": "sacramento",
+      "name": "Sacramento – Old Sacramento Waterfront",
+      "file": "app\\data\\locations_us\\ca\\us_ca_sacramento.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "graphite-hued waterfront wooden deck with chain-link patterns under blue-hour hush",
+        "cobble-wet railroad museum plaza framed by scaffolding tubes during storm-cleared twilight",
+        "steam-veiled railroad museum plaza with steam vents under copper drizzle"
+      ]
+    }
+  ]
+}

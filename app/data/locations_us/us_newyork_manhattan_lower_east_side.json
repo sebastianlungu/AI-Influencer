@@ -1,0 +1,4050 @@
+{
+  "scenes": [
+    {
+      "text": "amber-glow bodega entrance alongside umbrella canopies beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow bodega entrance beside puddle mirrors through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow bodega entrance beside steam vents through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow bodega entrance with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow brick alley junction alongside deli fruit bins beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow brick alley junction beside newspaper boxes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow brick alley junction beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow chain-link fence line beside puddle mirrors through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow chain-link fence line with fire-escape shadows under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate alongside puddle mirrors beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate alongside traffic cone stacks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate beside neon reflections through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate featuring planters amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate framed by deli fruit bins during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate with awning stripes under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow community garden gate with chain-link patterns under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow corner newsstand beside awning stripes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow corner newsstand beside neon reflections through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow corner newsstand with traffic cone stacks under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow deli awning corner featuring awning stripes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow deli awning corner featuring granite balustrades amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow deli awning corner featuring newspaper boxes amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow deli awning corner featuring umbrella canopies amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow deli awning corner framed by steam vents during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow fire escape lattice with bike racks under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow fire escape lattice with hydrant sentinels under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow graffiti-tagged wall beside delivery carts through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow graffiti-tagged wall beside stacked milk crates through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow mural lane backdrop alongside stacked milk crates beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow mural lane backdrop beside awning stripes through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow mural lane backdrop beside deli fruit bins through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow narrow side street beside puddle mirrors through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow narrow side street framed by traffic cone stacks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow narrow side street with stacked milk crates under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow painted mural facade alongside awning stripes beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow painted mural facade alongside chain-link patterns beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow painted mural facade featuring planters amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow painted mural facade featuring wrought-iron fences amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow painted mural facade framed by bike racks during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow painted mural facade framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow rooftop access ladder alongside bike racks beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow rooftop access ladder beside deli fruit bins through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow rooftop access ladder framed by stacked milk crates during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow street market stall alongside puddle mirrors beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow street market stall beside hydrant sentinels through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow street market stall featuring neon reflections amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow street market stall with bike racks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tenement alley passage alongside newspaper boxes beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tenement alley passage alongside park benches beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tenement alley passage beside planters through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tenement alley passage featuring granite balustrades amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow vintage theater marquee framed by street lamp halos during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour bodega entrance alongside fire-escape shadows beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour bodega entrance featuring newspaper boxes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour bodega entrance framed by bike racks during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour bodega entrance with awning stripes under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour bodega entrance with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour brick alley junction alongside planters beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour brick alley junction beside steam vents through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour brick alley junction with scaffolding tubes under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour chain-link fence line featuring hydrant sentinels amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour chain-link fence line featuring newspaper boxes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour chain-link fence line framed by awning stripes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour chain-link fence line framed by puddle mirrors during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour chain-link fence line with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour community garden gate alongside planters beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour community garden gate beside umbrella canopies through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour community garden gate framed by puddle mirrors during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour community garden gate with awning stripes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour corner newsstand featuring awning stripes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour corner newsstand featuring street lamp halos amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour fire escape lattice alongside chain-link patterns beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour fire escape lattice beside wrought-iron fences through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour fire escape lattice featuring delivery carts amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour fire escape lattice featuring stacked milk crates amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour graffiti-tagged wall featuring deli fruit bins amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour graffiti-tagged wall framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour mural lane backdrop alongside awning stripes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour mural lane backdrop beside scaffolding tubes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour mural lane backdrop featuring delivery carts amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour mural lane backdrop with newspaper boxes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour narrow side street beside neon reflections through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour narrow side street featuring neon reflections amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour narrow side street framed by scaffolding tubes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour narrow side street with deli fruit bins under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour painted mural facade with wrought-iron fences under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour rooftop access ladder alongside delivery carts beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour rooftop access ladder alongside fire-escape shadows beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour rooftop access ladder with scaffolding tubes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour street market stall alongside delivery carts beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour street market stall framed by bike racks during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour tenement alley passage featuring fire-escape shadows amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour tenement alley passage framed by deli fruit bins during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour tenement alley passage framed by neon reflections during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour vintage theater marquee alongside fire-escape shadows beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour vintage theater marquee framed by fire-escape shadows during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron bodega entrance alongside steam vents beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron chain-link fence line alongside street lamp halos beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron chain-link fence line featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron chain-link fence line with chain-link patterns under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron chain-link fence line with steam vents under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron community garden gate beside stacked milk crates through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron community garden gate featuring park benches amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron community garden gate featuring park benches amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron community garden gate framed by stacked milk crates during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron community garden gate with delivery carts under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron corner newsstand framed by steam vents during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron deli awning corner framed by bike racks during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron deli awning corner framed by steam vents during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron deli awning corner with puddle mirrors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron deli awning corner with stacked milk crates under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron deli awning corner with traffic cone stacks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron fire escape lattice beside scaffolding tubes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron fire escape lattice featuring bike racks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron graffiti-tagged wall framed by traffic cone stacks during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron mural lane backdrop alongside umbrella canopies beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron mural lane backdrop framed by awning stripes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron mural lane backdrop framed by delivery carts during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron narrow side street featuring chain-link patterns amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron narrow side street framed by chain-link patterns during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron narrow side street with deli fruit bins under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron narrow side street with hydrant sentinels under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron narrow side street with newspaper boxes under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron painted mural facade alongside traffic cone stacks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron painted mural facade alongside wrought-iron fences beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron painted mural facade beside bike racks through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron painted mural facade beside planters through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron painted mural facade featuring neon reflections amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron painted mural facade framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron rooftop access ladder featuring fire-escape shadows amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron street market stall with traffic cone stacks under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tenement alley passage alongside awning stripes beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tenement alley passage alongside street lamp halos beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tenement alley passage framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron vintage theater marquee beside fire-escape shadows through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron vintage theater marquee beside neon reflections through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance beside newspaper boxes through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance featuring chain-link patterns amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance framed by scaffolding tubes during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance framed by stacked milk crates during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance with bike racks under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet bodega entrance with newspaper boxes under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet brick alley junction framed by street lamp halos during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet chain-link fence line beside traffic cone stacks through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet chain-link fence line featuring planters amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet chain-link fence line featuring steam vents amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet chain-link fence line framed by delivery carts during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet chain-link fence line with wrought-iron fences under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet community garden gate featuring planters amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet community garden gate framed by steam vents during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet corner newsstand beside neon reflections through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet corner newsstand with traffic cone stacks under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet deli awning corner alongside steam vents beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet deli awning corner beside deli fruit bins through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet deli awning corner featuring stacked milk crates amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet deli awning corner framed by chain-link patterns during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet deli awning corner with fire-escape shadows under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet deli awning corner with scaffolding tubes under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet graffiti-tagged wall beside street lamp halos through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet mural lane backdrop featuring awning stripes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet mural lane backdrop featuring deli fruit bins amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet mural lane backdrop framed by planters during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet narrow side street beside chain-link patterns through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet narrow side street featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet narrow side street featuring wrought-iron fences amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet narrow side street framed by steam vents during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet narrow side street framed by street lamp halos during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet painted mural facade beside awning stripes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet painted mural facade beside deli fruit bins through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet painted mural facade beside traffic cone stacks through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet painted mural facade beside wrought-iron fences through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet rooftop access ladder alongside park benches beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet rooftop access ladder framed by chain-link patterns during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet street market stall alongside umbrella canopies beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet street market stall framed by bike racks during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet tenement alley passage alongside bike racks beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet tenement alley passage with scaffolding tubes under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet vintage theater marquee beside scaffolding tubes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet vintage theater marquee beside steam vents through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit bodega entrance alongside hydrant sentinels beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit brick alley junction with park benches under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit brick alley junction with park benches under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit chain-link fence line framed by delivery carts during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit community garden gate alongside bike racks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit community garden gate alongside wrought-iron fences beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit community garden gate featuring scaffolding tubes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit community garden gate featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit community garden gate featuring traffic cone stacks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand alongside street lamp halos beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand alongside street lamp halos beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand beside planters through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand beside wrought-iron fences through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand featuring steam vents amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand framed by street lamp halos during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand with hydrant sentinels under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit corner newsstand with street lamp halos under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit deli awning corner framed by puddle mirrors during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit deli awning corner with chain-link patterns under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit fire escape lattice alongside park benches beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit fire escape lattice beside park benches through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit fire escape lattice framed by fire-escape shadows during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit fire escape lattice framed by street lamp halos during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit fire escape lattice with hydrant sentinels under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit graffiti-tagged wall featuring awning stripes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit graffiti-tagged wall with park benches under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit graffiti-tagged wall with umbrella canopies under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit mural lane backdrop featuring fire-escape shadows amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit mural lane backdrop framed by wrought-iron fences during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit mural lane backdrop with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit narrow side street alongside chain-link patterns beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit painted mural facade alongside park benches beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit painted mural facade featuring chain-link patterns amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit painted mural facade featuring umbrella canopies amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit painted mural facade with fire-escape shadows under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit rooftop access ladder alongside scaffolding tubes beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit rooftop access ladder featuring wrought-iron fences amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit rooftop access ladder with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit street market stall alongside scaffolding tubes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit street market stall beside chain-link patterns through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit street market stall framed by bike racks during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tenement alley passage beside granite balustrades through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tenement alley passage beside umbrella canopies through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tenement alley passage beside wrought-iron fences through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tenement alley passage featuring steam vents amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tenement alley passage framed by neon reflections during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tenement alley passage framed by traffic cone stacks during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit vintage theater marquee alongside puddle mirrors beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit vintage theater marquee framed by delivery carts during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit vintage theater marquee with hydrant sentinels under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick bodega entrance featuring granite balustrades amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick bodega entrance with chain-link patterns under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick brick alley junction with steam vents under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick chain-link fence line alongside neon reflections beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick chain-link fence line beside deli fruit bins through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick chain-link fence line with chain-link patterns under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick chain-link fence line with neon reflections under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick community garden gate alongside newspaper boxes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick community garden gate beside stacked milk crates through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick corner newsstand framed by steam vents during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick deli awning corner beside fire-escape shadows through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick deli awning corner framed by deli fruit bins during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick deli awning corner with chain-link patterns under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick deli awning corner with hydrant sentinels under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick deli awning corner with neon reflections under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick fire escape lattice with street lamp halos under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick graffiti-tagged wall alongside traffic cone stacks beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick graffiti-tagged wall beside street lamp halos through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick graffiti-tagged wall with puddle mirrors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick graffiti-tagged wall with street lamp halos under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick mural lane backdrop beside puddle mirrors through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick narrow side street with park benches under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick painted mural facade beside delivery carts through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick painted mural facade beside street lamp halos through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick rooftop access ladder alongside bike racks beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick rooftop access ladder beside planters through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick rooftop access ladder featuring granite balustrades amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick rooftop access ladder framed by deli fruit bins during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick rooftop access ladder with delivery carts under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick street market stall alongside traffic cone stacks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick street market stall beside park benches through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned bodega entrance alongside fire-escape shadows beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned bodega entrance framed by street lamp halos during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned bodega entrance with deli fruit bins under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned brick alley junction alongside fire-escape shadows beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned brick alley junction alongside newspaper boxes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned brick alley junction alongside planters beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned brick alley junction beside wrought-iron fences through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned brick alley junction with fire-escape shadows under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned chain-link fence line beside umbrella canopies through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned chain-link fence line framed by scaffolding tubes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned community garden gate alongside puddle mirrors beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned community garden gate alongside wrought-iron fences beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned community garden gate alongside wrought-iron fences beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned community garden gate with traffic cone stacks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corner newsstand framed by planters during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corner newsstand with wrought-iron fences under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned deli awning corner with steam vents under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned fire escape lattice beside delivery carts through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned fire escape lattice beside hydrant sentinels through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned fire escape lattice beside puddle mirrors through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned fire escape lattice beside umbrella canopies through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned fire escape lattice featuring newspaper boxes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned fire escape lattice featuring street lamp halos amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned graffiti-tagged wall beside traffic cone stacks through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned graffiti-tagged wall featuring puddle mirrors amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned graffiti-tagged wall with granite balustrades under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned mural lane backdrop alongside scaffolding tubes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned mural lane backdrop beside chain-link patterns through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned mural lane backdrop beside fire-escape shadows through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned mural lane backdrop with umbrella canopies under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned narrow side street beside steam vents through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned narrow side street framed by awning stripes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned painted mural facade alongside fire-escape shadows beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned painted mural facade beside fire-escape shadows through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rooftop access ladder featuring neon reflections amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rooftop access ladder with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rooftop access ladder with fire-escape shadows under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rooftop access ladder with granite balustrades under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned rooftop access ladder with traffic cone stacks under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned street market stall alongside deli fruit bins beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned street market stall beside deli fruit bins through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned street market stall framed by neon reflections during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned street market stall with umbrella canopies under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned tenement alley passage with delivery carts under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned vintage theater marquee alongside puddle mirrors beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned vintage theater marquee alongside street lamp halos beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned vintage theater marquee beside planters through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned vintage theater marquee with scaffolding tubes under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept bodega entrance framed by chain-link patterns during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept brick alley junction alongside hydrant sentinels beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept brick alley junction alongside street lamp halos beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept brick alley junction featuring deli fruit bins amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept brick alley junction featuring hydrant sentinels amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept chain-link fence line alongside wrought-iron fences beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept chain-link fence line beside planters through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept chain-link fence line featuring wrought-iron fences amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept community garden gate alongside awning stripes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept community garden gate with wrought-iron fences under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corner newsstand beside granite balustrades through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corner newsstand featuring scaffolding tubes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corner newsstand framed by awning stripes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corner newsstand framed by wrought-iron fences during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept deli awning corner alongside bike racks beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept deli awning corner alongside chain-link patterns beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept deli awning corner alongside puddle mirrors beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept deli awning corner beside newspaper boxes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept deli awning corner featuring stacked milk crates amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept deli awning corner framed by street lamp halos during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept fire escape lattice alongside chain-link patterns beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept fire escape lattice alongside neon reflections beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept fire escape lattice beside chain-link patterns through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept fire escape lattice beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept fire escape lattice featuring scaffolding tubes amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept fire escape lattice framed by bike racks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept graffiti-tagged wall alongside planters beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept graffiti-tagged wall beside awning stripes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept graffiti-tagged wall beside traffic cone stacks through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept graffiti-tagged wall featuring deli fruit bins amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept graffiti-tagged wall with neon reflections under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept mural lane backdrop beside umbrella canopies through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept mural lane backdrop framed by steam vents during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept narrow side street beside planters through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept painted mural facade beside delivery carts through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept painted mural facade beside granite balustrades through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept painted mural facade beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept rooftop access ladder featuring wrought-iron fences amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept street market stall beside bike racks through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept street market stall framed by granite balustrades during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept street market stall with puddle mirrors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tenement alley passage featuring newspaper boxes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tenement alley passage framed by park benches during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept vintage theater marquee alongside park benches beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued bodega entrance framed by traffic cone stacks during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued brick alley junction alongside deli fruit bins beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued brick alley junction alongside wrought-iron fences beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued brick alley junction featuring hydrant sentinels amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued brick alley junction featuring scaffolding tubes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued chain-link fence line beside newspaper boxes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued chain-link fence line framed by puddle mirrors during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued community garden gate featuring deli fruit bins amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued corner newsstand with fire-escape shadows under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued corner newsstand with granite balustrades under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued deli awning corner featuring chain-link patterns amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued deli awning corner framed by bike racks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued fire escape lattice alongside umbrella canopies beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued fire escape lattice featuring neon reflections amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued graffiti-tagged wall alongside fire-escape shadows beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued graffiti-tagged wall alongside newspaper boxes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued graffiti-tagged wall alongside park benches beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued graffiti-tagged wall featuring hydrant sentinels amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued graffiti-tagged wall featuring puddle mirrors amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued mural lane backdrop alongside chain-link patterns beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued mural lane backdrop alongside newspaper boxes beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued narrow side street alongside steam vents beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued narrow side street featuring neon reflections amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued painted mural facade beside street lamp halos through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued painted mural facade framed by wrought-iron fences during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued painted mural facade with neon reflections under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued rooftop access ladder beside puddle mirrors through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued rooftop access ladder beside steam vents through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued street market stall alongside traffic cone stacks beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued street market stall featuring bike racks amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued street market stall framed by traffic cone stacks during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tenement alley passage alongside planters beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tenement alley passage beside steam vents through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued vintage theater marquee alongside neon reflections beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued vintage theater marquee beside traffic cone stacks through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued vintage theater marquee with fire-escape shadows under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit bodega entrance framed by bike racks during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit brick alley junction featuring hydrant sentinels amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit brick alley junction framed by traffic cone stacks during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit chain-link fence line alongside deli fruit bins beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit chain-link fence line alongside scaffolding tubes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate alongside steam vents beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate alongside street lamp halos beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate beside delivery carts through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate featuring fire-escape shadows amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate featuring wrought-iron fences amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate framed by awning stripes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate framed by deli fruit bins during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate framed by neon reflections during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate framed by scaffolding tubes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate with awning stripes under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit community garden gate with fire-escape shadows under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corner newsstand beside granite balustrades through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corner newsstand beside hydrant sentinels through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corner newsstand beside scaffolding tubes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corner newsstand featuring newspaper boxes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corner newsstand featuring wrought-iron fences amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corner newsstand framed by scaffolding tubes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit deli awning corner alongside steam vents beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit deli awning corner beside scaffolding tubes through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit deli awning corner featuring street lamp halos amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit fire escape lattice alongside fire-escape shadows beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit fire escape lattice beside deli fruit bins through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit fire escape lattice beside delivery carts through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit fire escape lattice featuring umbrella canopies amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit fire escape lattice framed by delivery carts during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit fire escape lattice with planters under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit graffiti-tagged wall beside park benches through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit mural lane backdrop framed by umbrella canopies during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit mural lane backdrop with park benches under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit narrow side street framed by scaffolding tubes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit painted mural facade alongside hydrant sentinels beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit rooftop access ladder alongside deli fruit bins beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit rooftop access ladder alongside street lamp halos beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit street market stall beside planters through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit street market stall framed by bike racks during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit vintage theater marquee beside newspaper boxes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit vintage theater marquee featuring hydrant sentinels amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight bodega entrance beside planters through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight bodega entrance beside traffic cone stacks through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight bodega entrance framed by deli fruit bins during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight bodega entrance with planters under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight brick alley junction framed by street lamp halos during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight brick alley junction with puddle mirrors under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight chain-link fence line featuring traffic cone stacks amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight chain-link fence line framed by hydrant sentinels during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight community garden gate alongside bike racks beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight community garden gate beside wrought-iron fences through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corner newsstand alongside neon reflections beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corner newsstand beside newspaper boxes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corner newsstand beside puddle mirrors through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corner newsstand framed by street lamp halos during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corner newsstand framed by wrought-iron fences during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corner newsstand with planters under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight deli awning corner beside chain-link patterns through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight deli awning corner framed by puddle mirrors during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight fire escape lattice beside bike racks through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight fire escape lattice framed by wrought-iron fences during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight graffiti-tagged wall framed by deli fruit bins during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight mural lane backdrop beside puddle mirrors through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight mural lane backdrop framed by steam vents during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight mural lane backdrop with granite balustrades under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight narrow side street alongside stacked milk crates beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight narrow side street framed by neon reflections during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight narrow side street with neon reflections under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight painted mural facade alongside park benches beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight painted mural facade beside stacked milk crates through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight painted mural facade framed by stacked milk crates during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight rooftop access ladder beside awning stripes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight rooftop access ladder featuring awning stripes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight rooftop access ladder featuring chain-link patterns amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight rooftop access ladder framed by awning stripes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight rooftop access ladder with fire-escape shadows under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight street market stall alongside granite balustrades beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight street market stall alongside puddle mirrors beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight street market stall featuring newspaper boxes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tenement alley passage alongside umbrella canopies beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tenement alley passage beside deli fruit bins through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tenement alley passage with traffic cone stacks under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tenement alley passage with umbrella canopies under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight vintage theater marquee alongside park benches beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight vintage theater marquee framed by granite balustrades during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked bodega entrance alongside bike racks beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked bodega entrance alongside fire-escape shadows beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked brick alley junction alongside chain-link patterns beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked brick alley junction alongside stacked milk crates beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked brick alley junction beside umbrella canopies through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked brick alley junction featuring umbrella canopies amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked chain-link fence line beside puddle mirrors through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked chain-link fence line framed by neon reflections during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked community garden gate beside chain-link patterns through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked deli awning corner with neon reflections under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked fire escape lattice alongside wrought-iron fences beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked fire escape lattice beside chain-link patterns through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked fire escape lattice beside traffic cone stacks through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked fire escape lattice featuring stacked milk crates amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked fire escape lattice with neon reflections under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked graffiti-tagged wall alongside wrought-iron fences beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked graffiti-tagged wall featuring deli fruit bins amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked mural lane backdrop framed by chain-link patterns during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked narrow side street featuring street lamp halos amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked painted mural facade beside deli fruit bins through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked painted mural facade featuring traffic cone stacks amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked rooftop access ladder beside hydrant sentinels through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked street market stall with granite balustrades under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tenement alley passage framed by chain-link patterns during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked vintage theater marquee beside neon reflections through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked vintage theater marquee framed by stacked milk crates during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance alongside chain-link patterns beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance alongside hydrant sentinels beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance alongside hydrant sentinels beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance beside park benches through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance beside scaffolding tubes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance featuring granite balustrades amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo bodega entrance with fire-escape shadows under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo brick alley junction alongside stacked milk crates beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo brick alley junction alongside stacked milk crates beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo brick alley junction beside steam vents through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo brick alley junction framed by bike racks during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo brick alley junction framed by neon reflections during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo brick alley junction with wrought-iron fences under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo chain-link fence line featuring scaffolding tubes amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo community garden gate alongside hydrant sentinels beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo community garden gate alongside newspaper boxes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo community garden gate framed by chain-link patterns during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo community garden gate framed by park benches during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo community garden gate framed by umbrella canopies during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo corner newsstand beside fire-escape shadows through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo deli awning corner alongside granite balustrades beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo fire escape lattice beside steam vents through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo fire escape lattice with awning stripes under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo graffiti-tagged wall alongside wrought-iron fences beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo mural lane backdrop alongside newspaper boxes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo mural lane backdrop with awning stripes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo mural lane backdrop with fire-escape shadows under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo narrow side street beside granite balustrades through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo narrow side street beside hydrant sentinels through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo narrow side street framed by steam vents during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo narrow side street framed by steam vents during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo painted mural facade with granite balustrades under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo painted mural facade with neon reflections under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo rooftop access ladder beside wrought-iron fences through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo rooftop access ladder featuring bike racks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo rooftop access ladder featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo street market stall beside street lamp halos through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tenement alley passage alongside fire-escape shadows beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tenement alley passage beside puddle mirrors through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tenement alley passage framed by hydrant sentinels during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo vintage theater marquee featuring scaffolding tubes amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo vintage theater marquee framed by hydrant sentinels during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo vintage theater marquee framed by neon reflections during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo vintage theater marquee with park benches under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed bodega entrance framed by chain-link patterns during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed bodega entrance framed by neon reflections during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed bodega entrance framed by street lamp halos during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed brick alley junction alongside scaffolding tubes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed brick alley junction beside stacked milk crates through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed brick alley junction beside street lamp halos through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed brick alley junction with hydrant sentinels under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed brick alley junction with park benches under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed chain-link fence line alongside stacked milk crates beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed chain-link fence line beside planters through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed chain-link fence line beside puddle mirrors through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed chain-link fence line featuring fire-escape shadows amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed community garden gate featuring bike racks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed community garden gate framed by neon reflections during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed corner newsstand framed by hydrant sentinels during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed corner newsstand with neon reflections under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed corner newsstand with puddle mirrors under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed deli awning corner alongside deli fruit bins beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed deli awning corner alongside puddle mirrors beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed deli awning corner beside scaffolding tubes through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed deli awning corner featuring chain-link patterns amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed deli awning corner featuring street lamp halos amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed fire escape lattice alongside street lamp halos beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed graffiti-tagged wall alongside chain-link patterns beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed graffiti-tagged wall alongside deli fruit bins beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed graffiti-tagged wall featuring scaffolding tubes amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed graffiti-tagged wall featuring scaffolding tubes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed graffiti-tagged wall framed by chain-link patterns during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed graffiti-tagged wall framed by fire-escape shadows during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed mural lane backdrop featuring delivery carts amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed mural lane backdrop featuring newspaper boxes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed mural lane backdrop featuring scaffolding tubes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed narrow side street featuring fire-escape shadows amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed narrow side street with stacked milk crates under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed painted mural facade alongside scaffolding tubes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed painted mural facade with neon reflections under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed rooftop access ladder beside stacked milk crates through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed rooftop access ladder featuring bike racks amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed rooftop access ladder framed by newspaper boxes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed rooftop access ladder with park benches under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tenement alley passage alongside scaffolding tubes beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tenement alley passage beside steam vents through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tenement alley passage featuring neon reflections amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tenement alley passage featuring steam vents amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tenement alley passage featuring wrought-iron fences amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tenement alley passage with granite balustrades under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed vintage theater marquee featuring umbrella canopies amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed vintage theater marquee with fire-escape shadows under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed vintage theater marquee with wrought-iron fences under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft bodega entrance alongside newspaper boxes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft brick alley junction with granite balustrades under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft chain-link fence line featuring park benches amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft community garden gate alongside granite balustrades beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft community garden gate alongside park benches beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft community garden gate featuring bike racks amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft corner newsstand beside bike racks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft corner newsstand with street lamp halos under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft deli awning corner alongside park benches beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft deli awning corner alongside scaffolding tubes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft deli awning corner with fire-escape shadows under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft deli awning corner with steam vents under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft fire escape lattice beside umbrella canopies through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft fire escape lattice framed by puddle mirrors during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft graffiti-tagged wall alongside stacked milk crates beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft narrow side street featuring delivery carts amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft narrow side street with fire-escape shadows under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft narrow side street with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft painted mural facade alongside awning stripes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft painted mural facade beside granite balustrades through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft painted mural facade beside stacked milk crates through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft rooftop access ladder alongside stacked milk crates beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft rooftop access ladder framed by hydrant sentinels during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft rooftop access ladder with neon reflections under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft rooftop access ladder with stacked milk crates under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft street market stall alongside awning stripes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft street market stall alongside hydrant sentinels beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft street market stall alongside scaffolding tubes beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft street market stall framed by awning stripes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft street market stall framed by neon reflections during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft tenement alley passage beside hydrant sentinels through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft tenement alley passage featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft tenement alley passage framed by planters during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft tenement alley passage framed by planters during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft vintage theater marquee alongside traffic cone stacks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft vintage theater marquee framed by hydrant sentinels during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft vintage theater marquee framed by planters during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft vintage theater marquee with puddle mirrors under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn bodega entrance beside hydrant sentinels through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn bodega entrance featuring chain-link patterns amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn bodega entrance featuring puddle mirrors amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn brick alley junction alongside neon reflections beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn brick alley junction alongside newspaper boxes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn brick alley junction framed by newspaper boxes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn chain-link fence line featuring planters amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn chain-link fence line featuring umbrella canopies amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn chain-link fence line with steam vents under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn community garden gate alongside granite balustrades beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn community garden gate alongside umbrella canopies beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn community garden gate featuring park benches amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn deli awning corner featuring scaffolding tubes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn deli awning corner framed by fire-escape shadows during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn deli awning corner framed by puddle mirrors during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn deli awning corner framed by traffic cone stacks during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn fire escape lattice with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn fire escape lattice with planters under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn graffiti-tagged wall alongside park benches beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn graffiti-tagged wall framed by neon reflections during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn graffiti-tagged wall framed by umbrella canopies during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn graffiti-tagged wall with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn mural lane backdrop beside granite balustrades through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn mural lane backdrop with newspaper boxes under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn narrow side street framed by newspaper boxes during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn painted mural facade beside street lamp halos through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn painted mural facade framed by bike racks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn painted mural facade framed by puddle mirrors during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn painted mural facade with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn rooftop access ladder alongside puddle mirrors beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn rooftop access ladder beside deli fruit bins through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn rooftop access ladder beside umbrella canopies through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn rooftop access ladder framed by puddle mirrors during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn street market stall alongside granite balustrades beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn street market stall beside hydrant sentinels through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn street market stall framed by fire-escape shadows during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tenement alley passage alongside park benches beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tenement alley passage featuring park benches amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tenement alley passage framed by deli fruit bins during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn vintage theater marquee beside awning stripes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn vintage theater marquee beside stacked milk crates through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn vintage theater marquee with newspaper boxes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed bodega entrance beside delivery carts through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed brick alley junction framed by newspaper boxes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed brick alley junction framed by scaffolding tubes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed brick alley junction with deli fruit bins under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed brick alley junction with fire-escape shadows under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed brick alley junction with hydrant sentinels under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed brick alley junction with umbrella canopies under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed chain-link fence line alongside umbrella canopies beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed chain-link fence line framed by awning stripes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed community garden gate featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed community garden gate featuring traffic cone stacks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed community garden gate framed by stacked milk crates during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corner newsstand alongside awning stripes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corner newsstand beside puddle mirrors through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corner newsstand with awning stripes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corner newsstand with wrought-iron fences under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed deli awning corner alongside awning stripes beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed deli awning corner framed by neon reflections during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed fire escape lattice featuring stacked milk crates amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed fire escape lattice featuring street lamp halos amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed graffiti-tagged wall alongside delivery carts beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed graffiti-tagged wall featuring steam vents amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed mural lane backdrop alongside fire-escape shadows beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed mural lane backdrop beside newspaper boxes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed mural lane backdrop framed by puddle mirrors during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed narrow side street alongside stacked milk crates beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed narrow side street featuring scaffolding tubes amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed painted mural facade featuring bike racks amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed painted mural facade featuring steam vents amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed painted mural facade with hydrant sentinels under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed rooftop access ladder beside bike racks through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed rooftop access ladder framed by puddle mirrors during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed rooftop access ladder framed by wrought-iron fences during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed street market stall alongside traffic cone stacks beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed street market stall beside granite balustrades through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed street market stall beside wrought-iron fences through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed street market stall featuring umbrella canopies amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed street market stall framed by steam vents during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed vintage theater marquee framed by awning stripes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze bodega entrance framed by planters during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze bodega entrance with traffic cone stacks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze community garden gate beside park benches through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze community garden gate featuring deli fruit bins amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze community garden gate featuring steam vents amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze community garden gate framed by fire-escape shadows during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze community garden gate with scaffolding tubes under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze corner newsstand framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze deli awning corner alongside umbrella canopies beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze deli awning corner beside deli fruit bins through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze deli awning corner featuring wrought-iron fences amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze fire escape lattice alongside chain-link patterns beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze narrow side street featuring neon reflections amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze narrow side street with steam vents under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze painted mural facade alongside chain-link patterns beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze painted mural facade beside deli fruit bins through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze painted mural facade featuring neon reflections amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze painted mural facade framed by scaffolding tubes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze rooftop access ladder alongside awning stripes beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze rooftop access ladder alongside umbrella canopies beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze rooftop access ladder beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze street market stall framed by stacked milk crates during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tenement alley passage alongside street lamp halos beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tenement alley passage framed by deli fruit bins during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tenement alley passage with wrought-iron fences under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze vintage theater marquee with deli fruit bins under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze vintage theater marquee with street lamp halos under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed bodega entrance alongside stacked milk crates beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed bodega entrance framed by park benches during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed brick alley junction with stacked milk crates under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed chain-link fence line featuring planters amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed chain-link fence line with steam vents under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed community garden gate framed by newspaper boxes during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed corner newsstand framed by newspaper boxes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed corner newsstand with park benches under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed deli awning corner beside puddle mirrors through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed deli awning corner featuring bike racks amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed deli awning corner featuring delivery carts amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed fire escape lattice alongside umbrella canopies beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed fire escape lattice beside awning stripes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed fire escape lattice beside stacked milk crates through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed fire escape lattice featuring park benches amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed graffiti-tagged wall featuring steam vents amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed graffiti-tagged wall framed by stacked milk crates during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed narrow side street alongside delivery carts beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed narrow side street featuring awning stripes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed narrow side street featuring umbrella canopies amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed narrow side street framed by fire-escape shadows during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed painted mural facade framed by park benches during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed rooftop access ladder featuring chain-link patterns amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed rooftop access ladder framed by awning stripes during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed rooftop access ladder framed by neon reflections during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed rooftop access ladder with granite balustrades under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed rooftop access ladder with granite balustrades under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed street market stall alongside awning stripes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed street market stall alongside delivery carts beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed street market stall featuring traffic cone stacks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tenement alley passage alongside chain-link patterns beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tenement alley passage beside street lamp halos through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tenement alley passage featuring street lamp halos amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tenement alley passage framed by deli fruit bins during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tenement alley passage framed by wrought-iron fences during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tenement alley passage with park benches under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed vintage theater marquee alongside bike racks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled bodega entrance alongside steam vents beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled bodega entrance beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled bodega entrance featuring park benches amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled bodega entrance featuring traffic cone stacks amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled brick alley junction beside street lamp halos through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled brick alley junction beside wrought-iron fences through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled chain-link fence line beside newspaper boxes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled chain-link fence line beside wrought-iron fences through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled chain-link fence line featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled corner newsstand framed by newspaper boxes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled fire escape lattice with bike racks under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled fire escape lattice with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled graffiti-tagged wall alongside stacked milk crates beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled graffiti-tagged wall alongside steam vents beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled graffiti-tagged wall alongside umbrella canopies beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled graffiti-tagged wall beside bike racks through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled mural lane backdrop featuring neon reflections amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled narrow side street beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled narrow side street beside puddle mirrors through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled painted mural facade framed by delivery carts during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled painted mural facade framed by fire-escape shadows during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled painted mural facade framed by puddle mirrors during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled rooftop access ladder beside puddle mirrors through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled rooftop access ladder beside umbrella canopies through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled rooftop access ladder framed by street lamp halos during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tenement alley passage beside deli fruit bins through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tenement alley passage featuring newspaper boxes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled vintage theater marquee framed by puddle mirrors during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim bodega entrance featuring bike racks amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim brick alley junction alongside bike racks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim brick alley junction alongside granite balustrades beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim brick alley junction alongside neon reflections beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim brick alley junction with delivery carts under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim chain-link fence line alongside fire-escape shadows beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim chain-link fence line beside steam vents through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim chain-link fence line featuring newspaper boxes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim chain-link fence line featuring puddle mirrors amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corner newsstand alongside park benches beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corner newsstand beside hydrant sentinels through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corner newsstand beside puddle mirrors through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corner newsstand framed by neon reflections during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corner newsstand with stacked milk crates under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corner newsstand with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim deli awning corner beside puddle mirrors through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim deli awning corner featuring umbrella canopies amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim deli awning corner framed by puddle mirrors during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim deli awning corner framed by puddle mirrors during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim deli awning corner with traffic cone stacks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim fire escape lattice featuring awning stripes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim fire escape lattice framed by park benches during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim graffiti-tagged wall alongside puddle mirrors beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim graffiti-tagged wall beside neon reflections through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim graffiti-tagged wall beside newspaper boxes through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim graffiti-tagged wall framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim graffiti-tagged wall with planters under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim narrow side street alongside newspaper boxes beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim narrow side street framed by traffic cone stacks during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim painted mural facade featuring stacked milk crates amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim painted mural facade with bike racks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim painted mural facade with umbrella canopies under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim street market stall alongside steam vents beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim street market stall with fire-escape shadows under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim tenement alley passage beside chain-link patterns through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim tenement alley passage featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim vintage theater marquee beside stacked milk crates through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim vintage theater marquee featuring stacked milk crates amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim vintage theater marquee framed by planters during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim vintage theater marquee with delivery carts under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled bodega entrance alongside street lamp halos beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled bodega entrance beside hydrant sentinels through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled bodega entrance beside wrought-iron fences through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled bodega entrance framed by deli fruit bins during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled bodega entrance with awning stripes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled bodega entrance with deli fruit bins under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled brick alley junction beside bike racks through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled brick alley junction beside newspaper boxes through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled brick alley junction beside newspaper boxes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled brick alley junction featuring chain-link patterns amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled brick alley junction with puddle mirrors under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled chain-link fence line framed by newspaper boxes during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled chain-link fence line framed by stacked milk crates during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled chain-link fence line framed by street lamp halos during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled chain-link fence line framed by umbrella canopies during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled community garden gate alongside bike racks beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled community garden gate alongside bike racks beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled community garden gate alongside stacked milk crates beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled corner newsstand featuring newspaper boxes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled corner newsstand featuring scaffolding tubes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled corner newsstand framed by granite balustrades during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled deli awning corner alongside fire-escape shadows beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled deli awning corner beside street lamp halos through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled deli awning corner beside umbrella canopies through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled fire escape lattice featuring fire-escape shadows amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled graffiti-tagged wall framed by puddle mirrors during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled mural lane backdrop with traffic cone stacks under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled narrow side street beside delivery carts through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled narrow side street framed by neon reflections during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled narrow side street with fire-escape shadows under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled painted mural facade alongside delivery carts beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled rooftop access ladder framed by scaffolding tubes during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled street market stall beside hydrant sentinels through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled street market stall framed by planters during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled street market stall with planters under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tenement alley passage beside traffic cone stacks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tenement alley passage featuring hydrant sentinels amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tenement alley passage featuring planters amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tenement alley passage framed by chain-link patterns during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tenement alley passage framed by newspaper boxes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tenement alley passage framed by wrought-iron fences during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled vintage theater marquee featuring scaffolding tubes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled vintage theater marquee with delivery carts under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey bodega entrance alongside wrought-iron fences beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey bodega entrance featuring fire-escape shadows amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey bodega entrance framed by hydrant sentinels during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey brick alley junction alongside street lamp halos beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey brick alley junction featuring neon reflections amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey brick alley junction featuring stacked milk crates amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey brick alley junction framed by steam vents during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey chain-link fence line beside awning stripes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey chain-link fence line featuring umbrella canopies amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey chain-link fence line framed by puddle mirrors during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey chain-link fence line with park benches under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey corner newsstand beside awning stripes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey corner newsstand featuring street lamp halos amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey corner newsstand with stacked milk crates under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey deli awning corner alongside granite balustrades beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey deli awning corner alongside traffic cone stacks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey deli awning corner beside chain-link patterns through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey deli awning corner beside chain-link patterns through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey deli awning corner beside planters through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey deli awning corner beside street lamp halos through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey fire escape lattice framed by puddle mirrors during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey fire escape lattice with awning stripes under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey fire escape lattice with bike racks under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey graffiti-tagged wall alongside newspaper boxes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey graffiti-tagged wall framed by wrought-iron fences during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey mural lane backdrop alongside deli fruit bins beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey mural lane backdrop beside deli fruit bins through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey mural lane backdrop with street lamp halos under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey narrow side street alongside bike racks beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey narrow side street beside wrought-iron fences through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey narrow side street with umbrella canopies under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey painted mural facade beside newspaper boxes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey painted mural facade beside puddle mirrors through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey rooftop access ladder featuring neon reflections amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey rooftop access ladder with chain-link patterns under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey rooftop access ladder with newspaper boxes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey street market stall beside deli fruit bins through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey street market stall framed by puddle mirrors during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey street market stall framed by street lamp halos during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey street market stall with granite balustrades under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey tenement alley passage alongside granite balustrades beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey tenement alley passage alongside stacked milk crates beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey tenement alley passage beside chain-link patterns through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey tenement alley passage beside traffic cone stacks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey vintage theater marquee beside fire-escape shadows through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey vintage theater marquee framed by deli fruit bins during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim bodega entrance alongside newspaper boxes beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim bodega entrance alongside street lamp halos beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim bodega entrance featuring bike racks amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim brick alley junction alongside bike racks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim brick alley junction featuring steam vents amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim chain-link fence line alongside bike racks beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim community garden gate framed by hydrant sentinels during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand alongside newspaper boxes beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand featuring steam vents amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand framed by traffic cone stacks during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand with chain-link patterns under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corner newsstand with fire-escape shadows under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim deli awning corner alongside granite balustrades beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim deli awning corner alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim deli awning corner beside bike racks through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim deli awning corner framed by granite balustrades during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim fire escape lattice alongside newspaper boxes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim fire escape lattice beside street lamp halos through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim graffiti-tagged wall featuring chain-link patterns amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim graffiti-tagged wall featuring park benches amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim graffiti-tagged wall with umbrella canopies under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim mural lane backdrop featuring bike racks amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim mural lane backdrop with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim narrow side street with granite balustrades under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim painted mural facade alongside hydrant sentinels beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim painted mural facade featuring chain-link patterns amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim rooftop access ladder featuring stacked milk crates amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim street market stall featuring traffic cone stacks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim street market stall with deli fruit bins under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim street market stall with fire-escape shadows under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim tenement alley passage alongside umbrella canopies beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim tenement alley passage framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim vintage theater marquee featuring umbrella canopies amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim vintage theater marquee with hydrant sentinels under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist bodega entrance framed by neon reflections during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist bodega entrance with deli fruit bins under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist brick alley junction with wrought-iron fences under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist corner newsstand with delivery carts under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist deli awning corner beside wrought-iron fences through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist deli awning corner featuring steam vents amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist deli awning corner framed by bike racks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist deli awning corner framed by steam vents during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist fire escape lattice beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist fire escape lattice featuring traffic cone stacks amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist graffiti-tagged wall framed by umbrella canopies during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist graffiti-tagged wall with chain-link patterns under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist mural lane backdrop featuring deli fruit bins amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist mural lane backdrop featuring deli fruit bins amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist mural lane backdrop featuring steam vents amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist mural lane backdrop with awning stripes under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist mural lane backdrop with deli fruit bins under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist mural lane backdrop with wrought-iron fences under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist painted mural facade beside planters through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist painted mural facade with fire-escape shadows under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist rooftop access ladder beside traffic cone stacks through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist rooftop access ladder featuring planters amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist street market stall beside puddle mirrors through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist street market stall featuring street lamp halos amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist street market stall with newspaper boxes under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist tenement alley passage framed by chain-link patterns during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist vintage theater marquee beside awning stripes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist vintage theater marquee featuring umbrella canopies amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist vintage theater marquee framed by scaffolding tubes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist vintage theater marquee with park benches under summer heat shimmer",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "electric-blue headphone cord",
+        "weight": 0.6
+      },
+      {
+        "text": "graffiti-style pin on jacket",
+        "weight": 0.5
+      },
+      {
+        "text": "caramel vinyl record tote",
+        "weight": 0.5
+      },
+      {
+        "text": "silver chain bracelet stack",
+        "weight": 0.6
+      },
+      {
+        "text": "orchid shoelace detail",
+        "weight": 0.5
+      }
+    ],
+    "twist": [
+      {
+        "text": "fire escape shadow striping face",
+        "weight": 0.6
+      },
+      {
+        "text": "bodega cat watching from window",
+        "weight": 0.5
+      },
+      {
+        "text": "graffiti spray can rattle echoing",
+        "weight": 0.4
+      },
+      {
+        "text": "laundry line flutter overhead",
+        "weight": 0.5
+      },
+      {
+        "text": "basketball court echo in distance",
+        "weight": 0.5
+      }
+    ]
+  }
+}

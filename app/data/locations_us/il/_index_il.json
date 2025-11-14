@@ -1,0 +1,124 @@
+{
+  "destinations": [
+    {
+      "slug": "chicago_riverwalk_loop",
+      "name": "Chicago – Riverwalk/Loop",
+      "file": "app\\data\\locations_us\\il\\us_il_chicago_riverwalk_loop.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "blue-hour riverwalk kayak launch with palm shadows under winter evening glow",
+        "ocean-spray chicago riverwalk promenade with granite balustrades under ocean spray shimmer",
+        "steam-veiled riverside plaza bench beside traffic cone stacks through pre-dawn metro glow"
+      ]
+    },
+    {
+      "slug": "chicago_west_loop",
+      "name": "Chicago – West Loop/Fulton",
+      "file": "app\\data\\locations_us\\il\\us_il_chicago_west_loop.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "sodium-rim west loop cafe terrace alongside hydrant sentinels beneath summer heat shimmer",
+        "steel-grey randolph restaurant row framed by wrought-iron fences during desert wind bands",
+        "amber-glow fulton district plaza beside granite balustrades through overcast noon clarity"
+      ]
+    },
+    {
+      "slug": "chicago_wicker_park",
+      "name": "Chicago – Wicker Park",
+      "file": "app\\data\\locations_us\\il\\us_il_chicago_wicker_park.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "humid-midnight milwaukee avenue corridor framed by fire-escape shadows during overcast noon clarity",
+        "storm-cleared wicker park bench zone framed by puddle mirrors during ocean spray shimmer",
+        "snow-swirled wicker park sidewalk cafe featuring planter boxes amidst spring rain patter"
+      ]
+    },
+    {
+      "slug": "chicago_lincoln_park",
+      "name": "Chicago – Lincoln Park/Lakefront",
+      "file": "app\\data\\locations_us\\il\\us_il_chicago_lincoln_park.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared conservatory garden pathway beside dune fences through storm-cleared twilight",
+        "graphite-hued north pond nature boardwalk with steam vents under snow-flurry shimmer",
+        "storm-cleared lakefront trail bench featuring dune fences amidst humid midnight pulse"
+      ]
+    },
+    {
+      "slug": "chicago_hyde_park",
+      "name": "Chicago – Hyde Park/Midway",
+      "file": "app\\data\\locations_us\\il\\us_il_chicago_hyde_park.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "slate-washed campus library steps beside wooden pier posts through pre-dawn metro glow",
+        "marquee-flecked campus library steps alongside stone balustrades beneath snow-flurry shimmer",
+        "blue-hour midway plaisance green framed by street lamp halos during sparkling midnight rain"
+      ]
+    },
+    {
+      "slug": "evanston",
+      "name": "Evanston – Downtown/Lakefront",
+      "file": "app\\data\\locations_us\\il\\us_il_evanston.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "twilight-dim church street junction featuring handrails amidst blue-hour hush",
+        "overcast-soft downtown farmers market pavilion with trail signage under sparkling midnight rain",
+        "river-breeze downtown farmers market pavilion beside bike racks through autumn mist drift"
+      ]
+    },
+    {
+      "slug": "oak_park",
+      "name": "Oak Park – Frank Lloyd Wright District",
+      "file": "app\\data\\locations_us\\il\\us_il_oak_park.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "humid-midnight historic district tree-lined street featuring awning stripes amidst snow-flurry shimmer",
+        "river-breeze oak park conservatory path framed by neon reflections during spring rain patter",
+        "cobble-wet scoville park plaza featuring hydrant sentinels amidst winter evening glow"
+      ]
+    },
+    {
+      "slug": "naperville",
+      "name": "Naperville – Riverwalk",
+      "file": "app\\data\\locations_us\\il\\us_il_naperville.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "humid-midnight naperville riverwalk promenade featuring wrought-iron fences amidst autumn mist drift",
+        "sodium-rim centennial beach entrance framed by stone balustrades during ocean spray shimmer",
+        "twilight-dim centennial beach entrance alongside bike racks beneath spring rain patter"
+      ]
+    },
+    {
+      "slug": "schaumburg",
+      "name": "Schaumburg – Town Center/Parks",
+      "file": "app\\data\\locations_us\\il\\us_il_schaumburg.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "winter-mist busse woods trail boardwalk with trail signage under autumn mist drift",
+        "rain-glossed town center pedestrian mall with traffic cone stacks under pre-dawn metro glow",
+        "amber-glow schaumburg convention plaza alongside planter boxes beneath storm-cleared twilight"
+      ]
+    },
+    {
+      "slug": "aurora",
+      "name": "Aurora – Downtown/Waterfront",
+      "file": "app\\data\\locations_us\\il\\us_il_aurora.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "snow-swirled paramount theatre plaza framed by palm shadows during autumn mist drift",
+        "drizzle-slick downtown aurora corridor with puddle mirrors under autumn mist drift",
+        "snow-swirled fox river trail bench featuring neon reflections amidst sparkling midnight rain"
+      ]
+    }
+  ]
+}

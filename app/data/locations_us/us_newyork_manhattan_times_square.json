@@ -1,0 +1,4050 @@
+{
+  "scenes": [
+    {
+      "text": "amber-glow billboard wall base beside awning stripes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow billboard wall base with granite balustrades under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow broadway intersection alongside chain-link patterns beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow broadway intersection alongside umbrella canopies beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow broadway intersection beside planters through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow broadway intersection framed by delivery carts during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow digital screen wall with newspaper boxes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow electronic billboard array featuring umbrella canopies amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow electronic billboard array framed by newspaper boxes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow led canyon glow featuring chain-link patterns amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow led canyon glow featuring deli fruit bins amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow light-bathed sidewalk framed by planters during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow neon-soaked corner alongside wrought-iron fences beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow neon-soaked corner beside puddle mirrors through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow pedestrian island center featuring awning stripes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow pedestrian island center framed by street lamp halos during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow plaza bench zone alongside hydrant sentinels beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow plaza bench zone beside stacked milk crates through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow plaza bench zone featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow red-step platform alongside hydrant sentinels beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow red-step platform alongside neon reflections beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow red-step platform featuring chain-link patterns amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow red-step platform featuring hydrant sentinels amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow red-step platform framed by steam vents during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow red-step platform with umbrella canopies under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow subway entrance vortex beside delivery carts through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow subway entrance vortex beside steam vents through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow subway entrance vortex featuring granite balustrades amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow subway entrance vortex framed by planters during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow subway entrance vortex with granite balustrades under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow theater district alley alongside newspaper boxes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow theater district alley framed by scaffolding tubes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tkts steps tier alongside planters beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tkts steps tier featuring chain-link patterns amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tourist crosswalk alongside planters beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tourist crosswalk featuring neon reflections amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow tourist crosswalk featuring street lamp halos amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour billboard wall base beside delivery carts through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour billboard wall base featuring park benches amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour billboard wall base framed by newspaper boxes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour billboard wall base framed by planters during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour billboard wall base with bike racks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour billboard wall base with newspaper boxes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour broadway intersection beside neon reflections through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour broadway intersection featuring hydrant sentinels amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour broadway intersection with park benches under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour digital screen wall framed by chain-link patterns during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour digital screen wall with steam vents under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour digital screen wall with wrought-iron fences under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour electronic billboard array featuring planters amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour electronic billboard array with fire-escape shadows under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour led canyon glow beside neon reflections through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour led canyon glow beside puddle mirrors through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour led canyon glow featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour led canyon glow framed by puddle mirrors during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour led canyon glow with planters under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour light-bathed sidewalk alongside hydrant sentinels beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour light-bathed sidewalk beside awning stripes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour light-bathed sidewalk framed by park benches during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour neon-soaked corner with delivery carts under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour neon-soaked corner with stacked milk crates under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour neon-soaked corner with umbrella canopies under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour pedestrian island center alongside delivery carts beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour pedestrian island center alongside granite balustrades beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour pedestrian island center alongside newspaper boxes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour pedestrian island center beside neon reflections through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour pedestrian island center with delivery carts under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour plaza bench zone alongside neon reflections beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour plaza bench zone framed by puddle mirrors during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour red-step platform featuring chain-link patterns amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour subway entrance vortex beside granite balustrades through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour subway entrance vortex with planters under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour theater district alley alongside hydrant sentinels beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour theater district alley featuring puddle mirrors amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour theater district alley framed by neon reflections during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour theater marquee backdrop alongside street lamp halos beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour theater marquee backdrop beside puddle mirrors through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour theater marquee backdrop framed by stacked milk crates during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour tkts steps tier alongside traffic cone stacks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour tkts steps tier beside fire-escape shadows through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron billboard wall base framed by hydrant sentinels during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron billboard wall base framed by park benches during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron billboard wall base with granite balustrades under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron broadway intersection beside street lamp halos through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron digital screen wall alongside traffic cone stacks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron digital screen wall featuring deli fruit bins amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron electronic billboard array beside delivery carts through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron electronic billboard array framed by awning stripes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron electronic billboard array with hydrant sentinels under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron led canyon glow alongside newspaper boxes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron light-bathed sidewalk with wrought-iron fences under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron neon-soaked corner featuring neon reflections amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron pedestrian island center framed by granite balustrades during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench zone alongside newspaper boxes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench zone with fire-escape shadows under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench zone with granite balustrades under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron red-step platform beside umbrella canopies through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron red-step platform with stacked milk crates under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater district alley alongside awning stripes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater district alley with deli fruit bins under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater marquee backdrop alongside newspaper boxes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater marquee backdrop beside planters through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater marquee backdrop beside scaffolding tubes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater marquee backdrop with delivery carts under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron theater marquee backdrop with hydrant sentinels under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tkts steps tier beside park benches through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tkts steps tier with neon reflections under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tourist crosswalk alongside neon reflections beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tourist crosswalk beside planters through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tourist crosswalk framed by umbrella canopies during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron tourist crosswalk with neon reflections under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet billboard wall base alongside hydrant sentinels beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet billboard wall base framed by stacked milk crates during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet billboard wall base with granite balustrades under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet billboard wall base with umbrella canopies under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet broadway intersection alongside bike racks beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet broadway intersection alongside umbrella canopies beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet broadway intersection beside granite balustrades through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet broadway intersection with chain-link patterns under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet digital screen wall alongside awning stripes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet digital screen wall featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet digital screen wall featuring neon reflections amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet digital screen wall framed by granite balustrades during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet digital screen wall framed by stacked milk crates during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet digital screen wall with granite balustrades under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet electronic billboard array beside deli fruit bins through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet electronic billboard array beside steam vents through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet electronic billboard array with neon reflections under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet led canyon glow alongside deli fruit bins beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet led canyon glow featuring delivery carts amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet led canyon glow with chain-link patterns under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet led canyon glow with park benches under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet light-bathed sidewalk alongside park benches beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet light-bathed sidewalk featuring newspaper boxes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet light-bathed sidewalk with steam vents under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet light-bathed sidewalk with wrought-iron fences under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet neon-soaked corner featuring bike racks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet neon-soaked corner featuring granite balustrades amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench zone alongside awning stripes beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench zone framed by traffic cone stacks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet red-step platform with neon reflections under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet subway entrance vortex featuring park benches amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater district alley alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater district alley beside traffic cone stacks through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater district alley featuring awning stripes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater district alley framed by puddle mirrors during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater district alley with neon reflections under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater marquee backdrop beside umbrella canopies through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet theater marquee backdrop with traffic cone stacks under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet tkts steps tier beside wrought-iron fences through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet tkts steps tier with newspaper boxes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet tkts steps tier with traffic cone stacks under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet tourist crosswalk featuring delivery carts amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit billboard wall base beside wrought-iron fences through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit billboard wall base framed by deli fruit bins during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit billboard wall base framed by steam vents during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit broadway intersection alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit broadway intersection framed by deli fruit bins during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit digital screen wall beside scaffolding tubes through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit digital screen wall with stacked milk crates under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit led canyon glow alongside fire-escape shadows beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit led canyon glow featuring bike racks amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit led canyon glow featuring delivery carts amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit led canyon glow framed by bike racks during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit light-bathed sidewalk framed by granite balustrades during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit neon-soaked corner beside awning stripes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit pedestrian island center with chain-link patterns under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit pedestrian island center with scaffolding tubes under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit plaza bench zone featuring umbrella canopies amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit red-step platform framed by hydrant sentinels during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit subway entrance vortex alongside street lamp halos beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit subway entrance vortex beside newspaper boxes through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit theater district alley featuring delivery carts amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit theater district alley featuring stacked milk crates amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit theater district alley with stacked milk crates under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit theater marquee backdrop alongside chain-link patterns beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tkts steps tier beside traffic cone stacks through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tkts steps tier featuring hydrant sentinels amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit tourist crosswalk featuring wrought-iron fences amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick billboard wall base alongside delivery carts beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick billboard wall base alongside wrought-iron fences beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick billboard wall base framed by delivery carts during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick billboard wall base with park benches under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick broadway intersection alongside newspaper boxes beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick broadway intersection beside bike racks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick broadway intersection featuring deli fruit bins amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick broadway intersection framed by fire-escape shadows during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall featuring chain-link patterns amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall featuring steam vents amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall framed by stacked milk crates during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall with hydrant sentinels under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall with scaffolding tubes under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick digital screen wall with stacked milk crates under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick electronic billboard array featuring delivery carts amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick led canyon glow alongside stacked milk crates beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick led canyon glow beside steam vents through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick light-bathed sidewalk featuring delivery carts amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick light-bathed sidewalk framed by planters during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick neon-soaked corner featuring park benches amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick pedestrian island center alongside deli fruit bins beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick pedestrian island center alongside fire-escape shadows beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick pedestrian island center alongside wrought-iron fences beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick pedestrian island center framed by stacked milk crates during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick pedestrian island center framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick pedestrian island center with hydrant sentinels under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick plaza bench zone beside traffic cone stacks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick plaza bench zone with stacked milk crates under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick red-step platform alongside neon reflections beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick red-step platform beside hydrant sentinels through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick red-step platform featuring deli fruit bins amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick subway entrance vortex beside stacked milk crates through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick subway entrance vortex featuring planters amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick subway entrance vortex featuring stacked milk crates amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick subway entrance vortex featuring traffic cone stacks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick theater district alley beside stacked milk crates through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick theater district alley with steam vents under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick theater marquee backdrop alongside stacked milk crates beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick theater marquee backdrop framed by awning stripes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick theater marquee backdrop framed by newspaper boxes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick theater marquee backdrop with planters under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick tkts steps tier beside bike racks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick tkts steps tier beside stacked milk crates through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick tkts steps tier featuring neon reflections amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick tourist crosswalk featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick tourist crosswalk framed by granite balustrades during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick tourist crosswalk with deli fruit bins under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned billboard wall base alongside deli fruit bins beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned billboard wall base alongside hydrant sentinels beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned billboard wall base framed by granite balustrades during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned broadway intersection featuring umbrella canopies amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned broadway intersection framed by scaffolding tubes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned digital screen wall alongside wrought-iron fences beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned digital screen wall featuring umbrella canopies amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned digital screen wall framed by puddle mirrors during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned electronic billboard array alongside bike racks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned electronic billboard array featuring steam vents amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned electronic billboard array framed by neon reflections during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned electronic billboard array with puddle mirrors under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned led canyon glow alongside delivery carts beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned led canyon glow alongside stacked milk crates beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned led canyon glow framed by street lamp halos during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned led canyon glow framed by traffic cone stacks during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned light-bathed sidewalk alongside street lamp halos beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned light-bathed sidewalk beside scaffolding tubes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned light-bathed sidewalk featuring puddle mirrors amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned light-bathed sidewalk with park benches under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned neon-soaked corner alongside umbrella canopies beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned neon-soaked corner framed by bike racks during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned neon-soaked corner with street lamp halos under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned neon-soaked corner with street lamp halos under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned pedestrian island center beside granite balustrades through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned pedestrian island center framed by neon reflections during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench zone alongside hydrant sentinels beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench zone alongside puddle mirrors beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench zone with fire-escape shadows under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned red-step platform featuring fire-escape shadows amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned subway entrance vortex alongside newspaper boxes beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned subway entrance vortex beside scaffolding tubes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned subway entrance vortex featuring park benches amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned subway entrance vortex featuring steam vents amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned subway entrance vortex with neon reflections under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned theater district alley alongside hydrant sentinels beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned theater district alley featuring granite balustrades amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned theater marquee backdrop alongside bike racks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned theater marquee backdrop alongside umbrella canopies beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned theater marquee backdrop beside awning stripes through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned theater marquee backdrop framed by deli fruit bins during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned tourist crosswalk beside fire-escape shadows through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned tourist crosswalk beside scaffolding tubes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept billboard wall base alongside umbrella canopies beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept billboard wall base framed by hydrant sentinels during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept billboard wall base framed by traffic cone stacks during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept broadway intersection alongside steam vents beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept broadway intersection beside bike racks through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept broadway intersection beside park benches through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept broadway intersection featuring delivery carts amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept digital screen wall featuring delivery carts amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept digital screen wall featuring park benches amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept digital screen wall framed by traffic cone stacks during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept digital screen wall with granite balustrades under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept digital screen wall with street lamp halos under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept electronic billboard array featuring granite balustrades amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept electronic billboard array featuring granite balustrades amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept electronic billboard array framed by planters during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept light-bathed sidewalk alongside park benches beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept light-bathed sidewalk featuring park benches amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept light-bathed sidewalk featuring scaffolding tubes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept light-bathed sidewalk framed by delivery carts during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept light-bathed sidewalk framed by planters during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept light-bathed sidewalk with traffic cone stacks under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept neon-soaked corner framed by stacked milk crates during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept neon-soaked corner framed by umbrella canopies during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept pedestrian island center beside awning stripes through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept pedestrian island center framed by chain-link patterns during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept plaza bench zone alongside stacked milk crates beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept plaza bench zone alongside stacked milk crates beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept plaza bench zone beside traffic cone stacks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept red-step platform alongside planters beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept red-step platform alongside planters beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept red-step platform alongside traffic cone stacks beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept red-step platform featuring scaffolding tubes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept red-step platform framed by delivery carts during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept subway entrance vortex alongside park benches beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept theater district alley beside newspaper boxes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept theater district alley featuring neon reflections amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept theater district alley with street lamp halos under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tkts steps tier alongside fire-escape shadows beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tkts steps tier featuring delivery carts amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tkts steps tier featuring park benches amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tourist crosswalk beside scaffolding tubes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept tourist crosswalk with newspaper boxes under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued billboard wall base alongside stacked milk crates beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued billboard wall base beside chain-link patterns through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued billboard wall base with fire-escape shadows under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued broadway intersection alongside planters beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued broadway intersection framed by park benches during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued digital screen wall featuring planters amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued digital screen wall with newspaper boxes under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued electronic billboard array alongside scaffolding tubes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued electronic billboard array featuring bike racks amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued electronic billboard array with fire-escape shadows under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued led canyon glow beside newspaper boxes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued led canyon glow framed by umbrella canopies during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued led canyon glow with newspaper boxes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued light-bathed sidewalk alongside fire-escape shadows beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued light-bathed sidewalk alongside steam vents beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued neon-soaked corner alongside neon reflections beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued pedestrian island center featuring awning stripes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench zone alongside newspaper boxes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench zone alongside stacked milk crates beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench zone beside newspaper boxes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench zone featuring deli fruit bins amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench zone featuring granite balustrades amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench zone with bike racks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued red-step platform alongside street lamp halos beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued red-step platform framed by steam vents during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued red-step platform with granite balustrades under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued subway entrance vortex alongside awning stripes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued subway entrance vortex beside park benches through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued subway entrance vortex beside traffic cone stacks through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued subway entrance vortex with bike racks under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued theater district alley alongside puddle mirrors beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued theater district alley framed by street lamp halos during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued theater marquee backdrop beside wrought-iron fences through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued theater marquee backdrop featuring fire-escape shadows amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued theater marquee backdrop featuring traffic cone stacks amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued theater marquee backdrop framed by fire-escape shadows during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tkts steps tier featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tkts steps tier featuring newspaper boxes amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tkts steps tier featuring planters amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tkts steps tier with scaffolding tubes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tourist crosswalk alongside granite balustrades beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued tourist crosswalk with delivery carts under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit billboard wall base alongside puddle mirrors beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit billboard wall base with deli fruit bins under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit broadway intersection beside chain-link patterns through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit broadway intersection framed by awning stripes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit digital screen wall beside newspaper boxes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit digital screen wall featuring awning stripes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit digital screen wall framed by chain-link patterns during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit electronic billboard array alongside scaffolding tubes beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit electronic billboard array alongside wrought-iron fences beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit electronic billboard array featuring chain-link patterns amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit electronic billboard array framed by fire-escape shadows during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit electronic billboard array with fire-escape shadows under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit electronic billboard array with steam vents under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit led canyon glow beside chain-link patterns through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit led canyon glow beside steam vents through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit light-bathed sidewalk framed by newspaper boxes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit neon-soaked corner alongside scaffolding tubes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit neon-soaked corner beside deli fruit bins through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit neon-soaked corner with chain-link patterns under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit pedestrian island center alongside neon reflections beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit pedestrian island center alongside steam vents beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit pedestrian island center with stacked milk crates under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit plaza bench zone featuring stacked milk crates amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform alongside wrought-iron fences beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform beside fire-escape shadows through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform beside steam vents through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform featuring hydrant sentinels amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform framed by deli fruit bins during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit red-step platform with umbrella canopies under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit subway entrance vortex framed by granite balustrades during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit subway entrance vortex framed by umbrella canopies during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater district alley beside umbrella canopies through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater district alley framed by delivery carts during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater district alley framed by umbrella canopies during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater district alley with chain-link patterns under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater marquee backdrop alongside steam vents beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater marquee backdrop beside neon reflections through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit theater marquee backdrop framed by steam vents during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit tkts steps tier alongside granite balustrades beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit tkts steps tier framed by hydrant sentinels during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit tkts steps tier with park benches under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight billboard wall base featuring stacked milk crates amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight billboard wall base framed by wrought-iron fences during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight digital screen wall beside delivery carts through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight digital screen wall featuring wrought-iron fences amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight electronic billboard array beside fire-escape shadows through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight electronic billboard array beside wrought-iron fences through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight electronic billboard array framed by planters during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight electronic billboard array with wrought-iron fences under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight led canyon glow alongside hydrant sentinels beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight led canyon glow alongside street lamp halos beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight led canyon glow beside steam vents through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight led canyon glow with park benches under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight light-bathed sidewalk beside steam vents through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight light-bathed sidewalk featuring bike racks amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight light-bathed sidewalk featuring hydrant sentinels amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight light-bathed sidewalk featuring planters amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight neon-soaked corner framed by granite balustrades during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight neon-soaked corner framed by street lamp halos during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight pedestrian island center beside steam vents through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight pedestrian island center featuring fire-escape shadows amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight pedestrian island center featuring steam vents amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight pedestrian island center with chain-link patterns under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench zone alongside steam vents beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench zone beside chain-link patterns through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench zone featuring scaffolding tubes amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench zone framed by awning stripes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench zone framed by bike racks during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench zone framed by chain-link patterns during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight red-step platform alongside steam vents beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight red-step platform alongside steam vents beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight subway entrance vortex alongside bike racks beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight subway entrance vortex beside neon reflections through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight subway entrance vortex with newspaper boxes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight subway entrance vortex with scaffolding tubes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight theater district alley alongside umbrella canopies beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight theater district alley beside granite balustrades through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight theater marquee backdrop beside fire-escape shadows through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight theater marquee backdrop beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight theater marquee backdrop featuring bike racks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tkts steps tier alongside bike racks beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tkts steps tier beside umbrella canopies through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tkts steps tier with deli fruit bins under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tkts steps tier with planters under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tourist crosswalk alongside delivery carts beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tourist crosswalk alongside granite balustrades beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight tourist crosswalk with newspaper boxes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked billboard wall base featuring fire-escape shadows amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked billboard wall base framed by bike racks during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked billboard wall base framed by umbrella canopies during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked broadway intersection beside fire-escape shadows through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked broadway intersection beside hydrant sentinels through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked digital screen wall beside bike racks through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked digital screen wall with street lamp halos under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked electronic billboard array featuring chain-link patterns amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked electronic billboard array with neon reflections under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked led canyon glow featuring deli fruit bins amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked led canyon glow framed by newspaper boxes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked led canyon glow with steam vents under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked led canyon glow with umbrella canopies under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked neon-soaked corner beside traffic cone stacks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked neon-soaked corner featuring traffic cone stacks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked pedestrian island center featuring newspaper boxes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked pedestrian island center framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked plaza bench zone framed by street lamp halos during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked plaza bench zone with bike racks under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked red-step platform with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked red-step platform with planters under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked subway entrance vortex alongside bike racks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked subway entrance vortex alongside scaffolding tubes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked subway entrance vortex featuring granite balustrades amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked theater district alley alongside street lamp halos beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked theater district alley framed by bike racks during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked theater district alley with deli fruit bins under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked theater marquee backdrop with park benches under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tkts steps tier featuring granite balustrades amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tkts steps tier framed by traffic cone stacks during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tourist crosswalk alongside wrought-iron fences beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tourist crosswalk beside umbrella canopies through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tourist crosswalk featuring park benches amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tourist crosswalk framed by planters during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tourist crosswalk framed by planters during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked tourist crosswalk framed by stacked milk crates during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo billboard wall base alongside delivery carts beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo billboard wall base alongside puddle mirrors beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo billboard wall base featuring chain-link patterns amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo billboard wall base featuring scaffolding tubes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo billboard wall base featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo billboard wall base framed by neon reflections during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo broadway intersection alongside planters beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo broadway intersection beside chain-link patterns through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo digital screen wall framed by umbrella canopies during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo electronic billboard array framed by steam vents during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo electronic billboard array with chain-link patterns under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo led canyon glow alongside chain-link patterns beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo led canyon glow framed by bike racks during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo light-bathed sidewalk featuring scaffolding tubes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo light-bathed sidewalk with umbrella canopies under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo neon-soaked corner beside chain-link patterns through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo neon-soaked corner featuring traffic cone stacks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo pedestrian island center featuring stacked milk crates amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo pedestrian island center framed by deli fruit bins during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo pedestrian island center with delivery carts under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo plaza bench zone featuring fire-escape shadows amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo plaza bench zone framed by umbrella canopies during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo plaza bench zone with puddle mirrors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo red-step platform beside delivery carts through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo red-step platform with stacked milk crates under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo theater district alley alongside scaffolding tubes beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo theater district alley featuring traffic cone stacks amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo theater district alley with chain-link patterns under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo theater marquee backdrop beside steam vents through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo theater marquee backdrop featuring awning stripes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tkts steps tier featuring park benches amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tkts steps tier framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tkts steps tier with planters under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tourist crosswalk beside park benches through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo tourist crosswalk with deli fruit bins under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed billboard wall base alongside park benches beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed billboard wall base featuring scaffolding tubes amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed billboard wall base framed by awning stripes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed billboard wall base framed by planters during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed broadway intersection alongside umbrella canopies beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed broadway intersection framed by hydrant sentinels during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed broadway intersection with steam vents under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed digital screen wall featuring bike racks amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed digital screen wall featuring deli fruit bins amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed digital screen wall framed by chain-link patterns during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed electronic billboard array beside delivery carts through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed electronic billboard array beside stacked milk crates through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed electronic billboard array featuring deli fruit bins amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed electronic billboard array with planters under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed led canyon glow alongside scaffolding tubes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed led canyon glow alongside traffic cone stacks beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed led canyon glow beside newspaper boxes through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed led canyon glow featuring delivery carts amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed led canyon glow featuring newspaper boxes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed light-bathed sidewalk alongside puddle mirrors beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed light-bathed sidewalk beside puddle mirrors through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed light-bathed sidewalk featuring bike racks amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed pedestrian island center alongside newspaper boxes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed pedestrian island center featuring granite balustrades amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed pedestrian island center featuring planters amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed pedestrian island center framed by deli fruit bins during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed plaza bench zone alongside awning stripes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed plaza bench zone beside stacked milk crates through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed plaza bench zone featuring deli fruit bins amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed plaza bench zone featuring umbrella canopies amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed red-step platform alongside planters beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed red-step platform beside fire-escape shadows through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed red-step platform framed by traffic cone stacks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed subway entrance vortex framed by steam vents during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed theater district alley featuring newspaper boxes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed theater marquee backdrop alongside deli fruit bins beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed theater marquee backdrop framed by deli fruit bins during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed theater marquee backdrop with traffic cone stacks under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tkts steps tier beside delivery carts through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tkts steps tier framed by awning stripes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tkts steps tier framed by puddle mirrors during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tourist crosswalk beside neon reflections through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tourist crosswalk featuring delivery carts amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed tourist crosswalk with newspaper boxes under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft billboard wall base alongside stacked milk crates beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft billboard wall base with granite balustrades under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft broadway intersection beside neon reflections through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft broadway intersection with puddle mirrors under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft digital screen wall alongside granite balustrades beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft digital screen wall featuring hydrant sentinels amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft digital screen wall featuring planters amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft digital screen wall framed by deli fruit bins during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft electronic billboard array featuring fire-escape shadows amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft electronic billboard array featuring granite balustrades amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft electronic billboard array featuring umbrella canopies amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft electronic billboard array with awning stripes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft electronic billboard array with scaffolding tubes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft led canyon glow alongside bike racks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft light-bathed sidewalk framed by awning stripes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft light-bathed sidewalk with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft neon-soaked corner featuring hydrant sentinels amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft neon-soaked corner framed by planters during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft neon-soaked corner framed by steam vents during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft neon-soaked corner with street lamp halos under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft pedestrian island center alongside newspaper boxes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft pedestrian island center alongside street lamp halos beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft pedestrian island center beside street lamp halos through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench zone alongside awning stripes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench zone featuring wrought-iron fences amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft red-step platform featuring delivery carts amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft red-step platform featuring planters amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft subway entrance vortex alongside deli fruit bins beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft subway entrance vortex beside bike racks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft subway entrance vortex beside street lamp halos through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft subway entrance vortex beside traffic cone stacks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft subway entrance vortex framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft subway entrance vortex with newspaper boxes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft theater district alley framed by deli fruit bins during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft theater district alley with hydrant sentinels under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft theater marquee backdrop alongside newspaper boxes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft theater marquee backdrop beside street lamp halos through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft theater marquee backdrop with park benches under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft tkts steps tier beside planters through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft tkts steps tier with puddle mirrors under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn billboard wall base alongside chain-link patterns beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn billboard wall base alongside fire-escape shadows beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn billboard wall base beside granite balustrades through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn billboard wall base framed by delivery carts during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn billboard wall base with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection alongside granite balustrades beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection alongside park benches beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection beside delivery carts through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection beside granite balustrades through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection framed by planters during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection with granite balustrades under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn broadway intersection with newspaper boxes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn digital screen wall framed by delivery carts during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn electronic billboard array featuring hydrant sentinels amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn electronic billboard array framed by scaffolding tubes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn led canyon glow framed by park benches during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn light-bathed sidewalk with fire-escape shadows under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn neon-soaked corner alongside wrought-iron fences beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn neon-soaked corner beside wrought-iron fences through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn neon-soaked corner with puddle mirrors under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn pedestrian island center beside steam vents through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn pedestrian island center beside wrought-iron fences through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn pedestrian island center featuring hydrant sentinels amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn pedestrian island center featuring park benches amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn pedestrian island center with scaffolding tubes under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn plaza bench zone beside deli fruit bins through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn plaza bench zone beside wrought-iron fences through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn plaza bench zone with deli fruit bins under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn red-step platform beside granite balustrades through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn red-step platform with planters under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn subway entrance vortex alongside street lamp halos beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn subway entrance vortex featuring scaffolding tubes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn subway entrance vortex framed by bike racks during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn theater district alley alongside granite balustrades beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn theater marquee backdrop featuring park benches amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn theater marquee backdrop framed by hydrant sentinels during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn theater marquee backdrop framed by planters during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn theater marquee backdrop framed by steam vents during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tkts steps tier featuring awning stripes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tkts steps tier with stacked milk crates under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tkts steps tier with umbrella canopies under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tourist crosswalk alongside scaffolding tubes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tourist crosswalk beside wrought-iron fences through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn tourist crosswalk with steam vents under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed billboard wall base alongside fire-escape shadows beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed billboard wall base beside stacked milk crates through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed billboard wall base featuring stacked milk crates amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed broadway intersection beside delivery carts through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed digital screen wall alongside steam vents beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed digital screen wall featuring steam vents amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed digital screen wall with street lamp halos under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed electronic billboard array alongside steam vents beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed electronic billboard array featuring bike racks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed electronic billboard array framed by planters during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed electronic billboard array with street lamp halos under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed led canyon glow beside bike racks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed light-bathed sidewalk alongside neon reflections beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed light-bathed sidewalk featuring park benches amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed light-bathed sidewalk framed by park benches during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed neon-soaked corner with hydrant sentinels under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed pedestrian island center beside wrought-iron fences through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed pedestrian island center framed by hydrant sentinels during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed pedestrian island center framed by planters during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed pedestrian island center with granite balustrades under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plaza bench zone alongside fire-escape shadows beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plaza bench zone beside chain-link patterns through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plaza bench zone beside umbrella canopies through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plaza bench zone framed by wrought-iron fences during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed red-step platform alongside street lamp halos beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed red-step platform framed by scaffolding tubes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed red-step platform with delivery carts under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed subway entrance vortex alongside fire-escape shadows beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed subway entrance vortex with awning stripes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed subway entrance vortex with umbrella canopies under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed tkts steps tier framed by bike racks during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed tourist crosswalk alongside park benches beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed tourist crosswalk alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed tourist crosswalk featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze billboard wall base beside fire-escape shadows through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze billboard wall base framed by steam vents during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze billboard wall base with wrought-iron fences under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze broadway intersection beside delivery carts through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze broadway intersection beside delivery carts through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze broadway intersection beside park benches through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze broadway intersection beside umbrella canopies through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze broadway intersection featuring fire-escape shadows amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze broadway intersection with chain-link patterns under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze digital screen wall with deli fruit bins under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze electronic billboard array featuring scaffolding tubes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze electronic billboard array framed by newspaper boxes during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze led canyon glow framed by newspaper boxes during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze led canyon glow with umbrella canopies under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze light-bathed sidewalk alongside chain-link patterns beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze light-bathed sidewalk featuring street lamp halos amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze neon-soaked corner beside street lamp halos through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze neon-soaked corner featuring puddle mirrors amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze neon-soaked corner with chain-link patterns under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze neon-soaked corner with stacked milk crates under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze pedestrian island center framed by awning stripes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze pedestrian island center framed by stacked milk crates during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze plaza bench zone alongside hydrant sentinels beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze plaza bench zone framed by granite balustrades during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze plaza bench zone framed by street lamp halos during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze red-step platform alongside street lamp halos beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze red-step platform beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze red-step platform beside umbrella canopies through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex beside granite balustrades through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex beside puddle mirrors through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex beside stacked milk crates through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex featuring chain-link patterns amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex framed by stacked milk crates during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex with chain-link patterns under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze subway entrance vortex with traffic cone stacks under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley featuring hydrant sentinels amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley featuring hydrant sentinels amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley framed by granite balustrades during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley framed by puddle mirrors during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley framed by stacked milk crates during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley framed by street lamp halos during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley with awning stripes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley with delivery carts under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley with park benches under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater district alley with planters under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater marquee backdrop framed by scaffolding tubes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze theater marquee backdrop with street lamp halos under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tkts steps tier with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tkts steps tier with steam vents under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tourist crosswalk beside newspaper boxes through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tourist crosswalk beside umbrella canopies through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tourist crosswalk featuring granite balustrades amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tourist crosswalk framed by umbrella canopies during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tourist crosswalk with chain-link patterns under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze tourist crosswalk with hydrant sentinels under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed billboard wall base alongside fire-escape shadows beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed billboard wall base alongside hydrant sentinels beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed billboard wall base alongside stacked milk crates beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed billboard wall base beside wrought-iron fences through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed billboard wall base featuring traffic cone stacks amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed billboard wall base framed by awning stripes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed broadway intersection beside granite balustrades through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed broadway intersection beside puddle mirrors through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed broadway intersection featuring wrought-iron fences amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed broadway intersection with chain-link patterns under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed digital screen wall alongside wrought-iron fences beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed digital screen wall beside park benches through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed digital screen wall framed by puddle mirrors during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed electronic billboard array framed by street lamp halos during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed electronic billboard array framed by street lamp halos during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed led canyon glow beside granite balustrades through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed led canyon glow framed by newspaper boxes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed led canyon glow with deli fruit bins under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed neon-soaked corner alongside deli fruit bins beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed neon-soaked corner with bike racks under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed plaza bench zone alongside bike racks beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed plaza bench zone alongside wrought-iron fences beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed plaza bench zone with granite balustrades under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed plaza bench zone with umbrella canopies under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed red-step platform alongside fire-escape shadows beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed red-step platform featuring wrought-iron fences amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed red-step platform framed by chain-link patterns during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed subway entrance vortex framed by street lamp halos during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed subway entrance vortex framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed theater district alley beside wrought-iron fences through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed theater district alley with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed theater marquee backdrop alongside granite balustrades beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed theater marquee backdrop featuring umbrella canopies amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed theater marquee backdrop framed by chain-link patterns during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed theater marquee backdrop with steam vents under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tkts steps tier alongside puddle mirrors beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tkts steps tier framed by traffic cone stacks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tkts steps tier framed by traffic cone stacks during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tourist crosswalk beside fire-escape shadows through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tourist crosswalk beside street lamp halos through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed tourist crosswalk with park benches under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled billboard wall base featuring granite balustrades amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled billboard wall base with granite balustrades under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled broadway intersection alongside park benches beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled broadway intersection featuring street lamp halos amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled broadway intersection framed by hydrant sentinels during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled broadway intersection with umbrella canopies under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled electronic billboard array alongside park benches beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled electronic billboard array beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled electronic billboard array featuring granite balustrades amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled electronic billboard array featuring steam vents amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled electronic billboard array framed by chain-link patterns during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled led canyon glow featuring wrought-iron fences amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled led canyon glow with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled light-bathed sidewalk with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled pedestrian island center alongside neon reflections beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled pedestrian island center alongside umbrella canopies beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled plaza bench zone featuring traffic cone stacks amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled plaza bench zone framed by bike racks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled plaza bench zone with awning stripes under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled red-step platform with neon reflections under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled subway entrance vortex alongside traffic cone stacks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled subway entrance vortex beside stacked milk crates through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled subway entrance vortex featuring stacked milk crates amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled subway entrance vortex with traffic cone stacks under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley alongside neon reflections beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley alongside umbrella canopies beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley beside fire-escape shadows through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley beside planters through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley featuring puddle mirrors amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley framed by deli fruit bins during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater district alley framed by scaffolding tubes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater marquee backdrop alongside puddle mirrors beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater marquee backdrop framed by fire-escape shadows during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater marquee backdrop with awning stripes under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater marquee backdrop with awning stripes under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled theater marquee backdrop with street lamp halos under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tkts steps tier alongside hydrant sentinels beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tkts steps tier alongside neon reflections beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tkts steps tier with deli fruit bins under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tourist crosswalk alongside stacked milk crates beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tourist crosswalk framed by scaffolding tubes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled tourist crosswalk with hydrant sentinels under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim billboard wall base alongside deli fruit bins beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim billboard wall base featuring scaffolding tubes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim broadway intersection beside puddle mirrors through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim digital screen wall beside umbrella canopies through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim digital screen wall featuring wrought-iron fences amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim electronic billboard array alongside steam vents beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim electronic billboard array framed by park benches during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim electronic billboard array with granite balustrades under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow alongside traffic cone stacks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow beside park benches through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow beside planters through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow featuring scaffolding tubes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim led canyon glow framed by delivery carts during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim light-bathed sidewalk alongside hydrant sentinels beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim pedestrian island center framed by puddle mirrors during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim plaza bench zone alongside wrought-iron fences beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim plaza bench zone featuring park benches amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim plaza bench zone framed by steam vents during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim red-step platform alongside neon reflections beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim subway entrance vortex alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim subway entrance vortex beside scaffolding tubes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim theater district alley framed by chain-link patterns during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim theater district alley with street lamp halos under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim theater marquee backdrop with park benches under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim tourist crosswalk alongside hydrant sentinels beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim tourist crosswalk featuring deli fruit bins amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim tourist crosswalk featuring steam vents amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim tourist crosswalk framed by awning stripes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled billboard wall base featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled billboard wall base framed by chain-link patterns during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled billboard wall base with traffic cone stacks under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled broadway intersection framed by wrought-iron fences during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled broadway intersection with stacked milk crates under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled digital screen wall alongside neon reflections beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled digital screen wall alongside puddle mirrors beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled digital screen wall alongside scaffolding tubes beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled digital screen wall featuring fire-escape shadows amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled digital screen wall framed by puddle mirrors during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled electronic billboard array alongside bike racks beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled electronic billboard array featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled led canyon glow alongside neon reflections beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled led canyon glow framed by delivery carts during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled led canyon glow with umbrella canopies under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled light-bathed sidewalk alongside wrought-iron fences beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled light-bathed sidewalk with puddle mirrors under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled neon-soaked corner alongside neon reflections beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled neon-soaked corner beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled neon-soaked corner featuring traffic cone stacks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled pedestrian island center beside wrought-iron fences through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled pedestrian island center featuring awning stripes amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled pedestrian island center featuring delivery carts amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled pedestrian island center framed by traffic cone stacks during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled pedestrian island center with hydrant sentinels under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled red-step platform featuring puddle mirrors amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled red-step platform featuring steam vents amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled red-step platform framed by newspaper boxes during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled subway entrance vortex beside steam vents through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled subway entrance vortex featuring scaffolding tubes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled subway entrance vortex framed by planters during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled subway entrance vortex with park benches under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater district alley beside deli fruit bins through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater district alley beside neon reflections through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater district alley beside park benches through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater district alley framed by deli fruit bins during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater district alley framed by steam vents during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater marquee backdrop alongside scaffolding tubes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater marquee backdrop featuring street lamp halos amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled theater marquee backdrop framed by delivery carts during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tkts steps tier featuring street lamp halos amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tkts steps tier framed by awning stripes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tkts steps tier with wrought-iron fences under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tourist crosswalk framed by awning stripes during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tourist crosswalk framed by street lamp halos during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tourist crosswalk framed by wrought-iron fences during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tourist crosswalk framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled tourist crosswalk with stacked milk crates under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey billboard wall base alongside fire-escape shadows beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey broadway intersection featuring hydrant sentinels amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey digital screen wall beside granite balustrades through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey electronic billboard array alongside hydrant sentinels beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey electronic billboard array beside granite balustrades through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey electronic billboard array featuring puddle mirrors amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey led canyon glow featuring bike racks amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey led canyon glow with street lamp halos under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey light-bathed sidewalk alongside chain-link patterns beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey light-bathed sidewalk beside wrought-iron fences through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey light-bathed sidewalk featuring park benches amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey neon-soaked corner beside planters through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey neon-soaked corner beside stacked milk crates through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey neon-soaked corner featuring delivery carts amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey neon-soaked corner framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey pedestrian island center alongside hydrant sentinels beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench zone featuring deli fruit bins amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench zone featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench zone framed by hydrant sentinels during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench zone with delivery carts under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench zone with fire-escape shadows under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench zone with scaffolding tubes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey red-step platform framed by granite balustrades during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey red-step platform with granite balustrades under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey subway entrance vortex framed by newspaper boxes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey subway entrance vortex framed by puddle mirrors during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey subway entrance vortex with stacked milk crates under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey theater district alley alongside awning stripes beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey theater district alley alongside bike racks beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey theater district alley framed by fire-escape shadows during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey theater district alley framed by stacked milk crates during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey theater district alley with neon reflections under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey tourist crosswalk beside planters through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey tourist crosswalk featuring park benches amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base beside bike racks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base beside puddle mirrors through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base featuring delivery carts amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base framed by awning stripes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base framed by delivery carts during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base framed by newspaper boxes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base framed by steam vents during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim billboard wall base with scaffolding tubes under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim broadway intersection alongside stacked milk crates beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim broadway intersection framed by hydrant sentinels during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim broadway intersection with puddle mirrors under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim broadway intersection with traffic cone stacks under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim digital screen wall alongside granite balustrades beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim digital screen wall with bike racks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim digital screen wall with street lamp halos under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim electronic billboard array alongside umbrella canopies beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim led canyon glow alongside hydrant sentinels beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim led canyon glow beside traffic cone stacks through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim led canyon glow with chain-link patterns under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim light-bathed sidewalk framed by stacked milk crates during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim neon-soaked corner beside steam vents through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim pedestrian island center beside granite balustrades through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim pedestrian island center beside stacked milk crates through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim pedestrian island center with fire-escape shadows under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim pedestrian island center with street lamp halos under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench zone with awning stripes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench zone with newspaper boxes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench zone with stacked milk crates under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim red-step platform alongside granite balustrades beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim red-step platform beside steam vents through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim red-step platform featuring umbrella canopies amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim red-step platform framed by newspaper boxes during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim subway entrance vortex alongside chain-link patterns beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim subway entrance vortex with granite balustrades under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim theater district alley alongside puddle mirrors beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim theater district alley framed by umbrella canopies during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim theater marquee backdrop framed by newspaper boxes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim theater marquee backdrop with street lamp halos under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim tkts steps tier framed by delivery carts during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim tourist crosswalk framed by deli fruit bins during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist broadway intersection alongside delivery carts beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist broadway intersection featuring puddle mirrors amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist digital screen wall beside park benches through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist digital screen wall framed by fire-escape shadows during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist digital screen wall framed by street lamp halos during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist electronic billboard array beside bike racks through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist led canyon glow framed by puddle mirrors during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist light-bathed sidewalk beside granite balustrades through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist light-bathed sidewalk framed by scaffolding tubes during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist neon-soaked corner alongside scaffolding tubes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist neon-soaked corner featuring scaffolding tubes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist neon-soaked corner featuring traffic cone stacks amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist neon-soaked corner framed by awning stripes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist neon-soaked corner framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist neon-soaked corner framed by neon reflections during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist pedestrian island center featuring newspaper boxes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist pedestrian island center framed by planters during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist plaza bench zone featuring stacked milk crates amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist red-step platform beside awning stripes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist subway entrance vortex alongside granite balustrades beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist subway entrance vortex featuring fire-escape shadows amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist subway entrance vortex with stacked milk crates under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater district alley alongside chain-link patterns beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater district alley alongside puddle mirrors beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater district alley beside wrought-iron fences through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater marquee backdrop alongside hydrant sentinels beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater marquee backdrop alongside steam vents beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater marquee backdrop featuring street lamp halos amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater marquee backdrop framed by scaffolding tubes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist theater marquee backdrop with newspaper boxes under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist tkts steps tier beside park benches through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist tkts steps tier framed by puddle mirrors during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist tourist crosswalk alongside hydrant sentinels beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist tourist crosswalk framed by neon reflections during summer heat shimmer",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "LED glow reflecting in sunglasses",
+        "weight": 0.6
+      },
+      {
+        "text": "Playbill corner tucked in bag",
+        "weight": 0.5
+      },
+      {
+        "text": "electric-blue phone case in hand",
+        "weight": 0.6
+      },
+      {
+        "text": "neon-lit wristwatch face",
+        "weight": 0.5
+      },
+      {
+        "text": "Broadway lanyard around neck",
+        "weight": 0.4
+      }
+    ],
+    "twist": [
+      {
+        "text": "LED billboard flicker pulsing colors",
+        "weight": 0.7
+      },
+      {
+        "text": "tourist crowd parting around frame",
+        "weight": 0.5
+      },
+      {
+        "text": "taxi brake light streak passing",
+        "weight": 0.5
+      },
+      {
+        "text": "theater marquee bulb chase sequencing",
+        "weight": 0.5
+      },
+      {
+        "text": "street performer music drifting in",
+        "weight": 0.5
+      }
+    ]
+  }
+}
