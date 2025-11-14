@@ -39,16 +39,16 @@ ACCESSORY_MAP = {
     "bag": r"(belt bag|waist pack|micro-?satchel|purse|backpack)",
 }
 
-# Binding policy for recency tracking
+# Binding policy for recency tracking (Twist removed)
 BIND_POLICY = {
     "scene": {"k": 1, "recent": 50},
-    "pose_microaction": {"k": 1, "recent": 50},
+    "pose_microaction": {"k": 1, "recent": 60},  # strict enforcement
     "lighting": {"k": 1, "recent": 40},
     "camera": {"k": 1, "recent": 40},
     "angle": {"k": 1, "recent": 40},
-    "twist": {"k": 1, "recent": 50},
-    "accessories": {"k": 1, "recent": 50},
+    "accessories": {"k": 1, "recent": 50},  # single accessory default
 }
+INSPIRE_ONLY = {"wardrobe_top", "wardrobe_bottom"}  # never bind
 
 
 def _acc_category(text: str) -> str:
@@ -471,7 +471,9 @@ Create music brief. Return JSON:
 
     def generate_prompt_bundle(
         self,
-        setting: str,
+        setting_id: str,
+        location_label: str,
+        location_path: str,
         seed_words: list[str] | None = None,
         count: int = 1,
         bind_scene: bool = True,
@@ -479,7 +481,6 @@ Create music brief. Return JSON:
         bind_lighting: bool = True,
         bind_camera: bool = True,
         bind_angle: bool = True,
-        bind_twist: bool = True,
         bind_accessories: bool = True,
         bind_wardrobe: bool = False,
         single_accessory: bool = True,
@@ -488,15 +489,16 @@ Create music brief. Return JSON:
         Generate prompt bundles (image + video) for manual workflow.
 
         Args:
-            setting: High-level setting (e.g., "Japan", "Santorini")
+            setting_id: Location ID (e.g., "japan", "us-new_york-manhattan-times_square")
+            location_label: Human-readable location name (e.g., "Japan", "Times Square — Manhattan, NY")
+            location_path: Full path to location JSON file
             seed_words: Optional embellisher keywords
             count: Number of bundles to generate (1-10)
             bind_scene: Bind scene from location JSON
-            bind_pose_microaction: Bind pose/micro-action
+            bind_pose_microaction: Bind pose/micro-action (VERBATIM enforcement)
             bind_lighting: Bind lighting
             bind_camera: Bind camera
             bind_angle: Bind angle
-            bind_twist: Bind twist (mandatory by default)
             bind_accessories: Bind accessories
             bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
             single_accessory: If True, bind exactly 1 accessory; if False, bind 2
@@ -505,9 +507,9 @@ Create music brief. Return JSON:
             List of bundle dicts (backwards compatible format)
         """
         log.info(
-            f"GROK_BUNDLE setting={setting} seed_words={seed_words} count={count} "
+            f"GROK_BUNDLE setting_id={setting_id} location_label={location_label} seed_words={seed_words} count={count} "
             f"bind_scene={bind_scene} bind_pose={bind_pose_microaction} bind_lighting={bind_lighting} "
-            f"bind_camera={bind_camera} bind_angle={bind_angle} bind_twist={bind_twist} "
+            f"bind_camera={bind_camera} bind_angle={bind_angle} "
             f"bind_accessories={bind_accessories} bind_wardrobe={bind_wardrobe} single_accessory={single_accessory}"
         )
 
@@ -522,23 +524,22 @@ Create music brief. Return JSON:
         except (FileNotFoundError, json.JSONDecodeError) as e:
             raise RuntimeError(f"Failed to load config files: {e}") from e
 
-        # Load scenes from location-specific JSON
-        location_key = setting.lower().replace(" ", "_").replace("-", "_")
-        location_path = get_data_path(f"locations/{location_key}.json")
-        scenes = []
+        # Load scenes from location-specific JSON using provided path
+        from pathlib import Path
+        location_file = Path(location_path)
 
-        if location_path.exists():
-            try:
-                with open(location_path, "r", encoding="utf-8") as f:
-                    location_data = json.load(f)
-                    scenes = location_data.get("scenes", [])
-                    log.info(f"GROK_BUNDLE loaded {len(scenes)} scenes from {location_key}.json")
-            except (FileNotFoundError, json.JSONDecodeError) as e:
-                log.warning(f"Failed to load location file {location_key}.json: {e}, falling back to variety bank")
-                scenes = variety_bank.get("scene", [])
-        else:
-            log.warning(f"Location file {location_key}.json not found, using variety bank scenes")
-            scenes = variety_bank.get("scene", [])
+        if not location_file.exists():
+            log.error(f"Location file not found: {location_path}")
+            raise RuntimeError(f"Location file not found: {location_path}")
+
+        try:
+            with open(location_file, "r", encoding="utf-8") as f:
+                location_data = json.load(f)
+                scenes = location_data.get("scenes", [])
+                log.info(f"GROK_BUNDLE loaded {len(scenes)} scenes from {location_file.name} (setting_id={setting_id})")
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            log.error(f"Failed to load location file {location_path}: {e}")
+            raise RuntimeError(f"Failed to load scenes from {location_path}: {e}") from e
 
         # Build appearance
         appearance = self._build_appearance(persona)
@@ -551,8 +552,6 @@ Create music brief. Return JSON:
         angles = variety_bank.get("angle", [])
         wardrobe_top = variety_bank.get("wardrobe_top", [])
         wardrobe_bottom = variety_bank.get("wardrobe_bottom", [])
-        twists = variety_bank.get("twist", [])
-        scenes = variety_bank.get("scene", [])
 
         # Build negative prompt
         dont_list = persona.get("dont", [])
@@ -561,22 +560,20 @@ Create music brief. Return JSON:
 
         # Per-call RNG for varied sampling (includes timestamp for true randomness)
         rng = random.Random()
-        rng.seed(hash(f"{setting}|{seed_words}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
+        rng.seed(hash(f"{setting_id}|{seed_words}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
 
         # Setup binding policy based on UI flags
         bind_policy = {}
         if bind_scene:
             bind_policy["scene"] = {"k": 1, "recent": 50}
         if bind_pose_microaction:
-            bind_policy["pose_microaction"] = {"k": 1, "recent": 50}
+            bind_policy["pose_microaction"] = {"k": 1, "recent": 80}
         if bind_lighting:
             bind_policy["lighting"] = {"k": 1, "recent": 40}
         if bind_camera:
             bind_policy["camera"] = {"k": 1, "recent": 40}
         if bind_angle:
             bind_policy["angle"] = {"k": 1, "recent": 40}
-        if bind_twist:
-            bind_policy["twist"] = {"k": 1, "recent": 50}
         if bind_accessories:
             # Respect single_accessory flag
             bind_policy["accessories"] = {"k": 1 if single_accessory else 2, "recent": 50}
@@ -586,13 +583,12 @@ Create music brief. Return JSON:
 
         # Create panels (larger for diversity)
         acc_panel = self._weighted_sample_texts(accessories, 15, rng)
-        pose_panel = self._weighted_sample_texts(poses, 15, rng)
+        pose_panel = self._weighted_sample_texts(poses, 30, rng)
         light_panel = self._weighted_sample_texts(lighting, 12, rng)
         cam_panel = self._weighted_sample_texts(camera, 10, rng)
         ang_panel = self._weighted_sample_texts(angles, 12, rng)
         top_panel = self._weighted_sample_texts(wardrobe_top, 12, rng)
         bot_panel = self._weighted_sample_texts(wardrobe_bottom, 12, rng)
-        twist_panel = self._weighted_sample_texts(twists, 12, rng)
         scene_panel = self._weighted_sample_texts(scenes, 10, rng)
 
         # Bind slots according to policy
@@ -602,7 +598,6 @@ Create music brief. Return JSON:
         bound["lighting"] = self._bind_from_panel("lighting", light_panel, bind_policy, rng) if bind_lighting else []
         bound["camera"] = self._bind_from_panel("camera", cam_panel, bind_policy, rng) if bind_camera else []
         bound["angle"] = self._bind_from_panel("angle", ang_panel, bind_policy, rng) if bind_angle else []
-        bound["twist"] = self._bind_from_panel("twist", twist_panel, bind_policy, rng) if bind_twist else []
 
         # Accessory binding with smart selection
         if bind_accessories:
@@ -633,9 +628,10 @@ Create music brief. Return JSON:
         if bind_scene and bound.get("scene"):
             bound_constraints.append(f"Scene: `<scene>[{bound['scene'][0]}]`")
         if bind_pose_microaction and bound.get("pose_microaction"):
-            bound_constraints.append(f"Pose (must include this bound micro-action): `<pose_microaction>[{bound['pose_microaction'][0]}]`")
-        if bind_twist and bound.get("twist"):
-            bound_constraints.append(f"Twist (must include this bound twist): `<twist>[{bound['twist'][0]}]`")
+            bound_constraints.append(
+                f"**BOUND POSE — copy this phrase EXACTLY at the START of the Pose line (no additions inside it):**\n"
+                f"  `{bound['pose_microaction'][0]}`"
+            )
         if bind_lighting and bound.get("lighting"):
             bound_constraints.append(f"Lighting: `<lighting>[{bound['lighting'][0]}]`")
         if bind_camera and bound.get("camera"):
@@ -680,8 +676,6 @@ Examples (DO NOT REUSE): {', '.join(top_panel[:3])}, {', '.join(bot_panel[:3])}"
             inspiration_panels.append(f"Camera (select): {', '.join(cam_panel[:5])}")
         if not bind_angle:
             inspiration_panels.append(f"Angles (select): {', '.join(ang_panel[:6])}")
-        if not bind_twist:
-            inspiration_panels.append(f"Twists (optional): {', '.join(twist_panel[:6])}")
 
         # Build the prompt sections
         bound_section = ""
@@ -698,16 +692,17 @@ Examples (DO NOT REUSE): {', '.join(top_panel[:3])}, {', '.join(bot_panel[:3])}"
 
 """
 
-        system_prompt = f"""Create {count} prompt bundle(s) for: {setting}{seed_text}
+        system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
 Each bundle has:
-1. **IMAGE** prompt (800-1050 chars TARGET) - photorealistic glamour portrait
+1. **IMAGE** prompt (≈1,400 chars TARGET) - photorealistic glamour portrait
 2. **VIDEO** prompt (< 160 chars, 3-part format)
 
 **CRITICAL CHARACTER COUNT REQUIREMENTS:**
-- Target: 800-1050 characters (including spaces)
-- Enforced minimum: 800 chars
-- Maximum: 1500 chars (Leonardo API hard limit)
+- Target: ≈1,400 characters (ideal sweet spot for detail + quality)
+- Valid window: 1,300-1,500 characters (including spaces)
+- Enforced minimum: 1,300 chars (below this will be REJECTED)
+- Maximum: 1,500 chars (Leonardo API hard limit)
 - Count carefully before submitting!
 
 **CHARACTER:** {appearance}
@@ -716,9 +711,19 @@ Each bundle has:
 
 {wardrobe_section}
 
-**IMAGE STRUCTURE (aim for 800-1050 chars total):**
-Sections (ordered): Character, Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Twist (if bound), Environment.
-Use concise wording; avoid repeating location/ambience phrases.
+**IMAGE STRUCTURE (aim for ≈1,400 chars total):**
+Sections (ordered): Character, Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Environment.
+Expand each section with rich sensory detail, specific textures, and atmospheric cues to reach 1,400 chars.
+
+**CRITICAL — BOUND POSE REQUIREMENT:**
+If a BOUND POSE phrase is shown above, you MUST place it EXACTLY at the START of the Pose line.
+- Do NOT add any text before the bound phrase
+- Do NOT modify the phrase itself
+- Do NOT add commas or embellishments inside the bound phrase
+- After the bound phrase ends, you may add a period/semicolon/comma and continue with more pose detail
+- Example: If bound phrase is "arched back stretch", your Pose line MUST start: "Pose: arched back stretch; ..."
+
+For other bound phrases (scene, lighting, camera, angle, accessories), include them verbatim but placement flexibility is allowed.
 
 **VIDEO (6s, keep < 160 chars total):**
 Format: "[camera move]; [character micro-action]; [environment cue]."
@@ -753,7 +758,7 @@ Return JSON array of {count} bundle(s):
                 for bundle_raw in bundles_raw:
                     # Generate deterministic ID
                     prompt_text = bundle_raw["image_prompt"]["final_prompt"]
-                    bundle_id = self._generate_bundle_id(setting, prompt_text)
+                    bundle_id = self._generate_bundle_id(setting_id, prompt_text)
                     bundle_raw["id"] = bundle_id
 
                     # Validate with Pydantic
@@ -761,7 +766,7 @@ Return JSON array of {count} bundle(s):
 
                     # Enforce character limits (fail-loud policy)
                     prompt_len = len(validated.image_prompt.final_prompt)
-                    min_chars = 800  # Target minimum (updated to 800)
+                    min_chars = 1300  # Target minimum (updated to 1,300)
                     max_chars = self.config.max_prompt_chars  # 1500 hard limit
 
                     if prompt_len < min_chars:
@@ -781,7 +786,7 @@ Return JSON array of {count} bundle(s):
                     is_valid, errors = self._validate_bundle(
                         bundle_raw, bound,
                         bind_scene, bind_pose_microaction, bind_lighting,
-                        bind_camera, bind_angle, bind_twist,
+                        bind_camera, bind_angle,
                         bind_accessories, bind_wardrobe
                     )
                     if not is_valid:
@@ -910,11 +915,27 @@ Create metadata. Return JSON:
             f"{persona.get('skin', 'sun-kissed realistic glowing skin with high radiant complexion and natural wet highlights')}"
         )
 
-    def _generate_bundle_id(self, setting: str, prompt: str) -> str:
-        """Generate deterministic bundle ID from setting and prompt."""
-        content = f"{setting}:{prompt[:200]}"
+    def _generate_bundle_id(self, setting_id: str, prompt: str) -> str:
+        """Generate deterministic bundle ID from setting_id and prompt."""
+        content = f"{setting_id}:{prompt[:200]}"
         hash_hex = hashlib.sha256(content.encode("utf-8")).hexdigest()
         return f"pr_{hash_hex[:12]}"
+
+    @staticmethod
+    def _extract_section(text: str, label: str) -> str | None:
+        """Extract content of a labeled section from prompt text."""
+        m = re.search(rf"{label}\s*:\s*(.+?)(?:\.|$)", text, flags=re.IGNORECASE | re.DOTALL)
+        return m.group(1).strip() if m else None
+
+    @staticmethod
+    def _starts_with_phrase(section: str, phrase: str) -> bool:
+        """Check if section starts with the exact phrase (case-insensitive)."""
+        if not section or not phrase:
+            return False
+        # Escape special regex characters and match at start
+        esc = re.escape(phrase.strip())
+        # Allow end, whitespace, or punctuation immediately after
+        return re.match(rf"^{esc}([\s\.,;:!\?]|$)", section, flags=re.IGNORECASE) is not None
 
     def _validate_bundle(
         self,
@@ -925,7 +946,6 @@ Create metadata. Return JSON:
         bind_lighting: bool,
         bind_camera: bool,
         bind_angle: bool,
-        bind_twist: bool,
         bind_accessories: bool,
         bind_wardrobe: bool,
     ) -> tuple[bool, list[str]]:
@@ -948,10 +968,12 @@ Create metadata. Return JSON:
             if bound_text and bound_text not in img_prompt:
                 errors.append(f"Missing bound scene: '{bound['scene'][0]}'")
 
+        # STRICT Pose validation: must START the Pose section with exact phrase
         if bind_pose_microaction and bound.get("pose_microaction"):
-            bound_text = bound["pose_microaction"][0].lower()
-            if bound_text and bound_text not in img_prompt:
-                errors.append(f"Missing bound pose: '{bound['pose_microaction'][0]}'")
+            pose_bound = bound["pose_microaction"][0]
+            pose_section = self._extract_section(img_prompt, "Pose")
+            if not pose_section or not self._starts_with_phrase(pose_section, pose_bound):
+                errors.append(f"Pose must START with bound micro-action: '{pose_bound}'")
 
         if bind_lighting and bound.get("lighting"):
             bound_text = bound["lighting"][0].lower()
@@ -967,11 +989,6 @@ Create metadata. Return JSON:
             bound_text = bound["angle"][0].lower()
             if bound_text and bound_text not in img_prompt:
                 errors.append(f"Missing bound angle: '{bound['angle'][0]}'")
-
-        if bind_twist and bound.get("twist"):
-            bound_text = bound["twist"][0].lower()
-            if bound_text and bound_text not in img_prompt:
-                errors.append(f"Missing bound twist: '{bound['twist'][0]}'")
 
         if bind_accessories and bound.get("accessories"):
             for acc in bound["accessories"]:

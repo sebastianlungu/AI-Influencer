@@ -1,13 +1,24 @@
 import { useState, useEffect } from "react";
-import { generatePromptBundle, getRecentPrompts } from "./api";
+import { generatePromptBundle, getRecentPrompts, getLocations } from "./api";
 import PromptItem from "./PromptItem";
 import PromptDetail from "./PromptDetail";
 
+const RECENT_LOCATIONS_KEY = "plab_recent_locations";
+const MAX_RECENT = 5;
+
 export default function PromptLab() {
   // Form inputs
-  const [setting, setSetting] = useState("");
+  const [selectedLocationId, setSelectedLocationId] = useState("");
   const [seedWords, setSeedWords] = useState("");
   const [count, setCount] = useState(1);
+
+  // Locations state
+  const [locations, setLocations] = useState([]);
+  const [locationsLoading, setLocationsLoading] = useState(true);
+  const [locationsError, setLocationsError] = useState(null);
+  const [recentLocationIds, setRecentLocationIds] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [usaOnly, setUsaOnly] = useState(false);
 
   // Binding toggles
   const [bindScene, setBindScene] = useState(true);
@@ -15,7 +26,6 @@ export default function PromptLab() {
   const [bindLighting, setBindLighting] = useState(true);
   const [bindCamera, setBindCamera] = useState(true);
   const [bindAngle, setBindAngle] = useState(true);
-  const [bindTwist, setBindTwist] = useState(true);
   const [bindAccessories, setBindAccessories] = useState(true);
   const [bindWardrobe, setBindWardrobe] = useState(false);
   const [singleAccessory, setSingleAccessory] = useState(true);
@@ -26,10 +36,53 @@ export default function PromptLab() {
   const [bundles, setBundles] = useState([]);
   const [activeId, setActiveId] = useState(null);
 
-  // Load recent prompts on mount
+  // Load locations and recent prompts on mount
   useEffect(() => {
+    loadLocations();
     loadRecentPrompts();
+    loadRecentLocationIds();
   }, []);
+
+  const loadLocations = async () => {
+    try {
+      setLocationsLoading(true);
+      const data = await getLocations();
+      setLocations(data.locations || []);
+      setLocationsError(null);
+    } catch (err) {
+      console.error("Failed to load locations:", err);
+      setLocationsError(err.message || "Failed to load locations");
+    } finally {
+      setLocationsLoading(false);
+    }
+  };
+
+  const loadRecentLocationIds = () => {
+    try {
+      const stored = localStorage.getItem(RECENT_LOCATIONS_KEY);
+      if (stored) {
+        setRecentLocationIds(JSON.parse(stored));
+      }
+    } catch (err) {
+      console.error("Failed to load recent locations:", err);
+    }
+  };
+
+  const saveRecentLocationId = (locationId) => {
+    try {
+      let recent = [...recentLocationIds];
+      // Remove if already exists
+      recent = recent.filter((id) => id !== locationId);
+      // Add to front
+      recent.unshift(locationId);
+      // Keep only last MAX_RECENT
+      recent = recent.slice(0, MAX_RECENT);
+      setRecentLocationIds(recent);
+      localStorage.setItem(RECENT_LOCATIONS_KEY, JSON.stringify(recent));
+    } catch (err) {
+      console.error("Failed to save recent location:", err);
+    }
+  };
 
   const loadRecentPrompts = async () => {
     try {
@@ -50,7 +103,6 @@ export default function PromptLab() {
     setBindLighting(true);
     setBindCamera(true);
     setBindAngle(true);
-    setBindTwist(true);
     setBindAccessories(true);
   };
 
@@ -60,14 +112,13 @@ export default function PromptLab() {
     setBindLighting(false);
     setBindCamera(false);
     setBindAngle(false);
-    setBindTwist(true);
     setBindAccessories(true);
     setSingleAccessory(true);
   };
 
   const handleGenerate = async () => {
-    if (!setting.trim()) {
-      setError("Setting is required");
+    if (!selectedLocationId) {
+      setError("Location is required");
       return;
     }
 
@@ -81,7 +132,7 @@ export default function PromptLab() {
         .filter((w) => w.length > 0);
 
       const data = await generatePromptBundle({
-        setting: setting.trim(),
+        setting_id: selectedLocationId,
         seed_words: seedWordsArray.length > 0 ? seedWordsArray : null,
         count,
         bind_scene: bindScene,
@@ -89,7 +140,6 @@ export default function PromptLab() {
         bind_lighting: bindLighting,
         bind_camera: bindCamera,
         bind_angle: bindAngle,
-        bind_twist: bindTwist,
         bind_accessories: bindAccessories,
         bind_wardrobe: bindWardrobe,
         single_accessory: singleAccessory,
@@ -108,8 +158,10 @@ export default function PromptLab() {
         setActiveId(newBundles[0].id);
       }
 
-      // Clear form
-      setSetting("");
+      // Save to recent locations
+      saveRecentLocationId(selectedLocationId);
+
+      // Clear form (but keep location selected)
       setSeedWords("");
       setCount(1);
     } catch (err) {
@@ -135,32 +187,108 @@ export default function PromptLab() {
         <section className="lg:col-span-4 space-y-3">
           {/* Form Card */}
           <div className="bg-white border border-zinc-200 rounded-lg p-3 space-y-2">
-            {/* Setting & Seed Words */}
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">
-                  Setting <span className="text-red-500">*</span>
-                </label>
-                <input
-                  type="text"
-                  value={setting}
-                  onChange={(e) => setSetting(e.target.value)}
-                  placeholder="Japan, Greece..."
-                  className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
-                />
-              </div>
-              <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">
-                  Seed Words
-                </label>
-                <input
-                  type="text"
-                  value={seedWords}
-                  onChange={(e) => setSeedWords(e.target.value)}
-                  placeholder="dojo, dusk..."
-                  className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
-                />
-              </div>
+            {/* Location Selector */}
+            <div>
+              <label className="block text-xs font-medium text-gray-700 mb-1">
+                Location <span className="text-red-500">*</span>
+              </label>
+              {locationsLoading && (
+                <div className="text-xs text-gray-500 py-1">Loading locations...</div>
+              )}
+              {locationsError && (
+                <div className="text-xs text-red-600 py-1">
+                  {locationsError}. <button onClick={loadLocations} className="underline">Retry</button>
+                </div>
+              )}
+              {!locationsLoading && !locationsError && (
+                <>
+                  {/* Recent selections */}
+                  {recentLocationIds.length > 0 && (
+                    <div className="mb-1 flex gap-1 flex-wrap">
+                      {recentLocationIds.map((id) => {
+                        const loc = locations.find((l) => l.id === id);
+                        if (!loc) return null;
+                        return (
+                          <button
+                            key={id}
+                            onClick={() => setSelectedLocationId(id)}
+                            className={`px-2 py-0.5 text-[10px] rounded border ${
+                              selectedLocationId === id
+                                ? "bg-blue-100 border-blue-300 text-blue-700"
+                                : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                            }`}
+                            title={`${loc.label} (${loc.count} scenes)`}
+                          >
+                            {loc.label}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                  {/* Search input and USA filter */}
+                  <div className="flex gap-1 mb-1">
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="Search locations..."
+                      className="flex-1 px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                    />
+                    <button
+                      onClick={() => setUsaOnly(!usaOnly)}
+                      className={`px-2 py-1 text-[10px] font-medium rounded border whitespace-nowrap ${
+                        usaOnly
+                          ? "bg-blue-100 border-blue-300 text-blue-700"
+                          : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                      }`}
+                      title="Filter to USA locations only"
+                    >
+                      USA Only
+                    </button>
+                  </div>
+                  {/* Location select */}
+                  <select
+                    value={selectedLocationId}
+                    onChange={(e) => setSelectedLocationId(e.target.value)}
+                    className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                  >
+                    <option value="">— Select a location —</option>
+                    {getFilteredLocations(locations, searchQuery, usaOnly).map((group) => (
+                      <optgroup key={group.name} label={group.name}>
+                        {group.items.map((loc) => (
+                          <option key={loc.id} value={loc.id}>
+                            {loc.label} ({loc.count} scenes)
+                          </option>
+                        ))}
+                      </optgroup>
+                    ))}
+                  </select>
+                  {selectedLocationId && (
+                    <div className="text-[10px] text-gray-500 mt-1">
+                      Selected: {locations.find((l) => l.id === selectedLocationId)?.label}
+                    </div>
+                  )}
+                  {!selectedLocationId && (
+                    <div className="text-[10px] text-gray-500 mt-1">
+                      Select a location to enable generation
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
+
+            {/* Seed Words */}
+            <div>
+              <label className="block text-xs font-medium text-gray-700 mb-1">
+                Seed Words (optional)
+              </label>
+              <input
+                type="text"
+                value={seedWords}
+                onChange={(e) => setSeedWords(e.target.value)}
+                placeholder="dojo, dusk..."
+                className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+              />
             </div>
 
             {/* Count & Presets */}
@@ -204,9 +332,9 @@ export default function PromptLab() {
 
             <button
               onClick={handleGenerate}
-              disabled={loading || !setting.trim()}
+              disabled={loading || !selectedLocationId}
               className={`w-full py-1.5 text-xs font-semibold rounded ${
-                loading || !setting.trim()
+                loading || !selectedLocationId
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                   : "bg-black hover:bg-gray-800 text-white"
               }`}
@@ -222,7 +350,7 @@ export default function PromptLab() {
             </h3>
             <div className="space-y-1">
               <Toggle label="Scene" checked={bindScene} onChange={setBindScene} />
-              <Toggle label="Pose" checked={bindPose} onChange={setBindPose} />
+              <Toggle label="Micro-action (Pose)" checked={bindPose} onChange={setBindPose} />
               <Toggle
                 label="Lighting"
                 checked={bindLighting}
@@ -230,12 +358,6 @@ export default function PromptLab() {
               />
               <Toggle label="Camera" checked={bindCamera} onChange={setBindCamera} />
               <Toggle label="Angle" checked={bindAngle} onChange={setBindAngle} />
-              <Toggle
-                label="Twist"
-                checked={bindTwist}
-                onChange={setBindTwist}
-                mandatory
-              />
               <Toggle
                 label="Accessories"
                 checked={bindAccessories}
@@ -291,7 +413,11 @@ export default function PromptLab() {
 
           {/* Detail View (right side of right column) */}
           <main className="col-span-12 lg:col-span-7 rounded-lg border border-zinc-200 bg-white p-3 h-[75vh] overflow-auto">
-            <PromptDetail id={activeId} bundles={bundles} />
+            <PromptDetail
+              id={activeId}
+              bundles={bundles}
+              onStateChange={loadRecentPrompts}
+            />
           </main>
         </section>
       </div>
@@ -299,8 +425,43 @@ export default function PromptLab() {
   );
 }
 
+// Helper function to filter and group locations
+function getFilteredLocations(locations, searchQuery, usaOnly) {
+  // Filter locations by USA flag and search query
+  const filtered = locations.filter((loc) => {
+    // USA filter
+    if (usaOnly && !loc.group.startsWith("USA /")) {
+      return false;
+    }
+
+    // Search filter
+    if (!searchQuery) return true;
+    const q = searchQuery.toLowerCase();
+    return (
+      loc.label.toLowerCase().includes(q) ||
+      loc.group.toLowerCase().includes(q) ||
+      loc.id.toLowerCase().includes(q)
+    );
+  });
+
+  // Group by group name
+  const grouped = {};
+  filtered.forEach((loc) => {
+    if (!grouped[loc.group]) {
+      grouped[loc.group] = [];
+    }
+    grouped[loc.group].push(loc);
+  });
+
+  // Convert to array format for rendering
+  return Object.entries(grouped).map(([groupName, items]) => ({
+    name: groupName,
+    items: items.sort((a, b) => a.label.localeCompare(b.label)),
+  }));
+}
+
 // Toggle component
-function Toggle({ label, checked, onChange, mandatory }) {
+function Toggle({ label, checked, onChange }) {
   return (
     <label className="flex items-center gap-2 cursor-pointer">
       <input
@@ -311,9 +472,6 @@ function Toggle({ label, checked, onChange, mandatory }) {
       />
       <span className="text-[11px] font-medium text-gray-700">
         {label}
-        {mandatory && (
-          <span className="ml-1 text-[10px] text-blue-600">(mandatory)</span>
-        )}
       </span>
     </label>
   );
