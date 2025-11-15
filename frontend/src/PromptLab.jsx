@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 import {
   generatePromptBundle,
   getPrompts,
@@ -218,14 +218,39 @@ export default function PromptLab() {
   };
 
   const handleRowClick = (promptId) => {
-    setSelectedPromptId(promptId);
-    loadPromptDetails(promptId);
+    // Toggle: if same row clicked, close; otherwise open new
+    if (selectedPromptId === promptId) {
+      setSelectedPromptId(null);
+      setPromptDetails(null);
+    } else {
+      setSelectedPromptId(promptId);
+      loadPromptDetails(promptId);
+    }
   };
 
-  const closeDrawer = () => {
+  const handleRowKeyDown = (e, promptId) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      handleRowClick(promptId);
+    } else if (e.key === "Escape" && selectedPromptId) {
+      setSelectedPromptId(null);
+      setPromptDetails(null);
+    }
+  };
+
+  const closeDetails = () => {
     setSelectedPromptId(null);
     setPromptDetails(null);
   };
+
+  // Responsive: check if narrow screen
+  const [isNarrow, setIsNarrow] = useState(false);
+  useEffect(() => {
+    const checkWidth = () => setIsNarrow(window.innerWidth < 768);
+    checkWidth();
+    window.addEventListener("resize", checkWidth);
+    return () => window.removeEventListener("resize", checkWidth);
+  }, []);
 
   const getFilteredLocations = (locations, searchQuery) => {
     const filtered = locations.filter((loc) => {
@@ -446,81 +471,99 @@ export default function PromptLab() {
                     </tr>
                   )}
                   {prompts.map((prompt, idx) => (
-                    <tr
-                      key={prompt.id}
-                      onClick={() => handleRowClick(prompt.id)}
-                      style={{
-                        ...styles.tr,
-                        backgroundColor: idx % 2 === 0 ? "#fff" : "#fafafa",
-                        cursor: "pointer",
-                      }}
-                    >
-                      <td style={styles.td} title={prompt.id}>
-                        <span style={{ fontFamily: "monospace", fontSize: "11px" }}>
-                          {prompt.id.slice(3, 12)}...
-                        </span>
-                      </td>
-                      <td style={styles.td}>{prompt.location}</td>
-                      <td style={styles.td}>
-                        {prompt.seed_words && prompt.seed_words.length > 0
-                          ? prompt.seed_words.join(", ")
-                          : "—"}
-                      </td>
-                      <td style={styles.td}>
-                        {new Date(prompt.created_at).toLocaleString("en-US", {
-                          month: "short",
-                          day: "numeric",
-                          hour: "2-digit",
-                          minute: "2-digit",
-                        })}
-                      </td>
-                      <td style={styles.td}>
-                        {prompt.media.w}×{prompt.media.h} • {prompt.media.ar}
-                      </td>
-                      <td style={styles.td}>
-                        <input
-                          type="checkbox"
-                          checked={prompt.used}
-                          onChange={(e) => {
-                            e.stopPropagation();
-                            handleUsedToggle(prompt.id, e.target.checked);
-                          }}
-                          onClick={(e) => e.stopPropagation()}
-                        />
-                      </td>
-                      <td style={styles.td}>
-                        <div style={{ display: "flex", gap: "4px" }} onClick={(e) => e.stopPropagation()}>
-                          <button
-                            onClick={() => {
-                              loadPromptDetails(prompt.id).then(() => {
-                                if (promptDetails) {
-                                  copyToClipboard(promptDetails.image_prompt, "Image copied");
-                                }
-                              });
+                    <Fragment key={prompt.id}>
+                      <tr
+                        tabIndex={0}
+                        onClick={() => handleRowClick(prompt.id)}
+                        onKeyDown={(e) => handleRowKeyDown(e, prompt.id)}
+                        style={{
+                          ...styles.tr,
+                          backgroundColor: selectedPromptId === prompt.id ? "#f3f4f6" : (idx % 2 === 0 ? "#fff" : "#fafafa"),
+                          cursor: "pointer",
+                        }}
+                      >
+                        <td style={styles.td} title={prompt.id}>
+                          <span style={{ fontFamily: "monospace", fontSize: "11px" }}>
+                            {prompt.id.slice(3, 12)}...
+                          </span>
+                        </td>
+                        <td style={styles.td}>{prompt.location}</td>
+                        <td style={styles.td}>
+                          {prompt.seed_words && prompt.seed_words.length > 0
+                            ? prompt.seed_words.join(", ")
+                            : "—"}
+                        </td>
+                        <td style={styles.td}>
+                          {new Date(prompt.created_at).toLocaleString("en-US", {
+                            month: "short",
+                            day: "numeric",
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          })}
+                        </td>
+                        <td style={styles.td}>
+                          {prompt.media.w}×{prompt.media.h} • {prompt.media.ar}
+                        </td>
+                        <td style={styles.td}>
+                          <input
+                            type="checkbox"
+                            checked={prompt.used}
+                            onChange={(e) => {
+                              e.stopPropagation();
+                              handleUsedToggle(prompt.id, e.target.checked);
                             }}
-                            style={styles.ghostButton}
-                            title="Copy Image"
-                          >
-                            📷
-                          </button>
-                          <button
-                            onClick={() => {
-                              loadPromptDetails(prompt.id).then(() => {
-                                if (promptDetails) {
-                                  const vp = promptDetails.video;
-                                  const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}`;
-                                  copyToClipboard(text, "Video copied");
-                                }
-                              });
-                            }}
-                            style={styles.ghostButton}
-                            title="Copy Video"
-                          >
-                            🎬
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
+                            onClick={(e) => e.stopPropagation()}
+                          />
+                        </td>
+                        <td style={styles.td}>
+                          <div style={{ display: "flex", gap: "4px" }} onClick={(e) => e.stopPropagation()}>
+                            <button
+                              onClick={() => {
+                                loadPromptDetails(prompt.id).then(() => {
+                                  if (promptDetails) {
+                                    copyToClipboard(promptDetails.image_prompt, "Image copied");
+                                  }
+                                });
+                              }}
+                              style={styles.ghostButton}
+                              title="Copy Image"
+                            >
+                              📷
+                            </button>
+                            <button
+                              onClick={() => {
+                                loadPromptDetails(prompt.id).then(() => {
+                                  if (promptDetails) {
+                                    const vp = promptDetails.video;
+                                    const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}`;
+                                    copyToClipboard(text, "Video copied");
+                                  }
+                                });
+                              }}
+                              style={styles.ghostButton}
+                              title="Copy Video"
+                            >
+                              🎬
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+
+                      {/* Inline details row (desktop only) */}
+                      {selectedPromptId === prompt.id && !isNarrow && (
+                        <tr>
+                          <td colSpan="7" style={{ padding: 0, border: "none" }}>
+                            <InlineRowDetails
+                              promptDetails={promptDetails}
+                              loading={drawerLoading}
+                              onClose={closeDetails}
+                              onCopy={copyToClipboard}
+                              onUsedToggle={handleUsedToggle}
+                            />
+                          </td>
+                        </tr>
+                      )}
+                    </Fragment>
                   ))}
                 </tbody>
               </table>
@@ -558,12 +601,12 @@ export default function PromptLab() {
         </main>
       </div>
 
-      {/* Details Drawer */}
-      {selectedPromptId && (
+      {/* Details Drawer (mobile only) */}
+      {selectedPromptId && isNarrow && (
         <DetailsDrawer
           promptDetails={promptDetails}
           loading={drawerLoading}
-          onClose={closeDrawer}
+          onClose={closeDetails}
           onCopy={copyToClipboard}
           onUsedToggle={handleUsedToggle}
         />
@@ -601,6 +644,177 @@ function Toggle({ label, checked, onChange, disabled = false, title = "" }) {
       />
       <span>{label}</span>
     </label>
+  );
+}
+
+function InlineRowDetails({ promptDetails, loading, onClose, onCopy, onUsedToggle }) {
+  const [showNegative, setShowNegative] = useState(false);
+
+  if (loading) {
+    return (
+      <div style={{
+        padding: "24px",
+        textAlign: "center",
+        color: "#6b7280",
+        backgroundColor: "#fafafa",
+        borderTop: "1px solid #e5e7eb",
+        borderBottom: "2px solid #e5e7eb",
+        animation: "fadeIn 0.15s ease-out",
+      }}>
+        Loading details...
+      </div>
+    );
+  }
+
+  if (!promptDetails) return null;
+
+  const charCount = promptDetails.image_prompt?.length || 0;
+  const getCharColor = () => {
+    if (charCount >= 900 && charCount <= 1100) return { bg: "#dcfce7", color: "#166534" };
+    if (charCount >= 1100 && charCount <= 1400) return { bg: "#fef3c7", color: "#92400e" };
+    return { bg: "#fee2e2", color: "#991b1b" };
+  };
+  const charColors = getCharColor();
+
+  const copyAllVideo = () => {
+    const vp = promptDetails.video;
+    const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}\nNotes: ${vp.notes}`;
+    onCopy(text, "Video copied");
+  };
+
+  return (
+    <div
+      style={{
+        padding: "16px",
+        backgroundColor: "#fafafa",
+        borderTop: "1px solid #e5e7eb",
+        borderBottom: "2px solid #e5e7eb",
+        animation: "fadeIn 0.2s ease-out",
+      }}
+      role="region"
+      aria-label={`Details for ${promptDetails.location}`}
+    >
+      <div style={{ display: "grid", gridTemplateColumns: "60% 40%", gap: "16px" }}>
+        {/* Left: Image Prompt */}
+        <section style={styles.inlineCard}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+            <h3 style={{ fontSize: "13px", fontWeight: "600", margin: 0 }}>📷 Image Prompt</h3>
+            <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+              <span
+                style={{
+                  fontSize: "10px",
+                  fontFamily: "monospace",
+                  fontWeight: "600",
+                  padding: "2px 6px",
+                  borderRadius: "3px",
+                  backgroundColor: charColors.bg,
+                  color: charColors.color,
+                }}
+              >
+                {charCount} chars
+              </span>
+              <button onClick={() => onCopy(promptDetails.image_prompt, "Image copied")} style={styles.copyButtonSmall}>
+                Copy
+              </button>
+            </div>
+          </div>
+          <textarea
+            value={promptDetails.image_prompt}
+            readOnly
+            style={{
+              width: "100%",
+              height: "180px",
+              fontSize: "11px",
+              fontFamily: "monospace",
+              lineHeight: "1.4",
+              padding: "10px",
+              border: "1px solid #d1d5db",
+              borderRadius: "4px",
+              backgroundColor: "#fff",
+              resize: "none",
+            }}
+          />
+          <div style={{ marginTop: "6px", fontSize: "10px", color: "#6b7280" }}>
+            {promptDetails.media.dimensions}
+          </div>
+          <button onClick={() => setShowNegative(!showNegative)} style={styles.linkButton}>
+            {showNegative ? "Hide" : "Show"} Negative Prompt
+          </button>
+          {showNegative && (
+            <div style={{ marginTop: "8px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "4px" }}>
+                <h4 style={{ fontSize: "11px", fontWeight: "600", margin: 0 }}>Negative Prompt</h4>
+                <button
+                  onClick={() => onCopy(promptDetails.negative_prompt, "Negative copied")}
+                  style={{ ...styles.copyButtonSmall, fontSize: "10px", padding: "2px 5px" }}
+                >
+                  Copy
+                </button>
+              </div>
+              <pre
+                style={{
+                  fontSize: "10px",
+                  fontFamily: "monospace",
+                  lineHeight: "1.3",
+                  padding: "8px",
+                  border: "1px solid #d1d5db",
+                  borderRadius: "4px",
+                  backgroundColor: "#fff",
+                  whiteSpace: "pre-wrap",
+                  margin: 0,
+                }}
+              >
+                {promptDetails.negative_prompt}
+              </pre>
+            </div>
+          )}
+        </section>
+
+        {/* Right: Video Motion */}
+        <section style={styles.inlineCard}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+            <h3 style={{ fontSize: "13px", fontWeight: "600", margin: 0 }}>🎬 Video Motion</h3>
+            <button onClick={copyAllVideo} style={styles.copyButtonSmall}>
+              Copy All
+            </button>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+            <VideoField label="Motion" value={promptDetails.video.motion} onCopy={() => onCopy(promptDetails.video.motion, "Motion copied")} />
+            <VideoField label="Action" value={promptDetails.video.action} onCopy={() => onCopy(promptDetails.video.action, "Action copied")} />
+            <VideoField label="Environment" value={promptDetails.video.environment} onCopy={() => onCopy(promptDetails.video.environment, "Environment copied")} />
+            <div style={{ fontSize: "11px", padding: "6px 8px", backgroundColor: "#fff", borderRadius: "4px", border: "1px solid #e5e7eb" }}>
+              <span style={{ fontWeight: "600", color: "#374151" }}>Duration:</span>{" "}
+              <span style={{ color: "#111" }}>{promptDetails.video.duration}</span>
+            </div>
+            {promptDetails.video.notes && (
+              <VideoField label="Notes" value={promptDetails.video.notes} onCopy={() => onCopy(promptDetails.video.notes, "Notes copied")} />
+            )}
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
+
+function VideoField({ label, value, onCopy }) {
+  return (
+    <div style={{ border: "1px solid #e5e7eb", borderRadius: "4px", padding: "6px 8px", backgroundColor: "#fff" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "3px" }}>
+        <span style={{ fontSize: "10px", fontWeight: "600", color: "#6b7280" }}>{label}</span>
+        <button
+          onClick={onCopy}
+          style={{
+            ...styles.copyButtonSmall,
+            fontSize: "9px",
+            padding: "2px 5px",
+          }}
+          aria-label={`Copy ${label}`}
+        >
+          Copy
+        </button>
+      </div>
+      <div style={{ fontSize: "11px", lineHeight: "1.4", color: "#111" }}>{value || "—"}</div>
+    </div>
   );
 }
 
@@ -992,6 +1206,22 @@ const styles = {
     backgroundColor: "#fff",
     color: "#374151",
     cursor: "pointer",
+  },
+  copyButtonSmall: {
+    padding: "3px 8px",
+    fontSize: "10px",
+    fontWeight: "500",
+    border: "1px solid #d1d5db",
+    borderRadius: "3px",
+    backgroundColor: "#fff",
+    color: "#374151",
+    cursor: "pointer",
+  },
+  inlineCard: {
+    backgroundColor: "#fff",
+    border: "1px solid #e5e7eb",
+    borderRadius: "6px",
+    padding: "12px",
   },
   toast: {
     position: "fixed",
