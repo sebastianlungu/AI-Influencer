@@ -1275,10 +1275,6 @@ Create metadata. Return JSON:
         """
         errors = []
         img_prompt = bundle.get("image_prompt", {}).get("final_prompt", "").lower()
-        video_prompt = bundle.get("video_prompt", {})
-
-        # Build full video string for validation
-        video_full = f"{video_prompt.get('motion', '')} {video_prompt.get('character_action', '')} {video_prompt.get('environment', '')}"
 
         # Check bound slots (case-insensitive) - only for enabled bindings
         if bind_scene and bound.get("scene"):
@@ -1324,15 +1320,8 @@ Create metadata. Return JSON:
                 if bound_text and bound_text not in img_prompt:
                     errors.append(f"Missing bound wardrobe_bottom: '{bound['wardrobe_bottom'][0]}'")
 
-        # Check VIDEO format and length
-        video_len = len(video_full)
-        if video_len > 160:
-            errors.append(f"VIDEO too long: {video_len} chars (max 160)")
-
-        # Check VIDEO has 2 semicolons (3-part format)
-        semicolon_count = video_full.count(";")
-        if semicolon_count != 2:
-            errors.append(f"VIDEO must have exactly 2 semicolons (found {semicolon_count})")
+        # VIDEO validation removed - now handled by Pydantic VideoPrompt model with min_length=10
+        # Individual fields (motion, character_action, environment) are padded by _enforce_min_len()
 
         return (len(errors) == 0, errors)
 
