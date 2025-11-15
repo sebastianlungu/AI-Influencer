@@ -7,32 +7,46 @@ export default function LogsPanel() {
   const [autoScroll, setAutoScroll] = useState(true);
   const [isUserScrolling, setIsUserScrolling] = useState(false);
   const [isCleared, setIsCleared] = useState(false);
+  const [isConnected, setIsConnected] = useState(true); // Ping indicator state
+  const [retryDelay, setRetryDelay] = useState(2000); // Exponential backoff delay
   const logsContainerRef = useRef(null);
+  const retryTimeoutRef = useRef(null);
 
-  // Load logs from backend
+  // Load logs from backend with auto-reconnect and exponential backoff
   async function loadLogs() {
     try {
       const data = await fetchLogs(10000);
       if (data.ok) {
         setLogs(data.logs || []);
+        setIsConnected(true);
+        setRetryDelay(2000); // Reset to base delay on success
+      } else {
+        throw new Error("API returned ok=false");
       }
     } catch (err) {
       console.error("Failed to fetch logs:", err);
+      setIsConnected(false);
+
+      // Exponential backoff: 2s → 4s → 8s → 16s → 30s (max)
+      const nextDelay = Math.min(retryDelay * 2, 30000);
+      setRetryDelay(nextDelay);
     }
   }
 
-  // Poll every 2 seconds (but skip if manually cleared)
+  // Poll with auto-reconnect and exponential backoff
   useEffect(() => {
     if (!isCleared) {
       loadLogs();
     }
+
     const interval = setInterval(() => {
       if (!isCleared) {
         loadLogs();
       }
-    }, 2000);
+    }, retryDelay);
+
     return () => clearInterval(interval);
-  }, [isCleared]);
+  }, [isCleared, retryDelay]);
 
   // Auto-scroll to bottom when new logs arrive (if not manually scrolling)
   useEffect(() => {
@@ -88,7 +102,17 @@ export default function LogsPanel() {
     <div style={styles.panel}>
       {/* Header */}
       <div style={styles.header}>
-        <div style={styles.title}>Logs</div>
+        <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+          <div style={styles.title}>Logs</div>
+          {/* Ping indicator */}
+          <div
+            style={{
+              ...styles.pingIndicator,
+              backgroundColor: isConnected ? "#4caf50" : "#666",
+            }}
+            title={isConnected ? "Connected" : `Reconnecting... (retry in ${Math.round(retryDelay / 1000)}s)`}
+          />
+        </div>
         <div style={styles.controls}>
           <select
             value={filter}
@@ -220,5 +244,11 @@ const styles = {
     borderTop: "1px solid #333",
     fontSize: "10px",
     color: "#888",
+  },
+  pingIndicator: {
+    width: "8px",
+    height: "8px",
+    borderRadius: "50%",
+    transition: "background-color 0.3s ease",
   },
 };

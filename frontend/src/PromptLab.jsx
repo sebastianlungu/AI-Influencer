@@ -10,7 +10,7 @@ import {
 const RECENT_LOCATIONS_KEY = "plab_recent_locations";
 const MAX_RECENT = 5;
 
-export default function PromptLab() {
+export default function PromptLab({ onShowLogs }) {
   // Form state
   const [selectedLocationId, setSelectedLocationId] = useState("");
   const [count, setCount] = useState(1);
@@ -183,6 +183,7 @@ export default function PromptLab() {
       showToast("Prompts generated!");
     } catch (err) {
       setError(err.message || "Failed to generate prompts");
+      onShowLogs?.(); // Auto-open logs when generation fails
     } finally {
       setLoading(false);
     }

@@ -41,7 +41,7 @@ export default function App() {
         </div>
 
         <div style={styles.content}>
-          <PromptLab />
+          <PromptLab onShowLogs={() => setShowLogs(true)} />
         </div>
       </div>
 

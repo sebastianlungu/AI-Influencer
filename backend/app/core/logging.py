@@ -48,12 +48,24 @@ def truncate_log_file() -> None:
 # Truncate logs on startup if needed
 truncate_log_file()
 
-# Configure structured logging
+# Configure structured logging with immediate flushing
 logging.basicConfig(
     filename=str(get_data_path("logs.txt")),
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     datefmt="%Y-%m-%dT%H:%M:%S",
+    force=True,  # Force configuration to take effect
 )
 
+# Get logger and enable auto-flush for immediate writes
 log = logging.getLogger("ai-influencer")
+
+# Force all handlers to flush immediately after each write
+for handler in logging.root.handlers:
+    handler.flush = lambda: handler.stream.flush() if hasattr(handler, 'stream') else None
+    # Set stream to unbuffered mode if possible
+    if hasattr(handler, 'stream') and hasattr(handler.stream, 'reconfigure'):
+        try:
+            handler.stream.reconfigure(line_buffering=True)
+        except Exception:
+            pass  # Silently ignore if reconfigure not available
