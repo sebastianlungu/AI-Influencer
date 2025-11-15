@@ -15,7 +15,9 @@ class LLMClient(ABC):
     @abstractmethod
     def generate_prompt_bundle(
         self,
-        setting: str,
+        setting_id: str,
+        location_label: str,
+        location_path: str,
         seed_words: list[str] | None = None,
         count: int = 1,
         bind_scene: bool = True,
@@ -23,7 +25,6 @@ class LLMClient(ABC):
         bind_lighting: bool = True,
         bind_camera: bool = True,
         bind_angle: bool = True,
-        bind_twist: bool = True,
         bind_accessories: bool = True,
         bind_wardrobe: bool = False,
         single_accessory: bool = True,
@@ -31,15 +32,16 @@ class LLMClient(ABC):
         """Generate prompt bundles (image + video + social).
 
         Args:
-            setting: High-level setting (e.g., "Japan", "Santorini")
+            setting_id: Location ID (e.g., "japan", "us-new_york-manhattan-times_square")
+            location_label: Human-readable location name (e.g., "Japan", "Times Square — Manhattan, NY")
+            location_path: Full path to location JSON file
             seed_words: Optional embellisher keywords
             count: Number of bundles to generate (1-10)
             bind_scene: Bind scene from location JSON
-            bind_pose_microaction: Bind pose/micro-action
+            bind_pose_microaction: Bind pose/micro-action (VERBATIM enforcement)
             bind_lighting: Bind lighting
             bind_camera: Bind camera
             bind_angle: Bind angle
-            bind_twist: Bind twist (mandatory by default)
             bind_accessories: Bind accessories
             bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
             single_accessory: If True, bind exactly 1 accessory; if False, bind 2
@@ -125,7 +127,9 @@ class GrokAdapter(LLMClient):
 
     def generate_prompt_bundle(
         self,
-        setting: str,
+        setting_id: str,
+        location_label: str,
+        location_path: str,
         seed_words: list[str] | None = None,
         count: int = 1,
         bind_scene: bool = True,
@@ -133,14 +137,15 @@ class GrokAdapter(LLMClient):
         bind_lighting: bool = True,
         bind_camera: bool = True,
         bind_angle: bool = True,
-        bind_twist: bool = True,
         bind_accessories: bool = True,
         bind_wardrobe: bool = False,
         single_accessory: bool = True,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles via Grok."""
         return self._client.generate_prompt_bundle(
-            setting=setting,
+            setting_id=setting_id,
+            location_label=location_label,
+            location_path=location_path,
             seed_words=seed_words,
             count=count,
             bind_scene=bind_scene,
@@ -148,7 +153,6 @@ class GrokAdapter(LLMClient):
             bind_lighting=bind_lighting,
             bind_camera=bind_camera,
             bind_angle=bind_angle,
-            bind_twist=bind_twist,
             bind_accessories=bind_accessories,
             bind_wardrobe=bind_wardrobe,
             single_accessory=single_accessory,

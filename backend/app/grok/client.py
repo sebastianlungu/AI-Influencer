@@ -560,7 +560,7 @@ Create music brief. Return JSON:
 
         # Per-call RNG for varied sampling (includes timestamp for true randomness)
         rng = random.Random()
-        rng.seed(hash(f"{setting_id}|{seed_words}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
+        rng.seed(hash(f"{setting_id}|{count}|{time.time()}") & 0xFFFFFFFFFFFF)
 
         # Setup binding policy based on UI flags
         bind_policy = {}

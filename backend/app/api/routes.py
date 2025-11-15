@@ -169,55 +169,222 @@ async def generate_prompt_bundle(request: Request) -> dict:
 
 @router.get("/prompts")
 @limiter.limit("30/minute")
-def get_recent_prompts(request: Request, limit: int = 20) -> dict:
-    """Get recent prompt bundles (newest first).
+def get_recent_prompts(
+    request: Request,
+    status: str = "all",  # all, used, unused
+    search: str = "",
+    page: int = 1,
+    page_size: int = 20,
+    sort: str = "-created_at",  # created_at, -created_at, location, -location
+) -> dict:
+    """Get prompt bundles with pagination, search, and filtering.
 
     Args:
         request: FastAPI request object (for rate limiting)
-        limit: Max number of bundles to return (default 20, max 100)
+        status: Filter by used status (all, used, unused)
+        search: Search across id, location, seed_words
+        page: Page number (1-indexed)
+        page_size: Items per page (default 20, max 100)
+        sort: Sort field (created_at, -created_at, location, -location)
 
     Returns:
         Dict with:
         {
             "ok": True,
-            "prompts": [
+            "items": [
                 {
                     "id": "pr_abc123...",
-                    "timestamp": "2025-11-07T12:34:56.789Z",
-                    "setting": "Japan",
-                    "seed_words": ["dojo", "dusk"],
-                    "image_prompt": {...},
-                    "video_prompt": {...},
-                    "social_meta": {...}
+                    "created_at": "2025-11-14T20:45:00Z",
+                    "location": "Times Square — Manhattan, NY",
+                    "seed_words": ["neon"],
+                    "used": false,
+                    "summary": "Medium wavy caramel-blonde hair...",
+                    "media": {"w": 864, "h": 1536, "ar": "9:16"},
+                    "has_negative": true
                 },
                 ...
-            ]
+            ],
+            "page": 1,
+            "page_size": 20,
+            "total": 253
         }
     """
-    # Cap limit to 100
-    limit = min(limit, 100)
+    # Cap page_size to 100
+    page_size = min(page_size, 100)
+    page = max(page, 1)
 
     try:
-        from app.core.prompt_storage import read_recent_prompts, load_prompt_states
+        from app.core.prompt_storage import read_all_prompts, load_prompt_states
 
-        prompts = read_recent_prompts(
-            prompts_dir=settings.prompts_out_dir,
-            limit=limit
-        )
+        # Get all prompts (we'll filter and paginate in memory)
+        all_prompts = read_all_prompts(prompts_dir=settings.prompts_out_dir)
 
         # Enrich with used state
         states = load_prompt_states(settings.prompts_out_dir)
-        for prompt in prompts:
+        for prompt in all_prompts:
             prompt_id = prompt.get("id")
             if prompt_id and prompt_id in states:
                 prompt["used"] = states[prompt_id].get("used", False)
             else:
                 prompt["used"] = False
 
-        return {"ok": True, "prompts": prompts}
+        # Filter by status
+        if status == "used":
+            all_prompts = [p for p in all_prompts if p.get("used")]
+        elif status == "unused":
+            all_prompts = [p for p in all_prompts if not p.get("used")]
+
+        # Filter by search
+        if search:
+            search_lower = search.lower()
+            filtered = []
+            for p in all_prompts:
+                if (
+                    search_lower in p.get("id", "").lower()
+                    or search_lower in p.get("setting", "").lower()
+                    or any(search_lower in sw.lower() for sw in p.get("seed_words", []))
+                    or search_lower in p.get("image_prompt", {}).get("final_prompt", "").lower()[:200]
+                ):
+                    filtered.append(p)
+            all_prompts = filtered
+
+        # Sort
+        reverse = sort.startswith("-")
+        sort_field = sort.lstrip("-")
+        if sort_field == "created_at":
+            all_prompts.sort(key=lambda p: p.get("timestamp", ""), reverse=reverse)
+        elif sort_field == "location":
+            all_prompts.sort(key=lambda p: p.get("setting", ""), reverse=reverse)
+
+        # Default: newest first if no explicit sort
+        if sort == "-created_at":
+            all_prompts.reverse()
+
+        # Paginate
+        total = len(all_prompts)
+        start_idx = (page - 1) * page_size
+        end_idx = start_idx + page_size
+        page_items = all_prompts[start_idx:end_idx]
+
+        # Create summary items (remove full prompts to save bandwidth)
+        items = []
+        for p in page_items:
+            img_prompt = p.get("image_prompt", {}).get("final_prompt", "")
+            items.append({
+                "id": p.get("id"),
+                "created_at": p.get("timestamp"),
+                "location": p.get("setting"),
+                "seed_words": p.get("seed_words", []),
+                "used": p.get("used", False),
+                "summary": img_prompt[:100] + "..." if len(img_prompt) > 100 else img_prompt,
+                "media": {
+                    "w": p.get("image_prompt", {}).get("width", 864),
+                    "h": p.get("image_prompt", {}).get("height", 1536),
+                    "ar": "9:16",  # Standard aspect ratio
+                },
+                "has_negative": bool(p.get("image_prompt", {}).get("negative_prompt")),
+            })
+
+        return {
+            "ok": True,
+            "items": items,
+            "page": page,
+            "page_size": page_size,
+            "total": total,
+        }
 
     except Exception as e:
         log.error(f"READ_PROMPTS_FAILED: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/prompts/{bundle_id}")
+@limiter.limit("60/minute")
+def get_prompt_bundle(request: Request, bundle_id: str) -> dict:
+    """Get full prompt bundle details by ID.
+
+    Args:
+        request: FastAPI request object (for rate limiting)
+        bundle_id: Prompt bundle ID (pr_...)
+
+    Returns:
+        Dict with:
+        {
+            "ok": True,
+            "bundle": {
+                "id": "pr_606ffe047",
+                "created_at": "2025-11-14T20:45:00Z",
+                "location": "Times Square — Manhattan, NY",
+                "seed_words": ["neon"],
+                "used": false,
+                "image_prompt": "…full text…",
+                "video": {
+                    "motion": "…",
+                    "action": "…",
+                    "environment": "…",
+                    "duration": "6s",
+                    "notes": "…"
+                },
+                "media": {
+                    "dimensions": "864 × 1536",
+                    "aspect": "9:16",
+                    "format": "vertical"
+                },
+                "negative_prompt": "…"
+            }
+        }
+
+    Raises:
+        HTTPException: 404 if bundle not found, 500 on error
+    """
+    try:
+        from app.core.prompt_storage import find_prompt_bundle, get_prompt_state
+
+        # Find bundle
+        bundle = find_prompt_bundle(settings.prompts_out_dir, bundle_id)
+        if not bundle:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Prompt bundle not found: {bundle_id}"
+            )
+
+        # Get used state
+        state = get_prompt_state(settings.prompts_out_dir, bundle_id)
+        used = state.get("used", False) if state else False
+
+        # Format response
+        img = bundle.get("image_prompt", {})
+        vid = bundle.get("video_prompt", {})
+
+        return {
+            "ok": True,
+            "bundle": {
+                "id": bundle.get("id"),
+                "created_at": bundle.get("timestamp"),
+                "location": bundle.get("setting"),
+                "seed_words": bundle.get("seed_words", []),
+                "used": used,
+                "image_prompt": img.get("final_prompt", ""),
+                "video": {
+                    "motion": vid.get("motion", ""),
+                    "action": vid.get("character_action", ""),
+                    "environment": vid.get("environment", ""),
+                    "duration": f"{vid.get('duration_seconds', 6)}s",
+                    "notes": vid.get("notes", ""),
+                },
+                "media": {
+                    "dimensions": f"{img.get('width', 864)} × {img.get('height', 1536)}",
+                    "aspect": "9:16",
+                    "format": "vertical",
+                },
+                "negative_prompt": img.get("negative_prompt", ""),
+            }
+        }
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        log.error(f"GET_PROMPT_BUNDLE_FAILED bundle_id={bundle_id}: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 

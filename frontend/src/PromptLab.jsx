@@ -1,22 +1,26 @@
 import { useState, useEffect } from "react";
-import { generatePromptBundle, getRecentPrompts, getLocations, updatePromptState } from "./api";
+import {
+  generatePromptBundle,
+  getPrompts,
+  getPromptBundle,
+  getLocations,
+  updatePromptState
+} from "./api";
 
 const RECENT_LOCATIONS_KEY = "plab_recent_locations";
 const MAX_RECENT = 5;
 
 export default function PromptLab() {
-  // Form inputs
+  // Form state
   const [selectedLocationId, setSelectedLocationId] = useState("");
-  const [seedWords, setSeedWords] = useState("");
   const [count, setCount] = useState(1);
-
-  // Locations state
   const [locations, setLocations] = useState([]);
   const [locationsLoading, setLocationsLoading] = useState(true);
   const [locationsError, setLocationsError] = useState(null);
   const [recentLocationIds, setRecentLocationIds] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [usaOnly, setUsaOnly] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   // Binding toggles
   const [bindScene, setBindScene] = useState(true);
@@ -25,28 +29,37 @@ export default function PromptLab() {
   const [bindCamera, setBindCamera] = useState(true);
   const [bindAngle, setBindAngle] = useState(true);
   const [bindAccessories, setBindAccessories] = useState(true);
-  const [bindWardrobe, setBindWardrobe] = useState(false);
+  const [bindWardrobe, setBindWardrobe] = useState(true);
   const [singleAccessory, setSingleAccessory] = useState(true);
 
-  // UI state
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const [bundles, setBundles] = useState([]);
-  const [activeId, setActiveId] = useState(null);
+  // Table state
+  const [prompts, setPrompts] = useState([]);
+  const [totalPrompts, setTotalPrompts] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(20);
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [searchFilter, setSearchFilter] = useState("");
+  const [sortField, setSortField] = useState("-created_at");
 
-  // Filtering state
-  const [promptSearchQuery, setPromptSearchQuery] = useState("");
-  const [usageFilter, setUsageFilter] = useState("all");
+  // Drawer state
+  const [selectedPromptId, setSelectedPromptId] = useState(null);
+  const [promptDetails, setPromptDetails] = useState(null);
+  const [drawerLoading, setDrawerLoading] = useState(false);
 
   // Toast state
   const [toast, setToast] = useState({ show: false, message: "" });
 
-  // Load locations and recent prompts on mount
+  // Load initial data
   useEffect(() => {
     loadLocations();
-    loadRecentPrompts();
     loadRecentLocationIds();
+    loadPrompts();
   }, []);
+
+  // Reload prompts when filters change
+  useEffect(() => {
+    loadPrompts();
+  }, [currentPage, pageSize, statusFilter, searchFilter, sortField]);
 
   const loadLocations = async () => {
     try {
@@ -86,16 +99,32 @@ export default function PromptLab() {
     }
   };
 
-  const loadRecentPrompts = async () => {
+  const loadPrompts = async () => {
     try {
-      const data = await getRecentPrompts(200);
-      const bundlesWithPreview = (data.prompts || []).map((p) => ({
-        ...p,
-        preview: p.image_prompt?.final_prompt?.substring(0, 100) || "",
-      }));
-      setBundles(bundlesWithPreview);
+      const data = await getPrompts({
+        status: statusFilter,
+        search: searchFilter,
+        page: currentPage,
+        page_size: pageSize,
+        sort: sortField,
+      });
+      setPrompts(data.items || []);
+      setTotalPrompts(data.total || 0);
     } catch (err) {
-      console.error("Failed to load recent prompts:", err);
+      console.error("Failed to load prompts:", err);
+    }
+  };
+
+  const loadPromptDetails = async (promptId) => {
+    try {
+      setDrawerLoading(true);
+      const data = await getPromptBundle(promptId);
+      setPromptDetails(data.bundle);
+    } catch (err) {
+      console.error("Failed to load prompt details:", err);
+      showToast("Failed to load details");
+    } finally {
+      setDrawerLoading(false);
     }
   };
 
@@ -106,16 +135,19 @@ export default function PromptLab() {
     setBindCamera(true);
     setBindAngle(true);
     setBindAccessories(true);
+    setBindWardrobe(true);
+    setSingleAccessory(true);
   };
 
-  const setMostBindOff = () => {
+  const setAllBindOff = () => {
     setBindScene(false);
     setBindPose(false);
     setBindLighting(false);
     setBindCamera(false);
     setBindAngle(false);
-    setBindAccessories(true);
-    setSingleAccessory(true);
+    setBindAccessories(false);
+    setBindWardrobe(false);
+    setSingleAccessory(false);
   };
 
   const handleGenerate = async () => {
@@ -128,14 +160,9 @@ export default function PromptLab() {
     setError(null);
 
     try {
-      const seedWordsArray = seedWords
-        .split(",")
-        .map((w) => w.trim())
-        .filter((w) => w.length > 0);
-
-      const data = await generatePromptBundle({
+      await generatePromptBundle({
         setting_id: selectedLocationId,
-        seed_words: seedWordsArray.length > 0 ? seedWordsArray : null,
+        seed_words: null,
         count,
         bind_scene: bindScene,
         bind_pose_microaction: bindPose,
@@ -147,20 +174,13 @@ export default function PromptLab() {
         single_accessory: singleAccessory,
       });
 
-      const newBundles = (data.bundles || []).map((b) => ({
-        ...b,
-        timestamp: new Date().toISOString(),
-        preview: b.image_prompt?.final_prompt?.substring(0, 100) || "",
-      }));
-
-      setBundles([...newBundles, ...bundles]);
-      if (newBundles.length > 0) {
-        setActiveId(newBundles[0].id);
-      }
-
       saveRecentLocationId(selectedLocationId);
-      setSeedWords("");
       setCount(1);
+
+      // Reload prompts and reset to page 1
+      setCurrentPage(1);
+      await loadPrompts();
+      showToast("Prompts generated!");
     } catch (err) {
       setError(err.message || "Failed to generate prompts");
     } finally {
@@ -168,11 +188,14 @@ export default function PromptLab() {
     }
   };
 
-  const handleUsedToggle = async (bundle, newValue) => {
+  const handleUsedToggle = async (promptId, newValue) => {
     try {
-      await updatePromptState(bundle.id, newValue);
-      await loadRecentPrompts();
-      showToast("Updated");
+      await updatePromptState(promptId, newValue);
+      await loadPrompts();
+      if (selectedPromptId === promptId) {
+        await loadPromptDetails(promptId);
+      }
+      showToast(newValue ? "Marked as used" : "Marked as unused");
     } catch (err) {
       console.error("Failed to update state:", err);
       showToast("Failed to update");
@@ -194,35 +217,18 @@ export default function PromptLab() {
     }
   };
 
-  const getFilteredBundles = () => {
-    return bundles.filter((bundle) => {
-      if (usageFilter === "used" && !bundle.used) return false;
-      if (usageFilter === "unused" && bundle.used) return false;
-
-      if (promptSearchQuery) {
-        const q = promptSearchQuery.toLowerCase();
-        const matchesId = bundle.id?.toLowerCase().includes(q);
-        const matchesSetting = bundle.setting?.toLowerCase().includes(q);
-        const matchesSeedWords = bundle.seed_words?.some((w) =>
-          w.toLowerCase().includes(q)
-        );
-        const matchesPreview = bundle.preview?.toLowerCase().includes(q);
-
-        if (!matchesId && !matchesSetting && !matchesSeedWords && !matchesPreview) {
-          return false;
-        }
-      }
-
-      return true;
-    });
+  const handleRowClick = (promptId) => {
+    setSelectedPromptId(promptId);
+    loadPromptDetails(promptId);
   };
 
-  const getFilteredLocations = (locations, searchQuery, usaOnly) => {
-    const filtered = locations.filter((loc) => {
-      if (usaOnly && !loc.group.startsWith("USA /")) {
-        return false;
-      }
+  const closeDrawer = () => {
+    setSelectedPromptId(null);
+    setPromptDetails(null);
+  };
 
+  const getFilteredLocations = (locations, searchQuery) => {
+    const filtered = locations.filter((loc) => {
       if (!searchQuery) return true;
       const q = searchQuery.toLowerCase();
       return (
@@ -246,240 +252,326 @@ export default function PromptLab() {
     }));
   };
 
-  const activeBundle = bundles.find((b) => b.id === activeId);
+  const totalPages = Math.ceil(totalPrompts / pageSize);
 
   return (
-    <div className="max-w-[1320px] mx-auto p-4">
-      {/* Header */}
-      <header className="mb-4">
-        <h1 className="text-xl font-bold text-gray-900">Prompt Lab</h1>
-        <p className="text-sm text-gray-600">
-          Generate image + video prompts with configurable slot bindings
-        </p>
-      </header>
+    <div style={{ maxWidth: "1440px", margin: "0 auto", padding: "0 28px" }}>
+      {/* Two-column layout */}
+      <div style={{ display: "grid", gridTemplateColumns: "380px 1fr", gap: "24px", alignItems: "start" }}>
+        {/* LEFT COLUMN: Generation Form */}
+        <aside>
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>Generate Prompts</h3>
 
-      {/* TOOLBAR: Full-width controls */}
-      <div className="bg-white border border-zinc-200 rounded-lg p-4 mb-4">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mb-3">
-          {/* Location */}
-          <div className="lg:col-span-2">
-            <label className="block text-xs font-medium text-gray-700 mb-1">
-              Location <span className="text-red-500">*</span>
-            </label>
-            {locationsLoading && (
-              <div className="text-xs text-gray-500 py-1">Loading locations...</div>
-            )}
-            {locationsError && (
-              <div className="text-xs text-red-600 py-1">
-                {locationsError}. <button onClick={loadLocations} className="underline">Retry</button>
-              </div>
-            )}
-            {!locationsLoading && !locationsError && (
-              <>
-                <div className="flex gap-1 mb-1">
+            {/* Location */}
+            <div style={{ marginBottom: "16px" }}>
+              <label style={styles.label}>
+                Location <span style={{ color: "#ef4444" }}>*</span>
+              </label>
+              {locationsLoading && (
+                <div style={{ fontSize: "12px", color: "#6b7280", padding: "4px 0" }}>
+                  Loading locations...
+                </div>
+              )}
+              {locationsError && (
+                <div style={{ fontSize: "12px", color: "#dc2626", padding: "4px 0" }}>
+                  {locationsError}.{" "}
+                  <button onClick={loadLocations} style={styles.linkButton}>
+                    Retry
+                  </button>
+                </div>
+              )}
+              {!locationsLoading && !locationsError && (
+                <>
                   <input
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Search locations..."
-                    className="flex-1 px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500"
+                    style={{ ...styles.input, marginBottom: "4px" }}
                   />
-                  <button
-                    onClick={() => setUsaOnly(!usaOnly)}
-                    className={`px-2 py-1 text-[10px] font-medium rounded border whitespace-nowrap ${
-                      usaOnly
-                        ? "bg-blue-100 border-blue-300 text-blue-700"
-                        : "bg-gray-50 border-gray-200 text-gray-600"
-                    }`}
+                  <select
+                    value={selectedLocationId}
+                    onChange={(e) => setSelectedLocationId(e.target.value)}
+                    style={styles.select}
                   >
-                    USA Only
-                  </button>
-                </div>
-                <select
-                  value={selectedLocationId}
-                  onChange={(e) => setSelectedLocationId(e.target.value)}
-                  className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500"
-                >
-                  <option value="">— Select a location —</option>
-                  {getFilteredLocations(locations, searchQuery, usaOnly).map((group) => (
-                    <optgroup key={group.name} label={group.name}>
-                      {group.items.map((loc) => (
-                        <option key={loc.id} value={loc.id}>
-                          {loc.label} ({loc.count} scenes)
-                        </option>
-                      ))}
-                    </optgroup>
-                  ))}
-                </select>
-              </>
-            )}
-          </div>
-
-          {/* Seed Words */}
-          <div>
-            <label className="block text-xs font-medium text-gray-700 mb-1">
-              Seed Words (optional)
-            </label>
-            <input
-              type="text"
-              value={seedWords}
-              onChange={(e) => setSeedWords(e.target.value)}
-              placeholder="dojo, dusk..."
-              className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500"
-            />
-          </div>
-
-          {/* Count */}
-          <div>
-            <label className="block text-xs font-medium text-gray-700 mb-1">
-              Count
-            </label>
-            <input
-              type="number"
-              value={count}
-              onChange={(e) => setCount(Math.max(1, Math.min(5, parseInt(e.target.value) || 1)))}
-              min="1"
-              max="5"
-              className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500"
-            />
-          </div>
-        </div>
-
-        {/* Bindings Row */}
-        <div className="flex flex-wrap gap-3 items-center mb-3">
-          <label className="text-xs font-medium text-gray-700">Slot Bindings:</label>
-          <Toggle label="Scene" checked={bindScene} onChange={setBindScene} />
-          <Toggle label="Micro-action" checked={bindPose} onChange={setBindPose} />
-          <Toggle label="Lighting" checked={bindLighting} onChange={setBindLighting} />
-          <Toggle label="Camera" checked={bindCamera} onChange={setBindCamera} />
-          <Toggle label="Angle" checked={bindAngle} onChange={setBindAngle} />
-          <Toggle label="Accessories" checked={bindAccessories} onChange={setBindAccessories} />
-          <Toggle label="Wardrobe" checked={bindWardrobe} onChange={setBindWardrobe} />
-          <Toggle label="Single Accessory" checked={singleAccessory} onChange={setSingleAccessory} />
-        </div>
-
-        {/* Actions */}
-        <div className="flex gap-2">
-          <button
-            onClick={setAllBindOn}
-            className="px-3 py-1.5 text-xs font-medium bg-gray-100 hover:bg-gray-200 text-gray-700 rounded"
-          >
-            All ON
-          </button>
-          <button
-            onClick={setMostBindOff}
-            className="px-3 py-1.5 text-xs font-medium bg-gray-100 hover:bg-gray-200 text-gray-700 rounded"
-          >
-            Most OFF
-          </button>
-          <button
-            onClick={handleGenerate}
-            disabled={loading || !selectedLocationId}
-            className={`px-4 py-1.5 text-xs font-semibold rounded ml-auto ${
-              loading || !selectedLocationId
-                ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                : "bg-black hover:bg-gray-800 text-white"
-            }`}
-          >
-            {loading ? "Generating..." : "Generate Bundle(s)"}
-          </button>
-        </div>
-
-        {error && (
-          <div className="mt-2 px-3 py-2 bg-red-50 border border-red-200 rounded text-xs text-red-700">
-            {error}
-          </div>
-        )}
-      </div>
-
-      {/* MAIN: Two-pane layout */}
-      <div className="grid grid-cols-[35%_65%] gap-4" style={{ minHeight: "70vh" }}>
-        {/* LEFT: Prompt List */}
-        <aside className="bg-white border border-zinc-200 rounded-lg p-3 overflow-hidden flex flex-col">
-          <div className="mb-3">
-            <div className="flex gap-2 mb-2">
-              <button
-                onClick={() => setUsageFilter("all")}
-                className={`px-2 py-1 text-xs font-medium rounded ${
-                  usageFilter === "all"
-                    ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                All
-              </button>
-              <button
-                onClick={() => setUsageFilter("unused")}
-                className={`px-2 py-1 text-xs font-medium rounded ${
-                  usageFilter === "unused"
-                    ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                Unused
-              </button>
-              <button
-                onClick={() => setUsageFilter("used")}
-                className={`px-2 py-1 text-xs font-medium rounded ${
-                  usageFilter === "used"
-                    ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                Used
-              </button>
+                    <option value="">— Select a location —</option>
+                    {getFilteredLocations(locations, searchQuery).map((group) => (
+                      <optgroup key={group.name} label={group.name}>
+                        {group.items.map((loc) => (
+                          <option key={loc.id} value={loc.id}>
+                            {loc.label} ({loc.count})
+                          </option>
+                        ))}
+                      </optgroup>
+                    ))}
+                  </select>
+                </>
+              )}
             </div>
-            <input
-              type="text"
-              value={promptSearchQuery}
-              onChange={(e) => setPromptSearchQuery(e.target.value)}
-              placeholder="Search prompts..."
-              className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:ring-1 focus:ring-blue-500"
-            />
-          </div>
 
-          <div className="overflow-y-auto flex-1">
-            {getFilteredBundles().length === 0 && bundles.length > 0 && (
-              <div className="text-xs text-gray-500 text-center py-8">
-                No prompts match your filters
-              </div>
-            )}
-            {bundles.length === 0 && (
-              <div className="text-xs text-gray-500 text-center py-8">
-                No prompts generated yet
-              </div>
-            )}
-            {getFilteredBundles().map((bundle) => (
-              <ListCard
-                key={bundle.id}
-                bundle={bundle}
-                active={activeId === bundle.id}
-                onClick={() => setActiveId(bundle.id)}
+            {/* Count */}
+            <div style={{ marginBottom: "16px" }}>
+              <label style={styles.label}>Count</label>
+              <input
+                type="number"
+                value={count}
+                onChange={(e) => setCount(Math.max(1, Math.min(5, parseInt(e.target.value) || 1)))}
+                min="1"
+                max="5"
+                style={styles.input}
               />
-            ))}
+            </div>
+
+            {/* Bindings */}
+            <div style={{ marginBottom: "16px" }}>
+              <label style={styles.label}>Slot Bindings</label>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", marginBottom: "8px" }}>
+                <Toggle label="Scene" checked={bindScene} onChange={setBindScene} />
+                <Toggle label="Pose" checked={bindPose} onChange={setBindPose} />
+                <Toggle label="Light" checked={bindLighting} onChange={setBindLighting} />
+                <Toggle label="Camera" checked={bindCamera} onChange={setBindCamera} />
+                <Toggle label="Angle" checked={bindAngle} onChange={setBindAngle} />
+                <Toggle label="Accessories" checked={bindAccessories} onChange={setBindAccessories} />
+                <Toggle label="Wardrobe" checked={bindWardrobe} onChange={setBindWardrobe} />
+                <Toggle
+                  label="Single Accessory"
+                  checked={singleAccessory}
+                  onChange={setSingleAccessory}
+                  disabled={!bindAccessories}
+                  title={!bindAccessories ? "Only applies when Accessories are bound" : ""}
+                />
+              </div>
+              <div style={{ display: "flex", gap: "8px" }}>
+                <button onClick={setAllBindOn} style={styles.secondaryButton}>
+                  All ON
+                </button>
+                <button onClick={setAllBindOff} style={styles.secondaryButton}>
+                  All OFF
+                </button>
+              </div>
+            </div>
+
+            {/* Generate Button */}
+            <button
+              onClick={handleGenerate}
+              disabled={loading || !selectedLocationId}
+              style={{
+                ...styles.primaryButton,
+                ...(loading || !selectedLocationId ? styles.buttonDisabled : {}),
+              }}
+            >
+              {loading ? "Generating..." : "Generate Bundle(s)"}
+            </button>
+
+            {error && (
+              <div style={styles.errorBox}>
+                {error}
+              </div>
+            )}
           </div>
         </aside>
 
-        {/* RIGHT: Detail View */}
-        <section className="bg-white border border-zinc-200 rounded-lg p-4 overflow-y-auto">
-          {!activeId && (
-            <div className="flex items-center justify-center h-full text-gray-500">
-              Select a prompt on the left to view details
+        {/* RIGHT COLUMN: Table + Drawer */}
+        <main>
+          <div style={styles.card}>
+            {/* Table Toolbar */}
+            <div style={{ marginBottom: "16px", display: "flex", gap: "12px", alignItems: "center", flexWrap: "wrap" }}>
+              {/* Status Pills */}
+              <div style={{ display: "flex", gap: "4px" }}>
+                {["all", "unused", "used"].map((status) => (
+                  <button
+                    key={status}
+                    onClick={() => {
+                      setStatusFilter(status);
+                      setCurrentPage(1);
+                    }}
+                    style={{
+                      ...styles.pill,
+                      ...(statusFilter === status ? styles.pillActive : {}),
+                    }}
+                  >
+                    {status.charAt(0).toUpperCase() + status.slice(1)}
+                  </button>
+                ))}
+              </div>
+
+              {/* Search */}
+              <input
+                type="text"
+                value={searchFilter}
+                onChange={(e) => {
+                  setSearchFilter(e.target.value);
+                  setCurrentPage(1);
+                }}
+                placeholder="Search prompts..."
+                style={{ ...styles.input, flex: 1, minWidth: "200px" }}
+              />
+
+              {/* Page Size */}
+              <select
+                value={pageSize}
+                onChange={(e) => {
+                  setPageSize(parseInt(e.target.value));
+                  setCurrentPage(1);
+                }}
+                style={{ ...styles.select, width: "auto" }}
+              >
+                <option value="20">20/page</option>
+                <option value="50">50/page</option>
+                <option value="100">100/page</option>
+              </select>
             </div>
-          )}
-          {activeId && activeBundle && (
-            <DetailView
-              bundle={activeBundle}
-              onCopy={copyToClipboard}
-              onUsedToggle={handleUsedToggle}
-            />
-          )}
-        </section>
+
+            {/* Table */}
+            <div style={{ overflowX: "auto" }}>
+              <table style={styles.table}>
+                <thead>
+                  <tr>
+                    <th style={styles.th}>ID</th>
+                    <th style={styles.th}>Location</th>
+                    <th style={styles.th}>Seed</th>
+                    <th style={styles.th}>Created</th>
+                    <th style={styles.th}>Media</th>
+                    <th style={styles.th}>Used</th>
+                    <th style={styles.th}>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {prompts.length === 0 && (
+                    <tr>
+                      <td colSpan="7" style={{ ...styles.td, textAlign: "center", color: "#9ca3af", padding: "32px" }}>
+                        No prompts found
+                      </td>
+                    </tr>
+                  )}
+                  {prompts.map((prompt, idx) => (
+                    <tr
+                      key={prompt.id}
+                      onClick={() => handleRowClick(prompt.id)}
+                      style={{
+                        ...styles.tr,
+                        backgroundColor: idx % 2 === 0 ? "#fff" : "#fafafa",
+                        cursor: "pointer",
+                      }}
+                    >
+                      <td style={styles.td} title={prompt.id}>
+                        <span style={{ fontFamily: "monospace", fontSize: "11px" }}>
+                          {prompt.id.slice(3, 12)}...
+                        </span>
+                      </td>
+                      <td style={styles.td}>{prompt.location}</td>
+                      <td style={styles.td}>
+                        {prompt.seed_words && prompt.seed_words.length > 0
+                          ? prompt.seed_words.join(", ")
+                          : "—"}
+                      </td>
+                      <td style={styles.td}>
+                        {new Date(prompt.created_at).toLocaleString("en-US", {
+                          month: "short",
+                          day: "numeric",
+                          hour: "2-digit",
+                          minute: "2-digit",
+                        })}
+                      </td>
+                      <td style={styles.td}>
+                        {prompt.media.w}×{prompt.media.h} • {prompt.media.ar}
+                      </td>
+                      <td style={styles.td}>
+                        <input
+                          type="checkbox"
+                          checked={prompt.used}
+                          onChange={(e) => {
+                            e.stopPropagation();
+                            handleUsedToggle(prompt.id, e.target.checked);
+                          }}
+                          onClick={(e) => e.stopPropagation()}
+                        />
+                      </td>
+                      <td style={styles.td}>
+                        <div style={{ display: "flex", gap: "4px" }} onClick={(e) => e.stopPropagation()}>
+                          <button
+                            onClick={() => {
+                              loadPromptDetails(prompt.id).then(() => {
+                                if (promptDetails) {
+                                  copyToClipboard(promptDetails.image_prompt, "Image copied");
+                                }
+                              });
+                            }}
+                            style={styles.ghostButton}
+                            title="Copy Image"
+                          >
+                            📷
+                          </button>
+                          <button
+                            onClick={() => {
+                              loadPromptDetails(prompt.id).then(() => {
+                                if (promptDetails) {
+                                  const vp = promptDetails.video;
+                                  const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}`;
+                                  copyToClipboard(text, "Video copied");
+                                }
+                              });
+                            }}
+                            style={styles.ghostButton}
+                            title="Copy Video"
+                          >
+                            🎬
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div style={{ marginTop: "16px", display: "flex", justifyContent: "center", alignItems: "center", gap: "8px" }}>
+                <button
+                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                  style={{
+                    ...styles.secondaryButton,
+                    ...(currentPage === 1 ? styles.buttonDisabled : {}),
+                  }}
+                >
+                  Prev
+                </button>
+                <span style={{ fontSize: "13px", color: "#6b7280" }}>
+                  Page {currentPage} of {totalPages} ({totalPrompts} total)
+                </span>
+                <button
+                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                  disabled={currentPage === totalPages}
+                  style={{
+                    ...styles.secondaryButton,
+                    ...(currentPage === totalPages ? styles.buttonDisabled : {}),
+                  }}
+                >
+                  Next
+                </button>
+              </div>
+            )}
+          </div>
+        </main>
       </div>
+
+      {/* Details Drawer */}
+      {selectedPromptId && (
+        <DetailsDrawer
+          promptDetails={promptDetails}
+          loading={drawerLoading}
+          onClose={closeDrawer}
+          onCopy={copyToClipboard}
+          onUsedToggle={handleUsedToggle}
+        />
+      )}
 
       {/* Toast */}
       {toast.show && (
-        <div className="fixed bottom-6 right-6 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg text-sm animate-fade-in">
+        <div style={styles.toast}>
           {toast.message}
         </div>
       )}
@@ -487,263 +579,430 @@ export default function PromptLab() {
   );
 }
 
-function Toggle({ label, checked, onChange }) {
+function Toggle({ label, checked, onChange, disabled = false, title = "" }) {
   return (
-    <label className="flex items-center gap-1.5 cursor-pointer">
+    <label
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "4px",
+        cursor: disabled ? "not-allowed" : "pointer",
+        fontSize: "12px",
+        opacity: disabled ? 0.5 : 1,
+      }}
+      title={title}
+    >
       <input
         type="checkbox"
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
-        className="w-3 h-3 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+        disabled={disabled}
+        style={{ width: "14px", height: "14px" }}
       />
-      <span className="text-xs text-gray-700">{label}</span>
+      <span>{label}</span>
     </label>
   );
 }
 
-function ListCard({ bundle, active, onClick }) {
-  const formatDate = (timestamp) => {
-    try {
-      const date = new Date(timestamp);
-      return date.toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-      });
-    } catch {
-      return "---";
-    }
-  };
-
-  const isUsed = bundle.used || false;
-
-  return (
-    <div
-      onClick={onClick}
-      className={`cursor-pointer p-3 mb-2 border rounded-lg transition ${
-        active
-          ? "border-blue-500 bg-blue-50"
-          : "border-gray-200 hover:bg-gray-50"
-      }`}
-    >
-      <div className="flex items-start justify-between mb-1">
-        <span className="text-xs font-mono text-gray-600">
-          {bundle.id.slice(0, 12)}...
-        </span>
-        <span
-          className={`text-[9px] px-1.5 py-0.5 rounded font-medium ${
-            isUsed ? "bg-blue-100 text-blue-700" : "bg-gray-200 text-gray-600"
-          }`}
-        >
-          {isUsed ? "Used" : "Unused"}
-        </span>
-      </div>
-      <div className="text-sm font-medium text-gray-900 mb-1">{bundle.setting}</div>
-      <div className="text-xs text-gray-500">{formatDate(bundle.timestamp)}</div>
-      {bundle.seed_words && bundle.seed_words.length > 0 && (
-        <div className="text-xs text-gray-500 italic mt-1">
-          + {bundle.seed_words.join(", ")}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function DetailView({ bundle, onCopy, onUsedToggle }) {
+function DetailsDrawer({ promptDetails, loading, onClose, onCopy, onUsedToggle }) {
   const [showNegative, setShowNegative] = useState(false);
-  const [updatingState, setUpdatingState] = useState(false);
 
-  const charCount = bundle.image_prompt?.final_prompt?.length || 0;
+  if (!promptDetails && !loading) return null;
+
+  const charCount = promptDetails?.image_prompt?.length || 0;
   const getCharColor = () => {
-    if (charCount >= 1300 && charCount <= 1500) return "bg-green-100 text-green-700";
-    if ((charCount >= 1200 && charCount < 1300) || (charCount > 1500 && charCount <= 1650))
-      return "bg-amber-100 text-amber-700";
-    return "bg-red-100 text-red-700";
+    if (charCount >= 900 && charCount <= 1100) return { bg: "#dcfce7", color: "#166534" };
+    if (charCount >= 1100 && charCount <= 1400) return { bg: "#fef3c7", color: "#92400e" };
+    return { bg: "#fee2e2", color: "#991b1b" };
   };
-
-  const formatTimestamp = (timestamp) => {
-    try {
-      const date = new Date(timestamp);
-      return date.toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-      });
-    } catch {
-      return "---";
-    }
-  };
-
-  const handleToggle = async (e) => {
-    setUpdatingState(true);
-    await onUsedToggle(bundle, e.target.checked);
-    setUpdatingState(false);
-  };
+  const charColors = getCharColor();
 
   const copyAllVideo = () => {
-    const vp = bundle.video_prompt || {};
-    const text = `Motion: ${vp.motion || ""}\nAction: ${vp.character_action || ""}\nEnvironment: ${vp.environment || ""}\nDuration: ${vp.duration_seconds || 6}s\nNotes: ${vp.notes || ""}`;
+    if (!promptDetails) return;
+    const vp = promptDetails.video;
+    const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}\nNotes: ${vp.notes}`;
     onCopy(text, "Video copied");
   };
 
-  const isUsed = bundle.used || false;
-
   return (
-    <div className="space-y-4">
-      {/* Header */}
-      <header className="pb-3 border-b border-gray-200">
-        <div className="flex items-start justify-between mb-2">
-          <div className="flex-1">
-            <div className="text-xs font-mono text-gray-600">{bundle.id}</div>
-            <div className="text-base font-semibold text-gray-900">{bundle.setting}</div>
-            <div className="text-xs text-gray-500">{formatTimestamp(bundle.timestamp)}</div>
-          </div>
-          <label className="flex items-center gap-2 cursor-pointer">
-            <input
-              type="checkbox"
-              checked={isUsed}
-              onChange={handleToggle}
-              disabled={updatingState}
-              className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-            />
-            <span className={`text-sm font-medium ${isUsed ? "text-blue-600" : "text-gray-600"}`}>
-              {isUsed ? "Used" : "Unused"}
-            </span>
-          </label>
-        </div>
-      </header>
+    <>
+      {/* Backdrop */}
+      <div
+        onClick={onClose}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
+          zIndex: 999,
+        }}
+      />
 
-      {/* Image Prompt */}
-      <section>
-        <div className="flex items-center justify-between mb-2">
-          <h3 className="text-sm font-semibold text-gray-900">📷 Image Prompt</h3>
-          <div className="flex items-center gap-2">
-            <span className={`text-xs font-mono font-semibold px-2 py-0.5 rounded ${getCharColor()}`}>
-              {charCount} chars
-            </span>
-            <button
-              onClick={() => onCopy(bundle.image_prompt?.final_prompt || "")}
-              className="px-2 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50 font-medium"
-            >
-              Copy
-            </button>
-          </div>
-        </div>
-        <pre className="whitespace-pre-wrap text-xs leading-5 bg-gray-50 p-3 rounded border border-gray-200 font-mono">
-          {bundle.image_prompt?.final_prompt || "No image prompt"}
-        </pre>
-        <div className="mt-2 text-xs text-gray-500">
-          Dimensions: {bundle.image_prompt?.width || 864} × {bundle.image_prompt?.height || 1536}
-        </div>
-        <button
-          onClick={() => setShowNegative(!showNegative)}
-          className="mt-2 text-xs text-blue-600 hover:underline"
-        >
-          {showNegative ? "Hide" : "Show"} Negative Prompt
-        </button>
-        {showNegative && (
-          <div className="mt-2">
-            <div className="flex items-center justify-between mb-1">
-              <h4 className="text-xs font-medium text-gray-700">Negative Prompt</h4>
-              <button
-                onClick={() => onCopy(bundle.image_prompt?.negative_prompt || "")}
-                className="px-2 py-0.5 text-[10px] border border-gray-300 rounded hover:bg-gray-50"
-              >
-                Copy
-              </button>
-            </div>
-            <pre className="whitespace-pre-wrap text-[11px] leading-4 bg-gray-50 p-2 rounded border border-gray-200 font-mono">
-              {bundle.image_prompt?.negative_prompt || "No negative prompt"}
-            </pre>
+      {/* Drawer */}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          right: 0,
+          bottom: 0,
+          width: "560px",
+          backgroundColor: "#fff",
+          boxShadow: "-2px 0 8px rgba(0,0,0,0.1)",
+          zIndex: 1000,
+          overflowY: "auto",
+          padding: "24px",
+        }}
+      >
+        {loading && (
+          <div style={{ textAlign: "center", padding: "32px", color: "#6b7280" }}>
+            Loading details...
           </div>
         )}
-      </section>
 
-      {/* Video Motion */}
-      <section className="pt-3 border-t border-gray-200">
-        <div className="flex items-center justify-between mb-2">
-          <h3 className="text-sm font-semibold text-gray-900">🎬 Video Motion</h3>
-          <button
-            onClick={copyAllVideo}
-            className="px-2 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50 font-medium"
-          >
-            Copy All Video
-          </button>
-        </div>
-        <div className="space-y-2 text-xs">
-          <Field
-            label="Motion"
-            value={bundle.video_prompt?.motion || ""}
-            onCopy={() => onCopy(bundle.video_prompt?.motion || "")}
-          />
-          <Field
-            label="Action"
-            value={bundle.video_prompt?.character_action || ""}
-            onCopy={() => onCopy(bundle.video_prompt?.character_action || "")}
-          />
-          <Field
-            label="Environment"
-            value={bundle.video_prompt?.environment || ""}
-            onCopy={() => onCopy(bundle.video_prompt?.environment || "")}
-          />
+        {!loading && promptDetails && (
           <div>
-            <span className="font-medium text-gray-700">Duration:</span>{" "}
-            <span className="text-gray-900">{bundle.video_prompt?.duration_seconds || 6}s</span>
-          </div>
-          {bundle.video_prompt?.notes && (
-            <Field
-              label="Notes"
-              value={bundle.video_prompt.notes}
-              onCopy={() => onCopy(bundle.video_prompt.notes)}
-            />
-          )}
-        </div>
-      </section>
-
-      {/* Media Caption */}
-      {bundle.social_meta && (
-        <section className="pt-3 border-t border-gray-200">
-          <div className="flex items-center justify-between mb-2">
-            <h3 className="text-sm font-semibold text-gray-900">🎧 Media / Social</h3>
-            <button
-              onClick={() => onCopy(bundle.social_meta?.title || "")}
-              className="px-2 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50 font-medium"
-            >
-              Copy
-            </button>
-          </div>
-          <div className="bg-gray-50 p-3 rounded border border-gray-200">
-            <p className="text-sm text-gray-900 leading-relaxed">
-              {bundle.social_meta?.title || "No media prompt"}
-            </p>
-            <div className="mt-2 text-xs text-gray-500">
-              {bundle.social_meta?.title?.length || 0} chars
+            {/* Header */}
+            <div style={{ marginBottom: "24px", paddingBottom: "16px", borderBottom: "1px solid #e5e7eb" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "8px" }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontSize: "11px", fontFamily: "monospace", color: "#6b7280", marginBottom: "4px" }}>
+                    {promptDetails.id}
+                  </div>
+                  <div style={{ fontSize: "16px", fontWeight: "600", color: "#111", marginBottom: "4px" }}>
+                    {promptDetails.location}
+                  </div>
+                  <div style={{ fontSize: "12px", color: "#6b7280" }}>
+                    {new Date(promptDetails.created_at).toLocaleString()}
+                  </div>
+                </div>
+                <button onClick={onClose} style={{ ...styles.ghostButton, fontSize: "18px" }}>
+                  ✕
+                </button>
+              </div>
+              <label style={{ display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }}>
+                <input
+                  type="checkbox"
+                  checked={promptDetails.used}
+                  onChange={(e) => onUsedToggle(promptDetails.id, e.target.checked)}
+                  style={{ width: "16px", height: "16px" }}
+                />
+                <span style={{ fontSize: "14px", fontWeight: "500", color: promptDetails.used ? "#2563eb" : "#6b7280" }}>
+                  {promptDetails.used ? "Used" : "Unused"}
+                </span>
+              </label>
             </div>
+
+            {/* Image Prompt */}
+            <section style={{ marginBottom: "24px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+                <h3 style={{ fontSize: "14px", fontWeight: "600", margin: 0 }}>📷 Image Prompt</h3>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                  <span
+                    style={{
+                      fontSize: "11px",
+                      fontFamily: "monospace",
+                      fontWeight: "600",
+                      padding: "2px 8px",
+                      borderRadius: "4px",
+                      backgroundColor: charColors.bg,
+                      color: charColors.color,
+                    }}
+                  >
+                    {charCount} chars
+                  </span>
+                  <button
+                    onClick={() => onCopy(promptDetails.image_prompt, "Image copied")}
+                    style={styles.copyButton}
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+              <textarea
+                value={promptDetails.image_prompt}
+                readOnly
+                style={{
+                  width: "100%",
+                  height: "220px",
+                  fontSize: "12px",
+                  fontFamily: "monospace",
+                  lineHeight: "1.5",
+                  padding: "12px",
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "6px",
+                  backgroundColor: "#f9fafb",
+                  resize: "none",
+                }}
+              />
+              <div style={{ marginTop: "8px", fontSize: "12px", color: "#6b7280" }}>
+                {promptDetails.media.dimensions}
+              </div>
+              <button
+                onClick={() => setShowNegative(!showNegative)}
+                style={styles.linkButton}
+              >
+                {showNegative ? "Hide" : "Show"} Negative Prompt
+              </button>
+              {showNegative && (
+                <div style={{ marginTop: "8px" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "4px" }}>
+                    <h4 style={{ fontSize: "12px", fontWeight: "600", margin: 0 }}>Negative Prompt</h4>
+                    <button
+                      onClick={() => onCopy(promptDetails.negative_prompt, "Negative copied")}
+                      style={{ ...styles.copyButton, fontSize: "11px", padding: "2px 6px" }}
+                    >
+                      Copy
+                    </button>
+                  </div>
+                  <pre
+                    style={{
+                      fontSize: "11px",
+                      fontFamily: "monospace",
+                      lineHeight: "1.4",
+                      padding: "8px",
+                      border: "1px solid #e5e7eb",
+                      borderRadius: "4px",
+                      backgroundColor: "#f9fafb",
+                      whiteSpace: "pre-wrap",
+                      margin: 0,
+                    }}
+                  >
+                    {promptDetails.negative_prompt}
+                  </pre>
+                </div>
+              )}
+            </section>
+
+            {/* Video Motion */}
+            <section style={{ marginBottom: "24px", paddingTop: "16px", borderTop: "1px solid #e5e7eb" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
+                <h3 style={{ fontSize: "14px", fontWeight: "600", margin: 0 }}>🎬 Video Motion</h3>
+                <button onClick={copyAllVideo} style={styles.copyButton}>
+                  Copy All Video
+                </button>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px", fontSize: "12px" }}>
+                <Field label="Motion" value={promptDetails.video.motion} onCopy={() => onCopy(promptDetails.video.motion)} />
+                <Field label="Action" value={promptDetails.video.action} onCopy={() => onCopy(promptDetails.video.action)} />
+                <Field label="Environment" value={promptDetails.video.environment} onCopy={() => onCopy(promptDetails.video.environment)} />
+                <div>
+                  <span style={{ fontWeight: "600", color: "#374151" }}>Duration:</span>{" "}
+                  <span style={{ color: "#111" }}>{promptDetails.video.duration}</span>
+                </div>
+                {promptDetails.video.notes && (
+                  <Field label="Notes" value={promptDetails.video.notes} onCopy={() => onCopy(promptDetails.video.notes)} />
+                )}
+              </div>
+            </section>
+
+            {/* Media Settings */}
+            <section style={{ paddingTop: "16px", borderTop: "1px solid #e5e7eb" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+                <h3 style={{ fontSize: "14px", fontWeight: "600", margin: 0 }}>📐 Media Settings</h3>
+                <button
+                  onClick={() => onCopy(`${promptDetails.media.dimensions} • ${promptDetails.media.aspect} • ${promptDetails.media.format}`, "Media copied")}
+                  style={styles.copyButton}
+                >
+                  Copy
+                </button>
+              </div>
+              <div style={{ fontSize: "12px", color: "#374151", padding: "12px", backgroundColor: "#f9fafb", border: "1px solid #e5e7eb", borderRadius: "6px" }}>
+                <div><strong>Dimensions:</strong> {promptDetails.media.dimensions}</div>
+                <div><strong>Aspect Ratio:</strong> {promptDetails.media.aspect}</div>
+                <div><strong>Format:</strong> {promptDetails.media.format}</div>
+              </div>
+            </section>
           </div>
-        </section>
-      )}
-    </div>
+        )}
+      </div>
+    </>
   );
 }
 
 function Field({ label, value, onCopy }) {
   return (
     <div>
-      <div className="flex items-center justify-between mb-1">
-        <span className="font-medium text-gray-700">{label}:</span>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "4px" }}>
+        <span style={{ fontWeight: "600", color: "#374151" }}>{label}:</span>
         {onCopy && (
-          <button
-            onClick={onCopy}
-            className="px-1.5 py-0.5 text-[10px] border border-gray-300 rounded hover:bg-gray-50"
-          >
+          <button onClick={onCopy} style={{ ...styles.copyButton, fontSize: "10px", padding: "2px 6px" }}>
             Copy
           </button>
         )}
       </div>
-      <div className="text-gray-900 bg-gray-50 p-2 rounded text-xs">{value}</div>
+      <div style={{ padding: "8px", backgroundColor: "#f9fafb", borderRadius: "4px", color: "#111" }}>
+        {value}
+      </div>
     </div>
   );
 }
+
+const styles = {
+  card: {
+    backgroundColor: "#fff",
+    border: "1px solid #e5e7eb",
+    borderRadius: "10px",
+    padding: "20px",
+  },
+  cardTitle: {
+    fontSize: "15px",
+    fontWeight: "600",
+    margin: "0 0 16px",
+    color: "#111",
+  },
+  label: {
+    display: "block",
+    fontSize: "12px",
+    fontWeight: "500",
+    color: "#374151",
+    marginBottom: "4px",
+  },
+  input: {
+    width: "100%",
+    padding: "6px 10px",
+    fontSize: "13px",
+    border: "1px solid #d1d5db",
+    borderRadius: "6px",
+    outline: "none",
+  },
+  select: {
+    width: "100%",
+    padding: "6px 10px",
+    fontSize: "13px",
+    border: "1px solid #d1d5db",
+    borderRadius: "6px",
+    outline: "none",
+  },
+  button: {
+    padding: "6px 12px",
+    fontSize: "12px",
+    fontWeight: "500",
+    border: "1px solid #d1d5db",
+    borderRadius: "6px",
+    backgroundColor: "#f9fafb",
+    color: "#374151",
+    cursor: "pointer",
+  },
+  buttonActive: {
+    backgroundColor: "#dbeafe",
+    borderColor: "#3b82f6",
+    color: "#1e40af",
+  },
+  primaryButton: {
+    width: "100%",
+    padding: "10px 16px",
+    fontSize: "14px",
+    fontWeight: "600",
+    border: "none",
+    borderRadius: "6px",
+    backgroundColor: "#111",
+    color: "#fff",
+    cursor: "pointer",
+  },
+  secondaryButton: {
+    padding: "6px 12px",
+    fontSize: "12px",
+    fontWeight: "500",
+    border: "1px solid #d1d5db",
+    borderRadius: "6px",
+    backgroundColor: "#f9fafb",
+    color: "#374151",
+    cursor: "pointer",
+  },
+  buttonDisabled: {
+    backgroundColor: "#e5e7eb",
+    color: "#9ca3af",
+    cursor: "not-allowed",
+  },
+  linkButton: {
+    background: "none",
+    border: "none",
+    color: "#2563eb",
+    fontSize: "12px",
+    cursor: "pointer",
+    textDecoration: "underline",
+    padding: "4px 0",
+    marginTop: "4px",
+  },
+  errorBox: {
+    marginTop: "12px",
+    padding: "10px 12px",
+    backgroundColor: "#fef2f2",
+    border: "1px solid #fecaca",
+    borderRadius: "6px",
+    fontSize: "12px",
+    color: "#dc2626",
+  },
+  pill: {
+    padding: "4px 12px",
+    fontSize: "12px",
+    fontWeight: "500",
+    border: "1px solid #e5e7eb",
+    borderRadius: "16px",
+    backgroundColor: "#fff",
+    color: "#6b7280",
+    cursor: "pointer",
+  },
+  pillActive: {
+    backgroundColor: "#2563eb",
+    borderColor: "#2563eb",
+    color: "#fff",
+  },
+  table: {
+    width: "100%",
+    borderCollapse: "collapse",
+    fontSize: "13px",
+  },
+  th: {
+    textAlign: "left",
+    padding: "10px 12px",
+    borderBottom: "2px solid #e5e7eb",
+    fontWeight: "600",
+    color: "#374151",
+    backgroundColor: "#f9fafb",
+    position: "sticky",
+    top: 0,
+    fontSize: "12px",
+  },
+  tr: {
+    transition: "background-color 0.1s",
+  },
+  td: {
+    padding: "10px 12px",
+    borderBottom: "1px solid #f3f4f6",
+    color: "#111",
+    fontSize: "12px",
+  },
+  ghostButton: {
+    padding: "4px 8px",
+    fontSize: "12px",
+    border: "1px solid #e5e7eb",
+    borderRadius: "4px",
+    backgroundColor: "#fff",
+    cursor: "pointer",
+  },
+  copyButton: {
+    padding: "4px 10px",
+    fontSize: "11px",
+    fontWeight: "500",
+    border: "1px solid #d1d5db",
+    borderRadius: "4px",
+    backgroundColor: "#fff",
+    color: "#374151",
+    cursor: "pointer",
+  },
+  toast: {
+    position: "fixed",
+    bottom: "24px",
+    right: "24px",
+    backgroundColor: "#1f2937",
+    color: "#fff",
+    padding: "12px 20px",
+    borderRadius: "8px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+    fontSize: "14px",
+    zIndex: 2000,
+  },
+};

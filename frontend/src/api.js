@@ -15,8 +15,32 @@ export async function generatePromptBundle(payload) {
   return r.json();
 }
 
-export async function getRecentPrompts(limit = 20) {
-  const r = await fetch(`/api/prompts?limit=${limit}`);
+export async function getPrompts({
+  status = "all",
+  search = "",
+  page = 1,
+  page_size = 20,
+  sort = "-created_at",
+} = {}) {
+  const params = new URLSearchParams({
+    status,
+    search,
+    page: String(page),
+    page_size: String(page_size),
+    sort,
+  });
+  const r = await fetch(`/api/prompts?${params}`);
+  if (!r.ok) {
+    throw new Error("Failed to fetch prompts");
+  }
+  return r.json();
+}
+
+export async function getPromptBundle(bundleId) {
+  const r = await fetch(`/api/prompts/${bundleId}`);
+  if (!r.ok) {
+    throw new Error("Failed to fetch prompt bundle");
+  }
   return r.json();
 }
 

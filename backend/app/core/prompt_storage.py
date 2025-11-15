@@ -116,6 +116,24 @@ def read_recent_prompts(prompts_dir: str, limit: int = 20) -> list[dict[str, Any
         return list(reversed(entries[-limit:]))
 
 
+def read_all_prompts(prompts_dir: str) -> list[dict[str, Any]]:
+    """
+    Read all prompt bundles (newest first).
+
+    Args:
+        prompts_dir: Directory for prompts output
+
+    Returns:
+        List of all prompt bundle dicts (newest first)
+    """
+    path = get_prompts_file(prompts_dir)
+
+    with LOCK:
+        entries = _load_jsonl(path)
+        # Reverse to get newest first
+        return list(reversed(entries))
+
+
 def find_prompt_bundle(prompts_dir: str, bundle_id: str) -> dict[str, Any] | None:
     """
     Find prompt bundle by ID.
