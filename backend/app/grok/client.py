@@ -50,6 +50,18 @@ BIND_POLICY = {
 }
 INSPIRE_ONLY = {"wardrobe_top", "wardrobe_bottom"}  # never bind
 
+# Section budgets (soft targets for compression/diagnostics only)
+SECTION_BUDGETS = {
+    "Character": (80, 110),
+    "Scene": (160, 230),
+    "CameraAngle": (120, 170),
+    "Wardrobe": (60, 90),
+    "Accessories": (40, 70),
+    "Pose": (160, 210),
+    "Lighting": (120, 170),
+    "Environment": (200, 270),
+}
+
 
 def _acc_category(text: str) -> str:
     """Categorize accessory by body location."""
@@ -81,6 +93,203 @@ def _one_accessory_from_panel(acc_panel: list[str], pose_text: str) -> str:
     ranked = sorted(acc_panel, key=lambda a: prefer.index(cats[a]))
 
     return ranked[0] if ranked else acc_panel[0]
+
+
+def _compress_persona_appearance(persona: dict) -> str:
+    """
+    Build compressed appearance descriptor (target ≤110 chars).
+
+    Removes redundant adjectives while keeping core descriptors.
+    """
+    hair = persona.get("hair", "medium wavy blonde hair")
+    eyes = persona.get("eyes", "saturated blue eyes")
+    body = persona.get("body", "busty muscular physique")
+    skin = persona.get("skin", "realistic skin texture")
+
+    # Compress body if too long
+    if "with hourglass defined body" in body:
+        body = body.replace(" with hourglass defined body", "")
+    if "busty muscular physique" in body:
+        body = "busty muscular physique"
+
+    # Compress skin if too long
+    if "realistic natural skin texture and strong realistic wet highlights" in skin:
+        skin = "realistic skin with wet highlights"
+    elif "realistic natural skin texture" in skin:
+        skin = "realistic skin texture"
+
+    # Build appearance
+    appearance = f"{hair}, {eyes}, {body}, {skin}"
+
+    # If still too long, aggressively compress
+    if len(appearance) > 110:
+        # Remove modifiers from hair
+        hair = hair.replace("medium ", "").replace("wavy ", "")
+        # Simplify eyes
+        eyes = "blue eyes"
+        # Minimal body
+        body = "muscular physique"
+        # Minimal skin
+        skin = "realistic skin"
+        appearance = f"{hair}, {eyes}, {body}, {skin}"
+
+    return appearance
+
+
+def _trim_filler_words(text: str) -> str:
+    """Remove common filler adverbs and duplicate adjectives."""
+    # Remove common fillers
+    fillers = [
+        r'\b(softly|subtly|gently|richly|beautifully|perfectly|truly|simply)\s+',
+        r'\s+(composition|framing|color palette)[^\.]+'
+    ]
+    for pattern in fillers:
+        text = re.sub(pattern, ' ', text, flags=re.IGNORECASE)
+
+    # Remove duplicate adjectives (e.g., "warm golden glow" → "golden glow")
+    text = re.sub(r'\b(\w+)\s+(\w+)\s+(\w+)\b',
+                  lambda m: f"{m.group(2)} {m.group(3)}" if m.group(1).lower() in ['warm', 'cool', 'soft', 'rich'] else m.group(0),
+                  text)
+
+    # Collapse multiple spaces
+    text = re.sub(r'\s+', ' ', text)
+
+    return text.strip()
+
+
+def _extract_bound_spans(prompt: str, bound_phrases: dict[str, list[str]]) -> list[tuple[int, int]]:
+    """
+    Find character spans of all bound phrases (case-insensitive).
+
+    Returns list of (start, end) tuples marking protected regions.
+    """
+    spans = []
+    prompt_lower = prompt.lower()
+
+    for slot, phrases in bound_phrases.items():
+        for phrase in phrases:
+            if not phrase:
+                continue
+            phrase_lower = phrase.lower()
+            start_idx = 0
+            while True:
+                idx = prompt_lower.find(phrase_lower, start_idx)
+                if idx == -1:
+                    break
+                spans.append((idx, idx + len(phrase)))
+                start_idx = idx + len(phrase)
+
+    # Merge overlapping spans
+    if not spans:
+        return []
+
+    spans.sort()
+    merged = [spans[0]]
+    for start, end in spans[1:]:
+        if start <= merged[-1][1]:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], end))
+        else:
+            merged.append((start, end))
+
+    return merged
+
+
+def compress_image_prompt(text: str, bound_phrases: dict[str, list[str]], target_max: int = 1500) -> tuple[str, list[str]]:
+    """
+    Compress image prompt if >target_max chars while preserving all bound phrases.
+
+    Strategy (in order):
+    1. Remove filler words from Environment
+    2. Trim Lighting, CameraAngle, Scene sections above budget
+    3. Trim Wardrobe/Accessories descriptive fluff (NOT bound phrases)
+
+    Args:
+        text: The image prompt text
+        bound_phrases: Dict of bound phrases to preserve exactly
+        target_max: Maximum allowed length (default 1500)
+
+    Returns:
+        Tuple of (compressed_text, list_of_trimmed_sections)
+    """
+    if len(text) <= target_max:
+        return text, []
+
+    # Extract bound spans to protect
+    protected_spans = _extract_bound_spans(text, bound_phrases)
+    trimmed_sections = []
+
+    # Split into sections (case-insensitive)
+    section_pattern = r'(?i)(Character|Scene|Camera|Angle|Wardrobe|Accessories|Pose|Lighting|Environment):\s*'
+    parts = re.split(section_pattern, text)
+
+    if len(parts) < 3:  # Couldn't parse sections
+        return _trim_filler_words(text), ["Global"]
+
+    # Rebuild as dict
+    sections = {}
+    current_label = None
+    for i, part in enumerate(parts):
+        if i == 0:
+            continue  # Skip text before first section
+        if i % 2 == 1:  # Section label
+            current_label = part.strip()
+        elif current_label:  # Section content
+            sections[current_label] = part.strip()
+
+    # Compression steps
+    saved_chars = 0
+
+    # Step 1: Trim Environment fillers
+    if "Environment" in sections:
+        env_text = sections["Environment"]
+        trimmed_env = _trim_filler_words(env_text)
+        if len(trimmed_env) < len(env_text):
+            saved = len(env_text) - len(trimmed_env)
+            sections["Environment"] = trimmed_env
+            saved_chars += saved
+            trimmed_sections.append(f"Environment(-{saved})")
+
+    # Step 2: Trim other sections if still over limit
+    trim_order = ["Lighting", "Scene"]  # Don't trim CameraAngle (often bound)
+
+    for section_name in trim_order:
+        if len(text) - saved_chars <= target_max:
+            break
+
+        if section_name in sections:
+            original = sections[section_name]
+            trimmed = _trim_filler_words(original)
+
+            # Additional aggressive trimming if needed
+            if len(trimmed) > SECTION_BUDGETS.get(section_name, (0, 200))[1]:
+                budget_max = SECTION_BUDGETS[section_name][1]
+                # Trim to budget while avoiding protected spans
+                if len(trimmed) > budget_max:
+                    # Simple truncation for now
+                    trimmed = trimmed[:budget_max].rsplit('.', 1)[0] + '.'
+
+            if len(trimmed) < len(original):
+                saved = len(original) - len(trimmed)
+                sections[section_name] = trimmed
+                saved_chars += saved
+                trimmed_sections.append(f"{section_name}(-{saved})")
+
+    # Rebuild prompt
+    rebuilt = ""
+    for section in ["Character", "Scene", "Camera", "Angle", "Wardrobe", "Accessories", "Pose", "Lighting", "Environment"]:
+        if section in sections:
+            rebuilt += f"{section}: {sections[section]} "
+
+    # Final trim if still over
+    if len(rebuilt) > target_max:
+        rebuilt = _trim_filler_words(rebuilt)
+        if len(rebuilt) > target_max:
+            # Last resort: hard truncate at sentence boundary
+            rebuilt = rebuilt[:target_max].rsplit('.', 1)[0] + '.'
+            if "HardTrunc" not in trimmed_sections:
+                trimmed_sections.append("HardTrunc")
+
+    return rebuilt.strip(), trimmed_sections
 
 
 @dataclass(frozen=True)
@@ -761,25 +970,55 @@ Return JSON array of {count} bundle(s):
                     bundle_id = self._generate_bundle_id(setting_id, prompt_text)
                     bundle_raw["id"] = bundle_id
 
-                    # Validate with Pydantic
-                    validated = PromptBundle(**bundle_raw)
-
-                    # Enforce character limits (fail-loud policy)
-                    prompt_len = len(validated.image_prompt.final_prompt)
+                    # Check length BEFORE Pydantic validation (to avoid max_length constraint)
+                    prompt_len = len(prompt_text)
                     min_chars = 1300  # Target minimum (updated to 1,300)
                     max_chars = self.config.max_prompt_chars  # 1500 hard limit
 
+                    # Try smart compression if over limit (BEFORE validation)
+                    if prompt_len > max_chars:
+                        compressed, trimmed_sections = compress_image_prompt(
+                            prompt_text,
+                            bound,
+                            target_max=max_chars
+                        )
+                        compressed_len = len(compressed)
+
+                        if compressed_len <= max_chars and compressed_len >= min_chars:
+                            # Compression succeeded - update bundle_raw before validation
+                            bundle_raw["image_prompt"]["final_prompt"] = compressed
+                            prompt_len = compressed_len  # Update for validation below
+                            log.info(
+                                f"COMPRESS applied bundle_id={bundle_id} "
+                                f"before={len(prompt_text)} after={compressed_len} "
+                                f"saved={len(prompt_text) - compressed_len} sections={trimmed_sections}"
+                            )
+                            # Add compression metadata
+                            bundle_raw["_compression_applied"] = {
+                                "before": len(prompt_text),
+                                "after": compressed_len,
+                                "saved": len(prompt_text) - compressed_len,
+                                "sections": trimmed_sections,
+                            }
+                        else:
+                            # Compression didn't help enough
+                            invalid_prompts.append((bundle_id, compressed_len, "too_long_post_compress"))
+                            log.warning(
+                                f"GROK_BUNDLE prompt too long even after compression: "
+                                f"bundle_id={bundle_id} before={len(prompt_text)} after={compressed_len} "
+                                f"(max {max_chars}) attempt={attempt}/{max_attempts}"
+                            )
+                            continue  # Skip this bundle
+
+                    # Validate with Pydantic (after compression if needed)
+                    validated = PromptBundle(**bundle_raw)
+
+                    # Check character limit AFTER validation (for bundles that didn't need compression)
                     if prompt_len < min_chars:
                         invalid_prompts.append((bundle_id, prompt_len, "too_short"))
                         log.warning(
                             f"GROK_BUNDLE prompt too short: bundle_id={bundle_id} length={prompt_len} "
                             f"(min {min_chars}) attempt={attempt}/{max_attempts}"
-                        )
-                    elif prompt_len > max_chars:
-                        invalid_prompts.append((bundle_id, prompt_len, "too_long"))
-                        log.warning(
-                            f"GROK_BUNDLE prompt too long: bundle_id={bundle_id} length={prompt_len} "
-                            f"(max {max_chars}) attempt={attempt}/{max_attempts}"
                         )
 
                     # Validate binding constraints (pass all bind flags)
@@ -794,6 +1033,23 @@ Return JSON array of {count} bundle(s):
                         log.warning(
                             f"GROK_BUNDLE validation failed: bundle_id={bundle_id} "
                             f"errors={errors} attempt={attempt}/{max_attempts}"
+                        )
+
+                    # Per-bundle telemetry (Step 6)
+                    final_prompt_len = len(bundle_raw["image_prompt"]["final_prompt"])
+                    compression_info = bundle_raw.get("_compression_applied")
+                    if compression_info:
+                        log.info(
+                            f"BUNDLE_METRICS bundle_id={bundle_id} "
+                            f"len_before={compression_info.get('before', 0)} "
+                            f"len_after_compress={compression_info.get('after', 0)} "
+                            f"saved={compression_info.get('saved', 0)} "
+                            f"sections_trimmed={str(compression_info.get('sections', []))}"
+                        )
+                    else:
+                        log.info(
+                            f"BUNDLE_METRICS bundle_id={bundle_id} "
+                            f"len_final={final_prompt_len} compression=not_needed"
                         )
 
                     bundles.append(bundle_raw)  # Keep building bundles for validation
@@ -907,13 +1163,14 @@ Create metadata. Return JSON:
             raise RuntimeError(f"Failed to parse social meta from Grok: {e}") from e
 
     def _build_appearance(self, persona: dict[str, Any]) -> str:
-        """Build appearance descriptor from persona."""
-        return (
-            f"{persona.get('hair', 'medium wavy blonde hair')}, "
-            f"{persona.get('eyes', 'saturated blue eyes')}, "
-            f"{persona.get('body', 'busty muscular curvy physique with defined abs, legs, and arms')}, "
-            f"{persona.get('skin', 'sun-kissed realistic glowing skin with high radiant complexion and natural wet highlights')}"
-        )
+        """
+        Build compressed appearance descriptor from persona (target ≤110 chars).
+
+        Logs the final length for diagnostics.
+        """
+        appearance = _compress_persona_appearance(persona)
+        log.info(f"PERSONA_APPEARANCE length={len(appearance)} chars: {appearance[:80]}...")
+        return appearance
 
     def _generate_bundle_id(self, setting_id: str, prompt: str) -> str:
         """Generate deterministic bundle ID from setting_id and prompt."""
