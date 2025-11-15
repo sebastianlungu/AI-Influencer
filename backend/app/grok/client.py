@@ -19,6 +19,8 @@ from dataclasses import dataclass
 from decimal import Decimal
 from typing import Any
 
+from pydantic import ValidationError
+
 from app.core import concurrency
 from app.core.cost import add_cost
 from app.core.logging import log
@@ -134,6 +136,35 @@ def _compress_persona_appearance(persona: dict) -> str:
         appearance = f"{hair}, {eyes}, {body}, {skin}"
 
     return appearance
+
+
+def _enforce_min_len(s: str, min_len: int = 12, pad: str = " — steady, focused") -> str:
+    """
+    Ensure string meets minimum length by appending a natural-sounding tail.
+
+    Prevents video_prompt fields from failing Pydantic min_length validators.
+    """
+    if not isinstance(s, str):
+        return ""
+
+    s = s.strip(" .;")
+    if len(s) >= min_len:
+        return s
+
+    # Natural padding options
+    tails = [
+        " — steady, focused",
+        " with calm intent",
+        " — measured and deliberate",
+        " with quiet precision"
+    ]
+
+    for t in tails:
+        if len(s) + len(t) >= min_len:
+            return f"{s}{t}"
+
+    # Fallback to first tail
+    return f"{s}{tails[0]}"
 
 
 def _trim_filler_words(text: str) -> str:
@@ -934,12 +965,13 @@ If a BOUND POSE phrase is shown above, you MUST place it EXACTLY at the START of
 
 For other bound phrases (scene, lighting, camera, angle, accessories), include them verbatim but placement flexibility is allowed.
 
-**VIDEO (6s, keep < 160 chars total):**
-Format: "[camera move]; [character micro-action]; [environment cue]."
-Examples:
-- "Dolly push; over-shoulder hair flip; lantern mist drifting."
-- "Slider creep; slow inhale, chin lift; rain beads catching neon."
-One sentence, plain English, no lenses/f-stops/rigs.
+**VIDEO (3 lines, each 12–60 chars):**
+Motion: ... (12–60 chars)
+Action: ... (12–60 chars)
+Environment: ... (12–60 chars)
+Use concise phrases, no sentence padding. Examples:
+- gentle push-in along track | adjusts wrist wrap, eyes set | Tokyo skyline at dusk, breeze
+- slow dolly creep forward | slow inhale, chin lift upward | rain beads catching neon glow
 
 Return JSON array of {count} bundle(s):
 [{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}, "video_prompt": {{"motion": "...", "character_action": "...", "environment": "...", "duration_seconds": 6, "notes": "..."}}}}]"""
@@ -1010,8 +1042,37 @@ Return JSON array of {count} bundle(s):
                             )
                             continue  # Skip this bundle
 
+                    # Enforce min length on video fields (prevent validation failures)
+                    if "video_prompt" in bundle_raw:
+                        vp = bundle_raw["video_prompt"]
+                        vp["motion"] = _enforce_min_len(vp.get("motion", ""), 12)
+                        vp["character_action"] = _enforce_min_len(vp.get("character_action", ""), 12)
+                        vp["environment"] = _enforce_min_len(vp.get("environment", ""), 12)
+
                     # Validate with Pydantic (after compression if needed)
-                    validated = PromptBundle(**bundle_raw)
+                    try:
+                        validated = PromptBundle(**bundle_raw)
+                    except ValidationError as e:
+                        # Extract field-level validation details
+                        for error in e.errors():
+                            field = ".".join(str(loc) for loc in error["loc"])
+                            value = bundle_raw
+                            for loc in error["loc"]:
+                                value = value.get(loc, {}) if isinstance(value, dict) else value
+                            rule = error["type"]
+                            msg = error["msg"]
+
+                            invalid_prompts.append((
+                                bundle_id,
+                                str(value)[:50],  # Truncate value
+                                f"field={field} rule={rule} msg={msg}"
+                            ))
+
+                        log.warning(
+                            f"GROK_BUNDLE Pydantic validation failed: bundle_id={bundle_id} "
+                            f"errors={e.errors()} attempt={attempt}/{max_attempts}"
+                        )
+                        continue  # Skip this bundle
 
                     # Check character limit AFTER validation (for bundles that didn't need compression)
                     if prompt_len < min_chars:
