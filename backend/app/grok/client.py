@@ -27,6 +27,7 @@ from app.core.logging import log
 from app.core.paths import get_data_path
 
 from .models import ImagePrompt, MusicBrief, MotionSpec, PromptBundle, VideoPrompt
+from .text_filter import filter_banned_words
 from .transport import XAITransport
 from .utils import estimate_cost, estimate_tokens, extract_json, redact
 
@@ -55,11 +56,10 @@ BIND_POLICY = {
 
 # Motion variety binding policy (independent from main prompt slots)
 BIND_POLICY_MOTION = {
-    "verbs": {"k": 1, "recent": 15},
-    "paths": {"k": 1, "recent": 15},
-    "actions": {"k": 1, "recent": 20},
-    "cadence": {"k": 1, "recent": 12},
-    "angles": {"k": 1, "recent": 20},
+    "video_camera_motion": {"k": 1, "recent": 15},
+    "video_micro_action": {"k": 1, "recent": 20},
+    "video_posture": {"k": 1, "recent": 15},
+    "video_closing_angle": {"k": 1, "recent": 20},
 }
 
 # Environment deny list (words that should not appear in motion lines)
@@ -226,6 +226,49 @@ def _strip_slot_wrappers(text: str) -> str:
 
     # Replace `<slot>[payload]` -> `payload`
     return _TAG_BLOCK.sub(r"\1", text)
+
+
+def _strip_section_labels(text: str) -> tuple[str, list[str]]:
+    """
+    Strip section labels from prompt text if they slip through.
+
+    Removes patterns like "Camera: ...", "Pose: ...", "Lighting: ..." etc.
+    Only strips at sentence boundaries to avoid damaging normal words.
+
+    Args:
+        text: Prompt text that may contain section labels
+
+    Returns:
+        Tuple of (cleaned_text, list_of_stripped_labels)
+    """
+    if not text:
+        return text, []
+
+    # Section labels to strip
+    labels = ["Camera", "Angle", "Wardrobe", "Accessories", "Pose", "Lighting", "Environment", "Scene"]
+    stripped = []
+    cleaned = text
+
+    for label in labels:
+        # Match label at start of sentence or after period/newline
+        # Pattern: (start of string OR period/newline) + whitespace + Label: + whitespace
+        pattern = re.compile(
+            r'(^|\.\s+|\n\s*)' + re.escape(label) + r':\s+',
+            re.MULTILINE | re.IGNORECASE
+        )
+
+        # Find matches to track what was stripped
+        matches = pattern.findall(cleaned)
+        if matches:
+            stripped.append(label)
+
+        # Remove the label, keeping the sentence boundary
+        cleaned = pattern.sub(r'\1', cleaned)
+
+    # Clean up any double spaces
+    cleaned = re.sub(r'  +', ' ', cleaned).strip()
+
+    return cleaned, stripped
 
 
 def _compress_persona_appearance(persona: dict) -> str:
@@ -842,61 +885,96 @@ Create music brief. Return JSON:
 
     @staticmethod
     def _load_motion_bank() -> dict[str, list[dict[str, Any]]]:
-        """Load video motion variety bank."""
+        """Load video motion variety bank from variety_bank.json."""
         try:
-            motion_bank_path = get_data_path("video_motion_bank.json")
-            with open(motion_bank_path, "r", encoding="utf-8") as f:
-                return json.load(f)
+            variety_bank_path = get_data_path("variety_bank.json")
+            with open(variety_bank_path, "r", encoding="utf-8") as f:
+                full_bank = json.load(f)
+                # Extract only the video motion banks
+                return {
+                    "video_camera_motion": full_bank.get("video_camera_motion", []),
+                    "video_micro_action": full_bank.get("video_micro_action", []),
+                    "video_posture": full_bank.get("video_posture", []),
+                    "video_closing_angle": full_bank.get("video_closing_angle", []),
+                }
         except FileNotFoundError:
-            log.warning("video_motion_bank.json not found, returning empty bank")
-            return {"verbs": [], "paths": [], "actions": [], "cadence": [], "angles": []}
+            log.warning("variety_bank.json not found, returning empty motion banks")
+            return {
+                "video_camera_motion": [],
+                "video_micro_action": [],
+                "video_posture": [],
+                "video_closing_angle": [],
+            }
         except Exception as e:
-            log.error(f"Failed to load motion bank: {e}")
-            return {"verbs": [], "paths": [], "actions": [], "cadence": [], "angles": []}
+            log.error(f"Failed to load motion banks from variety_bank.json: {e}")
+            return {
+                "video_camera_motion": [],
+                "video_micro_action": [],
+                "video_posture": [],
+                "video_closing_angle": [],
+            }
 
     @staticmethod
-    def _validate_motion_line(line: str, angle_pattern: re.Pattern) -> tuple[bool, str]:
+    def _validate_motion_line(line: str) -> tuple[bool, str]:
         """
-        Validate a single motion line.
+        Validate a single motion line against the new forever structure.
+
+        Expected format:
+        "natural, instagram-photorealistic, hand-held camera — {camera_motion}, she {micro_action} while keeping {posture}; {closing_angle}"
+
+        Where closing_angle starts with "ending in..." or "ending as..." etc.
 
         Returns:
             (is_valid, error_message)
         """
         # Rule 1: Must start with prefix
-        if not line.startswith("natural, realistic — "):
-            return False, "missing 'natural, realistic — ' prefix"
+        if not line.startswith("natural, instagram-photorealistic, hand-held camera — "):
+            return False, "missing 'natural, instagram-photorealistic, hand-held camera — ' prefix"
 
-        # Rule 2: Must include "handheld"
-        if "handheld" not in line:
-            return False, "missing 'handheld'"
+        # Rule 2: Must include "she"
+        if ", she " not in line:
+            return False, "missing ', she ' separator"
 
-        # Rule 3: No environment words
+        # Rule 3: Must include "while keeping"
+        if " while keeping " not in line:
+            return False, "missing ' while keeping ' posture phrase"
+
+        # Rule 4: Must include closing angle marker ("; ending" or "; finishing")
+        if "; ending " not in line and "; finishing " not in line:
+            return False, "missing '; ending ' or '; finishing ' closing phrase"
+
+        # Rule 5: No environment words
         env_deny_tokens = line.lower().split()
         for token in env_deny_tokens:
             if token in ENV_DENY:
                 return False, f"contains environment word: '{token}'"
 
-        # Rule 4: Must match angle regex at end
-        if not angle_pattern.search(line):
-            return False, "missing or invalid angle specification"
-
-        # Rule 5: Length check
-        if len(line) < 110:
-            return False, f"too short ({len(line)} < 110 chars)"
-        if len(line) > 160:
-            return False, f"too long ({len(line)} > 160 chars)"
+        # Rule 6: Length check (adjusted for new structure with longer prefix)
+        # Old prefix was ~32 chars, new is ~56 chars (+24), so adjust thresholds
+        if len(line) < 120:
+            return False, f"too short ({len(line)} < 120 chars)"
+        if len(line) > 230:
+            return False, f"too long ({len(line)} > 230 chars)"
 
         return True, ""
 
     def _generate_motion_line(
         self,
         rng: random.Random,
+        image_pose: str | None = None,
     ) -> str:
         """
-        Generate a single motion line with binding & recency.
+        Generate a single motion line with binding & recency using the new forever structure.
+
+        Forever structure:
+        "natural, instagram-photorealistic, hand-held camera — {camera_motion}, she {micro_action} while keeping {posture}; {closing_angle}."
+
+        Args:
+            rng: Random number generator
+            image_pose: Optional pose/micro-action from the image prompt for context-aware motion
 
         Returns:
-            Single motion line string (110-160 chars)
+            Single motion line string (120-230 chars)
         """
         # Load motion bank
         motion_bank = self._load_motion_bank()
@@ -906,17 +984,16 @@ Create music brief. Return JSON:
 
         # Extract recently used items per slot
         recently_used = {
-            "verbs": set(),
-            "paths": set(),
-            "actions": set(),
-            "cadence": set(),
-            "angles": set(),
+            "video_camera_motion": set(),
+            "video_micro_action": set(),
+            "video_posture": set(),
+            "video_closing_angle": set(),
         }
 
         for bundle in recent_bundles:
             video = bundle.get("video_prompt", {})
             if isinstance(video, dict) and "line" in video:
-                # Try to extract components from old-format lines
+                # Try to extract components from lines
                 line = video["line"]
                 # Simple heuristic extraction (best effort)
                 for slot_name in recently_used.keys():
@@ -925,12 +1002,6 @@ Create music brief. Return JSON:
                         text = item.get("text", "") if isinstance(item, dict) else str(item)
                         if text and text.lower() in line.lower():
                             recently_used[slot_name].add(text)
-
-        # Prepare angle regex for validation
-        angle_pattern = re.compile(
-            r"finish\s+(low|high|eye-level)\s+(left|right|quarter-left|quarter-right|three-quarter|front|profile)\.",
-            re.IGNORECASE
-        )
 
         # Try up to 3 times to generate a valid line
         for attempt in range(3):
@@ -961,14 +1032,30 @@ Create music brief. Return JSON:
                 sampled = self._weighted_sample_texts(available, k, rng)
                 selected[slot_name] = sampled[0] if sampled else ""
 
-            # Build line: natural, realistic — handheld {verb} {path}, she {action} {cadence}; finish {angle}.
+            # CONTEXT-AWARE ENHANCEMENT: Optionally reference the image pose
+            # 20% chance to add context when image_pose is provided
+            micro_action_text = selected['video_micro_action']
+            if image_pose and rng.random() < 0.2:
+                # Extract key action words from pose (first 2-3 words typically describe the action)
+                pose_keywords = ' '.join(image_pose.split()[:3])
+                context_phrases = [
+                    f"continues the {pose_keywords}",
+                    f"extends the {pose_keywords}",
+                    f"maintains the {pose_keywords}",
+                ]
+                micro_action_text = rng.choice(context_phrases)
+
+            # Build line with new forever structure:
+            # "natural, instagram-photorealistic, hand-held camera — {camera_motion}, she {micro_action} while keeping {posture}; {closing_angle}"
+            # Note: closing_angle already includes "ending in..." or "ending as..." so we don't add "finish"
             line = (
-                f"natural, realistic — handheld {selected['verbs']} {selected['paths']}, "
-                f"she {selected['actions']} {selected['cadence']}; finish {selected['angles']}."
+                f"natural, instagram-photorealistic, hand-held camera — {selected['video_camera_motion']}, "
+                f"she {micro_action_text} while keeping {selected['video_posture']}; "
+                f"{selected['video_closing_angle']}"
             )
 
             # Validate
-            is_valid, error_msg = self._validate_motion_line(line, angle_pattern)
+            is_valid, error_msg = self._validate_motion_line(line)
 
             if is_valid:
                 log.info(f"MOTION_LINE_GENERATED length={len(line)} attempt={attempt + 1}")
@@ -1258,18 +1345,20 @@ Start directly with the scene/location (e.g., ", shot at [specific location]..."
 
 **YOUR TEXT STRUCTURE (≈{llm_target} chars):**
 Start with: ", shot at [specific scene/location]..."
-Sections (ordered): Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Environment.
-Expand each section with rich sensory detail, specific textures, and atmospheric cues.
+
+**CRITICAL - WRITE AS A FLOWING PARAGRAPH (NO SECTION LABELS):**
+Use this internal structure conceptually: Scene, Camera, Angle, Wardrobe, Accessories, Pose, Lighting, Environment.
+However, write it as ONE CONTINUOUS natural description - do NOT prefix sections with labels like "Camera:", "Pose:", "Lighting:", etc.
+Instead of: "Camera: 85mm at f/2.5... Pose: arched back... Lighting: orchid gelled rim..."
+Write: "shot at [scene]. [Camera details] capture the scene. [Wardrobe details]. [Accessories details]. [Pose details]; [more pose]. [Lighting details]. [Environment details]."
 
 **CRITICAL — BOUND POSE REQUIREMENT:**
-If a BOUND POSE phrase is shown above, you MUST place it EXACTLY at the START of the Pose line.
-- Do NOT add any text before the bound phrase
-- Do NOT modify the phrase itself
-- Do NOT add commas or embellishments inside the bound phrase
-- After the bound phrase ends, you may add a period/semicolon/comma and continue with more pose detail
-- Example: If bound phrase is "arched back stretch", your Pose line MUST start: "Pose: arched back stretch; ..."
+If a BOUND POSE phrase is shown above, you MUST include it EXACTLY in the pose portion of your flowing text.
+- Include the exact phrase verbatim (no modifications)
+- Weave it naturally into the pose description
+- Example: If bound phrase is "arched back stretch", include: "...arched back stretch against the wall, muscles..."
 
-For other bound phrases (scene, lighting, camera, angle, accessories), include them verbatim but placement flexibility is allowed.
+For other bound phrases (scene, lighting, camera, angle, accessories), include them verbatim in the appropriate part of your flowing description.
 
 Return JSON array of {count} bundle(s):
 [{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}}}]"""
@@ -1299,6 +1388,18 @@ Return JSON array of {count} bundle(s):
                 # CRITICAL: Prepend the FOREVER prefix (client-side, NOT from LLM)
                 # The LLM only wrote what comes AFTER the persona
                 prompt_text = forever_prefix + llm_text
+
+                # Strip any accidental section labels that slipped through
+                prompt_text, stripped_labels = _strip_section_labels(prompt_text)
+                if stripped_labels:
+                    log.info(f"LABEL_STRIP applied labels={stripped_labels} bundle_id={bundle_raw.get('id', 'unknown')}")
+
+                # Filter banned words from image prompt
+                prompt_text, removed_words_img = filter_banned_words(prompt_text)
+                if removed_words_img:
+                    log.info(f"BANNED_WORDS_REMOVED bundle_id={bundle_raw.get('id', 'unknown')} removed={removed_words_img} source=image_prompt")
+
+                # Update the prompt
                 bundle_raw["image_prompt"]["final_prompt"] = prompt_text
 
                 # Store metadata about the split for debugging
@@ -1321,7 +1422,15 @@ Return JSON array of {count} bundle(s):
                     length_warnings.append(f"above_advisory_max({advisory_max})")
 
                 # Generate motion line (client-side, not from Grok)
-                motion_line = self._generate_motion_line(rng)
+                # Pass image pose for context-aware motion (if bound)
+                image_pose = bound.get("pose_microaction", [None])[0] if bound.get("pose_microaction") else None
+                motion_line = self._generate_motion_line(rng, image_pose=image_pose)
+
+                # Filter banned words from video motion line
+                motion_line, removed_words_video = filter_banned_words(motion_line)
+                if removed_words_video:
+                    log.info(f"BANNED_WORDS_REMOVED bundle_id={bundle_id} removed={removed_words_video} source=video_motion")
+
                 bundle_raw["video_prompt"] = {"line": motion_line}
 
                 # Validate with Pydantic (informational only, don't skip on failure)
