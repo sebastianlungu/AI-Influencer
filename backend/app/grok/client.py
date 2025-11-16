@@ -1205,8 +1205,11 @@ Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 """
 
         # Calculate budget for LLM (total target - FOREVER prefix)
-        total_target = 1400
-        llm_budget = total_target - len(forever_prefix)  # LLM writes ~1,180 chars
+        # Adjusted for realistic Grok output: aim for 800-900 chars from LLM
+        forever_len = len(forever_prefix)
+        llm_min = 750  # Minimum chars from LLM
+        llm_target = 850  # Target chars from LLM
+        llm_max = 950  # Maximum chars from LLM
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
@@ -1222,10 +1225,11 @@ Write ONLY what comes AFTER the above prefix. Do NOT rewrite or include the pers
 Start directly with the scene/location (e.g., ", shot at [specific location]...").
 
 **CHARACTER COUNT REQUIREMENTS (for YOUR text only):**
-- Your text budget: ≈{llm_budget} characters (we'll add the {len(forever_prefix)}-char prefix to reach ≈1,400 total)
-- Valid window for YOUR text: {llm_budget - 50} to {llm_budget + 70} characters
-- Final combined prompt (prefix + your text) must be 1,350-1,450 chars total
-- Count carefully before submitting!
+- Your text target: ≈{llm_target} characters (aim for rich, detailed descriptions)
+- Valid range for YOUR text: {llm_min}-{llm_max} characters
+- We'll add the {forever_len}-char prefix automatically
+- Final combined prompt will be ≈{llm_target + forever_len} chars total
+- Count carefully and aim for the target!
 
 **CHARACTER (for reference only - DO NOT rewrite this):** {appearance}
 
@@ -1233,7 +1237,7 @@ Start directly with the scene/location (e.g., ", shot at [specific location]..."
 
 {wardrobe_section}
 
-**YOUR TEXT STRUCTURE (≈{llm_budget} chars):**
+**YOUR TEXT STRUCTURE (≈{llm_target} chars):**
 Start with: ", shot at [specific scene/location]..."
 Sections (ordered): Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Environment.
 Expand each section with rich sensory detail, specific textures, and atmospheric cues.
@@ -1294,8 +1298,9 @@ Return JSON array of {count} bundle(s):
 
                     # Check length BEFORE Pydantic validation (to avoid max_length constraint)
                     prompt_len = len(prompt_text)
-                    min_chars = 1350  # Enforced minimum (STEP 2: updated to 1,350)
-                    max_chars = 1450  # Internal hard max (STEP 2: stay under Leonardo's 1500 limit)
+                    # Adjusted for realistic Grok output: FOREVER prefix (~236) + LLM text (750-950)
+                    min_chars = 950   # Minimum total (FOREVER + 750 LLM chars)
+                    max_chars = 1200  # Maximum total (FOREVER + 950 LLM chars, well under Leonardo's 1500 limit)
 
                     # Try smart compression if over limit (BEFORE validation)
                     if prompt_len > max_chars:
