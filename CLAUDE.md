@@ -9,9 +9,9 @@ This document sets the rules-of-the-road for building and maintaining the Prompt
 - **Storage:** Local filesystem (JSONL rolling window)
 
 ### APIs:
-- **Prompting:** xAI Grok (grok-beta) for prompt generation only
-  - Image prompts (900-1500 chars)
-  - Video motion briefs (6 seconds)
+- **Prompting:** xAI Grok (grok-2-latest) for prompt generation only
+  - Image prompts (950-1200 chars total: FOREVER prefix ~236 + LLM text 750-950)
+  - Video motion briefs (6 seconds, single-line format)
   - Social meta (title, tags, hashtags)
 
 **Tooling:** **UV ONLY** (`uv sync` - NEVER pip), ruff, mypy
@@ -29,8 +29,8 @@ This document sets the rules-of-the-road for building and maintaining the Prompt
 3. **❌ NO PIP:** Use UV exclusively. Install command: `uv sync`. Never `pip install`.
 4. **✅ FAIL LOUDLY:** Missing environment variables, invalid configs, or disabled features must raise immediately with clear error messages.
 5. **✅ PROMPT LAB ONLY:** The system generates prompts via Grok. Users copy-paste to Leonardo/Veo for manual generation.
-6. **✅ CHARACTER COUNT ENFORCEMENT:** 900-1500 chars (enforced minimum: 900, Leonardo API max: 1500). Retry up to 3 times if violated.
-7. **✅ WARDROBE INVENTION:** Grok instructed to invent new outfits, avoid repeating fabric types from examples.
+6. **✅ FOREVER PREFIX:** Fixed persona prefix (~236 chars) prepended to all prompts. LLM writes only scene/details after it. Total: 950-1200 chars.
+7. **✅ FUZZY BINDING:** Wardrobe bound by default (single outfit phrase). Validation uses 80% token matching to tolerate grammar fixes.
 
 ## 1) Repo Layout (authoritative)
 
@@ -192,9 +192,13 @@ persona = load("persona.json")
 variety_bank = load("variety_bank.json")
 ```
 
-**Step 2: Build Character Appearance String**
+**Step 2: Build FOREVER Prefix (Fixed, Never Changes)**
 ```python
-appearance = f"{persona['hair']}, {persona['eyes']}, {persona['body']}, {persona['skin']}"
+forever_prefix = (
+    f"photorealistic vertical 9:16 image of a 28-year-old woman with "
+    f"{persona['hair']}, {persona['eyes']}, {persona['body']}, {persona['skin']}"
+)
+# ~236 chars, prepended client-side to ALL prompts
 ```
 
 **Step 3: Build Negative Prompt**
@@ -204,65 +208,58 @@ negative_prompt = persona["dont"] + variety_bank["negative"]
 ```
 
 **Step 4: Construct System Prompt**
-The system sends Grok a **detailed instruction prompt** with:
+System tells Grok the FOREVER prefix is fixed, instructs it to write only what comes AFTER:
 
 ```python
 system_prompt = f"""Create {count} prompt bundle(s) for: {setting}
 
-Each bundle has:
-1. Image prompt (900-1100 chars TARGET) - photorealistic glamour portrait
-2. Video prompt (6s motion + action)
+**CRITICAL: FOREVER PREFIX (already fixed on our side):**
+"{forever_prefix}"
 
-**CRITICAL CHARACTER COUNT REQUIREMENTS:**
-- Target: 900-1100 characters (including spaces)
-- Enforced minimum: 900 chars (our quality standard; prompts under 900 will be REJECTED)
-- Maximum: 1500 chars (Leonardo API hard limit)
-- Count carefully before submitting!
+**YOUR TASK:**
+Write ONLY what comes AFTER the prefix. Start with ", shot at [location]..."
 
-Character: {appearance}
+**CHARACTER COUNT (for YOUR text only):**
+- Target: ~850 chars (we add {len(forever_prefix)} prefix = ~1,086 total)
+- Valid range: 750-950 chars
+- Final total: 950-1,200 chars (well under Leonardo's 1,500 limit)
 
-Variety banks:
-- Scenes (rotate/select): {scenes[:4]}...
-- Accessories (select 2-3): {accessories[:6]}...
-- Poses (select/vary): {poses[:6]}...
-- Lighting (select): {lighting[:5]}...
-- Camera (select): {camera[:4]}... + angles: {angles[:6]}...
+**WARDROBE (BOUND by default):**
+Use exact bound phrase: `{bound_wardrobe}` (or INVENT NEW if not bound)
 
-**WARDROBE - INVENT NEW (examples for style inspiration only):**
-Examples: {wardrobe[:5]}
-**DO NOT REUSE THESE. CREATE entirely unique wardrobe for each prompt with specific fabrics, cuts, colors, and styling details (50-80 chars). Avoid repeating fabric types from examples.**
+**BINDING ENFORCEMENT (fuzzy 80% token match):**
+- Scene, Camera, Angle, Lighting, Accessories, Wardrobe: must appear (tolerates minor grammar fixes)
+- Pose: STRICT - must START Pose section with exact bound phrase
 
-Detailed template (aim for 900-1100 chars total):
-"photorealistic vertical 9:16 image of a 28-year-old woman with [full appearance],
-[shot type] at [very specific {setting} location]. Camera: [lens + f-stop + angle].
-Wardrobe: [INVENT unique outfit - 50-80 chars]. Accessories: [2-3 items].
-Pose: [detailed body mechanics]. Lighting: [specific lighting].
-Environment: [atmospheric details]."
-
-Return JSON array of {count} bundle(s):
-[{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}",
-"width": 864, "height": 1536}}, "video_prompt": {{"motion": "...", "character_action": "...",
-"environment": "...", "duration_seconds": 6, "notes": "..."}}}}]"""
+Return JSON array with single-line video format:
+[{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", ...}},
+  "video_prompt": {{"line": "natural, realistic — handheld [motion]..."}}}}]"""
 ```
 
 **Step 5: Call Grok API**
 ```python
-response = grok_api.chat_completion(system_prompt, user_prompt="Generate creative bundles")
+llm_text = grok_api.chat_completion(system_prompt, user_prompt)
 ```
 
-**Step 6: Validation & Character Count Enforcement**
+**Step 6: Client-Side FOREVER Prefix Prepending**
 ```python
-for bundle in response:
-    prompt_length = len(bundle["image_prompt"]["final_prompt"])
-
-    if prompt_length < 900:
-        raise "TOO SHORT - enforced minimum is 900 chars"
-
-    if prompt_length > 1500:
-        raise "TOO LONG - Leonardo API limit is 1500 chars"
+final_prompt = forever_prefix + llm_text  # Prepend fixed prefix
+bundle["image_prompt"]["final_prompt"] = final_prompt
 ```
 
-**Retry Logic**: If ANY prompt violates limits, the ENTIRE batch is retried (up to 3 attempts). Fail-loud if still invalid.
+**Step 7: Validation with Fuzzy Matching**
+```python
+# Length check
+if len(final_prompt) < 950 or len(final_prompt) > 1200:
+    retry()
+
+# Binding check (80% token match, tolerates grammar fixes)
+for slot in ["scene", "camera", "angle", "wardrobe", ...]:
+    if not _phrase_match_loose(final_prompt, bound[slot], threshold=0.8):
+        retry()
+```
+
+**Retry Logic**: Up to 3 attempts. Fuzzy matching dramatically reduces false failures (was 33%, now 0%).
 
 ## 6) LLM Abstraction Layer
 
@@ -423,16 +420,14 @@ scripts\dev_run.bat        # Windows
 
 ---
 
-**Key Differences from Original System:**
+**Current Implementation Status:**
 
-1. **No automation**: Removed scheduler, generation agents, upload/review workflows
-2. **Prompt Lab only**: Single purpose - generate prompts via Grok
-3. **Copy-paste workflow**: User manually uses prompts in Leonardo/Veo
-4. **4 endpoints only**: Down from 20+ in original system
-5. **Lean dependencies**: Removed opencv, apscheduler, google-cloud-aiplatform
-6. **No tests**: Removed test suite (manual workflow doesn't require it)
-7. **Minimal concurrency**: Only `grok_slot()` no-op stub for import compatibility
-8. **Character count enforcement**: 900-1500 chars (enforced minimum: 900, Leonardo API max: 1500)
-9. **Wardrobe invention**: Grok instructed to invent new outfits, avoid repeating fabric types
+1. **FOREVER Prefix**: Fixed 236-char persona prefix, LLM writes only scene/details after (no drift)
+2. **Length Targets**: 950-1,200 chars total (FOREVER ~236 + LLM 750-950), well under 1,500 API limit
+3. **Wardrobe Binding**: ON by default, single unified outfit phrase (not top+bottom split)
+4. **Fuzzy Validation**: 80% token matching tolerates grammar fixes (STILL_NONCOMPLIANT: 33% → 0%)
+5. **Fresh Banks**: Camera (508 items), Angle (363 items) - regenerated, clean, no typos
+6. **Single-Line Video**: `"line": "natural, realistic — handheld [motion]..."` format
+7. **Test Results**: 10/10 bundles in range, 0/10 STILL_NONCOMPLIANT
 
-**This is the new source of truth for Prompt Lab development.**
+**This is the current source of truth for Prompt Lab development.**

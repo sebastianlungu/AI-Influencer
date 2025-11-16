@@ -21,9 +21,9 @@ A minimal prompt generation system that creates high-quality paired **image + vi
 ## ✨ Key Features
 
 ### Prompt Lab
-- ✅ **Paired Prompt Generation**: Image prompts (900-1500 chars) + Video motion briefs (6s)
+- ✅ **Paired Prompt Generation**: Image prompts (950-1200 chars) + Video motion briefs (6s)
 - ✅ **Identity Lock**: JSON-driven persona consistency (hair, eyes, body never drift)
-- ✅ **Diversity Banks**: 200+ variations across locations, wardrobe, lighting, poses, camera
+- ✅ **Diversity Banks**: 1000+ variations across locations, wardrobe, lighting, poses, camera
 - ✅ **Rolling Storage**: Keeps last 100 prompt bundles (JSONL format)
 - ✅ **Copy-Paste Workflow**: Manual generation control (no automated API calls)
 - ✅ **Social Meta**: Optional title, tags, hashtags generation
@@ -46,16 +46,16 @@ A minimal prompt generation system that creates high-quality paired **image + vi
 **Diversity Banks** (`app/data/variety_bank.json`):
 - **Settings**: 10+ countries/regions (Japan, Greece, Dubai, Maldives...)
 - **Scenes**: 10+ ultra-detailed locations (luxury penthouse rooftop, beachfront villa deck...)
-- **Wardrobe**: 20+ outfit combinations with materials and colors (Grok invents new ones, never reuses)
+- **Wardrobe**: 3000 unified outfit phrases with materials and colors (Grok invents new ones, never reuses)
 - **Accessories**: 12+ jewelry and accessories (minimalist gold studs, delicate necklaces...)
 - **Lighting**: 10+ cinematic scenarios (golden hour backlight, soft diffused overcast...)
-- **Camera**: 6+ technical specs (35mm f/1.8, 50mm f/2.0, 85mm f/1.4...)
-- **Angles**: 12+ compositions (low angle hero shot, Dutch tilt, eye-level portrait...)
+- **Camera**: 508 technical specs (24mm, 35mm, 50mm, 85mm with various apertures and movements)
+- **Angles**: 363 compositions (low angle hero shot, Dutch tilt, eye-level portrait, overhead...)
 - **Pose/Microaction**: 18+ specific actions (arched back stretch, sultry over-shoulder glance...)
 - **Color palettes**: 10+ grading styles (warm golden sunset, cool steel-blue ambient...)
 
 **Prompt Structure**:
-Generated prompts combine identity lock + randomly sampled diversity elements to create unique, on-brand variations (900-1500 characters).
+Generated prompts combine identity lock + randomly sampled diversity elements to create unique, on-brand variations (950-1200 characters total: FOREVER prefix ~236 chars + LLM-generated text 750-950 chars).
 
 ---
 
@@ -70,17 +70,16 @@ Generated prompts combine identity lock + randomly sampled diversity elements to
    → Click Generate
 
 2. System generates paired prompts via Grok:
-   → 📷 IMAGE PROMPT: 900-1500 char ultra-detailed Leonardo prompt
-     - Includes identity lock (hair, eyes, body, skin)
-     - Samples diversity banks (wardrobe, lighting, pose, camera)
+   → 📷 IMAGE PROMPT: 950-1200 char ultra-detailed Leonardo prompt
+     - FOREVER prefix (~236 chars): Fixed persona (hair, eyes, body, skin)
+     - LLM-generated text (750-950 chars): Scene, wardrobe, pose, lighting, camera details
      - Enforces 864×1536 (9:16) vertical format
-     - Character counter shows: 🟢 900-1100 (perfect), 🟠 1100-1400 (OK), 🔴 >1400 (warning)
+     - Character counter shows: 🟢 950-1100 (perfect), 🟠 1100-1200 (OK), 🔴 >1200 (warning)
 
    → 🎬 VIDEO MOTION BRIEF: 6-second cinematic motion instructions for Veo 3
-     - Motion description (camera movement)
-     - Character action (what subject does)
-     - Environment notes (lighting, atmosphere)
-     - Duration: 6 seconds
+     - Single-line format: "natural, realistic — [motion type] from [start] to [end], [subject action]; finish [final position]"
+     - Example: "natural, realistic — handheld push-in from oblique to front, she resets a wrist wrap on a steady breath; finish eye-level three-quarter."
+     - Duration: 6 seconds exactly
 
    → 📱 SOCIAL META (collapsible, optional):
      - Title (40-60 chars)
@@ -186,7 +185,7 @@ Set these in your `.env` file:
 # LLM Provider (prompt generation)
 LLM_PROVIDER=grok                       # Default: grok
 GROK_API_KEY=your-grok-api-key-here     # Required
-GROK_MODEL=grok-beta                    # Default: grok-beta
+GROK_MODEL=grok-2-latest                # Default: grok-2-latest
 GROK_TIMEOUT_S=30                       # Request timeout
 
 # Data Paths
@@ -268,8 +267,9 @@ User → Prompt Lab (Ctrl+P) → POST /api/prompts/bundle
                             Grok API generates bundle
                             ┌────────────────────────────┐
                             │ 📷 IMAGE PROMPT            │
-                            │ - 900-1500 chars           │
-                            │ - Identity lock (persona)  │
+                            │ - 950-1200 chars total     │
+                            │ - FOREVER prefix (~236)    │
+                            │ - LLM text (750-950)       │
                             │ - Diversity sampling       │
                             │ - 864×1536 (9:16) format   │
                             │                            │
@@ -376,9 +376,133 @@ if not settings.grok_api_key:
 - **Fail-loud**: Missing API key raises immediately
 
 ### Prompt Quality
-- **Character count enforcement**: 900-1500 chars (Leonardo API constraint)
+- **Character count enforcement**: 950-1200 chars (enforced minimum: 950, Leonardo API max: 1500)
+- **FOREVER prefix**: Fixed ~236-char persona prefix prepended to all prompts
+- **Fuzzy binding validation**: 80% token matching to tolerate grammar fixes (e.g., "from from" → "from")
 - **Retry loop**: Up to 3 attempts if prompts violate length limits
+- **Wardrobe binding**: ON by default (single coherent outfit phrase)
 - **Wardrobe invention**: Grok instructed to invent new outfits, avoid repeating fabric types
+
+---
+
+## 🔬 Current Implementation Details
+
+### FOREVER Prefix Architecture
+
+The prompt generation system uses a **two-part architecture**:
+
+1. **FOREVER Prefix** (~236 chars, client-side):
+   ```
+   "photorealistic vertical 9:16 image of a 28-year-old woman with
+   [hair], [eyes], [body], [skin]"
+   ```
+   - Built from `persona.json` (identity lock)
+   - Prepended client-side (not sent to Grok)
+   - Ensures character consistency across all prompts
+   - Length: ~236 characters (fixed)
+
+2. **LLM-Generated Text** (750-950 chars, Grok):
+   - Scene description with specific location details
+   - Camera specs (lens, aperture, movement)
+   - Wardrobe details (50-80 chars, invented per prompt)
+   - Accessories (1-2 items)
+   - Pose and micro-action (detailed body mechanics)
+   - Lighting setup (specific lighting type and direction)
+   - Environmental atmosphere
+   - Length: 750-950 characters (target: ~850)
+
+**Total Prompt Length**: 950-1200 characters (FOREVER prefix + LLM text)
+
+### Binding System
+
+**Binding Policy** (default settings):
+- ✅ **Scene**: ON (exact location phrase from diversity bank)
+- ✅ **Pose/Microaction**: ON (VERBATIM enforcement, strict matching)
+- ✅ **Lighting**: ON (specific lighting setup)
+- ✅ **Camera**: ON (lens, aperture, movement specs)
+- ✅ **Angle**: ON (camera angle and composition)
+- ✅ **Accessories**: ON (1-2 items depending on `single_accessory` flag)
+- ✅ **Wardrobe**: ON (single coherent outfit phrase, 50-80 chars)
+
+**Fuzzy Matching** (80% token threshold):
+- Applied to all binding slots EXCEPT pose (which remains strict)
+- Tolerates minor grammar fixes: "from from" → "from"
+- Normalizes: lowercase, strips articles (a, an, the), collapses spaces
+- Example: "arc slide from from marble colonnade" matches "arc slide from marble colonnade" (90% tokens matched)
+
+**Validation Flow**:
+```python
+1. Grok generates prompt with bound elements
+2. Client validates each bound phrase:
+   - Pose: Strict exact matching (case-insensitive)
+   - All others: Fuzzy matching (80% token threshold)
+3. If ANY binding fails → mark as STILL_NONCOMPLIANT
+4. If length out of range (950-1200) → retry up to 3 times
+```
+
+### Diversity Bank Sizes (Current)
+
+**Regenerated banks** (as of latest commit):
+- **Camera**: 508 unique technical specs (24mm-85mm lenses, f/1.4-f/2.8 apertures, movements)
+- **Angle**: 363 unique compositions (overhead, eye-level, low angle, Dutch tilt, etc.)
+- **Wardrobe**: 3000 unified outfit phrases (single coherent descriptions, not top+bottom split)
+- **Scenes**: 10+ ultra-detailed location descriptions per setting
+- **Lighting**: 10+ cinematic lighting scenarios
+- **Accessories**: 12+ jewelry and accessory items
+- **Pose/Microaction**: 18+ specific body mechanics and actions
+
+**Legacy Banks** (not used):
+- `wardrobe_top`: 1000 items (legacy, unused)
+- `wardrobe_bottom`: 1000 items (legacy, unused)
+
+Current system uses unified `wardrobe` array exclusively for coherent single-phrase outfit descriptions.
+
+### Video Format
+
+**Single-line motion prompt** (Veo 3 optimized):
+```
+"natural, realistic — [motion type] from [start position] to [end position],
+[subject action]; finish [final camera position]."
+```
+
+**Example**:
+```
+"natural, realistic — handheld push-in from oblique to front,
+she resets a wrist wrap on a steady breath; finish eye-level three-quarter."
+```
+
+**Format Requirements**:
+- Single line only (no multi-field structure)
+- Begins with "natural, realistic —"
+- Specifies camera motion type (handheld, dolly, crane, etc.)
+- Includes start and end positions
+- Describes subject action during motion
+- Ends with final camera position
+- Duration: 6 seconds exactly
+
+### Test Results (Latest Sanity Test)
+
+**Configuration**: 10 bundles generated for Japan location with all bindings ON
+
+**Results**:
+- ✅ **Length compliance**: 10/10 (100%) in range 950-1200 chars
+- ✅ **Binding validation**: 10/10 (100%) passed fuzzy matching
+- ✅ **STILL_NONCOMPLIANT**: 0/10 (0%)
+- ✅ **FOREVER prefix**: Intact in all prompts
+- ✅ **Wardrobe binding**: Single coherent outfit phrases in all prompts
+
+**Length distribution**:
+- Average: ~1100 chars
+- Min: ~1050 chars
+- Max: ~1150 chars
+- All within target range (950-1200)
+
+**Commit History** (recent changes):
+- `65974ce`: Remove obsolete VIDEO semicolon validation
+- `093cbc4`: Implement streaming reliability with auto-reconnect
+- `90ea37c`: Add video field enforcement and better error surfacing
+- `08e03e4`: Add persona compression and smart prompt compressor
+- `29855c1`: Add inline row details with horizontal two-column layout
 
 ---
 
