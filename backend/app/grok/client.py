@@ -1277,6 +1277,8 @@ Use this exact outfit phrase; do not substitute or modify.
         else:
             wardrobe_section = f"""**WARDROBE (INVENT NEW):**
 Create a coherent single outfit phrase (50-80 chars) in fitness/street-fitness/muscle-showing aesthetic.
+Wardrobe must be fitness-oriented, light clothing, bikini/swim, or minimal fashion pieces that reveal the physique.
+Avoid sweaters, hoodies, fleece, heavy or winter garments unless explicitly present in the bound phrase.
 Max 2-3 fabrics per outfit. Must describe ONE complete outfit (not separate top+bottom).
 Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 
@@ -1309,12 +1311,12 @@ Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 """
 
         # Calculate budget for LLM (total target - FOREVER prefix)
-        # Target: 1230-1430 chars total (FOREVER ~236 + LLM ~994-1194)
-        # Reduced by 70 chars to nudge Grok toward shorter output
+        # Target: 1730-1930 chars total (FOREVER ~236 + LLM ~1494-1694)
+        # Increased by +200 chars to reach 1300-1400 total target
         forever_len = len(forever_prefix)
-        llm_min = 994   # Minimum chars from LLM (1230 - 236)
-        llm_target = 1094  # Target chars from LLM (1330 - 236)
-        llm_max = 1194  # Maximum chars from LLM (1430 - 236)
+        llm_min = 1494   # Minimum chars from LLM (1730 - 236)
+        llm_target = 1594  # Target chars from LLM (1830 - 236)
+        llm_max = 1694  # Maximum chars from LLM (1930 - 236)
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
