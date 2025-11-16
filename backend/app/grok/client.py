@@ -135,6 +135,73 @@ def _contains_phrase(text: str, phrase: str) -> bool:
     return re.search(pattern, t) is not None
 
 
+def _phrase_match_loose(text: str, phrase: str, threshold: float = 0.8) -> bool:
+    """
+    Fuzzy phrase matching that tolerates minor grammar fixes.
+
+    Allows binding validation to pass even when Grok makes small edits like:
+    - Fixing typos ("from from" → "from")
+    - Adding/removing articles ("an arc slide" vs "arc slide")
+    - Minor word reordering
+
+    Strategy:
+    1. Normalize both text and phrase (lowercase, strip articles, collapse spaces)
+    2. Tokenize phrase into words
+    3. Check that at least `threshold` % of phrase tokens appear in order in text
+
+    Args:
+        text: The full prompt text to search in
+        phrase: The bound phrase to look for
+        threshold: Minimum fraction of tokens that must match (default 0.8 = 80%)
+
+    Returns:
+        True if phrase is "loosely" present in text
+
+    Examples:
+        >>> _phrase_match_loose("an arc slide from marble colonnade", "arc slide from from marble colonnade")
+        True  # Tolerates "from from" → "from" fix and added "an"
+    """
+    if not text or not phrase:
+        return False
+
+    # Normalize both strings
+    def normalize(s: str) -> str:
+        # Lowercase
+        s = s.lower()
+        # Remove common articles
+        for article in [' a ', ' an ', ' the ']:
+            s = s.replace(article, ' ')
+        # Collapse multiple spaces
+        s = ' '.join(s.split())
+        return s
+
+    text_norm = normalize(text)
+    phrase_norm = normalize(phrase)
+
+    # Tokenize phrase
+    phrase_tokens = phrase_norm.split()
+    if not phrase_tokens:
+        return False
+
+    # Find how many phrase tokens appear in order in text
+    text_tokens = text_norm.split()
+    matched_count = 0
+    text_idx = 0
+
+    for phrase_token in phrase_tokens:
+        # Search for this token starting from current position
+        while text_idx < len(text_tokens):
+            if phrase_token == text_tokens[text_idx]:
+                matched_count += 1
+                text_idx += 1
+                break
+            text_idx += 1
+
+    # Check if we matched at least threshold% of phrase tokens
+    match_ratio = matched_count / len(phrase_tokens)
+    return match_ratio >= threshold
+
+
 # Regex to match slot wrapper tags like <scene>[...], <camera>[...], etc.
 _TAG_BLOCK = re.compile(r"<[a-z_]+>\s*\[([^\]]+)\]", re.IGNORECASE)
 
@@ -1578,10 +1645,11 @@ Create metadata. Return JSON:
         errors = []
         img_prompt = bundle.get("image_prompt", {}).get("final_prompt", "")
 
-        # Check bound slots with word boundaries - only for enabled bindings
+        # STEP 3: Check bound slots with fuzzy matching (tolerates minor grammar fixes)
+        # Use _phrase_match_loose() instead of strict _contains_phrase()
         if bind_scene and bound.get("scene"):
             phrase = bound["scene"][0]
-            if phrase and not _contains_phrase(img_prompt, phrase):
+            if phrase and not _phrase_match_loose(img_prompt, phrase):
                 errors.append(f"Missing bound scene: '{phrase}'")
 
         # STRICT Pose validation: must START the Pose section with exact phrase
@@ -1593,28 +1661,28 @@ Create metadata. Return JSON:
 
         if bind_lighting and bound.get("lighting"):
             phrase = bound["lighting"][0]
-            if phrase and not _contains_phrase(img_prompt, phrase):
+            if phrase and not _phrase_match_loose(img_prompt, phrase):
                 errors.append(f"Missing bound lighting: '{phrase}'")
 
         if bind_camera and bound.get("camera"):
             phrase = bound["camera"][0]
-            if phrase and not _contains_phrase(img_prompt, phrase):
+            if phrase and not _phrase_match_loose(img_prompt, phrase):
                 errors.append(f"Missing bound camera: '{phrase}'")
 
         if bind_angle and bound.get("angle"):
             phrase = bound["angle"][0]
-            if phrase and not _contains_phrase(img_prompt, phrase):
+            if phrase and not _phrase_match_loose(img_prompt, phrase):
                 errors.append(f"Missing bound angle: '{phrase}'")
 
         if bind_accessories and bound.get("accessories"):
             for acc in bound["accessories"]:
-                if acc and not _contains_phrase(img_prompt, acc):
+                if acc and not _phrase_match_loose(img_prompt, acc):
                     errors.append(f"Missing bound accessory: '{acc}'")
 
-        # STEP 3: Validate single wardrobe phrase (not top/bottom split)
+        # STEP 3: Validate single wardrobe phrase with fuzzy matching
         if bind_wardrobe and bound.get("wardrobe"):
             phrase = bound["wardrobe"][0]
-            if phrase and not _contains_phrase(img_prompt, phrase):
+            if phrase and not _phrase_match_loose(img_prompt, phrase):
                 errors.append(f"Missing bound wardrobe: '{phrase}'")
 
         # VIDEO validation removed - now handled by Pydantic VideoPrompt model with min_length=10
