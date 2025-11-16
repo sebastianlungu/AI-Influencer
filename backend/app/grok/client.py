@@ -1311,12 +1311,12 @@ Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 """
 
         # Calculate budget for LLM (total target - FOREVER prefix)
-        # Target: 1730-1930 chars total (FOREVER ~236 + LLM ~1494-1694)
+        # Target: 1930-2130 chars total (FOREVER ~236 + LLM ~1694-1894)
         # Increased by +200 chars to reach 1300-1400 total target
         forever_len = len(forever_prefix)
-        llm_min = 1494   # Minimum chars from LLM (1730 - 236)
-        llm_target = 1594  # Target chars from LLM (1830 - 236)
-        llm_max = 1694  # Maximum chars from LLM (1930 - 236)
+        llm_min = 1694   # Minimum chars from LLM (1930 - 236)
+        llm_target = 1794  # Target chars from LLM (2030 - 236)
+        llm_max = 1894  # Maximum chars from LLM (2130 - 236)
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
