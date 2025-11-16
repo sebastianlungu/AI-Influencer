@@ -41,7 +41,7 @@ class PromptBundleRequest(BaseModel):
     bind_camera: bool = True
     bind_angle: bool = True
     bind_accessories: bool = True
-    bind_wardrobe: bool = False  # Inspire-only by default
+    bind_wardrobe: bool = True  # STEP 2: Wardrobe binding ON by default
 
     single_accessory: bool = True  # If True, bind exactly 1 accessory; if False, bind 2
 
@@ -176,6 +176,8 @@ def get_recent_prompts(
     page: int = 1,
     page_size: int = 20,
     sort: str = "-created_at",  # created_at, -created_at, location, -location
+    fetch_all: str = "false",  # "true" to return all prompts (no pagination)
+    order: str = "created_desc",  # created_desc, created_asc (fallback to sort if not provided)
 ) -> dict:
     """Get prompt bundles with pagination, search, and filtering.
 
@@ -186,6 +188,8 @@ def get_recent_prompts(
         page: Page number (1-indexed)
         page_size: Items per page (default 20, max 100)
         sort: Sort field (created_at, -created_at, location, -location)
+        all: "true" to return all prompts without pagination
+        order: Sort order (created_desc, created_asc); defaults to created_desc
 
     Returns:
         Dict with:
@@ -209,9 +213,13 @@ def get_recent_prompts(
             "total": 253
         }
     """
-    # Cap page_size to 100
-    page_size = min(page_size, 100)
-    page = max(page, 1)
+    # Parse fetch_all flag
+    all_flag = fetch_all.lower() == "true"
+
+    # Cap page_size to 100 (unless fetch_all=true)
+    if not all_flag:
+        page_size = min(page_size, 100)
+        page = max(page, 1)
 
     try:
         from app.core.prompt_storage import read_all_prompts, load_prompt_states
@@ -248,23 +256,32 @@ def get_recent_prompts(
                     filtered.append(p)
             all_prompts = filtered
 
-        # Sort
-        reverse = sort.startswith("-")
-        sort_field = sort.lstrip("-")
-        if sort_field == "created_at":
-            all_prompts.sort(key=lambda p: p.get("timestamp", ""), reverse=reverse)
-        elif sort_field == "location":
-            all_prompts.sort(key=lambda p: p.get("setting", ""), reverse=reverse)
+        # Sort (prefer order param, fallback to sort for backwards compatibility)
+        if order == "created_asc":
+            all_prompts.sort(key=lambda p: p.get("timestamp", ""), reverse=False)
+        elif order == "created_desc":
+            all_prompts.sort(key=lambda p: p.get("timestamp", ""), reverse=True)
+        else:
+            # Fallback to legacy sort param
+            reverse = sort.startswith("-")
+            sort_field = sort.lstrip("-")
+            if sort_field == "created_at":
+                all_prompts.sort(key=lambda p: p.get("timestamp", ""), reverse=reverse)
+            elif sort_field == "location":
+                all_prompts.sort(key=lambda p: p.get("setting", ""), reverse=reverse)
 
-        # Default: newest first if no explicit sort
-        if sort == "-created_at":
-            all_prompts.reverse()
-
-        # Paginate
+        # Paginate (skip if fetch_all=true)
         total = len(all_prompts)
-        start_idx = (page - 1) * page_size
-        end_idx = start_idx + page_size
-        page_items = all_prompts[start_idx:end_idx]
+        if all_flag:
+            # Return all items without pagination
+            page_items = all_prompts
+            page = 1
+            page_size = total
+        else:
+            # Normal pagination
+            start_idx = (page - 1) * page_size
+            end_idx = start_idx + page_size
+            page_items = all_prompts[start_idx:end_idx]
 
         # Create summary items (remove full prompts to save bandwidth)
         items = []
@@ -356,6 +373,24 @@ def get_prompt_bundle(request: Request, bundle_id: str) -> dict:
         img = bundle.get("image_prompt", {})
         vid = bundle.get("video_prompt", {})
 
+        # Handle both new single-line format and old multi-field format
+        if "line" in vid:
+            # New format: single motion line
+            video_data = {"line": vid.get("line", "")}
+        else:
+            # Old format: fallback rendering - compose into single line
+            motion = vid.get("motion", "")
+            action = vid.get("character_action", "")
+            environment = vid.get("environment", "")
+
+            # Compose fallback line
+            if motion or action:
+                fallback_line = f"natural, realistic — handheld {motion}, she {action}; finish eye-level front."
+            else:
+                fallback_line = "natural, realistic — handheld push-in, she holds position; finish eye-level front."
+
+            video_data = {"line": fallback_line}
+
         return {
             "ok": True,
             "bundle": {
@@ -365,13 +400,7 @@ def get_prompt_bundle(request: Request, bundle_id: str) -> dict:
                 "seed_words": bundle.get("seed_words", []),
                 "used": used,
                 "image_prompt": img.get("final_prompt", ""),
-                "video": {
-                    "motion": vid.get("motion", ""),
-                    "action": vid.get("character_action", ""),
-                    "environment": vid.get("environment", ""),
-                    "duration": f"{vid.get('duration_seconds', 6)}s",
-                    "notes": vid.get("notes", ""),
-                },
+                "video": video_data,
                 "media": {
                     "dimensions": f"{img.get('width', 864)} × {img.get('height', 1536)}",
                     "aspect": "9:16",
@@ -559,7 +588,7 @@ def get_logs_tail(request: Request, lines: int = 100) -> dict:
         return {"ok": True, "logs": [], "message": "No logs yet"}
 
     try:
-        with open(log_file, "r", encoding="utf-8") as f:
+        with open(log_file, "r", encoding="utf-8", errors="replace") as f:
             all_lines = f.readlines()
             tail_lines = all_lines[-max_lines:] if len(all_lines) > max_lines else all_lines
 

@@ -50,7 +50,26 @@ BIND_POLICY = {
     "angle": {"k": 1, "recent": 40},
     "accessories": {"k": 1, "recent": 50},  # single accessory default
 }
-INSPIRE_ONLY = {"wardrobe_top", "wardrobe_bottom"}  # never bind
+# STEP 3: Removed INSPIRE_ONLY constant (wardrobe can now be bound or inspire-only based on UI flag)
+
+# Motion variety binding policy (independent from main prompt slots)
+BIND_POLICY_MOTION = {
+    "verbs": {"k": 1, "recent": 15},
+    "paths": {"k": 1, "recent": 15},
+    "actions": {"k": 1, "recent": 20},
+    "cadence": {"k": 1, "recent": 12},
+    "angles": {"k": 1, "recent": 20},
+}
+
+# Environment deny list (words that should not appear in motion lines)
+ENV_DENY = {
+    "street", "temple", "shrine", "rain", "city", "skyline", "market", "beach",
+    "bridge", "alley", "plaza", "station", "rooftop", "river", "forest", "mountain",
+    "snow", "neon", "lanterns", "tokyo", "japan", "manhattan", "york", "times", "square",
+    "cafe", "restaurant", "bar", "club", "gym", "studio", "park", "garden", "pool",
+    "ocean", "lake", "desert", "valley", "hill", "canyon", "waterfall", "sunset",
+    "sunrise", "night", "evening", "morning", "dawn", "dusk", "twilight",
+}
 
 # Section budgets (soft targets for compression/diagnostics only)
 SECTION_BUDGETS = {
@@ -95,6 +114,50 @@ def _one_accessory_from_panel(acc_panel: list[str], pose_text: str) -> str:
     ranked = sorted(acc_panel, key=lambda a: prefer.index(cats[a]))
 
     return ranked[0] if ranked else acc_panel[0]
+
+
+def _contains_phrase(text: str, phrase: str) -> bool:
+    """
+    Check if text contains phrase with word boundaries (case-insensitive).
+
+    Collapses spaces and uses regex word boundaries for robust matching.
+    """
+    if not text or not phrase:
+        return False
+
+    # Collapse spaces for safety
+    t = ' '.join(text.lower().split())
+    p = ' '.join(phrase.lower().split())
+
+    # Build pattern with word boundaries
+    pattern = r'\b' + re.escape(p) + r'\b'
+
+    return re.search(pattern, t) is not None
+
+
+# Regex to match slot wrapper tags like <scene>[...], <camera>[...], etc.
+_TAG_BLOCK = re.compile(r"<[a-z_]+>\s*\[([^\]]+)\]", re.IGNORECASE)
+
+
+def _strip_slot_wrappers(text: str) -> str:
+    """
+    Strip slot wrapper tags from prompt text.
+
+    Replaces patterns like `<scene>[luxury penthouse]` with just `luxury penthouse`.
+    This is a belt-and-suspenders safety measure to ensure no tags escape
+    even if a template change accidentally reintroduces them.
+
+    Args:
+        text: Prompt text that may contain slot wrappers
+
+    Returns:
+        Text with all slot wrappers removed
+    """
+    if not text:
+        return text
+
+    # Replace `<slot>[payload]` -> `payload`
+    return _TAG_BLOCK.sub(r"\1", text)
 
 
 def _compress_persona_appearance(persona: dict) -> str:
@@ -709,6 +772,146 @@ Create music brief. Return JSON:
             log.error(f"GROK_MUSIC failed: {e}")
             raise RuntimeError(f"Failed to parse music brief from Grok: {e}") from e
 
+    @staticmethod
+    def _load_motion_bank() -> dict[str, list[dict[str, Any]]]:
+        """Load video motion variety bank."""
+        try:
+            motion_bank_path = get_data_path("video_motion_bank.json")
+            with open(motion_bank_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except FileNotFoundError:
+            log.warning("video_motion_bank.json not found, returning empty bank")
+            return {"verbs": [], "paths": [], "actions": [], "cadence": [], "angles": []}
+        except Exception as e:
+            log.error(f"Failed to load motion bank: {e}")
+            return {"verbs": [], "paths": [], "actions": [], "cadence": [], "angles": []}
+
+    @staticmethod
+    def _validate_motion_line(line: str, angle_pattern: re.Pattern) -> tuple[bool, str]:
+        """
+        Validate a single motion line.
+
+        Returns:
+            (is_valid, error_message)
+        """
+        # Rule 1: Must start with prefix
+        if not line.startswith("natural, realistic — "):
+            return False, "missing 'natural, realistic — ' prefix"
+
+        # Rule 2: Must include "handheld"
+        if "handheld" not in line:
+            return False, "missing 'handheld'"
+
+        # Rule 3: No environment words
+        env_deny_tokens = line.lower().split()
+        for token in env_deny_tokens:
+            if token in ENV_DENY:
+                return False, f"contains environment word: '{token}'"
+
+        # Rule 4: Must match angle regex at end
+        if not angle_pattern.search(line):
+            return False, "missing or invalid angle specification"
+
+        # Rule 5: Length check
+        if len(line) < 110:
+            return False, f"too short ({len(line)} < 110 chars)"
+        if len(line) > 160:
+            return False, f"too long ({len(line)} > 160 chars)"
+
+        return True, ""
+
+    def _generate_motion_line(
+        self,
+        rng: random.Random,
+    ) -> str:
+        """
+        Generate a single motion line with binding & recency.
+
+        Returns:
+            Single motion line string (110-160 chars)
+        """
+        # Load motion bank
+        motion_bank = self._load_motion_bank()
+
+        # Load recent bundles for recency tracking
+        recent_bundles = self._load_recent_prompts(limit=50)
+
+        # Extract recently used items per slot
+        recently_used = {
+            "verbs": set(),
+            "paths": set(),
+            "actions": set(),
+            "cadence": set(),
+            "angles": set(),
+        }
+
+        for bundle in recent_bundles:
+            video = bundle.get("video_prompt", {})
+            if isinstance(video, dict) and "line" in video:
+                # Try to extract components from old-format lines
+                line = video["line"]
+                # Simple heuristic extraction (best effort)
+                for slot_name in recently_used.keys():
+                    slot_bank = motion_bank.get(slot_name, [])
+                    for item in slot_bank:
+                        text = item.get("text", "") if isinstance(item, dict) else str(item)
+                        if text and text.lower() in line.lower():
+                            recently_used[slot_name].add(text)
+
+        # Prepare angle regex for validation
+        angle_pattern = re.compile(
+            r"finish\s+(low|high|eye-level)\s+(left|right|quarter-left|quarter-right|three-quarter|front|profile)\.",
+            re.IGNORECASE
+        )
+
+        # Try up to 3 times to generate a valid line
+        for attempt in range(3):
+            # Sample from each slot (excluding recent)
+            selected = {}
+
+            for slot_name, policy in BIND_POLICY_MOTION.items():
+                bank = motion_bank.get(slot_name, [])
+                if not bank:
+                    log.warning(f"Empty motion bank for slot '{slot_name}'")
+                    selected[slot_name] = ""
+                    continue
+
+                # Filter out recently used
+                recent_window = policy["recent"]
+                recent_for_slot = list(recently_used[slot_name])[-recent_window:]
+                available = [
+                    item for item in bank
+                    if (item.get("text", "") if isinstance(item, dict) else str(item)) not in recent_for_slot
+                ]
+
+                # Fallback to full bank if nothing available
+                if not available:
+                    available = bank
+
+                # Sample k=1 with weights
+                k = policy["k"]
+                sampled = self._weighted_sample_texts(available, k, rng)
+                selected[slot_name] = sampled[0] if sampled else ""
+
+            # Build line: natural, realistic — handheld {verb} {path}, she {action} {cadence}; finish {angle}.
+            line = (
+                f"natural, realistic — handheld {selected['verbs']} {selected['paths']}, "
+                f"she {selected['actions']} {selected['cadence']}; finish {selected['angles']}."
+            )
+
+            # Validate
+            is_valid, error_msg = self._validate_motion_line(line, angle_pattern)
+
+            if is_valid:
+                log.info(f"MOTION_LINE_GENERATED length={len(line)} attempt={attempt + 1}")
+                return line
+            else:
+                log.warning(f"MOTION_VALIDATION_FAIL attempt={attempt + 1} reason={error_msg}")
+
+        # If all attempts fail, return the last attempt anyway (will be caught by Pydantic)
+        log.error(f"MOTION_LINE_GENERATION_FAILED after 3 attempts, returning last attempt")
+        return line
+
     def generate_prompt_bundle(
         self,
         setting_id: str,
@@ -722,8 +925,9 @@ Create music brief. Return JSON:
         bind_camera: bool = True,
         bind_angle: bool = True,
         bind_accessories: bool = True,
-        bind_wardrobe: bool = False,
+        bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
         single_accessory: bool = True,
+        motion_variations: int = 3,  # Interface compatibility (not used - motion generated client-side)
     ) -> list[dict[str, Any]]:
         """
         Generate prompt bundles (image + video) for manual workflow.
@@ -781,7 +985,10 @@ Create music brief. Return JSON:
             log.error(f"Failed to load location file {location_path}: {e}")
             raise RuntimeError(f"Failed to load scenes from {location_path}: {e}") from e
 
-        # Build appearance
+        # Build FOREVER prefix (fixed, never changes)
+        forever_prefix = self._build_forever_prefix(persona)
+
+        # Build compressed appearance for system prompt reference only
         appearance = self._build_appearance(persona)
 
         # Get variety options (keep as weighted objects for sampling)
@@ -790,8 +997,8 @@ Create music brief. Return JSON:
         lighting = variety_bank.get("lighting", [])
         camera = variety_bank.get("camera", [])
         angles = variety_bank.get("angle", [])
-        wardrobe_top = variety_bank.get("wardrobe_top", [])
-        wardrobe_bottom = variety_bank.get("wardrobe_bottom", [])
+        # STEP 3: Use unified wardrobe array (single outfit phrase)
+        wardrobe = variety_bank.get("wardrobe", [])
 
         # Build negative prompt
         dont_list = persona.get("dont", [])
@@ -818,8 +1025,8 @@ Create music brief. Return JSON:
             # Respect single_accessory flag
             bind_policy["accessories"] = {"k": 1 if single_accessory else 2, "recent": 50}
         if bind_wardrobe:
-            bind_policy["wardrobe_top"] = {"k": 1, "recent": 50}
-            bind_policy["wardrobe_bottom"] = {"k": 1, "recent": 50}
+            # STEP 3: Single wardrobe slot (unified outfit phrase)
+            bind_policy["wardrobe"] = {"k": 1, "recent": 50}
 
         # Create panels (larger for diversity)
         acc_panel = self._weighted_sample_texts(accessories, 15, rng)
@@ -827,8 +1034,8 @@ Create music brief. Return JSON:
         light_panel = self._weighted_sample_texts(lighting, 12, rng)
         cam_panel = self._weighted_sample_texts(camera, 10, rng)
         ang_panel = self._weighted_sample_texts(angles, 12, rng)
-        top_panel = self._weighted_sample_texts(wardrobe_top, 12, rng)
-        bot_panel = self._weighted_sample_texts(wardrobe_bottom, 12, rng)
+        # STEP 3: Single wardrobe panel (full outfit phrases)
+        wardrobe_panel = self._weighted_sample_texts(wardrobe, 15, rng)
         scene_panel = self._weighted_sample_texts(scenes, 10, rng)
 
         # Bind slots according to policy
@@ -852,13 +1059,11 @@ Create music brief. Return JSON:
         else:
             bound["accessories"] = []
 
-        # Wardrobe binding (only if requested)
+        # Wardrobe binding (only if requested) - STEP 3: Single outfit phrase
         if bind_wardrobe:
-            bound["wardrobe_top"] = self._bind_from_panel("wardrobe_top", top_panel, bind_policy, rng)
-            bound["wardrobe_bottom"] = self._bind_from_panel("wardrobe_bottom", bot_panel, bind_policy, rng)
+            bound["wardrobe"] = self._bind_from_panel("wardrobe", wardrobe_panel, bind_policy, rng)
         else:
-            bound["wardrobe_top"] = []
-            bound["wardrobe_bottom"] = []
+            bound["wardrobe"] = []
 
         # Build system prompt with binding constraints
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
@@ -866,43 +1071,43 @@ Create music brief. Return JSON:
         # Build BOUND CONSTRAINTS section dynamically
         bound_constraints = []
         if bind_scene and bound.get("scene"):
-            bound_constraints.append(f"Scene: `<scene>[{bound['scene'][0]}]`")
+            bound_constraints.append(f"Scene: `{bound['scene'][0]}`")
         if bind_pose_microaction and bound.get("pose_microaction"):
             bound_constraints.append(
                 f"**BOUND POSE — copy this phrase EXACTLY at the START of the Pose line (no additions inside it):**\n"
                 f"  `{bound['pose_microaction'][0]}`"
             )
         if bind_lighting and bound.get("lighting"):
-            bound_constraints.append(f"Lighting: `<lighting>[{bound['lighting'][0]}]`")
+            bound_constraints.append(f"Lighting: `{bound['lighting'][0]}`")
         if bind_camera and bound.get("camera"):
-            bound_constraints.append(f"Camera: `<camera>[{bound['camera'][0]}]`")
+            bound_constraints.append(f"Camera: `{bound['camera'][0]}`")
         if bind_angle and bound.get("angle"):
-            bound_constraints.append(f"Angle: `<angle>[{bound['angle'][0]}]`")
+            bound_constraints.append(f"Angle: `{bound['angle'][0]}`")
 
         # Accessory section
         if bind_accessories and bound.get("accessories"):
             if single_accessory:
                 accessories_section = f"""**ACCESSORIES:**
 Use **exactly ONE** of the bound items below. Do NOT add or replace.
-BOUND ACCESSORY: `<accessories>[{bound['accessories'][0]}]`"""
+BOUND ACCESSORY: `{bound['accessories'][0]}`"""
             else:
                 accessories_section = f"""**ACCESSORIES:**
 Use **exactly THESE TWO** bound items. Do NOT add or replace.
-BOUND ACCESSORIES: `<accessories>[{', '.join(bound['accessories'])}]`"""
+BOUND ACCESSORIES: `{', '.join(bound['accessories'])}`"""
         else:
             accessories_section = f"""**ACCESSORIES (INSPIRE ONLY):**
 Select 1-2 accessories from: {', '.join(acc_panel[:8])}"""
 
-        # Wardrobe section
-        if bind_wardrobe and bound.get("wardrobe_top") and bound.get("wardrobe_bottom"):
+        # Wardrobe section - STEP 3: Single outfit phrase
+        if bind_wardrobe and bound.get("wardrobe"):
             wardrobe_section = f"""**WARDROBE (BOUND):**
-Use both exact phrases below; do not add substitutes.
-- BOUND TOP: `<wardrobe_top>[{bound['wardrobe_top'][0]}]`
-- BOUND BOTTOM: `<wardrobe_bottom>[{bound['wardrobe_bottom'][0]}]`"""
+Use this exact outfit phrase; do not substitute or modify.
+- BOUND OUTFIT: `{bound['wardrobe'][0]}`"""
         else:
             wardrobe_section = f"""**WARDROBE (INVENT NEW):**
-50-70 chars, max 2 fabrics, no repeating panel fabrics.
-Examples (DO NOT REUSE): {', '.join(top_panel[:3])}, {', '.join(bot_panel[:3])}"""
+Create a coherent single outfit phrase (50-80 chars) in fitness/street-fitness/muscle-showing aesthetic.
+Max 2-3 fabrics per outfit. Must describe ONE complete outfit (not separate top+bottom).
+Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 
         # Build inspiration panels for unbound slots
         inspiration_panels = []
@@ -932,28 +1137,39 @@ Examples (DO NOT REUSE): {', '.join(top_panel[:3])}, {', '.join(bot_panel[:3])}"
 
 """
 
+        # Calculate budget for LLM (total target - FOREVER prefix)
+        total_target = 1400
+        llm_budget = total_target - len(forever_prefix)  # LLM writes ~1,180 chars
+
         system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
 Each bundle has:
-1. **IMAGE** prompt (≈1,400 chars TARGET) - photorealistic glamour portrait
-2. **VIDEO** prompt (< 160 chars, 3-part format)
+**IMAGE** prompt - photorealistic glamour portrait
 
-**CRITICAL CHARACTER COUNT REQUIREMENTS:**
-- Target: ≈1,400 characters (ideal sweet spot for detail + quality)
-- Valid window: 1,300-1,500 characters (including spaces)
-- Enforced minimum: 1,300 chars (below this will be REJECTED)
-- Maximum: 1,500 chars (Leonardo API hard limit)
+**CRITICAL: FOREVER PREFIX (already fixed on our side):**
+The following prefix is FIXED and will be prepended automatically to your text:
+"{forever_prefix}"
+
+**YOUR TASK:**
+Write ONLY what comes AFTER the above prefix. Do NOT rewrite or include the persona/character description.
+Start directly with the scene/location (e.g., ", shot at [specific location]...").
+
+**CHARACTER COUNT REQUIREMENTS (for YOUR text only):**
+- Your text budget: ≈{llm_budget} characters (we'll add the {len(forever_prefix)}-char prefix to reach ≈1,400 total)
+- Valid window for YOUR text: {llm_budget - 50} to {llm_budget + 70} characters
+- Final combined prompt (prefix + your text) must be 1,350-1,450 chars total
 - Count carefully before submitting!
 
-**CHARACTER:** {appearance}
+**CHARACTER (for reference only - DO NOT rewrite this):** {appearance}
 
 {bound_section}{inspiration_section}{accessories_section}
 
 {wardrobe_section}
 
-**IMAGE STRUCTURE (aim for ≈1,400 chars total):**
-Sections (ordered): Character, Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Environment.
-Expand each section with rich sensory detail, specific textures, and atmospheric cues to reach 1,400 chars.
+**YOUR TEXT STRUCTURE (≈{llm_budget} chars):**
+Start with: ", shot at [specific scene/location]..."
+Sections (ordered): Scene, Camera + Angle, Wardrobe, Accessories, Pose, Lighting, Environment.
+Expand each section with rich sensory detail, specific textures, and atmospheric cues.
 
 **CRITICAL — BOUND POSE REQUIREMENT:**
 If a BOUND POSE phrase is shown above, you MUST place it EXACTLY at the START of the Pose line.
@@ -965,16 +1181,8 @@ If a BOUND POSE phrase is shown above, you MUST place it EXACTLY at the START of
 
 For other bound phrases (scene, lighting, camera, angle, accessories), include them verbatim but placement flexibility is allowed.
 
-**VIDEO (3 lines, each 12–60 chars):**
-Motion: ... (12–60 chars)
-Action: ... (12–60 chars)
-Environment: ... (12–60 chars)
-Use concise phrases, no sentence padding. Examples:
-- gentle push-in along track | adjusts wrist wrap, eyes set | Tokyo skyline at dusk, breeze
-- slow dolly creep forward | slow inhale, chin lift upward | rain beads catching neon glow
-
 Return JSON array of {count} bundle(s):
-[{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}, "video_prompt": {{"motion": "...", "character_action": "...", "environment": "...", "duration_seconds": 6, "notes": "..."}}}}]"""
+[{{"id": "pr_xxx", "image_prompt": {{"final_prompt": "...", "negative_prompt": "{negative_prompt}", "width": 864, "height": 1536}}}}]"""
 
         user_prompt = f"Generate {count} creative bundle(s). Be vivid, concise, varied. No clichés."
 
@@ -997,15 +1205,30 @@ Return JSON array of {count} bundle(s):
                 validation_errors = []  # Track binding/format violations
 
                 for bundle_raw in bundles_raw:
+                    # Sanitize: strip any slot wrapper tags (belt-and-suspenders safety)
+                    llm_text = bundle_raw["image_prompt"]["final_prompt"]
+                    llm_text = _strip_slot_wrappers(llm_text)
+
+                    # CRITICAL: Prepend the FOREVER prefix (client-side, NOT from LLM)
+                    # The LLM only wrote what comes AFTER the persona
+                    prompt_text = forever_prefix + llm_text
+                    bundle_raw["image_prompt"]["final_prompt"] = prompt_text
+
+                    # Store metadata about the split for debugging
+                    bundle_raw["_forever_split"] = {
+                        "prefix_len": len(forever_prefix),
+                        "llm_len": len(llm_text),
+                        "total_len": len(prompt_text),
+                    }
+
                     # Generate deterministic ID
-                    prompt_text = bundle_raw["image_prompt"]["final_prompt"]
                     bundle_id = self._generate_bundle_id(setting_id, prompt_text)
                     bundle_raw["id"] = bundle_id
 
                     # Check length BEFORE Pydantic validation (to avoid max_length constraint)
                     prompt_len = len(prompt_text)
-                    min_chars = 1300  # Target minimum (updated to 1,300)
-                    max_chars = self.config.max_prompt_chars  # 1500 hard limit
+                    min_chars = 1350  # Enforced minimum (STEP 2: updated to 1,350)
+                    max_chars = 1450  # Internal hard max (STEP 2: stay under Leonardo's 1500 limit)
 
                     # Try smart compression if over limit (BEFORE validation)
                     if prompt_len > max_chars:
@@ -1042,12 +1265,9 @@ Return JSON array of {count} bundle(s):
                             )
                             continue  # Skip this bundle
 
-                    # Enforce min length on video fields (prevent validation failures)
-                    if "video_prompt" in bundle_raw:
-                        vp = bundle_raw["video_prompt"]
-                        vp["motion"] = _enforce_min_len(vp.get("motion", ""), 12)
-                        vp["character_action"] = _enforce_min_len(vp.get("character_action", ""), 12)
-                        vp["environment"] = _enforce_min_len(vp.get("environment", ""), 12)
+                    # Generate motion line (client-side, not from Grok)
+                    motion_line = self._generate_motion_line(rng)
+                    bundle_raw["video_prompt"] = {"line": motion_line}
 
                     # Validate with Pydantic (after compression if needed)
                     try:
@@ -1074,6 +1294,9 @@ Return JSON array of {count} bundle(s):
                         )
                         continue  # Skip this bundle
 
+                    # Add bound metadata for audit (persisted in saved bundle)
+                    bundle_raw["bound"] = bound
+
                     # Check character limit AFTER validation (for bundles that didn't need compression)
                     if prompt_len < min_chars:
                         invalid_prompts.append((bundle_id, prompt_len, "too_short"))
@@ -1089,6 +1312,40 @@ Return JSON array of {count} bundle(s):
                         bind_camera, bind_angle,
                         bind_accessories, bind_wardrobe
                     )
+
+                    # STEP 5: Build binding status summary for logging
+                    bind_status_parts = []
+                    if bind_scene:
+                        status = "ok" if not any("scene" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"scene={status}")
+                    if bind_camera:
+                        status = "ok" if not any("camera" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"camera={status}")
+                    if bind_angle:
+                        status = "ok" if not any("angle" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"angle={status}")
+                    if bind_pose_microaction:
+                        status = "ok" if not any("pose" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"pose={status}")
+                    if bind_lighting:
+                        status = "ok" if not any("lighting" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"lighting={status}")
+                    if bind_accessories:
+                        status = "ok" if not any("accessor" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"accessories={status}")
+                    if bind_wardrobe:
+                        status = "ok" if not any("wardrobe" in e.lower() for e in errors) else "miss"
+                        bind_status_parts.append(f"wardrobe={status}")
+
+                    bind_status = ",".join(bind_status_parts) if bind_status_parts else "none"
+
+                    # STEP 5: Log concise BUNDLE_SUMMARY
+                    log.info(
+                        f"BUNDLE_SUMMARY bundle_id={bundle_id} len={prompt_len} "
+                        f"attempt={attempt} bind_status=\"{bind_status}\" "
+                        f"valid={is_valid}"
+                    )
+
                     if not is_valid:
                         validation_errors.append((bundle_id, errors))
                         log.warning(
@@ -1138,10 +1395,30 @@ Return JSON array of {count} bundle(s):
                         continue  # Retry
                     else:
                         # Fail-soft: log as STILL_NONCOMPLIANT and return bundles
-                        log.error(f"STILL_NONCOMPLIANT after {max_attempts} attempts: {error_message}")
-                        # Return bundles anyway but with warning
+                        # STEP 5: Concise STILL_NONCOMPLIANT summary for each bundle
                         for bundle in bundles:
+                            bundle_id = bundle.get("id", "unknown")
+                            final_len = len(bundle.get("image_prompt", {}).get("final_prompt", ""))
+
+                            # Extract issues summary
+                            issues = []
+                            for bid, length, reason in invalid_prompts:
+                                if bid == bundle_id:
+                                    issues.append(reason)
+                            for bid, errs in validation_errors:
+                                if bid == bundle_id:
+                                    issues.extend([e.split(":")[0].replace("Missing bound ", "") for e in errs])
+
+                            issues_str = ";".join(issues) if issues else "unknown"
+
+                            log.error(
+                                f"STILL_NONCOMPLIANT bundle_id={bundle_id} len={final_len} "
+                                f"issues=\"{issues_str}\""
+                            )
+
                             bundle["_validation_warning"] = "STILL_NONCOMPLIANT"
+
+                        log.error(f"STILL_NONCOMPLIANT after {max_attempts} attempts: {error_message}")
                         return bundles
 
                 # All prompts valid - success!
@@ -1233,6 +1510,31 @@ Create metadata. Return JSON:
         log.info(f"PERSONA_APPEARANCE length={len(appearance)} chars: {appearance[:80]}...")
         return appearance
 
+    def _build_forever_prefix(self, persona: dict[str, Any]) -> str:
+        """
+        Build the FOREVER persona prefix (uncompressed, canonical).
+
+        This is the fixed opening that NEVER changes and appears at the start
+        of every final image prompt. The LLM only writes what comes AFTER this.
+
+        Returns:
+            Canonical persona prefix string (e.g., "photorealistic vertical 9:16 image of a 28-year-old woman with...")
+        """
+        # Use RAW persona values (no compression)
+        hair = persona.get("hair", "medium wavy caramel-blonde hair")
+        eyes = persona.get("eyes", "saturated blue eyes")
+        body = persona.get("body", "busty muscular physique with hourglass defined body")
+        skin = persona.get("skin", "realistic natural skin texture and strong realistic wet highlights")
+
+        # Build canonical FOREVER prefix
+        forever_prefix = (
+            f"photorealistic vertical 9:16 image of a 28-year-old woman with "
+            f"{hair}, {eyes}, {body}, {skin}"
+        )
+
+        log.info(f"FOREVER_PREFIX length={len(forever_prefix)} chars")
+        return forever_prefix
+
     def _generate_bundle_id(self, setting_id: str, prompt: str) -> str:
         """Generate deterministic bundle ID from setting_id and prompt."""
         content = f"{setting_id}:{prompt[:200]}"
@@ -1274,13 +1576,13 @@ Create metadata. Return JSON:
             (is_valid, list_of_errors)
         """
         errors = []
-        img_prompt = bundle.get("image_prompt", {}).get("final_prompt", "").lower()
+        img_prompt = bundle.get("image_prompt", {}).get("final_prompt", "")
 
-        # Check bound slots (case-insensitive) - only for enabled bindings
+        # Check bound slots with word boundaries - only for enabled bindings
         if bind_scene and bound.get("scene"):
-            bound_text = bound["scene"][0].lower()
-            if bound_text and bound_text not in img_prompt:
-                errors.append(f"Missing bound scene: '{bound['scene'][0]}'")
+            phrase = bound["scene"][0]
+            if phrase and not _contains_phrase(img_prompt, phrase):
+                errors.append(f"Missing bound scene: '{phrase}'")
 
         # STRICT Pose validation: must START the Pose section with exact phrase
         if bind_pose_microaction and bound.get("pose_microaction"):
@@ -1290,35 +1592,30 @@ Create metadata. Return JSON:
                 errors.append(f"Pose must START with bound micro-action: '{pose_bound}'")
 
         if bind_lighting and bound.get("lighting"):
-            bound_text = bound["lighting"][0].lower()
-            if bound_text and bound_text not in img_prompt:
-                errors.append(f"Missing bound lighting: '{bound['lighting'][0]}'")
+            phrase = bound["lighting"][0]
+            if phrase and not _contains_phrase(img_prompt, phrase):
+                errors.append(f"Missing bound lighting: '{phrase}'")
 
         if bind_camera and bound.get("camera"):
-            bound_text = bound["camera"][0].lower()
-            if bound_text and bound_text not in img_prompt:
-                errors.append(f"Missing bound camera: '{bound['camera'][0]}'")
+            phrase = bound["camera"][0]
+            if phrase and not _contains_phrase(img_prompt, phrase):
+                errors.append(f"Missing bound camera: '{phrase}'")
 
         if bind_angle and bound.get("angle"):
-            bound_text = bound["angle"][0].lower()
-            if bound_text and bound_text not in img_prompt:
-                errors.append(f"Missing bound angle: '{bound['angle'][0]}'")
+            phrase = bound["angle"][0]
+            if phrase and not _contains_phrase(img_prompt, phrase):
+                errors.append(f"Missing bound angle: '{phrase}'")
 
         if bind_accessories and bound.get("accessories"):
             for acc in bound["accessories"]:
-                bound_text = acc.lower()
-                if bound_text and bound_text not in img_prompt:
+                if acc and not _contains_phrase(img_prompt, acc):
                     errors.append(f"Missing bound accessory: '{acc}'")
 
-        if bind_wardrobe:
-            if bound.get("wardrobe_top"):
-                bound_text = bound["wardrobe_top"][0].lower()
-                if bound_text and bound_text not in img_prompt:
-                    errors.append(f"Missing bound wardrobe_top: '{bound['wardrobe_top'][0]}'")
-            if bound.get("wardrobe_bottom"):
-                bound_text = bound["wardrobe_bottom"][0].lower()
-                if bound_text and bound_text not in img_prompt:
-                    errors.append(f"Missing bound wardrobe_bottom: '{bound['wardrobe_bottom'][0]}'")
+        # STEP 3: Validate single wardrobe phrase (not top/bottom split)
+        if bind_wardrobe and bound.get("wardrobe"):
+            phrase = bound["wardrobe"][0]
+            if phrase and not _contains_phrase(img_prompt, phrase):
+                errors.append(f"Missing bound wardrobe: '{phrase}'")
 
         # VIDEO validation removed - now handled by Pydantic VideoPrompt model with min_length=10
         # Individual fields (motion, character_action, environment) are padded by _enforce_min_len()

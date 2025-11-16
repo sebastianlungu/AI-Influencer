@@ -26,8 +26,9 @@ class LLMClient(ABC):
         bind_camera: bool = True,
         bind_angle: bool = True,
         bind_accessories: bool = True,
-        bind_wardrobe: bool = False,
+        bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
         single_accessory: bool = True,
+        motion_variations: int = 3,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles (image + video + social).
 
@@ -45,6 +46,7 @@ class LLMClient(ABC):
             bind_accessories: Bind accessories
             bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
             single_accessory: If True, bind exactly 1 accessory; if False, bind 2
+            motion_variations: Number of motion variations to generate per bundle (1-5)
 
         Returns:
             List of bundle dicts with keys:
@@ -138,8 +140,9 @@ class GrokAdapter(LLMClient):
         bind_camera: bool = True,
         bind_angle: bool = True,
         bind_accessories: bool = True,
-        bind_wardrobe: bool = False,
+        bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
         single_accessory: bool = True,
+        motion_variations: int = 3,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles via Grok."""
         return self._client.generate_prompt_bundle(
@@ -156,6 +159,7 @@ class GrokAdapter(LLMClient):
             bind_accessories=bind_accessories,
             bind_wardrobe=bind_wardrobe,
             single_accessory=single_accessory,
+            motion_variations=motion_variations,
         )
 
     def suggest_motion(
