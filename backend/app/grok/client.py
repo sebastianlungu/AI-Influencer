@@ -1556,34 +1556,48 @@ Create caption. Return plain text (no JSON, just the caption with hashtags)."""
 
     def generate_social_meta(self, media_meta: dict[str, Any]) -> dict[str, Any]:
         """
-        Generate social media metadata (title, tags, hashtags).
+        Generate social media metadata (title, caption, tags, hashtags).
 
         Args:
             media_meta: Full media metadata
 
         Returns:
-            Dict with keys: title, tags, hashtags
+            Dict with keys: title, caption, tags, hashtags
         """
         log.info(f"GROK_SOCIAL media_id={media_meta.get('id', 'unknown')}")
 
         system_prompt = """Generate social media metadata:
 - title: 40-60 char engaging title
+- caption: 1 short motivational phrase (40-120 chars) based on scene/pose/wardrobe
+  * MUST start lowercase (no capital first letter)
+  * Positive, confident, discipline/travel/fitness vibe
+  * End with EXACTLY ONE emoji (no more, no less)
+  * NO hashtags, NO line breaks, NO quotes
+  * Examples: "strong days start with small decisions 💪" or "steady steps, bold heart, quiet confidence 🌊"
 - tags: 5-10 plain keywords (no #)
 - hashtags: 8-12 hashtags (with #)
 
-Tone: Empowering, authentic."""
+Tone: Empowering, authentic, context-aware."""
 
         user_prompt = f"""Media context: {json.dumps(media_meta, indent=2)}
 
 Create metadata. Return JSON:
-{{"title": "...", "tags": ["tag1", "tag2"], "hashtags": ["#hash1", "#hash2"]}}"""
+{{"title": "...", "caption": "...", "tags": ["tag1", "tag2"], "hashtags": ["#hash1", "#hash2"]}}"""
 
-        content = self._call_api(system_prompt, user_prompt, temperature=0.7, max_tokens=300)
+        content = self._call_api(system_prompt, user_prompt, temperature=0.7, max_tokens=400)
 
         try:
             social_meta = extract_json(content)
 
-            log.info(f"GROK_SOCIAL generated title={social_meta.get('title', '')[:50]}")
+            # Validate caption if present
+            caption = social_meta.get("caption", "")
+            if caption:
+                # Check basic rules
+                if len(caption) > 200 or len(caption) < 20 or not caption or caption[0].isupper():
+                    log.warning(f"GROK_SOCIAL caption failed validation, using fallback: {caption}")
+                    social_meta["caption"] = "strong, calm and focused 💪"
+
+            log.info(f"GROK_SOCIAL generated title={social_meta.get('title', '')[:50]} caption={social_meta.get('caption', '')[:40]}")
             return social_meta
 
         except Exception as e:

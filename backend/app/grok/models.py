@@ -89,6 +89,15 @@ class MotionSpec(BaseModel):
         return v.lower()
 
 
+class SocialMeta(BaseModel):
+    """Social media metadata for a prompt bundle."""
+
+    title: str = Field(..., min_length=10, max_length=100, description="Engaging title (40-60 chars)")
+    caption: str | None = Field(None, min_length=40, max_length=200, description="Motivational caption with 1 emoji (40-120 chars)")
+    tags: list[str] = Field(default_factory=list, description="Plain keywords (no #)")
+    hashtags: list[str] = Field(default_factory=list, description="Hashtags (with #)")
+
+
 class MusicBrief(BaseModel):
     """Music generation brief for Suno."""
 

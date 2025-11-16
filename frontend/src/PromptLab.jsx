@@ -30,6 +30,7 @@ export default function PromptLab({ onShowLogs }) {
   const [bindAngle, setBindAngle] = useState(true);
   const [bindAccessories, setBindAccessories] = useState(true);
   const [bindWardrobe, setBindWardrobe] = useState(true);
+  const [bindHair, setBindHair] = useState(true);
   const [singleAccessory, setSingleAccessory] = useState(true);
 
   // Table state
@@ -136,6 +137,7 @@ export default function PromptLab({ onShowLogs }) {
     setBindAngle(true);
     setBindAccessories(true);
     setBindWardrobe(true);
+    setBindHair(true);
     setSingleAccessory(true);
   };
 
@@ -147,6 +149,7 @@ export default function PromptLab({ onShowLogs }) {
     setBindAngle(false);
     setBindAccessories(false);
     setBindWardrobe(false);
+    setBindHair(false);
     setSingleAccessory(false);
   };
 
@@ -171,6 +174,7 @@ export default function PromptLab({ onShowLogs }) {
         bind_angle: bindAngle,
         bind_accessories: bindAccessories,
         bind_wardrobe: bindWardrobe,
+        bind_hair: bindHair,
         single_accessory: singleAccessory,
       });
 
@@ -370,6 +374,7 @@ export default function PromptLab({ onShowLogs }) {
                 <Toggle label="Angle" checked={bindAngle} onChange={setBindAngle} />
                 <Toggle label="Accessories" checked={bindAccessories} onChange={setBindAccessories} />
                 <Toggle label="Wardrobe" checked={bindWardrobe} onChange={setBindWardrobe} />
+                <Toggle label="Hairstyle" checked={bindHair} onChange={setBindHair} />
                 <Toggle
                   label="Single Accessory"
                   checked={singleAccessory}
@@ -656,8 +661,8 @@ function InlineRowDetails({ promptDetails, loading, onClose, onCopy, onUsedToggl
 
   const charCount = promptDetails.image_prompt?.length || 0;
   const getCharColor = () => {
-    if (charCount >= 1350 && charCount <= 1400) return { bg: "#dcfce7", color: "#166534" };
-    if (charCount >= 1400 && charCount <= 1450) return { bg: "#fef3c7", color: "#92400e" };
+    if (charCount >= 1300 && charCount <= 1400) return { bg: "#dcfce7", color: "#166534" };
+    if (charCount >= 1400 && charCount <= 1500) return { bg: "#fef3c7", color: "#92400e" };
     return { bg: "#fee2e2", color: "#991b1b" };
   };
   const charColors = getCharColor();
@@ -754,6 +759,35 @@ function InlineRowDetails({ promptDetails, loading, onClose, onCopy, onUsedToggl
           )}
         </section>
 
+        {/* Caption Section */}
+        {promptDetails.social_meta?.caption && (
+          <section style={styles.inlineCard}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+              <h3 style={{ fontSize: "13px", fontWeight: "600", margin: 0 }}>📝 Caption</h3>
+              <button onClick={() => onCopy(promptDetails.social_meta.caption, "Caption copied")} style={styles.copyButtonSmall}>
+                Copy
+              </button>
+            </div>
+            <input
+              type="text"
+              value={promptDetails.social_meta.caption}
+              readOnly
+              style={{
+                width: "100%",
+                fontSize: "12px",
+                lineHeight: "1.5",
+                padding: "10px",
+                border: "1px solid #d1d5db",
+                borderRadius: "4px",
+                backgroundColor: "#fff",
+              }}
+            />
+            <div style={{ marginTop: "6px", fontSize: "10px", color: "#6b7280" }}>
+              {promptDetails.social_meta.caption.length} chars
+            </div>
+          </section>
+        )}
+
         {/* Right: Video Motion */}
         <section style={styles.inlineCard}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
@@ -816,8 +850,8 @@ function DetailsDrawer({ promptDetails, loading, onClose, onCopy, onUsedToggle }
 
   const charCount = promptDetails?.image_prompt?.length || 0;
   const getCharColor = () => {
-    if (charCount >= 1350 && charCount <= 1400) return { bg: "#dcfce7", color: "#166534" };
-    if (charCount >= 1400 && charCount <= 1450) return { bg: "#fef3c7", color: "#92400e" };
+    if (charCount >= 1300 && charCount <= 1400) return { bg: "#dcfce7", color: "#166534" };
+    if (charCount >= 1400 && charCount <= 1500) return { bg: "#fef3c7", color: "#92400e" };
     return { bg: "#fee2e2", color: "#991b1b" };
   };
   const charColors = getCharColor();
@@ -977,6 +1011,38 @@ function DetailsDrawer({ promptDetails, loading, onClose, onCopy, onUsedToggle }
                 </div>
               )}
             </section>
+
+            {/* Caption */}
+            {promptDetails.social_meta?.caption && (
+              <section style={{ marginBottom: "24px", paddingTop: "16px", borderTop: "1px solid #e5e7eb" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+                  <h3 style={{ fontSize: "14px", fontWeight: "600", margin: 0 }}>📝 Caption</h3>
+                  <button
+                    onClick={() => onCopy(promptDetails.social_meta.caption, "Caption copied")}
+                    style={styles.copyButton}
+                  >
+                    Copy
+                  </button>
+                </div>
+                <input
+                  type="text"
+                  value={promptDetails.social_meta.caption}
+                  readOnly
+                  style={{
+                    width: "100%",
+                    fontSize: "12px",
+                    lineHeight: "1.5",
+                    padding: "12px",
+                    border: "1px solid #e5e7eb",
+                    borderRadius: "6px",
+                    backgroundColor: "#f9fafb",
+                  }}
+                />
+                <div style={{ marginTop: "8px", fontSize: "12px", color: "#6b7280" }}>
+                  {promptDetails.social_meta.caption.length} chars
+                </div>
+              </section>
+            )}
 
             {/* Video Motion */}
             <section style={{ marginBottom: "24px", paddingTop: "16px", borderTop: "1px solid #e5e7eb" }}>

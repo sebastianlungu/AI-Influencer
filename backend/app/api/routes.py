@@ -149,6 +149,7 @@ async def generate_prompt_bundle(request: Request) -> dict:
                 # Provide fallback social meta
                 bundle["social_meta"] = {
                     "title": "Fitness Inspiration",
+                    "caption": "strong, calm and focused 💪",
                     "tags": ["fitness", "workout", "motivation"],
                     "hashtags": ["#fitness", "#workout", "#motivation"],
                 }
