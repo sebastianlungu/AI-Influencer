@@ -21,16 +21,15 @@ class Variation(BaseModel):
     @field_validator("base")
     @classmethod
     def validate_base_length(cls, v: str) -> str:
-        """Ensure base prompt is reasonable length."""
-        if len(v) > 1500:
-            raise ValueError(f"Prompt too long: {len(v)} chars (max 1500 for Leonardo)")
+        """Ensure base prompt is reasonable length (advisory, not enforced)."""
+        # No hard limit - allow longer prompts for manual curation
         return v
 
 
 class ImagePrompt(BaseModel):
     """Image generation prompt with dimensions."""
 
-    final_prompt: str = Field(..., min_length=200, max_length=1500, description="Complete image prompt")
+    final_prompt: str = Field(..., min_length=200, max_length=4096, description="Complete image prompt (advisory max: 1500 for Leonardo)")
     negative_prompt: str = Field(default="", description="Negative prompt for quality")
     width: int = Field(default=864, description="Image width in pixels")
     height: int = Field(default=1536, description="Image height in pixels")
@@ -45,20 +44,20 @@ class ImagePrompt(BaseModel):
 
 
 class VideoPrompt(BaseModel):
-    """Video generation prompt with motion and action."""
+    """Video generation prompt with single motion line."""
 
-    motion: str = Field(..., min_length=10, description="Camera motion description")
-    character_action: str = Field(..., min_length=10, description="Character action/pose")
-    environment: str = Field(..., min_length=10, description="Environment details")
-    duration_seconds: int = Field(default=6, description="Video duration in seconds")
-    notes: str = Field(default="", description="Additional notes for video generation")
+    line: str = Field(..., min_length=110, max_length=160, description="Single motion line (handheld only, no environment)")
 
-    @field_validator("duration_seconds")
+    @field_validator("line")
     @classmethod
-    def validate_duration(cls, v: int) -> int:
-        """Ensure duration is reasonable."""
-        if v <= 0 or v > 60:
-            raise ValueError(f"Duration must be 1-60 seconds, got {v}")
+    def validate_line(cls, v: str) -> str:
+        """Validate motion line format."""
+        if not v.startswith("natural, realistic — "):
+            raise ValueError("Motion line must start with 'natural, realistic — '")
+        if "handheld" not in v.lower():
+            raise ValueError("Motion line must contain 'handheld'")
+        if not v.endswith("."):
+            raise ValueError("Motion line must end with a period")
         return v
 
 

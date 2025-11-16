@@ -42,6 +42,7 @@ class PromptBundleRequest(BaseModel):
     bind_angle: bool = True
     bind_accessories: bool = True
     bind_wardrobe: bool = True  # STEP 2: Wardrobe binding ON by default
+    bind_hair: bool = True  # Hairstyle arrangement binding
 
     single_accessory: bool = True  # If True, bind exactly 1 accessory; if False, bind 2
 
@@ -124,6 +125,7 @@ async def generate_prompt_bundle(request: Request) -> dict:
             bind_angle=body.bind_angle,
             bind_accessories=body.bind_accessories,
             bind_wardrobe=body.bind_wardrobe,
+            bind_hair=body.bind_hair,
             single_accessory=body.single_accessory,
         )
 

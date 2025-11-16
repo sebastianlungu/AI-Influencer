@@ -27,6 +27,7 @@ class LLMClient(ABC):
         bind_angle: bool = True,
         bind_accessories: bool = True,
         bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
+        bind_hair: bool = True,  # Hairstyle arrangement binding
         single_accessory: bool = True,
         motion_variations: int = 3,
     ) -> list[dict[str, Any]]:
@@ -45,6 +46,7 @@ class LLMClient(ABC):
             bind_angle: Bind angle
             bind_accessories: Bind accessories
             bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
+            bind_hair: Bind hairstyle arrangement
             single_accessory: If True, bind exactly 1 accessory; if False, bind 2
             motion_variations: Number of motion variations to generate per bundle (1-5)
 
@@ -141,6 +143,7 @@ class GrokAdapter(LLMClient):
         bind_angle: bool = True,
         bind_accessories: bool = True,
         bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
+        bind_hair: bool = True,  # Hairstyle arrangement binding
         single_accessory: bool = True,
         motion_variations: int = 3,
     ) -> list[dict[str, Any]]:
@@ -158,6 +161,7 @@ class GrokAdapter(LLMClient):
             bind_angle=bind_angle,
             bind_accessories=bind_accessories,
             bind_wardrobe=bind_wardrobe,
+            bind_hair=bind_hair,
             single_accessory=single_accessory,
             motion_variations=motion_variations,
         )

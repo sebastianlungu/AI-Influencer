@@ -49,6 +49,7 @@ BIND_POLICY = {
     "camera": {"k": 1, "recent": 40},
     "angle": {"k": 1, "recent": 40},
     "accessories": {"k": 1, "recent": 50},  # single accessory default
+    "hair_style": {"k": 1, "recent": 60},  # hairstyle arrangement (no length)
 }
 # STEP 3: Removed INSPIRE_ONLY constant (wardrobe can now be bound or inspire-only based on UI flag)
 
@@ -993,6 +994,7 @@ Create music brief. Return JSON:
         bind_angle: bool = True,
         bind_accessories: bool = True,
         bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
+        bind_hair: bool = True,  # Hairstyle arrangement binding (ON by default)
         single_accessory: bool = True,
         motion_variations: int = 3,  # Interface compatibility (not used - motion generated client-side)
     ) -> list[dict[str, Any]]:
@@ -1052,9 +1054,6 @@ Create music brief. Return JSON:
             log.error(f"Failed to load location file {location_path}: {e}")
             raise RuntimeError(f"Failed to load scenes from {location_path}: {e}") from e
 
-        # Build FOREVER prefix (fixed, never changes)
-        forever_prefix = self._build_forever_prefix(persona)
-
         # Build compressed appearance for system prompt reference only
         appearance = self._build_appearance(persona)
 
@@ -1066,6 +1065,7 @@ Create music brief. Return JSON:
         angles = variety_bank.get("angle", [])
         # STEP 3: Use unified wardrobe array (single outfit phrase)
         wardrobe = variety_bank.get("wardrobe", [])
+        hair_styles = variety_bank.get("hair_style", [])
 
         # Build negative prompt
         dont_list = persona.get("dont", [])
@@ -1094,6 +1094,8 @@ Create music brief. Return JSON:
         if bind_wardrobe:
             # STEP 3: Single wardrobe slot (unified outfit phrase)
             bind_policy["wardrobe"] = {"k": 1, "recent": 50}
+        if bind_hair:
+            bind_policy["hair_style"] = {"k": 1, "recent": 60}
 
         # Create panels (larger for diversity)
         acc_panel = self._weighted_sample_texts(accessories, 15, rng)
@@ -1103,6 +1105,7 @@ Create music brief. Return JSON:
         ang_panel = self._weighted_sample_texts(angles, 12, rng)
         # STEP 3: Single wardrobe panel (full outfit phrases)
         wardrobe_panel = self._weighted_sample_texts(wardrobe, 15, rng)
+        hair_panel = self._weighted_sample_texts(hair_styles, 12, rng) if hair_styles else []
         scene_panel = self._weighted_sample_texts(scenes, 10, rng)
 
         # Bind slots according to policy
@@ -1132,6 +1135,15 @@ Create music brief. Return JSON:
         else:
             bound["wardrobe"] = []
 
+        # Hairstyle binding (only if requested)
+        if bind_hair and hair_panel:
+            bound["hair_style"] = self._bind_from_panel("hair_style", hair_panel, bind_policy, rng)
+        else:
+            bound["hair_style"] = []
+
+        # Build FOREVER prefix (fixed, with bound hairstyle)
+        forever_prefix = self._build_forever_prefix(persona, bound)
+
         # Build system prompt with binding constraints
         seed_text = f" (embellish with: {', '.join(seed_words)})" if seed_words else ""
 
@@ -1150,6 +1162,11 @@ Create music brief. Return JSON:
             bound_constraints.append(f"Camera: `{bound['camera'][0]}`")
         if bind_angle and bound.get("angle"):
             bound_constraints.append(f"Angle: `{bound['angle'][0]}`")
+        if bind_hair and bound.get("hair_style"):
+            bound_constraints.append(
+                f"**BOUND HAIRSTYLE (use EXACTLY this phrase, no additions):**\n"
+                f"  `<hair_style>[{bound['hair_style'][0]}]`"
+            )
 
         # Accessory section
         if bind_accessories and bound.get("accessories"):
@@ -1205,11 +1222,12 @@ Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 """
 
         # Calculate budget for LLM (total target - FOREVER prefix)
-        # Target: 1350-1450 chars total (FOREVER ~236 + LLM ~1114-1214)
+        # Target: 1230-1430 chars total (FOREVER ~236 + LLM ~994-1194)
+        # Reduced by 70 chars to nudge Grok toward shorter output
         forever_len = len(forever_prefix)
-        llm_min = 1114  # Minimum chars from LLM (1350 - 236)
-        llm_target = 1164  # Target chars from LLM (1400 - 236)
-        llm_max = 1214  # Maximum chars from LLM (1450 - 236)
+        llm_min = 994   # Minimum chars from LLM (1230 - 236)
+        llm_target = 1094  # Target chars from LLM (1330 - 236)
+        llm_max = 1194  # Maximum chars from LLM (1430 - 236)
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
@@ -1225,11 +1243,12 @@ Write ONLY what comes AFTER the above prefix. Do NOT rewrite or include the pers
 Start directly with the scene/location (e.g., ", shot at [specific location]...").
 
 **CHARACTER COUNT REQUIREMENTS (for YOUR text only):**
-- Your text target: ≈{llm_target} characters (aim for rich, detailed descriptions)
-- Valid range for YOUR text: {llm_min}-{llm_max} characters
-- We'll add the {forever_len}-char prefix automatically
-- Final combined prompt will be ≈{llm_target + forever_len} chars total
-- Count carefully and aim for the target!
+- Target: ≈{llm_target} characters (ideal sweet spot for detail + quality)
+- Valid window: {llm_min}-{llm_max} characters (including spaces)
+- Enforced minimum: {llm_min} chars (below this will be REJECTED)
+- Maximum: {llm_max} chars (enforced limit)
+- We'll add the {forever_len}-char FOREVER prefix automatically
+- Final combined prompt: ≈{llm_target + forever_len} chars total (range {llm_min + forever_len}-{llm_max + forever_len})
 
 **CHARACTER (for reference only - DO NOT rewrite this):** {appearance}
 
@@ -1257,256 +1276,144 @@ Return JSON array of {count} bundle(s):
 
         user_prompt = f"Generate {count} creative bundle(s). Be vivid, concise, varied. No clichés."
 
-        # Retry loop for character limit enforcement (max 3 attempts)
-        max_attempts = 3
-        last_error = None
+        # Single-attempt generation (no retries, accept all prompts)
+        # Length and binding validation are now informational only
+        try:
+            content = self._call_api(system_prompt, user_prompt, temperature=0.9, max_tokens=4000)
 
-        for attempt in range(1, max_attempts + 1):
-            try:
-                content = self._call_api(system_prompt, user_prompt, temperature=0.9, max_tokens=4000)
+            bundles_raw = extract_json(content)
 
-                bundles_raw = extract_json(content)
+            if not isinstance(bundles_raw, list) or len(bundles_raw) != count:
+                raise ValueError(f"Expected {count} bundles, got {len(bundles_raw) if isinstance(bundles_raw, list) else 'non-array'}")
 
-                if not isinstance(bundles_raw, list) or len(bundles_raw) != count:
-                    raise ValueError(f"Expected {count} bundles, got {len(bundles_raw) if isinstance(bundles_raw, list) else 'non-array'}")
+            # Process each bundle (no skipping, all bundles returned)
+            bundles = []
+            advisory_min = 1230  # Advisory minimum (FOREVER ~236 + LLM 994)
+            advisory_max = 1500  # Advisory maximum (Leonardo safe limit)
 
-                # Validate and generate IDs
-                bundles = []
-                invalid_prompts = []  # Track character limit violations
-                validation_errors = []  # Track binding/format violations
+            for bundle_raw in bundles_raw:
+                # Sanitize: strip any slot wrapper tags (belt-and-suspenders safety)
+                llm_text = bundle_raw["image_prompt"]["final_prompt"]
+                llm_text = _strip_slot_wrappers(llm_text)
 
-                for bundle_raw in bundles_raw:
-                    # Sanitize: strip any slot wrapper tags (belt-and-suspenders safety)
-                    llm_text = bundle_raw["image_prompt"]["final_prompt"]
-                    llm_text = _strip_slot_wrappers(llm_text)
+                # CRITICAL: Prepend the FOREVER prefix (client-side, NOT from LLM)
+                # The LLM only wrote what comes AFTER the persona
+                prompt_text = forever_prefix + llm_text
+                bundle_raw["image_prompt"]["final_prompt"] = prompt_text
 
-                    # CRITICAL: Prepend the FOREVER prefix (client-side, NOT from LLM)
-                    # The LLM only wrote what comes AFTER the persona
-                    prompt_text = forever_prefix + llm_text
-                    bundle_raw["image_prompt"]["final_prompt"] = prompt_text
+                # Store metadata about the split for debugging
+                bundle_raw["_forever_split"] = {
+                    "prefix_len": len(forever_prefix),
+                    "llm_len": len(llm_text),
+                    "total_len": len(prompt_text),
+                }
 
-                    # Store metadata about the split for debugging
-                    bundle_raw["_forever_split"] = {
-                        "prefix_len": len(forever_prefix),
-                        "llm_len": len(llm_text),
-                        "total_len": len(prompt_text),
-                    }
+                # Generate deterministic ID
+                bundle_id = self._generate_bundle_id(setting_id, prompt_text)
+                bundle_raw["id"] = bundle_id
 
-                    # Generate deterministic ID
-                    bundle_id = self._generate_bundle_id(setting_id, prompt_text)
-                    bundle_raw["id"] = bundle_id
+                # Check length (advisory only, no enforcement)
+                prompt_len = len(prompt_text)
+                length_warnings = []
+                if prompt_len < advisory_min:
+                    length_warnings.append(f"below_advisory_min({advisory_min})")
+                if prompt_len > advisory_max:
+                    length_warnings.append(f"above_advisory_max({advisory_max})")
 
-                    # Check length BEFORE Pydantic validation (to avoid max_length constraint)
-                    prompt_len = len(prompt_text)
-                    # Target: 1350-1450 chars total (FOREVER ~236 + LLM 1114-1214)
-                    min_chars = 1350  # Minimum total
-                    max_chars = 1450  # Maximum total (well under Leonardo's 1500 limit)
+                # Generate motion line (client-side, not from Grok)
+                motion_line = self._generate_motion_line(rng)
+                bundle_raw["video_prompt"] = {"line": motion_line}
 
-                    # Try smart compression if over limit (BEFORE validation)
-                    if prompt_len > max_chars:
-                        compressed, trimmed_sections = compress_image_prompt(
-                            prompt_text,
-                            bound,
-                            target_max=max_chars
-                        )
-                        compressed_len = len(compressed)
-
-                        if compressed_len <= max_chars and compressed_len >= min_chars:
-                            # Compression succeeded - update bundle_raw before validation
-                            bundle_raw["image_prompt"]["final_prompt"] = compressed
-                            prompt_len = compressed_len  # Update for validation below
-                            log.info(
-                                f"COMPRESS applied bundle_id={bundle_id} "
-                                f"before={len(prompt_text)} after={compressed_len} "
-                                f"saved={len(prompt_text) - compressed_len} sections={trimmed_sections}"
-                            )
-                            # Add compression metadata
-                            bundle_raw["_compression_applied"] = {
-                                "before": len(prompt_text),
-                                "after": compressed_len,
-                                "saved": len(prompt_text) - compressed_len,
-                                "sections": trimmed_sections,
-                            }
-                        else:
-                            # Compression didn't help enough
-                            invalid_prompts.append((bundle_id, compressed_len, "too_long_post_compress"))
-                            log.warning(
-                                f"GROK_BUNDLE prompt too long even after compression: "
-                                f"bundle_id={bundle_id} before={len(prompt_text)} after={compressed_len} "
-                                f"(max {max_chars}) attempt={attempt}/{max_attempts}"
-                            )
-                            continue  # Skip this bundle
-
-                    # Generate motion line (client-side, not from Grok)
-                    motion_line = self._generate_motion_line(rng)
-                    bundle_raw["video_prompt"] = {"line": motion_line}
-
-                    # Validate with Pydantic (after compression if needed)
-                    try:
-                        validated = PromptBundle(**bundle_raw)
-                    except ValidationError as e:
-                        # Extract field-level validation details
-                        for error in e.errors():
-                            field = ".".join(str(loc) for loc in error["loc"])
-                            value = bundle_raw
-                            for loc in error["loc"]:
-                                value = value.get(loc, {}) if isinstance(value, dict) else value
-                            rule = error["type"]
-                            msg = error["msg"]
-
-                            invalid_prompts.append((
-                                bundle_id,
-                                str(value)[:50],  # Truncate value
-                                f"field={field} rule={rule} msg={msg}"
-                            ))
-
-                        log.warning(
-                            f"GROK_BUNDLE Pydantic validation failed: bundle_id={bundle_id} "
-                            f"errors={e.errors()} attempt={attempt}/{max_attempts}"
-                        )
-                        continue  # Skip this bundle
-
-                    # Add bound metadata for audit (persisted in saved bundle)
-                    bundle_raw["bound"] = bound
-
-                    # Check character limit AFTER validation (for bundles that didn't need compression)
-                    if prompt_len < min_chars:
-                        invalid_prompts.append((bundle_id, prompt_len, "too_short"))
-                        log.warning(
-                            f"GROK_BUNDLE prompt too short: bundle_id={bundle_id} length={prompt_len} "
-                            f"(min {min_chars}) attempt={attempt}/{max_attempts}"
-                        )
-
-                    # Validate binding constraints (pass all bind flags)
-                    is_valid, errors = self._validate_bundle(
-                        bundle_raw, bound,
-                        bind_scene, bind_pose_microaction, bind_lighting,
-                        bind_camera, bind_angle,
-                        bind_accessories, bind_wardrobe
+                # Validate with Pydantic (informational only, don't skip on failure)
+                pydantic_valid = True
+                try:
+                    validated = PromptBundle(**bundle_raw)
+                except ValidationError as e:
+                    pydantic_valid = False
+                    error_details = [(str(err['loc']), err['msg']) for err in e.errors()]
+                    log.warning(
+                        f"PYDANTIC_VALIDATION_FAILED bundle_id={bundle_id} "
+                        f"errors={error_details} "
+                        f"(informational only, bundle still saved)"
                     )
+                    bundle_raw["_validation_warning"] = f"pydantic_failed: {e.errors()[0]['msg']}"
 
-                    # STEP 5: Build binding status summary for logging
-                    bind_status_parts = []
-                    if bind_scene:
-                        status = "ok" if not any("scene" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"scene={status}")
-                    if bind_camera:
-                        status = "ok" if not any("camera" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"camera={status}")
-                    if bind_angle:
-                        status = "ok" if not any("angle" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"angle={status}")
-                    if bind_pose_microaction:
-                        status = "ok" if not any("pose" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"pose={status}")
-                    if bind_lighting:
-                        status = "ok" if not any("lighting" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"lighting={status}")
-                    if bind_accessories:
-                        status = "ok" if not any("accessor" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"accessories={status}")
-                    if bind_wardrobe:
-                        status = "ok" if not any("wardrobe" in e.lower() for e in errors) else "miss"
-                        bind_status_parts.append(f"wardrobe={status}")
+                # Add bound metadata for audit (persisted in saved bundle)
+                bundle_raw["bound"] = bound
 
-                    bind_status = ",".join(bind_status_parts) if bind_status_parts else "none"
+                # Validate binding constraints (informational only)
+                is_valid, errors = self._validate_bundle(
+                    bundle_raw, bound,
+                    bind_scene, bind_pose_microaction, bind_lighting,
+                    bind_camera, bind_angle,
+                    bind_accessories, bind_wardrobe, bind_hair
+                )
 
-                    # STEP 5: Log concise BUNDLE_SUMMARY
-                    log.info(
-                        f"BUNDLE_SUMMARY bundle_id={bundle_id} len={prompt_len} "
-                        f"attempt={attempt} bind_status=\"{bind_status}\" "
-                        f"valid={is_valid}"
-                    )
+                # Build binding status summary for logging
+                bind_status_parts = []
+                if bind_scene:
+                    status = "ok" if not any("scene" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"scene={status}")
+                if bind_camera:
+                    status = "ok" if not any("camera" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"camera={status}")
+                if bind_angle:
+                    status = "ok" if not any("angle" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"angle={status}")
+                if bind_pose_microaction:
+                    status = "ok" if not any("pose" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"pose={status}")
+                if bind_lighting:
+                    status = "ok" if not any("lighting" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"lighting={status}")
+                if bind_accessories:
+                    status = "ok" if not any("accessor" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"accessories={status}")
+                if bind_wardrobe:
+                    status = "ok" if not any("wardrobe" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"wardrobe={status}")
+                if bind_hair:
+                    status = "ok" if not any("hair_style" in e.lower() for e in errors) else "miss"
+                    bind_status_parts.append(f"hair={status}")
 
-                    if not is_valid:
-                        validation_errors.append((bundle_id, errors))
-                        log.warning(
-                            f"GROK_BUNDLE validation failed: bundle_id={bundle_id} "
-                            f"errors={errors} attempt={attempt}/{max_attempts}"
-                        )
+                bind_status = ",".join(bind_status_parts) if bind_status_parts else "none"
 
-                    # Per-bundle telemetry (Step 6)
-                    final_prompt_len = len(bundle_raw["image_prompt"]["final_prompt"])
-                    compression_info = bundle_raw.get("_compression_applied")
-                    if compression_info:
-                        log.info(
-                            f"BUNDLE_METRICS bundle_id={bundle_id} "
-                            f"len_before={compression_info.get('before', 0)} "
-                            f"len_after_compress={compression_info.get('after', 0)} "
-                            f"saved={compression_info.get('saved', 0)} "
-                            f"sections_trimmed={str(compression_info.get('sections', []))}"
-                        )
+                # Add binding warnings if any
+                if not is_valid:
+                    existing_warning = bundle_raw.get("_validation_warning", "")
+                    binding_issues = ";".join([e.split(":")[0].replace("Missing bound ", "") for e in errors])
+                    if existing_warning:
+                        bundle_raw["_validation_warning"] = f"{existing_warning}; binding: {binding_issues}"
                     else:
-                        log.info(
-                            f"BUNDLE_METRICS bundle_id={bundle_id} "
-                            f"len_final={final_prompt_len} compression=not_needed"
-                        )
+                        bundle_raw["_validation_warning"] = f"binding: {binding_issues}"
 
-                    bundles.append(bundle_raw)  # Keep building bundles for validation
-
-                # If ANY prompt violates limits or constraints, reject entire batch and retry
-                if invalid_prompts or validation_errors:
-                    error_parts = []
-
-                    if invalid_prompts:
-                        char_errors = ", ".join([f"{bid}:{length}({reason})" for bid, length, reason in invalid_prompts])
-                        error_parts.append(f"Character violations: {char_errors}")
-
-                    if validation_errors:
-                        bind_errors = "; ".join([f"{bid}: {', '.join(errs)}" for bid, errs in validation_errors])
-                        error_parts.append(f"Binding violations: {bind_errors}")
-
-                    error_message = " | ".join(error_parts)
-
-                    last_error = RuntimeError(
-                        f"Validation failed on attempt {attempt}/{max_attempts}. {error_message}"
-                    )
-
-                    if attempt < max_attempts:
-                        log.info(f"GROK_BUNDLE retrying (attempt {attempt + 1}/{max_attempts})...")
-                        continue  # Retry
+                # Add length warnings if any
+                if length_warnings:
+                    existing_warning = bundle_raw.get("_validation_warning", "")
+                    length_str = ",".join(length_warnings)
+                    if existing_warning:
+                        bundle_raw["_validation_warning"] = f"{existing_warning}; length: {length_str}"
                     else:
-                        # Fail-soft: log as STILL_NONCOMPLIANT and return bundles
-                        # STEP 5: Concise STILL_NONCOMPLIANT summary for each bundle
-                        for bundle in bundles:
-                            bundle_id = bundle.get("id", "unknown")
-                            final_len = len(bundle.get("image_prompt", {}).get("final_prompt", ""))
+                        bundle_raw["_validation_warning"] = f"length: {length_str}"
 
-                            # Extract issues summary
-                            issues = []
-                            for bid, length, reason in invalid_prompts:
-                                if bid == bundle_id:
-                                    issues.append(reason)
-                            for bid, errs in validation_errors:
-                                if bid == bundle_id:
-                                    issues.extend([e.split(":")[0].replace("Missing bound ", "") for e in errs])
+                # Log concise BUNDLE_SUMMARY (informational)
+                warnings_str = bundle_raw.get("_validation_warning", "none")
+                log.info(
+                    f"BUNDLE_SUMMARY bundle_id={bundle_id} len={prompt_len} "
+                    f"bind_status=\"{bind_status}\" pydantic_valid={pydantic_valid} "
+                    f"warnings=\"{warnings_str}\""
+                )
 
-                            issues_str = ";".join(issues) if issues else "unknown"
+                # ALWAYS include bundle (no skipping)
+                bundles.append(bundle_raw)
 
-                            log.error(
-                                f"STILL_NONCOMPLIANT bundle_id={bundle_id} len={final_len} "
-                                f"issues=\"{issues_str}\""
-                            )
+            # Success - return all bundles
+            log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (single attempt, all returned)")
+            return bundles
 
-                            bundle["_validation_warning"] = "STILL_NONCOMPLIANT"
-
-                        log.error(f"STILL_NONCOMPLIANT after {max_attempts} attempts: {error_message}")
-                        return bundles
-
-                # All prompts valid - success!
-                log.info(f"GROK_BUNDLE generated {len(bundles)} bundles (all valid)")
-                return bundles
-
-            except Exception as e:
-                log.error(f"GROK_BUNDLE failed on attempt {attempt}/{max_attempts}: {e}")
-                last_error = e
-                if attempt < max_attempts and "limit exceeded" not in str(e):
-                    continue  # Retry on parsing errors
-                else:
-                    raise RuntimeError(f"Failed to generate valid prompt bundles after {attempt} attempts: {e}") from e
-
-        # Should never reach here, but fail loud just in case
-        raise last_error or RuntimeError("Failed to generate prompt bundles (unknown error)")
+        except Exception as e:
+            log.error(f"GROK_BUNDLE failed: {e}", exc_info=True)
+            raise RuntimeError(f"Failed to generate prompt bundles: {e}") from e
 
     def generate_quick_caption(self, video_meta: dict[str, Any]) -> str:
         """
@@ -1582,12 +1489,16 @@ Create metadata. Return JSON:
         log.info(f"PERSONA_APPEARANCE length={len(appearance)} chars: {appearance[:80]}...")
         return appearance
 
-    def _build_forever_prefix(self, persona: dict[str, Any]) -> str:
+    def _build_forever_prefix(self, persona: dict[str, Any], bound: dict[str, Any]) -> str:
         """
         Build the FOREVER persona prefix (uncompressed, canonical).
 
         This is the fixed opening that NEVER changes and appears at the start
         of every final image prompt. The LLM only writes what comes AFTER this.
+
+        Args:
+            persona: Persona configuration
+            bound: Bound slots dictionary (includes hair_style if bound)
 
         Returns:
             Canonical persona prefix string (e.g., "photorealistic vertical 9:16 image of a 28-year-old woman with...")
@@ -1598,11 +1509,23 @@ Create metadata. Return JSON:
         body = persona.get("body", "busty muscular physique with hourglass defined body")
         skin = persona.get("skin", "realistic natural skin texture and strong realistic wet highlights")
 
-        # Build canonical FOREVER prefix
-        forever_prefix = (
-            f"photorealistic vertical 9:16 image of a 28-year-old woman with "
-            f"{hair}, {eyes}, {body}, {skin}"
-        )
+        # Get bound hairstyle (arrangement only, no length)
+        hair_style = None
+        if bound.get("hair_style"):
+            hair_style = bound["hair_style"][0]
+            log.info(f"HAIR_STYLE_SELECTED {hair_style}")
+
+        # Build canonical FOREVER prefix with optional hairstyle
+        if hair_style:
+            forever_prefix = (
+                f"photorealistic vertical 9:16 image of a 28-year-old woman with "
+                f"{hair}, styled in {hair_style}, {eyes}, {body}, {skin}"
+            )
+        else:
+            forever_prefix = (
+                f"photorealistic vertical 9:16 image of a 28-year-old woman with "
+                f"{hair}, {eyes}, {body}, {skin}"
+            )
 
         log.info(f"FOREVER_PREFIX length={len(forever_prefix)} chars")
         return forever_prefix
@@ -1640,6 +1563,7 @@ Create metadata. Return JSON:
         bind_angle: bool,
         bind_accessories: bool,
         bind_wardrobe: bool,
+        bind_hair: bool,
     ) -> tuple[bool, list[str]]:
         """
         Validate bundle against binding constraints.
@@ -1689,6 +1613,12 @@ Create metadata. Return JSON:
             phrase = bound["wardrobe"][0]
             if phrase and not _phrase_match_loose(img_prompt, phrase):
                 errors.append(f"Missing bound wardrobe: '{phrase}'")
+
+        # Validate hairstyle phrase with fuzzy matching
+        if bind_hair and bound.get("hair_style"):
+            phrase = bound["hair_style"][0]
+            if phrase and not _phrase_match_loose(img_prompt, phrase):
+                errors.append(f"Missing bound hair_style: '{phrase}'")
 
         # VIDEO validation removed - now handled by Pydantic VideoPrompt model with min_length=10
         # Individual fields (motion, character_action, environment) are padded by _enforce_min_len()
