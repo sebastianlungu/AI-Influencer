@@ -73,7 +73,11 @@ def append_prompt_bundle(
     Note:
         Keeps only last MAX_PROMPTS entries (rolling window).
     """
+    import logging
+    log = logging.getLogger("ai-influencer")
+
     path = get_prompts_file(prompts_dir)
+    log.info(f"DEBUG_APPEND bundle_id={bundle['id']} path={path}")
 
     # Create enriched entry with timestamp and metadata
     entry = {
@@ -88,13 +92,16 @@ def append_prompt_bundle(
 
     with LOCK:
         entries = _load_jsonl(path)
+        log.info(f"DEBUG_LOADED_ENTRIES count={len(entries)}")
         entries.append(entry)
+        log.info(f"DEBUG_APPENDED_ENTRY count={len(entries)} new_id={bundle['id']}")
 
         # Enforce rolling window: keep last MAX_PROMPTS only
         if len(entries) > MAX_PROMPTS:
             entries = entries[-MAX_PROMPTS:]
 
         _dump_jsonl(path, entries)
+        log.info(f"DEBUG_WRITTEN path={path} count={len(entries)}")
 
 
 def read_recent_prompts(prompts_dir: str, limit: int = 20) -> list[dict[str, Any]]:

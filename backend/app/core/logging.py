@@ -25,7 +25,7 @@ def truncate_log_file() -> None:
         return
 
     try:
-        with open(log_path, "r", encoding="utf-8") as f:
+        with open(log_path, "r", encoding="utf-8", errors="replace") as f:
             lines = f.readlines()
 
         if len(lines) > TRUNCATE_THRESHOLD:
@@ -34,7 +34,7 @@ def truncate_log_file() -> None:
 
             # Write back atomically
             temp_path = log_path.with_suffix(".txt.tmp")
-            with open(temp_path, "w", encoding="utf-8") as f:
+            with open(temp_path, "w", encoding="utf-8", errors="replace") as f:
                 f.writelines(truncated_lines)
 
             # Replace original file

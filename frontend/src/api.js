@@ -21,6 +21,8 @@ export async function getPrompts({
   page = 1,
   page_size = 20,
   sort = "-created_at",
+  fetch_all = "false",
+  order = "",
 } = {}) {
   const params = new URLSearchParams({
     status,
@@ -28,6 +30,8 @@ export async function getPrompts({
     page: String(page),
     page_size: String(page_size),
     sort,
+    fetch_all,
+    order,
   });
   const r = await fetch(`/api/prompts?${params}`);
   if (!r.ok) {
@@ -79,3 +83,4 @@ export async function fetchLogs(lines = 100) {
   const r = await fetch(`/api/logs/tail?lines=${lines}`);
   return r.json();
 }
+

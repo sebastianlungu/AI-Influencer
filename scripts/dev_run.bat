@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set BACKEND_PORT=5001
+set BACKEND_PORT=8000
 set FRONTEND_PORT=5000
 
 echo.
@@ -42,7 +42,7 @@ set SCRIPT_DIR=%~dp0
 set ROOT_DIR=%SCRIPT_DIR%..
 
 REM Start backend in new window
-start "Backend (Port %BACKEND_PORT%)" cmd /k "cd /d "%ROOT_DIR%" && uv run uvicorn app.main:app --reload --port %BACKEND_PORT% --host 0.0.0.0"
+start "Backend (Port %BACKEND_PORT%)" cmd /k "cd /d "%ROOT_DIR%\backend" && uv run uvicorn app.main:app --reload --port %BACKEND_PORT% --host 0.0.0.0"
 
 REM Start frontend in new window
 start "Frontend (Port %FRONTEND_PORT%)" cmd /k "cd /d "%ROOT_DIR%\frontend" && npm run dev"

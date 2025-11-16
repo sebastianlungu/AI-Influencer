@@ -96,6 +96,16 @@ export default function LogsPanel() {
     return "#cccccc";
   }
 
+  // Parse log line into timestamp and rest
+  function parseLogLine(line) {
+    // Match: "2025-11-16T15:26:05 | ..."
+    const match = line.match(/^(\S+)\s+\|\s+(.*)$/);
+    if (match) {
+      return { timestamp: match[1], rest: match[2] };
+    }
+    return { timestamp: null, rest: line };
+  }
+
   const filteredLogs = filterLogs(logs);
 
   return (
@@ -154,11 +164,22 @@ export default function LogsPanel() {
         {filteredLogs.length === 0 ? (
           <div style={styles.emptyMessage}>No logs yet...</div>
         ) : (
-          filteredLogs.map((line, idx) => (
-            <div key={idx} style={{ ...styles.logLine, color: getLogColor(line) }}>
-              {line}
-            </div>
-          ))
+          filteredLogs.map((line, idx) => {
+            const { timestamp, rest } = parseLogLine(line);
+            return (
+              <div key={idx} style={styles.logLine}>
+                {timestamp && (
+                  <>
+                    <span style={styles.logTimestamp}>{timestamp}</span>
+                    <span style={{ color: getLogColor(line) }}> | {rest}</span>
+                  </>
+                )}
+                {!timestamp && (
+                  <span style={{ color: getLogColor(line) }}>{line}</span>
+                )}
+              </div>
+            );
+          })
         )}
       </div>
 
@@ -229,8 +250,12 @@ const styles = {
   logLine: {
     whiteSpace: "pre-wrap",
     wordBreak: "break-all",
-    marginBottom: "2px",
+    marginBottom: "6px",  // Increased from 2px for better spacing
     lineHeight: "1.4",
+  },
+  logTimestamp: {
+    color: "#ffffff",  // White for timestamp
+    fontWeight: "500",
   },
   emptyMessage: {
     color: "#888",
