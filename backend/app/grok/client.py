@@ -1205,11 +1205,11 @@ Examples for inspiration (DO NOT REUSE): {', '.join(wardrobe_panel[:5])}"""
 """
 
         # Calculate budget for LLM (total target - FOREVER prefix)
-        # Adjusted for realistic Grok output: aim for 800-900 chars from LLM
+        # Target: 1350-1450 chars total (FOREVER ~236 + LLM ~1114-1214)
         forever_len = len(forever_prefix)
-        llm_min = 750  # Minimum chars from LLM
-        llm_target = 850  # Target chars from LLM
-        llm_max = 950  # Maximum chars from LLM
+        llm_min = 1114  # Minimum chars from LLM (1350 - 236)
+        llm_target = 1164  # Target chars from LLM (1400 - 236)
+        llm_max = 1214  # Maximum chars from LLM (1450 - 236)
 
         system_prompt = f"""Create {count} prompt bundle(s) for: {location_label}{seed_text}
 
@@ -1298,9 +1298,9 @@ Return JSON array of {count} bundle(s):
 
                     # Check length BEFORE Pydantic validation (to avoid max_length constraint)
                     prompt_len = len(prompt_text)
-                    # Adjusted for realistic Grok output: FOREVER prefix (~236) + LLM text (750-950)
-                    min_chars = 950   # Minimum total (FOREVER + 750 LLM chars)
-                    max_chars = 1200  # Maximum total (FOREVER + 950 LLM chars, well under Leonardo's 1500 limit)
+                    # Target: 1350-1450 chars total (FOREVER ~236 + LLM 1114-1214)
+                    min_chars = 1350  # Minimum total
+                    max_chars = 1450  # Maximum total (well under Leonardo's 1500 limit)
 
                     # Try smart compression if over limit (BEFORE validation)
                     if prompt_len > max_chars:

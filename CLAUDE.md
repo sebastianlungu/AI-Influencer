@@ -4,6 +4,10 @@
 
 ## Non-Negotiables (READ THIS FIRST)
 
+🚫 **IMPORTANT: NEVER regenerate variety banks by calling Grok inside Python scripts.**
+**ALL variety-bank generation MUST be done by Claude directly using parallel agents and written into JSON files.**
+**No scripts should contain Grok API calls for bank-generation anymore.**
+
 1. **❌ NO MOCK MODES:** Fail loudly on missing API key or invalid config. Never silently skip paid API calls.
 2. **❌ NO AUTOMATION:** No image/video generation, no upload, no review, no scheduling - PROMPT GENERATION ONLY.
 3. **❌ NO PIP:** Use UV exclusively (`uv sync`). Never `pip install`.

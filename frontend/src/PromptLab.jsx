@@ -1,4 +1,4 @@
-import { useState, useEffect, Fragment } from "react";
+import { useState, useEffect, Fragment, useMemo } from "react";
 import {
   generatePromptBundle,
   getPrompts,
@@ -40,6 +40,7 @@ export default function PromptLab({ onShowLogs }) {
   const [statusFilter, setStatusFilter] = useState("all");
   const [searchFilter, setSearchFilter] = useState("");
   const [sortField, setSortField] = useState("-created_at");
+  const [sortDir, setSortDir] = useState("desc"); // 'asc' | 'desc'
 
   // Drawer state
   const [selectedPromptId, setSelectedPromptId] = useState(null);
@@ -59,7 +60,7 @@ export default function PromptLab({ onShowLogs }) {
   // Reload prompts when filters change
   useEffect(() => {
     loadPrompts();
-  }, [currentPage, pageSize, statusFilter, searchFilter, sortField]);
+  }, [statusFilter, searchFilter]);
 
   const loadLocations = async () => {
     try {
@@ -104,9 +105,8 @@ export default function PromptLab({ onShowLogs }) {
       const data = await getPrompts({
         status: statusFilter,
         search: searchFilter,
-        page: currentPage,
-        page_size: pageSize,
-        sort: sortField,
+        fetch_all: "true",  // Fetch all prompts (no pagination)
+        order: "created_desc",  // Newest first
       });
       setPrompts(data.items || []);
       setTotalPrompts(data.total || 0);
@@ -177,8 +177,7 @@ export default function PromptLab({ onShowLogs }) {
       saveRecentLocationId(selectedLocationId);
       setCount(1);
 
-      // Reload prompts and reset to page 1
-      setCurrentPage(1);
+      // Reload prompts
       await loadPrompts();
       showToast("Prompts generated!");
     } catch (err) {
@@ -277,6 +276,17 @@ export default function PromptLab({ onShowLogs }) {
       items: items.sort((a, b) => a.label.localeCompare(b.label)),
     }));
   };
+
+  // Client-side sort by created date
+  const sortedPrompts = useMemo(() => {
+    const rows = [...prompts];
+    rows.sort((a, b) => {
+      const da = new Date(a.created_at).getTime();
+      const db = new Date(b.created_at).getTime();
+      return sortDir === "desc" ? (db - da) : (da - db);
+    });
+    return rows;
+  }, [prompts, sortDir]);
 
   const totalPages = Math.ceil(totalPrompts / pageSize);
 
@@ -410,7 +420,6 @@ export default function PromptLab({ onShowLogs }) {
                     key={status}
                     onClick={() => {
                       setStatusFilter(status);
-                      setCurrentPage(1);
                     }}
                     style={{
                       ...styles.pill,
@@ -428,25 +437,15 @@ export default function PromptLab({ onShowLogs }) {
                 value={searchFilter}
                 onChange={(e) => {
                   setSearchFilter(e.target.value);
-                  setCurrentPage(1);
                 }}
                 placeholder="Search prompts..."
                 style={{ ...styles.input, flex: 1, minWidth: "200px" }}
               />
 
-              {/* Page Size */}
-              <select
-                value={pageSize}
-                onChange={(e) => {
-                  setPageSize(parseInt(e.target.value));
-                  setCurrentPage(1);
-                }}
-                style={{ ...styles.select, width: "auto" }}
-              >
-                <option value="20">20/page</option>
-                <option value="50">50/page</option>
-                <option value="100">100/page</option>
-              </select>
+              {/* Total count display */}
+              <div style={{ fontSize: "12px", color: "#6b7280", whiteSpace: "nowrap" }}>
+                {totalPrompts} total
+              </div>
             </div>
 
             {/* Table */}
@@ -457,21 +456,38 @@ export default function PromptLab({ onShowLogs }) {
                     <th style={styles.th}>ID</th>
                     <th style={styles.th}>Location</th>
                     <th style={styles.th}>Seed</th>
-                    <th style={styles.th}>Created</th>
+                    <th style={styles.th}>
+                      Created
+                      <button
+                        onClick={() => setSortDir((d) => (d === "desc" ? "asc" : "desc"))}
+                        title={sortDir === "desc" ? "Newest first" : "Oldest first"}
+                        style={{
+                          marginLeft: "6px",
+                          padding: "2px 6px",
+                          fontSize: "10px",
+                          border: "1px solid #d1d5db",
+                          borderRadius: "3px",
+                          backgroundColor: "#fff",
+                          cursor: "pointer",
+                        }}
+                      >
+                        {sortDir === "desc" ? "↓" : "↑"}
+                      </button>
+                    </th>
                     <th style={styles.th}>Media</th>
                     <th style={styles.th}>Used</th>
                     <th style={styles.th}>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {prompts.length === 0 && (
+                  {sortedPrompts.length === 0 && (
                     <tr>
                       <td colSpan="7" style={{ ...styles.td, textAlign: "center", color: "#9ca3af", padding: "32px" }}>
                         No prompts found
                       </td>
                     </tr>
                   )}
-                  {prompts.map((prompt, idx) => (
+                  {sortedPrompts.map((prompt, idx) => (
                     <Fragment key={prompt.id}>
                       <tr
                         tabIndex={0}
@@ -534,10 +550,8 @@ export default function PromptLab({ onShowLogs }) {
                             <button
                               onClick={() => {
                                 loadPromptDetails(prompt.id).then(() => {
-                                  if (promptDetails) {
-                                    const vp = promptDetails.video;
-                                    const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}`;
-                                    copyToClipboard(text, "Video copied");
+                                  if (promptDetails && promptDetails.video) {
+                                    copyToClipboard(promptDetails.video.line, "Video copied");
                                   }
                                 });
                               }}
@@ -569,35 +583,6 @@ export default function PromptLab({ onShowLogs }) {
                 </tbody>
               </table>
             </div>
-
-            {/* Pagination */}
-            {totalPages > 1 && (
-              <div style={{ marginTop: "16px", display: "flex", justifyContent: "center", alignItems: "center", gap: "8px" }}>
-                <button
-                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                  disabled={currentPage === 1}
-                  style={{
-                    ...styles.secondaryButton,
-                    ...(currentPage === 1 ? styles.buttonDisabled : {}),
-                  }}
-                >
-                  Prev
-                </button>
-                <span style={{ fontSize: "13px", color: "#6b7280" }}>
-                  Page {currentPage} of {totalPages} ({totalPrompts} total)
-                </span>
-                <button
-                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                  disabled={currentPage === totalPages}
-                  style={{
-                    ...styles.secondaryButton,
-                    ...(currentPage === totalPages ? styles.buttonDisabled : {}),
-                  }}
-                >
-                  Next
-                </button>
-              </div>
-            )}
           </div>
         </main>
       </div>
@@ -671,16 +656,14 @@ function InlineRowDetails({ promptDetails, loading, onClose, onCopy, onUsedToggl
 
   const charCount = promptDetails.image_prompt?.length || 0;
   const getCharColor = () => {
-    if (charCount >= 900 && charCount <= 1100) return { bg: "#dcfce7", color: "#166534" };
-    if (charCount >= 1100 && charCount <= 1400) return { bg: "#fef3c7", color: "#92400e" };
+    if (charCount >= 1350 && charCount <= 1400) return { bg: "#dcfce7", color: "#166534" };
+    if (charCount >= 1400 && charCount <= 1450) return { bg: "#fef3c7", color: "#92400e" };
     return { bg: "#fee2e2", color: "#991b1b" };
   };
   const charColors = getCharColor();
 
-  const copyAllVideo = () => {
-    const vp = promptDetails.video;
-    const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}\nNotes: ${vp.notes}`;
-    onCopy(text, "Video copied");
+  const copyVideoLine = () => {
+    onCopy(promptDetails.video.line, "Video copied");
   };
 
   return (
@@ -775,21 +758,28 @@ function InlineRowDetails({ promptDetails, loading, onClose, onCopy, onUsedToggl
         <section style={styles.inlineCard}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
             <h3 style={{ fontSize: "13px", fontWeight: "600", margin: 0 }}>🎬 Video Motion</h3>
-            <button onClick={copyAllVideo} style={styles.copyButtonSmall}>
-              Copy All
+            <button onClick={copyVideoLine} style={styles.copyButtonSmall}>
+              Copy
             </button>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-            <VideoField label="Motion" value={promptDetails.video.motion} onCopy={() => onCopy(promptDetails.video.motion, "Motion copied")} />
-            <VideoField label="Action" value={promptDetails.video.action} onCopy={() => onCopy(promptDetails.video.action, "Action copied")} />
-            <VideoField label="Environment" value={promptDetails.video.environment} onCopy={() => onCopy(promptDetails.video.environment, "Environment copied")} />
-            <div style={{ fontSize: "11px", padding: "6px 8px", backgroundColor: "#fff", borderRadius: "4px", border: "1px solid #e5e7eb" }}>
-              <span style={{ fontWeight: "600", color: "#374151" }}>Duration:</span>{" "}
-              <span style={{ color: "#111" }}>{promptDetails.video.duration}</span>
-            </div>
-            {promptDetails.video.notes && (
-              <VideoField label="Notes" value={promptDetails.video.notes} onCopy={() => onCopy(promptDetails.video.notes, "Notes copied")} />
-            )}
+          <textarea
+            value={promptDetails.video.line || ""}
+            readOnly
+            style={{
+              width: "100%",
+              height: "100px",
+              fontSize: "11px",
+              fontFamily: "monospace",
+              lineHeight: "1.4",
+              padding: "10px",
+              border: "1px solid #d1d5db",
+              borderRadius: "4px",
+              backgroundColor: "#fff",
+              resize: "none",
+            }}
+          />
+          <div style={{ marginTop: "6px", fontSize: "10px", color: "#6b7280" }}>
+            {(promptDetails.video.line || "").length} chars • 6s duration
           </div>
         </section>
       </div>
@@ -826,17 +816,15 @@ function DetailsDrawer({ promptDetails, loading, onClose, onCopy, onUsedToggle }
 
   const charCount = promptDetails?.image_prompt?.length || 0;
   const getCharColor = () => {
-    if (charCount >= 900 && charCount <= 1100) return { bg: "#dcfce7", color: "#166534" };
-    if (charCount >= 1100 && charCount <= 1400) return { bg: "#fef3c7", color: "#92400e" };
+    if (charCount >= 1350 && charCount <= 1400) return { bg: "#dcfce7", color: "#166534" };
+    if (charCount >= 1400 && charCount <= 1450) return { bg: "#fef3c7", color: "#92400e" };
     return { bg: "#fee2e2", color: "#991b1b" };
   };
   const charColors = getCharColor();
 
-  const copyAllVideo = () => {
-    if (!promptDetails) return;
-    const vp = promptDetails.video;
-    const text = `Motion: ${vp.motion}\nAction: ${vp.action}\nEnvironment: ${vp.environment}\nDuration: ${vp.duration}\nNotes: ${vp.notes}`;
-    onCopy(text, "Video copied");
+  const copyVideoLine = () => {
+    if (!promptDetails || !promptDetails.video) return;
+    onCopy(promptDetails.video.line, "Video copied");
   };
 
   return (
@@ -994,21 +982,28 @@ function DetailsDrawer({ promptDetails, loading, onClose, onCopy, onUsedToggle }
             <section style={{ marginBottom: "24px", paddingTop: "16px", borderTop: "1px solid #e5e7eb" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
                 <h3 style={{ fontSize: "14px", fontWeight: "600", margin: 0 }}>🎬 Video Motion</h3>
-                <button onClick={copyAllVideo} style={styles.copyButton}>
-                  Copy All Video
+                <button onClick={copyVideoLine} style={styles.copyButton}>
+                  Copy
                 </button>
               </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: "12px", fontSize: "12px" }}>
-                <Field label="Motion" value={promptDetails.video.motion} onCopy={() => onCopy(promptDetails.video.motion)} />
-                <Field label="Action" value={promptDetails.video.action} onCopy={() => onCopy(promptDetails.video.action)} />
-                <Field label="Environment" value={promptDetails.video.environment} onCopy={() => onCopy(promptDetails.video.environment)} />
-                <div>
-                  <span style={{ fontWeight: "600", color: "#374151" }}>Duration:</span>{" "}
-                  <span style={{ color: "#111" }}>{promptDetails.video.duration}</span>
-                </div>
-                {promptDetails.video.notes && (
-                  <Field label="Notes" value={promptDetails.video.notes} onCopy={() => onCopy(promptDetails.video.notes)} />
-                )}
+              <textarea
+                value={promptDetails.video.line || ""}
+                readOnly
+                style={{
+                  width: "100%",
+                  height: "120px",
+                  fontSize: "12px",
+                  fontFamily: "monospace",
+                  lineHeight: "1.5",
+                  padding: "12px",
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "6px",
+                  backgroundColor: "#f9fafb",
+                  resize: "none",
+                }}
+              />
+              <div style={{ marginTop: "8px", fontSize: "12px", color: "#6b7280" }}>
+                {(promptDetails.video.line || "").length} chars • 6s duration
               </div>
             </section>
 
