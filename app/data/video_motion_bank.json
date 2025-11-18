@@ -1,0 +1,42 @@
+{
+  "verbs": [
+    {"text": "push-in", "weight": 1.0},
+    {"text": "pull-back", "weight": 0.8},
+    {"text": "side drift", "weight": 1.0},
+    {"text": "arc", "weight": 1.0},
+    {"text": "figure-eight", "weight": 0.7},
+    {"text": "micro sway", "weight": 1.0},
+    {"text": "tilt-bob", "weight": 0.6},
+    {"text": "wrap-around", "weight": 0.9}
+  ],
+  "paths": [
+    {"text": "from hip line to eyes", "weight": 1.0},
+    {"text": "from oblique to front", "weight": 0.9},
+    {"text": "around stance line", "weight": 0.9},
+    {"text": "across shoulder plane", "weight": 0.8},
+    {"text": "across profile to three-quarter", "weight": 1.0}
+  ],
+  "actions": [
+    {"text": "resets a wrist wrap", "weight": 1.0},
+    {"text": "rolls a shoulder", "weight": 1.0},
+    {"text": "lengthens posture", "weight": 1.0},
+    {"text": "brushes hair back", "weight": 0.9},
+    {"text": "sets feet and softens gaze", "weight": 1.0},
+    {"text": "smooths a strap", "weight": 0.9},
+    {"text": "anchors core on exhale", "weight": 1.0},
+    {"text": "adjusts neckline briefly", "weight": 0.7}
+  ],
+  "cadence": [
+    {"text": "on a steady breath", "weight": 1.0},
+    {"text": "with micro beats between steps", "weight": 0.8},
+    {"text": "holding stillness between pulses", "weight": 0.8},
+    {"text": "on a calm two-count", "weight": 0.9}
+  ],
+  "angles": [
+    {"text": "low three-quarter", "weight": 1.0},
+    {"text": "eye-level front", "weight": 1.0},
+    {"text": "high-left profile", "weight": 0.9},
+    {"text": "low quarter-right", "weight": 0.8},
+    {"text": "eye-level three-quarter", "weight": 1.0}
+  ]
+}

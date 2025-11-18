@@ -1,0 +1,6465 @@
+{
+  "tops": [
+    {
+      "text": "compression sports bra with bonded seams and coral piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "bonded",
+        "coral"
+      ]
+    },
+    {
+      "text": "performance crop with laser perforation and teal accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "laser",
+        "teal"
+      ]
+    },
+    {
+      "text": "zip-front top in power mesh with charcoal panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip",
+        "mesh",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "mesh tank with ribbed elastane and orchid trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed",
+        "orchid"
+      ]
+    },
+    {
+      "text": "longline bra in technical jersey with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "jersey",
+        "reflective"
+      ]
+    },
+    {
+      "text": "racer tank in perforated neoprene with jade accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "neoprene",
+        "jade"
+      ]
+    },
+    {
+      "text": "bandeau in sweat-wicking pique with midnight panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "pique",
+        "midnight"
+      ]
+    },
+    {
+      "text": "one-shoulder in performance lycra with coral accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "lycra",
+        "coral"
+      ]
+    },
+    {
+      "text": "structured halter in ribbed modal with amber piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "modal",
+        "amber"
+      ]
+    },
+    {
+      "text": "minimal racer in aerated neoprene with opal trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "neoprene",
+        "opal"
+      ]
+    },
+    {
+      "text": "compression sports bra with mesh vents and electric-blue panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "mesh",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "performance crop in bonded knit with graphite accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "bonded",
+        "graphite"
+      ]
+    },
+    {
+      "text": "zip-front top in micro waffle with smoky quartz piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip",
+        "waffle",
+        "smoky-quartz"
+      ]
+    },
+    {
+      "text": "mesh tank in sculpt-knit with pearl trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sculpt-knit",
+        "pearl"
+      ]
+    },
+    {
+      "text": "longline bra in buttery jersey with cobalt accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "jersey",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "racer tank in compression knit with ivory panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "compression",
+        "ivory"
+      ]
+    },
+    {
+      "text": "bandeau in power mesh with bone white piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "mesh",
+        "bone-white"
+      ]
+    },
+    {
+      "text": "one-shoulder in ribbed elastane with onyx accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "ribbed",
+        "onyx"
+      ]
+    },
+    {
+      "text": "structured halter in technical jersey with polar silver trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "jersey",
+        "polar-silver"
+      ]
+    },
+    {
+      "text": "minimal racer in perforated neoprene with sandstone panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "neoprene",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "compression sports bra in sweat-wicking pique with chalk piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "pique",
+        "chalk"
+      ]
+    },
+    {
+      "text": "performance crop in performance lycra with amber accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "lycra",
+        "amber"
+      ]
+    },
+    {
+      "text": "zip-front top in ribbed modal with opal trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip",
+        "modal",
+        "opal"
+      ]
+    },
+    {
+      "text": "mesh tank in aerated neoprene with electric-blue panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "neoprene",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed elastane with onyx accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ribbed",
+        "onyx"
+      ]
+    },
+    {
+      "text": "performance crop in technical jersey with polar silver trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "jersey",
+        "polar-silver"
+      ]
+    },
+    {
+      "text": "one-shoulder in bonded knit with graphite accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "bonded",
+        "graphite"
+      ]
+    },
+    {
+      "text": "structured halter in micro waffle with smoky quartz piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "waffle",
+        "smoky-quartz"
+      ]
+    },
+    {
+      "text": "minimal racer in sculpt-knit with pearl trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "sculpt-knit",
+        "pearl"
+      ]
+    },
+    {
+      "text": "performance crop in ribbed elastane with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "ribbed",
+        "laser"
+      ]
+    },
+    {
+      "text": "zip-front top in technical jersey with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "technical",
+        "mesh"
+      ]
+    },
+    {
+      "text": "longline bra in sweat-wicking pique with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "sweat-wicking",
+        "bonded"
+      ]
+    },
+    {
+      "text": "racer tank in performance lycra with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "performance",
+        "contrast"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed",
+        "zip"
+      ]
+    },
+    {
+      "text": "one-shoulder top in aerated neoprene with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "aerated",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "structured halter in bonded knit with thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "bonded",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "minimal racer in micro waffle with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "micro",
+        "ankle"
+      ]
+    },
+    {
+      "text": "compression sports bra in sculpt-knit with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "sculpt-knit",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "performance crop in buttery jersey with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "buttery",
+        "mesh"
+      ]
+    },
+    {
+      "text": "zip-front top in compression knit with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "compression",
+        "laser"
+      ]
+    },
+    {
+      "text": "longline bra in ribbed elastane with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "ribbed",
+        "bonded"
+      ]
+    },
+    {
+      "text": "racer tank in technical jersey with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "technical",
+        "contrast"
+      ]
+    },
+    {
+      "text": "bandeau in perforated neoprene with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "perforated",
+        "zip"
+      ]
+    },
+    {
+      "text": "one-shoulder top in sweat-wicking pique with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "sweat-wicking",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "structured halter in performance lycra with thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "performance",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "minimal racer in ribbed modal with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "ribbed",
+        "ankle"
+      ]
+    },
+    {
+      "text": "mesh tank in sculpt-knit with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sculpt-knit",
+        "reflective"
+      ]
+    },
+    {
+      "text": "longline bra in buttery jersey with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "buttery",
+        "bonded"
+      ]
+    },
+    {
+      "text": "bandeau in power mesh with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "power",
+        "zip"
+      ]
+    },
+    {
+      "text": "zip-front top in ribbed modal with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "ribbed",
+        "laser"
+      ]
+    },
+    {
+      "text": "bandeau in sculpt-knit with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "sculpt-knit",
+        "zip"
+      ]
+    },
+    {
+      "text": "one-shoulder top in buttery jersey with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "buttery",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "mesh tank in sweat-wicking pique with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sweat-wicking",
+        "reflective"
+      ]
+    },
+    {
+      "text": "longline bra in performance lycra with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "performance",
+        "bonded"
+      ]
+    },
+    {
+      "text": "mesh tank in power mesh with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "power",
+        "laser"
+      ]
+    },
+    {
+      "text": "longline bra in compression knit with orchid piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "compression",
+        "orchid"
+      ]
+    },
+    {
+      "text": "racer tank in sweat-wicking pique with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "sweat-wicking",
+        "contrast"
+      ]
+    },
+    {
+      "text": "bandeau in perforated neoprene with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "perforated",
+        "reflective"
+      ]
+    },
+    {
+      "text": "one-shoulder in aerated neoprene with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "aerated",
+        "mesh"
+      ]
+    },
+    {
+      "text": "mesh tank in performance lycra with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "performance",
+        "mesh"
+      ]
+    },
+    {
+      "text": "one-shoulder in aerated neoprene with smoky quartz piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "aerated",
+        "smoky"
+      ]
+    },
+    {
+      "text": "structured halter in bonded knit with polar silver piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "bonded",
+        "polar"
+      ]
+    },
+    {
+      "text": "zip-front top in ribbed modal with electric-blue piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "ribbed",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "mesh tank in performance lycra with graphite piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "performance",
+        "graphite"
+      ]
+    },
+    {
+      "text": "zip-front top in ribbed elastane with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "ribbed",
+        "mesh"
+      ]
+    },
+    {
+      "text": "racer tank in sweat-wicking pique with thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "sweat-wicking",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "bandeau in performance lycra with jade ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "performance",
+        "jade"
+      ]
+    },
+    {
+      "text": "one-shoulder in ribbed modal with midnight drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "ribbed",
+        "midnight"
+      ]
+    },
+    {
+      "text": "structured halter in aerated neoprene with charcoal zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "aerated",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "minimal racer in buttery jersey with ivory ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "buttery",
+        "ivory"
+      ]
+    },
+    {
+      "text": "compression sports bra in micro waffle with bone white piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "micro",
+        "bone"
+      ]
+    },
+    {
+      "text": "performance crop in sculpt-knit with onyx laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "sculpt-knit",
+        "onyx"
+      ]
+    },
+    {
+      "text": "zip-front top in perforated neoprene with teal mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "perforated",
+        "teal"
+      ]
+    },
+    {
+      "text": "mesh tank in bonded knit with electric-blue reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "bonded",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "longline bra in ribbed elastane with amber contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "ribbed",
+        "amber"
+      ]
+    },
+    {
+      "text": "bandeau in technical jersey with polar silver ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "technical",
+        "polar"
+      ]
+    },
+    {
+      "text": "one-shoulder in power mesh with cobalt drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "power",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "structured halter in sweat-wicking pique with chalk zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "sweat-wicking",
+        "chalk"
+      ]
+    },
+    {
+      "text": "minimal racer in performance lycra with sandstone ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "performance",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed modal with graphite piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ribbed",
+        "graphite"
+      ]
+    },
+    {
+      "text": "performance crop in aerated neoprene with smoky quartz laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "aerated",
+        "smoky"
+      ]
+    },
+    {
+      "text": "zip-front top in micro waffle with pearl mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "micro",
+        "pearl"
+      ]
+    },
+    {
+      "text": "longline bra in buttery jersey with jade contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "buttery",
+        "jade"
+      ]
+    },
+    {
+      "text": "racer tank in perforated neoprene with orchid thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "perforated",
+        "orchid"
+      ]
+    },
+    {
+      "text": "bandeau in bonded knit with electric-blue ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "bonded",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "one-shoulder in technical jersey with teal drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "technical",
+        "teal"
+      ]
+    },
+    {
+      "text": "longline bra in micro waffle with polar silver contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "micro",
+        "polar"
+      ]
+    },
+    {
+      "text": "racer tank in sculpt-knit with cobalt thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "sculpt-knit",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "structured halter in bonded knit with graphite zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "bonded",
+        "graphite"
+      ]
+    },
+    {
+      "text": "minimal racer in compression knit with smoky quartz ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "compression",
+        "smoky"
+      ]
+    },
+    {
+      "text": "compression sports bra in technical jersey with pearl piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "technical",
+        "pearl"
+      ]
+    },
+    {
+      "text": "zip-front top in sweat-wicking pique with jade mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "sweat-wicking",
+        "jade"
+      ]
+    },
+    {
+      "text": "bandeau in micro waffle with onyx ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "micro",
+        "onyx"
+      ]
+    },
+    {
+      "text": "one-shoulder in sculpt-knit with amber drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "sculpt-knit",
+        "amber"
+      ]
+    },
+    {
+      "text": "structured halter in ribbed modal with opal zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "ribbed",
+        "opal"
+      ]
+    },
+    {
+      "text": "compression sports bra with laser perforation and electric-blue piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "laser",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "compression sports bra in perforated neoprene with caramel mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "perforated",
+        "caramel"
+      ]
+    },
+    {
+      "text": "performance crop in micro waffle with graphite reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "micro",
+        "graphite"
+      ]
+    },
+    {
+      "text": "zip-front top in sculpt-knit with smoky quartz bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "sculpt-knit",
+        "smoky"
+      ]
+    },
+    {
+      "text": "racer tank in technical jersey with charcoal zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "technical",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "bandeau in power mesh with ivory drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "power",
+        "ivory"
+      ]
+    },
+    {
+      "text": "one-shoulder in compression knit with pearl thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "compression",
+        "pearl"
+      ]
+    },
+    {
+      "text": "minimal racer in sweat-wicking pique with coral ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "sweat-wicking",
+        "coral"
+      ]
+    },
+    {
+      "text": "performance crop in bonded knit with onyx reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "bonded",
+        "onyx"
+      ]
+    },
+    {
+      "text": "zip-front top in micro waffle with amber bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "micro",
+        "amber"
+      ]
+    },
+    {
+      "text": "mesh tank in sculpt-knit with opal laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sculpt-knit",
+        "opal"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed elastane with chalk drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed",
+        "chalk"
+      ]
+    },
+    {
+      "text": "one-shoulder in technical jersey with sandstone thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "technical",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "structured halter in compression knit with orchid ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "compression",
+        "orchid"
+      ]
+    },
+    {
+      "text": "minimal racer in power mesh with caramel ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "power",
+        "caramel"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed modal with electric-blue mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ribbed",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "bandeau in sculpt-knit with ivory drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "sculpt-knit",
+        "ivory"
+      ]
+    },
+    {
+      "text": "one-shoulder in buttery jersey with pearl thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "buttery",
+        "pearl"
+      ]
+    },
+    {
+      "text": "minimal racer in technical jersey with coral ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "technical",
+        "coral"
+      ]
+    },
+    {
+      "text": "zip-front top in compression knit with amber bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "compression",
+        "amber"
+      ]
+    },
+    {
+      "text": "bandeau in micro waffle with chalk drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "micro",
+        "chalk"
+      ]
+    },
+    {
+      "text": "structured halter in buttery jersey with orchid ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "buttery",
+        "orchid"
+      ]
+    },
+    {
+      "text": "performance crop in power mesh with jade panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "power mesh",
+        "jade"
+      ]
+    },
+    {
+      "text": "mesh tank in technical jersey with orchid drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "technical jersey",
+        "orchid"
+      ]
+    },
+    {
+      "text": "longline bra in perforated neoprene with coral contrast",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "perforated neoprene",
+        "coral"
+      ]
+    },
+    {
+      "text": "bandeau in performance lycra with midnight mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "performance lycra",
+        "midnight"
+      ]
+    },
+    {
+      "text": "one-shoulder in ribbed modal with bone white ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "ribbed modal",
+        "bone white"
+      ]
+    },
+    {
+      "text": "structured halter in aerated neoprene with onyx laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "aerated neoprene",
+        "onyx"
+      ]
+    },
+    {
+      "text": "minimal racer in bonded knit with amber zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "bonded knit",
+        "amber"
+      ]
+    },
+    {
+      "text": "compression sports bra in micro waffle with opal contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "micro waffle",
+        "opal"
+      ]
+    },
+    {
+      "text": "performance crop in sculpt-knit with polar silver mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "sculpt-knit",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "zip-front top in buttery jersey with cobalt reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "buttery jersey",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "mesh tank in compression knit with chalk drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "compression knit",
+        "chalk"
+      ]
+    },
+    {
+      "text": "longline bra in power mesh with sandstone thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "power mesh",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "one-shoulder in perforated neoprene with electric-blue contrast",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "perforated neoprene",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "structured halter in sweat-wicking pique with graphite mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "sweat-wicking",
+        "graphite"
+      ]
+    },
+    {
+      "text": "minimal racer in performance lycra with smoky quartz zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "performance lycra",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "performance crop in aerated neoprene with teal ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "aerated neoprene",
+        "teal"
+      ]
+    },
+    {
+      "text": "mesh tank in micro waffle with bone white drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "micro waffle",
+        "bone white"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with onyx mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "sculpt-knit",
+        "onyx"
+      ]
+    },
+    {
+      "text": "racer tank in buttery jersey with amber thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "buttery jersey",
+        "amber"
+      ]
+    },
+    {
+      "text": "bandeau in compression knit with opal contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "compression knit",
+        "opal"
+      ]
+    },
+    {
+      "text": "one-shoulder in power mesh with polar silver laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "power mesh",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "compression sports bra in perforated neoprene with sandstone piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "perforated neoprene",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "zip-front top in performance lycra with electric-blue drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "performance lycra",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed modal with graphite thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed modal",
+        "graphite"
+      ]
+    },
+    {
+      "text": "bandeau in micro waffle with midnight zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "micro waffle",
+        "midnight"
+      ]
+    },
+    {
+      "text": "one-shoulder in sculpt-knit with coral contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "sculpt-knit",
+        "coral"
+      ]
+    },
+    {
+      "text": "structured halter in buttery jersey with bone white mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "buttery jersey",
+        "bone white"
+      ]
+    },
+    {
+      "text": "compression sports bra in power mesh with amber thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "power mesh",
+        "amber"
+      ]
+    },
+    {
+      "text": "zip-front top in technical jersey with polar silver reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "technical jersey",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "mesh tank in perforated neoprene with cobalt drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "perforated neoprene",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "longline bra in sweat-wicking pique with chalk mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "sweat-wicking",
+        "chalk"
+      ]
+    },
+    {
+      "text": "racer tank in performance lycra with ivory ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "performance lycra",
+        "ivory"
+      ]
+    },
+    {
+      "text": "one-shoulder in aerated neoprene with graphite contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "aerated neoprene",
+        "graphite"
+      ]
+    },
+    {
+      "text": "structured halter in bonded knit with smoky quartz mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "bonded knit",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "performance crop in power mesh with coral contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "mesh",
+        "coral"
+      ]
+    },
+    {
+      "text": "mesh tank in perforated neoprene with reflective piping and teal accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "perforated",
+        "teal"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with midnight bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed",
+        "midnight"
+      ]
+    },
+    {
+      "text": "structured halter in bonded knit with electric-blue contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "bonded",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed elastane with amber ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed",
+        "amber"
+      ]
+    },
+    {
+      "text": "longline bra in power mesh with polar silver reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "mesh",
+        "polar"
+      ]
+    },
+    {
+      "text": "one-shoulder in sweat-wicking pique with smoky quartz mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "sweat-wicking",
+        "smoky"
+      ]
+    },
+    {
+      "text": "minimal racer in ribbed modal with ivory thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "ribbed",
+        "ivory"
+      ]
+    },
+    {
+      "text": "compression sports bra in aerated neoprene with midnight laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "aerated",
+        "midnight"
+      ]
+    },
+    {
+      "text": "zip-front top in micro waffle with teal drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "micro",
+        "teal"
+      ]
+    },
+    {
+      "text": "mesh tank in sculpt-knit with charcoal ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sculpt-knit",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed elastane with onyx mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed",
+        "onyx"
+      ]
+    },
+    {
+      "text": "one-shoulder in power mesh with pearl bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "mesh",
+        "pearl"
+      ]
+    },
+    {
+      "text": "structured halter in perforated neoprene with amber ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "perforated",
+        "amber"
+      ]
+    },
+    {
+      "text": "minimal racer in technical jersey with polar silver laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "technical",
+        "polar"
+      ]
+    },
+    {
+      "text": "performance crop in performance lycra with bone white drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "performance",
+        "bone"
+      ]
+    },
+    {
+      "text": "zip-front top in ribbed modal with smoky quartz ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "ribbed",
+        "smoky"
+      ]
+    },
+    {
+      "text": "mesh tank in aerated neoprene with cobalt reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "aerated",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "bandeau in sculpt-knit with teal bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "sculpt-knit",
+        "teal"
+      ]
+    },
+    {
+      "text": "one-shoulder in buttery jersey with charcoal laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "buttery",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "minimal racer in ribbed elastane with opal drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "ribbed",
+        "opal"
+      ]
+    },
+    {
+      "text": "mesh tank in sweat-wicking pique with polar silver ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sweat-wicking",
+        "polar"
+      ]
+    },
+    {
+      "text": "longline bra in performance lycra with chalk contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "performance",
+        "chalk"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed modal with bone white bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "ribbed",
+        "bone"
+      ]
+    },
+    {
+      "text": "one-shoulder in bonded knit with cobalt zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "bonded",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "structured halter in micro waffle with ivory drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "micro",
+        "ivory"
+      ]
+    },
+    {
+      "text": "mesh tank in technical jersey with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "technical",
+        "laser"
+      ]
+    },
+    {
+      "text": "longline bra in power mesh with coral piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "power",
+        "coral"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed elastane with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "ribbed",
+        "contrast"
+      ]
+    },
+    {
+      "text": "performance crop in aerated neoprene with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "aerated",
+        "mesh"
+      ]
+    },
+    {
+      "text": "bandeau in compression knit with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "minimal racer in technical jersey with thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "technical",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "mesh tank in perforated neoprene with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "perforated",
+        "laser"
+      ]
+    },
+    {
+      "text": "performance crop with ribbed elastane and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "ribbed elastane",
+        "mesh"
+      ]
+    },
+    {
+      "text": "mesh tank with perforated neoprene and coral detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "perforated neoprene",
+        "coral"
+      ]
+    },
+    {
+      "text": "longline bra in sweat-wicking pique with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "sweat-wicking",
+        "laser perforation"
+      ]
+    },
+    {
+      "text": "racer tank with compression knit and orchid contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "compression knit",
+        "orchid"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with mesh vents and teal trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed modal",
+        "mesh",
+        "teal"
+      ]
+    },
+    {
+      "text": "compression sports bra with power mesh and jade accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "power mesh",
+        "jade"
+      ]
+    },
+    {
+      "text": "performance crop in micro waffle with midnight thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "micro waffle",
+        "midnight"
+      ]
+    },
+    {
+      "text": "zip-front top with sculpt-knit and coral zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "sculpt-knit",
+        "coral"
+      ]
+    },
+    {
+      "text": "mesh tank in performance lycra with ivory drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "performance lycra",
+        "ivory"
+      ]
+    },
+    {
+      "text": "longline bra with ribbed elastane and pearl ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "ribbed elastane",
+        "pearl"
+      ]
+    },
+    {
+      "text": "minimal racer in ribbed modal with cobalt reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "ribbed modal",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "compression sports bra with aerated neoprene and chalk accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "aerated neoprene",
+        "chalk"
+      ]
+    },
+    {
+      "text": "racer tank in performance lycra with electric-blue laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "performance lycra",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed elastane with graphite ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed elastane",
+        "graphite"
+      ]
+    },
+    {
+      "text": "one-shoulder top in compression knit with jade ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "compression knit",
+        "jade"
+      ]
+    },
+    {
+      "text": "structured halter in power mesh with teal contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "power mesh",
+        "teal"
+      ]
+    },
+    {
+      "text": "minimal racer in sweat-wicking pique with midnight reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "sweat-wicking",
+        "midnight"
+      ]
+    },
+    {
+      "text": "performance crop in perforated neoprene with ivory bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "perforated neoprene",
+        "ivory"
+      ]
+    },
+    {
+      "text": "zip-front top in aerated neoprene with amber drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "aerated neoprene",
+        "amber"
+      ]
+    },
+    {
+      "text": "mesh tank in bonded knit with opal thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "bonded knit",
+        "opal"
+      ]
+    },
+    {
+      "text": "performance crop in ribbed elastane with graphite bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "ribbed elastane",
+        "graphite"
+      ]
+    },
+    {
+      "text": "mesh tank in aerated neoprene with teal thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "aerated neoprene",
+        "teal"
+      ]
+    },
+    {
+      "text": "longline bra in bonded knit with charcoal laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "bonded knit",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "minimal racer in compression knit with cobalt reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "compression knit",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "minimal racer in aerated neoprene with ivory ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "aerated",
+        "ivory"
+      ]
+    },
+    {
+      "text": "performance crop in micro waffle with electric-blue contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "micro",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "mesh tank in buttery jersey with pearl reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "buttery",
+        "pearl"
+      ]
+    },
+    {
+      "text": "bandeau in performance lycra with onyx zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "performance",
+        "onyx"
+      ]
+    },
+    {
+      "text": "minimal racer in power mesh with polar silver mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "mesh",
+        "polar"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed modal with cobalt bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ribbed",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "zip-front top in micro waffle with sandstone laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "micro",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "racer tank in bonded knit with electric-blue drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "bonded",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed elastane with smoky quartz zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed",
+        "smoky"
+      ]
+    },
+    {
+      "text": "minimal racer in sweat-wicking pique with onyx mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "sweat-wicking",
+        "onyx"
+      ]
+    },
+    {
+      "text": "zip-front top in aerated neoprene with polar silver laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "aerated",
+        "polar"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with chalk ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "longline",
+        "chalk"
+      ]
+    },
+    {
+      "text": "racer tank in buttery jersey with sandstone drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "buttery",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "bandeau in bonded knit with orchid zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "bonded",
+        "orchid"
+      ]
+    },
+    {
+      "text": "one-shoulder in ribbed elastane with caramel thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "ribbed",
+        "caramel"
+      ]
+    },
+    {
+      "text": "structured halter in technical jersey with electric-blue ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "halter",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "racer tank in sculpt-knit with polar silver drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "sculpt-knit",
+        "polar"
+      ]
+    },
+    {
+      "text": "bandeau in buttery jersey with cobalt zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "buttery",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "structured halter in ribbed elastane with sandstone ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "halter",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "zip-front top with mesh vents and charcoal panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "mesh",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "mesh tank with reflective piping and jade details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "reflective",
+        "jade"
+      ]
+    },
+    {
+      "text": "longline bra with contrast waistband and ivory trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "contrast",
+        "ivory"
+      ]
+    },
+    {
+      "text": "racer tank with zip pockets and midnight panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "zip",
+        "midnight"
+      ]
+    },
+    {
+      "text": "bandeau with drawcords and pearl accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "drawcords",
+        "pearl"
+      ]
+    },
+    {
+      "text": "one-shoulder top with thumbholes and amber piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "thumbholes",
+        "amber"
+      ]
+    },
+    {
+      "text": "structured halter with ankle zips and opal details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "ankle",
+        "opal"
+      ]
+    },
+    {
+      "text": "minimal racer top with ribbed panels and polar silver accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "ribbed",
+        "polar"
+      ]
+    },
+    {
+      "text": "performance crop top with bonded seams and caramel details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "bonded",
+        "caramel"
+      ]
+    },
+    {
+      "text": "zip-front top with laser perforation and electric-blue accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "laser",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "racer tank with zip pockets and teal accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "zip",
+        "teal"
+      ]
+    },
+    {
+      "text": "bandeau with drawcords and charcoal piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "drawcords",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "one-shoulder top with thumbholes and ivory details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "thumbholes",
+        "ivory"
+      ]
+    },
+    {
+      "text": "zip-front top with mesh vents and amber accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "mesh",
+        "amber"
+      ]
+    },
+    {
+      "text": "racer tank with zip pockets and sandstone details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "zip",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "longline bra in perforated neoprene with amber laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "neoprene",
+        "laser",
+        "amber"
+      ]
+    },
+    {
+      "text": "mesh tank in micro waffle with ivory thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "waffle",
+        "thumbholes",
+        "ivory"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with midnight bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "sculpt",
+        "bonded",
+        "midnight"
+      ]
+    },
+    {
+      "text": "performance crop in sweat-wicking pique with chalk reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "pique",
+        "reflective",
+        "chalk"
+      ]
+    },
+    {
+      "text": "longline bra in aerated neoprene with graphite bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "neoprene",
+        "bonded",
+        "graphite"
+      ]
+    },
+    {
+      "text": "racer tank in bonded knit with smoky quartz contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "knit",
+        "contrast",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "performance crop in ribbed elastane with midnight reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "elastane",
+        "reflective",
+        "midnight"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with cobalt ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "modal",
+        "ribbed",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "racer tank with power mesh and midnight contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "power",
+        "midnight"
+      ]
+    },
+    {
+      "text": "one-shoulder top with aerated neoprene and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "aerated",
+        "zip"
+      ]
+    },
+    {
+      "text": "structured halter with bonded knit and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "bonded",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "compression sports bra with sculpt-knit and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "sculpt-knit",
+        "ankle"
+      ]
+    },
+    {
+      "text": "mesh tank in compression knit with coral piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "compression",
+        "coral"
+      ]
+    },
+    {
+      "text": "racer tank in technical jersey with midnight accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "technical",
+        "midnight"
+      ]
+    },
+    {
+      "text": "bandeau with perforated neoprene and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "perforated",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "mesh tank with ribbed modal and coral piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed",
+        "coral"
+      ]
+    },
+    {
+      "text": "structured halter with sweat-wicking pique and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "sweat-wicking",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "performance crop in micro waffle with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "micro",
+        "mesh"
+      ]
+    },
+    {
+      "text": "bandeau with power mesh and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "power",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "one-shoulder top in technical jersey with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "technical",
+        "zip"
+      ]
+    },
+    {
+      "text": "structured halter with technical jersey and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured",
+        "technical",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed elastane with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "elastane",
+        "zip"
+      ]
+    },
+    {
+      "text": "racer tank in sweat-wicking pique with zip pockets and midnight blue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "pique",
+        "zip",
+        "midnight"
+      ]
+    },
+    {
+      "text": "bandeau in performance lycra with drawcords and pearl shade",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "lycra",
+        "drawcords",
+        "pearl"
+      ]
+    },
+    {
+      "text": "one-shoulder in ribbed modal with thumbholes and coral hue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "modal",
+        "thumbholes",
+        "coral"
+      ]
+    },
+    {
+      "text": "structured halter in aerated neoprene with ankle zips and cobalt blue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "neoprene",
+        "ankle",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "minimal racer in bonded knit with ribbed panels and smoky quartz",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded",
+        "ribbed",
+        "smoky"
+      ]
+    },
+    {
+      "text": "mesh tank in compression knit with zip pockets and opal details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "zip",
+        "opal"
+      ]
+    },
+    {
+      "text": "longline bra in power mesh with contrast waistband and electric-blue color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "contrast",
+        "electric"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed elastane with drawcords and polar silver",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "ribbed",
+        "drawcords",
+        "polar"
+      ]
+    },
+    {
+      "text": "bandeau in technical jersey with thumbholes and sandstone shade",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "technical",
+        "thumbholes",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "one-shoulder in perforated neoprene with ankle zips and bone white",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "neoprene",
+        "ankle",
+        "bone"
+      ]
+    },
+    {
+      "text": "structured halter in sweat-wicking pique with ribbed panels and orchid hue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "pique",
+        "ribbed",
+        "orchid"
+      ]
+    },
+    {
+      "text": "minimal racer in performance lycra with mesh vents and caramel piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "lycra",
+        "mesh",
+        "caramel"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed modal with laser perforation and teal accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "ribbed",
+        "laser",
+        "teal"
+      ]
+    },
+    {
+      "text": "performance crop in aerated neoprene with reflective piping and chalk trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "neoprene",
+        "reflective",
+        "chalk"
+      ]
+    },
+    {
+      "text": "zip-front top in bonded knit with zip pockets and jade details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded",
+        "zip",
+        "jade"
+      ]
+    },
+    {
+      "text": "mesh tank in micro waffle with contrast waistband and midnight blue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro",
+        "contrast",
+        "midnight"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with drawcords and coral hue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt",
+        "drawcords",
+        "coral"
+      ]
+    },
+    {
+      "text": "bandeau in compression knit with ankle zips and onyx color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ankle",
+        "onyx"
+      ]
+    },
+    {
+      "text": "one-shoulder in power mesh with ribbed panels and smoky quartz",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed",
+        "smoky"
+      ]
+    },
+    {
+      "text": "structured halter in ribbed elastane with mesh vents and electric-blue piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "ribbed",
+        "mesh",
+        "electric"
+      ]
+    },
+    {
+      "text": "minimal racer in technical jersey with laser perforation and amber accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "technical",
+        "laser",
+        "amber"
+      ]
+    },
+    {
+      "text": "performance crop in sweat-wicking pique with zip pockets and polar silver details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "pique",
+        "zip",
+        "polar"
+      ]
+    },
+    {
+      "text": "zip-front top in performance lycra with contrast waistband and sandstone color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "lycra",
+        "contrast",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed modal with drawcords and bone white",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "modal",
+        "drawcords",
+        "bone"
+      ]
+    },
+    {
+      "text": "longline bra in aerated neoprene with thumbholes and orchid hue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "neoprene",
+        "thumbholes",
+        "orchid"
+      ]
+    },
+    {
+      "text": "racer tank in bonded knit with ankle zips and caramel color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded",
+        "ankle",
+        "caramel"
+      ]
+    },
+    {
+      "text": "one-shoulder in sculpt-knit with mesh vents and chalk piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt",
+        "mesh",
+        "chalk"
+      ]
+    },
+    {
+      "text": "structured halter in buttery jersey with laser perforation and jade accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "buttery",
+        "laser",
+        "jade"
+      ]
+    },
+    {
+      "text": "compression sports bra in power mesh with zip pockets and coral details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "zip",
+        "coral"
+      ]
+    },
+    {
+      "text": "zip-front top in technical jersey with drawcords and onyx shade",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "technical",
+        "drawcords",
+        "onyx"
+      ]
+    },
+    {
+      "text": "mesh tank in perforated neoprene with thumbholes and smoky quartz",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "neoprene",
+        "thumbholes",
+        "smoky"
+      ]
+    },
+    {
+      "text": "longline bra in sweat-wicking pique with ankle zips and electric-blue hue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "pique",
+        "ankle",
+        "electric"
+      ]
+    },
+    {
+      "text": "one-shoulder in aerated neoprene with laser perforation and polar silver accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "neoprene",
+        "laser",
+        "polar"
+      ]
+    },
+    {
+      "text": "structured halter in bonded knit with reflective piping and sandstone trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded",
+        "reflective",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "minimal racer in micro waffle with zip pockets and bone white details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro",
+        "zip",
+        "bone"
+      ]
+    },
+    {
+      "text": "bandeau in buttery jersey with orchid piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "buttery",
+        "orchid"
+      ]
+    },
+    {
+      "text": "minimal racer in compression knit with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "compression",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "compression sports bra in micro waffle with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "micro",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression sports bra with power mesh and caramel contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "power mesh",
+        "caramel"
+      ]
+    },
+    {
+      "text": "zip-front top with technical jersey and graphite bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "technical jersey",
+        "graphite"
+      ]
+    },
+    {
+      "text": "racer tank with performance lycra and teal drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "performance lycra",
+        "teal"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with charcoal thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed modal",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "performance crop in buttery jersey with bone white reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "buttery jersey",
+        "bone white"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed elastane with amber laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed elastane",
+        "amber"
+      ]
+    },
+    {
+      "text": "longline bra in technical jersey with opal zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "technical jersey",
+        "opal"
+      ]
+    },
+    {
+      "text": "structured halter in ribbed modal with sandstone ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "structured halter",
+        "ribbed modal",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "zip-front top in sculpt-knit with graphite reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "sculpt-knit",
+        "graphite"
+      ]
+    },
+    {
+      "text": "mesh tank in buttery jersey with smoky quartz bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "buttery jersey",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "minimal racer in performance lycra with midnight ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal racer",
+        "performance lycra",
+        "midnight"
+      ]
+    },
+    {
+      "text": "performance crop in aerated neoprene with bone white contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "aerated neoprene",
+        "bone white"
+      ]
+    },
+    {
+      "text": "racer tank in buttery jersey with polar silver zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "buttery jersey",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "minimal racer in perforated neoprene with charcoal drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "perforated",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "zip-front top in bonded knit with onyx ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded",
+        "onyx"
+      ]
+    },
+    {
+      "text": "racer tank in compression knit with polar silver mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "structured halter in perforated neoprene with sandstone drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "perforated",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "performance crop in aerated neoprene with graphite thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "aerated",
+        "graphite"
+      ]
+    },
+    {
+      "text": "zip-front top in sculpt-knit with caramel ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt-knit",
+        "caramel"
+      ]
+    },
+    {
+      "text": "racer tank in micro waffle with coral mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro",
+        "coral"
+      ]
+    },
+    {
+      "text": "one-shoulder in compression knit with orchid zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "orchid"
+      ]
+    },
+    {
+      "text": "structured halter in power mesh with smoky quartz drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "power",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "performance crop in sweat-wicking pique with onyx thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sweat-wicking",
+        "onyx"
+      ]
+    },
+    {
+      "text": "zip-front top in ribbed modal with amber ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "ribbed",
+        "amber"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with polar silver laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt-knit",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "racer tank in buttery jersey with cobalt mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "buttery",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "one-shoulder in micro waffle with sandstone zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "bandeau in sculpt-knit with orchid ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt-knit",
+        "orchid"
+      ]
+    },
+    {
+      "text": "one-shoulder in buttery jersey with bone white zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "buttery",
+        "bone white"
+      ]
+    },
+    {
+      "text": "minimal racer in micro waffle with amber reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro",
+        "amber"
+      ]
+    },
+    {
+      "text": "racer tank in perforated neoprene with teal ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "perforated neoprene",
+        "teal"
+      ]
+    },
+    {
+      "text": "bandeau in sweat-wicking pique with bone white thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "sweat-wicking pique",
+        "bone white"
+      ]
+    },
+    {
+      "text": "compression sports bra in bonded knit with jade mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "bonded knit",
+        "jade"
+      ]
+    },
+    {
+      "text": "mesh tank in buttery jersey with polar silver laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "buttery jersey",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed elastane with smoky quartz piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "ribbed elastane",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "structured halter in aerated neoprene with polar silver thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "aerated neoprene",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed elastane with ivory bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed elastane",
+        "ivory"
+      ]
+    },
+    {
+      "text": "racer tank in power mesh with electric-blue ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "power mesh",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed elastane with cobalt ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "ribbed elastane",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "minimal racer in sweat-wicking pique with electric-blue ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal racer",
+        "sweat-wicking pique",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "zip-front top with sweat-wicking pique and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "reflective"
+      ]
+    },
+    {
+      "text": "compression sports bra in buttery jersey and orchid color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "orchid"
+      ]
+    },
+    {
+      "text": "performance crop in sculpt-knit with caramel contrast",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "caramel"
+      ]
+    },
+    {
+      "text": "longline bra in technical jersey and smoky quartz color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "smoky-quartz"
+      ]
+    },
+    {
+      "text": "compression sports bra in compression knit and orchid piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "orchid"
+      ]
+    },
+    {
+      "text": "performance crop in power mesh with caramel bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "caramel"
+      ]
+    },
+    {
+      "text": "compression sports bra in micro waffle and midnight color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "midnight"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed elastane with opal thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "opal"
+      ]
+    },
+    {
+      "text": "zip-front top in technical jersey with reflective piping and midnight color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "technical",
+        "reflective",
+        "midnight"
+      ]
+    },
+    {
+      "text": "longline bra in sweat-wicking pique with orchid contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sweat-wicking",
+        "contrast",
+        "orchid"
+      ]
+    },
+    {
+      "text": "racer tank in performance lycra with teal zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "zip",
+        "teal"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with bone white drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "modal",
+        "drawcords",
+        "bone white"
+      ]
+    },
+    {
+      "text": "one-shoulder in aerated neoprene with onyx ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "aerated",
+        "ribbed",
+        "onyx"
+      ]
+    },
+    {
+      "text": "performance crop in buttery jersey with cobalt laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "buttery",
+        "laser",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "zip-front top in compression knit with chalk reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "reflective",
+        "chalk"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed elastane with sandstone mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "structured halter in aerated neoprene with electric-blue mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "aerated",
+        "mesh",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "minimal racer in bonded knit with smoky quartz thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded",
+        "thumbholes",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "mesh tank in compression knit with bone white mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "compression",
+        "bone white"
+      ]
+    },
+    {
+      "text": "bandeau in sweat-wicking pique with opal drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sweat-wicking",
+        "drawcords",
+        "opal"
+      ]
+    },
+    {
+      "text": "one-shoulder in performance lycra with polar silver ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "ribbed",
+        "polar silver"
+      ]
+    },
+    {
+      "text": "compression sports bra in bonded knit with sandstone bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "bonded",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "bandeau in perforated neoprene with smoky quartz drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "perforated",
+        "drawcords",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "compression sports bra in aerated neoprene with onyx bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "aerated",
+        "onyx"
+      ]
+    },
+    {
+      "text": "minimal racer in performance lycra with pearl thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "thumbholes",
+        "pearl"
+      ]
+    },
+    {
+      "text": "compression sports bra with power mesh and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "mesh",
+        "laser"
+      ]
+    },
+    {
+      "text": "bandeau in ribbed modal with orchid piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "ribbed",
+        "orchid"
+      ]
+    },
+    {
+      "text": "mesh tank in ribbed elastane with electric-blue seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "ribbed",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "longline bra in technical jersey with graphite accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "technical",
+        "graphite"
+      ]
+    },
+    {
+      "text": "mesh tank in buttery jersey with bone white trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "buttery",
+        "bone"
+      ]
+    },
+    {
+      "text": "longline bra in compression knit with onyx accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "compression",
+        "onyx"
+      ]
+    },
+    {
+      "text": "bandeau in technical jersey with opal seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "technical",
+        "opal"
+      ]
+    },
+    {
+      "text": "one-shoulder in perforated neoprene with polar silver details",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "perforated",
+        "polar"
+      ]
+    },
+    {
+      "text": "zip-front top in bonded knit with caramel accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "bonded",
+        "caramel"
+      ]
+    },
+    {
+      "text": "mesh tank in micro waffle with electric-blue trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "micro",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with graphite piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "sculpt-knit",
+        "graphite"
+      ]
+    },
+    {
+      "text": "bandeau in compression knit with jade accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "compression",
+        "jade"
+      ]
+    },
+    {
+      "text": "one-shoulder in ribbed elastane with teal piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "ribbed",
+        "teal"
+      ]
+    },
+    {
+      "text": "minimal racer in bonded knit with orchid piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bonded knit",
+        "orchid"
+      ]
+    },
+    {
+      "text": "performance crop in sculpt-knit with electric-blue stripes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt-knit",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "zip-front top in buttery jersey with graphite trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "buttery jersey",
+        "graphite"
+      ]
+    },
+    {
+      "text": "mesh tank in compression knit with smoky quartz detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression knit",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "mesh tank in micro waffle with amber detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro waffle",
+        "amber"
+      ]
+    },
+    {
+      "text": "bandeau in compression knit with cobalt trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression knit",
+        "cobalt"
+      ]
+    },
+    {
+      "text": "one-shoulder in power mesh with chalk detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "power mesh",
+        "chalk"
+      ]
+    },
+    {
+      "text": "zip-front top in performance lycra with graphite trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance lycra",
+        "graphite"
+      ]
+    },
+    {
+      "text": "bandeau in micro waffle with charcoal piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "micro waffle",
+        "charcoal"
+      ]
+    },
+    {
+      "text": "one-shoulder in sculpt-knit with ivory seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "sculpt-knit",
+        "ivory"
+      ]
+    },
+    {
+      "text": "structured halter in buttery jersey with pearl detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "buttery jersey",
+        "pearl"
+      ]
+    },
+    {
+      "text": "zip-front top in compression knit with electric-blue mesh",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "compression",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "mesh tank in power mesh with graphite laser cuts",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "power",
+        "graphite"
+      ]
+    },
+    {
+      "text": "longline bra in ribbed elastane with smoky quartz vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "ribbed",
+        "smoky"
+      ]
+    },
+    {
+      "text": "racer tank in technical jersey with jade reflective stripes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "technical",
+        "jade"
+      ]
+    },
+    {
+      "text": "bandeau in perforated neoprene with teal bonded edges",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "perforated",
+        "teal"
+      ]
+    },
+    {
+      "text": "minimal racer in ribbed modal with pearl contrast",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "ribbed",
+        "pearl"
+      ]
+    },
+    {
+      "text": "racer tank in compression knit with opal reflective stripes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "compression",
+        "opal"
+      ]
+    },
+    {
+      "text": "bandeau in power mesh with polar silver bonded edges",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "power",
+        "polar"
+      ]
+    },
+    {
+      "text": "mesh tank in sweat-wicking pique with onyx laser cuts",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sweat-wicking",
+        "onyx"
+      ]
+    },
+    {
+      "text": "minimal racer in sculpt-knit with sandstone contrast",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal",
+        "sculpt-knit",
+        "sandstone"
+      ]
+    },
+    {
+      "text": "mesh tank in sculpt-knit with onyx detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "sculpt-knit",
+        "onyx"
+      ]
+    },
+    {
+      "text": "racer tank in micro waffle with jade contrast",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "micro",
+        "jade"
+      ]
+    },
+    {
+      "text": "performance crop top in power mesh with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "performance",
+        "mesh",
+        "reflective"
+      ]
+    },
+    {
+      "text": "zip-front top in micro waffle with bone white detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "waffle",
+        "bone"
+      ]
+    },
+    {
+      "text": "zip-front top in perforated neoprene with bone white detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "zip-front",
+        "perforated",
+        "bone"
+      ]
+    },
+    {
+      "text": "racer tank in ribbed modal with opal detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "ribbed",
+        "opal"
+      ]
+    },
+    {
+      "text": "bandeau in aerated neoprene with polar silver trim",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "aerated",
+        "polar"
+      ]
+    },
+    {
+      "text": "mesh tank in power mesh with bonded seams and coral detailing",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "mesh",
+        "bonded seams",
+        "coral"
+      ]
+    },
+    {
+      "text": "compression sports bra in ribbed elastane with reflective piping and onyx color",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "compression",
+        "reflective piping",
+        "onyx"
+      ]
+    },
+    {
+      "text": "longline bra in sculpt-knit with mesh vents and smoky quartz hue",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "longline",
+        "mesh vents",
+        "smoky quartz"
+      ]
+    },
+    {
+      "text": "racer tank in buttery jersey with contrast waistband and electric-blue accents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "racer",
+        "contrast waistband",
+        "electric-blue"
+      ]
+    },
+    {
+      "text": "bandeau in performance lycra with zip pockets and graphite finish",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "bandeau",
+        "zip pockets",
+        "graphite"
+      ]
+    },
+    {
+      "text": "one-shoulder in compression knit with drawcords and teal highlights",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "one-shoulder",
+        "drawcords",
+        "teal"
+      ]
+    },
+    {
+      "text": "structured halter in micro waffle with thumbholes and midnight shade",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "halter",
+        "thumbholes",
+        "midnight"
+      ]
+    },
+    {
+      "text": "minimal racer in aerated neoprene with ribbed panels and ivory touches",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "top",
+        "minimal racer",
+        "ribbed panels",
+        "ivory"
+      ]
+    }
+  ],
+  "bottoms": [
+    {
+      "text": "high-waist leggings compression knit with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "mesh"
+      ]
+    },
+    {
+      "text": "compression shorts power mesh with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "power mesh"
+      ]
+    },
+    {
+      "text": "track pants technical jersey with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical jersey",
+        "zip pockets"
+      ]
+    },
+    {
+      "text": "joggers ribbed elastane with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed elastane",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "bike shorts ribbed modal with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed modal",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "high-waist leggings aerated neoprene with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "aerated neoprene",
+        "ankle zips"
+      ]
+    },
+    {
+      "text": "track pants micro waffle with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro waffle",
+        "zip pockets"
+      ]
+    },
+    {
+      "text": "joggers sculpt-knit with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "athletic shorts buttery jersey with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery jersey",
+        "laser perforation"
+      ]
+    },
+    {
+      "text": "compression tights compression knit with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "reflective"
+      ]
+    },
+    {
+      "text": "bike shorts technical jersey with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical jersey",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "bike shorts sculpt-knit with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "bike shorts performance lycra with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance lycra",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "track pants bonded knit with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bonded knit",
+        "zip pockets"
+      ]
+    },
+    {
+      "text": "joggers micro waffle with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro waffle",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "athletic shorts sculpt-knit with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "laser perforation"
+      ]
+    },
+    {
+      "text": "track pants sweat-wicking pique with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "zip pockets"
+      ]
+    },
+    {
+      "text": "joggers performance lycra with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance lycra",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "high-waist leggings sculpt-knit with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "ankle zips"
+      ]
+    },
+    {
+      "text": "track pants in ribbed elastane with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "compression tights in sweat-wicking pique with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "bonded"
+      ]
+    },
+    {
+      "text": "bike shorts in ribbed modal with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "zips"
+      ]
+    },
+    {
+      "text": "track pants in micro waffle with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro",
+        "perforation"
+      ]
+    },
+    {
+      "text": "compression tights in compression knit with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "zip"
+      ]
+    },
+    {
+      "text": "capri leggings in power mesh with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "mesh",
+        "zips"
+      ]
+    },
+    {
+      "text": "high-waist leggings in technical jersey with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical",
+        "bonded"
+      ]
+    },
+    {
+      "text": "compression shorts in perforated neoprene with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "perforated"
+      ]
+    },
+    {
+      "text": "joggers in performance lycra with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "perforation"
+      ]
+    },
+    {
+      "text": "compression tights in aerated neoprene with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "aerated"
+      ]
+    },
+    {
+      "text": "capri leggings in bonded knit with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bonded",
+        "zip"
+      ]
+    },
+    {
+      "text": "track pants in compression knit with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "mesh"
+      ]
+    },
+    {
+      "text": "high-waist leggings in performance lycra with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "zips"
+      ]
+    },
+    {
+      "text": "track pants in aerated neoprene with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "aerated",
+        "mesh"
+      ]
+    },
+    {
+      "text": "compression tights in sculpt-knit with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "sculpt"
+      ]
+    },
+    {
+      "text": "capri leggings in buttery jersey with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery",
+        "zip"
+      ]
+    },
+    {
+      "text": "track pants in technical jersey with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "compression tights in performance lycra with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "bonded"
+      ]
+    },
+    {
+      "text": "track pants in sculpt-knit with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "high-waist leggings in buttery jersey with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery",
+        "ankle"
+      ]
+    },
+    {
+      "text": "compression tights in buttery jersey with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "bonded"
+      ]
+    },
+    {
+      "text": "athletic shorts in perforated neoprene with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "neoprene",
+        "contrast"
+      ]
+    },
+    {
+      "text": "joggers in sculpt-knit with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "bonded"
+      ]
+    },
+    {
+      "text": "capri leggings in power mesh with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "mesh",
+        "contrast"
+      ]
+    },
+    {
+      "text": "bike shorts in ribbed elastane with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "zip"
+      ]
+    },
+    {
+      "text": "athletic shorts in ribbed modal with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "modal",
+        "mesh"
+      ]
+    },
+    {
+      "text": "capri leggings in bonded knit with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bonded",
+        "laser"
+      ]
+    },
+    {
+      "text": "bike shorts in micro waffle with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "waffle",
+        "reflective"
+      ]
+    },
+    {
+      "text": "high-waist leggings in sculpt-knit with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "contrast"
+      ]
+    },
+    {
+      "text": "joggers in power mesh with thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "mesh",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "athletic shorts in ribbed elastane with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "zips"
+      ]
+    },
+    {
+      "text": "compression tights in technical jersey with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "capri leggings in perforated neoprene with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "neoprene",
+        "mesh"
+      ]
+    },
+    {
+      "text": "athletic shorts in micro waffle with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "waffle",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "capri leggings in ribbed modal with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "modal",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "high-waist leggings with ribbed modal and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "modal",
+        "laser"
+      ]
+    },
+    {
+      "text": "compression shorts in power mesh with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "mesh",
+        "reflective"
+      ]
+    },
+    {
+      "text": "compression tights with performance lycra and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "tights",
+        "lycra",
+        "mesh"
+      ]
+    },
+    {
+      "text": "capri leggings in compression knit with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "knit",
+        "bonded"
+      ]
+    },
+    {
+      "text": "track pants made of micro waffle with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "track",
+        "waffle",
+        "reflective"
+      ]
+    },
+    {
+      "text": "athletic shorts crafted from buttery jersey with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "shorts",
+        "jersey",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "compression tights in ribbed modal with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "tights",
+        "modal",
+        "contrast"
+      ]
+    },
+    {
+      "text": "joggers crafted from micro waffle with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "joggers",
+        "waffle",
+        "reflective"
+      ]
+    },
+    {
+      "text": "compression tights made of buttery jersey with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "tights",
+        "jersey",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "high-waist leggings crafted from compression knit with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "knit",
+        "bonded"
+      ]
+    },
+    {
+      "text": "track pants made of aerated neoprene with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "track",
+        "neoprene",
+        "ankle"
+      ]
+    },
+    {
+      "text": "bike shorts with ribbed modal and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bike",
+        "modal",
+        "contrast"
+      ]
+    },
+    {
+      "text": "compression shorts crafted from compression knit with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "knit",
+        "bonded"
+      ]
+    },
+    {
+      "text": "high-waist leggings with ribbed modal and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "modal",
+        "contrast"
+      ]
+    },
+    {
+      "text": "high-waist leggings made of buttery jersey with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "jersey",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "track pants featuring ribbed elastane and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "reflective"
+      ]
+    },
+    {
+      "text": "joggers with technical jersey and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression tights made from sweat-wicking pique and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "capri leggings with performance lycra and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "high-waist leggings with aerated neoprene and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "aerated",
+        "bonded"
+      ]
+    },
+    {
+      "text": "athletic shorts made from buttery jersey and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression tights with compression knit and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "capri leggings featuring power mesh and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "mesh",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "high-waist leggings with technical jersey and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical",
+        "mesh"
+      ]
+    },
+    {
+      "text": "compression shorts made from perforated neoprene and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "perforated"
+      ]
+    },
+    {
+      "text": "track pants featuring sweat-wicking pique and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "laser"
+      ]
+    },
+    {
+      "text": "joggers with performance lycra and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "reflective"
+      ]
+    },
+    {
+      "text": "athletic shorts in ribbed modal and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "zip"
+      ]
+    },
+    {
+      "text": "high-waist leggings featuring sculpt-knit and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt",
+        "mesh"
+      ]
+    },
+    {
+      "text": "track pants with compression knit and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "laser"
+      ]
+    },
+    {
+      "text": "bike shorts in sweat-wicking pique with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "ankle"
+      ]
+    },
+    {
+      "text": "athletic shorts featuring micro waffle and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro",
+        "zip"
+      ]
+    },
+    {
+      "text": "capri leggings with buttery jersey and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "compression tights sweat-wicking pique fabric with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "reflective"
+      ]
+    },
+    {
+      "text": "bike shorts micro waffle fit with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "zips"
+      ]
+    },
+    {
+      "text": "high-waist leggings sculpt-knit fabric with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "track pants aerated neoprene fit with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "zip"
+      ]
+    },
+    {
+      "text": "bike shorts compression knit fabric with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "zips"
+      ]
+    },
+    {
+      "text": "joggers perforated neoprene fit with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "athletic shorts sweat-wicking pique fabric with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "perforation"
+      ]
+    },
+    {
+      "text": "bike shorts aerated neoprene fit with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "zips"
+      ]
+    },
+    {
+      "text": "joggers in perforated neoprene with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "perforated",
+        "ankle zips"
+      ]
+    },
+    {
+      "text": "high-waist leggings in bonded knit with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bonded",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "joggers in buttery jersey with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery",
+        "ankle zips"
+      ]
+    },
+    {
+      "text": "track pants with ribbed elastane and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "zip"
+      ]
+    },
+    {
+      "text": "track pants in micro waffle with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "joggers with sculpt-knit and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt",
+        "zip"
+      ]
+    },
+    {
+      "text": "track pants with sweat-wicking pique and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "zips"
+      ]
+    },
+    {
+      "text": "compression tights with aerated neoprene and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "aerated"
+      ]
+    },
+    {
+      "text": "bike shorts in micro waffle with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro",
+        "mesh"
+      ]
+    },
+    {
+      "text": "high-waist leggings with sculpt-knit and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt",
+        "bonded"
+      ]
+    },
+    {
+      "text": "compression shorts in buttery jersey with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "contrast"
+      ]
+    },
+    {
+      "text": "joggers in bonded knit with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "compression shorts in ribbed elastane with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "laser"
+      ]
+    },
+    {
+      "text": "athletic shorts in sweat-wicking pique with ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "high-waist leggings in aerated neoprene with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "aerated",
+        "laser"
+      ]
+    },
+    {
+      "text": "athletic shorts with perforated neoprene and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "athletic",
+        "neoprene",
+        "mesh"
+      ]
+    },
+    {
+      "text": "compression tights with ribbed elastane and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "elastane",
+        "bonded"
+      ]
+    },
+    {
+      "text": "capri leggings with aerated neoprene and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "neoprene",
+        "contrast"
+      ]
+    },
+    {
+      "text": "bike shorts with bonded knit and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bike",
+        "knit",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "high-waist leggings with micro waffle and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "waffle",
+        "ankle"
+      ]
+    },
+    {
+      "text": "compression shorts with sculpt-knit and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "sculpt-knit",
+        "mesh"
+      ]
+    },
+    {
+      "text": "track pants with buttery jersey and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "track",
+        "jersey",
+        "laser"
+      ]
+    },
+    {
+      "text": "athletic shorts with compression knit and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "athletic",
+        "knit",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression tights with ribbed modal and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "modal",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "capri leggings with power mesh and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "mesh",
+        "mesh"
+      ]
+    },
+    {
+      "text": "bike shorts with technical jersey and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bike",
+        "jersey",
+        "bonded"
+      ]
+    },
+    {
+      "text": "compression shorts with sweat-wicking pique and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "pique",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "joggers with bonded knit and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "joggers",
+        "knit",
+        "mesh"
+      ]
+    },
+    {
+      "text": "athletic shorts with micro waffle and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "athletic",
+        "waffle",
+        "laser"
+      ]
+    },
+    {
+      "text": "bike shorts with performance lycra and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bike",
+        "lycra",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "joggers with ribbed modal and ribbed panels",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "joggers",
+        "modal",
+        "ribbed"
+      ]
+    },
+    {
+      "text": "athletic shorts with technical jersey and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "athletic",
+        "jersey",
+        "ankle"
+      ]
+    },
+    {
+      "text": "capri leggings with sweat-wicking pique and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "pique",
+        "laser"
+      ]
+    },
+    {
+      "text": "high-waist leggings with bonded knit and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "knit",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression shorts with micro waffle and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "waffle",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "track pants with sculpt-knit and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "track",
+        "sculpt-knit",
+        "mesh"
+      ]
+    },
+    {
+      "text": "joggers with buttery jersey and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "joggers",
+        "jersey",
+        "bonded"
+      ]
+    },
+    {
+      "text": "athletic shorts with performance lycra and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "athletic",
+        "lycra",
+        "contrast"
+      ]
+    },
+    {
+      "text": "capri leggings with ribbed elastane and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "elastane",
+        "ankle"
+      ]
+    },
+    {
+      "text": "bike shorts with power mesh and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bike",
+        "mesh",
+        "mesh"
+      ]
+    },
+    {
+      "text": "joggers with aerated neoprene and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "joggers",
+        "neoprene",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "athletic shorts with sweat-wicking pique and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "contrast"
+      ]
+    },
+    {
+      "text": "capri leggings with ribbed modal and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "bonded"
+      ]
+    },
+    {
+      "text": "track pants with sculpt-knit and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "reflective"
+      ]
+    },
+    {
+      "text": "athletic shorts with power mesh and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "power",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "track pants with performance lycra and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "mesh"
+      ]
+    },
+    {
+      "text": "joggers with ribbed modal and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "reflective"
+      ]
+    },
+    {
+      "text": "bike shorts with sculpt-knit and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "laser"
+      ]
+    },
+    {
+      "text": "track pants with compression knit and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "ankle"
+      ]
+    },
+    {
+      "text": "compression tights with perforated neoprene and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "zip"
+      ]
+    },
+    {
+      "text": "joggers with micro waffle and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "micro",
+        "ankle"
+      ]
+    },
+    {
+      "text": "compression shorts with technical jersey and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "laser"
+      ]
+    },
+    {
+      "text": "track pants with perforated neoprene and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "perforated",
+        "bonded"
+      ]
+    },
+    {
+      "text": "athletic shorts with performance lycra and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "ankle"
+      ]
+    },
+    {
+      "text": "high-waist leggings with compression knit and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "compression",
+        "reflective"
+      ]
+    },
+    {
+      "text": "capri leggings in performance lycra with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "pockets"
+      ]
+    },
+    {
+      "text": "joggers with technical jersey and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical",
+        "contrast"
+      ]
+    },
+    {
+      "text": "compression shorts with bonded knit and contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "contrast"
+      ]
+    },
+    {
+      "text": "athletic shorts with buttery jersey and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery",
+        "mesh"
+      ]
+    },
+    {
+      "text": "bike shorts with ribbed elastane and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "joggers with performance lycra and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "performance",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression shorts with buttery jersey and ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "zips"
+      ]
+    },
+    {
+      "text": "joggers with power mesh and zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "power",
+        "zip"
+      ]
+    },
+    {
+      "text": "high-waist leggings with ribbed elastane and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "high-waist",
+        "mesh"
+      ]
+    },
+    {
+      "text": "capri leggings in ribbed elastane with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "elastane"
+      ]
+    },
+    {
+      "text": "athletic shorts in performance lycra with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "athletic",
+        "performance",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "joggers in sculpt-knit with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "jogger",
+        "sculpt",
+        "ankle"
+      ]
+    },
+    {
+      "text": "compression shorts in sweat-wicking pique with thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "sweat-wicking",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "track pants in performance lycra with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "track",
+        "performance",
+        "ankle"
+      ]
+    },
+    {
+      "text": "capri leggings in sweat-wicking pique with mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "sweat-wicking",
+        "mesh"
+      ]
+    },
+    {
+      "text": "joggers in micro waffle with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "joggers",
+        "micro",
+        "zip"
+      ]
+    },
+    {
+      "text": "compression tights in ribbed modal with zip pockets",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "ribbed",
+        "zip"
+      ]
+    },
+    {
+      "text": "athletic shorts buttery jersey with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "buttery jersey",
+        "reflective"
+      ]
+    },
+    {
+      "text": "joggers power mesh with drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "power mesh",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "bike shorts with ribbed modal and thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed modal",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "bike shorts with sweat-wicking pique and bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "bonded seams"
+      ]
+    },
+    {
+      "text": "compression shorts in ribbed modal and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "ribbed modal",
+        "reflective"
+      ]
+    },
+    {
+      "text": "compression tights in sculpt-knit and thumbholes",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "thumbholes"
+      ]
+    },
+    {
+      "text": "capri leggings with perforated neoprene and laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "perforated",
+        "laser"
+      ]
+    },
+    {
+      "text": "athletic shorts with bonded knit and reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bonded",
+        "reflective"
+      ]
+    },
+    {
+      "text": "capri leggings with sculpt-knit and drawcords",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt",
+        "drawcords"
+      ]
+    },
+    {
+      "text": "compression tights with sweat-wicking pique and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "mesh"
+      ]
+    },
+    {
+      "text": "high-waist leggings with sweat-wicking pique and mesh vents",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sweat-wicking",
+        "mesh"
+      ]
+    },
+    {
+      "text": "athletic shorts in bonded knit with bonded seams",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "bonded"
+      ]
+    },
+    {
+      "text": "compression tights of sculpt-knit with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "contrast"
+      ]
+    },
+    {
+      "text": "bike shorts made of technical jersey with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "technical",
+        "ankle"
+      ]
+    },
+    {
+      "text": "bike shorts made of sculpt-knit with ankle zips",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "sculpt-knit",
+        "ankle"
+      ]
+    },
+    {
+      "text": "capri leggings from ribbed modal with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "ribbed",
+        "contrast"
+      ]
+    },
+    {
+      "text": "track pants from sculpt-knit with laser perforation",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "track",
+        "sculpt-knit",
+        "laser"
+      ]
+    },
+    {
+      "text": "capri leggings from compression knit with contrast waistband",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "compression",
+        "contrast"
+      ]
+    },
+    {
+      "text": "capri leggings in buttery jersey with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "capri",
+        "buttery",
+        "reflective"
+      ]
+    },
+    {
+      "text": "joggers in compression knit with reflective piping",
+      "weight": 1.0,
+      "tags": [
+        "fitness",
+        "bottom",
+        "compression",
+        "reflective"
+      ]
+    }
+  ],
+  "duplicates_removed": 10,
+  "category": "fitness"
+}
