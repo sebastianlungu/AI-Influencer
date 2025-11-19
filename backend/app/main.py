@@ -46,7 +46,7 @@ app.state.limiter = limiter
 # CORS middleware - restrict to localhost in development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174"],  # Frontend dev server
+    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://localhost:5001", "http://localhost:5000"],  # Frontend dev server
     allow_methods=["*"],
     allow_headers=["*"],
 )

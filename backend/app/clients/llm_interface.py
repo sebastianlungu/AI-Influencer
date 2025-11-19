@@ -15,16 +15,40 @@ class LLMClient(ABC):
     @abstractmethod
     def generate_prompt_bundle(
         self,
-        setting: str,
+        setting_id: str,
+        location_label: str,
+        location_path: str,
         seed_words: list[str] | None = None,
         count: int = 1,
+        bind_scene: bool = True,
+        bind_pose_microaction: bool = True,
+        bind_lighting: bool = True,
+        bind_camera: bool = True,
+        bind_angle: bool = True,
+        bind_accessories: bool = True,
+        bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
+        bind_hair: bool = True,  # Hairstyle arrangement binding
+        single_accessory: bool = True,
+        motion_variations: int = 3,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles (image + video + social).
 
         Args:
-            setting: High-level setting (e.g., "Japan", "Santorini")
+            setting_id: Location ID (e.g., "japan", "us-new_york-manhattan-times_square")
+            location_label: Human-readable location name (e.g., "Japan", "Times Square — Manhattan, NY")
+            location_path: Full path to location JSON file
             seed_words: Optional embellisher keywords
             count: Number of bundles to generate (1-10)
+            bind_scene: Bind scene from location JSON
+            bind_pose_microaction: Bind pose/micro-action (VERBATIM enforcement)
+            bind_lighting: Bind lighting
+            bind_camera: Bind camera
+            bind_angle: Bind angle
+            bind_accessories: Bind accessories
+            bind_wardrobe: Bind wardrobe (top+bottom); else inspire-only
+            bind_hair: Bind hairstyle arrangement
+            single_accessory: If True, bind exactly 1 accessory; if False, bind 2
+            motion_variations: Number of motion variations to generate per bundle (1-5)
 
         Returns:
             List of bundle dicts with keys:
@@ -107,15 +131,39 @@ class GrokAdapter(LLMClient):
 
     def generate_prompt_bundle(
         self,
-        setting: str,
+        setting_id: str,
+        location_label: str,
+        location_path: str,
         seed_words: list[str] | None = None,
         count: int = 1,
+        bind_scene: bool = True,
+        bind_pose_microaction: bool = True,
+        bind_lighting: bool = True,
+        bind_camera: bool = True,
+        bind_angle: bool = True,
+        bind_accessories: bool = True,
+        bind_wardrobe: bool = True,  # STEP 2: Wardrobe binding ON by default
+        bind_hair: bool = True,  # Hairstyle arrangement binding
+        single_accessory: bool = True,
+        motion_variations: int = 3,
     ) -> list[dict[str, Any]]:
         """Generate prompt bundles via Grok."""
         return self._client.generate_prompt_bundle(
-            setting=setting,
+            setting_id=setting_id,
+            location_label=location_label,
+            location_path=location_path,
             seed_words=seed_words,
             count=count,
+            bind_scene=bind_scene,
+            bind_pose_microaction=bind_pose_microaction,
+            bind_lighting=bind_lighting,
+            bind_camera=bind_camera,
+            bind_angle=bind_angle,
+            bind_accessories=bind_accessories,
+            bind_wardrobe=bind_wardrobe,
+            bind_hair=bind_hair,
+            single_accessory=single_accessory,
+            motion_variations=motion_variations,
         )
 
     def suggest_motion(

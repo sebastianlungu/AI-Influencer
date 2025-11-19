@@ -1,0 +1,124 @@
+{
+  "destinations": [
+    {
+      "slug": "vegas_strip",
+      "name": "Las Vegas – Strip",
+      "file": "app\\data\\locations_us\\nv\\us_nv_vegas_strip.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "graphite-hued led canyon corridor featuring street lamp halos amidst overcast noon clarity",
+        "graphite-hued strip corner crosswalk framed by neon reflections during snow-flurry shimmer",
+        "storm-cleared strip corner crosswalk featuring delivery carts amidst snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "vegas_arts_district",
+      "name": "Las Vegas – Arts District/18b",
+      "file": "app\\data\\locations_us\\nv\\us_nv_vegas_arts_district.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared 18b event space exterior alongside chain-link patterns beneath spring rain patter",
+        "snow-swirled arts factory entrance alongside wrought-iron fences beneath summer heat shimmer",
+        "snow-swirled converted warehouse courtyard framed by bike racks during copper drizzle"
+      ]
+    },
+    {
+      "slug": "vegas_fremont",
+      "name": "Las Vegas – Fremont Street",
+      "file": "app\\data\\locations_us\\nv\\us_nv_vegas_fremont.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "snow-swirled old vegas corner with awning stripes under desert wind bands",
+        "desert-dusk fremont east district featuring palm shadows amidst autumn mist drift",
+        "river-breeze downtown plaza bench framed by wrought-iron fences during snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "henderson",
+      "name": "Henderson – Water Street District",
+      "file": "app\\data\\locations_us\\nv\\us_nv_henderson.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "pre-dawn henderson amphitheater alongside neon reflections beneath winter evening glow",
+        "neon-washed water street promenade featuring fire-escape shadows amidst humid midnight pulse",
+        "cobble-wet downtown henderson junction framed by trail signage during snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "summerlin",
+      "name": "Summerlin – Downtown District",
+      "file": "app\\data\\locations_us\\nv\\us_nv_summerlin.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "humid-midnight retail promenade walkway alongside chain-link patterns beneath storm-cleared twilight",
+        "steam-veiled summerlin green space framed by reflective puddles during summer heat shimmer",
+        "overcast-soft summerlin downtown plaza framed by stone balustrades during sparkling midnight rain"
+      ]
+    },
+    {
+      "slug": "reno_riverwalk",
+      "name": "Reno – Riverwalk/Midtown",
+      "file": "app\\data\\locations_us\\nv\\us_nv_reno_riverwalk.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "pre-dawn reno riverwalk promenade featuring palm shadows amidst ocean spray shimmer",
+        "sodium-rim riverwalk kayak launch with puddle mirrors under blue-hour hush",
+        "humid-midnight downtown reno plaza alongside fire-escape shadows beneath winter evening glow"
+      ]
+    },
+    {
+      "slug": "reno_whitewater",
+      "name": "Reno – Truckee River Whitewater Park",
+      "file": "app\\data\\locations_us\\nv\\us_nv_reno_whitewater.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "blue-hour river park plaza beside granite balustrades through sparkling midnight rain",
+        "grid-lit river park bench zone alongside reflective puddles beneath desert wind bands",
+        "sodium-rim whitewater park kayak channel framed by bike racks during sparkling midnight rain"
+      ]
+    },
+    {
+      "slug": "carson_city",
+      "name": "Carson City – Capitol/West Side",
+      "file": "app\\data\\locations_us\\nv\\us_nv_carson_city.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "marquee-flecked downtown retail arcade beside palm shadows through overcast noon clarity",
+        "drizzle-slick carson street corridor alongside chain-link patterns beneath pre-dawn metro glow",
+        "rain-glossed capitol grounds monument framed by stone balustrades during desert wind bands"
+      ]
+    },
+    {
+      "slug": "boulder_city",
+      "name": "Boulder City – Historic District",
+      "file": "app\\data\\locations_us\\nv\\us_nv_boulder_city.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "cast-iron downtown community center with planter boxes under sparkling midnight rain",
+        "steel-grey boulder city trail access alongside steam vents beneath autumn mist drift",
+        "desert-dusk downtown community center framed by fire-escape shadows during snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "lake_tahoe_nv",
+      "name": "Lake Tahoe (NV) – Incline Village/Beach",
+      "file": "app\\data\\locations_us\\nv\\us_nv_lake_tahoe_nv.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "pre-dawn beach access wooden boardwalk beside steam vents through blue-hour hush",
+        "rain-glossed beach volleyball court edge alongside handrails beneath humid midnight pulse",
+        "grid-lit incline village beach boardwalk beside wrought-iron fences through overcast noon clarity"
+      ]
+    }
+  ]
+}

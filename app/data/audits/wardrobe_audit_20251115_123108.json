@@ -1,0 +1,83 @@
+{
+  "timestamp": "20251115_123108",
+  "counts": {
+    "wardrobe": 1870
+  },
+  "diversity": {
+    "colors": {
+      "entropy_bits": 7.42,
+      "hist": {
+        "neutral": 207,
+        "blue": 129,
+        "ink": 127,
+        "charcoal": 109,
+        "navy": 87,
+        "coral": 74,
+        "black": 73,
+        "teal": 55,
+        "burgundy": 52,
+        "red": 52,
+        "white": 48,
+        "lime": 43,
+        "grey": 41,
+        "forest": 39,
+        "green": 39,
+        "mint": 38,
+        "orange": 34,
+        "slate": 32,
+        "rose": 32,
+        "lavender": 32,
+        "sage": 31,
+        "tangerine": 30,
+        "yellow": 30,
+        "emerald": 30,
+        "cobalt": 28,
+        "plum": 25,
+        "lilac": 24,
+        "crimson": 23,
+        "jade": 23,
+        "graphite": 22
+      }
+    },
+    "archetypes": {
+      "hist": {
+        "crop_bra": 561,
+        "swim": 439,
+        "other": 317,
+        "leggings": 124,
+        "shorts": 119,
+        "joggers": 97,
+        "tank": 88,
+        "jacket": 72,
+        "hoodie": 53
+      }
+    }
+  },
+  "dedupe": {
+    "raw_in": 2685,
+    "removed": 443,
+    "examples": [
+      "cream french terry joggers with relaxed fit and elastic ankles",
+      "cerulean blue ribbed swim knit halter top with crossback and surf shorts",
+      "peacock blue performance crop with mesh underband and crossback H steel blue performance crop with mesh underband and keyhole back",
+      "black compression biker shorts with gradient detail and bonded waist H brick red compression biker shorts with high rise and bonded waist",
+      "olive rib-knit crop with athletic cut and bonded shoulder seams H mauve rib tank with athletic cut and bonded shoulder seams",
+      "rust rib-knit biker shorts with compression fit and flatlock seams H lilac rib-knit shorts with compression waistband and flatlock seams",
+      "forest green bonded racerback with perforated back panel H emerald bonded racerback with perforated back panel"
+    ]
+  },
+  "policy_rejections": {
+    "count": 0,
+    "examples": []
+  },
+  "char_violations": {
+    "count": 10,
+    "examples": [
+      "emerald bonded racerback with perforated back panel (51 chars)",
+      "seafoam sculpt-knit biker shorts with contour seaming (53 chars)",
+      "smoke grey rib-knit biker shorts with sculpting seams (53 chars)",
+      "aqua bonded crop with keyhole back and shelf support (52 chars)",
+      "sunset orange ribbed crop with twisted front detail (51 chars)"
+    ]
+  }
+}

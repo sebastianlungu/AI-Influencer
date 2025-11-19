@@ -1,0 +1,124 @@
+{
+  "destinations": [
+    {
+      "slug": "miami_wynwood",
+      "name": "Miami – Wynwood",
+      "file": "app\\data\\locations_us\\fl\\us_fl_miami_wynwood.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "cobble-wet wynwood marketplace alongside neon reflections beneath spring rain patter",
+        "twilight-dim muralist scaffold zone alongside chain-link patterns beneath sparkling midnight rain",
+        "blue-hour street art installation alongside trail signage beneath spring rain patter"
+      ]
+    },
+    {
+      "slug": "miami_south_beach",
+      "name": "Miami – South Beach",
+      "file": "app\\data\\locations_us\\fl\\us_fl_miami_south_beach.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "ocean-spray ocean drive art deco facade with stone balustrades under autumn mist drift",
+        "desert-dusk south beach boardwalk beside bike racks through blue-hour hush",
+        "fog-swept south beach boardwalk alongside bike racks beneath storm-cleared twilight"
+      ]
+    },
+    {
+      "slug": "miami_brickell",
+      "name": "Miami – Brickell/Bayfront",
+      "file": "app\\data\\locations_us\\fl\\us_fl_miami_brickell.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "slate-washed downtown bay view bench with granite balustrades under desert wind bands",
+        "ocean-spray urban park fountain alongside newspaper boxes beneath winter evening glow",
+        "twilight-dim skyscraper canyon corridor with dune fences under summer heat shimmer"
+      ]
+    },
+    {
+      "slug": "orlando_lake_eola",
+      "name": "Orlando – Lake Eola/Downtown",
+      "file": "app\\data\\locations_us\\fl\\us_fl_orlando_lake_eola.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "midnight-indigo downtown orlando plaza alongside puddle mirrors beneath winter evening glow",
+        "copper-lit lake-view restaurant patio framed by hydrant sentinels during storm-cleared twilight",
+        "sodium-rim eola heights sidewalk framed by planter boxes during summer heat shimmer"
+      ]
+    },
+    {
+      "slug": "tampa_riverwalk",
+      "name": "Tampa – Riverwalk/Channelside",
+      "file": "app\\data\\locations_us\\fl\\us_fl_tampa_riverwalk.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "winter-mist river park pavilion beside fire-escape shadows through pre-dawn metro glow",
+        "sodium-rim sparkman wharf plaza framed by newspaper boxes during desert wind bands",
+        "humid-midnight channelside plaza with scaffolding tubes under spring rain patter"
+      ]
+    },
+    {
+      "slug": "st_petersburg",
+      "name": "St. Petersburg – Central Ave/Pier",
+      "file": "app\\data\\locations_us\\fl\\us_fl_st_petersburg.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "steel-grey vinoy park promenade framed by trail signage during pre-dawn metro glow",
+        "cobble-wet pier marketplace entrance featuring steam vents amidst copper drizzle",
+        "pre-dawn pier marketplace entrance featuring hydrant sentinels amidst pre-dawn metro glow"
+      ]
+    },
+    {
+      "slug": "jacksonville",
+      "name": "Jacksonville – Riverside/Avondale",
+      "file": "app\\data\\locations_us\\fl\\us_fl_jacksonville.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "humid-midnight historic riverside avenue alongside awning stripes beneath desert wind bands",
+        "slate-washed historic riverside avenue beside palm shadows through summer heat shimmer",
+        "fog-swept riverwalk promenade bench alongside delivery carts beneath desert wind bands"
+      ]
+    },
+    {
+      "slug": "fort_lauderdale",
+      "name": "Fort Lauderdale – Las Olas/Beachfront",
+      "file": "app\\data\\locations_us\\fl\\us_fl_fort_lauderdale.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared beach park pavilion featuring stone balustrades amidst autumn mist drift",
+        "copper-lit las olas riverfront plaza featuring puddle mirrors amidst autumn mist drift",
+        "ocean-spray fort lauderdale beach promenade framed by dune fences during pre-dawn metro glow"
+      ]
+    },
+    {
+      "slug": "key_west",
+      "name": "Key West – Duval/Seaport",
+      "file": "app\\data\\locations_us\\fl\\us_fl_key_west.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "cast-iron duval pedestrian zone alongside newspaper boxes beneath desert wind bands",
+        "drizzle-slick key west harbor pier alongside hydrant sentinels beneath blue-hour hush",
+        "cobble-wet harbor-view restaurant deck alongside string lights beneath ocean spray shimmer"
+      ]
+    },
+    {
+      "slug": "west_palm_beach",
+      "name": "West Palm Beach – Clematis/Waterfront",
+      "file": "app\\data\\locations_us\\fl\\us_fl_west_palm_beach.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "storm-cleared rosemary square courtyard with puddle mirrors under autumn mist drift",
+        "slate-washed waterfront marina dock featuring steam vents amidst winter evening glow",
+        "blue-hour waterfront boardwalk pier alongside fire-escape shadows beneath blue-hour hush"
+      ]
+    }
+  ]
+}

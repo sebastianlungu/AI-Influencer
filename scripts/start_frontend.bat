@@ -1,10 +1,10 @@
 @echo off
 REM Frontend startup script with port cleanup for Windows
-REM Kills any process on port 5173, then starts Vite dev server
+REM Kills any process on port 5000, then starts Vite dev server
 
 setlocal enabledelayedexpansion
 
-set PORT=5173
+set PORT=5000
 set FRONTEND_DIR=%~dp0..\frontend
 
 echo.

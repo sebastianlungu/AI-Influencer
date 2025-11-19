@@ -1,0 +1,124 @@
+{
+  "destinations": [
+    {
+      "slug": "soho",
+      "name": "SoHo",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_soho.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "cast-iron cast-iron facade featuring steam vents amidst blue-hour hush",
+        "midnight-indigo industrial courtyard framed by bike racks during winter evening glow",
+        "midnight-indigo storefront alcove beside scaffolding tubes through sparkling midnight rain"
+      ]
+    },
+    {
+      "slug": "tribeca",
+      "name": "Tribeca",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_tribeca.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "blue-hour canal-side path beside wrought-iron fences through sparkling midnight rain",
+        "marquee-flecked cobble-paved plaza beside steam vents through snow-flurry shimmer",
+        "overcast soft converted loft entry featuring deli fruit bins amidst snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "west_village",
+      "name": "West Village",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_west_village.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "rain-glossed pocket park bench framed by umbrella canopies during copper drizzle",
+        "humid midnight corner cafe awning featuring hydrant sentinels amidst autumn mist drift",
+        "rain-glossed vintage lamppost corner featuring deli fruit bins amidst spring rain patter"
+      ]
+    },
+    {
+      "slug": "lower_east_side",
+      "name": "Lower East Side",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_lower_east_side.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "cobble-wet bodega entrance framed by scaffolding tubes during spring rain patter",
+        "marquee-flecked mural lane backdrop framed by chain-link patterns during autumn mist drift",
+        "midnight-indigo mural lane backdrop alongside newspaper boxes beneath pre-dawn metro glow"
+      ]
+    },
+    {
+      "slug": "chinatown",
+      "name": "Chinatown",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_chinatown.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "pre-dawn herbal shop entrance framed by granite balustrades during snow-flurry shimmer",
+        "midnight-indigo narrow market lane beside street lamp halos through humid midnight pulse",
+        "snow-swirled street food cart zone framed by newspaper boxes during spring rain patter"
+      ]
+    },
+    {
+      "slug": "fidi_bpc",
+      "name": "FiDi + BPC",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_fidi_bpc.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "steel-grey riverside esplanade beside planters through spring rain patter",
+        "pre-dawn steel-and-glass atrium beside scaffolding tubes through copper drizzle",
+        "neon-washed stone colonnade beside scaffolding tubes through snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "midtown",
+      "name": "Midtown 5th/Bryant",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_midtown.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "overcast soft historic building facade beside park benches through copper drizzle",
+        "winter-mist museum steps platform beside steam vents through summer heat shimmer",
+        "winter-mist fountain lip edge beside park benches through storm-cleared twilight"
+      ]
+    },
+    {
+      "slug": "times_square",
+      "name": "Times Square",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_times_square.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "dusk-toned plaza bench zone alongside hydrant sentinels beneath sparkling midnight rain",
+        "cobble-wet billboard wall base alongside hydrant sentinels beneath summer heat shimmer",
+        "grid-lit plaza bench zone featuring stacked milk crates amidst overcast noon clarity"
+      ]
+    },
+    {
+      "slug": "central_park",
+      "name": "Central Park South/North",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_central_park.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "neon-washed bethesda terrace featuring scaffolding tubes amidst winter evening glow",
+        "midnight-indigo bow bridge curve framed by granite balustrades during spring rain patter",
+        "cast-iron mall path colonnade alongside steam vents beneath pre-dawn metro glow"
+      ]
+    },
+    {
+      "slug": "harlem",
+      "name": "Harlem 125th",
+      "file": "app\\data\\locations_us\\us_newyork_manhattan_harlem.json",
+      "scene_count": 1000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "steam-veiled lenox avenue corner featuring deli fruit bins amidst sparkling midnight rain",
+        "river-breeze street vendor zone featuring bike racks amidst copper drizzle",
+        "cast-iron lenox avenue corner with hydrant sentinels under autumn mist drift"
+      ]
+    }
+  ]
+}

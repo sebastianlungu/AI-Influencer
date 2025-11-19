@@ -1,0 +1,124 @@
+{
+  "destinations": [
+    {
+      "slug": "austin_south_congress",
+      "name": "Austin – South Congress",
+      "file": "app\\data\\locations_us\\tx\\us_tx_austin_south_congress.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "graphite-hued bat bridge overlook with hydrant sentinels under copper drizzle",
+        "neon-washed vintage neon corner featuring steam vents amidst summer heat shimmer",
+        "fog-swept vintage neon corner featuring awning stripes amidst overcast noon clarity"
+      ]
+    },
+    {
+      "slug": "austin_rainey",
+      "name": "Austin – Rainey/Boardwalk",
+      "file": "app\\data\\locations_us\\tx\\us_tx_austin_rainey.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "twilight-dim rainey district corner beside trail signage through summer heat shimmer",
+        "overcast-soft lakefront trail bench beside chain-link patterns through ocean spray shimmer",
+        "marquee-flecked rainey street bungalow patio framed by bike racks during blue-hour hush"
+      ]
+    },
+    {
+      "slug": "dallas_arts_district",
+      "name": "Dallas – Arts District",
+      "file": "app\\data\\locations_us\\tx\\us_tx_dallas_arts_district.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "blue-hour downtown fountain edge beside planter boxes through ocean spray shimmer",
+        "graphite-hued nasher sculpture garden path framed by fire-escape shadows during humid midnight pulse",
+        "copper-lit urban park bench zone framed by granite balustrades during ocean spray shimmer"
+      ]
+    },
+    {
+      "slug": "dallas_deep_ellum",
+      "name": "Dallas – Deep Ellum",
+      "file": "app\\data\\locations_us\\tx\\us_tx_dallas_deep_ellum.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "twilight-dim deep ellum plaza bench framed by granite balustrades during summer heat shimmer",
+        "desert-dusk vintage theater marquee beside awning stripes through autumn mist drift",
+        "steam-veiled music venue patio with neon reflections under desert wind bands"
+      ]
+    },
+    {
+      "slug": "houston_museum_district",
+      "name": "Houston – Museum District",
+      "file": "app\\data\\locations_us\\tx\\us_tx_houston_museum_district.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "steel-grey fountain courtyard beside fire-escape shadows through snow-flurry shimmer",
+        "graphite-hued mcgovern lake boardwalk framed by string lights during snow-flurry shimmer",
+        "blue-hour museum entrance steps with reflective puddles under ocean spray shimmer"
+      ]
+    },
+    {
+      "slug": "houston_eado",
+      "name": "Houston – EaDo/Warehouse",
+      "file": "app\\data\\locations_us\\tx\\us_tx_houston_eado.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "pre-dawn graffiti alley corridor featuring delivery carts amidst sparkling midnight rain",
+        "desert-dusk warehouse brick facade with chain-link patterns under summer heat shimmer",
+        "winter-mist converted loft entrance with wrought-iron fences under humid midnight pulse"
+      ]
+    },
+    {
+      "slug": "san_antonio_riverwalk",
+      "name": "San Antonio – River Walk",
+      "file": "app\\data\\locations_us\\tx\\us_tx_san_antonio_riverwalk.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "pre-dawn historic mission facade framed by puddle mirrors during humid midnight pulse",
+        "desert-dusk riverwalk stone pathway featuring stone balustrades amidst autumn mist drift",
+        "twilight-dim river barge dock featuring handrails amidst sparkling midnight rain"
+      ]
+    },
+    {
+      "slug": "fort_worth_stockyards",
+      "name": "Fort Worth – Stockyards",
+      "file": "app\\data\\locations_us\\tx\\us_tx_fort_worth_stockyards.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "snow-swirled rodeo chute gate with delivery carts under snow-flurry shimmer",
+        "desert-dusk livestock pen rail beside awning stripes through winter evening glow",
+        "overcast-soft stockyards brick corridor alongside reflective puddles beneath snow-flurry shimmer"
+      ]
+    },
+    {
+      "slug": "el_paso",
+      "name": "El Paso – Downtown/Plaza",
+      "file": "app\\data\\locations_us\\tx\\us_tx_el_paso.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "desert-dusk downtown arts plaza beside wrought-iron fences through overcast noon clarity",
+        "grid-lit san jacinto plaza bench framed by puddle mirrors during copper drizzle",
+        "cast-iron downtown promenade framed by handrails during winter evening glow"
+      ]
+    },
+    {
+      "slug": "galveston",
+      "name": "Galveston – Strand/Seawall",
+      "file": "app\\data\\locations_us\\tx\\us_tx_galveston.json",
+      "scene_count": 5000,
+      "suppressed_bigrams": {},
+      "examples": [
+        "river-breeze pleasure pier entrance featuring puddle mirrors amidst pre-dawn metro glow",
+        "steam-veiled beach pavilion deck alongside scaffolding tubes beneath humid midnight pulse",
+        "storm-cleared seawall boulevard sidewalk beside wrought-iron fences through pre-dawn metro glow"
+      ]
+    }
+  ]
+}

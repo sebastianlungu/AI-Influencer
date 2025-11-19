@@ -1,0 +1,4050 @@
+{
+  "scenes": [
+    {
+      "text": "amber-glow corporate courtyard beside deli fruit bins through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow corporate courtyard beside stacked milk crates through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow corporate courtyard with stacked milk crates under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow corporate courtyard with street lamp halos under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow ferry slip platform beside traffic cone stacks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow ferry slip platform framed by newspaper boxes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow glass canyon corridor alongside stacked milk crates beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow glass canyon corridor beside awning stripes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow glass canyon corridor featuring chain-link patterns amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow glass canyon corridor framed by chain-link patterns during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow glass canyon corridor with fire-escape shadows under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow harbor-view terrace alongside neon reflections beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow harbor-view terrace alongside planters beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow harbor-view terrace beside delivery carts through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow harbor-view terrace featuring steam vents amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow harbor-view terrace framed by park benches during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow harbor-view terrace with chain-link patterns under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow historic building entrance beside newspaper boxes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow historic building entrance beside newspaper boxes through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow historic building entrance beside traffic cone stacks through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow historic building entrance with wrought-iron fences under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow marble lobby threshold alongside chain-link patterns beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow marble lobby threshold alongside planters beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow marble lobby threshold featuring chain-link patterns amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow marble lobby threshold featuring newspaper boxes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow marble lobby threshold with fire-escape shadows under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow memorial fountain edge beside awning stripes through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow memorial fountain edge beside bike racks through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow office tower lobby framed by street lamp halos during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow plaza bench array with delivery carts under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow river railing stretch beside wrought-iron fences through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow river railing stretch framed by stacked milk crates during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow river railing stretch framed by traffic cone stacks during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow river railing stretch framed by traffic cone stacks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow riverside esplanade featuring newspaper boxes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow riverside esplanade featuring street lamp halos amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow skyscraper base plaza beside traffic cone stacks through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow skyscraper base plaza featuring scaffolding tubes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow skyscraper base plaza featuring traffic cone stacks amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow skyscraper base plaza with awning stripes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow steel-and-glass atrium beside newspaper boxes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow steel-and-glass atrium beside planters through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow steel-and-glass atrium beside street lamp halos through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow steel-and-glass atrium framed by fire-escape shadows during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow steel-and-glass atrium framed by umbrella canopies during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow steel-and-glass atrium with scaffolding tubes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow stone colonnade alongside awning stripes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow stone colonnade alongside neon reflections beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow waterfront promenade beside puddle mirrors through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "amber-glow waterfront promenade framed by deli fruit bins during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour corporate courtyard alongside steam vents beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour harbor-view terrace featuring street lamp halos amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour harbor-view terrace with scaffolding tubes under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour historic building entrance featuring awning stripes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour historic building entrance with hydrant sentinels under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour marble lobby threshold featuring neon reflections amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour marble lobby threshold featuring planters amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour marble lobby threshold framed by awning stripes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour memorial fountain edge alongside planters beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour memorial fountain edge alongside traffic cone stacks beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour memorial fountain edge featuring park benches amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour memorial fountain edge framed by bike racks during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour memorial fountain edge with umbrella canopies under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour office tower lobby beside wrought-iron fences through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour plaza bench array featuring steam vents amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour river railing stretch framed by bike racks during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour skyscraper base plaza beside awning stripes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour skyscraper base plaza beside awning stripes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour steel-and-glass atrium beside scaffolding tubes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour steel-and-glass atrium featuring umbrella canopies amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour steel-and-glass atrium featuring umbrella canopies amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour steel-and-glass atrium framed by bike racks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour steel-and-glass atrium framed by scaffolding tubes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour steel-and-glass atrium with traffic cone stacks under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour stone colonnade beside puddle mirrors through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour stone colonnade featuring wrought-iron fences amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour waterfront promenade alongside planters beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour waterfront promenade framed by wrought-iron fences during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "blue-hour waterfront promenade with fire-escape shadows under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron ferry slip platform alongside scaffolding tubes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron ferry slip platform beside fire-escape shadows through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron glass canyon corridor featuring traffic cone stacks amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron glass canyon corridor featuring wrought-iron fences amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron glass canyon corridor framed by chain-link patterns during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron harbor-view terrace alongside umbrella canopies beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron harbor-view terrace featuring steam vents amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron harbor-view terrace with puddle mirrors under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron historic building entrance alongside puddle mirrors beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron historic building entrance framed by stacked milk crates during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron historic building entrance framed by street lamp halos during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron marble lobby threshold alongside hydrant sentinels beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron marble lobby threshold alongside newspaper boxes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron marble lobby threshold with neon reflections under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron memorial fountain edge beside bike racks through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron memorial fountain edge framed by awning stripes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron office tower lobby alongside wrought-iron fences beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron office tower lobby with awning stripes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron office tower lobby with stacked milk crates under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron office tower lobby with traffic cone stacks under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench array beside neon reflections through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench array beside planters through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench array featuring hydrant sentinels amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench array framed by scaffolding tubes during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron plaza bench array with traffic cone stacks under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron river railing stretch featuring chain-link patterns amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron river railing stretch featuring hydrant sentinels amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron riverside esplanade alongside street lamp halos beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron riverside esplanade with granite balustrades under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron skyscraper base plaza featuring fire-escape shadows amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron skyscraper base plaza framed by awning stripes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron skyscraper base plaza with delivery carts under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron steel-and-glass atrium beside neon reflections through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron steel-and-glass atrium featuring granite balustrades amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron steel-and-glass atrium featuring steam vents amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron steel-and-glass atrium with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron stone colonnade beside newspaper boxes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron stone colonnade with stacked milk crates under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron waterfront promenade alongside deli fruit bins beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cast-iron waterfront promenade beside delivery carts through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet corporate courtyard framed by umbrella canopies during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet ferry slip platform beside chain-link patterns through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet ferry slip platform beside puddle mirrors through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet ferry slip platform featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet ferry slip platform with street lamp halos under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet glass canyon corridor with chain-link patterns under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet harbor-view terrace alongside granite balustrades beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet harbor-view terrace alongside neon reflections beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet harbor-view terrace featuring scaffolding tubes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet harbor-view terrace featuring steam vents amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet harbor-view terrace framed by chain-link patterns during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet historic building entrance beside park benches through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet historic building entrance with neon reflections under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marble lobby threshold beside scaffolding tubes through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marble lobby threshold featuring delivery carts amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marble lobby threshold framed by puddle mirrors during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet marble lobby threshold with awning stripes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet memorial fountain edge featuring newspaper boxes amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet memorial fountain edge framed by bike racks during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench array beside scaffolding tubes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench array beside wrought-iron fences through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench array beside wrought-iron fences through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench array framed by wrought-iron fences during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet plaza bench array with steam vents under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet riverside esplanade alongside deli fruit bins beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet riverside esplanade featuring umbrella canopies amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet riverside esplanade framed by steam vents during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet skyscraper base plaza framed by granite balustrades during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet skyscraper base plaza with fire-escape shadows under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet steel-and-glass atrium beside stacked milk crates through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet steel-and-glass atrium framed by puddle mirrors during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet steel-and-glass atrium with awning stripes under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet stone colonnade alongside wrought-iron fences beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet stone colonnade beside delivery carts through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet stone colonnade beside fire-escape shadows through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet stone colonnade featuring umbrella canopies amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "cobble-wet stone colonnade with deli fruit bins under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit ferry slip platform framed by scaffolding tubes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit ferry slip platform with fire-escape shadows under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit ferry slip platform with street lamp halos under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit glass canyon corridor beside hydrant sentinels through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit glass canyon corridor featuring steam vents amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit glass canyon corridor framed by stacked milk crates during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit harbor-view terrace featuring fire-escape shadows amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit harbor-view terrace featuring granite balustrades amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit historic building entrance featuring granite balustrades amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit historic building entrance featuring hydrant sentinels amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit historic building entrance framed by bike racks during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit historic building entrance framed by park benches during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit marble lobby threshold framed by delivery carts during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge alongside steam vents beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge alongside umbrella canopies beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge featuring newspaper boxes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge framed by chain-link patterns during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge framed by park benches during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge framed by traffic cone stacks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit memorial fountain edge with stacked milk crates under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit office tower lobby beside neon reflections through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit office tower lobby framed by neon reflections during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit office tower lobby framed by planters during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit office tower lobby with scaffolding tubes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit plaza bench array beside planters through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit plaza bench array beside scaffolding tubes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit plaza bench array featuring chain-link patterns amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit plaza bench array featuring wrought-iron fences amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit plaza bench array framed by bike racks during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit river railing stretch featuring delivery carts amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit river railing stretch framed by park benches during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit river railing stretch with traffic cone stacks under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit riverside esplanade beside neon reflections through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit riverside esplanade featuring newspaper boxes amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit riverside esplanade framed by awning stripes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit riverside esplanade framed by planters during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit skyscraper base plaza alongside wrought-iron fences beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit skyscraper base plaza beside hydrant sentinels through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit skyscraper base plaza beside street lamp halos through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit steel-and-glass atrium beside bike racks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit stone colonnade featuring planters amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit stone colonnade framed by chain-link patterns during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit stone colonnade with bike racks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit waterfront promenade alongside newspaper boxes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit waterfront promenade framed by chain-link patterns during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit waterfront promenade framed by street lamp halos during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "copper-lit waterfront promenade with deli fruit bins under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick ferry slip platform featuring awning stripes amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick ferry slip platform framed by newspaper boxes during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick glass canyon corridor alongside granite balustrades beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick glass canyon corridor featuring wrought-iron fences amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick harbor-view terrace alongside steam vents beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick harbor-view terrace with steam vents under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick historic building entrance beside awning stripes through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick historic building entrance beside awning stripes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick historic building entrance beside awning stripes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick historic building entrance featuring steam vents amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick marble lobby threshold alongside neon reflections beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick marble lobby threshold alongside traffic cone stacks beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick marble lobby threshold beside delivery carts through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick memorial fountain edge beside hydrant sentinels through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick memorial fountain edge beside newspaper boxes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick memorial fountain edge featuring chain-link patterns amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick memorial fountain edge with deli fruit bins under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick office tower lobby alongside hydrant sentinels beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick office tower lobby alongside newspaper boxes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick office tower lobby featuring delivery carts amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick office tower lobby featuring steam vents amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick office tower lobby featuring wrought-iron fences amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick plaza bench array alongside newspaper boxes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick plaza bench array with park benches under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick river railing stretch alongside park benches beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick river railing stretch alongside scaffolding tubes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick river railing stretch alongside traffic cone stacks beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick river railing stretch beside delivery carts through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick river railing stretch framed by chain-link patterns during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick riverside esplanade beside newspaper boxes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick riverside esplanade beside planters through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick skyscraper base plaza alongside steam vents beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick skyscraper base plaza framed by newspaper boxes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick skyscraper base plaza framed by street lamp halos during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick steel-and-glass atrium beside bike racks through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick stone colonnade framed by planters during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "drizzle-slick waterfront promenade framed by fire-escape shadows during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corporate courtyard alongside deli fruit bins beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corporate courtyard alongside newspaper boxes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corporate courtyard featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corporate courtyard featuring planters amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned corporate courtyard framed by umbrella canopies during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned ferry slip platform alongside neon reflections beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned ferry slip platform featuring street lamp halos amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned ferry slip platform with chain-link patterns under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass canyon corridor alongside delivery carts beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass canyon corridor alongside delivery carts beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass canyon corridor featuring delivery carts amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass canyon corridor featuring stacked milk crates amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass canyon corridor framed by newspaper boxes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned glass canyon corridor framed by stacked milk crates during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned harbor-view terrace alongside traffic cone stacks beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned harbor-view terrace beside puddle mirrors through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned harbor-view terrace framed by scaffolding tubes during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned historic building entrance framed by street lamp halos during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned marble lobby threshold alongside street lamp halos beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned marble lobby threshold featuring bike racks amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned marble lobby threshold with chain-link patterns under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned marble lobby threshold with deli fruit bins under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned marble lobby threshold with fire-escape shadows under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned memorial fountain edge alongside granite balustrades beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned memorial fountain edge beside deli fruit bins through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned memorial fountain edge with fire-escape shadows under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby beside newspaper boxes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby beside stacked milk crates through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby beside umbrella canopies through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby featuring chain-link patterns amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby featuring deli fruit bins amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned office tower lobby with planters under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench array alongside traffic cone stacks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench array beside fire-escape shadows through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench array framed by steam vents during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned plaza bench array with chain-link patterns under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned river railing stretch alongside newspaper boxes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned riverside esplanade alongside fire-escape shadows beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned riverside esplanade alongside street lamp halos beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned riverside esplanade framed by puddle mirrors during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned riverside esplanade with scaffolding tubes under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned skyscraper base plaza alongside park benches beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned skyscraper base plaza alongside traffic cone stacks beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned skyscraper base plaza beside bike racks through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned skyscraper base plaza beside puddle mirrors through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned skyscraper base plaza featuring puddle mirrors amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned skyscraper base plaza featuring steam vents amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned steel-and-glass atrium beside park benches through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned steel-and-glass atrium framed by fire-escape shadows during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned stone colonnade alongside deli fruit bins beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned stone colonnade featuring puddle mirrors amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned stone colonnade framed by traffic cone stacks during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned waterfront promenade with deli fruit bins under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "dusk-toned waterfront promenade with wrought-iron fences under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corporate courtyard beside neon reflections through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corporate courtyard featuring traffic cone stacks amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corporate courtyard featuring umbrella canopies amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept corporate courtyard framed by scaffolding tubes during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept ferry slip platform alongside chain-link patterns beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept ferry slip platform alongside hydrant sentinels beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept ferry slip platform alongside neon reflections beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept ferry slip platform beside hydrant sentinels through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept glass canyon corridor beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept glass canyon corridor featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept harbor-view terrace beside street lamp halos through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept harbor-view terrace featuring chain-link patterns amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept harbor-view terrace featuring hydrant sentinels amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept harbor-view terrace framed by street lamp halos during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept harbor-view terrace framed by wrought-iron fences during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept harbor-view terrace with steam vents under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept historic building entrance alongside stacked milk crates beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept historic building entrance featuring park benches amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept historic building entrance featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept historic building entrance with granite balustrades under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept marble lobby threshold beside hydrant sentinels through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept marble lobby threshold with fire-escape shadows under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept marble lobby threshold with street lamp halos under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept memorial fountain edge with street lamp halos under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept office tower lobby alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept office tower lobby beside bike racks through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept office tower lobby beside delivery carts through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept office tower lobby featuring awning stripes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept office tower lobby featuring planters amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept office tower lobby featuring steam vents amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept plaza bench array beside wrought-iron fences through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept plaza bench array with delivery carts under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept plaza bench array with planters under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept river railing stretch beside newspaper boxes through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept river railing stretch beside steam vents through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept river railing stretch framed by bike racks during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept river railing stretch with bike racks under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept riverside esplanade framed by chain-link patterns during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept riverside esplanade framed by traffic cone stacks during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept skyscraper base plaza featuring delivery carts amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept skyscraper base plaza featuring newspaper boxes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept steel-and-glass atrium alongside bike racks beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept steel-and-glass atrium featuring steam vents amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept steel-and-glass atrium featuring traffic cone stacks amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept steel-and-glass atrium framed by deli fruit bins during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept steel-and-glass atrium with traffic cone stacks under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept stone colonnade alongside chain-link patterns beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept stone colonnade beside neon reflections through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept stone colonnade featuring granite balustrades amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept waterfront promenade alongside newspaper boxes beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept waterfront promenade framed by street lamp halos during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "fog-swept waterfront promenade with chain-link patterns under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued corporate courtyard featuring awning stripes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued corporate courtyard framed by granite balustrades during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued ferry slip platform beside traffic cone stacks through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued ferry slip platform featuring neon reflections amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued glass canyon corridor beside hydrant sentinels through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued glass canyon corridor beside street lamp halos through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued harbor-view terrace beside planters through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued harbor-view terrace featuring delivery carts amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued harbor-view terrace featuring hydrant sentinels amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued harbor-view terrace framed by chain-link patterns during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued historic building entrance featuring awning stripes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued marble lobby threshold alongside deli fruit bins beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued marble lobby threshold alongside hydrant sentinels beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued marble lobby threshold featuring fire-escape shadows amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued marble lobby threshold framed by hydrant sentinels during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued marble lobby threshold with awning stripes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued memorial fountain edge beside umbrella canopies through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued memorial fountain edge featuring fire-escape shadows amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued memorial fountain edge featuring newspaper boxes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued memorial fountain edge framed by steam vents during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued office tower lobby beside delivery carts through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench array alongside wrought-iron fences beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench array beside chain-link patterns through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench array featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued plaza bench array framed by awning stripes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch alongside awning stripes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch beside park benches through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch beside umbrella canopies through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch featuring chain-link patterns amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch framed by fire-escape shadows during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch framed by granite balustrades during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued river railing stretch with chain-link patterns under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued riverside esplanade alongside deli fruit bins beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued riverside esplanade with hydrant sentinels under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued skyscraper base plaza framed by park benches during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued skyscraper base plaza with street lamp halos under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued steel-and-glass atrium framed by awning stripes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued steel-and-glass atrium with delivery carts under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued steel-and-glass atrium with fire-escape shadows under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued stone colonnade alongside delivery carts beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued stone colonnade alongside puddle mirrors beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued waterfront promenade featuring traffic cone stacks amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued waterfront promenade featuring wrought-iron fences amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued waterfront promenade framed by awning stripes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued waterfront promenade with deli fruit bins under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "graphite-hued waterfront promenade with umbrella canopies under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corporate courtyard beside awning stripes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corporate courtyard framed by bike racks during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit corporate courtyard with planters under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit ferry slip platform with bike racks under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit glass canyon corridor beside hydrant sentinels through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit harbor-view terrace alongside chain-link patterns beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit harbor-view terrace beside stacked milk crates through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit harbor-view terrace featuring delivery carts amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit harbor-view terrace framed by awning stripes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit harbor-view terrace with neon reflections under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit historic building entrance beside chain-link patterns through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit historic building entrance featuring fire-escape shadows amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit marble lobby threshold beside deli fruit bins through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit marble lobby threshold with fire-escape shadows under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit memorial fountain edge featuring granite balustrades amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit memorial fountain edge with chain-link patterns under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit memorial fountain edge with delivery carts under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit office tower lobby featuring park benches amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit office tower lobby featuring puddle mirrors amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit office tower lobby featuring umbrella canopies amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit office tower lobby with planters under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit plaza bench array featuring newspaper boxes amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit plaza bench array with puddle mirrors under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit river railing stretch beside wrought-iron fences through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit river railing stretch with chain-link patterns under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit riverside esplanade featuring puddle mirrors amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit riverside esplanade framed by newspaper boxes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit riverside esplanade framed by stacked milk crates during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit riverside esplanade framed by umbrella canopies during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit skyscraper base plaza alongside puddle mirrors beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit skyscraper base plaza featuring planters amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit skyscraper base plaza framed by street lamp halos during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit skyscraper base plaza framed by umbrella canopies during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit skyscraper base plaza with delivery carts under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit steel-and-glass atrium beside newspaper boxes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit steel-and-glass atrium featuring chain-link patterns amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit waterfront promenade beside fire-escape shadows through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "grid-lit waterfront promenade framed by chain-link patterns during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corporate courtyard beside planters through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight corporate courtyard with planters under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight ferry slip platform featuring scaffolding tubes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight ferry slip platform framed by park benches during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight glass canyon corridor framed by chain-link patterns during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight glass canyon corridor framed by newspaper boxes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight harbor-view terrace featuring delivery carts amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight harbor-view terrace with planters under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight historic building entrance featuring planters amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight marble lobby threshold beside granite balustrades through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight marble lobby threshold framed by umbrella canopies during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight memorial fountain edge alongside stacked milk crates beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight office tower lobby beside deli fruit bins through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight office tower lobby beside granite balustrades through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight office tower lobby beside street lamp halos through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight office tower lobby with newspaper boxes under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench array alongside delivery carts beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench array beside chain-link patterns through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench array featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench array with granite balustrades under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight plaza bench array with steam vents under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight river railing stretch alongside street lamp halos beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight river railing stretch featuring chain-link patterns amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight river railing stretch with puddle mirrors under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight riverside esplanade alongside wrought-iron fences beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight riverside esplanade beside wrought-iron fences through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight skyscraper base plaza beside stacked milk crates through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight skyscraper base plaza featuring granite balustrades amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight skyscraper base plaza featuring stacked milk crates amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight skyscraper base plaza with steam vents under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium alongside awning stripes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium alongside granite balustrades beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium alongside park benches beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium alongside planters beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium alongside wrought-iron fences beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium beside chain-link patterns through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium beside hydrant sentinels through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium beside stacked milk crates through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium featuring awning stripes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium framed by puddle mirrors during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight steel-and-glass atrium with street lamp halos under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade beside delivery carts through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade beside puddle mirrors through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade beside umbrella canopies through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade featuring chain-link patterns amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade featuring granite balustrades amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade framed by fire-escape shadows during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight stone colonnade framed by granite balustrades during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight waterfront promenade alongside park benches beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "humid midnight waterfront promenade framed by granite balustrades during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked ferry slip platform alongside fire-escape shadows beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked ferry slip platform alongside street lamp halos beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked ferry slip platform featuring puddle mirrors amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked ferry slip platform framed by granite balustrades during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked ferry slip platform with street lamp halos under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked glass canyon corridor featuring steam vents amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked glass canyon corridor with neon reflections under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked harbor-view terrace alongside neon reflections beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked harbor-view terrace with umbrella canopies under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked historic building entrance alongside deli fruit bins beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked historic building entrance alongside wrought-iron fences beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked historic building entrance with traffic cone stacks under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked marble lobby threshold featuring delivery carts amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked marble lobby threshold featuring newspaper boxes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked marble lobby threshold framed by wrought-iron fences during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked memorial fountain edge beside park benches through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked memorial fountain edge beside traffic cone stacks through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked memorial fountain edge featuring chain-link patterns amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked memorial fountain edge framed by awning stripes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked memorial fountain edge framed by wrought-iron fences during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked memorial fountain edge with hydrant sentinels under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked office tower lobby beside scaffolding tubes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked office tower lobby with park benches under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked plaza bench array beside bike racks through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked plaza bench array with park benches under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked river railing stretch with bike racks under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked river railing stretch with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked riverside esplanade framed by planters during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked skyscraper base plaza alongside puddle mirrors beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked skyscraper base plaza framed by fire-escape shadows during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked skyscraper base plaza framed by fire-escape shadows during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked skyscraper base plaza with puddle mirrors under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked steel-and-glass atrium beside steam vents through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked steel-and-glass atrium framed by newspaper boxes during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked stone colonnade beside bike racks through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked stone colonnade featuring stacked milk crates amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked stone colonnade framed by stacked milk crates during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "marquee-flecked stone colonnade with planters under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo corporate courtyard beside scaffolding tubes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo corporate courtyard framed by bike racks during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo corporate courtyard with scaffolding tubes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo ferry slip platform beside scaffolding tubes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo ferry slip platform beside steam vents through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo ferry slip platform featuring puddle mirrors amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo ferry slip platform with newspaper boxes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo ferry slip platform with umbrella canopies under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo glass canyon corridor alongside street lamp halos beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo glass canyon corridor beside fire-escape shadows through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo harbor-view terrace framed by hydrant sentinels during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo harbor-view terrace framed by wrought-iron fences during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo harbor-view terrace with chain-link patterns under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo historic building entrance beside neon reflections through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo historic building entrance framed by scaffolding tubes during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo historic building entrance with scaffolding tubes under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo historic building entrance with wrought-iron fences under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marble lobby threshold featuring hydrant sentinels amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marble lobby threshold featuring traffic cone stacks amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo marble lobby threshold with hydrant sentinels under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo memorial fountain edge alongside fire-escape shadows beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo memorial fountain edge alongside newspaper boxes beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo memorial fountain edge alongside wrought-iron fences beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo memorial fountain edge beside granite balustrades through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo office tower lobby framed by delivery carts during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo office tower lobby framed by scaffolding tubes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo office tower lobby with delivery carts under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo office tower lobby with hydrant sentinels under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo office tower lobby with puddle mirrors under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo office tower lobby with wrought-iron fences under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo plaza bench array beside bike racks through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo plaza bench array featuring neon reflections amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo plaza bench array framed by fire-escape shadows during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo river railing stretch alongside stacked milk crates beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo river railing stretch beside deli fruit bins through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo river railing stretch framed by delivery carts during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo riverside esplanade featuring wrought-iron fences amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo riverside esplanade framed by steam vents during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo riverside esplanade with newspaper boxes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo riverside esplanade with park benches under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo steel-and-glass atrium alongside street lamp halos beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo steel-and-glass atrium beside fire-escape shadows through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo steel-and-glass atrium featuring newspaper boxes amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo steel-and-glass atrium framed by fire-escape shadows during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "midnight-indigo steel-and-glass atrium framed by neon reflections during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed corporate courtyard framed by fire-escape shadows during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed corporate courtyard with bike racks under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed ferry slip platform alongside fire-escape shadows beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed ferry slip platform framed by deli fruit bins during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed ferry slip platform with awning stripes under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed ferry slip platform with chain-link patterns under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed ferry slip platform with park benches under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed ferry slip platform with umbrella canopies under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed glass canyon corridor featuring fire-escape shadows amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed glass canyon corridor framed by planters during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed glass canyon corridor with delivery carts under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed harbor-view terrace beside deli fruit bins through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed harbor-view terrace framed by wrought-iron fences during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed historic building entrance with delivery carts under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed marble lobby threshold beside street lamp halos through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed marble lobby threshold with bike racks under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed office tower lobby beside puddle mirrors through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed office tower lobby featuring awning stripes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed plaza bench array featuring chain-link patterns amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed river railing stretch beside deli fruit bins through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed river railing stretch featuring newspaper boxes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed river railing stretch framed by umbrella canopies during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed riverside esplanade beside awning stripes through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed riverside esplanade framed by park benches during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed skyscraper base plaza alongside umbrella canopies beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed skyscraper base plaza beside deli fruit bins through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed skyscraper base plaza with awning stripes under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed steel-and-glass atrium alongside scaffolding tubes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed steel-and-glass atrium alongside street lamp halos beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed steel-and-glass atrium beside hydrant sentinels through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed steel-and-glass atrium framed by puddle mirrors during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed stone colonnade beside scaffolding tubes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed stone colonnade featuring wrought-iron fences amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed stone colonnade with street lamp halos under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed waterfront promenade beside scaffolding tubes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed waterfront promenade beside scaffolding tubes through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed waterfront promenade featuring newspaper boxes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "neon-washed waterfront promenade framed by stacked milk crates during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft corporate courtyard alongside steam vents beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft corporate courtyard featuring steam vents amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft corporate courtyard framed by puddle mirrors during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft corporate courtyard with planters under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft ferry slip platform alongside neon reflections beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft ferry slip platform framed by awning stripes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft glass canyon corridor alongside granite balustrades beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft glass canyon corridor featuring steam vents amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft glass canyon corridor framed by bike racks during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft harbor-view terrace alongside awning stripes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft harbor-view terrace featuring hydrant sentinels amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft harbor-view terrace framed by steam vents during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft historic building entrance with planters under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft marble lobby threshold beside awning stripes through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft marble lobby threshold featuring granite balustrades amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft memorial fountain edge framed by delivery carts during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft memorial fountain edge framed by scaffolding tubes during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft memorial fountain edge with umbrella canopies under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft memorial fountain edge with wrought-iron fences under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft office tower lobby with granite balustrades under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench array alongside awning stripes beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench array beside scaffolding tubes through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench array featuring traffic cone stacks amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench array framed by neon reflections during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft plaza bench array framed by park benches during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft river railing stretch beside deli fruit bins through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft river railing stretch beside umbrella canopies through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft river railing stretch featuring granite balustrades amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft river railing stretch featuring planters amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft river railing stretch framed by newspaper boxes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft riverside esplanade alongside traffic cone stacks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft riverside esplanade framed by wrought-iron fences during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft riverside esplanade with fire-escape shadows under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft skyscraper base plaza alongside wrought-iron fences beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft skyscraper base plaza beside street lamp halos through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft skyscraper base plaza featuring newspaper boxes amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft steel-and-glass atrium beside delivery carts through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft steel-and-glass atrium featuring neon reflections amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft stone colonnade beside fire-escape shadows through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft stone colonnade beside newspaper boxes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "overcast soft stone colonnade with puddle mirrors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn corporate courtyard alongside scaffolding tubes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn ferry slip platform framed by stacked milk crates during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn glass canyon corridor alongside bike racks beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn glass canyon corridor alongside park benches beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn glass canyon corridor with street lamp halos under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn glass canyon corridor with wrought-iron fences under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn harbor-view terrace framed by scaffolding tubes during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn historic building entrance beside stacked milk crates through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn marble lobby threshold alongside deli fruit bins beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn marble lobby threshold alongside puddle mirrors beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn memorial fountain edge beside steam vents through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn memorial fountain edge featuring street lamp halos amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn memorial fountain edge featuring traffic cone stacks amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn memorial fountain edge with umbrella canopies under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn memorial fountain edge with wrought-iron fences under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn office tower lobby framed by umbrella canopies during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn plaza bench array alongside newspaper boxes beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn river railing stretch alongside park benches beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn river railing stretch alongside stacked milk crates beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn river railing stretch with planters under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn riverside esplanade alongside newspaper boxes beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn riverside esplanade beside bike racks through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn riverside esplanade with neon reflections under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn steel-and-glass atrium beside scaffolding tubes through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn steel-and-glass atrium featuring park benches amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn stone colonnade beside hydrant sentinels through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn stone colonnade featuring scaffolding tubes amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn stone colonnade framed by wrought-iron fences during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn waterfront promenade featuring scaffolding tubes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "pre-dawn waterfront promenade with steam vents under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corporate courtyard alongside planters beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corporate courtyard beside stacked milk crates through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corporate courtyard featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed corporate courtyard with delivery carts under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed ferry slip platform alongside umbrella canopies beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed ferry slip platform beside fire-escape shadows through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed ferry slip platform featuring hydrant sentinels amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed ferry slip platform with street lamp halos under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed glass canyon corridor featuring street lamp halos amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed glass canyon corridor framed by street lamp halos during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed harbor-view terrace alongside scaffolding tubes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed harbor-view terrace beside park benches through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed harbor-view terrace beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed harbor-view terrace framed by park benches during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed harbor-view terrace framed by wrought-iron fences during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed harbor-view terrace with awning stripes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed historic building entrance featuring stacked milk crates amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed historic building entrance featuring umbrella canopies amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed historic building entrance framed by fire-escape shadows during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed historic building entrance with awning stripes under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed historic building entrance with scaffolding tubes under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed marble lobby threshold beside planters through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed marble lobby threshold framed by hydrant sentinels during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed marble lobby threshold framed by scaffolding tubes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed marble lobby threshold with scaffolding tubes under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed office tower lobby beside delivery carts through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed office tower lobby framed by deli fruit bins during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed office tower lobby framed by scaffolding tubes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed office tower lobby with street lamp halos under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed plaza bench array with puddle mirrors under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed river railing stretch alongside chain-link patterns beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed river railing stretch alongside umbrella canopies beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed river railing stretch featuring chain-link patterns amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed river railing stretch with bike racks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed riverside esplanade featuring deli fruit bins amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed riverside esplanade featuring puddle mirrors amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed skyscraper base plaza alongside umbrella canopies beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed skyscraper base plaza featuring wrought-iron fences amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed steel-and-glass atrium alongside delivery carts beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed steel-and-glass atrium beside fire-escape shadows through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed steel-and-glass atrium beside newspaper boxes through pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed steel-and-glass atrium featuring granite balustrades amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed steel-and-glass atrium framed by hydrant sentinels during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed steel-and-glass atrium with granite balustrades under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed stone colonnade with stacked milk crates under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed waterfront promenade beside awning stripes through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed waterfront promenade framed by deli fruit bins during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "rain-glossed waterfront promenade framed by planters during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze corporate courtyard alongside planters beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze corporate courtyard alongside street lamp halos beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze corporate courtyard beside wrought-iron fences through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze corporate courtyard with street lamp halos under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze glass canyon corridor alongside street lamp halos beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze glass canyon corridor beside bike racks through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze glass canyon corridor beside planters through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze glass canyon corridor with traffic cone stacks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze glass canyon corridor with wrought-iron fences under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze harbor-view terrace alongside chain-link patterns beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze harbor-view terrace alongside traffic cone stacks beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze harbor-view terrace framed by neon reflections during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze harbor-view terrace framed by planters during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze historic building entrance featuring hydrant sentinels amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze marble lobby threshold beside chain-link patterns through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze marble lobby threshold with chain-link patterns under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze marble lobby threshold with park benches under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze marble lobby threshold with park benches under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze memorial fountain edge framed by chain-link patterns during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze office tower lobby with stacked milk crates under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze office tower lobby with traffic cone stacks under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze plaza bench array alongside umbrella canopies beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze plaza bench array framed by chain-link patterns during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze plaza bench array with planters under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze river railing stretch alongside granite balustrades beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze river railing stretch featuring deli fruit bins amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze river railing stretch framed by street lamp halos during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze river railing stretch with granite balustrades under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze skyscraper base plaza framed by traffic cone stacks during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze steel-and-glass atrium alongside deli fruit bins beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze steel-and-glass atrium featuring puddle mirrors amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze steel-and-glass atrium with deli fruit bins under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze steel-and-glass atrium with park benches under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze stone colonnade beside steam vents through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze stone colonnade with delivery carts under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze stone colonnade with puddle mirrors under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze waterfront promenade beside wrought-iron fences through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "river-breeze waterfront promenade framed by hydrant sentinels during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed corporate courtyard alongside awning stripes beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed corporate courtyard alongside hydrant sentinels beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed corporate courtyard beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed corporate courtyard with neon reflections under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed ferry slip platform alongside hydrant sentinels beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed glass canyon corridor alongside deli fruit bins beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed glass canyon corridor beside delivery carts through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed glass canyon corridor with scaffolding tubes under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed historic building entrance featuring street lamp halos amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed historic building entrance framed by fire-escape shadows during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed marble lobby threshold featuring bike racks amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed marble lobby threshold featuring puddle mirrors amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed marble lobby threshold framed by newspaper boxes during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed marble lobby threshold with planters under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed memorial fountain edge with bike racks under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed office tower lobby featuring street lamp halos amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed plaza bench array beside street lamp halos through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed river railing stretch alongside delivery carts beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed river railing stretch beside scaffolding tubes through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed river railing stretch with deli fruit bins under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed riverside esplanade framed by chain-link patterns during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed skyscraper base plaza framed by stacked milk crates during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed steel-and-glass atrium beside traffic cone stacks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed stone colonnade with bike racks under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed waterfront promenade beside planters through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "slate-washed waterfront promenade framed by stacked milk crates during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled corporate courtyard alongside traffic cone stacks beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled corporate courtyard beside umbrella canopies through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled ferry slip platform framed by planters during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled glass canyon corridor alongside umbrella canopies beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled glass canyon corridor beside chain-link patterns through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled glass canyon corridor beside deli fruit bins through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled glass canyon corridor framed by umbrella canopies during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled harbor-view terrace alongside stacked milk crates beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled harbor-view terrace beside fire-escape shadows through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled harbor-view terrace beside neon reflections through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled historic building entrance alongside neon reflections beneath snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled historic building entrance alongside umbrella canopies beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled historic building entrance beside fire-escape shadows through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled marble lobby threshold alongside street lamp halos beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled marble lobby threshold beside umbrella canopies through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled marble lobby threshold featuring delivery carts amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled marble lobby threshold featuring scaffolding tubes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled marble lobby threshold featuring street lamp halos amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled memorial fountain edge framed by street lamp halos during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled plaza bench array alongside stacked milk crates beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled river railing stretch featuring fire-escape shadows amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled riverside esplanade framed by awning stripes during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled riverside esplanade with awning stripes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled skyscraper base plaza framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled skyscraper base plaza framed by fire-escape shadows during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled skyscraper base plaza framed by park benches during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled steel-and-glass atrium featuring hydrant sentinels amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled steel-and-glass atrium featuring steam vents amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled steel-and-glass atrium with chain-link patterns under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled steel-and-glass atrium with stacked milk crates under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled stone colonnade framed by traffic cone stacks during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled waterfront promenade framed by street lamp halos during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "snow-swirled waterfront promenade framed by umbrella canopies during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corporate courtyard beside delivery carts through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corporate courtyard beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim corporate courtyard with puddle mirrors under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim ferry slip platform alongside deli fruit bins beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim ferry slip platform featuring delivery carts amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim ferry slip platform featuring granite balustrades amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim ferry slip platform framed by bike racks during autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim harbor-view terrace framed by scaffolding tubes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim historic building entrance with scaffolding tubes under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim marble lobby threshold beside neon reflections through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim marble lobby threshold beside scaffolding tubes through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim marble lobby threshold framed by wrought-iron fences during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim marble lobby threshold with steam vents under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim memorial fountain edge featuring street lamp halos amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim memorial fountain edge featuring wrought-iron fences amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim memorial fountain edge framed by stacked milk crates during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim memorial fountain edge with hydrant sentinels under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim office tower lobby featuring scaffolding tubes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim office tower lobby framed by street lamp halos during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim office tower lobby with wrought-iron fences under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim plaza bench array framed by street lamp halos during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim plaza bench array with umbrella canopies under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim river railing stretch featuring newspaper boxes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim riverside esplanade alongside newspaper boxes beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim skyscraper base plaza alongside bike racks beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim skyscraper base plaza alongside hydrant sentinels beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim steel-and-glass atrium beside wrought-iron fences through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim steel-and-glass atrium with park benches under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim stone colonnade beside deli fruit bins through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim stone colonnade beside stacked milk crates through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim waterfront promenade beside umbrella canopies through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "sodium-rim waterfront promenade featuring umbrella canopies amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled corporate courtyard alongside park benches beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled corporate courtyard alongside puddle mirrors beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled ferry slip platform featuring chain-link patterns amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled ferry slip platform featuring wrought-iron fences amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled ferry slip platform with deli fruit bins under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled ferry slip platform with steam vents under blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled glass canyon corridor alongside neon reflections beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled glass canyon corridor beside bike racks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled glass canyon corridor beside traffic cone stacks through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled glass canyon corridor framed by planters during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled glass canyon corridor with bike racks under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled harbor-view terrace beside newspaper boxes through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled harbor-view terrace featuring park benches amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled historic building entrance framed by delivery carts during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled historic building entrance with delivery carts under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled historic building entrance with wrought-iron fences under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled marble lobby threshold alongside planters beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled marble lobby threshold beside chain-link patterns through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled marble lobby threshold featuring puddle mirrors amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled memorial fountain edge featuring newspaper boxes amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled memorial fountain edge with traffic cone stacks under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled office tower lobby alongside park benches beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled plaza bench array alongside umbrella canopies beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled plaza bench array featuring deli fruit bins amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled river railing stretch beside hydrant sentinels through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled river railing stretch framed by park benches during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled riverside esplanade alongside bike racks beneath humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled skyscraper base plaza beside steam vents through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled skyscraper base plaza featuring stacked milk crates amidst copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled skyscraper base plaza with delivery carts under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled stone colonnade alongside hydrant sentinels beneath winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled stone colonnade with steam vents under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled stone colonnade with traffic cone stacks under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled waterfront promenade featuring awning stripes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled waterfront promenade featuring neon reflections amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steam-veiled waterfront promenade framed by stacked milk crates during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey corporate courtyard featuring chain-link patterns amidst overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey corporate courtyard framed by park benches during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey corporate courtyard with awning stripes under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey ferry slip platform alongside wrought-iron fences beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey ferry slip platform beside traffic cone stacks through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey glass canyon corridor with traffic cone stacks under sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey historic building entrance framed by steam vents during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey marble lobby threshold alongside neon reflections beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey marble lobby threshold alongside traffic cone stacks beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey memorial fountain edge alongside steam vents beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey memorial fountain edge beside umbrella canopies through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey memorial fountain edge framed by umbrella canopies during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey office tower lobby beside fire-escape shadows through copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey office tower lobby beside park benches through sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey office tower lobby featuring delivery carts amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey office tower lobby featuring steam vents amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey office tower lobby framed by neon reflections during humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey office tower lobby with traffic cone stacks under snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey plaza bench array with hydrant sentinels under pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey river railing stretch featuring traffic cone stacks amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey river railing stretch framed by fire-escape shadows during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey river railing stretch with bike racks under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey river railing stretch with traffic cone stacks under spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey riverside esplanade beside fire-escape shadows through humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey riverside esplanade beside planters through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey skyscraper base plaza beside traffic cone stacks through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey skyscraper base plaza with deli fruit bins under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey steel-and-glass atrium alongside chain-link patterns beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey steel-and-glass atrium alongside granite balustrades beneath spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey steel-and-glass atrium beside planters through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey steel-and-glass atrium featuring bike racks amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey stone colonnade featuring delivery carts amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey waterfront promenade featuring hydrant sentinels amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "steel-grey waterfront promenade featuring wrought-iron fences amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corporate courtyard alongside bike racks beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corporate courtyard featuring steam vents amidst spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corporate courtyard framed by traffic cone stacks during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim corporate courtyard with fire-escape shadows under winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim ferry slip platform featuring newspaper boxes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim glass canyon corridor framed by bike racks during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim glass canyon corridor with street lamp halos under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim harbor-view terrace framed by scaffolding tubes during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim historic building entrance beside puddle mirrors through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim historic building entrance featuring fire-escape shadows amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim historic building entrance framed by hydrant sentinels during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim marble lobby threshold alongside fire-escape shadows beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim marble lobby threshold featuring awning stripes amidst humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim marble lobby threshold with wrought-iron fences under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge alongside chain-link patterns beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge alongside delivery carts beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge alongside newspaper boxes beneath copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge framed by planters during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge framed by traffic cone stacks during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge with hydrant sentinels under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim memorial fountain edge with park benches under autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim office tower lobby beside steam vents through snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench array featuring delivery carts amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench array featuring newspaper boxes amidst pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench array featuring street lamp halos amidst storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim plaza bench array with traffic cone stacks under copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim river railing stretch beside stacked milk crates through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim river railing stretch framed by chain-link patterns during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim riverside esplanade alongside street lamp halos beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim riverside esplanade framed by awning stripes during blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim riverside esplanade framed by delivery carts during overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim riverside esplanade framed by street lamp halos during spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim skyscraper base plaza beside granite balustrades through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim skyscraper base plaza beside street lamp halos through overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim skyscraper base plaza featuring steam vents amidst blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim skyscraper base plaza featuring traffic cone stacks amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim steel-and-glass atrium alongside stacked milk crates beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim steel-and-glass atrium framed by deli fruit bins during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim stone colonnade beside fire-escape shadows through autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim stone colonnade featuring stacked milk crates amidst sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim stone colonnade framed by neon reflections during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim waterfront promenade beside scaffolding tubes through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim waterfront promenade featuring deli fruit bins amidst snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "twilight-dim waterfront promenade with park benches under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist corporate courtyard alongside hydrant sentinels beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist corporate courtyard beside wrought-iron fences through summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist ferry slip platform featuring bike racks amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist ferry slip platform framed by steam vents during sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist glass canyon corridor alongside scaffolding tubes beneath overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist glass canyon corridor framed by granite balustrades during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist glass canyon corridor framed by steam vents during storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist harbor-view terrace alongside umbrella canopies beneath blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist harbor-view terrace with fire-escape shadows under humid midnight pulse",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist historic building entrance beside street lamp halos through winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist historic building entrance framed by deli fruit bins during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist historic building entrance with hydrant sentinels under storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist marble lobby threshold alongside steam vents beneath sparkling midnight rain",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist marble lobby threshold alongside umbrella canopies beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist marble lobby threshold framed by delivery carts during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist marble lobby threshold with neon reflections under overcast noon clarity",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist office tower lobby alongside bike racks beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist office tower lobby beside neon reflections through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist office tower lobby beside puddle mirrors through storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist office tower lobby featuring granite balustrades amidst winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist office tower lobby with hydrant sentinels under summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist plaza bench array alongside umbrella canopies beneath storm-cleared twilight",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist plaza bench array beside neon reflections through spring rain patter",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist plaza bench array featuring newspaper boxes amidst summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist plaza bench array framed by granite balustrades during pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist river railing stretch framed by fire-escape shadows during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist riverside esplanade framed by hydrant sentinels during snow-flurry shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist skyscraper base plaza alongside newspaper boxes beneath pre-dawn metro glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist steel-and-glass atrium alongside umbrella canopies beneath summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist steel-and-glass atrium beside delivery carts through blue-hour hush",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist steel-and-glass atrium framed by awning stripes during winter evening glow",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist stone colonnade alongside deli fruit bins beneath autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist stone colonnade featuring awning stripes amidst autumn mist drift",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist stone colonnade framed by hydrant sentinels during summer heat shimmer",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist stone colonnade framed by wrought-iron fences during copper drizzle",
+      "weight": 1.0
+    },
+    {
+      "text": "winter-mist stone colonnade with traffic cone stacks under humid midnight pulse",
+      "weight": 1.0
+    }
+  ],
+  "overrides": {
+    "accessories": [
+      {
+        "text": "graphite briefcase handle grip",
+        "weight": 0.6
+      },
+      {
+        "text": "steel cufflink glint",
+        "weight": 0.5
+      },
+      {
+        "text": "minimalist leather card holder",
+        "weight": 0.6
+      },
+      {
+        "text": "orchid silk pocket square tip",
+        "weight": 0.5
+      },
+      {
+        "text": "smartwatch band reflection",
+        "weight": 0.6
+      }
+    ],
+    "twist": [
+      {
+        "text": "glass facade reflection layering scene",
+        "weight": 0.6
+      },
+      {
+        "text": "ferry wake mist drifting inward",
+        "weight": 0.6
+      },
+      {
+        "text": "wind tunnel effect through canyon",
+        "weight": 0.5
+      },
+      {
+        "text": "plaza fountain spray catching light",
+        "weight": 0.5
+      },
+      {
+        "text": "helicopter thrum overhead vibrating air",
+        "weight": 0.4
+      }
+    ]
+  }
+}

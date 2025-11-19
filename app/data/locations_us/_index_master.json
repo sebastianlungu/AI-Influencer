@@ -1,0 +1,94 @@
+{
+  "states": [
+    {
+      "state": "ca",
+      "name": "California",
+      "destinations": 10,
+      "total_scenes": 50000,
+      "files": [
+        "app\\data\\locations_us\\ca\\us_ca_sf_embarcadero_fidi.json",
+        "app\\data\\locations_us\\ca\\us_ca_sf_mission_valencia.json",
+        "app\\data\\locations_us\\ca\\us_ca_la_arts_district.json",
+        "app\\data\\locations_us\\ca\\us_ca_la_venice_boardwalk.json",
+        "app\\data\\locations_us\\ca\\us_ca_la_griffith_los_feliz.json",
+        "app\\data\\locations_us\\ca\\us_ca_sd_gaslamp_harbor.json",
+        "app\\data\\locations_us\\ca\\us_ca_santa_monica.json",
+        "app\\data\\locations_us\\ca\\us_ca_palm_springs.json",
+        "app\\data\\locations_us\\ca\\us_ca_napa.json",
+        "app\\data\\locations_us\\ca\\us_ca_sacramento.json"
+      ]
+    },
+    {
+      "state": "tx",
+      "name": "Texas",
+      "destinations": 10,
+      "total_scenes": 50000,
+      "files": [
+        "app\\data\\locations_us\\tx\\us_tx_austin_south_congress.json",
+        "app\\data\\locations_us\\tx\\us_tx_austin_rainey.json",
+        "app\\data\\locations_us\\tx\\us_tx_dallas_arts_district.json",
+        "app\\data\\locations_us\\tx\\us_tx_dallas_deep_ellum.json",
+        "app\\data\\locations_us\\tx\\us_tx_houston_museum_district.json",
+        "app\\data\\locations_us\\tx\\us_tx_houston_eado.json",
+        "app\\data\\locations_us\\tx\\us_tx_san_antonio_riverwalk.json",
+        "app\\data\\locations_us\\tx\\us_tx_fort_worth_stockyards.json",
+        "app\\data\\locations_us\\tx\\us_tx_el_paso.json",
+        "app\\data\\locations_us\\tx\\us_tx_galveston.json"
+      ]
+    },
+    {
+      "state": "fl",
+      "name": "Florida",
+      "destinations": 10,
+      "total_scenes": 50000,
+      "files": [
+        "app\\data\\locations_us\\fl\\us_fl_miami_wynwood.json",
+        "app\\data\\locations_us\\fl\\us_fl_miami_south_beach.json",
+        "app\\data\\locations_us\\fl\\us_fl_miami_brickell.json",
+        "app\\data\\locations_us\\fl\\us_fl_orlando_lake_eola.json",
+        "app\\data\\locations_us\\fl\\us_fl_tampa_riverwalk.json",
+        "app\\data\\locations_us\\fl\\us_fl_st_petersburg.json",
+        "app\\data\\locations_us\\fl\\us_fl_jacksonville.json",
+        "app\\data\\locations_us\\fl\\us_fl_fort_lauderdale.json",
+        "app\\data\\locations_us\\fl\\us_fl_key_west.json",
+        "app\\data\\locations_us\\fl\\us_fl_west_palm_beach.json"
+      ]
+    },
+    {
+      "state": "il",
+      "name": "Illinois",
+      "destinations": 10,
+      "total_scenes": 50000,
+      "files": [
+        "app\\data\\locations_us\\il\\us_il_chicago_riverwalk_loop.json",
+        "app\\data\\locations_us\\il\\us_il_chicago_west_loop.json",
+        "app\\data\\locations_us\\il\\us_il_chicago_wicker_park.json",
+        "app\\data\\locations_us\\il\\us_il_chicago_lincoln_park.json",
+        "app\\data\\locations_us\\il\\us_il_chicago_hyde_park.json",
+        "app\\data\\locations_us\\il\\us_il_evanston.json",
+        "app\\data\\locations_us\\il\\us_il_oak_park.json",
+        "app\\data\\locations_us\\il\\us_il_naperville.json",
+        "app\\data\\locations_us\\il\\us_il_schaumburg.json",
+        "app\\data\\locations_us\\il\\us_il_aurora.json"
+      ]
+    },
+    {
+      "state": "nv",
+      "name": "Nevada",
+      "destinations": 10,
+      "total_scenes": 50000,
+      "files": [
+        "app\\data\\locations_us\\nv\\us_nv_vegas_strip.json",
+        "app\\data\\locations_us\\nv\\us_nv_vegas_arts_district.json",
+        "app\\data\\locations_us\\nv\\us_nv_vegas_fremont.json",
+        "app\\data\\locations_us\\nv\\us_nv_henderson.json",
+        "app\\data\\locations_us\\nv\\us_nv_summerlin.json",
+        "app\\data\\locations_us\\nv\\us_nv_reno_riverwalk.json",
+        "app\\data\\locations_us\\nv\\us_nv_reno_whitewater.json",
+        "app\\data\\locations_us\\nv\\us_nv_carson_city.json",
+        "app\\data\\locations_us\\nv\\us_nv_boulder_city.json",
+        "app\\data\\locations_us\\nv\\us_nv_lake_tahoe_nv.json"
+      ]
+    }
+  ]
+}
