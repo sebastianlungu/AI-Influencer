@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BACKEND_PORT=8000
-FRONTEND_PORT=5000
+BACKEND_PORT=3590
+FRONTEND_PORT=3589
 
 echo "🧹 Cleaning up ports..."
 

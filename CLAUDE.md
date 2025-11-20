@@ -25,8 +25,8 @@
 - **Tooling:** UV ONLY, ruff, mypy
 
 **Dev URLs:**
-- Backend: `http://localhost:8000`
-- Frontend: `http://localhost:5000`
+- Backend: `http://localhost:3590`
+- Frontend: `http://localhost:3589`
 
 ## Repo Layout (Authoritative)
 
@@ -177,7 +177,7 @@ scripts\dev_run.bat      # Windows
 ```
 
 **Commands:**
-- Backend: `uv run uvicorn app.main:app --reload --port 8000`
+- Backend: `uv run uvicorn app.main:app --reload --port 3590`
 - Frontend: `cd frontend && npm run dev`
 - Lint: `uv run ruff check backend`
 - Type check: `uv run mypy backend`

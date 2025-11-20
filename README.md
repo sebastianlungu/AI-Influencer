@@ -146,14 +146,14 @@ cp .env.example .env
 bash scripts/dev_run.sh
 
 # OR run separately:
-# Backend: uv run uvicorn app.main:app --reload --port 8000
+# Backend: uv run uvicorn app.main:app --reload --port 3590
 # Frontend: cd frontend && npm run dev
 ```
 
 **Access**:
-- Frontend: http://localhost:5000
-- Backend API: http://localhost:8000
-- API Docs: http://localhost:8000/docs
+- Frontend: http://localhost:3589
+- Backend API: http://localhost:3590
+- API Docs: http://localhost:3590/docs
 
 ### First Run
 
@@ -162,7 +162,7 @@ bash scripts/dev_run.sh
    GROK_API_KEY=xai-your-key-here
    ```
 
-2. **Navigate to Prompt Lab** (http://localhost:5000 or press Ctrl+P)
+2. **Navigate to Prompt Lab** (http://localhost:3589 or press Ctrl+P)
 
 3. **Generate Prompts**:
    - Enter setting: "luxury penthouse rooftop at golden hour"
@@ -515,7 +515,7 @@ she resets a wrist wrap on a steady breath; finish eye-level three-quarter."
 | Install deps | `uv sync` |
 | Add dependency | `uv add <package>` |
 | Add dev dependency | `uv add --dev <package>` |
-| Run backend | `uv run uvicorn app.main:app --reload --port 8000` |
+| Run backend | `uv run uvicorn app.main:app --reload --port 3590` |
 | Run tests | `uv run pytest -q` |
 | Lint | `uv run ruff check backend` |
 | Type check | `uv run mypy backend` |
@@ -581,8 +581,8 @@ ai-influencer/
 **Fix**: Run `uv sync` and `source .venv/bin/activate`
 
 ### Frontend "Cannot connect to backend"
-**Cause**: Backend not running on port 8000
-**Fix**: Run `uv run uvicorn app.main:app --reload --port 8000`
+**Cause**: Backend not running on port 3590
+**Fix**: Run `uv run uvicorn app.main:app --reload --port 3590`
 
 ---
 

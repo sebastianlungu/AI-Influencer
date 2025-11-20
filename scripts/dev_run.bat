@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set BACKEND_PORT=8000
-set FRONTEND_PORT=5000
+set BACKEND_PORT=3590
+set FRONTEND_PORT=3589
 
 echo.
 echo 🧹 Cleaning up ports...
